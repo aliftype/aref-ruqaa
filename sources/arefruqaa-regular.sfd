@@ -13856,10 +13856,10 @@ SplineSet
  558 434 558 434 538 502 c 0,23,24
  516 575 516 575 495 637 c 1,0,-1
 EndSplineSet
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=0 dy=0 dh=0 dv=0 dx=250 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=0 dy=0 dh=0 dv=0 dx=400 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=0 dy=0 dh=0 dv=0 dx=200 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=-300 dy=0 dh=-300 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=-250 dy=0 dh=-250 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=-400 dy=0 dh=-400 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=-200 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: _.notdef_13
@@ -13893,10 +13893,10 @@ SplineSet
  796 292 796 292 793 281 c 0,29,30
  786 257 786 257 767 249 c 1,0,1
 EndSplineSet
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=0 dy=0 dh=0 dv=0 dx=200 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=0 dy=0 dh=0 dv=0 dx=400 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=0 dy=0 dh=0 dv=0 dx=400 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=-200 dy=0 dh=-200 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=-400 dy=0 dh=-400 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=-400 dy=0 dh=-400 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=-300 dy=0 dh=-300 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: _.notdef_14
@@ -13927,11 +13927,11 @@ SplineSet
  906 569 l 1,25,26
  915 568 915 568 916 557 c 1,0,1
 EndSplineSet
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" __.notdef_46 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=0 dy=0 dh=0 dv=0 dx=400 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" __.notdef_46 dx=-300 dy=0 dh=-300 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=-400 dy=0 dh=-400 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=-300 dy=0 dh=-300 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: _.notdef_15
@@ -13962,10 +13962,10 @@ SplineSet
  789 364 789 364 780 319 c 0,22,23
  775 294 775 294 757 285 c 1,0,1
 EndSplineSet
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=-300 dy=0 dh=-300 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=-300 dy=0 dh=-300 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=-300 dy=0 dh=-300 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=-300 dy=0 dh=-300 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: _.notdef_16
@@ -16015,11 +16015,11 @@ SplineSet
  853 259 853 259 730.5 151.5 c 128,-1,46
  608 44 608 44 470 17 c 1,0,1
 EndSplineSet
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_2 dx=0 dy=0 dh=0 dv=0 dx=-200 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_2 dx=200 dy=0 dh=200 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: __.notdef_58
@@ -16062,11 +16062,11 @@ SplineSet
  853 259 853 259 730.5 151.5 c 128,-1,46
  608 44 608 44 470 17 c 1,0,1
 EndSplineSet
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_2 dx=0 dy=0 dh=0 dv=0 dx=-200 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_2 dx=200 dy=0 dh=200 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: __.notdef_59
@@ -16227,11 +16227,11 @@ Ligature2: "'calt' Contextual Alternates in Arabic lookup 4 subtable" __.notdef_
 Ligature2: "'calt' Contextual Alternates in Arabic lookup 4 subtable" __.notdef_44 _.notdef_3 uni0655
 Ligature2: "'calt' Contextual Alternates in Arabic lookup 4 subtable" __.notdef_44 _.notdef_3 uni0654
 Ligature2: "'calt' Contextual Alternates in Arabic lookup 4 subtable" __.notdef_44 _.notdef_3
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" __.notdef_46 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" __.notdef_46 dx=-300 dy=0 dh=-300 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: _.notdef_62
@@ -16288,11 +16288,11 @@ Ligature2: "'calt' Contextual Alternates in Arabic lookup 4 subtable" __.notdef_
 Ligature2: "'calt' Contextual Alternates in Arabic lookup 4 subtable" __.notdef_45 _.notdef_3 uni0655
 Ligature2: "'calt' Contextual Alternates in Arabic lookup 4 subtable" __.notdef_45 _.notdef_3 uni0654
 Ligature2: "'calt' Contextual Alternates in Arabic lookup 4 subtable" __.notdef_45 _.notdef_3
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" __.notdef_46 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" __.notdef_46 dx=-300 dy=0 dh=-300 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_28 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_20 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_16 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 12 subtable" _.notdef_8 dx=-500 dy=0 dh=-500 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: _.notdef_63
