@@ -21,7 +21,7 @@ ttf: $(TTF)
 doc: $(PDF)
 
 %.ttf: $(SRC)/%.sfd Makefile $(BUILD)
-	@echo "Building $@"
+	@echo "   FF	$@"
 	@$(PY) $(BUILD) $< $@ $(VERSION)
 
 $(DOC)/$(NAME)-table.pdf: $(NAME)-regular.ttf
