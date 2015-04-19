@@ -4,7 +4,12 @@ try:
 except ImportError:
     import fontforge
 
-font = fontforge.open(sys.argv[1])
+arabic = fontforge.open(sys.argv[1])
 
-font.version = sys.argv[3]
-font.generate(sys.argv[2], flags=("round", "opentype"))
+latin = fontforge.open(sys.argv[1].replace("arefruqaa", "eulertext"))
+latin.em = 2048
+
+arabic.mergeFonts(latin)
+
+arabic.version = sys.argv[3]
+arabic.generate(sys.argv[2], flags=("round", "opentype"))
