@@ -12,4 +12,5 @@ latin = fontforge.open(sys.argv[1].replace("arefruqaa", "eulertext"))
 arabic.mergeFonts(latin)
 
 arabic.version = sys.argv[3]
+arabic.copyright += " Portions " + latin.copyright[0].lower() + latin.copyright[1:]
 arabic.generate(sys.argv[2], flags=("round", "opentype"))
