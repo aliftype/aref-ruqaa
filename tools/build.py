@@ -5,9 +5,9 @@ except ImportError:
     import fontforge
 
 arabic = fontforge.open(sys.argv[1])
+arabic.em = 1000
 
 latin = fontforge.open(sys.argv[1].replace("arefruqaa", "eulertext"))
-latin.em = 2048
 
 arabic.mergeFonts(latin)
 
