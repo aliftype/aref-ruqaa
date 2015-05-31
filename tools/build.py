@@ -8,7 +8,6 @@ arabic = fontforge.open(sys.argv[1])
 arabic.em = 1000
 
 latin = fontforge.open(sys.argv[1].replace("arefruqaa", "eulertext"))
-
 arabic.mergeFonts(latin)
 
 arabic.version = sys.argv[3]

@@ -9,7 +9,7 @@ DIST=$(NAME)-$(VERSION)
 PY=python2.7
 BUILD=$(TOOLS)/build.py
 
-FONTS=regular # bold
+FONTS=regular bold
 
 SFD=$(FONTS:%=$(SRC)/$(NAME)-%.sfd)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
