@@ -3,7 +3,7 @@ Encoding: 65546 -1 236
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "Anchor-14" 0 0 mark 0
+AnchorPoint: "Anchor-17" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25,6 +25,6 @@ SplineSet
  26 201 26 201 34 194 c 2,22,-1
  171 65 l 2,0,1
 EndSplineSet
-PairPos2: "'mkmk' Mark to Mark in Arabic lookup 15 subtable" afii57456 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-300 dh=0 dv=0
-PairPos2: "'mkmk' Mark to Mark in Arabic lookup 15 subtable" afii57453 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-300 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 18 subtable" afii57456 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-300 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 18 subtable" afii57453 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-300 dh=0 dv=0
 EndChar

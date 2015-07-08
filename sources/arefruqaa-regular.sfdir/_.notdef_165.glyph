@@ -3,17 +3,18 @@ Encoding: 65738 -1 451
 Width: 1176
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-14" 0 0 basechar 0
-AnchorPoint: "Anchor-12" 0 0 basechar 0
-AnchorPoint: "Cursive-6" 50 180 exit 0
+AnchorPoint: "Anchor-17" 0 0 basechar 0
+AnchorPoint: "Anchor-15" 0 0 basechar 0
+AnchorPoint: "Cursive-1" 50 180 exit 0
+AnchorPoint: "Cursive-4" 1188 0 entry 0
 AnchorPoint: "Cursive-0" 1188 0 entry 0
-AnchorPoint: "Anchor-11" 1206 1674 basechar 0
-AnchorPoint: "Anchor-13" 1278 -279 basechar 0
+AnchorPoint: "Anchor-14" 1206 1674 basechar 0
+AnchorPoint: "Anchor-16" 1278 -279 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1084 1160 m 1,0,-1
- 1235 1410 l 1,1,-1
+1094 1065 m 1,0,-1
+ 1245 1315 l 1,1,-1
  1322 218 l 1,2,-1
  1176 0 l 1,3,-1
  1145 390 l 1,4,5
@@ -37,6 +38,6 @@ SplineSet
  470 355 l 1,36,37
  648 356 648 356 847 411 c 128,-1,38
  1046 466 1046 466 1136 509 c 1,39,-1
- 1084 1160 l 1,0,-1
+ 1094 1065 l 1,0,-1
 EndSplineSet
 EndChar

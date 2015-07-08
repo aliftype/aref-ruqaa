@@ -3,11 +3,12 @@ Encoding: 65579 -1 292
 Width: 604
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Cursive-5" 0 0 exit 0
 AnchorPoint: "Cursive-0" 0 0 exit 0
-AnchorPoint: "Anchor-13" 306 -351 basechar 0
-AnchorPoint: "Anchor-14" 387 -279 basechar 0
-AnchorPoint: "Anchor-11" 396 1080 basechar 0
-AnchorPoint: "Anchor-12" 446 1015 basechar 0
+AnchorPoint: "Anchor-16" 306 -351 basechar 0
+AnchorPoint: "Anchor-17" 387 -279 basechar 0
+AnchorPoint: "Anchor-14" 396 1080 basechar 0
+AnchorPoint: "Anchor-15" 446 1015 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -36,14 +37,14 @@ SplineSet
  477 238 477 238 443.5 196.5 c 128,-1,33
  410 155 410 155 372 123 c 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 39 subtable" _.notdef_295
-Substitution2: "Single Substitution lookup 33 subtable" _.notdef_265
-Substitution2: "Single Substitution lookup 32 subtable" _.notdef_241
-Substitution2: "Single Substitution lookup 31 subtable" _.notdef_217
-Substitution2: "Single Substitution lookup 30 subtable" _.notdef_193
-Substitution2: "Single Substitution lookup 29 subtable" _.notdef_169
-Substitution2: "Single Substitution lookup 28 subtable" _.notdef_145
-Substitution2: "Single Substitution lookup 27 subtable" _.notdef_121
-Substitution2: "Single Substitution lookup 26 subtable" _.notdef_97
-Substitution2: "Single Substitution lookup 25 subtable" _.notdef_73
+Substitution2: "Single Substitution lookup 44 subtable" _.notdef_295
+Substitution2: "Single Substitution lookup 36 subtable" _.notdef_265
+Substitution2: "Single Substitution lookup 35 subtable" _.notdef_241
+Substitution2: "Single Substitution lookup 34 subtable" _.notdef_217
+Substitution2: "Single Substitution lookup 33 subtable" _.notdef_193
+Substitution2: "Single Substitution lookup 32 subtable" _.notdef_169
+Substitution2: "Single Substitution lookup 31 subtable" _.notdef_145
+Substitution2: "Single Substitution lookup 30 subtable" _.notdef_121
+Substitution2: "Single Substitution lookup 29 subtable" _.notdef_97
+Substitution2: "Single Substitution lookup 28 subtable" _.notdef_73
 EndChar

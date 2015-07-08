@@ -32,7 +32,5 @@ SplineSet
  468 603 468 603 468 549 c 0,43,44
  468 455 468 455 444 345 c 0,22,23
 EndSplineSet
-MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" _.notdef_67
-MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" _.notdef_68
 MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" __.notdef_52
 EndChar

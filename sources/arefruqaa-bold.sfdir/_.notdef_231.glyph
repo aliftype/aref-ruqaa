@@ -3,12 +3,13 @@ Encoding: 65804 -1 517
 Width: 847
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-14" 0 0 basechar 0
-AnchorPoint: "Cursive-1" 0 0 exit 0
-AnchorPoint: "Anchor-11" 909 1116 basechar 0
-AnchorPoint: "Anchor-12" 909 1224 basechar 0
-AnchorPoint: "Anchor-13" 918 -45 basechar 0
-AnchorPoint: "Cursive-10" 990 342 entry 0
+AnchorPoint: "Anchor-17" 0 0 basechar 0
+AnchorPoint: "Cursive-6" 0 0 exit 0
+AnchorPoint: "Anchor-14" 909 1116 basechar 0
+AnchorPoint: "Anchor-15" 909 1224 basechar 0
+AnchorPoint: "Anchor-16" 918 -45 basechar 0
+AnchorPoint: "Cursive-13" 990 342 entry 0
+AnchorPoint: "Cursive-4" 990 342 entry 0
 AnchorPoint: "Cursive-0" 990 342 entry 0
 LayerCount: 2
 Fore

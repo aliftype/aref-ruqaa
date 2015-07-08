@@ -3,28 +3,29 @@ Encoding: 65862 -1 575
 Width: 1161
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-14" 0 0 basechar 0
+AnchorPoint: "Anchor-17" 0 0 basechar 0
 AnchorPoint: "Cursive-0" 0 0 exit 0
+AnchorPoint: "Cursive-4" 342 0 entry 0
 AnchorPoint: "Cursive-0" 342 0 entry 0
-AnchorPoint: "Anchor-13" 549 -261 basechar 0
-AnchorPoint: "Anchor-11" 747 1656 basechar 0
-AnchorPoint: "Anchor-12" 810 1512 basechar 0
+AnchorPoint: "Anchor-16" 549 -261 basechar 0
+AnchorPoint: "Anchor-14" 747 1656 basechar 0
+AnchorPoint: "Anchor-15" 810 1512 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-469 923 m 1,0,1
- 400 884 400 884 412 961 c 1,2,-1
- 479 1205 l 1,3,4
- 560 1252 560 1252 639.5 1297.5 c 128,-1,5
- 719 1343 719 1343 791 1383 c 0,6,7
- 933 1462 933 1462 1094 1557 c 1,8,9
- 1164 1594 1164 1594 1152 1519 c 1,10,-1
- 1083 1275 l 1,11,12
- 1003 1227 1003 1227 923 1181.5 c 128,-1,13
- 843 1136 843 1136 771 1096 c 256,14,15
- 699 1056 699 1056 624.5 1013 c 128,-1,16
- 550 970 550 970 470 923 c 1,17,-1
- 469 923 l 1,0,1
+469 893 m 1,0,1
+ 400 854 400 854 412 931 c 1,2,-1
+ 479 1175 l 1,3,4
+ 560 1222 560 1222 639.5 1267.5 c 128,-1,5
+ 719 1313 719 1313 791 1353 c 0,6,7
+ 933 1432 933 1432 1094 1527 c 1,8,9
+ 1164 1564 1164 1564 1152 1489 c 1,10,-1
+ 1083 1245 l 1,11,12
+ 1003 1197 1003 1197 923 1151.5 c 128,-1,13
+ 843 1106 843 1106 771 1066 c 256,14,15
+ 699 1026 699 1026 624.5 983 c 128,-1,16
+ 550 940 550 940 470 893 c 1,17,-1
+ 469 893 l 1,0,1
 401 129 m 1,18,19
  336 83 336 83 253 52.5 c 128,-1,20
  170 22 170 22 64 6 c 0,21,22
@@ -57,5 +58,6 @@ SplineSet
  576 321 576 321 520.5 247 c 128,-1,63
  465 173 465 173 401 129 c 1,18,19
 EndSplineSet
-Substitution2: "Single Substitution lookup 36 subtable" __.notdef_41
+Substitution2: "Single Substitution lookup 39 subtable" __.notdef_41
+AlternateSubs2: "'cswh' Contextual Swash in Arabic lookup 26 subtable" _.notdef_290
 EndChar

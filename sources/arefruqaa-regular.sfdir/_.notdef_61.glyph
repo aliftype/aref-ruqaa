@@ -1,54 +1,42 @@
 StartChar: _.notdef_61
 Encoding: 65634 -1 347
-Width: 1412
-GlyphClass: 3
+Width: 1747
+GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-18" 630 -225 baselig 1
-AnchorPoint: "Anchor-16" 630 -225 baselig 1
-AnchorPoint: "Anchor-17" 711 1494 baselig 1
-AnchorPoint: "Anchor-15" 711 1494 baselig 1
-AnchorPoint: "Anchor-18" 1206 -225 baselig 0
-AnchorPoint: "Anchor-16" 1206 -225 baselig 0
-AnchorPoint: "Anchor-17" 1260 1503 baselig 0
-AnchorPoint: "Anchor-15" 1260 1503 baselig 0
+AnchorPoint: "Cursive-2" 0 0 exit 0
+AnchorPoint: "Anchor-16" 1133 -231 basechar 0
+AnchorPoint: "Anchor-17" 1206 -225 basechar 0
+AnchorPoint: "Anchor-15" 1260 1503 basechar 0
+AnchorPoint: "Anchor-14" 1276 1386 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1345 911 m 1,0,1
- 1337 623 1337 623 1174.5 405 c 128,-1,2
- 1012 187 1012 187 748 87 c 0,3,4
- 612 35 612 35 439.5 21 c 128,-1,5
- 267 7 267 7 89 4 c 0,6,7
- 70 3 70 3 26 1 c 0,8,9
- 22 0 22 0 18 0 c 0,10,11
- -2 0 -2 0 -2 7 c 0,12,13
- -2 12 -2 12 8 20 c 1,14,15
- 71 50 71 50 143.5 76 c 128,-1,16
- 216 102 216 102 283 129 c 1,17,-1
- 724 321 l 1,18,-1
- 653 934 l 1,19,-1
- 786 1180 l 1,20,21
- 804 1021 804 1021 826 867.5 c 128,-1,22
- 848 714 848 714 860 550 c 1,23,-1
- 768 343 l 1,24,25
- 883 393 883 393 992 450 c 128,-1,26
- 1101 507 1101 507 1189 585 c 0,27,28
- 1218 611 1218 611 1218 622 c 2,29,-1
- 1218 623 l 1,30,31
- 1206 712 1206 712 1193 802.5 c 128,-1,32
- 1180 893 1180 893 1164 981 c 1,33,34
- 1193 1044 1193 1044 1224 1104 c 128,-1,35
- 1255 1164 1255 1164 1282 1228 c 1,36,37
- 1301 1152 1301 1152 1317.5 1073.5 c 128,-1,38
- 1334 995 1334 995 1345 911 c 1,0,1
+1747 911 m 1,0,1
+ 1739 623 1739 623 1576.5 405 c 128,-1,2
+ 1414 187 1414 187 1150 87 c 0,3,4
+ 1014 35 1014 35 841.5 21 c 128,-1,5
+ 669 7 669 7 491 4 c 0,6,7
+ 472 3 472 3 428 1 c 0,8,9
+ 424 0 424 0 420 0 c 0,10,11
+ 400 0 400 0 400 7 c 0,12,13
+ 400 12 400 12 410 20 c 1,14,15
+ 473 50 473 50 545.5 76 c 128,-1,16
+ 618 102 618 102 685 129 c 1,17,-1
+ 1126 321 l 1,18,19
+ 1161 338 1161 338 1170 343 c 0,20,21
+ 1285 393 1285 393 1394 450 c 128,-1,22
+ 1503 507 1503 507 1591 585 c 0,23,24
+ 1620 611 1620 611 1620 622 c 2,25,-1
+ 1620 623 l 1,26,27
+ 1608 712 1608 712 1595 802.5 c 128,-1,28
+ 1582 893 1582 893 1566 981 c 1,29,30
+ 1595 1044 1595 1044 1626 1104 c 128,-1,31
+ 1657 1164 1657 1164 1684 1228 c 1,32,33
+ 1703 1152 1703 1152 1719.5 1073.5 c 128,-1,34
+ 1736 995 1736 995 1747 911 c 1,0,1
 EndSplineSet
-Ligature2: "'calt' Contextual Alternates in Arabic lookup 18 subtable" __.notdef_44 _.notdef_3 uni0653
-Ligature2: "'calt' Contextual Alternates in Arabic lookup 18 subtable" __.notdef_44 _.notdef_3 uni0655
-Ligature2: "'calt' Contextual Alternates in Arabic lookup 18 subtable" __.notdef_44 _.notdef_3 uni0654
-Ligature2: "'calt' Contextual Alternates in Arabic lookup 18 subtable" __.notdef_44 _.notdef_3
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" __.notdef_46 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" _.notdef_28 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" _.notdef_20 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" _.notdef_16 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" _.notdef_8 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" __.notdef_46 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" _.notdef_28 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" _.notdef_20 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" _.notdef_16 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
 EndChar

@@ -3,12 +3,12 @@ Encoding: 65664 -1 377
 Width: 654
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-14" 0 0 basechar 0
-AnchorPoint: "Cursive-3" 0 0 exit 0
-AnchorPoint: "Cursive-7" 459 243 entry 0
-AnchorPoint: "Anchor-13" 711 0 basechar 0
-AnchorPoint: "Anchor-11" 864 1413 basechar 0
-AnchorPoint: "Anchor-12" 882 1503 basechar 0
+AnchorPoint: "Anchor-17" 0 0 basechar 0
+AnchorPoint: "Cursive-8" 0 0 exit 0
+AnchorPoint: "Cursive-3" 459 243 entry 0
+AnchorPoint: "Anchor-16" 711 0 basechar 0
+AnchorPoint: "Anchor-14" 864 1413 basechar 0
+AnchorPoint: "Anchor-15" 882 1503 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -38,15 +38,19 @@ SplineSet
  944 637 944 637 836 502 c 1,36,37
  726 367 726 367 551 316 c 1,38,-1
  550 316 l 1,0,1
-781 715 m 0,39,40
- 760 767 760 767 737 783 c 1,41,42
- 706 770 706 770 684 742 c 2,43,-1
- 631 672 l 1,44,45
- 620 655 620 655 627 642 c 0,46,47
- 638 621 638 621 648 615 c 1,48,49
- 677 617 677 617 707.5 626.5 c 128,-1,50
- 738 636 738 636 773 653 c 0,51,52
- 788 660 788 660 788 678 c 0,53,54
- 788 695 788 695 781 715 c 0,39,40
+747 787 m 1,39,40
+ 741 785 741 785 737 783 c 1,41,-1
+ 729 788 l 1,42,-1
+ 747 787 l 1,39,40
+781 715 m 0,43,44
+ 760 767 760 767 737 783 c 1,45,46
+ 706 770 706 770 684 742 c 2,47,-1
+ 631 672 l 1,48,49
+ 620 655 620 655 627 642 c 0,50,51
+ 638 621 638 621 648 615 c 1,52,53
+ 677 617 677 617 707.5 626.5 c 128,-1,54
+ 738 636 738 636 773 653 c 0,55,56
+ 788 660 788 660 788 678 c 0,57,58
+ 788 695 788 695 781 715 c 0,43,44
 EndSplineSet
 EndChar

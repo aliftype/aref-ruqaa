@@ -3,12 +3,13 @@ Encoding: 65629 -1 342
 Width: 435
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Cursive-5" 0 0 exit 0
 AnchorPoint: "Cursive-0" 0 0 exit 0
-AnchorPoint: "Cursive-8" 414 0 entry 0
-AnchorPoint: "Anchor-14" 441 -846 basechar 0
-AnchorPoint: "Anchor-13" 486 -891 basechar 0
-AnchorPoint: "Anchor-12" 495 900 basechar 0
-AnchorPoint: "Anchor-11" 585 882 basechar 0
+AnchorPoint: "Cursive-11" 414 0 entry 0
+AnchorPoint: "Anchor-17" 441 -846 basechar 0
+AnchorPoint: "Anchor-16" 486 -891 basechar 0
+AnchorPoint: "Anchor-15" 495 900 basechar 0
+AnchorPoint: "Anchor-14" 585 882 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -31,13 +32,14 @@ SplineSet
  544 -181 l 1,25,-1
  513 -460 l 2,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 33 subtable" _.notdef_288
-Substitution2: "Single Substitution lookup 32 subtable" _.notdef_264
-Substitution2: "Single Substitution lookup 31 subtable" _.notdef_240
-Substitution2: "Single Substitution lookup 30 subtable" _.notdef_216
-Substitution2: "Single Substitution lookup 29 subtable" _.notdef_192
-Substitution2: "Single Substitution lookup 28 subtable" _.notdef_168
-Substitution2: "Single Substitution lookup 27 subtable" _.notdef_144
-Substitution2: "Single Substitution lookup 26 subtable" _.notdef_120
-Substitution2: "Single Substitution lookup 25 subtable" _.notdef_96
+Substitution2: "Single Substitution lookup 36 subtable" _.notdef_288
+Substitution2: "Single Substitution lookup 35 subtable" _.notdef_264
+Substitution2: "Single Substitution lookup 34 subtable" _.notdef_240
+Substitution2: "Single Substitution lookup 33 subtable" _.notdef_216
+Substitution2: "Single Substitution lookup 32 subtable" _.notdef_192
+Substitution2: "Single Substitution lookup 31 subtable" _.notdef_168
+Substitution2: "Single Substitution lookup 30 subtable" _.notdef_144
+Substitution2: "Single Substitution lookup 29 subtable" _.notdef_120
+Substitution2: "Single Substitution lookup 28 subtable" _.notdef_96
+AlternateSubs2: "'cswh' Contextual Swash in Arabic lookup 26 subtable" __.notdef_55
 EndChar

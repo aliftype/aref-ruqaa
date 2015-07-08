@@ -3,12 +3,13 @@ Encoding: 65608 -1 321
 Width: 580
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Cursive-5" 0 0 exit 0
 AnchorPoint: "Cursive-0" 0 0 exit 0
-AnchorPoint: "Anchor-14" 405 -261 basechar 0
-AnchorPoint: "Cursive-7" 450 45 entry 0
-AnchorPoint: "Anchor-13" 459 -288 basechar 0
-AnchorPoint: "Anchor-12" 738 1206 basechar 0
-AnchorPoint: "Anchor-11" 747 1152 basechar 0
+AnchorPoint: "Anchor-17" 405 -261 basechar 0
+AnchorPoint: "Cursive-3" 450 45 entry 0
+AnchorPoint: "Anchor-16" 459 -288 basechar 0
+AnchorPoint: "Anchor-15" 738 1206 basechar 0
+AnchorPoint: "Anchor-14" 747 1152 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -36,13 +37,13 @@ SplineSet
  872 434 872 434 763 298 c 128,-1,34
  654 162 654 162 480 113 c 1,17,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 33 subtable" _.notdef_283
-Substitution2: "Single Substitution lookup 32 subtable" _.notdef_259
-Substitution2: "Single Substitution lookup 31 subtable" _.notdef_235
-Substitution2: "Single Substitution lookup 30 subtable" _.notdef_211
-Substitution2: "Single Substitution lookup 29 subtable" _.notdef_187
-Substitution2: "Single Substitution lookup 28 subtable" _.notdef_163
-Substitution2: "Single Substitution lookup 27 subtable" _.notdef_139
-Substitution2: "Single Substitution lookup 26 subtable" _.notdef_115
-Substitution2: "Single Substitution lookup 25 subtable" _.notdef_91
+Substitution2: "Single Substitution lookup 36 subtable" _.notdef_283
+Substitution2: "Single Substitution lookup 35 subtable" _.notdef_259
+Substitution2: "Single Substitution lookup 34 subtable" _.notdef_235
+Substitution2: "Single Substitution lookup 33 subtable" _.notdef_211
+Substitution2: "Single Substitution lookup 32 subtable" _.notdef_187
+Substitution2: "Single Substitution lookup 31 subtable" _.notdef_163
+Substitution2: "Single Substitution lookup 30 subtable" _.notdef_139
+Substitution2: "Single Substitution lookup 29 subtable" _.notdef_115
+Substitution2: "Single Substitution lookup 28 subtable" _.notdef_91
 EndChar

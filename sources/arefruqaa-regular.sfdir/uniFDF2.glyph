@@ -3,14 +3,14 @@ Encoding: 65010 65010 159
 Width: 2008
 GlyphClass: 3
 Flags: W
-AnchorPoint: "Anchor-20" 117 -72 baselig 3
-AnchorPoint: "Anchor-19" 297 963 baselig 3
-AnchorPoint: "Anchor-20" 711 -135 baselig 2
-AnchorPoint: "Anchor-19" 819 1152 baselig 2
-AnchorPoint: "Anchor-20" 1314 -198 baselig 1
-AnchorPoint: "Anchor-19" 1359 1368 baselig 1
-AnchorPoint: "Anchor-20" 1854 54 baselig 0
-AnchorPoint: "Anchor-19" 1890 1575 baselig 0
+AnchorPoint: "Anchor-19" 117 -72 baselig 3
+AnchorPoint: "Anchor-18" 297 963 baselig 3
+AnchorPoint: "Anchor-19" 711 -135 baselig 2
+AnchorPoint: "Anchor-18" 819 1152 baselig 2
+AnchorPoint: "Anchor-19" 1314 -198 baselig 1
+AnchorPoint: "Anchor-18" 1359 1368 baselig 1
+AnchorPoint: "Anchor-19" 1854 54 baselig 0
+AnchorPoint: "Anchor-18" 1890 1575 baselig 0
 LayerCount: 2
 Fore
 SplineSet
@@ -67,5 +67,5 @@ SplineSet
  1797 322 l 1,79,-1
  1739 1192 l 1,76,-1
 EndSplineSet
-Ligature2: "'calt' Contextual Alternates in Arabic lookup 24 subtable" _.notdef_2 __.notdef_44 __.notdef_45 __.notdef_53
+Ligature2: "'calt' Contextual Alternates in Arabic lookup 25 subtable" _.notdef_2 __.notdef_44 __.notdef_45 __.notdef_53
 EndChar

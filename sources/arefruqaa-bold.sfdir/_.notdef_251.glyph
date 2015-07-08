@@ -3,11 +3,11 @@ Encoding: 65824 -1 537
 Width: 1599
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-14" 0 0 basechar 0
-AnchorPoint: "Anchor-12" 0 0 basechar 0
-AnchorPoint: "Cursive-8" 0 0 exit 0
-AnchorPoint: "Anchor-13" 1116 -36 basechar 0
-AnchorPoint: "Anchor-11" 1179 1782 basechar 0
+AnchorPoint: "Anchor-17" 0 0 basechar 0
+AnchorPoint: "Anchor-15" 0 0 basechar 0
+AnchorPoint: "Cursive-11" 0 0 exit 0
+AnchorPoint: "Anchor-16" 1116 -36 basechar 0
+AnchorPoint: "Anchor-14" 1179 1782 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -88,12 +88,20 @@ SplineSet
  1486 778 1486 778 1396 636 c 1,113,114
  1351 567 1351 567 1306 514 c 128,-1,115
  1261 461 1261 461 1214 426 c 1,0,1
-918 630.5 m 128,-1,117
- 953 648 953 648 975 663 c 1,118,119
- 959 703 959 703 948 711.5 c 128,-1,120
- 937 720 937 720 930 717 c 0,121,122
- 890 703 890 703 862 642 c 0,123,124
- 858 633 858 633 870.5 623 c 128,-1,116
- 883 613 883 613 918 630.5 c 128,-1,117
+988 645 m 1,116,-1
+ 975 663 l 1,117,-1
+ 993 676 l 1,118,-1
+ 988 645 l 1,116,-1
+867 614 m 1,119,120
+ 899 623 899 623 926 635.5 c 128,-1,121
+ 953 648 953 648 975 663 c 1,122,123
+ 963 681 963 681 955.5 693.5 c 128,-1,124
+ 948 706 948 706 943 717 c 1,125,126
+ 937 720 937 720 930 717 c 0,127,128
+ 890 703 890 703 862 642 c 0,129,130
+ 858 633 858 633 866 622 c 1,131,-1
+ 864 623 l 1,132,133
+ 871 615 871 615 867 614 c 1,119,120
 EndSplineSet
+AlternateSubs2: "'cswh' Contextual Swash in Arabic lookup 26 subtable" _.notdef_227
 EndChar

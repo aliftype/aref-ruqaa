@@ -3,10 +3,10 @@ Encoding: 65585 -1 298
 Width: 752
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-13" 369 -342 basechar 0
-AnchorPoint: "Anchor-14" 405 -342 basechar 0
-AnchorPoint: "Anchor-12" 477 1152 basechar 0
-AnchorPoint: "Anchor-11" 477 1170 basechar 0
+AnchorPoint: "Anchor-16" 369 -342 basechar 0
+AnchorPoint: "Anchor-17" 405 -342 basechar 0
+AnchorPoint: "Anchor-15" 477 1152 basechar 0
+AnchorPoint: "Anchor-14" 477 1170 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -28,9 +28,10 @@ SplineSet
  558 434 558 434 538 502 c 0,23,24
  516 575 516 575 495 637 c 1,0,-1
 EndSplineSet
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" _.notdef_28 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" _.notdef_20 dx=0 dy=0 dh=0 dv=0 dx=250 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" _.notdef_16 dx=0 dy=0 dh=0 dv=0 dx=400 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" _.notdef_8 dx=0 dy=0 dh=0 dv=0 dx=200 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" _.notdef_2 dx=0 dy=0 dh=0 dv=0 dx=-300 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" __.notdef_52 dx=0 dy=0 dh=0 dv=0 dx=0 dy=300 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" _.notdef_28 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" _.notdef_20 dx=0 dy=0 dh=0 dv=0 dx=250 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" _.notdef_16 dx=0 dy=0 dh=0 dv=0 dx=400 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" _.notdef_8 dx=0 dy=0 dh=0 dv=0 dx=200 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" _.notdef_2 dx=0 dy=0 dh=0 dv=0 dx=-300 dy=0 dh=0 dv=0
 EndChar

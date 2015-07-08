@@ -4,11 +4,11 @@ Width: 799
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Cursive-0" 0 0 exit 0
-AnchorPoint: "Anchor-13" 423 -360 basechar 0
-AnchorPoint: "Anchor-14" 432 -423 basechar 0
-AnchorPoint: "Anchor-11" 630 936 basechar 0
-AnchorPoint: "Cursive-2" 693 99 entry 0
-AnchorPoint: "Anchor-12" 711 855 basechar 0
+AnchorPoint: "Anchor-16" 423 -360 basechar 0
+AnchorPoint: "Anchor-17" 432 -423 basechar 0
+AnchorPoint: "Anchor-14" 630 936 basechar 0
+AnchorPoint: "Cursive-7" 693 99 entry 0
+AnchorPoint: "Anchor-15" 711 855 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -31,4 +31,5 @@ SplineSet
  799 292 799 292 796 281 c 0,29,30
  789 257 789 257 770 249 c 1,0,1
 EndSplineSet
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" __.notdef_52 dx=0 dy=0 dh=0 dv=0 dx=100 dy=300 dh=0 dv=0
 EndChar

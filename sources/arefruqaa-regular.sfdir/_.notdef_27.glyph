@@ -3,12 +3,13 @@ Encoding: 65600 -1 313
 Width: 423
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Cursive-5" 0 0 exit 0
 AnchorPoint: "Cursive-0" 0 0 exit 0
-AnchorPoint: "Cursive-6" 315 -234 entry 0
-AnchorPoint: "Anchor-13" 405 -342 basechar 0
-AnchorPoint: "Anchor-11" 531 1476 basechar 0
-AnchorPoint: "Anchor-14" 576 -207 basechar 0
-AnchorPoint: "Anchor-12" 828 1008 basechar 0
+AnchorPoint: "Cursive-1" 216 -399 entry 0
+AnchorPoint: "Anchor-16" 405 -342 basechar 0
+AnchorPoint: "Anchor-14" 531 1476 basechar 0
+AnchorPoint: "Anchor-17" 576 -207 basechar 0
+AnchorPoint: "Anchor-15" 828 1008 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -46,14 +47,14 @@ SplineSet
  897 437 897 437 897 452 c 0,45,46
  897 465 897 465 887 485 c 0,31,32
 EndSplineSet
-Substitution2: "Single Substitution lookup 42 subtable" _.notdef_319
-Substitution2: "Single Substitution lookup 33 subtable" _.notdef_281
-Substitution2: "Single Substitution lookup 32 subtable" _.notdef_257
-Substitution2: "Single Substitution lookup 31 subtable" _.notdef_233
-Substitution2: "Single Substitution lookup 30 subtable" _.notdef_209
-Substitution2: "Single Substitution lookup 29 subtable" _.notdef_185
-Substitution2: "Single Substitution lookup 28 subtable" _.notdef_161
-Substitution2: "Single Substitution lookup 27 subtable" _.notdef_137
-Substitution2: "Single Substitution lookup 26 subtable" _.notdef_113
-Substitution2: "Single Substitution lookup 25 subtable" _.notdef_89
+Substitution2: "Single Substitution lookup 47 subtable" _.notdef_319
+Substitution2: "Single Substitution lookup 36 subtable" _.notdef_281
+Substitution2: "Single Substitution lookup 35 subtable" _.notdef_257
+Substitution2: "Single Substitution lookup 34 subtable" _.notdef_233
+Substitution2: "Single Substitution lookup 33 subtable" _.notdef_209
+Substitution2: "Single Substitution lookup 32 subtable" _.notdef_185
+Substitution2: "Single Substitution lookup 31 subtable" _.notdef_161
+Substitution2: "Single Substitution lookup 30 subtable" _.notdef_137
+Substitution2: "Single Substitution lookup 29 subtable" _.notdef_113
+Substitution2: "Single Substitution lookup 28 subtable" _.notdef_89
 EndChar

@@ -3,10 +3,10 @@ Encoding: 65589 -1 302
 Width: 1912
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-14" 1107 -9 basechar 0
-AnchorPoint: "Anchor-13" 1233 54 basechar 0
-AnchorPoint: "Anchor-12" 1296 1440 basechar 0
-AnchorPoint: "Anchor-11" 1341 1485 basechar 0
+AnchorPoint: "Anchor-17" 1107 -9 basechar 0
+AnchorPoint: "Anchor-16" 1233 54 basechar 0
+AnchorPoint: "Anchor-15" 1296 1440 basechar 0
+AnchorPoint: "Anchor-14" 1341 1485 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -55,4 +55,5 @@ SplineSet
  1466 744 1466 744 1260 696.5 c 128,-1,77
  1054 649 1054 649 873 593 c 1,0,1
 EndSplineSet
+MultipleSubs2: "'jalt' Justification Alternatives in Arabic lookup 27 subtable" _.notdef_298
 EndChar
