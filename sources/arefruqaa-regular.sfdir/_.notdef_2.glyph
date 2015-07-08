@@ -1,0 +1,19 @@
+StartChar: _.notdef_2
+Encoding: 65575 -1 288
+Width: 409
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-12" 441 1620 basechar 0
+AnchorPoint: "Anchor-11" 459 1710 basechar 0
+AnchorPoint: "Anchor-13" 468 -63 basechar 0
+AnchorPoint: "Anchor-14" 468 -45 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+342 1165 m 1,0,-1
+ 493 1405 l 1,1,-1
+ 551 535 l 1,2,-1
+ 400 295 l 1,3,-1
+ 342 1165 l 1,0,-1
+EndSplineSet
+EndChar

@@ -11,7 +11,7 @@ BUILD=$(TOOLS)/build.py
 
 FONTS=regular bold
 
-SFD=$(FONTS:%=$(SRC)/$(NAME)-%.sfd)
+SFD=$(FONTS:%=$(SRC)/$(NAME)-%.sfdir)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
 PDF=$(DOC)/$(NAME)-table.pdf
 
@@ -20,7 +20,7 @@ all: ttf doc
 ttf: $(TTF)
 doc: $(PDF)
 
-%.ttf: $(SRC)/%.sfd Makefile $(BUILD)
+%.ttf: $(SRC)/%.sfdir Makefile $(BUILD)
 	@echo "   FF	$@"
 	@$(PY) $(BUILD) $< $@ $(VERSION)
 

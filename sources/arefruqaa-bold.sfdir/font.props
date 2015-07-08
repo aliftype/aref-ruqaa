@@ -1,0 +1,349 @@
+SplineFontDB: 3.0
+FontName: ArefRuqaa-Bold
+FullName: Aref Ruqaa Bold
+FamilyName: Aref Ruqaa
+Weight: Bold
+Copyright: Copyright (c) 2015, Khaled Hosny <khaledhosny@eglug.org>
+Version: 000.001
+ItalicAngle: 0
+UnderlinePosition: -142
+UnderlineWidth: 150
+Ascent: 1638
+Descent: 410
+sfntRevision: 0x00010000
+LayerCount: 2
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
+FSType: 8
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 0
+CreationTime: 1425763181
+PfmFamily: 17
+TTFWeight: 700
+TTFWidth: 5
+LineGap: 222
+VLineGap: 0
+Panose: 2 0 5 0 0 0 0 0 0 0
+OS2TypoAscent: 1434
+OS2TypoAOffset: 0
+OS2TypoDescent: -410
+OS2TypoDOffset: 0
+OS2TypoLinegap: 205
+OS2WinAscent: 4500
+OS2WinAOffset: 0
+OS2WinDescent: 2000
+OS2WinDOffset: 0
+HheadAscent: 1716
+HheadAOffset: 0
+HheadDescent: -418
+HheadDOffset: 0
+OS2SubXSize: 1434
+OS2SubYSize: 1331
+OS2SubXOff: 0
+OS2SubYOff: 283
+OS2SupXSize: 1434
+OS2SupYSize: 1331
+OS2SupXOff: 0
+OS2SupYOff: 977
+OS2StrikeYSize: 102
+OS2StrikeYPos: 530
+OS2Vendor: 'BLQ '
+Lookup: 2 9 0 "'isol' Isolated Forms in Arabic lookup 0"  {"'isol' Isolated Forms in Arabic lookup 0 subtable"  } ['isol' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 2 9 0 "'init' Initial Forms in Arabic lookup 1"  {"'init' Initial Forms in Arabic lookup 1 subtable"  } ['init' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 2 9 0 "'fina' Terminal Forms in Arabic lookup 2"  {"'fina' Terminal Forms in Arabic lookup 2 subtable"  } ['fina' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 2 0 0 "'medi' Medial Forms in Arabic lookup 3"  {"'medi' Medial Forms in Arabic lookup 3 subtable"  } ['medi' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 4 1 0 "'ccmp' Glyph Composition/Decomposition in Arabic lookup 4"  {"'ccmp' Glyph Composition/Decomposition in Arabic lookup 4 subtable"  } ['ccmp' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 5"  {"'calt' Contextual Alternates in Arabic lookup 5 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 6"  {"'calt' Contextual Alternates in Arabic lookup 6 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 7"  {"'calt' Contextual Alternates in Arabic lookup 7 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 8"  {"'calt' Contextual Alternates in Arabic lookup 8 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 9"  {"'calt' Contextual Alternates in Arabic lookup 9 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 10"  {"'calt' Contextual Alternates in Arabic lookup 10 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 11"  {"'calt' Contextual Alternates in Arabic lookup 11 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 12"  {"'calt' Contextual Alternates in Arabic lookup 12 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 13"  {"'calt' Contextual Alternates in Arabic lookup 13 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 14"  {"'calt' Contextual Alternates in Arabic lookup 14 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 15"  {"'calt' Contextual Alternates in Arabic lookup 15 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 16"  {"'calt' Contextual Alternates in Arabic lookup 16 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 17"  {"'calt' Contextual Alternates in Arabic lookup 17 contextual 0"  "'calt' Contextual Alternates in Arabic lookup 17 contextual 1"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 4 1 0 "'calt' Contextual Alternates in Arabic lookup 18"  {"'calt' Contextual Alternates in Arabic lookup 18 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 19"  {"'calt' Contextual Alternates in Arabic lookup 19 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 20"  {"'calt' Contextual Alternates in Arabic lookup 20 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 21"  {"'calt' Contextual Alternates in Arabic lookup 21 contextual 0"  "'calt' Contextual Alternates in Arabic lookup 21 contextual 1"  "'calt' Contextual Alternates in Arabic lookup 21 contextual 2"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 22"  {"'calt' Contextual Alternates in Arabic lookup 22 contextual 0"  "'calt' Contextual Alternates in Arabic lookup 22 contextual 1"  "'calt' Contextual Alternates in Arabic lookup 22 contextual 2"  "'calt' Contextual Alternates in Arabic lookup 22 contextual 3"  "'calt' Contextual Alternates in Arabic lookup 22 contextual 4"  "'calt' Contextual Alternates in Arabic lookup 22 contextual 5"  "'calt' Contextual Alternates in Arabic lookup 22 contextual 6"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 23"  {"'calt' Contextual Alternates in Arabic lookup 23 contextual 0"  "'calt' Contextual Alternates in Arabic lookup 23 contextual 1"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 4 9 0 "'calt' Contextual Alternates in Arabic lookup 24"  {"'calt' Contextual Alternates in Arabic lookup 24 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 1 9 0 "Single Substitution lookup 25"  {"Single Substitution lookup 25 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 26"  {"Single Substitution lookup 26 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 27"  {"Single Substitution lookup 27 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 28"  {"Single Substitution lookup 28 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 29"  {"Single Substitution lookup 29 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 30"  {"Single Substitution lookup 30 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 31"  {"Single Substitution lookup 31 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 32"  {"Single Substitution lookup 32 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 33"  {"Single Substitution lookup 33 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 34"  {"Single Substitution lookup 34 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 35"  {"Single Substitution lookup 35 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 36"  {"Single Substitution lookup 36 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 37"  {"Single Substitution lookup 37 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 38"  {"Single Substitution lookup 38 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 39"  {"Single Substitution lookup 39 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 40"  {"Single Substitution lookup 40 subtable"  } []
+Lookup: 1 8 0 "Single Substitution lookup 41"  {"Single Substitution lookup 41 subtable"  } []
+Lookup: 1 9 0 "Single Substitution lookup 42"  {"Single Substitution lookup 42 subtable"  } []
+Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 0"  {"'curs' Cursive Attachment in Arabic lookup 0 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 1"  {"'curs' Cursive Attachment in Arabic lookup 1 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 2"  {"'curs' Cursive Attachment in Arabic lookup 2 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 3"  {"'curs' Cursive Attachment in Arabic lookup 3 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 4"  {"'curs' Cursive Attachment in Arabic lookup 4 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 5"  {"'curs' Cursive Attachment in Arabic lookup 5 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 6"  {"'curs' Cursive Attachment in Arabic lookup 6 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 7"  {"'curs' Cursive Attachment in Arabic lookup 7 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 8"  {"'curs' Cursive Attachment in Arabic lookup 8 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 9"  {"'curs' Cursive Attachment in Arabic lookup 9 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 10"  {"'curs' Cursive Attachment in Arabic lookup 10 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 258 9 0 "'kern' Horizontal Kerning in Arabic lookup 11"  {"'kern' Horizontal Kerning in Arabic lookup 11 subtable"  } ['kern' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 12"  {"'mark' Mark Positioning in Arabic lookup 12 subtable"  } ['mark' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 13"  {"'mark' Mark Positioning in Arabic lookup 13 subtable"  } ['mark' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 258 1 0 "'mkmk' Mark to Mark in Arabic lookup 14"  {"'mkmk' Mark to Mark in Arabic lookup 14 subtable"  } ['mkmk' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 258 1 0 "'mkmk' Mark to Mark in Arabic lookup 15"  {"'mkmk' Mark to Mark in Arabic lookup 15 subtable"  } ['mkmk' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 16"  {"'mark' Mark Positioning in Arabic lookup 16 subtable"  } ['mark' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 17"  {"'mark' Mark Positioning in Arabic lookup 17 subtable"  } ['mark' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 18"  {"'mark' Mark Positioning in Arabic lookup 18 subtable"  } ['mark' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+DEI: 91125
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 23 contextual 1"  0 0 0 1
+ 1 1 1
+  Coverage: 62 _.notdef_26 _.notdef_27 __.notdef_41 __.notdef_44 __.notdef_45
+  BCoverage: 12 _.notdef_289
+  FCoverage: 12 _.notdef_289
+ 1
+  SeqLookup: 0 "Single Substitution lookup 42" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 23 contextual 0"  0 0 0 1
+ 1 0 1
+  Coverage: 62 _.notdef_26 _.notdef_27 __.notdef_41 __.notdef_44 __.notdef_45
+  FCoverage: 12 _.notdef_289
+ 1
+  SeqLookup: 0 "Single Substitution lookup 42" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 22 contextual 6"  0 0 0 1
+ 1 1 1
+  Coverage: 10 _.notdef_7
+  BCoverage: 11 _.notdef_19
+  FCoverage: 10 _.notdef_5
+ 1
+  SeqLookup: 0 "Single Substitution lookup 41" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 22 contextual 5"  0 0 0 1
+ 1 1 1
+  Coverage: 10 _.notdef_7
+  BCoverage: 10 _.notdef_7
+  FCoverage: 102 _.notdef_85 _.notdef_133 _.notdef_157 _.notdef_181 _.notdef_205 _.notdef_229 _.notdef_253 _.notdef_277
+ 1
+  SeqLookup: 0 "Single Substitution lookup 41" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 22 contextual 4"  0 0 0 1
+ 1 1 1
+  Coverage: 10 _.notdef_7
+  BCoverage: 12 _.notdef_295
+  FCoverage: 102 _.notdef_85 _.notdef_133 _.notdef_157 _.notdef_181 _.notdef_205 _.notdef_229 _.notdef_253 _.notdef_277
+ 1
+  SeqLookup: 0 "Single Substitution lookup 41" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 22 contextual 3"  0 0 0 1
+ 1 0 1
+  Coverage: 10 _.notdef_7
+  FCoverage: 152 _.notdef_17 _.notdef_19 _.notdef_87 _.notdef_111 _.notdef_135 _.notdef_159 _.notdef_183 _.notdef_207 _.notdef_231 _.notdef_255 _.notdef_279 _.notdef_307
+ 1
+  SeqLookup: 0 "Single Substitution lookup 41" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 22 contextual 2"  0 0 0 1
+ 1 4 0
+  Coverage: 10 _.notdef_7
+  BCoverage: 10 _.notdef_7
+  BCoverage: 10 _.notdef_7
+  BCoverage: 12 _.notdef_294
+  BCoverage: 12 _.notdef_295
+ 1
+  SeqLookup: 0 "Single Substitution lookup 41" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 22 contextual 1"  0 0 0 1
+ 1 3 0
+  Coverage: 10 _.notdef_7
+  BCoverage: 10 _.notdef_7
+  BCoverage: 12 _.notdef_294
+  BCoverage: 12 _.notdef_295
+ 1
+  SeqLookup: 0 "Single Substitution lookup 41" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 22 contextual 0"  0 0 0 1
+ 1 1 1
+  Coverage: 10 _.notdef_7
+  BCoverage: 10 _.notdef_7
+  FCoverage: 10 _.notdef_7
+ 1
+  SeqLookup: 0 "Single Substitution lookup 41" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 21 contextual 2"  0 0 0 1
+ 1 1 1
+  Coverage: 10 _.notdef_7
+  BCoverage: 12 _.notdef_295
+  FCoverage: 12 _.notdef_306
+ 1
+  SeqLookup: 0 "Single Substitution lookup 40" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 21 contextual 1"  0 0 0 1
+ 1 1 1
+  Coverage: 10 _.notdef_7
+  BCoverage: 12 _.notdef_295
+  FCoverage: 10 _.notdef_5
+ 1
+  SeqLookup: 0 "Single Substitution lookup 40" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 21 contextual 0"  0 0 0 1
+ 1 1 1
+  Coverage: 10 _.notdef_7
+  BCoverage: 12 _.notdef_295
+  FCoverage: 10 _.notdef_7
+ 1
+  SeqLookup: 0 "Single Substitution lookup 40" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 20 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 10 _.notdef_6
+  FCoverage: 532 _.notdef_3 _.notdef_5 _.notdef_7 _.notdef_39 __.notdef_41 __.notdef_43 __.notdef_45 __.notdef_51 _.notdef_62 _.notdef_64 _.notdef_66 _.notdef_85 _.notdef_92 _.notdef_93 _.notdef_109 _.notdef_116 _.notdef_117 _.notdef_133 _.notdef_140 _.notdef_141 _.notdef_157 _.notdef_164 _.notdef_165 _.notdef_181 _.notdef_188 _.notdef_189 _.notdef_205 _.notdef_212 _.notdef_213 _.notdef_229 _.notdef_236 _.notdef_237 _.notdef_253 _.notdef_260 _.notdef_261 _.notdef_277 _.notdef_284 _.notdef_285 _.notdef_289 _.notdef_306 _.notdef_311 _.notdef_314
+ 1
+  SeqLookup: 0 "Single Substitution lookup 39" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 19 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 10 _.notdef_7
+  FCoverage: 37 __.notdef_51 _.notdef_66 _.notdef_303
+ 1
+  SeqLookup: 0 "Single Substitution lookup 38" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 17 contextual 1"  0 0 0 1
+ 1 1 1
+  Coverage: 12 __.notdef_41
+  BCoverage: 134 _.notdef_7 _.notdef_11 _.notdef_19 _.notdef_23 _.notdef_27 _.notdef_31 _.notdef_35 __.notdef_41 __.notdef_45 __.notdef_49 __.notdef_55
+  FCoverage: 343 _.notdef_3 _.notdef_39 __.notdef_41 __.notdef_43 __.notdef_45 _.notdef_62 _.notdef_64 _.notdef_92 _.notdef_93 _.notdef_116 _.notdef_117 _.notdef_140 _.notdef_141 _.notdef_164 _.notdef_165 _.notdef_188 _.notdef_189 _.notdef_212 _.notdef_213 _.notdef_236 _.notdef_237 _.notdef_260 _.notdef_261 _.notdef_284 _.notdef_285 _.notdef_311 _.notdef_314
+ 1
+  SeqLookup: 0 "Single Substitution lookup 37" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 17 contextual 0"  0 0 0 1
+ 1 1 1
+  Coverage: 12 __.notdef_41
+  BCoverage: 134 _.notdef_6 _.notdef_10 _.notdef_18 _.notdef_22 _.notdef_26 _.notdef_30 _.notdef_34 __.notdef_40 __.notdef_44 __.notdef_48 __.notdef_54
+  FCoverage: 343 _.notdef_3 _.notdef_39 __.notdef_41 __.notdef_43 __.notdef_45 _.notdef_62 _.notdef_64 _.notdef_92 _.notdef_93 _.notdef_116 _.notdef_117 _.notdef_140 _.notdef_141 _.notdef_164 _.notdef_165 _.notdef_188 _.notdef_189 _.notdef_212 _.notdef_213 _.notdef_236 _.notdef_237 _.notdef_260 _.notdef_261 _.notdef_284 _.notdef_285 _.notdef_311 _.notdef_314
+ 1
+  SeqLookup: 0 "Single Substitution lookup 37" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 16 subtable"  0 0 0 1
+ 1 1 1
+  Coverage: 12 _.notdef_289
+  BCoverage: 12 _.notdef_289
+  FCoverage: 343 _.notdef_3 _.notdef_39 __.notdef_41 __.notdef_43 __.notdef_45 _.notdef_62 _.notdef_64 _.notdef_92 _.notdef_93 _.notdef_116 _.notdef_117 _.notdef_140 _.notdef_141 _.notdef_164 _.notdef_165 _.notdef_188 _.notdef_189 _.notdef_212 _.notdef_213 _.notdef_236 _.notdef_237 _.notdef_260 _.notdef_261 _.notdef_284 _.notdef_285 _.notdef_311 _.notdef_314
+ 1
+  SeqLookup: 0 "Single Substitution lookup 36" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 15 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 12 __.notdef_40
+  FCoverage: 343 _.notdef_3 _.notdef_39 __.notdef_41 __.notdef_43 __.notdef_45 _.notdef_62 _.notdef_64 _.notdef_92 _.notdef_93 _.notdef_116 _.notdef_117 _.notdef_140 _.notdef_141 _.notdef_164 _.notdef_165 _.notdef_188 _.notdef_189 _.notdef_212 _.notdef_213 _.notdef_236 _.notdef_237 _.notdef_260 _.notdef_261 _.notdef_284 _.notdef_285 _.notdef_311 _.notdef_314
+ 1
+  SeqLookup: 0 "Single Substitution lookup 35" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 14 subtable"  0 0 0 1
+ 1 1 0
+  Coverage: 12 __.notdef_60
+  BCoverage: 51 _.notdef_265 _.notdef_271 _.notdef_272 _.notdef_273
+ 1
+  SeqLookup: 0 "Single Substitution lookup 34" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 13 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
+  FCoverage: 12 __.notdef_60
+ 1
+  SeqLookup: 0 "Single Substitution lookup 33" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 12 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
+  FCoverage: 128 __.notdef_56 _.notdef_96 _.notdef_120 _.notdef_144 _.notdef_168 _.notdef_192 _.notdef_216 _.notdef_240 _.notdef_264 _.notdef_288
+ 1
+  SeqLookup: 0 "Single Substitution lookup 32" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 11 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
+  FCoverage: 282 __.notdef_47 __.notdef_49 __.notdef_55 _.notdef_70 _.notdef_94 _.notdef_95 _.notdef_118 _.notdef_119 _.notdef_142 _.notdef_143 _.notdef_166 _.notdef_167 _.notdef_190 _.notdef_191 _.notdef_214 _.notdef_215 _.notdef_238 _.notdef_239 _.notdef_262 _.notdef_263 _.notdef_286 _.notdef_287
+ 1
+  SeqLookup: 0 "Single Substitution lookup 31" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 10 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
+  FCoverage: 165 _.notdef_33 _.notdef_35 _.notdef_91 _.notdef_115 _.notdef_139 _.notdef_163 _.notdef_187 _.notdef_211 _.notdef_235 _.notdef_259 _.notdef_283 _.notdef_309 _.notdef_310
+ 1
+  SeqLookup: 0 "Single Substitution lookup 30" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 9 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
+  FCoverage: 139 _.notdef_29 _.notdef_31 _.notdef_90 _.notdef_114 _.notdef_138 _.notdef_162 _.notdef_186 _.notdef_210 _.notdef_234 _.notdef_258 _.notdef_282
+ 1
+  SeqLookup: 0 "Single Substitution lookup 29" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 8 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
+  FCoverage: 305 _.notdef_21 _.notdef_23 _.notdef_25 _.notdef_27 _.notdef_88 _.notdef_89 _.notdef_112 _.notdef_113 _.notdef_136 _.notdef_137 _.notdef_160 _.notdef_161 _.notdef_184 _.notdef_185 _.notdef_208 _.notdef_209 _.notdef_232 _.notdef_233 _.notdef_256 _.notdef_257 _.notdef_280 _.notdef_281 _.notdef_308 _.notdef_319
+ 1
+  SeqLookup: 0 "Single Substitution lookup 28" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 7 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
+  FCoverage: 11 _.notdef_15
+ 1
+  SeqLookup: 0 "Single Substitution lookup 27" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 6 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
+  FCoverage: 11 _.notdef_13
+ 1
+  SeqLookup: 0 "Single Substitution lookup 26" 
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 5 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
+  FCoverage: 138 _.notdef_9 _.notdef_11 _.notdef_86 _.notdef_110 _.notdef_134 _.notdef_158 _.notdef_182 _.notdef_206 _.notdef_230 _.notdef_254 _.notdef_278
+ 1
+  SeqLookup: 0 "Single Substitution lookup 25" 
+EndFPST
+ShortTable: maxp 16
+  1
+  0
+  725
+  250
+  7
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+EndShort
+GaspTable: 1 65535 2 0
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: AGL For New Fonts
+AnchorClass2: "Cursive-0"  "'curs' Cursive Attachment in Arabic lookup 0 subtable" "Cursive-1"  "'curs' Cursive Attachment in Arabic lookup 1 subtable" "Cursive-2"  "'curs' Cursive Attachment in Arabic lookup 2 subtable" "Cursive-3"  "'curs' Cursive Attachment in Arabic lookup 3 subtable" "Cursive-4"  "'curs' Cursive Attachment in Arabic lookup 4 subtable" "Cursive-5"  "'curs' Cursive Attachment in Arabic lookup 5 subtable" "Cursive-6"  "'curs' Cursive Attachment in Arabic lookup 6 subtable" "Cursive-7"  "'curs' Cursive Attachment in Arabic lookup 7 subtable" "Cursive-8"  "'curs' Cursive Attachment in Arabic lookup 8 subtable" "Cursive-9"  "'curs' Cursive Attachment in Arabic lookup 9 subtable" "Cursive-10"  "'curs' Cursive Attachment in Arabic lookup 10 subtable" "Anchor-11"  "'mark' Mark Positioning in Arabic lookup 12 subtable" "Anchor-12"  "'mark' Mark Positioning in Arabic lookup 12 subtable" "Anchor-13"  "'mark' Mark Positioning in Arabic lookup 13 subtable" "Anchor-14"  "'mark' Mark Positioning in Arabic lookup 13 subtable" "Anchor-15"  "'mark' Mark Positioning in Arabic lookup 16 subtable" "Anchor-16"  "'mark' Mark Positioning in Arabic lookup 16 subtable" "Anchor-17"  "'mark' Mark Positioning in Arabic lookup 17 subtable" "Anchor-18"  "'mark' Mark Positioning in Arabic lookup 17 subtable" "Anchor-19"  "'mark' Mark Positioning in Arabic lookup 18 subtable" "Anchor-20"  "'mark' Mark Positioning in Arabic lookup 18 subtable" 
+EndSplineFont

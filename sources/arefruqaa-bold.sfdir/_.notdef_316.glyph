@@ -1,0 +1,63 @@
+StartChar: _.notdef_316
+Encoding: 65889 -1 602
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-12" 0 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-59 117 m 256,0,1
+ -25 117 -25 117 2 88 c 1,2,3
+ 39 130 39 130 69.5 162.5 c 128,-1,4
+ 100 195 100 195 126 218 c 0,5,6
+ 136 228 136 228 150.5 233.5 c 128,-1,7
+ 165 239 165 239 185 244 c 0,8,9
+ 189 245 189 245 194 245 c 128,-1,10
+ 199 245 199 245 204 245 c 0,11,12
+ 236 245 236 245 255 223 c 1,13,14
+ 273 200 273 200 273 178 c 0,15,16
+ 273 164 273 164 265 146 c 0,17,18
+ 257 130 257 130 248.5 116 c 128,-1,19
+ 240 102 240 102 230 90 c 0,20,21
+ 205 57 205 57 168 32 c 128,-1,22
+ 131 7 131 7 81 -13 c 1,23,-1
+ 82 -12 l 1,24,25
+ 50 -25 50 -25 25 -32 c 128,-1,26
+ 0 -39 0 -39 -17 -39 c 0,27,28
+ -27 -39 -27 -39 -36 -36 c 0,29,30
+ -53 -31 -53 -31 -66 -25.5 c 128,-1,31
+ -79 -20 -79 -20 -87 -14 c 0,32,33
+ -95 -9 -95 -9 -101 -9 c 2,34,-1
+ -105 -9 l 1,35,36
+ -117 -12 -117 -12 -167 -59 c 0,37,38
+ -170 -63 -170 -63 -175.5 -67 c 128,-1,39
+ -181 -71 -181 -71 -188 -76 c 0,40,41
+ -192 -78 -192 -78 -199 -78 c 0,42,43
+ -207 -78 -207 -78 -213.5 -72 c 128,-1,44
+ -220 -66 -220 -66 -220 -54 c 1,45,46
+ -203 15 -203 15 -135 80 c 1,47,48
+ -93 117 -93 117 -59 117 c 256,0,1
+82 87 m 1,49,50
+ 125 97 125 97 156 112 c 1,51,52
+ 146 121 146 121 138 121 c 128,-1,53
+ 130 121 130 121 120 115 c 0,54,55
+ 102 105 102 105 82 87 c 1,49,50
+EndSplineSet
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" fatha_alefmadA dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" shada_alefmadA dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" shada_sokon_A dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" shada_fathatan_A dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" uniFC62 dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" uniFC61 dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" uniFC60 dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" uniFC5F dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" uniFC5E dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" uni0670 dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" afii57458 dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" afii57457 dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" afii57455 dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" afii57454 dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" afii57452 dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 14 subtable" afii57451 dx=0 dy=0 dh=0 dv=0 dx=0 dy=500 dh=0 dv=0
+EndChar

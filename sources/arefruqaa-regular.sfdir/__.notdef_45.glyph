@@ -1,0 +1,36 @@
+StartChar: __.notdef_45
+Encoding: 65618 -1 331
+Width: 505
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-0" 0 0 exit 0
+AnchorPoint: "Anchor-14" 378 -216 basechar 0
+AnchorPoint: "Anchor-12" 459 1584 basechar 0
+AnchorPoint: "Anchor-11" 486 1692 basechar 0
+AnchorPoint: "Cursive-0" 513 0 entry 0
+AnchorPoint: "Anchor-13" 540 -387 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+420 1132 m 1,0,-1
+ 571 1383 l 1,1,-1
+ 653 217 l 1,2,-1
+ 505 0 l 1,3,-1
+ 486 256 l 1,4,5
+ 378 97 378 97 275 70 c 128,-1,6
+ 172 43 172 43 0 0 c 1,7,-1
+ 45 265 l 1,8,9
+ 378 312 378 312 477 363 c 1,10,-1
+ 420 1132 l 1,0,-1
+EndSplineSet
+Substitution2: "Single Substitution lookup 42 subtable" _.notdef_321
+Substitution2: "Single Substitution lookup 33 subtable" _.notdef_285
+Substitution2: "Single Substitution lookup 32 subtable" _.notdef_261
+Substitution2: "Single Substitution lookup 31 subtable" _.notdef_237
+Substitution2: "Single Substitution lookup 30 subtable" _.notdef_213
+Substitution2: "Single Substitution lookup 29 subtable" _.notdef_189
+Substitution2: "Single Substitution lookup 28 subtable" _.notdef_165
+Substitution2: "Single Substitution lookup 27 subtable" _.notdef_141
+Substitution2: "Single Substitution lookup 26 subtable" _.notdef_117
+Substitution2: "Single Substitution lookup 25 subtable" _.notdef_93
+EndChar

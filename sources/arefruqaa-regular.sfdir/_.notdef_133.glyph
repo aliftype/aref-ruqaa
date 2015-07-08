@@ -1,0 +1,35 @@
+StartChar: _.notdef_133
+Encoding: 65706 -1 419
+Width: 664
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-5" 0 0 exit 0
+AnchorPoint: "Anchor-14" 405 -324 basechar 0
+AnchorPoint: "Anchor-12" 405 927 basechar 0
+AnchorPoint: "Anchor-11" 468 873 basechar 0
+AnchorPoint: "Anchor-13" 495 -342 basechar 0
+AnchorPoint: "Cursive-0" 540 45 entry 0
+LayerCount: 2
+Fore
+SplineSet
+629 63 m 1,0,1
+ 545 49 545 49 461 36 c 128,-1,2
+ 377 23 377 23 392 118 c 1,3,4
+ 395 151 395 151 302.5 130 c 128,-1,5
+ 210 109 210 109 144 83 c 1,6,7
+ 108 61 108 61 71 28 c 1,8,-1
+ 70 27 l 1,9,10
+ 42 -14 42 -14 17.5 5 c 128,-1,11
+ -7 24 -7 24 3 66 c 1,12,13
+ 1 69 1 69 10 84 c 128,-1,14
+ 19 99 19 99 22 106 c 0,15,16
+ 37 141 37 141 50 181 c 128,-1,17
+ 63 221 63 221 82 258 c 0,18,19
+ 115 322 115 322 274 371.5 c 128,-1,20
+ 433 421 433 421 505 414 c 0,21,22
+ 532 411 532 411 531 389 c 1,23,24
+ 525 342 525 342 556 326 c 128,-1,25
+ 587 310 587 310 633 316 c 1,26,-1
+ 629 63 l 1,0,1
+EndSplineSet
+EndChar

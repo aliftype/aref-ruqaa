@@ -1,0 +1,57 @@
+SplineFontDB: 3.0
+FontName: EulerText-Regular
+FullName: Euler Text
+FamilyName: Euler Text
+Weight: Regular
+Copyright: Copyright (c) 1997, 2009, 2011 American Mathematical Society (<http://www.ams.org>), with Reserved Font Name EURM10.
+Version: 003.003
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+LayerCount: 2
+Layer: 0 0 "Back"  1
+Layer: 1 0 "Fore"  0
+FSType: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 0
+CreationTime: 1429373800
+PfmFamily: 17
+TTFWeight: 500
+TTFWidth: 5
+LineGap: 90
+VLineGap: 0
+OS2TypoAscent: 800
+OS2TypoAOffset: 0
+OS2TypoDescent: -200
+OS2TypoDOffset: 0
+OS2TypoLinegap: 90
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 800
+HheadAOffset: 0
+HheadDescent: -200
+HheadDOffset: 0
+OS2Vendor: 'BLQ '
+MarkAttachClasses: 1
+DEI: 91125
+LangName: 1033 
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: AGL For New Fonts
+BeginPrivate: 10
+BlueValues 33 [ -22 0 431 448 666 677 683 705 ]
+OtherBlues 13 [ -206 -194 ]
+BlueScale 7 0.04379
+BlueShift 1 7
+BlueFuzz 1 1
+StdHW 6 [ 69 ]
+StdVW 6 [ 78 ]
+ForceBold 5 false
+StemSnapH 9 [ 69 83 ]
+StemSnapV 9 [ 78 86 ]
+EndPrivate
+EndSplineFont

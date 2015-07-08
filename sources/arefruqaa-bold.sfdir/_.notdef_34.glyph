@@ -1,0 +1,63 @@
+StartChar: _.notdef_34
+Encoding: 65607 -1 320
+Width: 800
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-0" 0 0 exit 0
+AnchorPoint: "Anchor-14" 378 -279 basechar 0
+AnchorPoint: "Anchor-13" 405 -297 basechar 0
+AnchorPoint: "Anchor-11" 495 1278 basechar 0
+AnchorPoint: "Anchor-12" 531 1314 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+552 558 m 2,0,1
+ 553 558 553 558 555 560 c 2,2,-1
+ 552 558 l 2,0,1
+595 266 m 1,3,4
+ 509 168 509 168 410 116 c 0,5,6
+ 313 64 313 64 11 1 c 0,7,8
+ -2 -2 -2 -2 -11 6 c 128,-1,9
+ -20 14 -20 14 -18 28 c 2,10,-1
+ 26 283 l 1,11,12
+ 26 290 26 290 32 295.5 c 128,-1,13
+ 38 301 38 301 45 302 c 0,14,15
+ 256 347 256 347 387 386.5 c 128,-1,16
+ 518 426 518 426 572 461 c 1,17,-1
+ 554 515 l 2,18,19
+ 544 543 544 543 543 551 c 1,20,21
+ 511 526 511 526 462 511 c 0,22,23
+ 451 507 451 507 439.5 505.5 c 128,-1,24
+ 428 504 428 504 417 504 c 0,25,26
+ 398 504 398 504 381 508.5 c 128,-1,27
+ 364 513 364 513 347 521 c 0,28,29
+ 308 540 308 540 305 594 c 0,30,31
+ 304 597 304 597 304 603 c 0,32,33
+ 304 646 304 646 322 678 c 1,34,-1
+ 322 677 l 1,35,36
+ 332 695 332 695 340.5 713 c 128,-1,37
+ 349 731 349 731 358 749 c 0,38,39
+ 380 794 380 794 403 838 c 128,-1,40
+ 426 882 426 882 457 924 c 0,41,42
+ 495 974 495 974 541 974 c 0,43,44
+ 555 974 555 974 569 968.5 c 128,-1,45
+ 583 963 583 963 599 953 c 1,46,47
+ 631 930 631 930 657 899 c 128,-1,48
+ 683 868 683 868 703 829 c 0,49,50
+ 743 749 743 749 743 658 c 0,51,52
+ 743 629 743 629 739 596.5 c 128,-1,53
+ 735 564 735 564 726 532 c 1,54,55
+ 706 449 706 449 673 381.5 c 128,-1,56
+ 640 314 640 314 595 265 c 1,57,-1
+ 595 266 l 1,3,4
+EndSplineSet
+Substitution2: "Single Substitution lookup 33 subtable" _.notdef_271
+Substitution2: "Single Substitution lookup 32 subtable" _.notdef_247
+Substitution2: "Single Substitution lookup 31 subtable" _.notdef_223
+Substitution2: "Single Substitution lookup 30 subtable" _.notdef_199
+Substitution2: "Single Substitution lookup 29 subtable" _.notdef_175
+Substitution2: "Single Substitution lookup 28 subtable" _.notdef_151
+Substitution2: "Single Substitution lookup 27 subtable" _.notdef_127
+Substitution2: "Single Substitution lookup 26 subtable" _.notdef_103
+Substitution2: "Single Substitution lookup 25 subtable" _.notdef_79
+EndChar

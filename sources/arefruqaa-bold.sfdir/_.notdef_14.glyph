@@ -1,0 +1,46 @@
+StartChar: _.notdef_14
+Encoding: 65587 -1 300
+Width: 961
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-14" 477 -459 basechar 0
+AnchorPoint: "Anchor-13" 495 -396 basechar 0
+AnchorPoint: "Anchor-11" 567 882 basechar 0
+AnchorPoint: "Anchor-12" 738 936 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+917 558 m 1,0,1
+ 906 509 906 509 890.5 455.5 c 128,-1,2
+ 875 402 875 402 852 345 c 0,3,4
+ 809 234 809 234 760 175 c 0,5,6
+ 725 134 725 134 679 99.5 c 128,-1,7
+ 633 65 633 65 582 43 c 1,8,9
+ 533 23 533 23 470 11.5 c 128,-1,10
+ 407 0 407 0 338 0 c 2,11,-1
+ 319 0 l 1,12,13
+ 201 3 201 3 116 12 c 0,14,15
+ 23 22 23 22 -4 48 c 0,16,17
+ -15 59 -15 59 -15 77 c 0,18,19
+ -15 110 -15 110 41 142 c 0,20,21
+ 71 159 71 159 131 181.5 c 128,-1,22
+ 191 204 191 204 282 233 c 1,23,-1
+ 281 233 l 1,24,25
+ 339 251 339 251 397.5 271 c 128,-1,26
+ 456 291 456 291 512 313.5 c 128,-1,27
+ 568 336 568 336 620 361.5 c 128,-1,28
+ 672 387 672 387 718 417 c 1,29,30
+ 760 446 760 446 792.5 485.5 c 128,-1,31
+ 825 525 825 525 846 572 c 1,32,-1
+ 846 571 l 1,33,34
+ 856 598 856 598 887 598 c 1,35,36
+ 901 596 901 596 908 588 c 128,-1,37
+ 915 580 915 580 917 566 c 1,38,-1
+ 917 558 l 1,0,1
+EndSplineSet
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" __.notdef_46 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" _.notdef_28 dx=0 dy=0 dh=0 dv=0 dx=400 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" _.notdef_20 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" _.notdef_16 dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 11 subtable" _.notdef_8 dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
+EndChar

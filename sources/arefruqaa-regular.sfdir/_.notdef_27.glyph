@@ -1,0 +1,59 @@
+StartChar: _.notdef_27
+Encoding: 65600 -1 313
+Width: 423
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-0" 0 0 exit 0
+AnchorPoint: "Cursive-6" 315 -234 entry 0
+AnchorPoint: "Anchor-13" 405 -342 basechar 0
+AnchorPoint: "Anchor-11" 531 1476 basechar 0
+AnchorPoint: "Anchor-14" 576 -207 basechar 0
+AnchorPoint: "Anchor-12" 828 1008 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+403 1033 m 1,0,-1
+ 554 1273 l 1,1,-1
+ 598 616 l 1,2,-1
+ 447 376 l 1,3,-1
+ 403 1033 l 1,0,-1
+43 263 m 1,4,-1
+ 44 263 l 1,5,-1
+ 44 264 l 1,6,7
+ 320 287 320 287 404 306 c 1,8,9
+ 492 407 492 407 584 505 c 128,-1,10
+ 676 603 676 603 775 696 c 0,11,12
+ 822 740 822 740 918 759 c 0,13,14
+ 940 763 940 763 960 763 c 0,15,16
+ 1026 763 1026 763 1066 715 c 0,17,18
+ 1104 669 1104 669 1104 621 c 0,19,20
+ 1104 588 1104 588 1086 553 c 0,21,22
+ 1042 468 1042 468 991 399 c 0,23,24
+ 838 194 838 194 548.5 109.5 c 128,-1,25
+ 259 25 259 25 10 1 c 1,26,-1
+ 11 3 l 1,27,28
+ 8 2 8 2 5.5 1 c 128,-1,29
+ 3 0 3 0 0 0 c 1,30,-1
+ 43 263 l 1,4,-1
+887 485 m 0,31,32
+ 869 518 869 518 818 533 c 0,33,34
+ 798 539 798 539 779 539 c 0,35,36
+ 750 539 750 539 724 525 c 0,37,38
+ 652 486 652 486 596 430 c 128,-1,39
+ 540 374 540 374 485 317 c 1,40,41
+ 593 338 593 338 694.5 363.5 c 128,-1,42
+ 796 389 796 389 884 431 c 0,43,44
+ 897 437 897 437 897 452 c 0,45,46
+ 897 465 897 465 887 485 c 0,31,32
+EndSplineSet
+Substitution2: "Single Substitution lookup 42 subtable" _.notdef_319
+Substitution2: "Single Substitution lookup 33 subtable" _.notdef_281
+Substitution2: "Single Substitution lookup 32 subtable" _.notdef_257
+Substitution2: "Single Substitution lookup 31 subtable" _.notdef_233
+Substitution2: "Single Substitution lookup 30 subtable" _.notdef_209
+Substitution2: "Single Substitution lookup 29 subtable" _.notdef_185
+Substitution2: "Single Substitution lookup 28 subtable" _.notdef_161
+Substitution2: "Single Substitution lookup 27 subtable" _.notdef_137
+Substitution2: "Single Substitution lookup 26 subtable" _.notdef_113
+Substitution2: "Single Substitution lookup 25 subtable" _.notdef_89
+EndChar

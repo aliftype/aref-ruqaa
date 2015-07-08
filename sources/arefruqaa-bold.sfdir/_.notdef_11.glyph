@@ -1,0 +1,68 @@
+StartChar: _.notdef_11
+Encoding: 65584 -1 297
+Width: 577
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-0" 0 0 exit 0
+AnchorPoint: "Anchor-11" 360 1188 basechar 0
+AnchorPoint: "Anchor-12" 369 1269 basechar 0
+AnchorPoint: "Cursive-3" 468 594 entry 0
+AnchorPoint: "Anchor-13" 639 -297 basechar 0
+AnchorPoint: "Anchor-14" 648 -180 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+60 305 m 1,0,1
+ 286 335 286 335 463.5 387 c 128,-1,2
+ 641 439 641 439 773 516 c 1,3,4
+ 762 522 762 522 738 528 c 1,5,-1
+ 739 528 l 1,6,7
+ 708 534 708 534 671 538 c 128,-1,8
+ 634 542 634 542 588 544 c 0,9,10
+ 543 546 543 546 511 548.5 c 128,-1,11
+ 479 551 479 551 458 556 c 1,12,13
+ 435 559 435 559 429 577.5 c 128,-1,14
+ 423 596 423 596 437 627 c 0,15,16
+ 453 665 453 665 471.5 702 c 128,-1,17
+ 490 739 490 739 509 777 c 1,18,-1
+ 508 777 l 1,19,20
+ 517 795 517 795 526.5 813 c 128,-1,21
+ 536 831 536 831 545 849 c 0,22,23
+ 547 854 547 854 554 858.5 c 128,-1,24
+ 561 863 561 863 566 863 c 0,25,26
+ 599 865 599 865 649.5 860.5 c 128,-1,27
+ 700 856 700 856 770 846 c 0,28,29
+ 842 835 842 835 892.5 818.5 c 128,-1,30
+ 943 802 943 802 972 779 c 0,31,32
+ 986 767 986 767 994.5 751.5 c 128,-1,33
+ 1003 736 1003 736 1003 717 c 0,34,35
+ 1003 706 1003 706 999.5 694 c 128,-1,36
+ 996 682 996 682 991 669 c 0,37,38
+ 982 646 982 646 974 627.5 c 128,-1,39
+ 966 609 966 609 959 595 c 0,40,41
+ 957 593 957 593 956.5 590.5 c 128,-1,42
+ 956 588 956 588 955 586 c 0,43,44
+ 935 544 935 544 911.5 505.5 c 128,-1,45
+ 888 467 888 467 863 427 c 1,46,-1
+ 845 400 l 1,47,48
+ 768 288 768 288 571.5 189.5 c 128,-1,49
+ 375 91 375 91 59 10 c 1,50,-1
+ 13 0 l 2,51,52
+ -1 -3 -1 -3 -10 6 c 128,-1,53
+ -19 15 -19 15 -16 29 c 2,54,-1
+ 35 284 l 2,55,56
+ 36 292 36 292 43.5 297.5 c 128,-1,57
+ 51 303 51 303 59 303 c 1,58,-1
+ 63 305 l 1,59,-1
+ 60 305 l 1,0,1
+EndSplineSet
+Substitution2: "Single Substitution lookup 33 subtable" _.notdef_278
+Substitution2: "Single Substitution lookup 32 subtable" _.notdef_254
+Substitution2: "Single Substitution lookup 31 subtable" _.notdef_230
+Substitution2: "Single Substitution lookup 30 subtable" _.notdef_206
+Substitution2: "Single Substitution lookup 29 subtable" _.notdef_182
+Substitution2: "Single Substitution lookup 28 subtable" _.notdef_158
+Substitution2: "Single Substitution lookup 27 subtable" _.notdef_134
+Substitution2: "Single Substitution lookup 26 subtable" _.notdef_110
+Substitution2: "Single Substitution lookup 25 subtable" _.notdef_86
+EndChar

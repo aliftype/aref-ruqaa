@@ -1,0 +1,24 @@
+StartChar: quotedbl
+Encoding: 34 34 5
+Width: 971
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+165 945 m 1,0,-1
+ 112 1218 l 1,1,-1
+ 112 1466 l 1,2,-1
+ 418 1466 l 1,3,-1
+ 418 1218 l 1,4,-1
+ 372 945 l 1,5,-1
+ 165 945 l 1,0,-1
+616 945 m 1,6,-1
+ 563 1218 l 1,7,-1
+ 563 1466 l 1,8,-1
+ 869 1466 l 1,9,-1
+ 869 1218 l 1,10,-1
+ 823 945 l 1,11,-1
+ 616 945 l 1,6,-1
+EndSplineSet
+EndChar

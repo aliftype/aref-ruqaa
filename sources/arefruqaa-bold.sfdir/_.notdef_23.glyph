@@ -1,0 +1,84 @@
+StartChar: _.notdef_23
+Encoding: 65596 -1 309
+Width: 679
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-0" 0 0 exit 0
+AnchorPoint: "Cursive-6" 522 -387 entry 0
+AnchorPoint: "Anchor-14" 702 -414 basechar 0
+AnchorPoint: "Anchor-13" 828 -261 basechar 0
+AnchorPoint: "Anchor-11" 1035 1071 basechar 0
+AnchorPoint: "Anchor-12" 1116 1161 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+820 354 m 0,0,-1
+1115 466 m 1,1,2
+ 1101 489 1101 489 1063 501 c 0,3,4
+ 1055 503 1055 503 1047.5 504 c 128,-1,5
+ 1040 505 1040 505 1032 505 c 0,6,7
+ 1010 505 1010 505 990 495 c 0,8,9
+ 942 469 942 469 901 431.5 c 128,-1,10
+ 860 394 860 394 820 354 c 1,11,12
+ 904 371 904 371 980 392 c 128,-1,13
+ 1056 413 1056 413 1122 445 c 1,14,-1
+ 1122 446 l 1,15,-1
+ 1122 445 l 2,16,17
+ 1122 446 1122 446 1123 446 c 2,18,-1
+ 1122 446 l 1,19,20
+ 1120 454 1120 454 1115 466 c 1,1,2
+627 420 m 0,21,22
+ 623 408 623 408 619.5 399 c 128,-1,23
+ 616 390 616 390 611.5 379 c 128,-1,24
+ 607 368 607 368 601 352.5 c 128,-1,25
+ 595 337 595 337 585 313 c 1,26,27
+ 606 315 606 315 623 318 c 128,-1,28
+ 640 321 640 321 657 325 c 1,29,30
+ 740 422 740 422 828 515.5 c 128,-1,31
+ 916 609 916 609 1011 699 c 1,32,33
+ 1064 746 1064 746 1162 765 c 0,34,35
+ 1176 768 1176 768 1186.5 769 c 128,-1,36
+ 1197 770 1197 770 1207 770 c 0,37,38
+ 1282 770 1282 770 1328 715 c 1,39,40
+ 1370 662 1370 662 1370 608 c 0,41,42
+ 1370 573 1370 573 1350 531 c 1,43,-1
+ 1350 532 l 1,44,45
+ 1306 446 1306 446 1256 380 c 0,46,47
+ 1184 283 1184 283 1078.5 216 c 128,-1,48
+ 973 149 973 149 848 102 c 1,49,-1
+ 732 72 l 1,50,51
+ 649 49 649 49 581 39 c 0,52,53
+ 557 35 557 35 534.5 33 c 128,-1,54
+ 512 31 512 31 491 31 c 0,55,56
+ 466 31 466 31 448 34 c 0,57,58
+ 400 40 400 40 390 72 c 1,59,60
+ 357 60 357 60 316 50 c 128,-1,61
+ 275 40 275 40 227 31 c 0,62,63
+ 200 26 200 26 171 21.5 c 128,-1,64
+ 142 17 142 17 114 12.5 c 128,-1,65
+ 86 8 86 8 60.5 5 c 128,-1,66
+ 35 2 35 2 14 0 c 0,67,68
+ 1 -1 1 -1 -7 7.5 c 128,-1,69
+ -15 16 -15 16 -13 28 c 2,70,-1
+ 31 289 l 2,71,72
+ 33 297 33 297 39 302.5 c 128,-1,73
+ 45 308 45 308 53 309 c 0,74,75
+ 233 322 233 322 344.5 340 c 128,-1,76
+ 456 358 456 358 500 380 c 1,77,78
+ 524 395 524 395 543.5 416.5 c 128,-1,79
+ 563 438 563 438 574 466 c 1,80,81
+ 587 486 587 486 603 486 c 0,82,83
+ 630 486 630 486 630 451 c 0,84,85
+ 630 439 630 439 629 431 c 128,-1,86
+ 628 423 628 423 627 420 c 0,21,22
+EndSplineSet
+Substitution2: "Single Substitution lookup 33 subtable" _.notdef_280
+Substitution2: "Single Substitution lookup 32 subtable" _.notdef_256
+Substitution2: "Single Substitution lookup 31 subtable" _.notdef_232
+Substitution2: "Single Substitution lookup 30 subtable" _.notdef_208
+Substitution2: "Single Substitution lookup 29 subtable" _.notdef_184
+Substitution2: "Single Substitution lookup 28 subtable" _.notdef_160
+Substitution2: "Single Substitution lookup 27 subtable" _.notdef_136
+Substitution2: "Single Substitution lookup 26 subtable" _.notdef_112
+Substitution2: "Single Substitution lookup 25 subtable" _.notdef_88
+EndChar

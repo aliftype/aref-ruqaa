@@ -1,0 +1,54 @@
+StartChar: _.notdef_7
+Encoding: 65580 -1 293
+Width: 422
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-0" 0 0 exit 0
+AnchorPoint: "Anchor-13" 297 -396 basechar 0
+AnchorPoint: "Anchor-14" 306 -351 basechar 0
+AnchorPoint: "Cursive-0" 405 45 entry 0
+AnchorPoint: "Anchor-12" 441 765 basechar 0
+AnchorPoint: "Anchor-11" 513 828 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+412 48 m 2,0,1
+ 386 48 386 48 380 71 c 1,2,3
+ 348 60 348 60 307.5 50 c 128,-1,4
+ 267 40 267 40 221 31 c 0,5,6
+ 166 21 166 21 107.5 12.5 c 128,-1,7
+ 49 4 49 4 7 0 c 0,8,9
+ -5 -1 -5 -1 -13 7.5 c 128,-1,10
+ -21 16 -21 16 -19 28 c 2,11,-1
+ 23 279 l 2,12,13
+ 24 287 24 287 30.5 293 c 128,-1,14
+ 37 299 37 299 45 300 c 0,15,16
+ 225 316 225 316 337 336.5 c 128,-1,17
+ 449 357 449 357 493 380 c 1,18,19
+ 544 411 544 411 568 466 c 1,20,21
+ 574 477 574 477 582 481.5 c 128,-1,22
+ 590 486 590 486 597 486 c 0,23,24
+ 624 486 624 486 624 451 c 0,25,26
+ 624 439 624 439 623 431 c 128,-1,27
+ 622 423 622 423 621 420 c 1,28,-1
+ 621 421 l 1,29,30
+ 610 385 610 385 593 341 c 128,-1,31
+ 576 297 576 297 554 245 c 0,32,33
+ 508 139 508 139 431 56 c 0,34,35
+ 429 54 429 54 423 51 c 128,-1,36
+ 417 48 417 48 414 48 c 2,37,-1
+ 412 48 l 2,0,1
+EndSplineSet
+Substitution2: "Single Substitution lookup 41 subtable" _.notdef_293
+Substitution2: "Single Substitution lookup 40 subtable" _.notdef_294
+Substitution2: "Single Substitution lookup 38 subtable" _.notdef_296
+Substitution2: "Single Substitution lookup 33 subtable" _.notdef_277
+Substitution2: "Single Substitution lookup 32 subtable" _.notdef_253
+Substitution2: "Single Substitution lookup 31 subtable" _.notdef_229
+Substitution2: "Single Substitution lookup 30 subtable" _.notdef_205
+Substitution2: "Single Substitution lookup 29 subtable" _.notdef_181
+Substitution2: "Single Substitution lookup 28 subtable" _.notdef_157
+Substitution2: "Single Substitution lookup 27 subtable" _.notdef_133
+Substitution2: "Single Substitution lookup 26 subtable" _.notdef_109
+Substitution2: "Single Substitution lookup 25 subtable" _.notdef_85
+EndChar
