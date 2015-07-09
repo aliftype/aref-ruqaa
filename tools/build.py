@@ -43,4 +43,4 @@ arabic.appendSFNTName(en, "Descriptor", "Aref Ruqaa is an Arabic typeface that a
 the classical Ruqaa calligraphic style.")
 arabic.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
 
-arabic.generate(sys.argv[2], flags=("round", "opentype"))
+arabic.generate(sys.argv[2], flags=("round", "opentype", "short-post"))
