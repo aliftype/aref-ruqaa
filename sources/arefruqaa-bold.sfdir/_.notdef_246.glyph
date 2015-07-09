@@ -73,5 +73,4 @@ SplineSet
  1132 442 l 1,0,1
 EndSplineSet
 Substitution2: "'ss01' Style Set 1 in Arabic lookup 48 subtable" _.notdef_222
-AlternateSubs2: "'cswh' Contextual Swash in Arabic lookup 26 subtable" _.notdef_222
 EndChar
