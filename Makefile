@@ -20,7 +20,7 @@ all: ttf doc
 ttf: $(TTF)
 doc: $(PDF)
 
-%.ttf: $(SRC)/%.sfdir Makefile $(BUILD)
+arefruqaa-%.ttf: $(SRC)/arefruqaa-%.sfdir $(SRC)/eulertext-%.sfdir Makefile $(BUILD)
 	@echo "   FF	$@"
 	@$(PY) $(BUILD) $< $@ $(VERSION)
 
