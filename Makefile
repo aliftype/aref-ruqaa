@@ -1,5 +1,5 @@
 NAME=arefruqaa
-VERSION=000.001
+VERSION=000.002
 
 SRC=sources
 DOC=documentation
