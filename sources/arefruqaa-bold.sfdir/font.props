@@ -98,6 +98,7 @@ Lookup: 1 8 0 "Single Substitution lookup 46"  {"Single Substitution lookup 46 s
 Lookup: 1 9 0 "Single Substitution lookup 47"  {"Single Substitution lookup 47 subtable"  } []
 Lookup: 1 8 0 "'ss01' Style Set 1 in Arabic lookup 48"  {"'ss01' Style Set 1 in Arabic lookup 48 subtable"  } ['ss01' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 1 8 0 "'ss02' Style Set 2 in Arabic lookup 49"  {"'ss02' Style Set 2 in Arabic lookup 49 subtable"  } ['ss02' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 1 8 0 "'ss03' Style Set 3 in Arabic lookup 50"  {"'ss03' Style Set 3 in Arabic lookup 50 subtable"  } ['ss03' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 0"  {"'curs' Cursive Attachment in Arabic lookup 0 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 1"  {"'curs' Cursive Attachment in Arabic lookup 1 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 259 8 0 "'curs' Cursive Attachment in Arabic lookup 2"  {"'curs' Cursive Attachment in Arabic lookup 2 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
@@ -365,6 +366,7 @@ EndFPST
 GaspTable: 1 65535 2 0
 OtfFeatName: 'ss01' 1033 "Looped Haa" 
 OtfFeatName: 'ss02' 1033 "Open final Haa" 
+OtfFeatName: 'ss03' 1033 "Tailed Noon" 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
