@@ -1,5 +1,5 @@
 StartChar: _.notdef_315
-Encoding: 65888 -1 466
+Encoding: 65883 -1 466
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -44,11 +44,11 @@ PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" fatha_alefmadA dx=0
 PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" shada_alefmadA dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
 PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" shada_sokon_A dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
 PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" shada_fathatan_A dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
-PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" uniFC62 dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
-PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" uniFC61 dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
-PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" uniFC60 dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
-PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" uniFC5F dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
-PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" uniFC5E dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" shada_kasra_A dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" shada_damma_A dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" shada_fatha_A dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" shada_kasratan_A dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
+PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" shada_dammatan_A dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
 PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" uni0670 dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
 PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" afii57458 dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
 PairPos2: "'mkmk' Mark to Mark in Arabic lookup 17 subtable" afii57457 dx=0 dy=0 dh=0 dv=0 dx=0 dy=600 dh=0 dv=0
