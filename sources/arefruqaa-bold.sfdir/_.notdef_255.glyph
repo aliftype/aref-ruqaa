@@ -75,5 +75,6 @@ SplineSet
  918 675 918 675 996 672 c 1,88,-1
  1002 672 l 2,0,1
 EndSplineSet
+Substitution2: "'ss01' Style Set 1 in Arabic lookup 48 subtable" _.notdef_231
 AlternateSubs2: "'cswh' Contextual Swash in Arabic lookup 26 subtable" _.notdef_231
 EndChar
