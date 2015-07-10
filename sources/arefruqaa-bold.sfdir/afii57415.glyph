@@ -1,25 +1,10 @@
 StartChar: afii57415
 Encoding: 1575 1575 39
-Width: 226
+Width: 659
 GlyphClass: 2
-Flags: W
 LayerCount: 2
 Fore
-SplineSet
--39 872 m 1,0,-1
- 111 1108 l 2,1,2
- 120 1123 120 1123 134.5 1128.5 c 128,-1,3
- 149 1134 149 1134 163 1131 c 128,-1,4
- 177 1128 177 1128 187 1117 c 128,-1,5
- 197 1106 197 1106 199 1088 c 2,6,-1
- 255 260 l 1,7,-1
- 104 23 l 1,8,9
- 94 10 94 10 79.5 5 c 128,-1,10
- 65 0 65 0 51.5 3 c 128,-1,11
- 38 6 38 6 28 16 c 128,-1,12
- 18 26 18 26 17 43 c 2,13,-1
- -39 872 l 1,0,-1
-EndSplineSet
+Refer: 163 -1 N 1 0 0 1 0 0 3
 MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" _.notdef_3
 MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" _.notdef_2
 EndChar
