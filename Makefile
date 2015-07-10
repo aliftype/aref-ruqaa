@@ -31,18 +31,5 @@ $(DOC)/$(NAME)-table.pdf: $(NAME)-regular.ttf
 	@pdfoutline $@.tmp $@.txt $@
 	@rm -f $@.tmp $@.txt
 
-dist: $(TTF)
-	@echo "Making dist tarball"
-	@mkdir -p $(DIST)/$(SRC)
-	@mkdir -p $(DIST)/$(DOC)
-	@mkdir -p $(DIST)/$(TOOLS)
-	@cp $(SFD) $(DIST)/$(SRC)
-	@cp $(PDF) $(DIST)/$(DOC)
-	@cp $(TTF) $(DIST)
-	@cp $(BUILD) $(DIST)/$(TOOLS)
-	@cp Makefile $(DIST)
-	@cp README.md $(DIST)/README.txt
-	@zip -r $(DIST).zip $(DIST)
-
 clean:
-	@rm -rf $(TTF) $(PDF) $(DIST) $(DIST).zip
+	@rm -rf $(TTF) $(PDF)
