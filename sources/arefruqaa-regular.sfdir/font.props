@@ -52,6 +52,7 @@ Lookup: 2 9 0 "'isol' Isolated Forms in Arabic lookup 0"  {"'isol' Isolated Form
 Lookup: 2 9 0 "'init' Initial Forms in Arabic lookup 1"  {"'init' Initial Forms in Arabic lookup 1 subtable"  } ['init' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 2 9 0 "'fina' Terminal Forms in Arabic lookup 2"  {"'fina' Terminal Forms in Arabic lookup 2 subtable"  } ['fina' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 2 0 0 "'medi' Medial Forms in Arabic lookup 3"  {"'medi' Medial Forms in Arabic lookup 3 subtable"  } ['medi' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 1 8 0 "'locl' Localized Forms in Arabic lookup 52"  {"'locl' Localized Forms in Arabic lookup 52 subtable"  } ['locl' ('arab' <'URD ' > ) ]
 Lookup: 4 1 0 "'ccmp' Glyph Composition/Decomposition in Arabic lookup 4"  {"'ccmp' Glyph Composition/Decomposition in Arabic lookup 4 subtable"  } ['ccmp' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 5"  {"'calt' Contextual Alternates in Arabic lookup 5 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 6 9 0 "'calt' Contextual Alternates in Arabic lookup 6"  {"'calt' Contextual Alternates in Arabic lookup 6 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
