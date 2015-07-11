@@ -1,5 +1,5 @@
 StartChar: __.notdef_47
-Encoding: 65615 -1 198
+Encoding: 65615 -1 183
 Width: 717
 GlyphClass: 2
 Flags: W
@@ -11,5 +11,5 @@ AnchorPoint: "Cursive-6" 621 828 entry 0
 AnchorPoint: "Anchor-16" 650 50 basechar 0
 LayerCount: 2
 Fore
-Refer: 197 -1 N 1 0 0 1 0 0 2
+Refer: 182 -1 N 1 0 0 1 0 0 2
 EndChar

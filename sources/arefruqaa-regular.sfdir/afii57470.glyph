@@ -1,10 +1,10 @@
 StartChar: afii57470
-Encoding: 1607 1607 66
+Encoding: 1607 1607 63
 Width: 506
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 203 -1 N 1 0 0 1 0 0 3
+Refer: 188 -1 N 1 0 0 1 0 0 3
 MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" __.notdef_56
 MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" __.notdef_53
 MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" __.notdef_54

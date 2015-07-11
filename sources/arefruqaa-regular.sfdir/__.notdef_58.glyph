@@ -1,5 +1,5 @@
 StartChar: __.notdef_58
-Encoding: 65626 -1 209
+Encoding: 65626 -1 194
 Width: 1007
 GlyphClass: 2
 Flags: W
@@ -10,7 +10,7 @@ AnchorPoint: "Anchor-14" 810 1296 basechar 0
 AnchorPoint: "Cursive-5" 873 531 entry 0
 LayerCount: 2
 Fore
-Refer: 208 -1 N 1 0 0 1 0 0 2
+Refer: 193 -1 N 1 0 0 1 0 0 2
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" _.notdef_65 dx=0 dy=0 dh=0 dv=0 dx=275 dy=175 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" __.notdef_50 dx=0 dy=0 dh=0 dv=0 dx=275 dy=175 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" _.notdef_36 dx=0 dy=0 dh=0 dv=0 dx=275 dy=175 dh=0 dv=0

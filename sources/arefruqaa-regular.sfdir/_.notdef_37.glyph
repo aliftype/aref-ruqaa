@@ -1,5 +1,5 @@
 StartChar: _.notdef_37
-Encoding: 65605 -1 188
+Encoding: 65605 -1 173
 Width: 1300
 GlyphClass: 2
 Flags: W
@@ -10,6 +10,6 @@ AnchorPoint: "Anchor-14" 882 1359 basechar 0
 AnchorPoint: "Cursive-5" 1071 648 entry 0
 LayerCount: 2
 Fore
-Refer: 187 -1 N 1 0 0 1 0 0 2
+Refer: 172 -1 N 1 0 0 1 0 0 2
 MultipleSubs2: "'jalt' Justification Alternatives in Arabic lookup 27 subtable" _.notdef_310 noqtatan_A
 EndChar

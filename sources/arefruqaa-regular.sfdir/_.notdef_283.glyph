@@ -1,5 +1,5 @@
 StartChar: _.notdef_283
-Encoding: 65851 -1 434
+Encoding: 65851 -1 419
 Width: 707
 GlyphClass: 2
 Flags: W
@@ -11,5 +11,5 @@ AnchorPoint: "Anchor-14" 855 1341 basechar 0
 AnchorPoint: "Anchor-15" 918 1395 basechar 0
 LayerCount: 2
 Fore
-Refer: 386 -1 N 1 0 0 1 0 0 2
+Refer: 371 -1 N 1 0 0 1 0 0 2
 EndChar

@@ -1,5 +1,5 @@
 StartChar: _.notdef_323
-Encoding: 65901 -1 484
+Encoding: 65901 -1 459
 Width: 2111
 GlyphClass: 2
 Flags: W
@@ -62,5 +62,5 @@ SplineSet
  1266 903 1266 903 1264 899 c 1,91,-1
  1249 886 l 1,0,1
 EndSplineSet
-Refer: 463 -1 N 1 0 0 1 0 0 2
+Refer: 438 -1 N 1 0 0 1 0 0 2
 EndChar

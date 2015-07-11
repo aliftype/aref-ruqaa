@@ -1,11 +1,11 @@
 StartChar: afii57417
-Encoding: 1577 1577 41
+Encoding: 1577 1577 38
 Width: 506
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 213 -1 N 1 0 0 1 0 0 3
-Refer: 109 -1 N 1 0 0 1 297 1143 2
+Refer: 188 -1 N 1 0 0 1 0 0 3
+Refer: 106 -1 N 1 0 0 1 297 1143 2
 MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" __.notdef_53 noqtatan_A
 MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" __.notdef_52 noqtatan_A
 EndChar

@@ -1,10 +1,10 @@
 StartChar: uni06BE
-Encoding: 1726 1726 84
+Encoding: 1726 1726 81
 Width: 1518
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 230 -1 N 1 0 0 1 0 0 3
+Refer: 205 -1 N 1 0 0 1 0 0 3
 MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" __.notdef_55
 MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" _.notdef_70
 MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" __.notdef_54

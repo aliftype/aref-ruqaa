@@ -1,11 +1,11 @@
 StartChar: uni06C0
-Encoding: 1728 1728 82
+Encoding: 1728 1728 79
 Width: 506
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 203 -1 N 1 0 0 1 0 0 3
-Refer: 97 1620 N 1 0 0 1 297 1143 2
+Refer: 188 -1 N 1 0 0 1 0 0 3
+Refer: 94 1620 N 1 0 0 1 297 1143 2
 MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" __.notdef_53 uni0654
 MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" __.notdef_52 uni0654
 EndChar
