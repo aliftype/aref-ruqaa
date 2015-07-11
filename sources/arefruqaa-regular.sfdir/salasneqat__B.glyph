@@ -3,7 +3,8 @@ Encoding: 65553 -1 110
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "Anchor-17" 0 0 mark 0
+AnchorPoint: "Anchor-20" 0 100 mark 0
+AnchorPoint: "Anchor-17" 0 100 mark 0
 LayerCount: 2
 Fore
 SplineSet

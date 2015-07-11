@@ -7,6 +7,7 @@ AnchorPoint: "Anchor-16" 603 -1116 basechar 0
 AnchorPoint: "Anchor-15" 630 1513 basechar 0
 AnchorPoint: "Anchor-14" 666 1512 basechar 0
 AnchorPoint: "Anchor-17" 783 50 basechar 0
+AnchorPoint: "Anchor-20" 783 150 basechar 0
 LayerCount: 2
 Fore
 SplineSet
