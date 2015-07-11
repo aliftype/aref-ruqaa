@@ -1,0 +1,11 @@
+StartChar: uni066F
+Encoding: 1647 1647 467
+Width: 1004
+LayerCount: 2
+Fore
+Refer: 468 -1 N 1 0 0 1 0 0 3
+MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" _.notdef_35
+MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" _.notdef_328
+MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" _.notdef_34
+MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" _.notdef_327
+EndChar
