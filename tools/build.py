@@ -9,9 +9,9 @@ except ImportError:
     import fontforge
 
 arabic = fontforge.open(sys.argv[1])
-arabic.em = 1000
 
 latin = fontforge.open(sys.argv[1].replace("arefruqaa", "eulertext"))
+latin.em = arabic.em
 
 for glyph in arabic.glyphs():
     if glyph.unicode < 0x0600 and glyph.unicode != -1 and glyph.unicode != ord(" "):
