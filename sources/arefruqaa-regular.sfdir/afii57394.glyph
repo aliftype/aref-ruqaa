@@ -33,4 +33,5 @@ SplineSet
  534 1177 l 2,44,45
  536 1175 536 1175 536 1172 c 2,0,-1
 EndSplineSet
+Substitution2: "'cv00' Character Variants 00 in Arabic lookup 53 subtable" uni06F2
 EndChar
