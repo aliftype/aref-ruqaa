@@ -22,7 +22,7 @@ doc: $(PDF)
 
 arefruqaa-%.ttf: $(SRC)/arefruqaa-%.sfdir $(SRC)/eulertext-%.sfdir Makefile $(BUILD)
 	@echo "   FF	$@"
-	@$(PY) $(BUILD) $< $@ $(VERSION)
+	@$(PY) $(BUILD) $(VERSION) $@ $+
 
 $(DOC)/$(NAME)-table.pdf: $(NAME)-regular.ttf
 	@echo "   GEN	$@"

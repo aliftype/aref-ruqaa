@@ -8,9 +8,14 @@ try:
 except ImportError:
     import fontforge
 
-arabic = fontforge.open(sys.argv[1])
+version = sys.argv[1]
+outfilename = sys.argv[2]
+arabicfilename = sys.argv[3]
+latinfilename = sys.argv[4]
 
-latin = fontforge.open(sys.argv[1].replace("arefruqaa", "eulertext"))
+arabic = fontforge.open(arabicfilename)
+
+latin = fontforge.open(latinfilename)
 latin.em = arabic.em
 
 for glyph in arabic.glyphs():
@@ -24,7 +29,7 @@ for glyph in latin.glyphs():
 arabic.mergeFonts(latin)
 
 # Set metadata
-arabic.version = sys.argv[3]
+arabic.version = version
 years = datetime.now().year == 2015 and 2015 or "2015-%s" % datetime.now().year
 
 arabic.copyright = ". ".join(["Portions copyright © %s, Khaled Hosny (<khaledhosny@eglug.org>)",
@@ -43,4 +48,4 @@ arabic.appendSFNTName(en, "Descriptor", "Aref Ruqaa is an Arabic typeface that a
 the classical Ruqaa calligraphic style.")
 arabic.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
 
-arabic.generate(sys.argv[2], flags=("round", "opentype", "short-post"))
+arabic.generate(outfilename, flags=("round", "opentype", "short-post"))
