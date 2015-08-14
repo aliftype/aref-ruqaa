@@ -101,7 +101,7 @@ Lookup: 1 8 0 "'ss01' Style Set 1 in Arabic lookup 48"  {"'ss01' Style Set 1 in 
 Lookup: 1 8 0 "'ss02' Style Set 2 in Arabic lookup 49"  {"'ss02' Style Set 2 in Arabic lookup 49 subtable"  } ['ss02' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 1 8 0 "'ss03' Style Set 3 in Arabic lookup 50"  {"'ss03' Style Set 3 in Arabic lookup 50 subtable"  } ['ss03' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 1 8 0 "'ss04' Style Set 4 in Arabic lookup 51"  {"'ss04' Style Set 4 in Arabic lookup 51 subtable"  } ['ss04' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
-Lookup: 1 0 0 "'cv01' Character Variants 01 in Arabic lookup 53"  {"'cv01' Character Variants 01 in Arabic lookup 53 subtable"  } ['cv01' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 1 0 0 "'ss05' Style Set 5 in Arabic lookup 53"  {"'ss05' Style Set 5 in Arabic lookup 53 subtable"  } ['ss05' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 0"  {"'curs' Cursive Attachment in Arabic lookup 0 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 1"  {"'curs' Cursive Attachment in Arabic lookup 1 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 259 8 0 "'curs' Cursive Attachment in Arabic lookup 2"  {"'curs' Cursive Attachment in Arabic lookup 2 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
@@ -380,6 +380,7 @@ OtfFeatName: 'ss01' 1033 "Looped Haa"
 OtfFeatName: 'ss02' 1033 "Open final Haa" 
 OtfFeatName: 'ss03' 1033 "Tailed Noon" 
 OtfFeatName: 'ss04' 1033 "Looped initial Kaf" 
+OtfFeatName: 'ss05' 1033 "Alternate Arabic digit two" 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
