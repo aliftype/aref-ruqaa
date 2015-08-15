@@ -38,5 +38,11 @@ ttx: $(TTF)
 	 )
 	@rm -f temp.ttx
 
+crunch: $(TTF)
+	@$(foreach ttf, $(TTF), \
+	     echo "   FC	"$(ttf); \
+	     font-crunch -q -j8 $(ttf); \
+	 )
+
 clean:
 	@rm -rf $(TTF) $(PDF)
