@@ -31,5 +31,12 @@ $(DOC)/$(NAME)-table.pdf: $(NAME)-regular.ttf
 	@pdfoutline $@.tmp $@.txt $@
 	@rm -f $@.tmp $@.txt
 
+ttx: $(TTF)
+	@$(foreach ttf, $(TTF), \
+	     echo "   TTX	"$(ttf); \
+	     ttx -q -o temp.ttx $(ttf) && ttx -q -o $(ttf) temp.ttx; \
+	 )
+	@rm -f temp.ttx
+
 clean:
 	@rm -rf $(TTF) $(PDF)
