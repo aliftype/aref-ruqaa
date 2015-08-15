@@ -28,8 +28,9 @@ $(DOC)/$(NAME)-table.pdf: $(NAME)-regular.ttf
 	@echo "   GEN	$@"
 	@mkdir -p $(DOC)
 	@fntsample --font-file $< --output-file $@.tmp --print-outline > $@.txt
-	@pdfoutline $@.tmp $@.txt $@
-	@rm -f $@.tmp $@.txt
+	@pdfoutline $@.tmp $@.txt $@.comp
+	@pdftk $@.comp output $@ uncompress
+	@rm -f $@.tmp $@.comp $@.txt
 
 ttx: $(TTF)
 	@$(foreach ttf, $(TTF), \
