@@ -1,8 +1,9 @@
 StartChar: _.notdef_312
 Encoding: 65880 -1 448
-Width: 2219
+Width: 1632
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Cursive-12" 1598 766 entry 0
 AnchorPoint: "Anchor-15" 0 0 basechar 0
 AnchorPoint: "Anchor-16" 873 -333 basechar 0
 AnchorPoint: "Anchor-17" 1044 -279 basechar 0
