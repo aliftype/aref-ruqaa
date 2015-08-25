@@ -57,7 +57,7 @@ Lookup: 1 8 0 "'locl' Localized Forms in Arabic lookup 52"  {"'locl' Localized F
 Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 5"  {"'calt' Contextual Alternates in Arabic lookup 5 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 6"  {"'calt' Contextual Alternates in Arabic lookup 6 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 7"  {"'calt' Contextual Alternates in Arabic lookup 7 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
-Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 8"  {"'calt' Contextual Alternates in Arabic lookup 8 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 8"  {"'calt' Contextual Alternates in Arabic lookup 8 contextual 0"  "'calt' Contextual Alternates in Arabic lookup 8 contextual 1"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 9"  {"'calt' Contextual Alternates in Arabic lookup 9 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 10"  {"'calt' Contextual Alternates in Arabic lookup 10 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 11"  {"'calt' Contextual Alternates in Arabic lookup 11 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
@@ -76,6 +76,7 @@ Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 23"  {"'calt' Conte
 Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 26"  {"'calt' Contextual Alternates in Arabic lookup 26 contextual 0"  "'calt' Contextual Alternates in Arabic lookup 26 contextual 1"  "'calt' Contextual Alternates in Arabic lookup 26 contextual 2"  "'calt' Contextual Alternates in Arabic lookup 26 contextual 3"  "'calt' Contextual Alternates in Arabic lookup 26 contextual 4"  "'calt' Contextual Alternates in Arabic lookup 26 contextual 5"  "'calt' Contextual Alternates in Arabic lookup 26 contextual 6"  "'calt' Contextual Alternates in Arabic lookup 26 contextual 7"  "'calt' Contextual Alternates in Arabic lookup 26 contextual 8"  "'calt' Contextual Alternates in Arabic lookup 26 contextual 9"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 28"  {"'calt' Contextual Alternates in Arabic lookup 28 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 24"  {"'calt' Contextual Alternates in Arabic lookup 24 contextual 0"  "'calt' Contextual Alternates in Arabic lookup 24 contextual 1"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
+Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 25"  {"'calt' Contextual Alternates in Arabic lookup 25 subtable"  } ['calt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 2 8 0 "'jalt' Justification Alternatives in Arabic lookup 27"  {"'jalt' Justification Alternatives in Arabic lookup 27 subtable"  } ['jalt' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 28"  {"Single Substitution lookup 28 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 29"  {"Single Substitution lookup 29 subtable"  } []
@@ -98,6 +99,7 @@ Lookup: 1 0 0 "Single Substitution lookup 45"  {"Single Substitution lookup 45 s
 Lookup: 1 0 0 "Single Substitution lookup 46"  {"Single Substitution lookup 46 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 47"  {"Single Substitution lookup 47 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 48"  {"Single Substitution lookup 48 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 53"  {"Single Substitution lookup 53 subtable"  } []
 Lookup: 6 8 0 "'calt' Contextual Alternates in Arabic lookup 51"  {"'calt' Contextual Alternates in Arabic lookup 51 subtable"  } ['calt' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 1 8 0 "'ss01' Style Set 1 in Arabic lookup 48"  {"'ss01' Style Set 1 in Arabic lookup 48 subtable"  } ['ss01' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 1 8 0 "'ss02' Style Set 2 in Arabic lookup 49"  {"'ss02' Style Set 2 in Arabic lookup 49 subtable"  } ['ss02' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
@@ -129,6 +131,13 @@ Lookup: 261 0 0 "'mark' Mark Positioning in Arabic lookup 19"  {"'mark' Mark Pos
 Lookup: 258 8 0 "'calt' Contextual Alternates in Arabic lookup 52"  {"'calt' Contextual Alternates in Arabic lookup 52-1" [307,30,4] } ['calt' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 25 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 281 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 _.notdef_68
+  FCoverage: 11 _.notdef_72
+ 1
+  SeqLookup: 0 "Single Substitution lookup 53" 
+EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 28 subtable"  0 0 0 1
  1 1 0
   Coverage: 12 _.notdef_293
@@ -439,7 +448,14 @@ ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 9 subtable"  
  1
   SeqLookup: 0 "Single Substitution lookup 32" 
 EndFPST
-ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 8 subtable"  0 0 0 1
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 8 contextual 0"  0 0 0 1
+ 1 0 2
+  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
+  FCoverage: 305 _.notdef_21 _.notdef_23 _.notdef_25 _.notdef_27 _.notdef_88 _.notdef_89 _.notdef_112 _.notdef_113 _.notdef_136 _.notdef_137 _.notdef_160 _.notdef_161 _.notdef_184 _.notdef_185 _.notdef_208 _.notdef_209 _.notdef_232 _.notdef_233 _.notdef_256 _.notdef_257 _.notdef_280 _.notdef_281 _.notdef_308 _.notdef_319
+  FCoverage: 23 _.notdef_71 _.notdef_72
+ 0
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 8 contextual 1"  0 0 0 1
  1 0 1
   Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
   FCoverage: 305 _.notdef_21 _.notdef_23 _.notdef_25 _.notdef_27 _.notdef_88 _.notdef_89 _.notdef_112 _.notdef_113 _.notdef_136 _.notdef_137 _.notdef_160 _.notdef_161 _.notdef_184 _.notdef_185 _.notdef_208 _.notdef_209 _.notdef_232 _.notdef_233 _.notdef_256 _.notdef_257 _.notdef_280 _.notdef_281 _.notdef_308 _.notdef_319

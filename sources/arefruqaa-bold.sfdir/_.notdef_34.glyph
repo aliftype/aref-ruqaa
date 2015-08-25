@@ -49,6 +49,7 @@ SplineSet
  640 314 640 314 595 265 c 1,54,-1
  595 266 l 1,0,1
 EndSplineSet
+Substitution2: "Single Substitution lookup 53 subtable" _.notdef_336
 PairPos2: "'calt' Contextual Alternates in Arabic lookup 52-1" _.notdef_290 dx=120 dy=0 dh=120 dv=0 dx=0 dy=0 dh=0 dv=0
 Substitution2: "Single Substitution lookup 36 subtable" _.notdef_271
 Substitution2: "Single Substitution lookup 35 subtable" _.notdef_247

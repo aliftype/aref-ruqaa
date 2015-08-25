@@ -13,6 +13,7 @@ AnchorPoint: "Anchor-14" 576 1053 basechar 0
 LayerCount: 2
 Fore
 Refer: 184 -1 N 1 0 0 1 0 0 2
+Substitution2: "Single Substitution lookup 53 subtable" _.notdef_350
 Substitution2: "Single Substitution lookup 36 subtable" _.notdef_286
 Substitution2: "Single Substitution lookup 35 subtable" _.notdef_262
 Substitution2: "Single Substitution lookup 34 subtable" _.notdef_238
