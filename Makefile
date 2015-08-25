@@ -8,6 +8,7 @@ DIST=$(NAME)-$(VERSION)
 
 PY=python2.7
 BUILD=$(TOOLS)/build.py
+COMPOSE=$(TOOLS)/build-encoded-glyphs.py
 
 FONTS=regular bold
 
@@ -31,6 +32,12 @@ $(DOC)/$(NAME)-table.pdf: $(NAME)-regular.ttf
 	@pdfoutline $@.tmp $@.txt $@.comp
 	@pdftk $@.comp output $@ uncompress
 	@rm -f $@.tmp $@.comp $@.txt
+
+build-encoded-glyphs: $(SFD)
+	@$(foreach sfd, $(SFD), \
+	     echo "   CMP	"`basename $(sfd)`; \
+	     $(PY) $(COMPOSE) $(sfd); \
+	  )
 
 ttx: $(TTF)
 	@$(foreach ttf, $(TTF), \
