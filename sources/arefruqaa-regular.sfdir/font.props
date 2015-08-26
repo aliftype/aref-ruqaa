@@ -484,12 +484,12 @@ ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 5 subtable"  
   SeqLookup: 0 "Single Substitution lookup 28" 
 EndFPST
 GaspTable: 1 65535 2 0
-OtfFeatName: 'ss01' 1033 "Looped Haa" 
-OtfFeatName: 'ss02' 1033 "Open final Haa" 
-OtfFeatName: 'ss03' 1033 "Tailed Noon" 
-OtfFeatName: 'ss04' 1033 "Looped initial Kaf" 
-OtfFeatName: 'ss05' 1033 "Alternate Arabic digit two" 
 OtfFeatName: 'ss06' 1033 "Tailed Sheen" 
+OtfFeatName: 'ss05' 1033 "Alternate Arabic digit two" 
+OtfFeatName: 'ss04' 1033 "Looped initial Kaf" 
+OtfFeatName: 'ss03' 1033 "Tailed Noon" 
+OtfFeatName: 'ss02' 1033 "Open final Haa" 
+OtfFeatName: 'ss01' 1033 "Looped Haa" 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts

@@ -1,9 +1,9 @@
 StartChar: uni066F
-Encoding: 1647 1647 467
+Encoding: 1647 1647 466
 Width: 1000
 LayerCount: 2
 Fore
-Refer: 468 -1 N 1 0 0 1 0 0 3
+Refer: 467 -1 N 1 0 0 1 0 0 3
 MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" arFeh.medi
 MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" arQaf.fina2
 MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" arFeh.init
