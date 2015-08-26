@@ -1,0 +1,36 @@
+StartChar: arHeh.medi.5
+Encoding: 65745 -1 328
+Width: 792
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-17" 0 0 basechar 0
+AnchorPoint: "Anchor-15" 0 0 basechar 0
+AnchorPoint: "Cursive-9" 0 0 exit 0
+AnchorPoint: "Cursive-11" 693 36 entry 0
+AnchorPoint: "Anchor-16" 738 -900 basechar 0
+AnchorPoint: "Anchor-14" 900 855 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+791 -473 m 1,0,1
+ 789 -476 789 -476 787.5 -479.5 c 128,-1,2
+ 786 -483 786 -483 785 -486 c 0,3,4
+ 726 -609 726 -609 707 -556 c 128,-1,5
+ 688 -503 688 -503 699 -376 c 2,6,-1
+ 737 98 l 1,7,8
+ 585 59 585 59 429.5 24 c 128,-1,9
+ 274 -11 274 -11 115 4 c 0,10,11
+ 72 8 72 8 37 31 c 128,-1,12
+ 2 54 2 54 0 99 c 1,13,14
+ 39 252 39 252 80 360 c 1,15,16
+ 95 307 95 307 158.5 285.5 c 128,-1,17
+ 222 264 222 264 309 264 c 1,18,19
+ 444 262 444 262 596 297.5 c 128,-1,20
+ 748 333 748 333 868 381 c 1,21,22
+ 896 399 896 399 890 369 c 1,23,-1
+ 805 -226 l 1,24,-1
+ 821 -194 l 1,25,-1
+ 791 -473 l 1,0,1
+EndSplineSet
+Substitution2: "'ss01' Style Set 1 in Arabic lookup 48 subtable" arHeh.medi2.5
+EndChar

@@ -1,0 +1,68 @@
+StartChar: arHeh.init2
+Encoding: 65621 -1 204
+Width: 812
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-5" 0 0 exit 0
+AnchorPoint: "Cursive-0" 0 0 exit 0
+AnchorPoint: "Anchor-15" 450 1134 basechar 0
+AnchorPoint: "Anchor-16" 495 -711 basechar 0
+AnchorPoint: "Anchor-17" 513 -576 basechar 0
+AnchorPoint: "Anchor-14" 585 1170 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+547 670 m 1,0,-1
+ 704 902 l 1,1,-1
+ 728 847 l 2,2,3
+ 751 792 751 792 760 704 c 0,4,5
+ 762 679 762 679 762 654 c 0,6,7
+ 762 585 762 585 745 505 c 0,8,9
+ 721 394 721 394 628 283 c 0,10,11
+ 608 260 608 260 588 240 c 1,12,13
+ 582 216 582 216 571 194 c 128,-1,14
+ 560 172 560 172 554 151 c 1,15,16
+ 536 99 536 99 524 35 c 0,17,18
+ 521 21 521 21 521 7 c 0,19,20
+ 521 -39 521 -39 553 -74 c 0,21,22
+ 574 -97 574 -97 609 -97 c 0,23,24
+ 619 -97 619 -97 632 -94 c 0,25,26
+ 682 -85 682 -85 710 -63 c 0,27,28
+ 728 -48 728 -48 743 -28 c 128,-1,29
+ 758 -8 758 -8 774 11 c 1,30,31
+ 762 -49 762 -49 749.5 -113.5 c 128,-1,32
+ 737 -178 737 -178 708 -229 c 1,33,34
+ 681 -274 681 -274 645 -316.5 c 128,-1,35
+ 609 -359 609 -359 548 -368 c 0,36,37
+ 540 -369 540 -369 532 -369 c 0,38,39
+ 496 -369 496 -369 475 -345 c 0,40,41
+ 449 -316 449 -316 437 -282 c 0,42,43
+ 414 -219 414 -219 414 -156 c 0,44,45
+ 414 -94 414 -94 437 -33 c 0,46,47
+ 481 89 481 89 527 177 c 1,48,49
+ 533 191 533 191 537 198 c 1,50,51
+ 509 178 509 178 475 159 c 0,52,53
+ 436 138 436 138 346 105.5 c 128,-1,54
+ 256 73 256 73 205 58 c 2,55,-1
+ 0 0 l 1,56,-1
+ 46 273 l 1,57,58
+ 160 297 160 297 211.5 308 c 128,-1,59
+ 263 319 263 319 314 330 c 0,60,61
+ 392 348 392 348 473 373 c 128,-1,62
+ 554 398 554 398 611 422 c 1,63,-1
+ 610 422 l 1,64,-1
+ 610 426 l 2,65,66
+ 610 464 610 464 590 535 c 1,67,68
+ 568 608 568 608 547 670 c 1,0,-1
+EndSplineSet
+Substitution2: "Single Substitution lookup 28 subtable" arHeh.init2.1
+Substitution2: "Single Substitution lookup 29 subtable" arHeh.init2.2
+Substitution2: "Single Substitution lookup 30 subtable" arHeh.init2.3
+Substitution2: "Single Substitution lookup 31 subtable" arHeh.init2.4
+Substitution2: "Single Substitution lookup 32 subtable" arHeh.init2.5
+Substitution2: "Single Substitution lookup 33 subtable" arHeh.init2.6
+Substitution2: "Single Substitution lookup 34 subtable" arHeh.init2.7
+Substitution2: "Single Substitution lookup 35 subtable" arHeh.init2.8
+Substitution2: "Single Substitution lookup 36 subtable" arHeh.init2.9
+Substitution2: "Single Substitution lookup 53 subtable" arHeh.init2.10
+EndChar

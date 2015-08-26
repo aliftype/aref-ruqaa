@@ -5,6 +5,6 @@ GlyphClass: 2
 LayerCount: 2
 Fore
 Refer: 150 -1 N 1 0 0 1 0 0 3
-MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" _.notdef_15
-MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" _.notdef_14
+MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" arReh.fina
+MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" arReh.isol
 EndChar

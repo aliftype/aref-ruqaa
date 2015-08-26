@@ -6,6 +6,6 @@ LayerCount: 2
 Fore
 Refer: 150 -1 N 1 0 0 1 0 0 3
 Refer: 105 -1 N 1 0 0 1 738 936 2
-MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" _.notdef_15 noqta_A
-MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" _.notdef_14 noqta_A
+MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" arReh.fina ar1Noqta.above
+MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" arReh.isol ar1Noqta.above
 EndChar

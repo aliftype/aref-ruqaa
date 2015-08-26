@@ -6,8 +6,8 @@ LayerCount: 2
 Fore
 Refer: 156 -1 N 1 0 0 1 0 0 3
 Refer: 105 -1 N 1 0 0 1 1250 1600 2
-MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" _.notdef_23 noqta_A
-MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" _.notdef_21 noqta_A
-MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" _.notdef_22 noqta_A
-MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" _.notdef_20 noqta_A
+MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" arSad.medi ar1Noqta.above
+MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" arSad.fina ar1Noqta.above
+MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" arSad.init ar1Noqta.above
+MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" arSad.isol ar1Noqta.above
 EndChar

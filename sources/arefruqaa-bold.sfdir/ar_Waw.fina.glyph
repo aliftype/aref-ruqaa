@@ -1,0 +1,22 @@
+StartChar: arWaw.fina
+Encoding: 65611 -1 194
+Width: 1007
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-17" 513 -207 basechar 0
+AnchorPoint: "Anchor-16" 590 -350 basechar 0
+AnchorPoint: "Anchor-15" 790 1242 basechar 0
+AnchorPoint: "Anchor-14" 810 1296 basechar 0
+AnchorPoint: "Cursive-5" 873 531 entry 0
+LayerCount: 2
+Fore
+Refer: 193 -1 N 1 0 0 1 0 0 2
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arNoon.isol2 dx=0 dy=0 dh=0 dv=0 dx=275 dy=175 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arNoon.isol dx=0 dy=0 dh=0 dv=0 dx=275 dy=175 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arQaf.isol dx=0 dy=0 dh=0 dv=0 dx=275 dy=175 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arAin.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arTah.isol dx=0 dy=0 dh=0 dv=0 dx=540 dy=440 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arSad.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arSeen.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arHah.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+EndChar

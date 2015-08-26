@@ -6,8 +6,8 @@ LayerCount: 2
 Fore
 Refer: 199 -1 N 1 0 0 1 0 0 3
 Refer: 111 -1 N 1 0 0 1 1422 1872 2
-MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" __.notdef_41 sharet_kaf
-MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" _.notdef_64 sharet_kaf
-MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" __.notdef_40 sharet_kaf
-MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" _.notdef_63 sharet_kaf
+MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" arKaf.medi arSharta.kaf
+MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" arGaf.fina arSharta.kaf
+MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" arKaf.init arSharta.kaf
+MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" arGaf.isol arSharta.kaf
 EndChar

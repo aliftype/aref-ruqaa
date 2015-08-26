@@ -1,0 +1,49 @@
+StartChar: arWaw.isol
+Encoding: 65610 -1 193
+Width: 1007
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-17" 459 -189 basechar 0
+AnchorPoint: "Anchor-16" 590 -350 basechar 0
+AnchorPoint: "Anchor-15" 790 1242 basechar 0
+AnchorPoint: "Anchor-14" 810 1296 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+470 17 m 1,0,1
+ 377 0 377 0 281 0 c 0,2,3
+ 261 0 261 0 240 1 c 0,4,5
+ 123 5 123 5 11 17 c 1,6,7
+ 0 17 0 17 0 29 c 0,8,9
+ 0 40 0 40 9 46 c 0,10,11
+ 168 134 168 134 347 202.5 c 128,-1,12
+ 526 271 526 271 703 343 c 0,13,14
+ 794 379 794 379 859 452 c 0,15,16
+ 864 459 864 459 864 470 c 0,17,18
+ 864 478 864 478 862 488 c 0,19,20
+ 856 513 856 513 845 529 c 1,21,22
+ 809 520 809 520 769 520 c 0,23,24
+ 754 520 754 520 739 522 c 0,25,26
+ 682 526 682 526 656 556 c 1,27,28
+ 633 581 633 581 633 614 c 0,29,30
+ 633 644 633 644 652 681 c 0,31,32
+ 686 747 686 747 717 818 c 128,-1,33
+ 748 889 748 889 797 944 c 0,34,35
+ 813 962 813 962 834 962 c 0,36,37
+ 844 962 844 962 855 958 c 0,38,39
+ 890 945 890 945 908 927 c 0,40,41
+ 1003 830 1003 830 1003 694 c 2,42,-1
+ 1003 681 l 1,43,44
+ 998 536 998 536 925.5 397.5 c 128,-1,45
+ 853 259 853 259 730.5 151.5 c 128,-1,46
+ 608 44 608 44 470 17 c 1,0,1
+EndSplineSet
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arNoon.isol2 dx=0 dy=0 dh=0 dv=0 dx=275 dy=175 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arNoon.isol dx=0 dy=0 dh=0 dv=0 dx=275 dy=175 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arQaf.isol dx=0 dy=0 dh=0 dv=0 dx=275 dy=175 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arAin.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arTah.isol dx=0 dy=0 dh=0 dv=0 dx=540 dy=440 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arSad.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arSeen.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arHah.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+EndChar

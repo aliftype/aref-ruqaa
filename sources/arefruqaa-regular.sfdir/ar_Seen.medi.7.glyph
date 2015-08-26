@@ -1,0 +1,17 @@
+StartChar: arSeen.medi.7
+Encoding: 65784 -1 367
+Width: 847
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-17" 0 0 basechar 0
+AnchorPoint: "Cursive-6" 0 0 exit 0
+AnchorPoint: "Anchor-14" 909 1116 basechar 0
+AnchorPoint: "Anchor-15" 909 1224 basechar 0
+AnchorPoint: "Anchor-16" 918 -45 basechar 0
+AnchorPoint: "Cursive-13" 990 342 entry 0
+AnchorPoint: "Cursive-4" 990 342 entry 0
+AnchorPoint: "Cursive-0" 990 342 entry 0
+LayerCount: 2
+Fore
+Refer: 355 -1 N 1 0 0 1 0 0 2
+EndChar

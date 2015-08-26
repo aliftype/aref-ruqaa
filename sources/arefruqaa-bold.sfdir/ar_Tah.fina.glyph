@@ -1,0 +1,15 @@
+StartChar: arTah.fina
+Encoding: 65578 -1 161
+Width: 657
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-0" 0 0 exit 0
+AnchorPoint: "Cursive-1" 432 -402 entry 0
+AnchorPoint: "Anchor-17" 639 -297 basechar 0
+AnchorPoint: "Anchor-16" 648 -306 basechar 0
+AnchorPoint: "Anchor-14" 729 1449 basechar 0
+AnchorPoint: "Anchor-15" 1017 981 basechar 0
+LayerCount: 2
+Fore
+Refer: 160 -1 N 1 0 0 1 0 0 2
+EndChar

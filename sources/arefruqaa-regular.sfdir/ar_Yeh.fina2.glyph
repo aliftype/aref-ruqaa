@@ -1,0 +1,34 @@
+StartChar: arYeh.fina2
+Encoding: 65625 -1 208
+Width: 1432
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-0" 44 319 entry 0
+AnchorPoint: "Cursive-3" 44 319 entry 0
+AnchorPoint: "Cursive-13" 44 319 entry 0
+AnchorPoint: "Anchor-17" 1053 -261 basechar 0
+AnchorPoint: "Anchor-16" 1107 -378 basechar 0
+AnchorPoint: "Anchor-14" 1125 1332 basechar 0
+AnchorPoint: "Anchor-15" 1161 1287 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+137 323 m 1,0,1
+ 133 317 133 317 133 313 c 1,2,3
+ 288 262 288 262 456.5 272 c 128,-1,4
+ 625 282 625 282 755 313 c 0,5,6
+ 919 352 919 352 1067.5 416 c 128,-1,7
+ 1216 480 1216 480 1352 557 c 1,8,9
+ 1335 488 1335 488 1294 443.5 c 128,-1,10
+ 1253 399 1253 399 1209 360 c 0,11,12
+ 951 132 951 132 549 36 c 0,13,14
+ 501 24 501 24 414 10.5 c 128,-1,15
+ 327 -3 327 -3 239.5 -0.5 c 128,-1,16
+ 152 2 152 2 84.5 29.5 c 128,-1,17
+ 17 57 17 57 8 129 c 0,18,19
+ 0 193 0 193 12.5 270.5 c 128,-1,20
+ 25 348 25 348 40 385 c 1,21,22
+ 40 388 40 388 42 392 c 1,23,-1
+ 137 323 l 1,0,1
+EndSplineSet
+EndChar

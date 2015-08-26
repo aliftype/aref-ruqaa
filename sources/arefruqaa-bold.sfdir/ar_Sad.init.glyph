@@ -1,0 +1,82 @@
+StartChar: arSad.init
+Encoding: 65575 -1 158
+Width: 1477
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-5" 0 0 exit 0
+AnchorPoint: "Cursive-0" 0 0 exit 0
+AnchorPoint: "Anchor-17" 684 -396 basechar 0
+AnchorPoint: "Anchor-16" 792 -279 basechar 0
+AnchorPoint: "Anchor-15" 1035 1143 basechar 0
+AnchorPoint: "Anchor-14" 1044 1170 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+1115 466 m 1,0,1
+ 1101 489 1101 489 1063 501 c 0,2,3
+ 1055 503 1055 503 1047.5 504 c 128,-1,4
+ 1040 505 1040 505 1032 505 c 0,5,6
+ 1010 505 1010 505 990 495 c 0,7,8
+ 942 469 942 469 901 431.5 c 128,-1,9
+ 860 394 860 394 820 354 c 1,10,11
+ 904 371 904 371 980 392 c 128,-1,12
+ 1056 413 1056 413 1122 445 c 1,13,-1
+ 1122 445 l 1,14,15
+ 1122 446 1122 446 1122 446 c 1,16,17
+ 1120 454 1120 454 1115 466 c 1,0,1
+627 420 m 0,18,19
+ 623 408 623 408 619.5 399 c 128,-1,20
+ 616 390 616 390 611.5 379 c 128,-1,21
+ 607 368 607 368 601 352.5 c 128,-1,22
+ 595 337 595 337 585 313 c 1,23,24
+ 606 315 606 315 623 318 c 128,-1,25
+ 640 321 640 321 657 325 c 1,26,27
+ 740 422 740 422 828 515.5 c 128,-1,28
+ 916 609 916 609 1011 699 c 1,29,30
+ 1064 746 1064 746 1162 765 c 0,31,32
+ 1176 768 1176 768 1186.5 769 c 128,-1,33
+ 1197 770 1197 770 1207 770 c 0,34,35
+ 1282 770 1282 770 1328 715 c 1,36,37
+ 1370 662 1370 662 1370 608 c 0,38,39
+ 1370 573 1370 573 1350 531 c 1,40,-1
+ 1350 532 l 1,41,42
+ 1306 446 1306 446 1256 380 c 0,43,44
+ 1184 283 1184 283 1078.5 216 c 128,-1,45
+ 973 149 973 149 848 102 c 1,46,-1
+ 732 72 l 1,47,48
+ 649 49 649 49 581 39 c 0,49,50
+ 557 35 557 35 534.5 33 c 128,-1,51
+ 512 31 512 31 491 31 c 0,52,53
+ 466 31 466 31 448 34 c 0,54,55
+ 400 40 400 40 390 72 c 1,56,57
+ 357 60 357 60 316 50 c 128,-1,58
+ 275 40 275 40 227 31 c 0,59,60
+ 200 26 200 26 171 21.5 c 128,-1,61
+ 142 17 142 17 114 12.5 c 128,-1,62
+ 86 8 86 8 60.5 5 c 128,-1,63
+ 35 2 35 2 14 0 c 0,64,65
+ 1 -1 1 -1 -7 7.5 c 128,-1,66
+ -15 16 -15 16 -13 28 c 2,67,-1
+ 31 289 l 2,68,69
+ 33 297 33 297 39 302.5 c 128,-1,70
+ 45 308 45 308 53 309 c 0,71,72
+ 233 322 233 322 344.5 340 c 128,-1,73
+ 456 358 456 358 500 380 c 1,74,75
+ 524 395 524 395 543.5 416.5 c 128,-1,76
+ 563 438 563 438 574 466 c 1,77,78
+ 587 486 587 486 603 486 c 0,79,80
+ 630 486 630 486 630 451 c 0,81,82
+ 630 439 630 439 629 431 c 128,-1,83
+ 628 423 628 423 627 420 c 0,18,19
+EndSplineSet
+Substitution2: "Single Substitution lookup 53 subtable" arSad.init.10
+Substitution2: "Single Substitution lookup 36 subtable" arSad.init.9
+Substitution2: "Single Substitution lookup 35 subtable" arSad.init.8
+Substitution2: "Single Substitution lookup 34 subtable" arSad.init.7
+Substitution2: "Single Substitution lookup 33 subtable" arSad.init.6
+Substitution2: "Single Substitution lookup 32 subtable" arSad.init.5
+Substitution2: "Single Substitution lookup 31 subtable" arSad.init.4
+Substitution2: "Single Substitution lookup 30 subtable" arSad.init.3
+Substitution2: "Single Substitution lookup 29 subtable" arSad.init.2
+Substitution2: "Single Substitution lookup 28 subtable" arSad.init.1
+EndChar

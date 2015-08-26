@@ -5,8 +5,8 @@ GlyphClass: 2
 LayerCount: 2
 Fore
 Refer: 144 -1 N 1 0 0 1 0 0 3
-MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" _.notdef_11
-MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" _.notdef_9
-MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" _.notdef_10
-MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" _.notdef_8
+MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" arHah.medi
+MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" arHah.fina
+MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" arHah.init
+MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" arHah.isol
 EndChar

@@ -1,0 +1,36 @@
+StartChar: arKaf.medi.7
+Encoding: 65789 -1 372
+Width: 657
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-17" 0 0 basechar 0
+AnchorPoint: "Cursive-6" 0 350 exit 0
+AnchorPoint: "Cursive-4" 675 0 entry 0
+AnchorPoint: "Cursive-0" 675 0 entry 0
+AnchorPoint: "Anchor-16" 702 -324 basechar 0
+AnchorPoint: "Anchor-14" 801 1836 basechar 0
+AnchorPoint: "Anchor-15" 1017 1836 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+565 1026 m 1,0,-1
+ 698 1247 l 1,1,-1
+ 744 1413 l 1,2,3
+ 909 1509 909 1509 1057.5 1592 c 128,-1,4
+ 1206 1675 1206 1675 1372 1772 c 0,5,6
+ 1400 1788 1400 1788 1393 1759 c 2,7,-1
+ 1327 1520 l 1,8,9
+ 1168 1427 1168 1427 1024.5 1346.5 c 128,-1,10
+ 881 1266 881 1266 725 1175 c 1,11,-1
+ 804 221 l 1,12,-1
+ 657 0 l 1,13,-1
+ 593 715 l 1,14,15
+ 347 631 347 631 248 571.5 c 128,-1,16
+ 149 512 149 512 32 329 c 0,17,18
+ 22 314 22 314 8 315 c 128,-1,19
+ -6 316 -6 316 4 350 c 0,20,21
+ 79 586 79 586 220 699.5 c 128,-1,22
+ 361 813 361 813 574 920 c 1,23,-1
+ 565 1026 l 1,0,-1
+EndSplineSet
+EndChar

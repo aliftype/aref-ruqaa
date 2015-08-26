@@ -6,8 +6,8 @@ LayerCount: 2
 Fore
 Refer: 195 -1 N 1 0 0 1 0 0 3
 Refer: 94 1620 N 1 0 0 1 585 1269 2
-MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" _.notdef_7 uni0654
-MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" __.notdef_60 uni0654
-MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" _.notdef_6 uni0654
-MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" __.notdef_59 uni0654
+MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" arBeh.medi uni0654
+MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" arYeh.fina uni0654
+MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" arBeh.init uni0654
+MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" arYeh.isol uni0654
 EndChar

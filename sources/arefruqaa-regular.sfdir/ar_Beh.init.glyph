@@ -1,0 +1,39 @@
+StartChar: arBeh.init
+Encoding: 65559 -1 142
+Width: 604
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-5" 0 0 exit 0
+AnchorPoint: "Cursive-0" 0 0 exit 0
+AnchorPoint: "Anchor-16" 306 -351 basechar 0
+AnchorPoint: "Anchor-17" 387 -279 basechar 0
+AnchorPoint: "Anchor-14" 396 1080 basechar 0
+AnchorPoint: "Anchor-15" 446 1015 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+500 287 m 128,-1,1
+ 439 186 439 186 364 121 c 0,2,3
+ 298 63 298 63 210.5 37.5 c 128,-1,4
+ 123 12 123 12 0 0 c 1,5,-1
+ 45 256 l 1,6,-1
+ 47 256 l 1,7,8
+ 208 275 208 275 281.5 294 c 128,-1,9
+ 355 313 355 313 412 352 c 1,10,11
+ 411 394 411 394 359 573 c 1,12,-1
+ 516 805 l 1,13,14
+ 566 667 566 667 563.5 527.5 c 128,-1,0
+ 561 388 561 388 500 287 c 128,-1,1
+EndSplineSet
+Substitution2: "Single Substitution lookup 53 subtable" arBeh.init.11
+Substitution2: "Single Substitution lookup 44 subtable" arBeh.init.10
+Substitution2: "Single Substitution lookup 36 subtable" arBeh.init.9
+Substitution2: "Single Substitution lookup 35 subtable" arBeh.init.8
+Substitution2: "Single Substitution lookup 34 subtable" arBeh.init.7
+Substitution2: "Single Substitution lookup 33 subtable" arBeh.init.6
+Substitution2: "Single Substitution lookup 32 subtable" arBeh.init.5
+Substitution2: "Single Substitution lookup 31 subtable" arBeh.init.4
+Substitution2: "Single Substitution lookup 30 subtable" arBeh.init.3
+Substitution2: "Single Substitution lookup 29 subtable" arBeh.init.2
+Substitution2: "Single Substitution lookup 28 subtable" arBeh.init.1
+EndChar

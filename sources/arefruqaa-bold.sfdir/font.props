@@ -133,353 +133,353 @@ MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 25 subtable"  0 0 0 1
  1 0 1
-  Coverage: 281 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 _.notdef_68
-  FCoverage: 11 _.notdef_72
+  Coverage: 258 arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi arSad.init arSad.medi arTah.init arTah.medi arAin.init arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init arHeh.medi2 arHeh.init2
+  FCoverage: 11 arYeh.fina2
  1
   SeqLookup: 0 "Single Substitution lookup 53" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 28 subtable"  0 0 0 1
  1 1 0
-  Coverage: 12 _.notdef_293
-  BCoverage: 12 _.notdef_293
+  Coverage: 13 arBeh.medi.12
+  BCoverage: 13 arBeh.medi.12
  1
   SeqLookup: 0 "Single Substitution lookup 48" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 26 contextual 9"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 11 _.notdef_19
-  FCoverage: 12 _.notdef_157
+  Coverage: 10 arBeh.medi
+  BCoverage: 11 arSeen.medi
+  FCoverage: 12 arBeh.medi.4
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 26 contextual 8"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 11 _.notdef_23
-  FCoverage: 10 _.notdef_7
+  Coverage: 10 arBeh.medi
+  BCoverage: 10 arSad.medi
+  FCoverage: 10 arBeh.medi
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 26 contextual 7"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 11 _.notdef_22
-  FCoverage: 10 _.notdef_7
+  Coverage: 10 arBeh.medi
+  BCoverage: 10 arSad.init
+  FCoverage: 10 arBeh.medi
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 26 contextual 6"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 11 _.notdef_19
-  FCoverage: 10 _.notdef_5
+  Coverage: 10 arBeh.medi
+  BCoverage: 11 arSeen.medi
+  FCoverage: 10 arBeh.fina
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 26 contextual 5"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 10 _.notdef_7
-  FCoverage: 102 _.notdef_85 _.notdef_133 _.notdef_157 _.notdef_181 _.notdef_205 _.notdef_229 _.notdef_253 _.notdef_277
+  Coverage: 10 arBeh.medi
+  BCoverage: 10 arBeh.medi
+  FCoverage: 103 arBeh.medi.1 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6 arBeh.medi.7 arBeh.medi.8 arBeh.medi.9
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 26 contextual 4"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 12 _.notdef_295
-  FCoverage: 102 _.notdef_85 _.notdef_133 _.notdef_157 _.notdef_181 _.notdef_205 _.notdef_229 _.notdef_253 _.notdef_277
+  Coverage: 10 arBeh.medi
+  BCoverage: 13 arBeh.init.10
+  FCoverage: 103 arBeh.medi.1 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6 arBeh.medi.7 arBeh.medi.8 arBeh.medi.9
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 26 contextual 3"  0 0 0 1
  1 0 1
-  Coverage: 10 _.notdef_7
-  FCoverage: 152 _.notdef_17 _.notdef_19 _.notdef_87 _.notdef_111 _.notdef_135 _.notdef_159 _.notdef_183 _.notdef_207 _.notdef_231 _.notdef_255 _.notdef_279 _.notdef_307
+  Coverage: 10 arBeh.medi
+  FCoverage: 163 arSeen.fina arSeen.medi arSeen.medi.1 arSeen.medi.2 arSeen.medi.3 arSeen.medi.4 arSeen.medi.5 arSeen.medi.6 arSeen.medi.7 arSeen.medi.8 arSeen.medi.9 arSeen.fina.1
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 26 contextual 2"  0 0 0 1
  1 4 0
-  Coverage: 10 _.notdef_7
-  BCoverage: 10 _.notdef_7
-  BCoverage: 10 _.notdef_7
-  BCoverage: 12 _.notdef_294
-  BCoverage: 12 _.notdef_295
+  Coverage: 10 arBeh.medi
+  BCoverage: 10 arBeh.medi
+  BCoverage: 10 arBeh.medi
+  BCoverage: 13 arBeh.medi.11
+  BCoverage: 13 arBeh.init.10
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 26 contextual 1"  0 0 0 1
  1 3 0
-  Coverage: 10 _.notdef_7
-  BCoverage: 10 _.notdef_7
-  BCoverage: 12 _.notdef_294
-  BCoverage: 12 _.notdef_295
+  Coverage: 10 arBeh.medi
+  BCoverage: 10 arBeh.medi
+  BCoverage: 13 arBeh.medi.11
+  BCoverage: 13 arBeh.init.10
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 26 contextual 0"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 10 _.notdef_7
-  FCoverage: 10 _.notdef_7
+  Coverage: 10 arBeh.medi
+  BCoverage: 10 arBeh.medi
+  FCoverage: 10 arBeh.medi
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 51 subtable"  0 0 0 1
  1 1 0
-  Coverage: 12 _.notdef_289
-  BCoverage: 11 _.notdef_34
+  Coverage: 13 arKaf.init.10
+  BCoverage: 10 arFeh.init
  1
   SeqLookup: 0 "'ss04' Style Set 4 in Arabic lookup 51" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 24 contextual 1"  0 0 0 1
  1 1 1
-  Coverage: 62 _.notdef_26 _.notdef_27 __.notdef_41 __.notdef_44 __.notdef_45
-  BCoverage: 12 _.notdef_289
-  FCoverage: 12 _.notdef_289
+  Coverage: 54 arTah.init arTah.medi arKaf.medi arLam.init arLam.medi
+  BCoverage: 13 arKaf.init.10
+  FCoverage: 13 arKaf.init.10
  1
   SeqLookup: 0 "Single Substitution lookup 47" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 24 contextual 0"  0 0 0 1
  1 0 1
-  Coverage: 62 _.notdef_26 _.notdef_27 __.notdef_41 __.notdef_44 __.notdef_45
-  FCoverage: 12 _.notdef_289
+  Coverage: 54 arTah.init arTah.medi arKaf.medi arLam.init arLam.medi
+  FCoverage: 13 arKaf.init.10
  1
   SeqLookup: 0 "Single Substitution lookup 47" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 23 contextual 8"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 11 _.notdef_23
-  FCoverage: 10 _.notdef_7
+  Coverage: 10 arBeh.medi
+  BCoverage: 10 arSad.medi
+  FCoverage: 10 arBeh.medi
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 23 contextual 7"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 11 _.notdef_22
-  FCoverage: 10 _.notdef_7
+  Coverage: 10 arBeh.medi
+  BCoverage: 10 arSad.init
+  FCoverage: 10 arBeh.medi
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 23 contextual 6"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 11 _.notdef_19
-  FCoverage: 10 _.notdef_5
+  Coverage: 10 arBeh.medi
+  BCoverage: 11 arSeen.medi
+  FCoverage: 10 arBeh.fina
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 23 contextual 5"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 10 _.notdef_7
-  FCoverage: 102 _.notdef_85 _.notdef_133 _.notdef_157 _.notdef_181 _.notdef_205 _.notdef_229 _.notdef_253 _.notdef_277
+  Coverage: 10 arBeh.medi
+  BCoverage: 10 arBeh.medi
+  FCoverage: 103 arBeh.medi.1 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6 arBeh.medi.7 arBeh.medi.8 arBeh.medi.9
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 23 contextual 4"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 12 _.notdef_295
-  FCoverage: 102 _.notdef_85 _.notdef_133 _.notdef_157 _.notdef_181 _.notdef_205 _.notdef_229 _.notdef_253 _.notdef_277
+  Coverage: 10 arBeh.medi
+  BCoverage: 13 arBeh.init.10
+  FCoverage: 103 arBeh.medi.1 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6 arBeh.medi.7 arBeh.medi.8 arBeh.medi.9
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 23 contextual 3"  0 0 0 1
  1 0 1
-  Coverage: 10 _.notdef_7
-  FCoverage: 152 _.notdef_17 _.notdef_19 _.notdef_87 _.notdef_111 _.notdef_135 _.notdef_159 _.notdef_183 _.notdef_207 _.notdef_231 _.notdef_255 _.notdef_279 _.notdef_307
+  Coverage: 10 arBeh.medi
+  FCoverage: 163 arSeen.fina arSeen.medi arSeen.medi.1 arSeen.medi.2 arSeen.medi.3 arSeen.medi.4 arSeen.medi.5 arSeen.medi.6 arSeen.medi.7 arSeen.medi.8 arSeen.medi.9 arSeen.fina.1
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 23 contextual 2"  0 0 0 1
  1 4 0
-  Coverage: 10 _.notdef_7
-  BCoverage: 10 _.notdef_7
-  BCoverage: 10 _.notdef_7
-  BCoverage: 12 _.notdef_294
-  BCoverage: 12 _.notdef_295
+  Coverage: 10 arBeh.medi
+  BCoverage: 10 arBeh.medi
+  BCoverage: 10 arBeh.medi
+  BCoverage: 13 arBeh.medi.11
+  BCoverage: 13 arBeh.init.10
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 23 contextual 1"  0 0 0 1
  1 3 0
-  Coverage: 10 _.notdef_7
-  BCoverage: 10 _.notdef_7
-  BCoverage: 12 _.notdef_294
-  BCoverage: 12 _.notdef_295
+  Coverage: 10 arBeh.medi
+  BCoverage: 10 arBeh.medi
+  BCoverage: 13 arBeh.medi.11
+  BCoverage: 13 arBeh.init.10
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 23 contextual 0"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 10 _.notdef_7
-  FCoverage: 10 _.notdef_7
+  Coverage: 10 arBeh.medi
+  BCoverage: 10 arBeh.medi
+  FCoverage: 10 arBeh.medi
  1
   SeqLookup: 0 "Single Substitution lookup 46" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 22 contextual 2"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 12 _.notdef_295
-  FCoverage: 12 _.notdef_306
+  Coverage: 10 arBeh.medi
+  BCoverage: 13 arBeh.init.10
+  FCoverage: 12 arBeh.fina.1
  1
   SeqLookup: 0 "Single Substitution lookup 45" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 22 contextual 1"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 12 _.notdef_295
-  FCoverage: 10 _.notdef_5
+  Coverage: 10 arBeh.medi
+  BCoverage: 13 arBeh.init.10
+  FCoverage: 10 arBeh.fina
  1
   SeqLookup: 0 "Single Substitution lookup 45" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 22 contextual 0"  0 0 0 1
  1 1 1
-  Coverage: 10 _.notdef_7
-  BCoverage: 12 _.notdef_295
-  FCoverage: 10 _.notdef_7
+  Coverage: 10 arBeh.medi
+  BCoverage: 13 arBeh.init.10
+  FCoverage: 10 arBeh.medi
  1
   SeqLookup: 0 "Single Substitution lookup 45" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 21 subtable"  0 0 0 1
  1 0 1
-  Coverage: 10 _.notdef_6
-  FCoverage: 532 _.notdef_3 _.notdef_5 _.notdef_7 _.notdef_39 __.notdef_41 __.notdef_43 __.notdef_45 __.notdef_51 _.notdef_62 _.notdef_64 _.notdef_66 _.notdef_85 _.notdef_92 _.notdef_93 _.notdef_109 _.notdef_116 _.notdef_117 _.notdef_133 _.notdef_140 _.notdef_141 _.notdef_157 _.notdef_164 _.notdef_165 _.notdef_181 _.notdef_188 _.notdef_189 _.notdef_205 _.notdef_212 _.notdef_213 _.notdef_229 _.notdef_236 _.notdef_237 _.notdef_253 _.notdef_260 _.notdef_261 _.notdef_277 _.notdef_284 _.notdef_285 _.notdef_289 _.notdef_306 _.notdef_311 _.notdef_314
+  Coverage: 10 arBeh.init
+  FCoverage: 531 arAlef.fina arBeh.fina arBeh.medi arKaf.fina arKaf.medi arLam.fina arLam.medi arNoon.fina arLam.medi.10 arGaf.fina arNoon.fina2 arBeh.medi.1 arKaf.medi.1 arLam.medi.1 arBeh.medi.2 arKaf.medi.2 arLam.medi.2 arBeh.medi.3 arKaf.medi.3 arLam.medi.3 arBeh.medi.4 arKaf.medi.4 arLam.medi.4 arBeh.medi.5 arKaf.medi.5 arLam.medi.5 arBeh.medi.6 arKaf.medi.6 arLam.medi.6 arBeh.medi.7 arKaf.medi.7 arLam.medi.7 arBeh.medi.8 arKaf.medi.8 arLam.medi.8 arBeh.medi.9 arKaf.medi.9 arLam.medi.9 arKaf.init.10 arBeh.fina.1 arLam.fina.1 arGaf.fina.1
  1
   SeqLookup: 0 "Single Substitution lookup 44" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 20 subtable"  0 0 0 1
  1 0 1
-  Coverage: 10 _.notdef_7
-  FCoverage: 37 __.notdef_51 _.notdef_66 _.notdef_303
+  Coverage: 10 arBeh.medi
+  FCoverage: 38 arNoon.fina arNoon.fina2 arNoon.isol.1
  1
   SeqLookup: 0 "Single Substitution lookup 43" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 19 subtable"  0 0 0 1
  1 1 0
-  Coverage: 10 _.notdef_3
-  BCoverage: 23 _.notdef_61 _.notdef_62
+  Coverage: 11 arAlef.fina
+  BCoverage: 27 arLam.init.10 arLam.medi.10
  1
   SeqLookup: 0 "Single Substitution lookup 42" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 18 subtable"  0 0 0 1
  1 0 1
-  Coverage: 25 __.notdef_44 __.notdef_45
-  FCoverage: 10 _.notdef_3
+  Coverage: 21 arLam.init arLam.medi
+  FCoverage: 11 arAlef.fina
  1
   SeqLookup: 0 "Single Substitution lookup 41" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 17 contextual 1"  0 0 0 1
  1 1 1
-  Coverage: 12 __.notdef_41
-  BCoverage: 134 _.notdef_7 _.notdef_11 _.notdef_19 _.notdef_23 _.notdef_27 _.notdef_31 _.notdef_35 __.notdef_41 __.notdef_45 __.notdef_49 __.notdef_55
-  FCoverage: 343 _.notdef_3 _.notdef_39 __.notdef_41 __.notdef_43 __.notdef_45 _.notdef_62 _.notdef_64 _.notdef_92 _.notdef_93 _.notdef_116 _.notdef_117 _.notdef_140 _.notdef_141 _.notdef_164 _.notdef_165 _.notdef_188 _.notdef_189 _.notdef_212 _.notdef_213 _.notdef_236 _.notdef_237 _.notdef_260 _.notdef_261 _.notdef_284 _.notdef_285 _.notdef_311 _.notdef_314
+  Coverage: 10 arKaf.medi
+  BCoverage: 123 arBeh.medi arHah.medi arSeen.medi arSad.medi arTah.medi arAin.medi arFeh.medi arKaf.medi arLam.medi arMeem.medi arHeh.medi2
+  FCoverage: 340 arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.10 arGaf.fina arKaf.medi.1 arLam.medi.1 arKaf.medi.2 arLam.medi.2 arKaf.medi.3 arLam.medi.3 arKaf.medi.4 arLam.medi.4 arKaf.medi.5 arLam.medi.5 arKaf.medi.6 arLam.medi.6 arKaf.medi.7 arLam.medi.7 arKaf.medi.8 arLam.medi.8 arKaf.medi.9 arLam.medi.9 arLam.fina.1 arGaf.fina.1
  1
   SeqLookup: 0 "Single Substitution lookup 40" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 17 contextual 0"  0 0 0 1
  1 1 1
-  Coverage: 12 __.notdef_41
-  BCoverage: 134 _.notdef_6 _.notdef_10 _.notdef_18 _.notdef_22 _.notdef_26 _.notdef_30 _.notdef_34 __.notdef_40 __.notdef_44 __.notdef_48 __.notdef_54
-  FCoverage: 343 _.notdef_3 _.notdef_39 __.notdef_41 __.notdef_43 __.notdef_45 _.notdef_62 _.notdef_64 _.notdef_92 _.notdef_93 _.notdef_116 _.notdef_117 _.notdef_140 _.notdef_141 _.notdef_164 _.notdef_165 _.notdef_188 _.notdef_189 _.notdef_212 _.notdef_213 _.notdef_236 _.notdef_237 _.notdef_260 _.notdef_261 _.notdef_284 _.notdef_285 _.notdef_311 _.notdef_314
+  Coverage: 10 arKaf.medi
+  BCoverage: 122 arBeh.init arHah.init arSeen.init arSad.init arTah.init arAin.init arFeh.init arKaf.init arLam.init arMeem.init arHeh.init
+  FCoverage: 340 arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.10 arGaf.fina arKaf.medi.1 arLam.medi.1 arKaf.medi.2 arLam.medi.2 arKaf.medi.3 arLam.medi.3 arKaf.medi.4 arLam.medi.4 arKaf.medi.5 arLam.medi.5 arKaf.medi.6 arLam.medi.6 arKaf.medi.7 arLam.medi.7 arKaf.medi.8 arLam.medi.8 arKaf.medi.9 arLam.medi.9 arLam.fina.1 arGaf.fina.1
  1
   SeqLookup: 0 "Single Substitution lookup 40" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 16 subtable"  0 0 0 1
  1 1 1
-  Coverage: 12 _.notdef_289
-  BCoverage: 12 _.notdef_289
-  FCoverage: 343 _.notdef_3 _.notdef_39 __.notdef_41 __.notdef_43 __.notdef_45 _.notdef_62 _.notdef_64 _.notdef_92 _.notdef_93 _.notdef_116 _.notdef_117 _.notdef_140 _.notdef_141 _.notdef_164 _.notdef_165 _.notdef_188 _.notdef_189 _.notdef_212 _.notdef_213 _.notdef_236 _.notdef_237 _.notdef_260 _.notdef_261 _.notdef_284 _.notdef_285 _.notdef_311 _.notdef_314
+  Coverage: 13 arKaf.init.10
+  BCoverage: 13 arKaf.init.10
+  FCoverage: 340 arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.10 arGaf.fina arKaf.medi.1 arLam.medi.1 arKaf.medi.2 arLam.medi.2 arKaf.medi.3 arLam.medi.3 arKaf.medi.4 arLam.medi.4 arKaf.medi.5 arLam.medi.5 arKaf.medi.6 arLam.medi.6 arKaf.medi.7 arLam.medi.7 arKaf.medi.8 arLam.medi.8 arKaf.medi.9 arLam.medi.9 arLam.fina.1 arGaf.fina.1
  1
   SeqLookup: 0 "Single Substitution lookup 39" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 15 subtable"  0 0 0 1
  1 0 1
-  Coverage: 12 __.notdef_40
-  FCoverage: 343 _.notdef_3 _.notdef_39 __.notdef_41 __.notdef_43 __.notdef_45 _.notdef_62 _.notdef_64 _.notdef_92 _.notdef_93 _.notdef_116 _.notdef_117 _.notdef_140 _.notdef_141 _.notdef_164 _.notdef_165 _.notdef_188 _.notdef_189 _.notdef_212 _.notdef_213 _.notdef_236 _.notdef_237 _.notdef_260 _.notdef_261 _.notdef_284 _.notdef_285 _.notdef_311 _.notdef_314
+  Coverage: 10 arKaf.init
+  FCoverage: 340 arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.10 arGaf.fina arKaf.medi.1 arLam.medi.1 arKaf.medi.2 arLam.medi.2 arKaf.medi.3 arLam.medi.3 arKaf.medi.4 arLam.medi.4 arKaf.medi.5 arLam.medi.5 arKaf.medi.6 arLam.medi.6 arKaf.medi.7 arLam.medi.7 arKaf.medi.8 arLam.medi.8 arKaf.medi.9 arLam.medi.9 arLam.fina.1 arGaf.fina.1
  1
   SeqLookup: 0 "Single Substitution lookup 38" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 14 subtable"  0 0 0 1
  1 1 0
-  Coverage: 12 __.notdef_60
-  BCoverage: 51 _.notdef_265 _.notdef_271 _.notdef_272 _.notdef_273
+  Coverage: 10 arYeh.fina
+  BCoverage: 51 arBeh.init.9 arFeh.init.9 arKaf.init.9 arLam.init.9
  1
   SeqLookup: 0 "Single Substitution lookup 37" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 13 subtable"  0 0 0 1
  1 0 1
-  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
-  FCoverage: 12 __.notdef_60
+  Coverage: 269 arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi arSad.init arSad.medi arTah.init arTah.medi arAin.init arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init arHeh.medi2 arHeh.medi arHeh.init2
+  FCoverage: 10 arYeh.fina
  1
   SeqLookup: 0 "Single Substitution lookup 36" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 12 subtable"  0 0 0 1
  1 0 1
-  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
-  FCoverage: 128 __.notdef_56 _.notdef_96 _.notdef_120 _.notdef_144 _.notdef_168 _.notdef_192 _.notdef_216 _.notdef_240 _.notdef_264 _.notdef_288
+  Coverage: 269 arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi arSad.init arSad.medi arTah.init arTah.medi arAin.init arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init arHeh.medi2 arHeh.medi arHeh.init2
+  FCoverage: 127 arHeh.medi arHeh.medi.1 arHeh.medi.2 arHeh.medi.3 arHeh.medi.4 arHeh.medi.5 arHeh.medi.6 arHeh.medi.7 arHeh.medi.8 arHeh.medi.9
  1
   SeqLookup: 0 "Single Substitution lookup 35" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 11 subtable"  0 0 0 1
  1 0 1
-  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
-  FCoverage: 282 __.notdef_47 __.notdef_49 __.notdef_55 _.notdef_70 _.notdef_94 _.notdef_95 _.notdef_118 _.notdef_119 _.notdef_142 _.notdef_143 _.notdef_166 _.notdef_167 _.notdef_190 _.notdef_191 _.notdef_214 _.notdef_215 _.notdef_238 _.notdef_239 _.notdef_262 _.notdef_263 _.notdef_286 _.notdef_287
+  Coverage: 269 arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi arSad.init arSad.medi arTah.init arTah.medi arAin.init arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init arHeh.medi2 arHeh.medi arHeh.init2
+  FCoverage: 298 arMem.fina arMeem.medi arHeh.medi2 arHeh.fina3 arMeem.medi.1 arHeh.medi2.1 arMeem.medi.2 arHeh.medi2.2 arMeem.medi.3 arHeh.medi2.3 arMeem.medi.4 arHeh.medi2.4 arMeem.medi.5 arHeh.medi2.5 arMeem.medi.6 arHeh.medi2.6 arMeem.medi.7 arHeh.medi2.7 arMeem.medi.8 arHeh.medi2.8 arMeem.medi.9 arHeh.medi2.9
  1
   SeqLookup: 0 "Single Substitution lookup 34" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 10 subtable"  0 0 0 1
  1 0 1
-  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
-  FCoverage: 165 _.notdef_33 _.notdef_35 _.notdef_91 _.notdef_115 _.notdef_139 _.notdef_163 _.notdef_187 _.notdef_211 _.notdef_235 _.notdef_259 _.notdef_283 _.notdef_309 _.notdef_310
+  Coverage: 269 arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi arSad.init arSad.medi arTah.init arTah.medi arAin.init arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init arHeh.medi2 arHeh.medi arHeh.init2
+  FCoverage: 164 arFeh.fina arFeh.medi arFeh.medi.1 arFeh.medi.2 arFeh.medi.3 arFeh.medi.4 arFeh.medi.5 arFeh.medi.6 arFeh.medi.7 arFeh.medi.8 arFeh.medi.9 arFeh.fina.1 arQaf.fina.1
  1
   SeqLookup: 0 "Single Substitution lookup 33" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 9 subtable"  0 0 0 1
  1 0 1
-  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
-  FCoverage: 139 _.notdef_29 _.notdef_31 _.notdef_90 _.notdef_114 _.notdef_138 _.notdef_162 _.notdef_186 _.notdef_210 _.notdef_234 _.notdef_258 _.notdef_282
+  Coverage: 269 arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi arSad.init arSad.medi arTah.init arTah.medi arAin.init arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init arHeh.medi2 arHeh.medi arHeh.init2
+  FCoverage: 138 arAin.fina arAin.medi arAin.medi.1 arAin.medi.2 arAin.medi.3 arAin.medi.4 arAin.medi.5 arAin.medi.6 arAin.medi.7 arAin.medi.8 arAin.medi.9
  1
   SeqLookup: 0 "Single Substitution lookup 32" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 8 contextual 0"  0 0 0 1
  1 0 2
-  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
-  FCoverage: 305 _.notdef_21 _.notdef_23 _.notdef_25 _.notdef_27 _.notdef_88 _.notdef_89 _.notdef_112 _.notdef_113 _.notdef_136 _.notdef_137 _.notdef_160 _.notdef_161 _.notdef_184 _.notdef_185 _.notdef_208 _.notdef_209 _.notdef_232 _.notdef_233 _.notdef_256 _.notdef_257 _.notdef_280 _.notdef_281 _.notdef_308 _.notdef_319
-  FCoverage: 23 _.notdef_71 _.notdef_72
+  Coverage: 269 arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi arSad.init arSad.medi arTah.init arTah.medi arAin.init arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init arHeh.medi2 arHeh.medi arHeh.init2
+  FCoverage: 304 arSad.fina arSad.medi arTah.fina arTah.medi arSad.medi.1 arTah.medi.1 arSad.medi.2 arTah.medi.2 arSad.medi.3 arTah.medi.3 arSad.medi.4 arTah.medi.4 arSad.medi.5 arTah.medi.5 arSad.medi.6 arTah.medi.6 arSad.medi.7 arTah.medi.7 arSad.medi.8 arTah.medi.8 arSad.medi.9 arTah.medi.9 arSad.fina.1 arTah.medi.10
+  FCoverage: 23 arYeh.isol2 arYeh.fina2
  0
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 8 contextual 1"  0 0 0 1
  1 0 1
-  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
-  FCoverage: 305 _.notdef_21 _.notdef_23 _.notdef_25 _.notdef_27 _.notdef_88 _.notdef_89 _.notdef_112 _.notdef_113 _.notdef_136 _.notdef_137 _.notdef_160 _.notdef_161 _.notdef_184 _.notdef_185 _.notdef_208 _.notdef_209 _.notdef_232 _.notdef_233 _.notdef_256 _.notdef_257 _.notdef_280 _.notdef_281 _.notdef_308 _.notdef_319
+  Coverage: 269 arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi arSad.init arSad.medi arTah.init arTah.medi arAin.init arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init arHeh.medi2 arHeh.medi arHeh.init2
+  FCoverage: 304 arSad.fina arSad.medi arTah.fina arTah.medi arSad.medi.1 arTah.medi.1 arSad.medi.2 arTah.medi.2 arSad.medi.3 arTah.medi.3 arSad.medi.4 arTah.medi.4 arSad.medi.5 arTah.medi.5 arSad.medi.6 arTah.medi.6 arSad.medi.7 arTah.medi.7 arSad.medi.8 arTah.medi.8 arSad.medi.9 arTah.medi.9 arSad.fina.1 arTah.medi.10
  1
   SeqLookup: 0 "Single Substitution lookup 31" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 7 subtable"  0 0 0 1
  1 0 1
-  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
-  FCoverage: 11 _.notdef_15
+  Coverage: 269 arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi arSad.init arSad.medi arTah.init arTah.medi arAin.init arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init arHeh.medi2 arHeh.medi arHeh.init2
+  FCoverage: 10 arReh.fina
  1
   SeqLookup: 0 "Single Substitution lookup 30" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 6 subtable"  0 0 0 1
  1 0 1
-  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
-  FCoverage: 11 _.notdef_13
+  Coverage: 269 arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi arSad.init arSad.medi arTah.init arTah.medi arAin.init arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init arHeh.medi2 arHeh.medi arHeh.init2
+  FCoverage: 10 arDal.fina
  1
   SeqLookup: 0 "Single Substitution lookup 29" 
 EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates in Arabic lookup 5 subtable"  0 0 0 1
  1 0 1
-  Coverage: 294 _.notdef_6 _.notdef_7 _.notdef_10 _.notdef_11 _.notdef_18 _.notdef_19 _.notdef_22 _.notdef_23 _.notdef_26 _.notdef_27 _.notdef_30 _.notdef_31 _.notdef_34 _.notdef_35 __.notdef_40 __.notdef_41 __.notdef_44 __.notdef_45 __.notdef_48 __.notdef_49 __.notdef_54 __.notdef_55 __.notdef_56 _.notdef_68
-  FCoverage: 138 _.notdef_9 _.notdef_11 _.notdef_86 _.notdef_110 _.notdef_134 _.notdef_158 _.notdef_182 _.notdef_206 _.notdef_230 _.notdef_254 _.notdef_278
+  Coverage: 269 arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi arSad.init arSad.medi arTah.init arTah.medi arAin.init arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init arHeh.medi2 arHeh.medi arHeh.init2
+  FCoverage: 138 arHah.fina arHah.medi arHah.medi.1 arHah.medi.2 arHah.medi.3 arHah.medi.4 arHah.medi.5 arHah.medi.6 arHah.medi.7 arHah.medi.8 arHah.medi.9
  1
   SeqLookup: 0 "Single Substitution lookup 28" 
 EndFPST

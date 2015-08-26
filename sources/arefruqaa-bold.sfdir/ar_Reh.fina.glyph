@@ -1,0 +1,40 @@
+StartChar: arReh.fina
+Encoding: 65568 -1 151
+Width: 840
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-0" 0 0 exit 0
+AnchorPoint: "Anchor-17" 432 -450 basechar 0
+AnchorPoint: "Anchor-16" 459 -360 basechar 0
+AnchorPoint: "Cursive-10" 648 216 entry 0
+AnchorPoint: "Anchor-15" 684 900 basechar 0
+AnchorPoint: "Anchor-14" 756 954 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+796 328 m 0,0,1
+ 790 294 790 294 763 279 c 1,2,3
+ 737 255 737 255 716 221 c 128,-1,4
+ 695 187 695 187 675 149 c 0,5,6
+ 618 39 618 39 522 15 c 1,7,8
+ 484 7 484 7 444 7 c 0,9,10
+ 396 7 396 7 335 19 c 1,11,12
+ 297 28 297 28 170 66 c 0,13,14
+ 105 86 105 86 64.5 102.5 c 128,-1,15
+ 24 119 24 119 8 130 c 1,16,17
+ -11 148 -11 148 -9 165.5 c 128,-1,18
+ -7 183 -7 183 23 197 c 1,19,20
+ 94 222 94 222 167.5 241 c 128,-1,21
+ 241 260 241 260 319 272 c 0,22,23
+ 398 285 398 285 471.5 300.5 c 128,-1,24
+ 545 316 545 316 614 334 c 0,25,26
+ 660 346 660 346 694 384 c 1,27,-1
+ 691 381 l 1,28,29
+ 713 413 713 413 750 405 c 1,30,-1
+ 749 406 l 1,31,32
+ 808 396 808 396 796 328 c 0,0,1
+EndSplineSet
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arHeh.isol dx=0 dy=0 dh=0 dv=0 dx=100 dy=300 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arTah.isol dx=0 dy=0 dh=0 dv=0 dx=540 dy=440 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arHah.isol dx=0 dy=0 dh=0 dv=0 dx=275 dy=0 dh=0 dv=0
+EndChar

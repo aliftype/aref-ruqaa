@@ -1,0 +1,55 @@
+StartChar: arLam.init.10
+Encoding: 65614 -1 197
+Width: 1347
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Cursive-2" 0 0 exit 0
+AnchorPoint: "Anchor-16" 1133 -231 basechar 0
+AnchorPoint: "Anchor-17" 1206 -225 basechar 0
+AnchorPoint: "Anchor-15" 1260 1503 basechar 0
+AnchorPoint: "Anchor-14" 1276 1386 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+1330 903 m 1,0,1
+ 1324 619 1324 619 1160 401 c 0,2,3
+ 1080 295 1080 295 974 216 c 128,-1,4
+ 868 137 868 137 738 86 c 0,5,6
+ 670 60 670 60 594 43.5 c 128,-1,7
+ 518 27 518 27 433 20 c 0,8,9
+ 349 14 349 14 264.5 10 c 128,-1,10
+ 180 6 180 6 93 4 c 1,11,-1
+ 37 1 l 2,12,13
+ 35 0 35 0 31 0 c 128,-1,14
+ 27 0 27 0 24 0 c 0,15,16
+ -20 0 -20 0 -20 31 c 0,17,18
+ -20 38 -20 38 -14.5 47 c 128,-1,19
+ -9 56 -9 56 5 66 c 1,20,21
+ 43 84 43 84 86.5 100.5 c 128,-1,22
+ 130 117 130 117 174 133 c 1,23,24
+ 198 143 198 143 223 152 c 128,-1,25
+ 248 161 248 161 271 171 c 1,26,-1
+ 270 171 l 1,27,-1
+ 696 357 l 1,28,-1
+ 696 356 l 1,29,-1
+ 738 377 l 1,30,31
+ 847 425 847 425 950.5 479 c 128,-1,32
+ 1054 533 1054 533 1139 608 c 0,33,34
+ 1147 614 1147 614 1152 619 c 128,-1,35
+ 1157 624 1157 624 1159 626 c 1,36,37
+ 1148 712 1148 712 1134.5 800.5 c 128,-1,38
+ 1121 889 1121 889 1106 974 c 1,39,-1
+ 1156 1078 l 2,40,41
+ 1174 1114 1174 1114 1190.5 1148.5 c 128,-1,42
+ 1207 1183 1207 1183 1223 1220 c 0,43,44
+ 1231 1237 1231 1237 1247.5 1235.5 c 128,-1,45
+ 1264 1234 1264 1234 1269 1217 c 0,46,47
+ 1288 1141 1288 1141 1303.5 1064.5 c 128,-1,48
+ 1319 988 1319 988 1330 907 c 1,49,-1
+ 1330 903 l 1,0,1
+EndSplineSet
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arMem.isol dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arAin.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arSad.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arSeen.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
+EndChar
