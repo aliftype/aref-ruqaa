@@ -14,9 +14,11 @@ arabicfilename = sys.argv[3]
 latinfilename = sys.argv[4]
 
 arabic = fontforge.open(arabicfilename)
+arabic.encoding = "Unicode"
 
 latin = fontforge.open(latinfilename)
 latin.em = arabic.em
+latin.encoding = "Unicode"
 
 for glyph in arabic.glyphs():
     if glyph.unicode < 0x0600 and glyph.unicode != -1 and glyph.unicode != ord(" "):
