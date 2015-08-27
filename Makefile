@@ -16,6 +16,9 @@ SFD=$(FONTS:%=$(SRC)/$(NAME)-%.sfdir)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
 PDF=$(DOC)/$(NAME)-table.pdf
 
+ttx?=t
+crunch?=
+
 all: ttf doc
 
 ttf: $(TTF)
@@ -24,6 +27,19 @@ doc: $(PDF)
 arefruqaa-%.ttf: $(SRC)/arefruqaa-%.sfdir $(SRC)/eulertext-%.sfdir Makefile $(BUILD)
 	@echo "   FF	$@"
 	@$(PY) $(BUILD) $(VERSION) $@ $+
+ifdef ttx
+	@echo "   TTX	$@"
+	@ttx -q -o temp.ttx $@
+	@ttx -q -o $@ temp.ttx
+	@rm -f temp.ttx
+endif
+ifdef crunch
+	@echo "   FC	$@"
+	@font-crunch -q -j8 -o $@.tmp $@
+	@mv $@.tmp $@
+endif
+
+
 
 $(DOC)/$(NAME)-table.pdf: $(NAME)-regular.ttf
 	@echo "   GEN	$@"
@@ -38,19 +54,6 @@ build-encoded-glyphs: $(SFD)
 	     echo "   CMP	"`basename $(sfd)`; \
 	     $(PY) $(COMPOSE) $(sfd); \
 	  )
-
-ttx: $(TTF)
-	@$(foreach ttf, $(TTF), \
-	     echo "   TTX	"$(ttf); \
-	     ttx -q -o temp.ttx $(ttf) && ttx -q -o $(ttf) temp.ttx; \
-	 )
-	@rm -f temp.ttx
-
-crunch: $(TTF)
-	@$(foreach ttf, $(TTF), \
-	     echo "   FC	"$(ttf); \
-	     font-crunch -q -j8 $(ttf); \
-	 )
 
 clean:
 	@rm -rf $(TTF) $(PDF)
