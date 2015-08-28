@@ -36,15 +36,4 @@ SplineSet
  654 593 654 593 649 552 c 0,31,32
  641 495 641 495 629 452 c 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arKaf.init.11
-Substitution2: "Single Substitution lookup 38 subtable" arKaf.init.10
-Substitution2: "Single Substitution lookup 36 subtable" arKaf.init.9
-Substitution2: "Single Substitution lookup 35 subtable" arKaf.init.8
-Substitution2: "Single Substitution lookup 34 subtable" arKaf.init.7
-Substitution2: "Single Substitution lookup 33 subtable" arKaf.init.6
-Substitution2: "Single Substitution lookup 32 subtable" arKaf.init.5
-Substitution2: "Single Substitution lookup 31 subtable" arKaf.init.4
-Substitution2: "Single Substitution lookup 30 subtable" arKaf.init.3
-Substitution2: "Single Substitution lookup 29 subtable" arKaf.init.2
-Substitution2: "Single Substitution lookup 28 subtable" arKaf.init.1
 EndChar

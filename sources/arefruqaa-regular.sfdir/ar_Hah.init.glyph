@@ -54,14 +54,4 @@ SplineSet
  12 3 12 3 0 1 c 1,60,-1
  43 254 l 1,14,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arHah.init.10
-Substitution2: "Single Substitution lookup 36 subtable" arHah.init.9
-Substitution2: "Single Substitution lookup 35 subtable" arHah.init.8
-Substitution2: "Single Substitution lookup 34 subtable" arHah.init.7
-Substitution2: "Single Substitution lookup 33 subtable" arHah.init.6
-Substitution2: "Single Substitution lookup 32 subtable" arHah.init.5
-Substitution2: "Single Substitution lookup 31 subtable" arHah.init.4
-Substitution2: "Single Substitution lookup 30 subtable" arHah.init.3
-Substitution2: "Single Substitution lookup 29 subtable" arHah.init.2
-Substitution2: "Single Substitution lookup 28 subtable" arHah.init.1
 EndChar

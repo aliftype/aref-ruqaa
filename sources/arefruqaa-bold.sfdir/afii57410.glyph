@@ -6,6 +6,4 @@ LayerCount: 2
 Fore
 Refer: 138 -1 N 1 0 0 1 0 0 3
 Refer: 92 1619 N 1 0 0 1 397 1620 2
-MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" arAlef.fina uni0653
-MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" arAlef.isol uni0653
 EndChar

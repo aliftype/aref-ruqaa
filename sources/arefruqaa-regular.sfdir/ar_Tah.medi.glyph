@@ -13,15 +13,4 @@ AnchorPoint: "Anchor-15" 828 1008 basechar 0
 LayerCount: 2
 Fore
 Refer: 162 -1 N 1 0 0 1 0 0 2
-Substitution2: "Single Substitution lookup 53 subtable" arTah.medi.11
-Substitution2: "Single Substitution lookup 47 subtable" arTah.medi.10
-Substitution2: "Single Substitution lookup 36 subtable" arTah.medi.9
-Substitution2: "Single Substitution lookup 35 subtable" arTah.medi.8
-Substitution2: "Single Substitution lookup 34 subtable" arTah.medi.7
-Substitution2: "Single Substitution lookup 33 subtable" arTah.medi.6
-Substitution2: "Single Substitution lookup 32 subtable" arTah.medi.5
-Substitution2: "Single Substitution lookup 31 subtable" arTah.medi.4
-Substitution2: "Single Substitution lookup 30 subtable" arTah.medi.3
-Substitution2: "Single Substitution lookup 29 subtable" arTah.medi.2
-Substitution2: "Single Substitution lookup 28 subtable" arTah.medi.1
 EndChar

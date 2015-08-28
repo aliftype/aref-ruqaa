@@ -25,15 +25,4 @@ SplineSet
  566 667 566 667 563.5 527.5 c 128,-1,0
  561 388 561 388 500 287 c 128,-1,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arBeh.init.11
-Substitution2: "Single Substitution lookup 44 subtable" arBeh.init.10
-Substitution2: "Single Substitution lookup 36 subtable" arBeh.init.9
-Substitution2: "Single Substitution lookup 35 subtable" arBeh.init.8
-Substitution2: "Single Substitution lookup 34 subtable" arBeh.init.7
-Substitution2: "Single Substitution lookup 33 subtable" arBeh.init.6
-Substitution2: "Single Substitution lookup 32 subtable" arBeh.init.5
-Substitution2: "Single Substitution lookup 31 subtable" arBeh.init.4
-Substitution2: "Single Substitution lookup 30 subtable" arBeh.init.3
-Substitution2: "Single Substitution lookup 29 subtable" arBeh.init.2
-Substitution2: "Single Substitution lookup 28 subtable" arBeh.init.1
 EndChar

@@ -41,17 +41,4 @@ SplineSet
  417 48 417 48 414 48 c 2,37,-1
  412 48 l 2,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arBeh.medi.13
-Substitution2: "Single Substitution lookup 46 subtable" arBeh.medi.12
-Substitution2: "Single Substitution lookup 45 subtable" arBeh.medi.11
-Substitution2: "Single Substitution lookup 43 subtable" arBeh.medi.10
-Substitution2: "Single Substitution lookup 36 subtable" arBeh.medi.9
-Substitution2: "Single Substitution lookup 35 subtable" arBeh.medi.8
-Substitution2: "Single Substitution lookup 34 subtable" arBeh.medi.7
-Substitution2: "Single Substitution lookup 33 subtable" arBeh.medi.6
-Substitution2: "Single Substitution lookup 32 subtable" arBeh.medi.5
-Substitution2: "Single Substitution lookup 31 subtable" arBeh.medi.4
-Substitution2: "Single Substitution lookup 30 subtable" arBeh.medi.3
-Substitution2: "Single Substitution lookup 29 subtable" arBeh.medi.2
-Substitution2: "Single Substitution lookup 28 subtable" arBeh.medi.1
 EndChar

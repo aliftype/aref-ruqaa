@@ -45,15 +45,4 @@ SplineSet
  1326 626 1326 626 1325 620 c 1,43,-1
  1325 618 l 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arSeen.init.10
-Substitution2: "'ss01' Style Set 1 in Arabic lookup 48 subtable" arSeen.medi
-Substitution2: "Single Substitution lookup 36 subtable" arSeen.init.9
-Substitution2: "Single Substitution lookup 35 subtable" arSeen.init.8
-Substitution2: "Single Substitution lookup 34 subtable" arSeen.init.7
-Substitution2: "Single Substitution lookup 33 subtable" arSeen.init.6
-Substitution2: "Single Substitution lookup 32 subtable" arSeen.init.5
-Substitution2: "Single Substitution lookup 31 subtable" arSeen.init.4
-Substitution2: "Single Substitution lookup 30 subtable" arSeen.init.3
-Substitution2: "Single Substitution lookup 29 subtable" arSeen.init.2
-Substitution2: "Single Substitution lookup 28 subtable" arSeen.init.1
 EndChar

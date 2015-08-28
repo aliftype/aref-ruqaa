@@ -90,14 +90,4 @@ SplineSet
  481 396 481 396 485 391 c 2,112,-1
  494 382 l 1,96,97
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arHeh.init.10
-Substitution2: "Single Substitution lookup 36 subtable" arHeh.init.9
-Substitution2: "Single Substitution lookup 35 subtable" arHeh.init.8
-Substitution2: "Single Substitution lookup 34 subtable" arHeh.init.7
-Substitution2: "Single Substitution lookup 33 subtable" arHeh.init.6
-Substitution2: "Single Substitution lookup 32 subtable" arHeh.init.5
-Substitution2: "Single Substitution lookup 31 subtable" arHeh.init.4
-Substitution2: "Single Substitution lookup 30 subtable" arHeh.init.3
-Substitution2: "Single Substitution lookup 29 subtable" arHeh.init.2
-Substitution2: "Single Substitution lookup 28 subtable" arHeh.init.1
 EndChar

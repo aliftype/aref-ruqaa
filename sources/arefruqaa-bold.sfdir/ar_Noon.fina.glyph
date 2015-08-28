@@ -12,6 +12,4 @@ AnchorPoint: "Cursive-5" 780 468 entry 0
 LayerCount: 2
 Fore
 Refer: 186 -1 N 1 0 0 1 0 0 2
-Substitution2: "'ss03' Style Set 3 in Arabic lookup 50 subtable" arNoon.fina.1
-MultipleSubs2: "'jalt' Justification Alternatives in Arabic lookup 27 subtable" arNoon.isol.1 ar1Noqta.above
 EndChar

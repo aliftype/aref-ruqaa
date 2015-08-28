@@ -69,14 +69,4 @@ SplineSet
  630 439 630 439 629 431 c 128,-1,83
  628 423 628 423 627 420 c 0,18,19
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arSad.init.10
-Substitution2: "Single Substitution lookup 36 subtable" arSad.init.9
-Substitution2: "Single Substitution lookup 35 subtable" arSad.init.8
-Substitution2: "Single Substitution lookup 34 subtable" arSad.init.7
-Substitution2: "Single Substitution lookup 33 subtable" arSad.init.6
-Substitution2: "Single Substitution lookup 32 subtable" arSad.init.5
-Substitution2: "Single Substitution lookup 31 subtable" arSad.init.4
-Substitution2: "Single Substitution lookup 30 subtable" arSad.init.3
-Substitution2: "Single Substitution lookup 29 subtable" arSad.init.2
-Substitution2: "Single Substitution lookup 28 subtable" arSad.init.1
 EndChar

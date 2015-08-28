@@ -4,8 +4,4 @@ Width: 1004
 LayerCount: 2
 Fore
 Refer: 467 -1 N 1 0 0 1 0 0 3
-MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" arFeh.medi
-MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" arQaf.fina2
-MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" arFeh.init
-MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" arQaf.isol2
 EndChar

@@ -27,14 +27,4 @@ SplineSet
  46 264 l 1,18,19
  232 285 232 285 401 338 c 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arMeem.init.10
-Substitution2: "Single Substitution lookup 36 subtable" arMeem.init.9
-Substitution2: "Single Substitution lookup 35 subtable" arMeem.init.8
-Substitution2: "Single Substitution lookup 34 subtable" arMeem.init.7
-Substitution2: "Single Substitution lookup 33 subtable" arMeem.init.6
-Substitution2: "Single Substitution lookup 32 subtable" arMeem.init.5
-Substitution2: "Single Substitution lookup 31 subtable" arMeem.init.4
-Substitution2: "Single Substitution lookup 30 subtable" arMeem.init.3
-Substitution2: "Single Substitution lookup 29 subtable" arMeem.init.2
-Substitution2: "Single Substitution lookup 28 subtable" arMeem.init.1
 EndChar

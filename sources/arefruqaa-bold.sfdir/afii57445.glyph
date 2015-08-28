@@ -5,8 +5,4 @@ GlyphClass: 2
 LayerCount: 2
 Fore
 Refer: 182 -1 N 1 0 0 1 0 0 3
-MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" arMeem.medi
-MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" arMem.fina
-MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" arMeem.init
-MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" arMem.isol
 EndChar

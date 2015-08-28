@@ -55,14 +55,4 @@ SplineSet
  610 464 610 464 590 535 c 1,67,68
  568 608 568 608 547 670 c 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 28 subtable" arHeh.init2.1
-Substitution2: "Single Substitution lookup 29 subtable" arHeh.init2.2
-Substitution2: "Single Substitution lookup 30 subtable" arHeh.init2.3
-Substitution2: "Single Substitution lookup 31 subtable" arHeh.init2.4
-Substitution2: "Single Substitution lookup 32 subtable" arHeh.init2.5
-Substitution2: "Single Substitution lookup 33 subtable" arHeh.init2.6
-Substitution2: "Single Substitution lookup 34 subtable" arHeh.init2.7
-Substitution2: "Single Substitution lookup 35 subtable" arHeh.init2.8
-Substitution2: "Single Substitution lookup 36 subtable" arHeh.init2.9
-Substitution2: "Single Substitution lookup 53 subtable" arHeh.init2.10
 EndChar

@@ -5,8 +5,4 @@ GlyphClass: 2
 LayerCount: 2
 Fore
 Refer: 160 -1 N 1 0 0 1 0 0 3
-MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" arTah.medi
-MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" arTah.fina
-MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" arTah.init
-MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" arTah.isol
 EndChar

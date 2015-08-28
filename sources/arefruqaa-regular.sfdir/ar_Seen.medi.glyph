@@ -56,14 +56,4 @@ SplineSet
  469 80 469 80 455 80 c 0,60,61
  417 80 417 80 412 117 c 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arSeen.medi.10
-Substitution2: "Single Substitution lookup 36 subtable" arSeen.medi.9
-Substitution2: "Single Substitution lookup 35 subtable" arSeen.medi.8
-Substitution2: "Single Substitution lookup 34 subtable" arSeen.medi.7
-Substitution2: "Single Substitution lookup 33 subtable" arSeen.medi.6
-Substitution2: "Single Substitution lookup 32 subtable" arSeen.medi.5
-Substitution2: "Single Substitution lookup 31 subtable" arSeen.medi.4
-Substitution2: "Single Substitution lookup 30 subtable" arSeen.medi.3
-Substitution2: "Single Substitution lookup 29 subtable" arSeen.medi.2
-Substitution2: "Single Substitution lookup 28 subtable" arSeen.medi.1
 EndChar

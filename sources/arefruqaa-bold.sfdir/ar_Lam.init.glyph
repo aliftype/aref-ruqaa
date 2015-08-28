@@ -42,16 +42,4 @@ SplineSet
  645 491 645 491 634 454 c 1,37,-1
  634 455 l 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arLam.init.12
-Substitution2: "Single Substitution lookup 47 subtable" arLam.init.11
-Substitution2: "Single Substitution lookup 41 subtable" arLam.init.10
-Substitution2: "Single Substitution lookup 36 subtable" arLam.init.9
-Substitution2: "Single Substitution lookup 35 subtable" arLam.init.8
-Substitution2: "Single Substitution lookup 34 subtable" arLam.init.7
-Substitution2: "Single Substitution lookup 33 subtable" arLam.init.6
-Substitution2: "Single Substitution lookup 32 subtable" arLam.init.5
-Substitution2: "Single Substitution lookup 31 subtable" arLam.init.4
-Substitution2: "Single Substitution lookup 30 subtable" arLam.init.3
-Substitution2: "Single Substitution lookup 29 subtable" arLam.init.2
-Substitution2: "Single Substitution lookup 28 subtable" arLam.init.1
 EndChar

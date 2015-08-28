@@ -34,16 +34,4 @@ SplineSet
  404 312 404 312 503 363 c 1,24,-1
  439 1026 l 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arKaf.medi.11
-Substitution2: "Single Substitution lookup 47 subtable" arKaf.medi.10
-Substitution2: "Single Substitution lookup 40 subtable" arKaf.init.10
-Substitution2: "Single Substitution lookup 36 subtable" arKaf.medi.9
-Substitution2: "Single Substitution lookup 35 subtable" arKaf.medi.8
-Substitution2: "Single Substitution lookup 34 subtable" arKaf.medi.7
-Substitution2: "Single Substitution lookup 33 subtable" arKaf.medi.6
-Substitution2: "Single Substitution lookup 32 subtable" arKaf.medi.5
-Substitution2: "Single Substitution lookup 31 subtable" arKaf.medi.4
-Substitution2: "Single Substitution lookup 30 subtable" arKaf.medi.3
-Substitution2: "Single Substitution lookup 29 subtable" arKaf.medi.2
-Substitution2: "Single Substitution lookup 28 subtable" arKaf.medi.1
 EndChar

@@ -46,15 +46,4 @@ SplineSet
  897 437 897 437 897 452 c 0,45,46
  897 465 897 465 887 485 c 0,31,32
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arTah.init.11
-Substitution2: "Single Substitution lookup 47 subtable" arTah.init.10
-Substitution2: "Single Substitution lookup 36 subtable" arTah.init.9
-Substitution2: "Single Substitution lookup 35 subtable" arTah.init.8
-Substitution2: "Single Substitution lookup 34 subtable" arTah.init.7
-Substitution2: "Single Substitution lookup 33 subtable" arTah.init.6
-Substitution2: "Single Substitution lookup 32 subtable" arTah.init.5
-Substitution2: "Single Substitution lookup 31 subtable" arTah.init.4
-Substitution2: "Single Substitution lookup 30 subtable" arTah.init.3
-Substitution2: "Single Substitution lookup 29 subtable" arTah.init.2
-Substitution2: "Single Substitution lookup 28 subtable" arTah.init.1
 EndChar

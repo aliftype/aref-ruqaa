@@ -25,16 +25,4 @@ SplineSet
  378 312 378 312 477 363 c 1,10,-1
  432 987 l 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arLam.medi.12
-Substitution2: "Single Substitution lookup 47 subtable" arLam.medi.11
-Substitution2: "Single Substitution lookup 41 subtable" arLam.medi.10
-Substitution2: "Single Substitution lookup 36 subtable" arLam.medi.9
-Substitution2: "Single Substitution lookup 35 subtable" arLam.medi.8
-Substitution2: "Single Substitution lookup 34 subtable" arLam.medi.7
-Substitution2: "Single Substitution lookup 33 subtable" arLam.medi.6
-Substitution2: "Single Substitution lookup 32 subtable" arLam.medi.5
-Substitution2: "Single Substitution lookup 31 subtable" arLam.medi.4
-Substitution2: "Single Substitution lookup 30 subtable" arLam.medi.3
-Substitution2: "Single Substitution lookup 29 subtable" arLam.medi.2
-Substitution2: "Single Substitution lookup 28 subtable" arLam.medi.1
 EndChar

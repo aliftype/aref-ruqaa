@@ -38,14 +38,4 @@ SplineSet
  56 266 l 1,32,33
  530 327 530 327 805 488 c 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arHah.medi.10
-Substitution2: "Single Substitution lookup 36 subtable" arHah.medi.9
-Substitution2: "Single Substitution lookup 35 subtable" arHah.medi.8
-Substitution2: "Single Substitution lookup 34 subtable" arHah.medi.7
-Substitution2: "Single Substitution lookup 33 subtable" arHah.medi.6
-Substitution2: "Single Substitution lookup 32 subtable" arHah.medi.5
-Substitution2: "Single Substitution lookup 31 subtable" arHah.medi.4
-Substitution2: "Single Substitution lookup 30 subtable" arHah.medi.3
-Substitution2: "Single Substitution lookup 29 subtable" arHah.medi.2
-Substitution2: "Single Substitution lookup 28 subtable" arHah.medi.1
 EndChar

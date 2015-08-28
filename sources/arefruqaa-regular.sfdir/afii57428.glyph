@@ -6,8 +6,4 @@ LayerCount: 2
 Fore
 Refer: 152 -1 N 1 0 0 1 0 0 3
 Refer: 107 -1 N 1 0 0 1 1296 1440 2
-MultipleSubs2: "'medi' Medial Forms in Arabic lookup 3 subtable" arSeen.medi ar3Noqta.above
-MultipleSubs2: "'fina' Terminal Forms in Arabic lookup 2 subtable" arSeen.fina ar3Noqta.above
-MultipleSubs2: "'init' Initial Forms in Arabic lookup 1 subtable" arSeen.init ar3Noqta.above
-MultipleSubs2: "'isol' Isolated Forms in Arabic lookup 0 subtable" arSeen.isol ar3Noqta.above
 EndChar

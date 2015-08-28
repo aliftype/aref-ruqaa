@@ -13,14 +13,4 @@ AnchorPoint: "Anchor-15" 1116 1161 basechar 0
 LayerCount: 2
 Fore
 Refer: 158 -1 N 1 0 0 1 0 0 2
-Substitution2: "Single Substitution lookup 53 subtable" arSad.medi.10
-Substitution2: "Single Substitution lookup 36 subtable" arSad.medi.9
-Substitution2: "Single Substitution lookup 35 subtable" arSad.medi.8
-Substitution2: "Single Substitution lookup 34 subtable" arSad.medi.7
-Substitution2: "Single Substitution lookup 33 subtable" arSad.medi.6
-Substitution2: "Single Substitution lookup 32 subtable" arSad.medi.5
-Substitution2: "Single Substitution lookup 31 subtable" arSad.medi.4
-Substitution2: "Single Substitution lookup 30 subtable" arSad.medi.3
-Substitution2: "Single Substitution lookup 29 subtable" arSad.medi.2
-Substitution2: "Single Substitution lookup 28 subtable" arSad.medi.1
 EndChar

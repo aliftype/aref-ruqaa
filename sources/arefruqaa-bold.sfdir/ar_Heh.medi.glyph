@@ -45,14 +45,4 @@ SplineSet
  557 -140 557 -140 555 -154 c 2,44,-1
  525 -428 l 1,0,1
 EndSplineSet
-Substitution2: "'ss01' Style Set 1 in Arabic lookup 48 subtable" arHeh.medi2
-Substitution2: "Single Substitution lookup 36 subtable" arHeh.medi.9
-Substitution2: "Single Substitution lookup 35 subtable" arHeh.medi.8
-Substitution2: "Single Substitution lookup 34 subtable" arHeh.medi.7
-Substitution2: "Single Substitution lookup 33 subtable" arHeh.medi.6
-Substitution2: "Single Substitution lookup 32 subtable" arHeh.medi.5
-Substitution2: "Single Substitution lookup 31 subtable" arHeh.medi.4
-Substitution2: "Single Substitution lookup 30 subtable" arHeh.medi.3
-Substitution2: "Single Substitution lookup 29 subtable" arHeh.medi.2
-Substitution2: "Single Substitution lookup 28 subtable" arHeh.medi.1
 EndChar

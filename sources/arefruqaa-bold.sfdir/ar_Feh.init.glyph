@@ -49,15 +49,5 @@ SplineSet
  640 314 640 314 595 265 c 1,54,-1
  595 266 l 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arFeh.init.10
 PairPos2: "'calt' Contextual Alternates in Arabic lookup 52-1" arKaf.init.10.1 dx=120 dy=0 dh=120 dv=0 dx=0 dy=0 dh=0 dv=0
-Substitution2: "Single Substitution lookup 36 subtable" arFeh.init.9
-Substitution2: "Single Substitution lookup 35 subtable" arFeh.init.8
-Substitution2: "Single Substitution lookup 34 subtable" arFeh.init.7
-Substitution2: "Single Substitution lookup 33 subtable" arFeh.init.6
-Substitution2: "Single Substitution lookup 32 subtable" arFeh.init.5
-Substitution2: "Single Substitution lookup 31 subtable" arFeh.init.4
-Substitution2: "Single Substitution lookup 30 subtable" arFeh.init.3
-Substitution2: "Single Substitution lookup 29 subtable" arFeh.init.2
-Substitution2: "Single Substitution lookup 28 subtable" arFeh.init.1
 EndChar

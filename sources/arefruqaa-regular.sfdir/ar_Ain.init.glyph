@@ -39,14 +39,4 @@ SplineSet
  952 362 952 362 931.5 320.5 c 128,-1,38
  911 279 911 279 909 273 c 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 53 subtable" arAin.init.10
-Substitution2: "Single Substitution lookup 36 subtable" arAin.init.9
-Substitution2: "Single Substitution lookup 35 subtable" arAin.init.8
-Substitution2: "Single Substitution lookup 34 subtable" arAin.init.7
-Substitution2: "Single Substitution lookup 33 subtable" arAin.init.6
-Substitution2: "Single Substitution lookup 32 subtable" arAin.init.5
-Substitution2: "Single Substitution lookup 31 subtable" arAin.init.4
-Substitution2: "Single Substitution lookup 30 subtable" arAin.init.3
-Substitution2: "Single Substitution lookup 29 subtable" arAin.init.2
-Substitution2: "Single Substitution lookup 28 subtable" arAin.init.1
 EndChar

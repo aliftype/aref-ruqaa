@@ -61,6 +61,4 @@ SplineSet
  343 646 343 646 334 651 c 2,71,-1
  209 734 l 1,0,1
 EndSplineSet
-Substitution2: "'ss03' Style Set 3 in Arabic lookup 50 subtable" arNoon.isol.2
-MultipleSubs2: "'jalt' Justification Alternatives in Arabic lookup 27 subtable" arNoon.isol.1 ar1Noqta.above
 EndChar
