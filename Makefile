@@ -16,8 +16,8 @@ SFD=$(FONTS:%=$(SRC)/$(NAME)-%.sfdir)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
 PDF=$(DOC)/$(NAME)-table.pdf
 
-ttx?=t
-crunch?=
+ttx?=true
+crunch?=false
 
 all: ttf doc
 
@@ -27,13 +27,13 @@ doc: $(PDF)
 arefruqaa-%.ttf: $(SRC)/arefruqaa-%.sfdir $(SRC)/eulertext-%.sfdir Makefile $(BUILD)
 	@echo "   FF	$@"
 	@$(PY) $(BUILD) $(VERSION) $@ $+
-ifdef ttx
+ifeq ($(ttx), true)
 	@echo "   TTX	$@"
 	@ttx -q -o temp.ttx $@
 	@ttx -q -o $@ temp.ttx
 	@rm -f temp.ttx
 endif
-ifdef crunch
+ifeq ($(crunch), true)
 	@echo "   FC	$@"
 	@font-crunch -q -j8 -o $@.tmp $@
 	@mv $@.tmp $@
@@ -55,5 +55,12 @@ build-encoded-glyphs: $(SFD)
 	     $(PY) $(COMPOSE) $(sfd); \
 	  )
 
+dist:
+	@make ttx=true chrunch=false
+	@mkdir -p $(NAME)-$(VERSION)
+	@cp $(TTF) $(PDF) $(NAME)-$(VERSION)
+	@markdown README.md | w3m -dump -T text/html > $(NAME)-$(VERSION)/README.txt
+	@zip -r $(NAME)-$(VERSION).zip $(NAME)-$(VERSION)
+
 clean:
-	@rm -rf $(TTF) $(PDF)
+	@rm -rf $(TTF) $(PDF) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
