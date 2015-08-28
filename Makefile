@@ -25,12 +25,12 @@ all: ttf doc
 ttf: $(TTF)
 doc: $(PDF)
 
-arefruqaa-%.ttf: $(SRC)/arefruqaa-%.sfdir $(SRC)/eulertext-%.sfdir Makefile $(BUILD)
+arefruqaa-%.ttf: $(SRC)/arefruqaa-%.sfdir $(SRC)/eulertext-%.sfdir $(SRC)/arefruqaa.fea Makefile $(BUILD)
 	@echo "   FF	$@"
 ifeq ($(glyphnames), true)
-	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ $${FILES[0]} $${FILES[1]}
+	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} $${FILES[0]} $${FILES[1]}
 else
-	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --no-glyphnames $${FILES[0]} $${FILES[1]}
+	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} --no-glyphnames $${FILES[0]} $${FILES[1]}
 endif
 ifeq ($(ttx), true)
 	@echo "   TTX	$@"

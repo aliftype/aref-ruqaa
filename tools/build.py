@@ -6,14 +6,11 @@ from datetime import datetime
 from sortsmill import ffcompat as fontforge
 
 def merge(args):
-    version = args.version
-    arabicfilename = args.arabicfile
-    latinfilename = args.latinfile
-
-    arabic = fontforge.open(arabicfilename)
+    arabic = fontforge.open(args.arabicfile)
     arabic.encoding = "Unicode"
+    arabic.mergeFeature(args.feature_file)
 
-    latin = fontforge.open(latinfilename)
+    latin = fontforge.open(args.latinfile)
     latin.em = arabic.em
     latin.encoding = "Unicode"
 
@@ -28,7 +25,7 @@ def merge(args):
     arabic.mergeFonts(latin)
 
     # Set metadata
-    arabic.version = version
+    arabic.version = args.version
     years = datetime.now().year == 2015 and 2015 or "2015-%s" % datetime.now().year
 
     arabic.copyright = ". ".join(["Portions copyright © %s, Khaled Hosny (<khaledhosny@eglug.org>)",
@@ -59,6 +56,7 @@ def main():
     parser.add_argument("arabicfile", metavar="FILE", help="input font to process")
     parser.add_argument("latinfile", metavar="FILE", help="input font to process")
     parser.add_argument("--out-file", metavar="FILE", help="output font to write", required=True)
+    parser.add_argument("--feature-file", metavar="FILE", help="output font to write", required=True)
     parser.add_argument("--version", metavar="version", help="version number", required=True)
     parser.add_argument("--no-glyphnames", action="store_true", help="don't generate glyph names")
 
