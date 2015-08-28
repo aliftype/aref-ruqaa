@@ -3,349 +3,285 @@ languagesystem arab dflt;
 languagesystem arab FAR;
 languagesystem arab URD;
 
-lookup caltContextualAlternatesinArabi {
-  lookupflag IgnoreMarks;
-    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
-	arSad.init arSad.medi arTah.init arTah.medi arAin.init
-	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
-	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
-	arHeh.medi2 arHeh.medi arHeh.init2]' [arHah.fina arHah.medi arHah.medi.1 arHah.medi.2 arHah.medi.3
-	arHah.medi.4 arHah.medi.5 arHah.medi.6 arHah.medi.7
-	arHah.medi.8 arHah.medi.9] by [arBeh.init.1 arBeh.medi.1 arHah.init.1
-	arHah.medi.1 arSeen.init.1 arSeen.medi.1 arSad.init.1 arSad.medi.1
-	arTah.init.1 arTah.medi.1 arAin.init.1 arAin.medi.1 arFeh.init.1
-	arFeh.medi.1 arKaf.init.1 arKaf.medi.1 arLam.init.1 arLam.medi.1
-	arMeem.init.1 arMeem.medi.1 arHeh.init.1 arHeh.medi2.1 arHeh.medi.1
-	arHeh.init2.1];
-} caltContextualAlternatesinArabi;
+@beh_beh   = [arBeh.fina arBeh.medi arNoon.fina arNoon.fina2 arBeh.medi.1
+              arBeh.medi.2 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6
+              arBeh.medi.7 arBeh.medi.8 arBeh.medi.9 arBeh.fina.1 arBeh.medi.13];
 
-lookup sub_chain_caltarab_0 {
-  lookupflag IgnoreMarks;
-    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
-	arSad.init arSad.medi arTah.init arTah.medi arAin.init
-	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
-	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
-	arHeh.medi2 arHeh.medi arHeh.init2]' [arDal.fina] by [arBeh.init.2 arBeh.medi.2 arHah.init.2
-	arHah.medi.2 arSeen.init.2 arSeen.medi.2 arSad.init.2 arSad.medi.2
-	arTah.init.2 arTah.medi.2 arAin.init.2 arAin.medi.2 arFeh.init.2
-	arFeh.medi.2 arKaf.init.2 arKaf.medi.2 arLam.init.2 arLam.medi.2
-	arMeem.init.2 arMeem.medi.2 arHeh.init.2 arHeh.medi2.2 arHeh.medi.2
-	arHeh.init2.2];
-} sub_chain_caltarab_0;
+@init_group = [arBeh.init arHah.init arSeen.init arSad.init arTah.init
+              arAin.init arFeh.init arKaf.init arLam.init arMeem.init
+              arHeh.init];
+@medi_group = [arBeh.medi arHah.medi arSeen.medi arSad.medi arTah.medi
+              arAin.medi arFeh.medi arKaf.medi arLam.medi arMeem.medi
+              arHeh.medi2];
+@init_medi = [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init
+              arSeen.medi arSad.init arSad.medi arTah.init arTah.medi
+              arAin.init arAin.medi arFeh.init arFeh.medi arKaf.init
+              arKaf.medi arLam.init arLam.medi arMeem.init arMeem.medi
+              arHeh.init arHeh.medi2 arHeh.medi arHeh.init2];
+@calt_ain  = [arBeh.init.5 arBeh.medi.5 arHah.init.5 arHah.medi.5 arSeen.init.5
+              arSeen.medi.5 arSad.init.5 arSad.medi.5 arTah.init.5 arTah.medi.5
+              arAin.init.5 arAin.medi.5 arFeh.init.5 arFeh.medi.5 arKaf.init.5
+              arKaf.medi.5 arLam.init.5 arLam.medi.5 arMeem.init.5 arMeem.medi.5
+              arHeh.init.5 arHeh.medi2.5 arHeh.medi.5 arHeh.init2.5];
+@calt_dal  = [arBeh.init.2 arBeh.medi.2 arHah.init.2 arHah.medi.2 arSeen.init.2
+              arSeen.medi.2 arSad.init.2 arSad.medi.2 arTah.init.2 arTah.medi.2
+              arAin.init.2 arAin.medi.2 arFeh.init.2 arFeh.medi.2 arKaf.init.2
+              arKaf.medi.2 arLam.init.2 arLam.medi.2 arMeem.init.2 arMeem.medi.2
+              arHeh.init.2 arHeh.medi2.2 arHeh.medi.2 arHeh.init2.2];
+@calt_feh  = [arBeh.init.6 arBeh.medi.6 arHah.init.6 arHah.medi.6 arSeen.init.6
+              arSeen.medi.6 arSad.init.6 arSad.medi.6 arTah.init.6 arTah.medi.6
+              arAin.init.6 arAin.medi.6 arFeh.init.6 arFeh.medi.6 arKaf.init.6
+              arKaf.medi.6 arLam.init.6 arLam.medi.6 arMeem.init.6 arMeem.medi.6
+              arHeh.init.6 arHeh.medi2.6 arHeh.medi.6 arHeh.init2.6];
+@calt_hah  = [arBeh.init.1 arBeh.medi.1 arHah.init.1 arHah.medi.1 arSeen.init.1
+              arSeen.medi.1 arSad.init.1 arSad.medi.1 arTah.init.1 arTah.medi.1
+              arAin.init.1 arAin.medi.1 arFeh.init.1 arFeh.medi.1 arKaf.init.1
+              arKaf.medi.1 arLam.init.1 arLam.medi.1 arMeem.init.1 arMeem.medi.1
+              arHeh.init.1 arHeh.medi2.1 arHeh.medi.1 arHeh.init2.1];
+@calt_heh  = [arBeh.init.8 arBeh.medi.8 arHah.init.8 arHah.medi.8 arSeen.init.8
+              arSeen.medi.8 arSad.init.8 arSad.medi.8 arTah.init.8 arTah.medi.8
+              arAin.init.8 arAin.medi.8 arFeh.init.8 arFeh.medi.8 arKaf.init.8
+              arKaf.medi.8 arLam.init.8 arLam.medi.8 arMeem.init.8 arMeem.medi.8
+              arHeh.init.8 arHeh.medi2.8 arHeh.medi.8 arHeh.init2.8];
+@calt_meem = [arBeh.init.7 arBeh.medi.7 arHah.init.7 arHah.medi.7 arSeen.init.7
+              arSeen.medi.7 arSad.init.7 arSad.medi.7 arTah.init.7 arTah.medi.7
+              arAin.init.7 arAin.medi.7 arFeh.init.7 arFeh.medi.7 arKaf.init.7
+              arKaf.medi.7 arLam.init.7 arLam.medi.7 arMeem.init.7 arMeem.medi.7
+              arHeh.init.7 arHeh.medi2.7 arHeh.medi.7 arHeh.init2.7];
+@calt_reh  = [arBeh.init.3 arBeh.medi.3 arHah.init.3 arHah.medi.3 arSeen.init.3
+              arSeen.medi.3 arSad.init.3 arSad.medi.3 arTah.init.3 arTah.medi.3
+              arAin.init.3 arAin.medi.3 arFeh.init.3 arFeh.medi.3 arKaf.init.3
+              arKaf.medi.3 arLam.init.3 arLam.medi.3 arMeem.init.3 arMeem.medi.3
+              arHeh.init.3 arHeh.medi2.3 arHeh.medi.3 arHeh.init2.3];
+@calt_sad  = [arBeh.init.4 arBeh.medi.4 arHah.init.4 arHah.medi.4 arSeen.init.4
+              arSeen.medi.4 arSad.init.4 arSad.medi.4 arTah.init.4 arTah.medi.4
+              arAin.init.4 arAin.medi.4 arFeh.init.4 arFeh.medi.4 arKaf.init.4
+              arKaf.medi.4 arLam.init.4 arLam.medi.4 arMeem.init.4 arMeem.medi.4
+              arHeh.init.4 arHeh.medi2.4 arHeh.medi.4 arHeh.init2.4];
+@calt_yeh  = [arBeh.init.9 arBeh.medi.9 arHah.init.9 arHah.medi.9 arSeen.init.9
+              arSeen.medi.9 arSad.init.9 arSad.medi.9 arTah.init.9 arTah.medi.9
+              arAin.init.9 arAin.medi.9 arFeh.init.9 arFeh.medi.9 arKaf.init.9
+              arKaf.medi.9 arLam.init.9 arLam.medi.9 arMeem.init.9 arMeem.medi.9
+              arHeh.init.9 arHeh.medi2.9 arHeh.medi.9 arHeh.init2.9];
+@calt_ragaa = [arBeh.init.11 arBeh.medi.13 arHah.init.10 arHah.medi.10 arSeen.init.10
+               arSeen.medi.10 arSad.init.10 arSad.medi.10 arTah.init.11 arTah.medi.11
+               arAin.init.10 arAin.medi.10 arFeh.init.10 arFeh.medi.10 arKaf.init.11
+               arKaf.medi.11 arLam.init.12 arLam.medi.12 arMeem.init.10 arMeem.medi.10
+               arHeh.init.10 arHeh.medi2.10 arHeh.medi arHeh.init2.10];
 
-lookup sub_chain_caltarab_2 {
-  lookupflag IgnoreMarks;
-    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
-	arSad.init arSad.medi arTah.init arTah.medi arAin.init
-	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
-	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
-	arHeh.medi2 arHeh.medi arHeh.init2]' [arReh.fina] by [arBeh.init.3 arBeh.medi.3 arHah.init.3
-	arHah.medi.3 arSeen.init.3 arSeen.medi.3 arSad.init.3 arSad.medi.3
-	arTah.init.3 arTah.medi.3 arAin.init.3 arAin.medi.3 arFeh.init.3
-	arFeh.medi.3 arKaf.init.3 arKaf.medi.3 arLam.init.3 arLam.medi.3
-	arMeem.init.3 arMeem.medi.3 arHeh.init.3 arHeh.medi2.3 arHeh.medi.3
-	arHeh.init2.3];
-} sub_chain_caltarab_2;
+@context_ain         = [arAin.fina arAin.medi arAin.medi.1 arAin.medi.2 arAin.medi.3
+                        arAin.medi.4 arAin.medi.5 arAin.medi.6 arAin.medi.7 arAin.medi.8
+                        arAin.medi.9 arAin.medi.10];
+@context_meem        = [arMem.fina arMeem.medi arMeem.medi.1 arMeem.medi.2 arMeem.medi.3
+                        arMeem.medi.4 arMeem.medi.5 arMeem.medi.6 arMeem.medi.7 arMeem.medi.8
+                        arMeem.medi.9 arMeem.medi.10];
+@context_feh         = [arFeh.fina arFeh.medi arFeh.medi.1 arFeh.medi.2 arFeh.medi.3
+                        arFeh.medi.4 arFeh.medi.5 arFeh.medi.6 arFeh.medi.7 arFeh.medi.8
+                        arFeh.medi.9 arFeh.fina.1 arQaf.fina.1 arFeh.medi.10];
+@context_hah         = [arHah.fina arHah.medi arHah.medi.1 arHah.medi.2 arHah.medi.3
+                        arHah.medi.4 arHah.medi.5 arHah.medi.6 arHah.medi.7 arHah.medi.8
+                        arHah.medi.9 arHah.medi.10];
+@context_heh         = [arHeh.medi arHeh.medi.1 arHeh.medi.2 arHeh.medi.3 arHeh.medi.4
+                        arHeh.medi.5 arHeh.medi.6 arHeh.medi.7 arHeh.medi.8 arHeh.medi.9];
+@context_heh_1       = [arHeh.medi2 arHeh.fina3 arHeh.medi2.1 arHeh.medi2.2 arHeh.medi2.3
+                        arHeh.medi2.4 arHeh.medi2.5 arHeh.medi2.6 arHeh.medi2.7 arHeh.medi2.8
+                        arHeh.medi2.9 arHeh.medi2.10];
+@context_kaf_alef    = [arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.10
+                        arGaf.fina arKaf.medi.1 arLam.medi.1 arKaf.medi.2 arLam.medi.2
+                        arKaf.medi.3 arLam.medi.3 arKaf.medi.4 arLam.medi.4 arKaf.medi.5
+                        arLam.medi.5 arKaf.medi.6 arLam.medi.6 arKaf.medi.7 arLam.medi.7
+                        arKaf.medi.8 arLam.medi.8 arKaf.medi.9 arLam.medi.9 arLam.fina.1
+                        arGaf.fina.1 arKaf.medi.11 arLam.medi.12];
+@context_sad         = [arSad.fina arSad.medi arTah.fina arTah.medi arSad.medi.1 arTah.medi.1
+                        arSad.medi.2 arTah.medi.2 arSad.medi.3 arTah.medi.3 arSad.medi.4
+                        arTah.medi.4 arSad.medi.5 arTah.medi.5 arSad.medi.6 arTah.medi.6
+                        arSad.medi.7 arTah.medi.7 arSad.medi.8 arTah.medi.8 arSad.medi.9
+                        arTah.medi.9 arSad.fina.1 arTah.medi.10];
+@context_yeh_by_yeh1 = [arBeh.init.9 arFeh.init.9 arKaf.init.9 arLam.init.9];
+@kantara_all         = [arBeh.medi.1 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6
+                        arBeh.medi.7 arBeh.medi.8 arBeh.medi.9];
+@seen_all            = [arSeen.fina arSeen.medi arSeen.medi.1 arSeen.medi.2 arSeen.medi.3
+                        arSeen.medi.4 arSeen.medi.5 arSeen.medi.6 arSeen.medi.7 arSeen.medi.8
+                        arSeen.medi.9 arSeen.fina.1 arSeen.medi.10];
 
-lookup sub_chain_caltarab_4 {
+
+lookup calt_hah {
   lookupflag IgnoreMarks;
-    ignore sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
-	arSad.init arSad.medi arTah.init arTah.medi arAin.init
-	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
-	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
-	arHeh.medi2 arHeh.medi arHeh.init2]' [arSad.fina arSad.medi arTah.fina arTah.medi arSad.medi.1 arTah.medi.1
-	arSad.medi.2 arTah.medi.2 arSad.medi.3 arTah.medi.3
-	arSad.medi.4 arTah.medi.4 arSad.medi.5 arTah.medi.5
-	arSad.medi.6 arTah.medi.6 arSad.medi.7 arTah.medi.7
-	arSad.medi.8 arTah.medi.8 arSad.medi.9 arTah.medi.9
-	arSad.fina.1 arTah.medi.10] [arYeh.isol2 arYeh.fina2];
+    sub @init_medi' @context_hah by @calt_hah;
+} calt_hah;
+
+lookup calt_dal {
+  lookupflag IgnoreMarks;
+    sub @init_medi' [arDal.fina] by @calt_dal;
+} calt_dal;
+
+lookup calt_reh {
+  lookupflag IgnoreMarks;
+    sub @init_medi' [arReh.fina] by @calt_reh;
+} calt_reh;
+
+lookup calt_sad {
+  lookupflag IgnoreMarks;
+    ignore sub @init_medi' @context_sad [arYeh.isol2 arYeh.fina2];
   subtable;
-    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
-	arSad.init arSad.medi arTah.init arTah.medi arAin.init
-	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
-	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
-	arHeh.medi2 arHeh.medi arHeh.init2]' [arSad.fina arSad.medi arTah.fina arTah.medi arSad.medi.1 arTah.medi.1
-	arSad.medi.2 arTah.medi.2 arSad.medi.3 arTah.medi.3
-	arSad.medi.4 arTah.medi.4 arSad.medi.5 arTah.medi.5
-	arSad.medi.6 arTah.medi.6 arSad.medi.7 arTah.medi.7
-	arSad.medi.8 arTah.medi.8 arSad.medi.9 arTah.medi.9
-	arSad.fina.1 arTah.medi.10] by [arBeh.init.4 arBeh.medi.4 arHah.init.4
-	arHah.medi.4 arSeen.init.4 arSeen.medi.4 arSad.init.4 arSad.medi.4
-	arTah.init.4 arTah.medi.4 arAin.init.4 arAin.medi.4 arFeh.init.4
-	arFeh.medi.4 arKaf.init.4 arKaf.medi.4 arLam.init.4 arLam.medi.4
-	arMeem.init.4 arMeem.medi.4 arHeh.init.4 arHeh.medi2.4 arHeh.medi.4
-	arHeh.init2.4];
-} sub_chain_caltarab_4;
+    sub @init_medi' @context_sad by @calt_sad;
+} calt_sad;
 
-lookup sub_chain_caltarab_6 {
+lookup calt_ain {
   lookupflag IgnoreMarks;
-    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
-	arSad.init arSad.medi arTah.init arTah.medi arAin.init
-	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
-	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
-	arHeh.medi2 arHeh.medi arHeh.init2]' [arAin.fina arAin.medi arAin.medi.1 arAin.medi.2 arAin.medi.3
-	arAin.medi.4 arAin.medi.5 arAin.medi.6 arAin.medi.7
-	arAin.medi.8 arAin.medi.9] by [arBeh.init.5 arBeh.medi.5 arHah.init.5
-	arHah.medi.5 arSeen.init.5 arSeen.medi.5 arSad.init.5 arSad.medi.5
-	arTah.init.5 arTah.medi.5 arAin.init.5 arAin.medi.5 arFeh.init.5
-	arFeh.medi.5 arKaf.init.5 arKaf.medi.5 arLam.init.5 arLam.medi.5
-	arMeem.init.5 arMeem.medi.5 arHeh.init.5 arHeh.medi2.5 arHeh.medi.5
-	arHeh.init2.5];
-} sub_chain_caltarab_6;
+    sub @init_medi' @context_ain by @calt_ain;
+} calt_ain;
 
-lookup sub_chain_caltarab_8 {
+lookup calt_feh {
   lookupflag IgnoreMarks;
-    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
-	arSad.init arSad.medi arTah.init arTah.medi arAin.init
-	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
-	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
-	arHeh.medi2 arHeh.medi arHeh.init2]' [arFeh.fina arFeh.medi arFeh.medi.1 arFeh.medi.2 arFeh.medi.3
-	arFeh.medi.4 arFeh.medi.5 arFeh.medi.6 arFeh.medi.7
-	arFeh.medi.8 arFeh.medi.9 arFeh.fina.1 arQaf.fina.1] by [arBeh.init.6 arBeh.medi.6 arHah.init.6
-	arHah.medi.6 arSeen.init.6 arSeen.medi.6 arSad.init.6 arSad.medi.6
-	arTah.init.6 arTah.medi.6 arAin.init.6 arAin.medi.6 arFeh.init.6
-	arFeh.medi.6 arKaf.init.6 arKaf.medi.6 arLam.init.6 arLam.medi.6
-	arMeem.init.6 arMeem.medi.6 arHeh.init.6 arHeh.medi2.6 arHeh.medi.6
-	arHeh.init2.6];
-} sub_chain_caltarab_8;
+    sub @init_medi' @context_feh by @calt_feh;
+} calt_feh;
 
-lookup sub_chain_caltarab_10 {
+lookup calt_meem_heh {
   lookupflag IgnoreMarks;
-    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
-	arSad.init arSad.medi arTah.init arTah.medi arAin.init
-	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
-	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
-	arHeh.medi2 arHeh.medi arHeh.init2]' [arMem.fina arMeem.medi arHeh.medi2 arHeh.fina3 arMeem.medi.1
-	arHeh.medi2.1 arMeem.medi.2 arHeh.medi2.2 arMeem.medi.3
-	arHeh.medi2.3 arMeem.medi.4 arHeh.medi2.4 arMeem.medi.5
-	arHeh.medi2.5 arMeem.medi.6 arHeh.medi2.6 arMeem.medi.7
-	arHeh.medi2.7 arMeem.medi.8 arHeh.medi2.8 arMeem.medi.9
-	arHeh.medi2.9] by [arBeh.init.7 arBeh.medi.7 arHah.init.7
-	arHah.medi.7 arSeen.init.7 arSeen.medi.7 arSad.init.7 arSad.medi.7
-	arTah.init.7 arTah.medi.7 arAin.init.7 arAin.medi.7 arFeh.init.7
-	arFeh.medi.7 arKaf.init.7 arKaf.medi.7 arLam.init.7 arLam.medi.7
-	arMeem.init.7 arMeem.medi.7 arHeh.init.7 arHeh.medi2.7 arHeh.medi.7
-	arHeh.init2.7];
-} sub_chain_caltarab_10;
+    sub @init_medi' [@context_meem @context_heh_1] by @calt_meem;
+} calt_meem_heh;
 
-lookup sub_chain_caltarab_12 {
+lookup calt_heh {
   lookupflag IgnoreMarks;
-    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
-	arSad.init arSad.medi arTah.init arTah.medi arAin.init
-	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
-	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
-	arHeh.medi2 arHeh.medi arHeh.init2]' [arHeh.medi arHeh.medi.1 arHeh.medi.2 arHeh.medi.3 arHeh.medi.4
-	arHeh.medi.5 arHeh.medi.6 arHeh.medi.7 arHeh.medi.8
-	arHeh.medi.9] by [arBeh.init.8 arBeh.medi.8 arHah.init.8
-	arHah.medi.8 arSeen.init.8 arSeen.medi.8 arSad.init.8 arSad.medi.8
-	arTah.init.8 arTah.medi.8 arAin.init.8 arAin.medi.8 arFeh.init.8
-	arFeh.medi.8 arKaf.init.8 arKaf.medi.8 arLam.init.8 arLam.medi.8
-	arMeem.init.8 arMeem.medi.8 arHeh.init.8 arHeh.medi2.8 arHeh.medi.8
-	arHeh.init2.8];
-} sub_chain_caltarab_12;
+    sub @init_medi' @context_heh by @calt_heh;
+} calt_heh;
 
-lookup sub_chain_caltarab_14 {
+lookup calt_yeh {
   lookupflag IgnoreMarks;
-    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
-	arSad.init arSad.medi arTah.init arTah.medi arAin.init
-	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
-	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
-	arHeh.medi2 arHeh.medi arHeh.init2]' [arYeh.fina] by [arBeh.init.9 arBeh.medi.9 arHah.init.9
-	arHah.medi.9 arSeen.init.9 arSeen.medi.9 arSad.init.9 arSad.medi.9
-	arTah.init.9 arTah.medi.9 arAin.init.9 arAin.medi.9 arFeh.init.9
-	arFeh.medi.9 arKaf.init.9 arKaf.medi.9 arLam.init.9 arLam.medi.9
-	arMeem.init.9 arMeem.medi.9 arHeh.init.9 arHeh.medi2.9 arHeh.medi.9
-	arHeh.init2.9];
-} sub_chain_caltarab_14;
+    sub @init_medi' [arYeh.fina] by @calt_yeh;
+} calt_yeh;
 
-lookup sub_chain_caltarab_16 {
+lookup calt_yeh_by_yeh1 {
   lookupflag IgnoreMarks;
-    sub [arBeh.init.9 arFeh.init.9 arKaf.init.9 arLam.init.9] [arYeh.fina]' by [arYeh.fina.2];
-} sub_chain_caltarab_16;
+    sub @context_yeh_by_yeh1 [arYeh.fina]' by [arYeh.fina.2];
+} calt_yeh_by_yeh1;
 
-lookup sub_chain_caltarab_18 {
+lookup calt_kaf_alef {
   lookupflag IgnoreMarks;
-    sub [arKaf.init]' [arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.10
-	arGaf.fina arKaf.medi.1 arLam.medi.1 arKaf.medi.2 arLam.medi.2
-	arKaf.medi.3 arLam.medi.3 arKaf.medi.4 arLam.medi.4
-	arKaf.medi.5 arLam.medi.5 arKaf.medi.6 arLam.medi.6
-	arKaf.medi.7 arLam.medi.7 arKaf.medi.8 arLam.medi.8
-	arKaf.medi.9 arLam.medi.9 arLam.fina.1 arGaf.fina.1] by [arKaf.init.10];
-} sub_chain_caltarab_18;
+    sub [arKaf.init]' @context_kaf_alef by [arKaf.init.10];
+} calt_kaf_alef;
 
-lookup sub_chain_caltarab_20 {
+lookup calt_kaf_kaf_kaf {
   lookupflag IgnoreMarks;
-    sub [arKaf.init.10] [arKaf.init.10]' [arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.10
-	arGaf.fina arKaf.medi.1 arLam.medi.1 arKaf.medi.2 arLam.medi.2
-	arKaf.medi.3 arLam.medi.3 arKaf.medi.4 arLam.medi.4
-	arKaf.medi.5 arLam.medi.5 arKaf.medi.6 arLam.medi.6
-	arKaf.medi.7 arLam.medi.7 arKaf.medi.8 arLam.medi.8
-	arKaf.medi.9 arLam.medi.9 arLam.fina.1 arGaf.fina.1] by [arKaf.medi];
-} sub_chain_caltarab_20;
+    sub [arKaf.init.10] [arKaf.init.10]' @context_kaf_alef by [arKaf.medi];
+} calt_kaf_kaf_kaf;
 
-lookup SingleSubstitutionlookup40 {
-  lookupflag 0;
-    sub arKaf.medi by arKaf.init.10;
-} SingleSubstitutionlookup40;
-
-lookup sub_chain_caltarab_22 {
+lookup calt_kaf_init_medi {
   lookupflag IgnoreMarks;
-    sub [arBeh.init arHah.init arSeen.init arSad.init arTah.init arAin.init
-	arFeh.init arKaf.init arLam.init arMeem.init arHeh.init] [arKaf.medi]'lookup SingleSubstitutionlookup40  [arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.10
-	arGaf.fina arKaf.medi.1 arLam.medi.1 arKaf.medi.2 arLam.medi.2
-	arKaf.medi.3 arLam.medi.3 arKaf.medi.4 arLam.medi.4
-	arKaf.medi.5 arLam.medi.5 arKaf.medi.6 arLam.medi.6
-	arKaf.medi.7 arLam.medi.7 arKaf.medi.8 arLam.medi.8
-	arKaf.medi.9 arLam.medi.9 arLam.fina.1 arGaf.fina.1];
+    sub @init_group [arKaf.medi]' @context_kaf_alef by [arKaf.init.10];
   subtable;
-    sub [arBeh.medi arHah.medi arSeen.medi arSad.medi arTah.medi arAin.medi
-	arFeh.medi arKaf.medi arLam.medi arMeem.medi arHeh.medi2] [arKaf.medi]'lookup SingleSubstitutionlookup40  [arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.10
-	arGaf.fina arKaf.medi.1 arLam.medi.1 arKaf.medi.2 arLam.medi.2
-	arKaf.medi.3 arLam.medi.3 arKaf.medi.4 arLam.medi.4
-	arKaf.medi.5 arLam.medi.5 arKaf.medi.6 arLam.medi.6
-	arKaf.medi.7 arLam.medi.7 arKaf.medi.8 arLam.medi.8
-	arKaf.medi.9 arLam.medi.9 arLam.fina.1 arGaf.fina.1];
-} sub_chain_caltarab_22;
+    sub @medi_group [arKaf.medi]' @context_kaf_alef by [arKaf.init.10];
+} calt_kaf_init_medi;
 
-lookup sub_chain_caltarab_24 {
+lookup calt_lamalef {
   lookupflag IgnoreMarks;
     sub [arLam.init arLam.medi]' [arAlef.fina] by [arLam.init.10 arLam.medi.10];
-} sub_chain_caltarab_24;
+} calt_lamalef;
 
-lookup sub_chain_caltarab_26 {
+lookup calt_alef {
   lookupflag IgnoreMarks;
     sub [arLam.init.10 arLam.medi.10] [arAlef.fina]' by [arAlef.fina.1];
-} sub_chain_caltarab_26;
+} calt_alef;
 
-lookup sub_chain_caltarab_28 {
+lookup calt_beh_1 {
   lookupflag IgnoreMarks;
     sub [arBeh.medi]' [arNoon.fina arNoon.fina2 arNoon.isol.1] by [arBeh.medi.10];
-} sub_chain_caltarab_28;
+} calt_beh_1;
 
 lookup sub_chain_caltarab_30 {
   lookupflag IgnoreMarks;
-    sub [arBeh.init]' [arAlef.fina arBeh.fina arBeh.medi arKaf.fina arKaf.medi arLam.fina
-	arLam.medi arNoon.fina arLam.medi.10 arGaf.fina arNoon.fina2
-	arBeh.medi.1 arKaf.medi.1 arLam.medi.1 arBeh.medi.2
-	arKaf.medi.2 arLam.medi.2 arBeh.medi.3 arKaf.medi.3
-	arLam.medi.3 arBeh.medi.4 arKaf.medi.4 arLam.medi.4
-	arBeh.medi.5 arKaf.medi.5 arLam.medi.5 arBeh.medi.6
-	arKaf.medi.6 arLam.medi.6 arBeh.medi.7 arKaf.medi.7
-	arLam.medi.7 arBeh.medi.8 arKaf.medi.8 arLam.medi.8
-	arBeh.medi.9 arKaf.medi.9 arLam.medi.9 arKaf.init.10
-	arBeh.fina.1 arLam.fina.1 arGaf.fina.1] by [arBeh.init.10];
+    sub [arBeh.init]' [arAlef.fina arBeh.fina arBeh.medi arKaf.fina arKaf.medi arLam.fina arLam.medi arNoon.fina arLam.medi.10 arGaf.fina arNoon.fina2 arBeh.medi.1 arKaf.medi.1 arLam.medi.1 arBeh.medi.2 arKaf.medi.2 arLam.medi.2 arBeh.medi.3 arKaf.medi.3 arLam.medi.3 arBeh.medi.4 arKaf.medi.4 arLam.medi.4 arBeh.medi.5 arKaf.medi.5 arLam.medi.5 arBeh.medi.6 arKaf.medi.6 arLam.medi.6 arBeh.medi.7 arKaf.medi.7 arLam.medi.7 arBeh.medi.8 arKaf.medi.8 arLam.medi.8 arBeh.medi.9 arKaf.medi.9 arLam.medi.9 arKaf.init.10 arBeh.fina.1 arLam.fina.1 arGaf.fina.1] by [arBeh.init.10];
 } sub_chain_caltarab_30;
 
-lookup SingleSubstitutionlookup45 {
-  lookupflag 0;
-    sub arBeh.medi by arBeh.medi.11;
-} SingleSubstitutionlookup45;
-
-lookup sub_chain_caltarab_32 {
+lookup calt_beh_3 {
   lookupflag IgnoreMarks;
-    sub [arBeh.init.10] [arBeh.medi]'lookup SingleSubstitutionlookup45  [arBeh.medi];
+    sub [arBeh.init.10] [arBeh.medi]' [arBeh.medi] by [arBeh.medi.11];
   subtable;
-    sub [arBeh.init.10] [arBeh.medi]'lookup SingleSubstitutionlookup45  [arBeh.fina];
+    sub [arBeh.init.10] [arBeh.medi]' [arBeh.fina] by [arBeh.medi.11];
   subtable;
-    sub [arBeh.init.10] [arBeh.medi]'lookup SingleSubstitutionlookup45  [arBeh.fina.1];
-} sub_chain_caltarab_32;
+    sub [arBeh.init.10] [arBeh.medi]' [arBeh.fina.1] by [arBeh.medi.11];
+} calt_beh_3;
 
-lookup SingleSubstitutionlookup46 {
+lookup high_beh {
   lookupflag 0;
     sub arBeh.medi by arBeh.medi.12;
-} SingleSubstitutionlookup46;
+} high_beh;
 
-lookup sub_chain_caltarab_34 {
+lookup calt_beh_4 {
   lookupflag IgnoreMarks;
-    sub [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi];
+    sub [arBeh.medi] [arBeh.medi]'lookup high_beh [arBeh.medi];
   subtable;
-    sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46;
+    sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi]'lookup high_beh;
   subtable;
-    sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46;
+    sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi] [arBeh.medi]'lookup high_beh;
   subtable;
-    sub [arBeh.medi]'lookup SingleSubstitutionlookup46  [arSeen.fina arSeen.medi arSeen.medi.1 arSeen.medi.2 arSeen.medi.3
-	arSeen.medi.4 arSeen.medi.5 arSeen.medi.6 arSeen.medi.7
-	arSeen.medi.8 arSeen.medi.9 arSeen.fina.1];
+    sub [arBeh.medi]'lookup high_beh @seen_all;
   subtable;
-    sub [arBeh.init.10] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi.1 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6
-	arBeh.medi.7 arBeh.medi.8 arBeh.medi.9];
+    sub [arBeh.init.10] [arBeh.medi]'lookup high_beh @kantara_all;
   subtable;
-    sub [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi.1 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6
-	arBeh.medi.7 arBeh.medi.8 arBeh.medi.9];
+    sub [arBeh.medi] [arBeh.medi]'lookup high_beh @kantara_all;
   subtable;
-    sub [arSeen.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.fina];
+    sub [arSeen.medi] [arBeh.medi]'lookup high_beh [arBeh.fina];
   subtable;
-    sub [arSad.init] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi];
+    sub [arSad.init] [arBeh.medi]'lookup high_beh [arBeh.medi];
   subtable;
-    sub [arSad.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi];
-} sub_chain_caltarab_34;
+    sub [arSad.medi] [arBeh.medi]'lookup high_beh [arBeh.medi];
+} calt_beh_4;
 
 lookup sub_chain_caltarab_36 {
   lookupflag IgnoreMarks;
-    sub [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi];
+    sub [arBeh.medi] [arBeh.medi]'lookup high_beh [arBeh.medi];
   subtable;
-    sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46;
+    sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi]'lookup high_beh;
   subtable;
-    sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46;
+    sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi] [arBeh.medi]'lookup high_beh;
   subtable;
-    sub [arBeh.medi]'lookup SingleSubstitutionlookup46  [arSeen.fina arSeen.medi arSeen.medi.1 arSeen.medi.2 arSeen.medi.3
-	arSeen.medi.4 arSeen.medi.5 arSeen.medi.6 arSeen.medi.7
-	arSeen.medi.8 arSeen.medi.9 arSeen.fina.1];
+    sub [arBeh.medi]'lookup high_beh @seen_all;
   subtable;
-    sub [arBeh.init.10] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi.1 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6
-	arBeh.medi.7 arBeh.medi.8 arBeh.medi.9];
+    sub [arBeh.init.10] [arBeh.medi]'lookup high_beh @kantara_all;
   subtable;
-    sub [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi.1 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6
-	arBeh.medi.7 arBeh.medi.8 arBeh.medi.9];
+    sub [arBeh.medi] [arBeh.medi]'lookup high_beh @kantara_all;
   subtable;
-    sub [arSeen.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.fina];
+    sub [arSeen.medi] [arBeh.medi]'lookup high_beh [arBeh.fina];
   subtable;
-    sub [arSad.init] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi];
+    sub [arSad.init] [arBeh.medi]'lookup high_beh [arBeh.medi];
   subtable;
-    sub [arSad.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi];
+    sub [arSad.medi] [arBeh.medi]'lookup high_beh [arBeh.medi];
   subtable;
-    sub [arSeen.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi.4];
+    sub [arSeen.medi] [arBeh.medi]'lookup high_beh [arBeh.medi.4];
 } sub_chain_caltarab_36;
 
-lookup sub_chain_caltarab_38 {
+lookup calt_beh_5 {
   lookupflag IgnoreMarks;
     sub [arBeh.medi.12] [arBeh.medi.12]' by [arBeh.medi];
-} sub_chain_caltarab_38;
+} calt_beh_5;
 
-lookup SingleSubstitutionlookup47 {
+lookup kaf_lam_tah {
   lookupflag 0;
     sub arTah.init by arTah.init.10;
     sub arTah.medi by arTah.medi.10;
     sub arKaf.medi by arKaf.medi.10;
     sub arLam.init by arLam.init.11;
     sub arLam.medi by arLam.medi.11;
-} SingleSubstitutionlookup47;
+} kaf_lam_tah;
 
-lookup sub_chain_caltarab_40 {
+lookup calt_kaf_lam_tah {
   lookupflag IgnoreMarks;
-    sub [arTah.init arTah.medi arKaf.medi arLam.init arLam.medi]'lookup SingleSubstitutionlookup47  [arKaf.init.10];
+    sub [arTah.init arTah.medi arKaf.medi arLam.init arLam.medi]'lookup kaf_lam_tah  [arKaf.init.10];
   subtable;
-    sub [arKaf.init.10] [arTah.init arTah.medi arKaf.medi arLam.init arLam.medi]'lookup SingleSubstitutionlookup47  [arKaf.init.10];
-} sub_chain_caltarab_40;
+    sub [arKaf.init.10] [arTah.init arTah.medi arKaf.medi arLam.init arLam.medi]'lookup kaf_lam_tah  [arKaf.init.10];
+} calt_kaf_lam_tah;
 
-lookup sub_chain_caltarab_42 {
+lookup calt_yeh_ragaa {
   lookupflag IgnoreMarks;
-    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
-	arSad.init arSad.medi arTah.init arTah.medi arAin.init
-	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
-	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
-	arHeh.medi2 arHeh.init2]' [arYeh.fina2] by [arBeh.init.11 arBeh.medi.13
-	arHah.init.10 arHah.medi.10 arSeen.init.10 arSeen.medi.10 arSad.init.10
-	arSad.medi.10 arTah.init.11 arTah.medi.11 arAin.init.10 arAin.medi.10
-	arFeh.init.10 arFeh.medi.10 arKaf.init.11 arKaf.medi.11 arLam.init.12
-	arLam.medi.12 arMeem.init.10 arMeem.medi.10 arHeh.init.10 arHeh.medi2.10
-	arHeh.init2.10];
-} sub_chain_caltarab_42;
+    sub @init_medi' [arYeh.fina2] by @calt_ragaa;
+} calt_yeh_ragaa;
 
-lookup sub_chain_caltarab_44 {
+lookup calt_feh_kaf {
   lookupflag IgnoreMarks;
     sub [arFeh.init] [arKaf.init.10]' by [arKaf.init.10.1];
-} sub_chain_caltarab_44;
+} calt_feh_kaf;
 
 feature isol {
   lookupflag IgnoreMarks;
@@ -576,30 +512,30 @@ feature ccmp {
 } ccmp;
 
 feature calt {
-    lookup caltContextualAlternatesinArabi;
-    lookup sub_chain_caltarab_0;
-    lookup sub_chain_caltarab_2;
-    lookup sub_chain_caltarab_4;
-    lookup sub_chain_caltarab_6;
-    lookup sub_chain_caltarab_8;
-    lookup sub_chain_caltarab_10;
-    lookup sub_chain_caltarab_12;
-    lookup sub_chain_caltarab_14;
-    lookup sub_chain_caltarab_16;
-    lookup sub_chain_caltarab_18;
-    lookup sub_chain_caltarab_20;
-    lookup sub_chain_caltarab_22;
-    lookup sub_chain_caltarab_24;
-    lookup sub_chain_caltarab_26;
-    lookup sub_chain_caltarab_28;
+    lookup calt_hah;
+    lookup calt_dal;
+    lookup calt_reh;
+    lookup calt_sad;
+    lookup calt_ain;
+    lookup calt_feh;
+    lookup calt_meem_heh;
+    lookup calt_heh;
+    lookup calt_yeh;
+    lookup calt_yeh_by_yeh1;
+    lookup calt_kaf_alef;
+    lookup calt_kaf_kaf_kaf;
+    lookup calt_kaf_init_medi;
+    lookup calt_lamalef;
+    lookup calt_alef;
+    lookup calt_beh_1;
     lookup sub_chain_caltarab_30;
-    lookup sub_chain_caltarab_32;
-    lookup sub_chain_caltarab_34;
+    lookup calt_beh_3;
+    lookup calt_beh_4;
     lookup sub_chain_caltarab_36;
-    lookup sub_chain_caltarab_38;
-    lookup sub_chain_caltarab_40;
-    lookup sub_chain_caltarab_42;
-    lookup sub_chain_caltarab_44;
+    lookup calt_beh_5;
+    lookup calt_kaf_lam_tah;
+    lookup calt_yeh_ragaa;
+    lookup calt_feh_kaf;
 } calt;
 
 feature jalt {
