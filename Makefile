@@ -18,6 +18,7 @@ PDF=$(DOC)/$(NAME)-table.pdf
 
 ttx?=true
 crunch?=false
+glyphnames?=true
 
 all: ttf doc
 
@@ -26,7 +27,11 @@ doc: $(PDF)
 
 arefruqaa-%.ttf: $(SRC)/arefruqaa-%.sfdir $(SRC)/eulertext-%.sfdir Makefile $(BUILD)
 	@echo "   FF	$@"
+ifeq ($(glyphnames), true)
 	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ $${FILES[0]} $${FILES[1]}
+else
+	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --no-glyphnames $${FILES[0]} $${FILES[1]}
+endif
 ifeq ($(ttx), true)
 	@echo "   TTX	$@"
 	@ttx -q -o temp.ttx $@
@@ -56,7 +61,7 @@ build-encoded-glyphs: $(SFD)
 	  )
 
 dist:
-	@make ttx=true chrunch=false
+	@make -B ttx=true chrunch=false glyphnames=false
 	@mkdir -p $(NAME)-$(VERSION)
 	@cp $(TTF) $(PDF) $(NAME)-$(VERSION)
 	@markdown README.md | w3m -dump -T text/html > $(NAME)-$(VERSION)/README.txt
