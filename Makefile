@@ -26,7 +26,7 @@ doc: $(PDF)
 
 arefruqaa-%.ttf: $(SRC)/arefruqaa-%.sfdir $(SRC)/eulertext-%.sfdir Makefile $(BUILD)
 	@echo "   FF	$@"
-	@$(PY) $(BUILD) $(VERSION) $@ $+
+	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ $${FILES[0]} $${FILES[1]}
 ifeq ($(ttx), true)
 	@echo "   TTX	$@"
 	@ttx -q -o temp.ttx $@
