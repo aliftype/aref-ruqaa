@@ -1,927 +1,719 @@
-lookup isolIsolatedFormsinArabiclookup {
-  lookupflag IgnoreMarks;
-    sub \afii57409 by \arHamza.isol ;
-    sub \afii57410 by \arAlef.isol \uni0653 ;
-    sub \afii57411 by \arAlef.isol \uni0654 ;
-    sub \afii57412 by \arWaw.isol \uni0654 ;
-    sub \afii57413 by \arAlef.isol \uni0655 ;
-    sub \afii57414 by \arYeh.isol \uni0654 ;
-    sub \afii57415 by \arAlef.isol ;
-    sub \afii57416 by \arBeh.isol \ar1Noqta.below ;
-    sub \afii57417 by \arHeh.isol \ar2Noqta.above ;
-    sub \afii57418 by \arBeh.isol \ar2Noqta.above ;
-    sub \afii57419 by \arBeh.isol \ar3Noqta.above ;
-    sub \afii57420 by \arHah.isol \ar1Noqta.below ;
-    sub \afii57421 by \arHah.isol ;
-    sub \afii57422 by \arHah.isol \ar1Noqta.above ;
-    sub \afii57423 by \arDal.isol ;
-    sub \afii57424 by \arDal.isol \ar1Noqta.above ;
-    sub \afii57425 by \arReh.isol ;
-    sub \afii57426 by \arReh.isol \ar1Noqta.above ;
-    sub \afii57427 by \arSeen.isol ;
-    sub \afii57428 by \arSeen.isol \ar3Noqta.above ;
-    sub \afii57429 by \arSad.isol ;
-    sub \afii57430 by \arSad.isol \ar1Noqta.above ;
-    sub \afii57431 by \arTah.isol ;
-    sub \afii57432 by \arTah.isol \ar1Noqta.above ;
-    sub \afii57433 by \arAin.isol ;
-    sub \afii57434 by \arAin.isol \ar1Noqta.above ;
-    sub \afii57441 by \arFeh.isol \ar1Noqta.above ;
-    sub \afii57442 by \arQaf.isol ;
-    sub \afii57443 by \arKaf.isol ;
-    sub \afii57444 by \arLam.isol ;
-    sub \afii57445 by \arMem.isol ;
-    sub \afii57446 by \arNoon.isol ;
-    sub \afii57470 by \arHeh.isol ;
-    sub \afii57448 by \arWaw.isol ;
-    sub \afii57449 by \arYeh.isol ;
-    sub \afii57450 by \arYeh.isol \ar2Noqta.below ;
-    sub \uni0671 by \arAlef.isol \arSad.mark ;
-    sub \afii57506 by \arBeh.isol \ar3Noqta.below ;
-    sub \afii57511 by \arBeh.isol \arTah.mark ;
-    sub \afii57505 by \arFeh.isol \ar3Noqta.above ;
-    sub \afii57507 by \arHah.isol \ar3Noqta.below ;
-    sub \uni068E by \arDal.isol \ar3Noqta.above ;
-    sub \afii57508 by \arReh.isol \ar3Noqta.above ;
-    sub \afii57513 by \arReh.isol \arTah.mark ;
-    sub \uni06A9 by \arGaf.isol ;
-    sub \afii57509 by \arGaf.isol \arSharta.kaf ;
-    sub \afii57514 by \arNoon.isol2 ;
-    sub \uni06BB by \arNoon.isol2 \arTah.mark ;
-    sub \uni06C0 by \arHeh.isol \uni0654 ;
-    sub \uni06C1 by \arHeh.isol ;
-    sub \uni06BE by \arHeh.isol2 ;
-    sub \afii57519 by \arYeh.isol2 ;
-    sub \uni06D3 by \arYeh.isol2 \uni0654 ;
-    sub \uni06CC by \arYeh.isol ;
-    sub \uni0688 by \arDal.isol \arTah.mark ;
-    sub \uni066E by \arBeh.isol ;
-    sub \uni06A1 by \arFeh.isol ;
-    sub \uni066F by \arQaf.isol2 ;
-} isolIsolatedFormsinArabiclookup;
-
-lookup initInitialFormsinArabiclookup1 {
-  lookupflag IgnoreMarks;
-    sub \afii57414 by \arBeh.init \uni0654 ;
-    sub \afii57416 by \arBeh.init \ar1Noqta.below ;
-    sub \afii57418 by \arBeh.init \ar2Noqta.above ;
-    sub \afii57419 by \arBeh.init \ar3Noqta.above ;
-    sub \afii57420 by \arHah.init \ar1Noqta.below ;
-    sub \afii57421 by \arHah.init ;
-    sub \afii57422 by \arHah.init \ar1Noqta.above ;
-    sub \afii57427 by \arSeen.init ;
-    sub \afii57428 by \arSeen.init \ar3Noqta.above ;
-    sub \afii57429 by \arSad.init ;
-    sub \afii57430 by \arSad.init \ar1Noqta.above ;
-    sub \afii57431 by \arTah.init ;
-    sub \afii57432 by \arTah.init \ar1Noqta.above ;
-    sub \afii57433 by \arAin.init ;
-    sub \afii57434 by \arAin.init \ar1Noqta.above ;
-    sub \afii57441 by \arFeh.init \ar1Noqta.above ;
-    sub \afii57442 by \arFeh.init \ar2Noqta.above ;
-    sub \afii57443 by \arKaf.init ;
-    sub \afii57444 by \arLam.init ;
-    sub \afii57445 by \arMeem.init ;
-    sub \afii57446 by \arBeh.init \ar1Noqta.above ;
-    sub \afii57470 by \arHeh.init ;
-    sub \afii57449 by \arBeh.init ;
-    sub \afii57450 by \arBeh.init \ar2Noqta.below ;
-    sub \afii57506 by \arBeh.init \ar3Noqta.below ;
-    sub \afii57511 by \arBeh.init \arTah.mark ;
-    sub \afii57505 by \arFeh.init \ar3Noqta.above ;
-    sub \afii57507 by \arHah.init \ar3Noqta.below ;
-    sub \uni06A9 by \arKaf.init ;
-    sub \afii57509 by \arKaf.init \arSharta.kaf ;
-    sub \afii57514 by \arBeh.init ;
-    sub \uni06C1 by \arHeh.init2 ;
-    sub \uni06BE by \arHeh.init ;
-    sub \uni06CC by \arBeh.init \ar2Noqta.below ;
-    sub \uni066E by \arBeh.init ;
-    sub \uni06A1 by \arFeh.init ;
-    sub \uni066F by \arFeh.init ;
-} initInitialFormsinArabiclookup1;
-
-lookup finaTerminalFormsinArabiclookup {
-  lookupflag IgnoreMarks;
-    sub \afii57409 by \arHamza.isol ;
-    sub \afii57410 by \arAlef.fina \uni0653 ;
-    sub \afii57411 by \arAlef.fina \uni0654 ;
-    sub \afii57412 by \arWaw.fina \uni0654 ;
-    sub \afii57413 by \arAlef.fina \uni0655 ;
-    sub \afii57414 by \arYeh.fina \uni0654 ;
-    sub \afii57415 by \arAlef.fina ;
-    sub \afii57416 by \arBeh.fina \ar1Noqta.below ;
-    sub \afii57417 by \arHeh.fina \ar2Noqta.above ;
-    sub \afii57418 by \arBeh.fina \ar2Noqta.above ;
-    sub \afii57419 by \arBeh.fina \ar3Noqta.above ;
-    sub \afii57420 by \arHah.fina \ar1Noqta.below ;
-    sub \afii57421 by \arHah.fina ;
-    sub \afii57422 by \arHah.fina \ar1Noqta.above ;
-    sub \afii57423 by \arDal.fina ;
-    sub \afii57424 by \arDal.fina \ar1Noqta.above ;
-    sub \afii57425 by \arReh.fina ;
-    sub \afii57426 by \arReh.fina \ar1Noqta.above ;
-    sub \afii57427 by \arSeen.fina ;
-    sub \afii57428 by \arSeen.fina \ar3Noqta.above ;
-    sub \afii57429 by \arSad.fina ;
-    sub \afii57430 by \arSad.fina \ar1Noqta.above ;
-    sub \afii57431 by \arTah.fina ;
-    sub \afii57432 by \arTah.fina \ar1Noqta.above ;
-    sub \afii57433 by \arAin.fina ;
-    sub \afii57434 by \arAin.fina \ar1Noqta.above ;
-    sub \afii57441 by \arFeh.fina \ar1Noqta.above ;
-    sub \afii57442 by \arQaf.fina ;
-    sub \afii57443 by \arKaf.fina ;
-    sub \afii57444 by \arLam.fina ;
-    sub \afii57445 by \arMem.fina ;
-    sub \afii57446 by \arNoon.fina ;
-    sub \afii57470 by \arHeh.fina ;
-    sub \afii57448 by \arWaw.fina ;
-    sub \afii57449 by \arYeh.fina ;
-    sub \afii57450 by \arYeh.fina \ar2Noqta.below ;
-    sub \uni0671 by \arAlef.fina \arSad.mark ;
-    sub \afii57506 by \arBeh.fina \ar3Noqta.below ;
-    sub \afii57511 by \arBeh.fina \arTah.mark ;
-    sub \afii57505 by \arFeh.fina \ar3Noqta.above ;
-    sub \afii57507 by \arHah.fina \ar3Noqta.below ;
-    sub \uni068E by \arDal.fina \ar3Noqta.above ;
-    sub \afii57508 by \arReh.fina \ar3Noqta.above ;
-    sub \afii57513 by \arReh.fina \arTah.mark ;
-    sub \uni06A9 by \arGaf.fina ;
-    sub \afii57509 by \arGaf.fina \arSharta.kaf ;
-    sub \afii57514 by \arNoon.fina2 ;
-    sub \uni06BB by \arNoon.fina2 \arTah.mark ;
-    sub \uni06C0 by \arHeh.fina \uni0654 ;
-    sub \uni06C1 by \arHeh.fina2 ;
-    sub \uni06BE by \arHeh.fina3 ;
-    sub \afii57519 by \arYeh.fina2 ;
-    sub \uni06D3 by \arYeh.fina2 \uni0654 ;
-    sub \uni06CC by \arYeh.fina ;
-    sub \uni0688 by \arDal.fina \arTah.mark ;
-    sub \uni066E by \arBeh.fina ;
-    sub \uni06A1 by \arFeh.fina ;
-    sub \uni066F by \arQaf.fina2 ;
-} finaTerminalFormsinArabiclookup;
-
-lookup mediMedialFormsinArabiclookup3 {
-  lookupflag IgnoreMarks;
-    sub \afii57414 by \arBeh.medi \uni0654 ;
-    sub \afii57416 by \arBeh.medi \ar1Noqta.below ;
-    sub \afii57418 by \arBeh.medi \ar2Noqta.above ;
-    sub \afii57419 by \arBeh.medi \ar3Noqta.above ;
-    sub \afii57420 by \arHah.medi \ar1Noqta.below ;
-    sub \afii57421 by \arHah.medi ;
-    sub \afii57422 by \arHah.medi \ar1Noqta.above ;
-    sub \afii57427 by \arSeen.medi ;
-    sub \afii57428 by \arSeen.medi \ar3Noqta.above ;
-    sub \afii57429 by \arSad.medi ;
-    sub \afii57430 by \arSad.medi \ar1Noqta.above ;
-    sub \afii57431 by \arTah.medi ;
-    sub \afii57432 by \arTah.medi \ar1Noqta.above ;
-    sub \afii57433 by \arAin.medi ;
-    sub \afii57434 by \arAin.medi \ar1Noqta.above ;
-    sub \afii57441 by \arFeh.medi \ar1Noqta.above ;
-    sub \afii57442 by \arFeh.medi \ar2Noqta.above ;
-    sub \afii57443 by \arKaf.medi ;
-    sub \afii57444 by \arLam.medi ;
-    sub \afii57445 by \arMeem.medi ;
-    sub \afii57446 by \arBeh.medi \ar1Noqta.above ;
-    sub \afii57470 by \arHeh.medi ;
-    sub \afii57449 by \arBeh.medi ;
-    sub \afii57450 by \arBeh.medi \ar2Noqta.below ;
-    sub \afii57506 by \arBeh.medi \ar3Noqta.below ;
-    sub \afii57511 by \arBeh.medi \arTah.mark ;
-    sub \afii57505 by \arFeh.medi \ar3Noqta.above ;
-    sub \afii57507 by \arHah.medi \ar3Noqta.below ;
-    sub \uni06A9 by \arKaf.medi ;
-    sub \afii57509 by \arKaf.medi \arSharta.kaf ;
-    sub \afii57514 by \arBeh.medi ;
-    sub \uni06C1 by \arHeh.medi ;
-    sub \uni06BE by \arHeh.medi2 ;
-    sub \uni06CC by \arBeh.medi \ar2Noqta.below ;
-    sub \uni066E by \arBeh.medi ;
-    sub \uni06A1 by \arFeh.medi ;
-    sub \uni066F by \arFeh.medi ;
-} mediMedialFormsinArabiclookup3;
-
-lookup loclLocalizedFormsinArabiclooku {
-  lookupflag IgnoreMarks;
-    sub \uni06F4 by \uni06F4.urd ;
-    sub \uni06F6 by \afii57398 ;
-    sub \uni06F7 by \uni06F7.urd ;
-    sub \uni0657 by \uni0657.urd ;
-} loclLocalizedFormsinArabiclooku;
-
-lookup ccmpGlyphCompositionDecompositi {
-  lookupflag 0;
-    sub \afii57457 \afii57452  by \shada_dammatan_A;
-    sub \afii57457 \afii57453  by \shada_kasratan_A;
-    sub \afii57457 \afii57454  by \shada_fatha_A;
-    sub \afii57457 \afii57455  by \shada_damma_A;
-    sub \afii57457 \afii57456  by \shada_kasra_A;
-    sub \afii57457 \afii57451  by \shada_fathatan_A;
-    sub \afii57457 \afii57458  by \shada_sokon_A;
-    sub \afii57457 \uni0670  by \shada_alefmadA;
-    sub \afii57454 \uni0670  by \fatha_alefmadA;
-} ccmpGlyphCompositionDecompositi;
+languagesystem arab dflt;
+#languagesystem arab ARA;
+languagesystem arab FAR;
+languagesystem arab URD;
 
 lookup caltContextualAlternatesinArabi {
   lookupflag IgnoreMarks;
-    sub [\arBeh.init \arBeh.medi \arHah.init \arHah.medi \arSeen.init \arSeen.medi 
-	\arSad.init \arSad.medi \arTah.init \arTah.medi \arAin.init 
-	\arAin.medi \arFeh.init \arFeh.medi \arKaf.init \arKaf.medi 
-	\arLam.init \arLam.medi \arMeem.init \arMeem.medi \arHeh.init 
-	\arHeh.medi2 \arHeh.medi \arHeh.init2 ]' [\arHah.fina \arHah.medi \arHah.medi.1 \arHah.medi.2 \arHah.medi.3 
-	\arHah.medi.4 \arHah.medi.5 \arHah.medi.6 \arHah.medi.7 
-	\arHah.medi.8 \arHah.medi.9 ]  by [\arBeh.init.1 \arBeh.medi.1 \arHah.init.1 
-	\arHah.medi.1 \arSeen.init.1 \arSeen.medi.1 \arSad.init.1 \arSad.medi.1 
-	\arTah.init.1 \arTah.medi.1 \arAin.init.1 \arAin.medi.1 \arFeh.init.1 
-	\arFeh.medi.1 \arKaf.init.1 \arKaf.medi.1 \arLam.init.1 \arLam.medi.1 
-	\arMeem.init.1 \arMeem.medi.1 \arHeh.init.1 \arHeh.medi2.1 \arHeh.medi.1 
-	\arHeh.init2.1 ];
+    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
+	arSad.init arSad.medi arTah.init arTah.medi arAin.init
+	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
+	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
+	arHeh.medi2 arHeh.medi arHeh.init2]' [arHah.fina arHah.medi arHah.medi.1 arHah.medi.2 arHah.medi.3
+	arHah.medi.4 arHah.medi.5 arHah.medi.6 arHah.medi.7
+	arHah.medi.8 arHah.medi.9] by [arBeh.init.1 arBeh.medi.1 arHah.init.1
+	arHah.medi.1 arSeen.init.1 arSeen.medi.1 arSad.init.1 arSad.medi.1
+	arTah.init.1 arTah.medi.1 arAin.init.1 arAin.medi.1 arFeh.init.1
+	arFeh.medi.1 arKaf.init.1 arKaf.medi.1 arLam.init.1 arLam.medi.1
+	arMeem.init.1 arMeem.medi.1 arHeh.init.1 arHeh.medi2.1 arHeh.medi.1
+	arHeh.init2.1];
 } caltContextualAlternatesinArabi;
 
 lookup sub_chain_caltarab_0 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.init \arBeh.medi \arHah.init \arHah.medi \arSeen.init \arSeen.medi 
-	\arSad.init \arSad.medi \arTah.init \arTah.medi \arAin.init 
-	\arAin.medi \arFeh.init \arFeh.medi \arKaf.init \arKaf.medi 
-	\arLam.init \arLam.medi \arMeem.init \arMeem.medi \arHeh.init 
-	\arHeh.medi2 \arHeh.medi \arHeh.init2 ]' [\arDal.fina ]  by [\arBeh.init.2 \arBeh.medi.2 \arHah.init.2 
-	\arHah.medi.2 \arSeen.init.2 \arSeen.medi.2 \arSad.init.2 \arSad.medi.2 
-	\arTah.init.2 \arTah.medi.2 \arAin.init.2 \arAin.medi.2 \arFeh.init.2 
-	\arFeh.medi.2 \arKaf.init.2 \arKaf.medi.2 \arLam.init.2 \arLam.medi.2 
-	\arMeem.init.2 \arMeem.medi.2 \arHeh.init.2 \arHeh.medi2.2 \arHeh.medi.2 
-	\arHeh.init2.2 ];
+    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
+	arSad.init arSad.medi arTah.init arTah.medi arAin.init
+	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
+	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
+	arHeh.medi2 arHeh.medi arHeh.init2]' [arDal.fina] by [arBeh.init.2 arBeh.medi.2 arHah.init.2
+	arHah.medi.2 arSeen.init.2 arSeen.medi.2 arSad.init.2 arSad.medi.2
+	arTah.init.2 arTah.medi.2 arAin.init.2 arAin.medi.2 arFeh.init.2
+	arFeh.medi.2 arKaf.init.2 arKaf.medi.2 arLam.init.2 arLam.medi.2
+	arMeem.init.2 arMeem.medi.2 arHeh.init.2 arHeh.medi2.2 arHeh.medi.2
+	arHeh.init2.2];
 } sub_chain_caltarab_0;
 
 lookup sub_chain_caltarab_2 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.init \arBeh.medi \arHah.init \arHah.medi \arSeen.init \arSeen.medi 
-	\arSad.init \arSad.medi \arTah.init \arTah.medi \arAin.init 
-	\arAin.medi \arFeh.init \arFeh.medi \arKaf.init \arKaf.medi 
-	\arLam.init \arLam.medi \arMeem.init \arMeem.medi \arHeh.init 
-	\arHeh.medi2 \arHeh.medi \arHeh.init2 ]' [\arReh.fina ]  by [\arBeh.init.3 \arBeh.medi.3 \arHah.init.3 
-	\arHah.medi.3 \arSeen.init.3 \arSeen.medi.3 \arSad.init.3 \arSad.medi.3 
-	\arTah.init.3 \arTah.medi.3 \arAin.init.3 \arAin.medi.3 \arFeh.init.3 
-	\arFeh.medi.3 \arKaf.init.3 \arKaf.medi.3 \arLam.init.3 \arLam.medi.3 
-	\arMeem.init.3 \arMeem.medi.3 \arHeh.init.3 \arHeh.medi2.3 \arHeh.medi.3 
-	\arHeh.init2.3 ];
+    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
+	arSad.init arSad.medi arTah.init arTah.medi arAin.init
+	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
+	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
+	arHeh.medi2 arHeh.medi arHeh.init2]' [arReh.fina] by [arBeh.init.3 arBeh.medi.3 arHah.init.3
+	arHah.medi.3 arSeen.init.3 arSeen.medi.3 arSad.init.3 arSad.medi.3
+	arTah.init.3 arTah.medi.3 arAin.init.3 arAin.medi.3 arFeh.init.3
+	arFeh.medi.3 arKaf.init.3 arKaf.medi.3 arLam.init.3 arLam.medi.3
+	arMeem.init.3 arMeem.medi.3 arHeh.init.3 arHeh.medi2.3 arHeh.medi.3
+	arHeh.init2.3];
 } sub_chain_caltarab_2;
 
 lookup sub_chain_caltarab_4 {
   lookupflag IgnoreMarks;
-    ignore sub [\arBeh.init \arBeh.medi \arHah.init \arHah.medi \arSeen.init \arSeen.medi 
-	\arSad.init \arSad.medi \arTah.init \arTah.medi \arAin.init 
-	\arAin.medi \arFeh.init \arFeh.medi \arKaf.init \arKaf.medi 
-	\arLam.init \arLam.medi \arMeem.init \arMeem.medi \arHeh.init 
-	\arHeh.medi2 \arHeh.medi \arHeh.init2 ]' [\arSad.fina \arSad.medi \arTah.fina \arTah.medi \arSad.medi.1 \arTah.medi.1 
-	\arSad.medi.2 \arTah.medi.2 \arSad.medi.3 \arTah.medi.3 
-	\arSad.medi.4 \arTah.medi.4 \arSad.medi.5 \arTah.medi.5 
-	\arSad.medi.6 \arTah.medi.6 \arSad.medi.7 \arTah.medi.7 
-	\arSad.medi.8 \arTah.medi.8 \arSad.medi.9 \arTah.medi.9 
-	\arSad.fina.1 \arTah.medi.10 ] [\arYeh.isol2 \arYeh.fina2 ] ;
+    ignore sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
+	arSad.init arSad.medi arTah.init arTah.medi arAin.init
+	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
+	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
+	arHeh.medi2 arHeh.medi arHeh.init2]' [arSad.fina arSad.medi arTah.fina arTah.medi arSad.medi.1 arTah.medi.1
+	arSad.medi.2 arTah.medi.2 arSad.medi.3 arTah.medi.3
+	arSad.medi.4 arTah.medi.4 arSad.medi.5 arTah.medi.5
+	arSad.medi.6 arTah.medi.6 arSad.medi.7 arTah.medi.7
+	arSad.medi.8 arTah.medi.8 arSad.medi.9 arTah.medi.9
+	arSad.fina.1 arTah.medi.10] [arYeh.isol2 arYeh.fina2];
   subtable;
-    sub [\arBeh.init \arBeh.medi \arHah.init \arHah.medi \arSeen.init \arSeen.medi 
-	\arSad.init \arSad.medi \arTah.init \arTah.medi \arAin.init 
-	\arAin.medi \arFeh.init \arFeh.medi \arKaf.init \arKaf.medi 
-	\arLam.init \arLam.medi \arMeem.init \arMeem.medi \arHeh.init 
-	\arHeh.medi2 \arHeh.medi \arHeh.init2 ]' [\arSad.fina \arSad.medi \arTah.fina \arTah.medi \arSad.medi.1 \arTah.medi.1 
-	\arSad.medi.2 \arTah.medi.2 \arSad.medi.3 \arTah.medi.3 
-	\arSad.medi.4 \arTah.medi.4 \arSad.medi.5 \arTah.medi.5 
-	\arSad.medi.6 \arTah.medi.6 \arSad.medi.7 \arTah.medi.7 
-	\arSad.medi.8 \arTah.medi.8 \arSad.medi.9 \arTah.medi.9 
-	\arSad.fina.1 \arTah.medi.10 ]  by [\arBeh.init.4 \arBeh.medi.4 \arHah.init.4 
-	\arHah.medi.4 \arSeen.init.4 \arSeen.medi.4 \arSad.init.4 \arSad.medi.4 
-	\arTah.init.4 \arTah.medi.4 \arAin.init.4 \arAin.medi.4 \arFeh.init.4 
-	\arFeh.medi.4 \arKaf.init.4 \arKaf.medi.4 \arLam.init.4 \arLam.medi.4 
-	\arMeem.init.4 \arMeem.medi.4 \arHeh.init.4 \arHeh.medi2.4 \arHeh.medi.4 
-	\arHeh.init2.4 ];
+    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
+	arSad.init arSad.medi arTah.init arTah.medi arAin.init
+	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
+	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
+	arHeh.medi2 arHeh.medi arHeh.init2]' [arSad.fina arSad.medi arTah.fina arTah.medi arSad.medi.1 arTah.medi.1
+	arSad.medi.2 arTah.medi.2 arSad.medi.3 arTah.medi.3
+	arSad.medi.4 arTah.medi.4 arSad.medi.5 arTah.medi.5
+	arSad.medi.6 arTah.medi.6 arSad.medi.7 arTah.medi.7
+	arSad.medi.8 arTah.medi.8 arSad.medi.9 arTah.medi.9
+	arSad.fina.1 arTah.medi.10] by [arBeh.init.4 arBeh.medi.4 arHah.init.4
+	arHah.medi.4 arSeen.init.4 arSeen.medi.4 arSad.init.4 arSad.medi.4
+	arTah.init.4 arTah.medi.4 arAin.init.4 arAin.medi.4 arFeh.init.4
+	arFeh.medi.4 arKaf.init.4 arKaf.medi.4 arLam.init.4 arLam.medi.4
+	arMeem.init.4 arMeem.medi.4 arHeh.init.4 arHeh.medi2.4 arHeh.medi.4
+	arHeh.init2.4];
 } sub_chain_caltarab_4;
 
 lookup sub_chain_caltarab_6 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.init \arBeh.medi \arHah.init \arHah.medi \arSeen.init \arSeen.medi 
-	\arSad.init \arSad.medi \arTah.init \arTah.medi \arAin.init 
-	\arAin.medi \arFeh.init \arFeh.medi \arKaf.init \arKaf.medi 
-	\arLam.init \arLam.medi \arMeem.init \arMeem.medi \arHeh.init 
-	\arHeh.medi2 \arHeh.medi \arHeh.init2 ]' [\arAin.fina \arAin.medi \arAin.medi.1 \arAin.medi.2 \arAin.medi.3 
-	\arAin.medi.4 \arAin.medi.5 \arAin.medi.6 \arAin.medi.7 
-	\arAin.medi.8 \arAin.medi.9 ]  by [\arBeh.init.5 \arBeh.medi.5 \arHah.init.5 
-	\arHah.medi.5 \arSeen.init.5 \arSeen.medi.5 \arSad.init.5 \arSad.medi.5 
-	\arTah.init.5 \arTah.medi.5 \arAin.init.5 \arAin.medi.5 \arFeh.init.5 
-	\arFeh.medi.5 \arKaf.init.5 \arKaf.medi.5 \arLam.init.5 \arLam.medi.5 
-	\arMeem.init.5 \arMeem.medi.5 \arHeh.init.5 \arHeh.medi2.5 \arHeh.medi.5 
-	\arHeh.init2.5 ];
+    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
+	arSad.init arSad.medi arTah.init arTah.medi arAin.init
+	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
+	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
+	arHeh.medi2 arHeh.medi arHeh.init2]' [arAin.fina arAin.medi arAin.medi.1 arAin.medi.2 arAin.medi.3
+	arAin.medi.4 arAin.medi.5 arAin.medi.6 arAin.medi.7
+	arAin.medi.8 arAin.medi.9] by [arBeh.init.5 arBeh.medi.5 arHah.init.5
+	arHah.medi.5 arSeen.init.5 arSeen.medi.5 arSad.init.5 arSad.medi.5
+	arTah.init.5 arTah.medi.5 arAin.init.5 arAin.medi.5 arFeh.init.5
+	arFeh.medi.5 arKaf.init.5 arKaf.medi.5 arLam.init.5 arLam.medi.5
+	arMeem.init.5 arMeem.medi.5 arHeh.init.5 arHeh.medi2.5 arHeh.medi.5
+	arHeh.init2.5];
 } sub_chain_caltarab_6;
 
 lookup sub_chain_caltarab_8 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.init \arBeh.medi \arHah.init \arHah.medi \arSeen.init \arSeen.medi 
-	\arSad.init \arSad.medi \arTah.init \arTah.medi \arAin.init 
-	\arAin.medi \arFeh.init \arFeh.medi \arKaf.init \arKaf.medi 
-	\arLam.init \arLam.medi \arMeem.init \arMeem.medi \arHeh.init 
-	\arHeh.medi2 \arHeh.medi \arHeh.init2 ]' [\arFeh.fina \arFeh.medi \arFeh.medi.1 \arFeh.medi.2 \arFeh.medi.3 
-	\arFeh.medi.4 \arFeh.medi.5 \arFeh.medi.6 \arFeh.medi.7 
-	\arFeh.medi.8 \arFeh.medi.9 \arFeh.fina.1 \arQaf.fina.1 ]  by [\arBeh.init.6 \arBeh.medi.6 \arHah.init.6 
-	\arHah.medi.6 \arSeen.init.6 \arSeen.medi.6 \arSad.init.6 \arSad.medi.6 
-	\arTah.init.6 \arTah.medi.6 \arAin.init.6 \arAin.medi.6 \arFeh.init.6 
-	\arFeh.medi.6 \arKaf.init.6 \arKaf.medi.6 \arLam.init.6 \arLam.medi.6 
-	\arMeem.init.6 \arMeem.medi.6 \arHeh.init.6 \arHeh.medi2.6 \arHeh.medi.6 
-	\arHeh.init2.6 ];
+    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
+	arSad.init arSad.medi arTah.init arTah.medi arAin.init
+	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
+	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
+	arHeh.medi2 arHeh.medi arHeh.init2]' [arFeh.fina arFeh.medi arFeh.medi.1 arFeh.medi.2 arFeh.medi.3
+	arFeh.medi.4 arFeh.medi.5 arFeh.medi.6 arFeh.medi.7
+	arFeh.medi.8 arFeh.medi.9 arFeh.fina.1 arQaf.fina.1] by [arBeh.init.6 arBeh.medi.6 arHah.init.6
+	arHah.medi.6 arSeen.init.6 arSeen.medi.6 arSad.init.6 arSad.medi.6
+	arTah.init.6 arTah.medi.6 arAin.init.6 arAin.medi.6 arFeh.init.6
+	arFeh.medi.6 arKaf.init.6 arKaf.medi.6 arLam.init.6 arLam.medi.6
+	arMeem.init.6 arMeem.medi.6 arHeh.init.6 arHeh.medi2.6 arHeh.medi.6
+	arHeh.init2.6];
 } sub_chain_caltarab_8;
 
 lookup sub_chain_caltarab_10 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.init \arBeh.medi \arHah.init \arHah.medi \arSeen.init \arSeen.medi 
-	\arSad.init \arSad.medi \arTah.init \arTah.medi \arAin.init 
-	\arAin.medi \arFeh.init \arFeh.medi \arKaf.init \arKaf.medi 
-	\arLam.init \arLam.medi \arMeem.init \arMeem.medi \arHeh.init 
-	\arHeh.medi2 \arHeh.medi \arHeh.init2 ]' [\arMem.fina \arMeem.medi \arHeh.medi2 \arHeh.fina3 \arMeem.medi.1 
-	\arHeh.medi2.1 \arMeem.medi.2 \arHeh.medi2.2 \arMeem.medi.3 
-	\arHeh.medi2.3 \arMeem.medi.4 \arHeh.medi2.4 \arMeem.medi.5 
-	\arHeh.medi2.5 \arMeem.medi.6 \arHeh.medi2.6 \arMeem.medi.7 
-	\arHeh.medi2.7 \arMeem.medi.8 \arHeh.medi2.8 \arMeem.medi.9 
-	\arHeh.medi2.9 ]  by [\arBeh.init.7 \arBeh.medi.7 \arHah.init.7 
-	\arHah.medi.7 \arSeen.init.7 \arSeen.medi.7 \arSad.init.7 \arSad.medi.7 
-	\arTah.init.7 \arTah.medi.7 \arAin.init.7 \arAin.medi.7 \arFeh.init.7 
-	\arFeh.medi.7 \arKaf.init.7 \arKaf.medi.7 \arLam.init.7 \arLam.medi.7 
-	\arMeem.init.7 \arMeem.medi.7 \arHeh.init.7 \arHeh.medi2.7 \arHeh.medi.7 
-	\arHeh.init2.7 ];
+    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
+	arSad.init arSad.medi arTah.init arTah.medi arAin.init
+	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
+	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
+	arHeh.medi2 arHeh.medi arHeh.init2]' [arMem.fina arMeem.medi arHeh.medi2 arHeh.fina3 arMeem.medi.1
+	arHeh.medi2.1 arMeem.medi.2 arHeh.medi2.2 arMeem.medi.3
+	arHeh.medi2.3 arMeem.medi.4 arHeh.medi2.4 arMeem.medi.5
+	arHeh.medi2.5 arMeem.medi.6 arHeh.medi2.6 arMeem.medi.7
+	arHeh.medi2.7 arMeem.medi.8 arHeh.medi2.8 arMeem.medi.9
+	arHeh.medi2.9] by [arBeh.init.7 arBeh.medi.7 arHah.init.7
+	arHah.medi.7 arSeen.init.7 arSeen.medi.7 arSad.init.7 arSad.medi.7
+	arTah.init.7 arTah.medi.7 arAin.init.7 arAin.medi.7 arFeh.init.7
+	arFeh.medi.7 arKaf.init.7 arKaf.medi.7 arLam.init.7 arLam.medi.7
+	arMeem.init.7 arMeem.medi.7 arHeh.init.7 arHeh.medi2.7 arHeh.medi.7
+	arHeh.init2.7];
 } sub_chain_caltarab_10;
 
 lookup sub_chain_caltarab_12 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.init \arBeh.medi \arHah.init \arHah.medi \arSeen.init \arSeen.medi 
-	\arSad.init \arSad.medi \arTah.init \arTah.medi \arAin.init 
-	\arAin.medi \arFeh.init \arFeh.medi \arKaf.init \arKaf.medi 
-	\arLam.init \arLam.medi \arMeem.init \arMeem.medi \arHeh.init 
-	\arHeh.medi2 \arHeh.medi \arHeh.init2 ]' [\arHeh.medi \arHeh.medi.1 \arHeh.medi.2 \arHeh.medi.3 \arHeh.medi.4 
-	\arHeh.medi.5 \arHeh.medi.6 \arHeh.medi.7 \arHeh.medi.8 
-	\arHeh.medi.9 ]  by [\arBeh.init.8 \arBeh.medi.8 \arHah.init.8 
-	\arHah.medi.8 \arSeen.init.8 \arSeen.medi.8 \arSad.init.8 \arSad.medi.8 
-	\arTah.init.8 \arTah.medi.8 \arAin.init.8 \arAin.medi.8 \arFeh.init.8 
-	\arFeh.medi.8 \arKaf.init.8 \arKaf.medi.8 \arLam.init.8 \arLam.medi.8 
-	\arMeem.init.8 \arMeem.medi.8 \arHeh.init.8 \arHeh.medi2.8 \arHeh.medi.8 
-	\arHeh.init2.8 ];
+    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
+	arSad.init arSad.medi arTah.init arTah.medi arAin.init
+	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
+	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
+	arHeh.medi2 arHeh.medi arHeh.init2]' [arHeh.medi arHeh.medi.1 arHeh.medi.2 arHeh.medi.3 arHeh.medi.4
+	arHeh.medi.5 arHeh.medi.6 arHeh.medi.7 arHeh.medi.8
+	arHeh.medi.9] by [arBeh.init.8 arBeh.medi.8 arHah.init.8
+	arHah.medi.8 arSeen.init.8 arSeen.medi.8 arSad.init.8 arSad.medi.8
+	arTah.init.8 arTah.medi.8 arAin.init.8 arAin.medi.8 arFeh.init.8
+	arFeh.medi.8 arKaf.init.8 arKaf.medi.8 arLam.init.8 arLam.medi.8
+	arMeem.init.8 arMeem.medi.8 arHeh.init.8 arHeh.medi2.8 arHeh.medi.8
+	arHeh.init2.8];
 } sub_chain_caltarab_12;
 
 lookup sub_chain_caltarab_14 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.init \arBeh.medi \arHah.init \arHah.medi \arSeen.init \arSeen.medi 
-	\arSad.init \arSad.medi \arTah.init \arTah.medi \arAin.init 
-	\arAin.medi \arFeh.init \arFeh.medi \arKaf.init \arKaf.medi 
-	\arLam.init \arLam.medi \arMeem.init \arMeem.medi \arHeh.init 
-	\arHeh.medi2 \arHeh.medi \arHeh.init2 ]' [\arYeh.fina ]  by [\arBeh.init.9 \arBeh.medi.9 \arHah.init.9 
-	\arHah.medi.9 \arSeen.init.9 \arSeen.medi.9 \arSad.init.9 \arSad.medi.9 
-	\arTah.init.9 \arTah.medi.9 \arAin.init.9 \arAin.medi.9 \arFeh.init.9 
-	\arFeh.medi.9 \arKaf.init.9 \arKaf.medi.9 \arLam.init.9 \arLam.medi.9 
-	\arMeem.init.9 \arMeem.medi.9 \arHeh.init.9 \arHeh.medi2.9 \arHeh.medi.9 
-	\arHeh.init2.9 ];
+    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
+	arSad.init arSad.medi arTah.init arTah.medi arAin.init
+	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
+	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
+	arHeh.medi2 arHeh.medi arHeh.init2]' [arYeh.fina] by [arBeh.init.9 arBeh.medi.9 arHah.init.9
+	arHah.medi.9 arSeen.init.9 arSeen.medi.9 arSad.init.9 arSad.medi.9
+	arTah.init.9 arTah.medi.9 arAin.init.9 arAin.medi.9 arFeh.init.9
+	arFeh.medi.9 arKaf.init.9 arKaf.medi.9 arLam.init.9 arLam.medi.9
+	arMeem.init.9 arMeem.medi.9 arHeh.init.9 arHeh.medi2.9 arHeh.medi.9
+	arHeh.init2.9];
 } sub_chain_caltarab_14;
 
 lookup sub_chain_caltarab_16 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.init.9 \arFeh.init.9 \arKaf.init.9 \arLam.init.9 ] [\arYeh.fina ]'  by [\arYeh.fina.2 ];
+    sub [arBeh.init.9 arFeh.init.9 arKaf.init.9 arLam.init.9] [arYeh.fina]' by [arYeh.fina.2];
 } sub_chain_caltarab_16;
 
 lookup sub_chain_caltarab_18 {
   lookupflag IgnoreMarks;
-    sub [\arKaf.init ]' [\arAlef.fina \arKaf.fina \arKaf.medi \arLam.fina \arLam.medi \arLam.medi.10 
-	\arGaf.fina \arKaf.medi.1 \arLam.medi.1 \arKaf.medi.2 \arLam.medi.2 
-	\arKaf.medi.3 \arLam.medi.3 \arKaf.medi.4 \arLam.medi.4 
-	\arKaf.medi.5 \arLam.medi.5 \arKaf.medi.6 \arLam.medi.6 
-	\arKaf.medi.7 \arLam.medi.7 \arKaf.medi.8 \arLam.medi.8 
-	\arKaf.medi.9 \arLam.medi.9 \arLam.fina.1 \arGaf.fina.1 ]  by [\arKaf.init.10 ];
+    sub [arKaf.init]' [arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.10
+	arGaf.fina arKaf.medi.1 arLam.medi.1 arKaf.medi.2 arLam.medi.2
+	arKaf.medi.3 arLam.medi.3 arKaf.medi.4 arLam.medi.4
+	arKaf.medi.5 arLam.medi.5 arKaf.medi.6 arLam.medi.6
+	arKaf.medi.7 arLam.medi.7 arKaf.medi.8 arLam.medi.8
+	arKaf.medi.9 arLam.medi.9 arLam.fina.1 arGaf.fina.1] by [arKaf.init.10];
 } sub_chain_caltarab_18;
 
 lookup sub_chain_caltarab_20 {
   lookupflag IgnoreMarks;
-    sub [\arKaf.init.10 ] [\arKaf.init.10 ]' [\arAlef.fina \arKaf.fina \arKaf.medi \arLam.fina \arLam.medi \arLam.medi.10 
-	\arGaf.fina \arKaf.medi.1 \arLam.medi.1 \arKaf.medi.2 \arLam.medi.2 
-	\arKaf.medi.3 \arLam.medi.3 \arKaf.medi.4 \arLam.medi.4 
-	\arKaf.medi.5 \arLam.medi.5 \arKaf.medi.6 \arLam.medi.6 
-	\arKaf.medi.7 \arLam.medi.7 \arKaf.medi.8 \arLam.medi.8 
-	\arKaf.medi.9 \arLam.medi.9 \arLam.fina.1 \arGaf.fina.1 ]  by [\arKaf.medi ];
+    sub [arKaf.init.10] [arKaf.init.10]' [arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.10
+	arGaf.fina arKaf.medi.1 arLam.medi.1 arKaf.medi.2 arLam.medi.2
+	arKaf.medi.3 arLam.medi.3 arKaf.medi.4 arLam.medi.4
+	arKaf.medi.5 arLam.medi.5 arKaf.medi.6 arLam.medi.6
+	arKaf.medi.7 arLam.medi.7 arKaf.medi.8 arLam.medi.8
+	arKaf.medi.9 arLam.medi.9 arLam.fina.1 arGaf.fina.1] by [arKaf.medi];
 } sub_chain_caltarab_20;
 
 lookup SingleSubstitutionlookup40 {
   lookupflag 0;
-    sub \arKaf.medi by \arKaf.init.10 ;
+    sub arKaf.medi by arKaf.init.10;
 } SingleSubstitutionlookup40;
 
 lookup sub_chain_caltarab_22 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.init \arHah.init \arSeen.init \arSad.init \arTah.init \arAin.init 
-	\arFeh.init \arKaf.init \arLam.init \arMeem.init \arHeh.init ] [\arKaf.medi ]'lookup SingleSubstitutionlookup40  [\arAlef.fina \arKaf.fina \arKaf.medi \arLam.fina \arLam.medi \arLam.medi.10 
-	\arGaf.fina \arKaf.medi.1 \arLam.medi.1 \arKaf.medi.2 \arLam.medi.2 
-	\arKaf.medi.3 \arLam.medi.3 \arKaf.medi.4 \arLam.medi.4 
-	\arKaf.medi.5 \arLam.medi.5 \arKaf.medi.6 \arLam.medi.6 
-	\arKaf.medi.7 \arLam.medi.7 \arKaf.medi.8 \arLam.medi.8 
-	\arKaf.medi.9 \arLam.medi.9 \arLam.fina.1 \arGaf.fina.1 ] ;
+    sub [arBeh.init arHah.init arSeen.init arSad.init arTah.init arAin.init
+	arFeh.init arKaf.init arLam.init arMeem.init arHeh.init] [arKaf.medi]'lookup SingleSubstitutionlookup40  [arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.10
+	arGaf.fina arKaf.medi.1 arLam.medi.1 arKaf.medi.2 arLam.medi.2
+	arKaf.medi.3 arLam.medi.3 arKaf.medi.4 arLam.medi.4
+	arKaf.medi.5 arLam.medi.5 arKaf.medi.6 arLam.medi.6
+	arKaf.medi.7 arLam.medi.7 arKaf.medi.8 arLam.medi.8
+	arKaf.medi.9 arLam.medi.9 arLam.fina.1 arGaf.fina.1];
   subtable;
-    sub [\arBeh.medi \arHah.medi \arSeen.medi \arSad.medi \arTah.medi \arAin.medi 
-	\arFeh.medi \arKaf.medi \arLam.medi \arMeem.medi \arHeh.medi2 ] [\arKaf.medi ]'lookup SingleSubstitutionlookup40  [\arAlef.fina \arKaf.fina \arKaf.medi \arLam.fina \arLam.medi \arLam.medi.10 
-	\arGaf.fina \arKaf.medi.1 \arLam.medi.1 \arKaf.medi.2 \arLam.medi.2 
-	\arKaf.medi.3 \arLam.medi.3 \arKaf.medi.4 \arLam.medi.4 
-	\arKaf.medi.5 \arLam.medi.5 \arKaf.medi.6 \arLam.medi.6 
-	\arKaf.medi.7 \arLam.medi.7 \arKaf.medi.8 \arLam.medi.8 
-	\arKaf.medi.9 \arLam.medi.9 \arLam.fina.1 \arGaf.fina.1 ] ;
+    sub [arBeh.medi arHah.medi arSeen.medi arSad.medi arTah.medi arAin.medi
+	arFeh.medi arKaf.medi arLam.medi arMeem.medi arHeh.medi2] [arKaf.medi]'lookup SingleSubstitutionlookup40  [arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.10
+	arGaf.fina arKaf.medi.1 arLam.medi.1 arKaf.medi.2 arLam.medi.2
+	arKaf.medi.3 arLam.medi.3 arKaf.medi.4 arLam.medi.4
+	arKaf.medi.5 arLam.medi.5 arKaf.medi.6 arLam.medi.6
+	arKaf.medi.7 arLam.medi.7 arKaf.medi.8 arLam.medi.8
+	arKaf.medi.9 arLam.medi.9 arLam.fina.1 arGaf.fina.1];
 } sub_chain_caltarab_22;
 
 lookup sub_chain_caltarab_24 {
   lookupflag IgnoreMarks;
-    sub [\arLam.init \arLam.medi ]' [\arAlef.fina ]  by [\arLam.init.10 \arLam.medi.10 ];
+    sub [arLam.init arLam.medi]' [arAlef.fina] by [arLam.init.10 arLam.medi.10];
 } sub_chain_caltarab_24;
 
 lookup sub_chain_caltarab_26 {
   lookupflag IgnoreMarks;
-    sub [\arLam.init.10 \arLam.medi.10 ] [\arAlef.fina ]'  by [\arAlef.fina.1 ];
+    sub [arLam.init.10 arLam.medi.10] [arAlef.fina]' by [arAlef.fina.1];
 } sub_chain_caltarab_26;
 
 lookup sub_chain_caltarab_28 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.medi ]' [\arNoon.fina \arNoon.fina2 \arNoon.isol.1 ]  by [\arBeh.medi.10 ];
+    sub [arBeh.medi]' [arNoon.fina arNoon.fina2 arNoon.isol.1] by [arBeh.medi.10];
 } sub_chain_caltarab_28;
 
 lookup sub_chain_caltarab_30 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.init ]' [\arAlef.fina \arBeh.fina \arBeh.medi \arKaf.fina \arKaf.medi \arLam.fina 
-	\arLam.medi \arNoon.fina \arLam.medi.10 \arGaf.fina \arNoon.fina2 
-	\arBeh.medi.1 \arKaf.medi.1 \arLam.medi.1 \arBeh.medi.2 
-	\arKaf.medi.2 \arLam.medi.2 \arBeh.medi.3 \arKaf.medi.3 
-	\arLam.medi.3 \arBeh.medi.4 \arKaf.medi.4 \arLam.medi.4 
-	\arBeh.medi.5 \arKaf.medi.5 \arLam.medi.5 \arBeh.medi.6 
-	\arKaf.medi.6 \arLam.medi.6 \arBeh.medi.7 \arKaf.medi.7 
-	\arLam.medi.7 \arBeh.medi.8 \arKaf.medi.8 \arLam.medi.8 
-	\arBeh.medi.9 \arKaf.medi.9 \arLam.medi.9 \arKaf.init.10 
-	\arBeh.fina.1 \arLam.fina.1 \arGaf.fina.1 ]  by [\arBeh.init.10 ];
+    sub [arBeh.init]' [arAlef.fina arBeh.fina arBeh.medi arKaf.fina arKaf.medi arLam.fina
+	arLam.medi arNoon.fina arLam.medi.10 arGaf.fina arNoon.fina2
+	arBeh.medi.1 arKaf.medi.1 arLam.medi.1 arBeh.medi.2
+	arKaf.medi.2 arLam.medi.2 arBeh.medi.3 arKaf.medi.3
+	arLam.medi.3 arBeh.medi.4 arKaf.medi.4 arLam.medi.4
+	arBeh.medi.5 arKaf.medi.5 arLam.medi.5 arBeh.medi.6
+	arKaf.medi.6 arLam.medi.6 arBeh.medi.7 arKaf.medi.7
+	arLam.medi.7 arBeh.medi.8 arKaf.medi.8 arLam.medi.8
+	arBeh.medi.9 arKaf.medi.9 arLam.medi.9 arKaf.init.10
+	arBeh.fina.1 arLam.fina.1 arGaf.fina.1] by [arBeh.init.10];
 } sub_chain_caltarab_30;
 
 lookup SingleSubstitutionlookup45 {
   lookupflag 0;
-    sub \arBeh.medi by \arBeh.medi.11 ;
+    sub arBeh.medi by arBeh.medi.11;
 } SingleSubstitutionlookup45;
 
 lookup sub_chain_caltarab_32 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.init.10 ] [\arBeh.medi ]'lookup SingleSubstitutionlookup45  [\arBeh.medi ] ;
+    sub [arBeh.init.10] [arBeh.medi]'lookup SingleSubstitutionlookup45  [arBeh.medi];
   subtable;
-    sub [\arBeh.init.10 ] [\arBeh.medi ]'lookup SingleSubstitutionlookup45  [\arBeh.fina ] ;
+    sub [arBeh.init.10] [arBeh.medi]'lookup SingleSubstitutionlookup45  [arBeh.fina];
   subtable;
-    sub [\arBeh.init.10 ] [\arBeh.medi ]'lookup SingleSubstitutionlookup45  [\arBeh.fina.1 ] ;
+    sub [arBeh.init.10] [arBeh.medi]'lookup SingleSubstitutionlookup45  [arBeh.fina.1];
 } sub_chain_caltarab_32;
 
 lookup SingleSubstitutionlookup46 {
   lookupflag 0;
-    sub \arBeh.medi by \arBeh.medi.12 ;
+    sub arBeh.medi by arBeh.medi.12;
 } SingleSubstitutionlookup46;
 
 lookup sub_chain_caltarab_34 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.medi ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arBeh.medi ] ;
+    sub [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi];
   subtable;
-    sub [\arBeh.init.10 ] [\arBeh.medi.11 ] [\arBeh.medi ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  ;
+    sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46;
   subtable;
-    sub [\arBeh.init.10 ] [\arBeh.medi.11 ] [\arBeh.medi ] [\arBeh.medi ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  ;
+    sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46;
   subtable;
-    sub [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arSeen.fina \arSeen.medi \arSeen.medi.1 \arSeen.medi.2 \arSeen.medi.3 
-	\arSeen.medi.4 \arSeen.medi.5 \arSeen.medi.6 \arSeen.medi.7 
-	\arSeen.medi.8 \arSeen.medi.9 \arSeen.fina.1 ] ;
+    sub [arBeh.medi]'lookup SingleSubstitutionlookup46  [arSeen.fina arSeen.medi arSeen.medi.1 arSeen.medi.2 arSeen.medi.3
+	arSeen.medi.4 arSeen.medi.5 arSeen.medi.6 arSeen.medi.7
+	arSeen.medi.8 arSeen.medi.9 arSeen.fina.1];
   subtable;
-    sub [\arBeh.init.10 ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arBeh.medi.1 \arBeh.medi.3 \arBeh.medi.4 \arBeh.medi.5 \arBeh.medi.6 
-	\arBeh.medi.7 \arBeh.medi.8 \arBeh.medi.9 ] ;
+    sub [arBeh.init.10] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi.1 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6
+	arBeh.medi.7 arBeh.medi.8 arBeh.medi.9];
   subtable;
-    sub [\arBeh.medi ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arBeh.medi.1 \arBeh.medi.3 \arBeh.medi.4 \arBeh.medi.5 \arBeh.medi.6 
-	\arBeh.medi.7 \arBeh.medi.8 \arBeh.medi.9 ] ;
+    sub [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi.1 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6
+	arBeh.medi.7 arBeh.medi.8 arBeh.medi.9];
   subtable;
-    sub [\arSeen.medi ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arBeh.fina ] ;
+    sub [arSeen.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.fina];
   subtable;
-    sub [\arSad.init ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arBeh.medi ] ;
+    sub [arSad.init] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi];
   subtable;
-    sub [\arSad.medi ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arBeh.medi ] ;
+    sub [arSad.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi];
 } sub_chain_caltarab_34;
 
 lookup sub_chain_caltarab_36 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.medi ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arBeh.medi ] ;
+    sub [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi];
   subtable;
-    sub [\arBeh.init.10 ] [\arBeh.medi.11 ] [\arBeh.medi ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  ;
+    sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46;
   subtable;
-    sub [\arBeh.init.10 ] [\arBeh.medi.11 ] [\arBeh.medi ] [\arBeh.medi ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  ;
+    sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46;
   subtable;
-    sub [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arSeen.fina \arSeen.medi \arSeen.medi.1 \arSeen.medi.2 \arSeen.medi.3 
-	\arSeen.medi.4 \arSeen.medi.5 \arSeen.medi.6 \arSeen.medi.7 
-	\arSeen.medi.8 \arSeen.medi.9 \arSeen.fina.1 ] ;
+    sub [arBeh.medi]'lookup SingleSubstitutionlookup46  [arSeen.fina arSeen.medi arSeen.medi.1 arSeen.medi.2 arSeen.medi.3
+	arSeen.medi.4 arSeen.medi.5 arSeen.medi.6 arSeen.medi.7
+	arSeen.medi.8 arSeen.medi.9 arSeen.fina.1];
   subtable;
-    sub [\arBeh.init.10 ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arBeh.medi.1 \arBeh.medi.3 \arBeh.medi.4 \arBeh.medi.5 \arBeh.medi.6 
-	\arBeh.medi.7 \arBeh.medi.8 \arBeh.medi.9 ] ;
+    sub [arBeh.init.10] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi.1 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6
+	arBeh.medi.7 arBeh.medi.8 arBeh.medi.9];
   subtable;
-    sub [\arBeh.medi ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arBeh.medi.1 \arBeh.medi.3 \arBeh.medi.4 \arBeh.medi.5 \arBeh.medi.6 
-	\arBeh.medi.7 \arBeh.medi.8 \arBeh.medi.9 ] ;
+    sub [arBeh.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi.1 arBeh.medi.3 arBeh.medi.4 arBeh.medi.5 arBeh.medi.6
+	arBeh.medi.7 arBeh.medi.8 arBeh.medi.9];
   subtable;
-    sub [\arSeen.medi ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arBeh.fina ] ;
+    sub [arSeen.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.fina];
   subtable;
-    sub [\arSad.init ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arBeh.medi ] ;
+    sub [arSad.init] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi];
   subtable;
-    sub [\arSad.medi ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arBeh.medi ] ;
+    sub [arSad.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi];
   subtable;
-    sub [\arSeen.medi ] [\arBeh.medi ]'lookup SingleSubstitutionlookup46  [\arBeh.medi.4 ] ;
+    sub [arSeen.medi] [arBeh.medi]'lookup SingleSubstitutionlookup46  [arBeh.medi.4];
 } sub_chain_caltarab_36;
 
 lookup sub_chain_caltarab_38 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.medi.12 ] [\arBeh.medi.12 ]'  by [\arBeh.medi ];
+    sub [arBeh.medi.12] [arBeh.medi.12]' by [arBeh.medi];
 } sub_chain_caltarab_38;
 
 lookup SingleSubstitutionlookup47 {
   lookupflag 0;
-    sub \arTah.init by \arTah.init.10 ;
-    sub \arTah.medi by \arTah.medi.10 ;
-    sub \arKaf.medi by \arKaf.medi.10 ;
-    sub \arLam.init by \arLam.init.11 ;
-    sub \arLam.medi by \arLam.medi.11 ;
+    sub arTah.init by arTah.init.10;
+    sub arTah.medi by arTah.medi.10;
+    sub arKaf.medi by arKaf.medi.10;
+    sub arLam.init by arLam.init.11;
+    sub arLam.medi by arLam.medi.11;
 } SingleSubstitutionlookup47;
 
 lookup sub_chain_caltarab_40 {
   lookupflag IgnoreMarks;
-    sub [\arTah.init \arTah.medi \arKaf.medi \arLam.init \arLam.medi ]'lookup SingleSubstitutionlookup47  [\arKaf.init.10 ] ;
+    sub [arTah.init arTah.medi arKaf.medi arLam.init arLam.medi]'lookup SingleSubstitutionlookup47  [arKaf.init.10];
   subtable;
-    sub [\arKaf.init.10 ] [\arTah.init \arTah.medi \arKaf.medi \arLam.init \arLam.medi ]'lookup SingleSubstitutionlookup47  [\arKaf.init.10 ] ;
+    sub [arKaf.init.10] [arTah.init arTah.medi arKaf.medi arLam.init arLam.medi]'lookup SingleSubstitutionlookup47  [arKaf.init.10];
 } sub_chain_caltarab_40;
 
 lookup sub_chain_caltarab_42 {
   lookupflag IgnoreMarks;
-    sub [\arBeh.init \arBeh.medi \arHah.init \arHah.medi \arSeen.init \arSeen.medi 
-	\arSad.init \arSad.medi \arTah.init \arTah.medi \arAin.init 
-	\arAin.medi \arFeh.init \arFeh.medi \arKaf.init \arKaf.medi 
-	\arLam.init \arLam.medi \arMeem.init \arMeem.medi \arHeh.init 
-	\arHeh.medi2 \arHeh.init2 ]' [\arYeh.fina2 ]  by [\arBeh.init.11 \arBeh.medi.13 
-	\arHah.init.10 \arHah.medi.10 \arSeen.init.10 \arSeen.medi.10 \arSad.init.10 
-	\arSad.medi.10 \arTah.init.11 \arTah.medi.11 \arAin.init.10 \arAin.medi.10 
-	\arFeh.init.10 \arFeh.medi.10 \arKaf.init.11 \arKaf.medi.11 \arLam.init.12 
-	\arLam.medi.12 \arMeem.init.10 \arMeem.medi.10 \arHeh.init.10 \arHeh.medi2.10 
-	\arHeh.init2.10 ];
+    sub [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init arSeen.medi
+	arSad.init arSad.medi arTah.init arTah.medi arAin.init
+	arAin.medi arFeh.init arFeh.medi arKaf.init arKaf.medi
+	arLam.init arLam.medi arMeem.init arMeem.medi arHeh.init
+	arHeh.medi2 arHeh.init2]' [arYeh.fina2] by [arBeh.init.11 arBeh.medi.13
+	arHah.init.10 arHah.medi.10 arSeen.init.10 arSeen.medi.10 arSad.init.10
+	arSad.medi.10 arTah.init.11 arTah.medi.11 arAin.init.10 arAin.medi.10
+	arFeh.init.10 arFeh.medi.10 arKaf.init.11 arKaf.medi.11 arLam.init.12
+	arLam.medi.12 arMeem.init.10 arMeem.medi.10 arHeh.init.10 arHeh.medi2.10
+	arHeh.init2.10];
 } sub_chain_caltarab_42;
-
-lookup jaltJustificationAlternativesin {
-  lookupflag IgnoreMarks;
-    sub \arBeh.isol by \arBeh.isol.1 ;
-    sub \arBeh.fina by \arBeh.fina.1 ;
-    sub \arSeen.isol by \arSeen.isol.1 ;
-    sub \arSeen.fina by \arSeen.fina.1 ;
-    sub \arSad.isol by \arSad.isol.1 ;
-    sub \arSad.fina by \arSad.fina.1 ;
-    sub \arFeh.isol by \arFeh.isol.1 ;
-    sub \arFeh.fina by \arFeh.fina.1 ;
-    sub \arQaf.isol by \arQaf.isol.1 \ar2Noqta.above ;
-    sub \arQaf.fina by \arQaf.fina.1 \ar2Noqta.above ;
-    sub \arKaf.isol by \arKaf.isol.1 ;
-    sub \arKaf.fina by \arKaf.fina.1 ;
-    sub \arLam.isol by \arLam.isol.1 ;
-    sub \arLam.fina by \arLam.fina.1 ;
-    sub \arNoon.isol by \arNoon.isol.1 \ar1Noqta.above ;
-    sub \arNoon.fina by \arNoon.isol.1 \ar1Noqta.above ;
-    sub \arYeh.isol by \arYeh.isol.1 ;
-    sub \arYeh.fina by \arYeh.fina.1 ;
-    sub \arGaf.isol by \arGaf.isol.1 ;
-    sub \arGaf.fina by \arGaf.fina.1 ;
-    sub \arYeh.fina.2 by \arYeh.fina.2.1 ;
-    sub \arQaf.isol2 by \arQaf.isol.1 ;
-    sub \arQaf.fina2 by \arQaf.fina.1 ;
-} jaltJustificationAlternativesin;
 
 lookup sub_chain_caltarab_44 {
   lookupflag IgnoreMarks;
-    sub [\arFeh.init ] [\arKaf.init.10 ]'  by [\arKaf.init.10.1 ];
+    sub [arFeh.init] [arKaf.init.10]' by [arKaf.init.10.1];
 } sub_chain_caltarab_44;
 
-lookup ss01StyleSet1inArabiclookup48 {
-  lookupflag IgnoreMarks;
-    sub \arSeen.init by \arSeen.medi ;
-    sub \arHeh.medi by \arHeh.medi2 ;
-    sub \arHeh.medi.1 by \arHeh.medi2.1 ;
-    sub \arHeh.medi.2 by \arHeh.medi2.2 ;
-    sub \arHeh.medi.3 by \arHeh.medi2.3 ;
-    sub \arHeh.medi.4 by \arHeh.medi2.4 ;
-    sub \arHeh.medi.5 by \arHeh.medi2.5 ;
-    sub \arHeh.medi.6 by \arHeh.medi2.6 ;
-    sub \arHeh.medi.7 by \arHeh.medi2.7 ;
-    sub \arBeh.init.8 by \arBeh.init.7 ;
-    sub \arHah.init.8 by \arHah.init.7 ;
-    sub \arSeen.init.8 by \arSeen.init.7 ;
-    sub \arSad.init.8 by \arSad.init.7 ;
-    sub \arTah.init.8 by \arTah.init.7 ;
-    sub \arAin.init.8 by \arAin.init.7 ;
-    sub \arFeh.init.8 by \arFeh.init.7 ;
-    sub \arKaf.init.8 by \arKaf.init.7 ;
-    sub \arLam.init.8 by \arLam.init.7 ;
-    sub \arMeem.init.8 by \arMeem.init.7 ;
-    sub \arHeh.init.8 by \arHeh.init.7 ;
-    sub \arHeh.init2.8 by \arHeh.init2.7 ;
-    sub \arBeh.medi.8 by \arBeh.medi.7 ;
-    sub \arHah.medi.8 by \arHah.medi.7 ;
-    sub \arSeen.medi.8 by \arSeen.medi.7 ;
-    sub \arSad.medi.8 by \arSad.medi.7 ;
-    sub \arTah.medi.8 by \arTah.medi.7 ;
-    sub \arAin.medi.8 by \arAin.medi.7 ;
-    sub \arFeh.medi.8 by \arFeh.medi.7 ;
-    sub \arKaf.medi.8 by \arKaf.medi.7 ;
-    sub \arLam.medi.8 by \arLam.medi.7 ;
-    sub \arMeem.medi.8 by \arMeem.medi.7 ;
-    sub \arHeh.medi2.8 by \arHeh.medi2.7 ;
-    sub \arHeh.medi.8 by \arHeh.medi2.8 ;
-    sub \arHeh.medi.9 by \arHeh.medi2.9 ;
-} ss01StyleSet1inArabiclookup48;
-
-lookup ss02StyleSet2inArabiclookup49 {
-  lookupflag IgnoreMarks;
-    sub \arHeh.fina by \arHeh.fina2 ;
-} ss02StyleSet2inArabiclookup49;
-
-lookup ss03StyleSet3inArabiclookup50 {
-  lookupflag IgnoreMarks;
-    sub \arNoon.isol by \arNoon.isol.2 ;
-    sub \arNoon.fina by \arNoon.fina.1 ;
-} ss03StyleSet3inArabiclookup50;
-
-lookup ss04StyleSet4inArabiclookup51 {
-  lookupflag IgnoreMarks;
-    sub \arKaf.init.10 by \arKaf.init.10.1 ;
-} ss04StyleSet4inArabiclookup51;
-
-lookup ss05StyleSet5inArabiclookup53 {
-  lookupflag IgnoreMarks;
-    sub \afii57394 by \uni06F2 ;
-    sub \uni06F2 by \afii57394 ;
-} ss05StyleSet5inArabiclookup53;
-
-lookup ss06StyleSet6inArabiclookup54 {
-  lookupflag IgnoreMarks;
-    sub \arSeen.isol \ar3Noqta.above  by \arSheen.fina2;
-} ss06StyleSet6inArabiclookup54;
-
 feature isol {
-
-  script arab;
-     language dflt ;
-      lookup isolIsolatedFormsinArabiclookup;
-     language FAR  exclude_dflt;
-      lookup isolIsolatedFormsinArabiclookup;
-     language URD  exclude_dflt;
-      lookup isolIsolatedFormsinArabiclookup;
+  lookupflag IgnoreMarks;
+    sub afii57409 by arHamza.isol;
+    sub afii57410 by arAlef.isol uni0653;
+    sub afii57411 by arAlef.isol uni0654;
+    sub afii57412 by arWaw.isol uni0654;
+    sub afii57413 by arAlef.isol uni0655;
+    sub afii57414 by arYeh.isol uni0654;
+    sub afii57415 by arAlef.isol;
+    sub afii57416 by arBeh.isol ar1Noqta.below;
+    sub afii57417 by arHeh.isol ar2Noqta.above;
+    sub afii57418 by arBeh.isol ar2Noqta.above;
+    sub afii57419 by arBeh.isol ar3Noqta.above;
+    sub afii57420 by arHah.isol ar1Noqta.below;
+    sub afii57421 by arHah.isol;
+    sub afii57422 by arHah.isol ar1Noqta.above;
+    sub afii57423 by arDal.isol;
+    sub afii57424 by arDal.isol ar1Noqta.above;
+    sub afii57425 by arReh.isol;
+    sub afii57426 by arReh.isol ar1Noqta.above;
+    sub afii57427 by arSeen.isol;
+    sub afii57428 by arSeen.isol ar3Noqta.above;
+    sub afii57429 by arSad.isol;
+    sub afii57430 by arSad.isol ar1Noqta.above;
+    sub afii57431 by arTah.isol;
+    sub afii57432 by arTah.isol ar1Noqta.above;
+    sub afii57433 by arAin.isol;
+    sub afii57434 by arAin.isol ar1Noqta.above;
+    sub afii57441 by arFeh.isol ar1Noqta.above;
+    sub afii57442 by arQaf.isol;
+    sub afii57443 by arKaf.isol;
+    sub afii57444 by arLam.isol;
+    sub afii57445 by arMem.isol;
+    sub afii57446 by arNoon.isol;
+    sub afii57470 by arHeh.isol;
+    sub afii57448 by arWaw.isol;
+    sub afii57449 by arYeh.isol;
+    sub afii57450 by arYeh.isol ar2Noqta.below;
+    sub uni0671 by arAlef.isol arSad.mark;
+    sub afii57506 by arBeh.isol ar3Noqta.below;
+    sub afii57511 by arBeh.isol arTah.mark;
+    sub afii57505 by arFeh.isol ar3Noqta.above;
+    sub afii57507 by arHah.isol ar3Noqta.below;
+    sub uni068E by arDal.isol ar3Noqta.above;
+    sub afii57508 by arReh.isol ar3Noqta.above;
+    sub afii57513 by arReh.isol arTah.mark;
+    sub uni06A9 by arGaf.isol;
+    sub afii57509 by arGaf.isol arSharta.kaf;
+    sub afii57514 by arNoon.isol2;
+    sub uni06BB by arNoon.isol2 arTah.mark;
+    sub uni06C0 by arHeh.isol uni0654;
+    sub uni06C1 by arHeh.isol;
+    sub uni06BE by arHeh.isol2;
+    sub afii57519 by arYeh.isol2;
+    sub uni06D3 by arYeh.isol2 uni0654;
+    sub uni06CC by arYeh.isol;
+    sub uni0688 by arDal.isol arTah.mark;
+    sub uni066E by arBeh.isol;
+    sub uni06A1 by arFeh.isol;
+    sub uni066F by arQaf.isol2;
 } isol;
 
 feature init {
-
-  script arab;
-     language dflt ;
-      lookup initInitialFormsinArabiclookup1;
-     language FAR  exclude_dflt;
-      lookup initInitialFormsinArabiclookup1;
-     language URD  exclude_dflt;
-      lookup initInitialFormsinArabiclookup1;
+  lookupflag IgnoreMarks;
+    sub afii57414 by arBeh.init uni0654;
+    sub afii57416 by arBeh.init ar1Noqta.below;
+    sub afii57418 by arBeh.init ar2Noqta.above;
+    sub afii57419 by arBeh.init ar3Noqta.above;
+    sub afii57420 by arHah.init ar1Noqta.below;
+    sub afii57421 by arHah.init;
+    sub afii57422 by arHah.init ar1Noqta.above;
+    sub afii57427 by arSeen.init;
+    sub afii57428 by arSeen.init ar3Noqta.above;
+    sub afii57429 by arSad.init;
+    sub afii57430 by arSad.init ar1Noqta.above;
+    sub afii57431 by arTah.init;
+    sub afii57432 by arTah.init ar1Noqta.above;
+    sub afii57433 by arAin.init;
+    sub afii57434 by arAin.init ar1Noqta.above;
+    sub afii57441 by arFeh.init ar1Noqta.above;
+    sub afii57442 by arFeh.init ar2Noqta.above;
+    sub afii57443 by arKaf.init;
+    sub afii57444 by arLam.init;
+    sub afii57445 by arMeem.init;
+    sub afii57446 by arBeh.init ar1Noqta.above;
+    sub afii57470 by arHeh.init;
+    sub afii57449 by arBeh.init;
+    sub afii57450 by arBeh.init ar2Noqta.below;
+    sub afii57506 by arBeh.init ar3Noqta.below;
+    sub afii57511 by arBeh.init arTah.mark;
+    sub afii57505 by arFeh.init ar3Noqta.above;
+    sub afii57507 by arHah.init ar3Noqta.below;
+    sub uni06A9 by arKaf.init;
+    sub afii57509 by arKaf.init arSharta.kaf;
+    sub afii57514 by arBeh.init;
+    sub uni06C1 by arHeh.init2;
+    sub uni06BE by arHeh.init;
+    sub uni06CC by arBeh.init ar2Noqta.below;
+    sub uni066E by arBeh.init;
+    sub uni06A1 by arFeh.init;
+    sub uni066F by arFeh.init;
 } init;
 
-feature fina {
-
-  script arab;
-     language dflt ;
-      lookup finaTerminalFormsinArabiclookup;
-     language FAR  exclude_dflt;
-      lookup finaTerminalFormsinArabiclookup;
-     language URD  exclude_dflt;
-      lookup finaTerminalFormsinArabiclookup;
-} fina;
-
 feature medi {
-
-  script arab;
-     language dflt ;
-      lookup mediMedialFormsinArabiclookup3;
-     language FAR  exclude_dflt;
-      lookup mediMedialFormsinArabiclookup3;
-     language URD  exclude_dflt;
-      lookup mediMedialFormsinArabiclookup3;
+  lookupflag IgnoreMarks;
+    sub afii57414 by arBeh.medi uni0654;
+    sub afii57416 by arBeh.medi ar1Noqta.below;
+    sub afii57418 by arBeh.medi ar2Noqta.above;
+    sub afii57419 by arBeh.medi ar3Noqta.above;
+    sub afii57420 by arHah.medi ar1Noqta.below;
+    sub afii57421 by arHah.medi;
+    sub afii57422 by arHah.medi ar1Noqta.above;
+    sub afii57427 by arSeen.medi;
+    sub afii57428 by arSeen.medi ar3Noqta.above;
+    sub afii57429 by arSad.medi;
+    sub afii57430 by arSad.medi ar1Noqta.above;
+    sub afii57431 by arTah.medi;
+    sub afii57432 by arTah.medi ar1Noqta.above;
+    sub afii57433 by arAin.medi;
+    sub afii57434 by arAin.medi ar1Noqta.above;
+    sub afii57441 by arFeh.medi ar1Noqta.above;
+    sub afii57442 by arFeh.medi ar2Noqta.above;
+    sub afii57443 by arKaf.medi;
+    sub afii57444 by arLam.medi;
+    sub afii57445 by arMeem.medi;
+    sub afii57446 by arBeh.medi ar1Noqta.above;
+    sub afii57470 by arHeh.medi;
+    sub afii57449 by arBeh.medi;
+    sub afii57450 by arBeh.medi ar2Noqta.below;
+    sub afii57506 by arBeh.medi ar3Noqta.below;
+    sub afii57511 by arBeh.medi arTah.mark;
+    sub afii57505 by arFeh.medi ar3Noqta.above;
+    sub afii57507 by arHah.medi ar3Noqta.below;
+    sub uni06A9 by arKaf.medi;
+    sub afii57509 by arKaf.medi arSharta.kaf;
+    sub afii57514 by arBeh.medi;
+    sub uni06C1 by arHeh.medi;
+    sub uni06BE by arHeh.medi2;
+    sub uni06CC by arBeh.medi ar2Noqta.below;
+    sub uni066E by arBeh.medi;
+    sub uni06A1 by arFeh.medi;
+    sub uni066F by arFeh.medi;
 } medi;
 
-feature locl {
+feature fina {
+  lookupflag IgnoreMarks;
+    sub afii57409 by arHamza.isol;
+    sub afii57410 by arAlef.fina uni0653;
+    sub afii57411 by arAlef.fina uni0654;
+    sub afii57412 by arWaw.fina uni0654;
+    sub afii57413 by arAlef.fina uni0655;
+    sub afii57414 by arYeh.fina uni0654;
+    sub afii57415 by arAlef.fina;
+    sub afii57416 by arBeh.fina ar1Noqta.below;
+    sub afii57417 by arHeh.fina ar2Noqta.above;
+    sub afii57418 by arBeh.fina ar2Noqta.above;
+    sub afii57419 by arBeh.fina ar3Noqta.above;
+    sub afii57420 by arHah.fina ar1Noqta.below;
+    sub afii57421 by arHah.fina;
+    sub afii57422 by arHah.fina ar1Noqta.above;
+    sub afii57423 by arDal.fina;
+    sub afii57424 by arDal.fina ar1Noqta.above;
+    sub afii57425 by arReh.fina;
+    sub afii57426 by arReh.fina ar1Noqta.above;
+    sub afii57427 by arSeen.fina;
+    sub afii57428 by arSeen.fina ar3Noqta.above;
+    sub afii57429 by arSad.fina;
+    sub afii57430 by arSad.fina ar1Noqta.above;
+    sub afii57431 by arTah.fina;
+    sub afii57432 by arTah.fina ar1Noqta.above;
+    sub afii57433 by arAin.fina;
+    sub afii57434 by arAin.fina ar1Noqta.above;
+    sub afii57441 by arFeh.fina ar1Noqta.above;
+    sub afii57442 by arQaf.fina;
+    sub afii57443 by arKaf.fina;
+    sub afii57444 by arLam.fina;
+    sub afii57445 by arMem.fina;
+    sub afii57446 by arNoon.fina;
+    sub afii57470 by arHeh.fina;
+    sub afii57448 by arWaw.fina;
+    sub afii57449 by arYeh.fina;
+    sub afii57450 by arYeh.fina ar2Noqta.below;
+    sub uni0671 by arAlef.fina arSad.mark;
+    sub afii57506 by arBeh.fina ar3Noqta.below;
+    sub afii57511 by arBeh.fina arTah.mark;
+    sub afii57505 by arFeh.fina ar3Noqta.above;
+    sub afii57507 by arHah.fina ar3Noqta.below;
+    sub uni068E by arDal.fina ar3Noqta.above;
+    sub afii57508 by arReh.fina ar3Noqta.above;
+    sub afii57513 by arReh.fina arTah.mark;
+    sub uni06A9 by arGaf.fina;
+    sub afii57509 by arGaf.fina arSharta.kaf;
+    sub afii57514 by arNoon.fina2;
+    sub uni06BB by arNoon.fina2 arTah.mark;
+    sub uni06C0 by arHeh.fina uni0654;
+    sub uni06C1 by arHeh.fina2;
+    sub uni06BE by arHeh.fina3;
+    sub afii57519 by arYeh.fina2;
+    sub uni06D3 by arYeh.fina2 uni0654;
+    sub uni06CC by arYeh.fina;
+    sub uni0688 by arDal.fina arTah.mark;
+    sub uni066E by arBeh.fina;
+    sub uni06A1 by arFeh.fina;
+    sub uni066F by arQaf.fina2;
+} fina;
 
-  script arab;
-     language URD  exclude_dflt;
-      lookup loclLocalizedFormsinArabiclooku;
+feature locl {
+  lookupflag IgnoreMarks;
+  script arab; language URD  exclude_dflt;
+    sub uni06F4 by uni06F4.urd;
+    sub uni06F6 by afii57398;
+    sub uni06F7 by uni06F7.urd;
+    sub uni0657 by uni0657.urd;
 } locl;
 
 feature ccmp {
-
-  script arab;
-     language dflt ;
-      lookup ccmpGlyphCompositionDecompositi;
-     language FAR  exclude_dflt;
-      lookup ccmpGlyphCompositionDecompositi;
-     language URD  exclude_dflt;
-      lookup ccmpGlyphCompositionDecompositi;
+  lookupflag 0;
+    sub afii57457 afii57452 by shada_dammatan_A;
+    sub afii57457 afii57453 by shada_kasratan_A;
+    sub afii57457 afii57454 by shada_fatha_A;
+    sub afii57457 afii57455 by shada_damma_A;
+    sub afii57457 afii57456 by shada_kasra_A;
+    sub afii57457 afii57451 by shada_fathatan_A;
+    sub afii57457 afii57458 by shada_sokon_A;
+    sub afii57457 uni0670 by shada_alefmadA;
+    sub afii57454 uni0670 by fatha_alefmadA;
 } ccmp;
 
 feature calt {
-
-  script DFLT;
-     language dflt ;
-      lookup sub_chain_caltarab_44;
-
-  script arab;
-     language dflt ;
-      lookup caltContextualAlternatesinArabi;
-      lookup sub_chain_caltarab_0;
-      lookup sub_chain_caltarab_2;
-      lookup sub_chain_caltarab_4;
-      lookup sub_chain_caltarab_6;
-      lookup sub_chain_caltarab_8;
-      lookup sub_chain_caltarab_10;
-      lookup sub_chain_caltarab_12;
-      lookup sub_chain_caltarab_14;
-      lookup sub_chain_caltarab_16;
-      lookup sub_chain_caltarab_18;
-      lookup sub_chain_caltarab_20;
-      lookup sub_chain_caltarab_22;
-      lookup sub_chain_caltarab_24;
-      lookup sub_chain_caltarab_26;
-      lookup sub_chain_caltarab_28;
-      lookup sub_chain_caltarab_30;
-      lookup sub_chain_caltarab_32;
-      lookup sub_chain_caltarab_34;
-      lookup sub_chain_caltarab_36;
-      lookup sub_chain_caltarab_38;
-      lookup sub_chain_caltarab_40;
-      lookup sub_chain_caltarab_42;
-      lookup sub_chain_caltarab_44;
-     language FAR  exclude_dflt;
-      lookup caltContextualAlternatesinArabi;
-      lookup sub_chain_caltarab_0;
-      lookup sub_chain_caltarab_2;
-      lookup sub_chain_caltarab_4;
-      lookup sub_chain_caltarab_6;
-      lookup sub_chain_caltarab_8;
-      lookup sub_chain_caltarab_10;
-      lookup sub_chain_caltarab_12;
-      lookup sub_chain_caltarab_14;
-      lookup sub_chain_caltarab_16;
-      lookup sub_chain_caltarab_18;
-      lookup sub_chain_caltarab_20;
-      lookup sub_chain_caltarab_22;
-      lookup sub_chain_caltarab_24;
-      lookup sub_chain_caltarab_26;
-      lookup sub_chain_caltarab_28;
-      lookup sub_chain_caltarab_30;
-      lookup sub_chain_caltarab_32;
-      lookup sub_chain_caltarab_34;
-      lookup sub_chain_caltarab_36;
-      lookup sub_chain_caltarab_38;
-      lookup sub_chain_caltarab_40;
-      lookup sub_chain_caltarab_42;
-      lookup sub_chain_caltarab_44;
-     language URD  exclude_dflt;
-      lookup caltContextualAlternatesinArabi;
-      lookup sub_chain_caltarab_0;
-      lookup sub_chain_caltarab_2;
-      lookup sub_chain_caltarab_4;
-      lookup sub_chain_caltarab_6;
-      lookup sub_chain_caltarab_8;
-      lookup sub_chain_caltarab_10;
-      lookup sub_chain_caltarab_12;
-      lookup sub_chain_caltarab_14;
-      lookup sub_chain_caltarab_16;
-      lookup sub_chain_caltarab_18;
-      lookup sub_chain_caltarab_20;
-      lookup sub_chain_caltarab_22;
-      lookup sub_chain_caltarab_24;
-      lookup sub_chain_caltarab_26;
-      lookup sub_chain_caltarab_28;
-      lookup sub_chain_caltarab_30;
-      lookup sub_chain_caltarab_32;
-      lookup sub_chain_caltarab_34;
-      lookup sub_chain_caltarab_36;
-      lookup sub_chain_caltarab_38;
-      lookup sub_chain_caltarab_40;
-      lookup sub_chain_caltarab_42;
-      lookup sub_chain_caltarab_44;
+    lookup caltContextualAlternatesinArabi;
+    lookup sub_chain_caltarab_0;
+    lookup sub_chain_caltarab_2;
+    lookup sub_chain_caltarab_4;
+    lookup sub_chain_caltarab_6;
+    lookup sub_chain_caltarab_8;
+    lookup sub_chain_caltarab_10;
+    lookup sub_chain_caltarab_12;
+    lookup sub_chain_caltarab_14;
+    lookup sub_chain_caltarab_16;
+    lookup sub_chain_caltarab_18;
+    lookup sub_chain_caltarab_20;
+    lookup sub_chain_caltarab_22;
+    lookup sub_chain_caltarab_24;
+    lookup sub_chain_caltarab_26;
+    lookup sub_chain_caltarab_28;
+    lookup sub_chain_caltarab_30;
+    lookup sub_chain_caltarab_32;
+    lookup sub_chain_caltarab_34;
+    lookup sub_chain_caltarab_36;
+    lookup sub_chain_caltarab_38;
+    lookup sub_chain_caltarab_40;
+    lookup sub_chain_caltarab_42;
+    lookup sub_chain_caltarab_44;
 } calt;
 
 feature jalt {
-
-  script arab;
-     language dflt ;
-      lookup jaltJustificationAlternativesin;
-     language FAR  exclude_dflt;
-      lookup jaltJustificationAlternativesin;
-     language URD  exclude_dflt;
-      lookup jaltJustificationAlternativesin;
+  lookupflag IgnoreMarks;
+    sub arBeh.isol by arBeh.isol.1;
+    sub arBeh.fina by arBeh.fina.1;
+    sub arSeen.isol by arSeen.isol.1;
+    sub arSeen.fina by arSeen.fina.1;
+    sub arSad.isol by arSad.isol.1;
+    sub arSad.fina by arSad.fina.1;
+    sub arFeh.isol by arFeh.isol.1;
+    sub arFeh.fina by arFeh.fina.1;
+    sub arQaf.isol by arQaf.isol.1 ar2Noqta.above;
+    sub arQaf.fina by arQaf.fina.1 ar2Noqta.above;
+    sub arKaf.isol by arKaf.isol.1;
+    sub arKaf.fina by arKaf.fina.1;
+    sub arLam.isol by arLam.isol.1;
+    sub arLam.fina by arLam.fina.1;
+    sub arNoon.isol by arNoon.isol.1 ar1Noqta.above;
+    sub arNoon.fina by arNoon.isol.1 ar1Noqta.above;
+    sub arYeh.isol by arYeh.isol.1;
+    sub arYeh.fina by arYeh.fina.1;
+    sub arGaf.isol by arGaf.isol.1;
+    sub arGaf.fina by arGaf.fina.1;
+    sub arYeh.fina.2 by arYeh.fina.2.1;
+    sub arQaf.isol2 by arQaf.isol.1;
+    sub arQaf.fina2 by arQaf.fina.1;
 } jalt;
 
 feature ss01 {
   featureNames {
-    name 3 1 0x409 "Looped Haa";
+    name "Looped Haa";
   };
 
-  script DFLT;
-     language dflt ;
-      lookup ss01StyleSet1inArabiclookup48;
-
-  script arab;
-     language dflt ;
-      lookup ss01StyleSet1inArabiclookup48;
-     language FAR  exclude_dflt;
-      lookup ss01StyleSet1inArabiclookup48;
-     language URD  exclude_dflt;
-      lookup ss01StyleSet1inArabiclookup48;
+  lookupflag IgnoreMarks;
+    sub arSeen.init by arSeen.medi;
+    sub arHeh.medi by arHeh.medi2;
+    sub arHeh.medi.1 by arHeh.medi2.1;
+    sub arHeh.medi.2 by arHeh.medi2.2;
+    sub arHeh.medi.3 by arHeh.medi2.3;
+    sub arHeh.medi.4 by arHeh.medi2.4;
+    sub arHeh.medi.5 by arHeh.medi2.5;
+    sub arHeh.medi.6 by arHeh.medi2.6;
+    sub arHeh.medi.7 by arHeh.medi2.7;
+    sub arBeh.init.8 by arBeh.init.7;
+    sub arHah.init.8 by arHah.init.7;
+    sub arSeen.init.8 by arSeen.init.7;
+    sub arSad.init.8 by arSad.init.7;
+    sub arTah.init.8 by arTah.init.7;
+    sub arAin.init.8 by arAin.init.7;
+    sub arFeh.init.8 by arFeh.init.7;
+    sub arKaf.init.8 by arKaf.init.7;
+    sub arLam.init.8 by arLam.init.7;
+    sub arMeem.init.8 by arMeem.init.7;
+    sub arHeh.init.8 by arHeh.init.7;
+    sub arHeh.init2.8 by arHeh.init2.7;
+    sub arBeh.medi.8 by arBeh.medi.7;
+    sub arHah.medi.8 by arHah.medi.7;
+    sub arSeen.medi.8 by arSeen.medi.7;
+    sub arSad.medi.8 by arSad.medi.7;
+    sub arTah.medi.8 by arTah.medi.7;
+    sub arAin.medi.8 by arAin.medi.7;
+    sub arFeh.medi.8 by arFeh.medi.7;
+    sub arKaf.medi.8 by arKaf.medi.7;
+    sub arLam.medi.8 by arLam.medi.7;
+    sub arMeem.medi.8 by arMeem.medi.7;
+    sub arHeh.medi2.8 by arHeh.medi2.7;
+    sub arHeh.medi.8 by arHeh.medi2.8;
+    sub arHeh.medi.9 by arHeh.medi2.9;
 } ss01;
 
 feature ss02 {
   featureNames {
-    name 3 1 0x409 "Open final Haa";
+    name "Open final Haa";
   };
 
-  script DFLT;
-     language dflt ;
-      lookup ss02StyleSet2inArabiclookup49;
-
-  script arab;
-     language dflt ;
-      lookup ss02StyleSet2inArabiclookup49;
-     language FAR  exclude_dflt;
-      lookup ss02StyleSet2inArabiclookup49;
-     language URD  exclude_dflt;
-      lookup ss02StyleSet2inArabiclookup49;
+  lookupflag IgnoreMarks;
+    sub arHeh.fina by arHeh.fina2;
 } ss02;
 
 feature ss03 {
   featureNames {
-    name 3 1 0x409 "Tailed Noon";
+    name "Tailed Noon";
   };
 
-  script DFLT;
-     language dflt ;
-      lookup ss03StyleSet3inArabiclookup50;
-
-  script arab;
-     language dflt ;
-      lookup ss03StyleSet3inArabiclookup50;
-     language FAR  exclude_dflt;
-      lookup ss03StyleSet3inArabiclookup50;
-     language URD  exclude_dflt;
-      lookup ss03StyleSet3inArabiclookup50;
+  lookupflag IgnoreMarks;
+    sub arNoon.isol by arNoon.isol.2;
+    sub arNoon.fina by arNoon.fina.1;
 } ss03;
 
 feature ss04 {
   featureNames {
-    name 3 1 0x409 "Looped initial Kaf";
+    name "Looped initial Kaf";
   };
 
-  script DFLT;
-     language dflt ;
-      lookup ss04StyleSet4inArabiclookup51;
-
-  script arab;
-     language dflt ;
-      lookup ss04StyleSet4inArabiclookup51;
-     language FAR  exclude_dflt;
-      lookup ss04StyleSet4inArabiclookup51;
-     language URD  exclude_dflt;
-      lookup ss04StyleSet4inArabiclookup51;
+  lookupflag IgnoreMarks;
+    sub arKaf.init.10 by arKaf.init.10.1;
 } ss04;
 
 feature ss05 {
   featureNames {
-    name 3 1 0x409 "Alternate Arabic digit two";
+    name "Alternate Arabic digit two";
   };
 
-  script DFLT;
-     language dflt ;
-      lookup ss05StyleSet5inArabiclookup53;
-
-  script arab;
-     language dflt ;
-      lookup ss05StyleSet5inArabiclookup53;
-     language FAR  exclude_dflt;
-      lookup ss05StyleSet5inArabiclookup53;
-     language URD  exclude_dflt;
-      lookup ss05StyleSet5inArabiclookup53;
+  lookupflag IgnoreMarks;
+    sub afii57394 by uni06F2;
+    sub uni06F2 by afii57394;
 } ss05;
 
 feature ss06 {
   featureNames {
-    name 3 1 0x409 "Tailed Sheen";
+    name "Tailed Sheen";
   };
 
-  script DFLT;
-     language dflt ;
-      lookup ss06StyleSet6inArabiclookup54;
-
-  script arab;
-     language dflt ;
-      lookup ss06StyleSet6inArabiclookup54;
-     language FAR  exclude_dflt;
-      lookup ss06StyleSet6inArabiclookup54;
-     language URD  exclude_dflt;
-      lookup ss06StyleSet6inArabiclookup54;
+  lookupflag IgnoreMarks;
+    sub arSeen.isol ar3Noqta.above by arSheen.fina2;
 } ss06;
