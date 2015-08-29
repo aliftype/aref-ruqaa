@@ -4,11 +4,14 @@ VERSION=0.2
 SRC=sources
 DOC=documentation
 TOOLS=tools
+TESTS=tests
 DIST=$(NAME)-$(VERSION)
 
-PY=python2.7
+PY=python2
+PY3=python3
 BUILD=$(TOOLS)/build.py
 COMPOSE=$(TOOLS)/build-encoded-glyphs.py
+RUNTEST=$(TOOLS)/runtest.py
 
 FONTS=regular bold
 
@@ -44,7 +47,9 @@ ifeq ($(crunch), true)
 	@mv $@.tmp $@
 endif
 
-
+check: arefruqaa-regular.ttf $(TESTS)/wb.txt $(TESTS)/wb.shp
+	@echo "   TST	arefruqaa-regular.ttf"
+	@$(PY3) $(RUNTEST) $^
 
 $(DOC)/$(NAME)-table.pdf: $(NAME)-regular.ttf
 	@echo "   GEN	$@"
