@@ -123,7 +123,6 @@ lookup calt_reh {
 lookup calt_sad {
   lookupflag IgnoreMarks;
     ignore sub @init_medi' @context_sad [arYeh.isol2 arYeh.fina2];
-  subtable;
     sub @init_medi' @context_sad by @calt_sad;
 } calt_sad;
 
@@ -169,9 +168,7 @@ lookup calt_kaf_kaf_kaf {
 
 lookup calt_kaf_init_medi {
   lookupflag IgnoreMarks;
-    sub @init_group [arKaf.medi]' @context_kaf_alef by [arKaf.init.10];
-  subtable;
-    sub @medi_group [arKaf.medi]' @context_kaf_alef by [arKaf.init.10];
+    sub [@init_group @medi_group] [arKaf.medi]' @context_kaf_alef by [arKaf.init.10];
 } calt_kaf_init_medi;
 
 lookup calt_lamalef {
@@ -196,11 +193,7 @@ lookup sub_chain_caltarab_30 {
 
 lookup calt_beh_3 {
   lookupflag IgnoreMarks;
-    sub [arBeh.init.10] [arBeh.medi]' [arBeh.medi] by [arBeh.medi.11];
-  subtable;
-    sub [arBeh.init.10] [arBeh.medi]' [arBeh.fina] by [arBeh.medi.11];
-  subtable;
-    sub [arBeh.init.10] [arBeh.medi]' [arBeh.fina.1] by [arBeh.medi.11];
+    sub [arBeh.init.10] [arBeh.medi]' [arBeh.medi arBeh.fina arBeh.fina.1] by [arBeh.medi.11];
 } calt_beh_3;
 
 lookup high_beh {
@@ -211,44 +204,27 @@ lookup high_beh {
 lookup calt_beh_4 {
   lookupflag IgnoreMarks;
     sub [arBeh.medi] [arBeh.medi]'lookup high_beh [arBeh.medi];
-  subtable;
     sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi]'lookup high_beh;
-  subtable;
     sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi] [arBeh.medi]'lookup high_beh;
-  subtable;
     sub [arBeh.medi]'lookup high_beh @seen_all;
-  subtable;
     sub [arBeh.init.10] [arBeh.medi]'lookup high_beh @kantara_all;
-  subtable;
     sub [arBeh.medi] [arBeh.medi]'lookup high_beh @kantara_all;
-  subtable;
     sub [arSeen.medi] [arBeh.medi]'lookup high_beh [arBeh.fina];
-  subtable;
     sub [arSad.init] [arBeh.medi]'lookup high_beh [arBeh.medi];
-  subtable;
     sub [arSad.medi] [arBeh.medi]'lookup high_beh [arBeh.medi];
 } calt_beh_4;
 
 lookup sub_chain_caltarab_36 {
   lookupflag IgnoreMarks;
     sub [arBeh.medi] [arBeh.medi]'lookup high_beh [arBeh.medi];
-  subtable;
     sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi]'lookup high_beh;
-  subtable;
     sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi] [arBeh.medi]'lookup high_beh;
-  subtable;
     sub [arBeh.medi]'lookup high_beh @seen_all;
-  subtable;
     sub [arBeh.init.10] [arBeh.medi]'lookup high_beh @kantara_all;
-  subtable;
     sub [arBeh.medi] [arBeh.medi]'lookup high_beh @kantara_all;
-  subtable;
     sub [arSeen.medi] [arBeh.medi]'lookup high_beh [arBeh.fina];
-  subtable;
     sub [arSad.init] [arBeh.medi]'lookup high_beh [arBeh.medi];
-  subtable;
     sub [arSad.medi] [arBeh.medi]'lookup high_beh [arBeh.medi];
-  subtable;
     sub [arSeen.medi] [arBeh.medi]'lookup high_beh [arBeh.medi.4];
 } sub_chain_caltarab_36;
 
@@ -269,7 +245,6 @@ lookup kaf_lam_tah {
 lookup calt_kaf_lam_tah {
   lookupflag IgnoreMarks;
     sub [arTah.init arTah.medi arKaf.medi arLam.init arLam.medi]'lookup kaf_lam_tah  [arKaf.init.10];
-  subtable;
     sub [arKaf.init.10] [arTah.init arTah.medi arKaf.medi arLam.init arLam.medi]'lookup kaf_lam_tah  [arKaf.init.10];
 } calt_kaf_lam_tah;
 
