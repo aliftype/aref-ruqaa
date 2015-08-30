@@ -1,23 +1,28 @@
 NAME=arefruqaa
 VERSION=0.2
 
-SRC=sources
-DOC=documentation
-TOOLS=tools
-TESTS=tests
+SRCDIR=sources
+DOCDIR=documentation
+TOOLDIR=tools
+TESTDIR=tests
 DIST=$(NAME)-$(VERSION)
 
 PY=python2
 PY3=python3
-BUILD=$(TOOLS)/build.py
-COMPOSE=$(TOOLS)/build-encoded-glyphs.py
-RUNTEST=$(TOOLS)/runtest.py
+BUILD=$(TOOLDIR)/build.py
+COMPOSE=$(TOOLDIR)/build-encoded-glyphs.py
+RUNTEST=$(TOOLDIR)/runtest.py
 
 FONTS=regular bold
+TESTS=wb yeh-ragaa
 
-SFD=$(FONTS:%=$(SRC)/$(NAME)-%.sfdir)
+SFD=$(FONTS:%=$(SRCDIR)/$(NAME)-%.sfdir)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
-PDF=$(DOC)/$(NAME)-table.pdf
+PDF=$(DOCDIR)/$(NAME)-table.pdf
+
+TST=$(TESTS:%=$(TESTDIR)/%.txt)
+SHP=$(TESTS:%=$(TESTDIR)/%.shp)
+RUN=$(TESTS:%=$(TESTDIR)/%.run)
 
 ttx?=true
 crunch?=false
@@ -27,8 +32,9 @@ all: ttf doc
 
 ttf: $(TTF)
 doc: $(PDF)
+check: $(RUN)
 
-arefruqaa-%.ttf: $(SRC)/arefruqaa-%.sfdir $(SRC)/eulertext-%.sfdir $(SRC)/arefruqaa.fea Makefile $(BUILD)
+arefruqaa-%.ttf: $(SRCDIR)/arefruqaa-%.sfdir $(SRCDIR)/eulertext-%.sfdir $(SRCDIR)/arefruqaa.fea Makefile $(BUILD)
 	@echo "   FF	$@"
 ifeq ($(glyphnames), true)
 	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} $${FILES[0]} $${FILES[1]}
@@ -47,13 +53,13 @@ ifeq ($(crunch), true)
 	@mv $@.tmp $@
 endif
 
-check: arefruqaa-regular.ttf $(TESTS)/wb.txt $(TESTS)/wb.shp
-	@echo "   TST	arefruqaa-regular.ttf"
-	@$(PY3) $(RUNTEST) $^
+$(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp
+	@echo "   TST	$*"
+	@$(PY3) $(RUNTEST) $(NAME)-regular.ttf $(@D)/$*.txt $(@D)/$*.shp $(@D)/$*.run
 
-$(DOC)/$(NAME)-table.pdf: $(NAME)-regular.ttf
+$(DOCDIR)/$(NAME)-table.pdf: $(NAME)-regular.ttf
 	@echo "   GEN	$@"
-	@mkdir -p $(DOC)
+	@mkdir -p $(DOCDIR)
 	@fntsample --font-file $< --output-file $@.tmp --print-outline > $@.txt
 	@pdfoutline $@.tmp $@.txt $@.comp
 	@pdftk $@.comp output $@ uncompress

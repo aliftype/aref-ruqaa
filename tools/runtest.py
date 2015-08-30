@@ -73,13 +73,18 @@ if __name__ == '__main__':
         refs = ref.read().splitlines()
 
     passed, failed = runTest(tests, refs, fontname)
+    message = "%d passed, %d failed" % (len(passed), len(failed))
+
+    with open(sys.argv[4], "w") as result:
+        result.write(message + "\n")
+
     if failed:
         for failure in failed:
             print(failure)
             print("string:   \t", failed[failure][0])
             print("reference:\t", failed[failure][1])
             print("result:   \t", failed[failure][2])
-        print("%d passed, %d failed" % (len(passed), len(failed)))
+        print(message)
         sys.exit(1)
 
     sys.exit(0)
