@@ -53,7 +53,7 @@ ifeq ($(crunch), true)
 	@mv $@.tmp $@
 endif
 
-$(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp
+$(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-regular.ttf
 	@echo "   TST	$*"
 	@$(PY3) $(RUNTEST) $(NAME)-regular.ttf $(@D)/$*.txt $(@D)/$*.shp $(@D)/$*.run
 
