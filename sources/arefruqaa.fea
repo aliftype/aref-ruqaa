@@ -122,7 +122,10 @@ lookup calt_reh {
 
 lookup calt_sad {
   lookupflag IgnoreMarks;
+    # Don’t do the substitition if the words ends in a bari yeh, as the
+    # alternate glyph will clash with its tail.
     ignore sub @init_medi' @context_sad [arYeh.fina2];
+    ignore sub @init_medi' @context_sad @init_medi [arYeh.fina2];
 
     sub @init_medi' @context_sad by @calt_sad;
 } calt_sad;
