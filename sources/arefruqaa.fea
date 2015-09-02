@@ -122,7 +122,8 @@ lookup calt_reh {
 
 lookup calt_sad {
   lookupflag IgnoreMarks;
-    ignore sub @init_medi' @context_sad [arYeh.isol2 arYeh.fina2];
+    ignore sub @init_medi' @context_sad [arYeh.fina2];
+
     sub @init_medi' @context_sad by @calt_sad;
 } calt_sad;
 
