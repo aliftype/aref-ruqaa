@@ -256,6 +256,7 @@ lookup calt_kaf_lam_tah {
 lookup calt_yeh_ragaa {
   lookupflag IgnoreMarks;
     sub @init_medi' [arYeh.fina2] by @calt_ragaa;
+    sub [arBeh.medi.12]' [arYeh.fina2] by [arBeh.medi.13];
 } calt_yeh_ragaa;
 
 lookup calt_feh_kaf {
