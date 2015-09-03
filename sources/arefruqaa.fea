@@ -209,6 +209,7 @@ lookup high_beh {
 lookup calt_beh_4 {
   lookupflag IgnoreMarks;
     sub [arBeh.medi] [arBeh.medi]'lookup high_beh [arBeh.medi];
+    sub [arBeh.medi] [arBeh.medi]'lookup high_beh [arBeh.medi.2];
     sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi]'lookup high_beh;
     sub [arBeh.init.10] [arBeh.medi.11] [arBeh.medi] [arBeh.medi] [arBeh.medi]'lookup high_beh;
     sub [arBeh.medi]'lookup high_beh @seen_all;
