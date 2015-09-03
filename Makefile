@@ -67,6 +67,7 @@ dist:
 	@make -B ttx=true crunch=true
 	@mkdir -p $(NAME)-$(VERSION)
 	@cp $(TTF) $(PDF) $(NAME)-$(VERSION)
+	@cp OFL.txt $(NAME)-$(VERSION)
 	@markdown README.md | w3m -dump -T text/html > $(NAME)-$(VERSION)/README.txt
 	@zip -r $(NAME)-$(VERSION).zip $(NAME)-$(VERSION)
 
