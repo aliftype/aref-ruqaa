@@ -24,9 +24,8 @@ TST=$(TESTS:%=$(TESTDIR)/%.txt)
 SHP=$(TESTS:%=$(TESTDIR)/%.shp)
 RUN=$(TESTS:%=$(TESTDIR)/%.run)
 
-ttx?=true
+ttx?=false
 crunch?=false
-glyphnames?=true
 
 all: ttf doc
 
@@ -36,21 +35,14 @@ check: $(RUN)
 
 arefruqaa-%.ttf: $(SRCDIR)/arefruqaa-%.sfdir $(SRCDIR)/eulertext-%.sfdir $(SRCDIR)/arefruqaa.fea Makefile $(BUILD)
 	@echo "   FF	$@"
-ifeq ($(glyphnames), true)
 	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} $${FILES[0]} $${FILES[1]}
-else
-	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} --no-glyphnames $${FILES[0]} $${FILES[1]}
-endif
 ifeq ($(ttx), true)
 	@echo "   TTX	$@"
-	@ttx -q -o temp.ttx $@
-	@ttx -q -o $@ temp.ttx
-	@rm -f temp.ttx
+	@pyftsubset $@ --output-file=$@ --unicodes='*' --layout-features='*' --name-IDs='*'
 endif
 ifeq ($(crunch), true)
 	@echo "   FC	$@"
-	@font-crunch -q -j8 -o $@.tmp $@
-	@mv $@.tmp $@
+	@font-crunch -q -j8 -o $@ $@
 endif
 
 $(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-regular.ttf
@@ -72,7 +64,7 @@ build-encoded-glyphs: $(SFD)
 	  )
 
 dist:
-	@make -B ttx=true chrunch=false glyphnames=false
+	@make -B ttx=true chrunch=false
 	@mkdir -p $(NAME)-$(VERSION)
 	@cp $(TTF) $(PDF) $(NAME)-$(VERSION)
 	@markdown README.md | w3m -dump -T text/html > $(NAME)-$(VERSION)/README.txt

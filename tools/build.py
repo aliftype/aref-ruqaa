@@ -58,16 +58,12 @@ def main():
     parser.add_argument("--out-file", metavar="FILE", help="output font to write", required=True)
     parser.add_argument("--feature-file", metavar="FILE", help="output font to write", required=True)
     parser.add_argument("--version", metavar="version", help="version number", required=True)
-    parser.add_argument("--no-glyphnames", action="store_true", help="don't generate glyph names")
 
     args = parser.parse_args()
 
     font = merge(args)
 
     flags = ["round", "opentype"]
-    if args.no_glyphnames:
-        flags.append("short-post")
-
     font.generate(args.out_file, flags=flags)
 
 if __name__ == "__main__":
