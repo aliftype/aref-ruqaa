@@ -104,6 +104,7 @@ languagesystem arab URD;
                         arSeen.medi.4 arSeen.medi.5 arSeen.medi.6 arSeen.medi.7 arSeen.medi.8
                         arSeen.medi.9 arSeen.fina.1 arSeen.medi.10];
 
+@noqta_below         = [ar1Noqta.below ar2Noqta.below ar3Noqta.below];
 
 lookup calt_hah {
   lookupflag IgnoreMarks;
@@ -515,6 +516,21 @@ feature calt {
     lookup calt_kaf_lam_tah;
     lookup calt_yeh_ragaa;
     lookup calt_feh_kaf;
+} calt;
+
+feature calt {
+  lookupflag 0;
+    pos [arBeh.init.10] @noqta_below' <200 -300 0 0> [arBeh.medi.13];
+    pos [arBeh.init.10] @noqta_below' <0   -380 0 0> [arKaf.medi.11 arLam.medi.12];
+
+    pos [arBeh.medi.11] @noqta_below' <0   -300 0 0> [arBeh.medi.13];
+    pos [arBeh.medi]    @noqta_below' <85  -300 0 0> [arBeh.medi.13];
+    pos [arBeh.medi]    @noqta_below' <0   -300 0 0> [arKaf.medi.11 arLam.medi.12];
+
+    pos [arBeh.init.6]  @noqta_below' <0   -150 0 0> [arFeh.medi.10];
+
+    pos [arHah.init]    @noqta_below' <50  -250 0 0> [arBeh.medi.13];
+    pos [arHah.init]    @noqta_below' <0   -300 0 0> [arKaf.medi.11 arLam.medi.12];
 } calt;
 
 feature jalt {
