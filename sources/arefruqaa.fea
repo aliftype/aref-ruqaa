@@ -650,3 +650,15 @@ feature ss06 {
   lookupflag IgnoreMarks;
     sub arSeen.isol ar3Noqta.above by arSheen.fina2;
 } ss06;
+
+feature ss07 {
+  featureNames {
+    name "Alternate Sad-Tah/Tah-Sad";
+  };
+
+  lookupflag IgnoreMarks;
+    sub arSad.init.4 by arSad.init.11;
+    sub arSad.medi.4 by arSad.medi.11;
+    sub arTah.init.4 by arTah.init.12;
+    sub arTah.medi.4 by arTah.medi.12;
+} ss07;

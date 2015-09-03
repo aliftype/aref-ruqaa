@@ -1,0 +1,15 @@
+StartChar: arSad.medi.11
+Encoding: 65910 -1 499
+Width: 1314
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-17" 0 0 basechar 0
+AnchorPoint: "Cursive-1" 0 0 exit 0
+AnchorPoint: "Anchor-16" 1071 -252 basechar 0
+AnchorPoint: "Cursive-1" 1144 -66 entry 0
+AnchorPoint: "Anchor-15" 1377 1188 basechar 0
+AnchorPoint: "Anchor-14" 1386 1098 basechar 0
+LayerCount: 2
+Fore
+Refer: 497 -1 N 1 0 0 1 0 0 2
+EndChar
