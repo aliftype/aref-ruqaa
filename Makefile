@@ -64,7 +64,7 @@ build-encoded-glyphs: $(SFD)
 	  )
 
 dist:
-	@make -B ttx=true chrunch=false
+	@make -B ttx=true chrunch=true
 	@mkdir -p $(NAME)-$(VERSION)
 	@cp $(TTF) $(PDF) $(NAME)-$(VERSION)
 	@markdown README.md | w3m -dump -T text/html > $(NAME)-$(VERSION)/README.txt
