@@ -67,7 +67,7 @@ languagesystem arab URD;
                arSeen.medi.10 arSad.init.10 arSad.medi.10 arTah.init.11 arTah.medi.11
                arAin.init.10 arAin.medi.10 arFeh.init.10 arFeh.medi.10 arKaf.init.11
                arKaf.medi.11 arLam.init.12 arLam.medi.12 arMeem.init.10 arMeem.medi.10
-               arHeh.init.10 arHeh.medi2.10 arHeh.medi arHeh.init2.10];
+               arHeh.init.10 arHeh.medi2.10 arHeh.medi.10 arHeh.init2.10];
 
 @context_ain         = [arAin.fina arAin.medi arAin.medi.1 arAin.medi.2 arAin.medi.3
                         arAin.medi.4 arAin.medi.5 arAin.medi.6 arAin.medi.7 arAin.medi.8
