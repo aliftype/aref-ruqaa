@@ -75,8 +75,9 @@ if __name__ == '__main__':
     passed, failed = runTest(tests, refs, fontname)
     message = "%d passed, %d failed" % (len(passed), len(failed))
 
-    with open(sys.argv[4], "w") as result:
-        result.write(message + "\n")
+    if not failed:
+        with open(sys.argv[4], "w") as result:
+            result.write(message + "\n")
 
     if failed:
         for failure in failed:
