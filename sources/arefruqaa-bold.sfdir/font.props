@@ -62,7 +62,6 @@ Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 10"  {"'curs' Cursiv
 Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 11"  {"'curs' Cursive Attachment in Arabic lookup 11 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 12"  {"'curs' Cursive Attachment in Arabic lookup 12 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 13"  {"'curs' Cursive Attachment in Arabic lookup 13 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
-Lookup: 258 8 0 "'kern' Horizontal Kerning in Arabic lookup 14"  {"'kern' Horizontal Kerning in Arabic lookup 14 subtable"  } ['kern' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Arabic lookup 15"  {"'mark' Mark Positioning in Arabic lookup 15 subtable"  } ['mark' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Arabic lookup 16"  {"'mark' Mark Positioning in Arabic lookup 16 subtable"  } ['mark' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Arabic lookup 21"  {"'mark' Mark Positioning in Arabic lookup 21 subtable"  } ['mark' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]

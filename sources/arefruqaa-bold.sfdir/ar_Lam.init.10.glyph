@@ -48,8 +48,4 @@ SplineSet
  1319 988 1319 988 1330 907 c 1,49,-1
  1330 903 l 1,0,1
 EndSplineSet
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arMem.isol dx=0 dy=0 dh=0 dv=0 dx=300 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arAin.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arSad.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arSeen.isol dx=0 dy=0 dh=0 dv=0 dx=500 dy=0 dh=0 dv=0
 EndChar

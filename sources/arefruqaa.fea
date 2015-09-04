@@ -662,3 +662,52 @@ feature ss07 {
     sub arTah.init.4 by arTah.init.12;
     sub arTah.medi.4 by arTah.medi.12;
 } ss07;
+
+# GPOS
+
+feature kern {
+  lookupflag IgnoreMarks;
+    pos arAlef.fina <0 0 0 0> arHah.isol  <396 0 0 0>;
+    pos arDal.isol <0 0 0 0> arHeh.isol  <0 300 0 0>;
+    pos arDal.isol <0 0 0 0> arAin.isol  <300 0 0 0>;
+    pos arDal.isol <0 0 0 0> arSad.isol  <250 0 0 0>;
+    pos arDal.isol <0 0 0 0> arSeen.isol  <400 0 0 0>;
+    pos arDal.isol <0 0 0 0> arHah.isol  <200 0 0 0>;
+    pos arDal.isol <0 0 0 0> arAlef.isol  <-300 0 0 0>;
+    pos arDal.fina <0 0 0 0> arHeh.isol  <100 300 0 0>;
+    pos arReh.isol <0 0 0 0> arHeh.isol  <100 300 0 0>;
+    pos arReh.isol <0 0 0 0> arMem.isol  <300 0 0 0>;
+    pos arReh.isol <0 0 0 0> arAin.isol  <400 0 0 0>;
+    pos arReh.isol <0 0 0 0> arTah.isol  <540 440 0 0>;
+    pos arReh.isol <0 0 0 0> arSad.isol  <500 0 0 0>;
+    pos arReh.isol <0 0 0 0> arSeen.isol  <500 0 0 0>;
+    pos arReh.isol <0 0 0 0> arHah.isol  <300 0 0 0>;
+    pos arReh.fina <0 0 0 0> arHeh.isol  <100 300 0 0>;
+    pos arReh.fina <0 0 0 0> arTah.isol  <540 440 0 0>;
+    pos arReh.fina <0 0 0 0> arHah.isol  <275 0 0 0>;
+    pos arWaw.isol <0 0 0 0> arNoon.isol2  <275 175 0 0>;
+    pos arWaw.isol <0 0 0 0> arNoon.isol  <275 175 0 0>;
+    pos arWaw.isol <0 0 0 0> arQaf.isol  <275 175 0 0>;
+    pos arWaw.isol <0 0 0 0> arAin.isol  <500 0 0 0>;
+    pos arWaw.isol <0 0 0 0> arTah.isol  <540 440 0 0>;
+    pos arWaw.isol <0 0 0 0> arSad.isol  <500 0 0 0>;
+    pos arWaw.isol <0 0 0 0> arSeen.isol  <500 0 0 0>;
+    pos arWaw.isol <0 0 0 0> arHah.isol  <500 0 0 0>;
+    pos arWaw.fina <0 0 0 0> arHah.isol  <500 0 0 0>;
+    pos arWaw.fina <0 0 0 0> arSeen.isol  <500 0 0 0>;
+    pos arWaw.fina <0 0 0 0> arSad.isol  <500 0 0 0>;
+    pos arWaw.fina <0 0 0 0> arTah.isol  <540 440 0 0>;
+    pos arWaw.fina <0 0 0 0> arAin.isol  <500 0 0 0>;
+    pos arWaw.fina <0 0 0 0> arQaf.isol  <275 175 0 0>;
+    pos arWaw.fina <0 0 0 0> arNoon.isol  <275 175 0 0>;
+    pos arWaw.fina <0 0 0 0> arNoon.isol2  <275 175 0 0>;
+    pos arLam.init.10 <0 0 0 0> arMem.isol  <300 0 0 0>;
+    pos arLam.init.10 <0 0 0 0> arAin.isol  <500 0 0 0>;
+    pos arLam.init.10 <0 0 0 0> arSad.isol  <500 0 0 0>;
+    pos arLam.init.10 <0 0 0 0> arSeen.isol  <500 0 0 0>;
+    pos arLam.medi.10 <0 0 0 0> arMem.isol  <300 0 0 0>;
+    pos arLam.medi.10 <0 0 0 0> arAin.isol  <500 0 0 0>;
+    pos arLam.medi.10 <0 0 0 0> arSad.isol  <500 0 0 0>;
+    pos arLam.medi.10 <0 0 0 0> arSeen.isol  <500 0 0 0>;
+    pos arAlef.fina.1 <0 0 0 0> arHah.isol  <400 0 0 0>;
+} kern;

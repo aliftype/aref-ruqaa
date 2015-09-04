@@ -19,5 +19,4 @@ SplineSet
  786 393 786 393 798 229 c 1,5,-1
  662 0 l 1,0,-1
 EndSplineSet
-PairPos2: "'kern' Horizontal Kerning in Arabic lookup 14 subtable" arHah.isol dx=0 dy=0 dh=0 dv=0 dx=400 dy=0 dh=0 dv=0
 EndChar
