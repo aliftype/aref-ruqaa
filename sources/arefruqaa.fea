@@ -666,14 +666,31 @@ feature ss07 {
 # GPOS
 
 feature kern {
-  @dal_waw = [arDal.isol arDal.fina arReh.isol arReh.fina arWaw.isol arWaw.fina];
+  @dal     = [arDal.isol arDal.fina];
+  @waw     = [arReh.isol arReh.fina arWaw.isol arWaw.fina];
+  @dal_waw = [@dal @waw];
+  @lam     = [arLam.init.2 arLam.init.3 arLam.init.4 arLam.init.7 arLam.init.8 arLam.init.10];
   lookupflag IgnoreMarks;
     pos arAlef.fina   <-396 0 -396 0> arHah.isol;
     pos arAlef.fina.1 <-400 0 -400 0> arHah.isol;
 
-    pos [@dal_waw]   <-500 0 -500 0> [arAin.isol arSad.isol arSeen.isol arHah.isol];
-    pos [@dal_waw]   <-300 0 -300 0> [arAlef.isol arMem.isol];
-    pos [@dal_waw]   <-300 0 -300 0> arHeh.isol <0 300 0 0>;
-    pos [@dal_waw]   <-540 0 -540 0> arTah.isol <0 440 0 0>;
-    pos [@dal_waw]   <-275 0 -275 0> [arQaf.isol arNoon.isol arNoon.isol2] <0 175 0 0>;
+    pos @dal_waw'  <-500 0 -500 0> [arAin.isol arSad.isol arSeen.isol arHah.isol];
+    pos @dal_waw'  <-300 0 -300 0> [arAlef.isol arMem.isol];
+    pos @dal_waw'  <-300 0 -300 0> arHeh.isol' <0 300 0 0>;
+    pos @dal_waw'  <-540 0 -540 0> arTah.isol' <0 440 0 0>;
+    pos @dal_waw'  <-275 0 -275 0> [arQaf.isol arNoon.isol arNoon.isol2]' <0 175 0 0>;
+
+    # XXX: need to extend the ignore rule
+    ignore pos @dal_waw' [arLam.init.4] [arSad.medi.8] [arHeh.medi];
+    pos @waw'      <-300 0 -300 0> @lam;
+    pos @dal'      <-200 0 -200 0> @lam;
+
+    pos @waw'      <-500 0 -500 0> [arLam.init];
+    pos @dal'      <-300 0 -300 0> [arLam.init];
+
+    pos @waw'      <-250 0 -250 0> [arLam.init.9 arLam.init.12];
+    pos @dal'      <-150 0 -150 0> [arLam.init.9 arLam.init.12];
+
+    pos @waw'      <-200 0 -200 0> [arLam.isol];
+    pos @dal'      <-100 0 -100 0> [arLam.isol];
 } kern;
