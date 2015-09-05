@@ -685,6 +685,8 @@ feature kern {
     pos @waw'      <-300 0 -300 0> @lam;
     pos @dal'      <-200 0 -200 0> @lam;
 
+    pos @dal_waw   [arLam.init.7] [arMeem.medi] [arAlef.fina]' <0 200 0 0>;
+
     pos @waw'      <-500 0 -500 0> [arLam.init];
     pos @dal'      <-300 0 -300 0> [arLam.init];
 
