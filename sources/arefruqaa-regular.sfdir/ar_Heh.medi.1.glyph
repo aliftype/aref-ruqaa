@@ -4,8 +4,6 @@ Width: 819
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Cursive-8" -30 -100 exit 0
-AnchorPoint: "Anchor-17" 0 0 basechar 0
-AnchorPoint: "Anchor-15" 0 0 basechar 0
 AnchorPoint: "Anchor-14" 756 1044 basechar 0
 AnchorPoint: "Cursive-11" 765 243 entry 0
 AnchorPoint: "Anchor-16" 819 -639 basechar 0

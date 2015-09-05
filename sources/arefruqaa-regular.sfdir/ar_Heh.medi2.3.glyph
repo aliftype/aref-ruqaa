@@ -3,8 +3,6 @@ Encoding: 65696 -1 279
 Width: 829
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-17" 0 0 basechar 0
-AnchorPoint: "Anchor-15" 0 0 basechar 0
 AnchorPoint: "Cursive-10" 0 0 exit 0
 AnchorPoint: "Anchor-14" 702 1386 basechar 0
 AnchorPoint: "Cursive-6" 738 765 entry 0
