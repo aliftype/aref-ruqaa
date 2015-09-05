@@ -57,10 +57,10 @@ $(DOCDIR)/$(NAME)-table.pdf: $(NAME)-regular.ttf
 	@pdftk $@.comp output $@ uncompress
 	@rm -f $@.tmp $@.comp $@.txt
 
-build-encoded-glyphs: $(SFD)
+build-encoded-glyphs: $(SFD) $(SRCDIR)/arefruqaa.fea
 	@$(foreach sfd, $(SFD), \
 	     echo "   CMP	"`basename $(sfd)`; \
-	     $(PY) $(COMPOSE) $(sfd); \
+	     $(PY) $(COMPOSE) $(sfd) $(SRCDIR)/arefruqaa.fea; \
 	  )
 
 dist:
