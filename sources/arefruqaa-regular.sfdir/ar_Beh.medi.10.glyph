@@ -4,7 +4,6 @@ Width: 495
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Cursive-5" 0 90 exit 0
-AnchorPoint: "Cursive-4" 0 90 exit 0
 AnchorPoint: "Anchor-17" 180 -207 basechar 0
 AnchorPoint: "Anchor-16" 279 -360 basechar 0
 AnchorPoint: "Anchor-15" 324 936 basechar 0
