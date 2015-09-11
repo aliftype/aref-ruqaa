@@ -482,7 +482,7 @@ feature locl {
 
 feature ccmp {
   lookupflag 0;
-    sub afii57457 afii57452 by shada_dammatan_A;
+    sub afii57457 uni064C by shada_dammatan_A;
     sub afii57457 afii57453 by shada_kasratan_A;
     sub afii57457 afii57454 by shada_fatha_A;
     sub afii57457 afii57455 by shada_damma_A;
