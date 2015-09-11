@@ -480,19 +480,6 @@ feature locl {
     sub uni0657 by uni0657.urd;
 } locl;
 
-feature ccmp {
-  lookupflag 0;
-    sub afii57457 uni064C by shada_dammatan_A;
-    sub afii57457 afii57453 by shada_kasratan_A;
-    sub afii57457 afii57454 by shada_fatha_A;
-    sub afii57457 afii57455 by shada_damma_A;
-    sub afii57457 afii57456 by shada_kasra_A;
-    sub afii57457 afii57451 by shada_fathatan_A;
-    sub afii57457 afii57458 by shada_sokon_A;
-    sub afii57457 uni0670 by shada_alefmadA;
-    sub afii57454 uni0670 by fatha_alefmadA;
-} ccmp;
-
 feature calt {
     lookup calt_hah;
     lookup calt_dal;
