@@ -1,0 +1,24 @@
+StartChar: uni0652.alt
+Encoding: 65912 -1 478
+Width: 0
+GlyphClass: 4
+Flags: W
+AnchorPoint: "arMarkMark.above" 0 0 mark 0
+AnchorPoint: "Anchor-14" 0 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-130 -84 m 0,0,1
+ -132 -44 -132 -44 -95 48 c 0,2,3
+ -36 193 -36 193 29 216 c 0,4,5
+ 70 230 70 230 112.5 142 c 128,-1,6
+ 155 54 155 54 87.5 -63.5 c 128,-1,7
+ 20 -181 20 -181 -65 -164 c 0,8,9
+ -128 -150 -128 -150 -130 -84 c 0,0,1
+-39 18 m 1,10,11
+ -36 -20 -36 -20 33 0 c 1,12,13
+ 28 13 28 13 8 31.5 c 128,-1,14
+ -12 50 -12 50 -28 47 c 1,15,16
+ -39 34 -39 34 -39 18 c 1,10,11
+EndSplineSet
+EndChar

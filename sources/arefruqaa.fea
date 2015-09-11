@@ -650,6 +650,15 @@ feature ss07 {
     sub arTah.medi.4 by arTah.medi.12;
 } ss07;
 
+feature ss08 {
+  featureNames {
+    name "Alternate Sukun";
+  };
+
+  lookupflag 0;
+    sub uni0652 by uni0652.alt;
+} ss08;
+
 # GPOS
 
 feature kern {
