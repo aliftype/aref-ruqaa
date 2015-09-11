@@ -66,7 +66,6 @@ Lookup: 260 0 0 "'mark' Mark Positioning in Arabic lookup 15"  {"'mark' Mark Pos
 Lookup: 260 0 0 "'mark' Mark Positioning in Arabic lookup 16"  {"'mark' Mark Positioning in Arabic lookup 16 subtable"  } ['mark' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Arabic lookup 21"  {"'mark' Mark Positioning in Arabic lookup 21 subtable"  } ['mark' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark in Arabic lookup 20"  {"'mkmk' Mark to Mark in Arabic lookup 20-1"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
-Lookup: 258 8 0 "'calt' Contextual Alternates in Arabic lookup 52"  {"'calt' Contextual Alternates in Arabic lookup 52-1" [307,30,4] } ['calt' ('DFLT' <'dflt' > 'arab' <'FAR ' 'URD ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 GaspTable: 1 65535 2 0

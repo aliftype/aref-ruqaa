@@ -695,4 +695,6 @@ feature kern {
 
     pos @waw'      <-200 0 -200 0> [arLam.isol];
     pos @dal'      <-100 0 -100 0> [arLam.isol];
+
+    pos arFeh.init < 120 0  120 0> arKaf.init.10.1;
 } kern;
