@@ -3,6 +3,7 @@ Encoding: 65550 -1 94
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "arMarkMark.below" 0 -300 basemark 0
 AnchorPoint: "Anchor-20" 0 100 mark 0
 AnchorPoint: "Anchor-17" 0 100 mark 0
 LayerCount: 2
@@ -27,6 +28,4 @@ SplineSet
  184 291 184 291 229 250 c 1,25,26
  269 211 269 211 301 153 c 1,0,1
 EndSplineSet
-PairPos2: "'mkmk' Mark to Mark in Arabic lookup 18 subtable" afii57453 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-300 dh=0 dv=0
-PairPos2: "'mkmk' Mark to Mark in Arabic lookup 18 subtable" afii57456 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-300 dh=0 dv=0
 EndChar

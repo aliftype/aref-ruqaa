@@ -3,6 +3,7 @@ Encoding: 65540 -1 84
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "arMarkMark.above" 0 0 mark 0
 AnchorPoint: "Anchor-14" 0 0 mark 0
 LayerCount: 2
 Fore
