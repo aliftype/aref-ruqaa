@@ -1,5 +1,5 @@
 StartChar: arKaf.init.9
-Encoding: 65825 -1 408
+Encoding: 65825 -1 392
 Width: 1047
 GlyphClass: 2
 Flags: W
@@ -9,5 +9,5 @@ AnchorPoint: "Anchor-15" 648 1701 basechar 0
 AnchorPoint: "Anchor-16" 756 117 basechar 0
 LayerCount: 2
 Fore
-Refer: 216 -1 N 1 0 0 1 0 0 2
+Refer: 200 -1 N 1 0 0 1 0 0 2
 EndChar

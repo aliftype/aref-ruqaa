@@ -1,9 +1,9 @@
 StartChar: uni06BB
-Encoding: 1723 1723 78
+Encoding: 1723 1723 62
 Width: 950
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 201 -1 N 1 0 0 1 0 0 3
-Refer: 451 -1 N 1 0 0 1 459 1179 2
+Refer: 185 -1 N 1 0 0 1 0 0 3
+Refer: 435 -1 N 1 0 0 1 459 1179 2
 EndChar

@@ -1,5 +1,5 @@
 StartChar: arQaf.fina
-Encoding: 65590 -1 173
+Encoding: 65590 -1 157
 Width: 1300
 GlyphClass: 2
 Flags: W
@@ -10,5 +10,5 @@ AnchorPoint: "Anchor-14" 882 1359 basechar 0
 AnchorPoint: "Cursive-5" 1071 648 entry 0
 LayerCount: 2
 Fore
-Refer: 172 -1 N 1 0 0 1 0 0 2
+Refer: 156 -1 N 1 0 0 1 0 0 2
 EndChar

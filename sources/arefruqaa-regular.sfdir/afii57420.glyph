@@ -1,9 +1,9 @@
 StartChar: afii57420
-Encoding: 1580 1580 41
+Encoding: 1580 1580 25
 Width: 1400
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 144 -1 N 1 0 0 1 0 0 3
-Refer: 108 -1 N 1 0 0 1 783 50 2
+Refer: 128 -1 N 1 0 0 1 0 0 3
+Refer: 92 -1 N 1 0 0 1 783 50 2
 EndChar

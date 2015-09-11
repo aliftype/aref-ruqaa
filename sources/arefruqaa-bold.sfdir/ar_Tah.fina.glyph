@@ -1,5 +1,5 @@
 StartChar: arTah.fina
-Encoding: 65578 -1 161
+Encoding: 65578 -1 145
 Width: 657
 GlyphClass: 2
 Flags: W
@@ -10,5 +10,5 @@ AnchorPoint: "Anchor-14" 729 1449 basechar 0
 AnchorPoint: "Anchor-15" 1017 981 basechar 0
 LayerCount: 2
 Fore
-Refer: 160 -1 N 1 0 0 1 0 0 2
+Refer: 144 -1 N 1 0 0 1 0 0 2
 EndChar

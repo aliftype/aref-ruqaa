@@ -1,5 +1,5 @@
 StartChar: arWaw.fina
-Encoding: 65611 -1 194
+Encoding: 65611 -1 178
 Width: 1007
 GlyphClass: 2
 Flags: W
@@ -10,5 +10,5 @@ AnchorPoint: "Anchor-14" 810 1296 basechar 0
 AnchorPoint: "Cursive-5" 873 531 entry 0
 LayerCount: 2
 Fore
-Refer: 193 -1 N 1 0 0 1 0 0 2
+Refer: 177 -1 N 1 0 0 1 0 0 2
 EndChar
