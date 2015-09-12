@@ -7,46 +7,29 @@ from gi.repository import GLib
 
 from fontTools.ttLib import TTFont
 
-HbFonts = {}
 def getHbFont(fontname):
-    if fontname not in HbFonts:
-        font = open(fontname, "rb")
-        data = font.read()
-        font.close()
-        blob = HarfBuzz.glib_blob_create(GLib.Bytes.new(data))
-        face = HarfBuzz.face_create(blob, 0)
-        font = HarfBuzz.font_create(face)
-        upem = HarfBuzz.face_get_upem(face)
-        HarfBuzz.font_set_scale(font, upem, upem)
-        HarfBuzz.ot_font_set_funcs(font)
+    font = open(fontname, "rb")
+    data = font.read()
+    font.close()
+    blob = HarfBuzz.glib_blob_create(GLib.Bytes.new(data))
+    face = HarfBuzz.face_create(blob, 0)
+    font = HarfBuzz.font_create(face)
+    upem = HarfBuzz.face_get_upem(face)
+    HarfBuzz.font_set_scale(font, upem, upem)
+    HarfBuzz.ot_font_set_funcs(font)
 
-        HbFonts[fontname] = font
+    return font
 
-    return HbFonts[fontname]
-
-TtFonts = {}
-def getTtFont(fontname):
-    if fontname not in TtFonts:
-        font = TTFont(fontname)
-        TtFonts[fontname] = font
-
-    return TtFonts[fontname]
-
-def runHB(text, fontname):
-    font = getHbFont(fontname)
-    buf = HarfBuzz.buffer_create()
+def runHB(text, buf, font, ttfont):
+    HarfBuzz.buffer_clear_contents(buf)
     HarfBuzz.buffer_add_utf8(buf, text.encode('utf-8'), 0, -1)
-    if text.isdigit():
-        HarfBuzz.buffer_set_direction(buf, HarfBuzz.direction_t.LTR)
-    else:
-        HarfBuzz.buffer_set_direction(buf, HarfBuzz.direction_t.RTL)
+    HarfBuzz.buffer_set_direction(buf, HarfBuzz.direction_t.RTL)
     HarfBuzz.buffer_set_script(buf, HarfBuzz.script_t.ARABIC)
     HarfBuzz.buffer_set_language(buf, HarfBuzz.language_from_string(b"ar"))
 
     HarfBuzz.shape(font, buf, [])
 
     info = HarfBuzz.buffer_get_glyph_infos(buf)
-    ttfont = getTtFont(fontname)
     out = "|".join([ttfont.getGlyphName(i.codepoint) for i in info])
 
     return "[%s]" % out
@@ -54,8 +37,11 @@ def runHB(text, fontname):
 def runTest(tests, refs, fontname):
     failed = {}
     passed = []
+    font = getHbFont(fontname)
+    buf = HarfBuzz.buffer_create()
+    ttfont = TTFont(fontname)
     for i, (text, ref) in enumerate(zip(tests, refs)):
-        result = runHB(text, fontname)
+        result = runHB(text, buf, font, ttfont)
         if ref == result:
             passed.append(i + 1)
         else:
