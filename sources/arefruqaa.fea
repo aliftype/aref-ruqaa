@@ -260,6 +260,11 @@ lookup calt_yeh_ragaa {
     sub [arBeh.medi.12]' [arYeh.fina2] by [arBeh.medi.13];
 } calt_yeh_ragaa;
 
+lookup calt_hah_yeh_ragaa {
+  lookupflag IgnoreMarks;
+    sub [arHah.init.8 arHah.medi.8]' [arHeh.medi.10] by [arHah.init.11 arHah.medi.11];
+} calt_hah_yeh_ragaa;
+
 lookup calt_feh_kaf {
   lookupflag IgnoreMarks;
     sub [arFeh.init] [arKaf.init.10]' by [arKaf.init.10.1];
@@ -504,6 +509,7 @@ feature calt {
     lookup calt_beh_5;
     lookup calt_kaf_lam_tah;
     lookup calt_yeh_ragaa;
+    lookup calt_hah_yeh_ragaa;
     lookup calt_feh_kaf;
 } calt;
 
