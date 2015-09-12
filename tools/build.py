@@ -63,7 +63,7 @@ def main():
 
     font = merge(args)
 
-    flags = ["round", "opentype"]
+    flags = ["round", "opentype", "no-mac-names"]
     font.generate(args.out_file, flags=flags)
 
 if __name__ == "__main__":
