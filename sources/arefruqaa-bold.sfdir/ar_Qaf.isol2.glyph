@@ -1,6 +1,7 @@
 StartChar: arQaf.isol2
 Encoding: 65880 -1 442
 Width: 1004
+GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-16" 361 -369 basechar 0
 AnchorPoint: "Anchor-17" 388 -342 basechar 0

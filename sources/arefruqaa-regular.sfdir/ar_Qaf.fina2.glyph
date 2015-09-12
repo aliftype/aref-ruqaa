@@ -1,6 +1,7 @@
 StartChar: arQaf.fina2
 Encoding: 65881 -1 443
 Width: 1000
+GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-16" 357 -351 basechar 0
 AnchorPoint: "Anchor-17" 411 -342 basechar 0

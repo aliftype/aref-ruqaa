@@ -1,6 +1,7 @@
 StartChar: arNoon.isol.2
 Encoding: 65879 -1 437
 Width: 1101
+GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-16" 460 -340 basechar 0
 AnchorPoint: "Anchor-14" 600 1300 basechar 0
