@@ -12,6 +12,7 @@ PY3=python3
 BUILD=$(TOOLDIR)/build.py
 COMPOSE=$(TOOLDIR)/build-encoded-glyphs.py
 RUNTEST=$(TOOLDIR)/runtest.py
+SFDLINT=$(TOOLDIR)/sfdlint.py
 
 FONTS=regular bold
 TESTS=wb yeh-ragaa
@@ -23,6 +24,7 @@ PDF=$(DOCDIR)/$(NAME)-table.pdf
 TST=$(TESTS:%=$(TESTDIR)/%.txt)
 SHP=$(TESTS:%=$(TESTDIR)/%.shp)
 RUN=$(TESTS:%=$(TESTDIR)/%.run)
+LNT=$(FONTS:%=$(SRCDIR)/$(NAME)-%.lnt)
 
 ttx?=false
 crunch?=false
@@ -31,7 +33,8 @@ all: ttf doc
 
 ttf: $(TTF)
 doc: $(PDF)
-check: $(RUN)
+lint: $(LNT)
+check: lint $(RUN)
 
 arefruqaa-%.ttf: $(SRCDIR)/arefruqaa-%.sfdir $(SRCDIR)/eulertext-%.sfdir $(SRCDIR)/arefruqaa.fea Makefile $(BUILD)
 	@echo "   FF	$@"
@@ -48,6 +51,10 @@ endif
 $(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-regular.ttf
 	@echo "   TST	$*"
 	@$(PY3) $(RUNTEST) $(NAME)-regular.ttf $(@D)/$*.txt $(@D)/$*.shp $(@D)/$*.run
+
+%.lnt: %.sfdir $(SFDLINT)
+	@echo "   LNT	$<"
+	@$(PY) $(SFDLINT) $< $@
 
 $(DOCDIR)/$(NAME)-table.pdf: $(NAME)-regular.ttf
 	@echo "   GEN	$@"
