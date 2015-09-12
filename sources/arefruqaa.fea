@@ -678,10 +678,8 @@ feature kern {
     pos @dal_waw'  <-275 0 -275 0> [arQaf.isol arNoon.isol arNoon.isol2]' <0 175 0 0>;
 
     pos @dal_waw'  <-75  0 -75  0> [arSeen.init arSad.init] @low_fina;
-    pos @dal_waw'  <-400 0 -400 0> [arSeen.init arSad.init];
-
     pos @dal_waw'  <-100 0 -100 0> [arHeh.init] @low_fina;
-    pos @dal_waw'  <-400 0 -400 0> [arHeh.init];
+    pos @dal_waw'  <-400 0 -400 0> [arSeen.init arSad.init arHeh.init];
 
     # XXX: need to extend the ignore rule
     ignore pos @dal_waw' [arLam.init.4] [arSad.medi.8] [arHeh.medi];
