@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{multicol}
+\usepackage{fontspec}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage[rldocument]{bidi}
+
+\setmainfont[Path=../,Script=Arabic,Scale=2]{arefruqaa-regular.ttf}
+
+\geometry{noheadfoot, nomarginpar, margin=.5cm}
+
+\begin{document}
+\pagestyle{empty}
+\obeylines
+\begin{spacing}{3}
+  \begin{multicols}{5}
+    \input wb.txt
+  \end{multicols}
+\end{spacing}
+
+\end{document}
