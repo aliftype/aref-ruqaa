@@ -18,11 +18,23 @@ def merge(args):
         if glyph.unicode < 0x0600 and glyph.unicode != -1 and glyph.unicode != ord(" "):
             arabic.removeGlyph(glyph)
 
+    latin_locl = ""
     for glyph in latin.glyphs():
         if glyph.unicode > ord("~") or glyph.unicode == -1:
             latin.removeGlyph(glyph)
+        else:
+            if glyph.glyphname in arabic:
+                name = glyph.glyphname
+                glyph.unicode = -1
+                glyph.glyphname = name + ".latin"
+                if not latin_locl:
+                    latin_locl = "feature locl {lookupflag IgnoreMarks; script latn;"
+                latin_locl += "sub %s by %s;" % (name, glyph.glyphname)
 
     arabic.mergeFonts(latin)
+    if latin_locl:
+        latin_locl += "} locl;"
+        arabic.mergeFeatureString(latin_locl)
 
     # Set metadata
     arabic.version = args.version
