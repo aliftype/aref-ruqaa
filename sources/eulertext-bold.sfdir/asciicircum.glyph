@@ -2,17 +2,17 @@ StartChar: asciicircum
 Encoding: 94 94 115
 Width: 590
 Flags: W
-HStem: 452 21<27 27> 715 20<296 296>
-VStem: 0 584<464 486>
+HStem: 516 192
+DStem2: 298 708 295 646 0.756916 -0.653512<38.247 224.701>
 LayerCount: 2
 Fore
 SplineSet
-296 735 m 1
- 584 486 l 1
- 539 459 l 1
- 293 673 l 1
- 27 452 l 1
- 0 464 l 1
- 296 735 l 1
+298 708 m 1
+ 481 550 l 1
+ 436 524 l 1
+ 295 646 l 1
+ 128 516 l 1
+ 101 528 l 1
+ 298 708 l 1
 EndSplineSet
 EndChar
