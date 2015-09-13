@@ -26,4 +26,5 @@ SplineSet
  79 308 70 412 19 412 c 0
  5 412 -28 400 -50 386 c 1
 EndSplineSet
+Kerns2: 98 50 "'kern' Horizontal Kerning lookup 0-1" 
 EndChar

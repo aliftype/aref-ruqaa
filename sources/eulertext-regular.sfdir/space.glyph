@@ -1,5 +1,6 @@
 StartChar: space
 Encoding: 160 160 110
+AltUni2: 000020.ffffffff.0
 Width: 333
 Flags: W
 LayerCount: 2

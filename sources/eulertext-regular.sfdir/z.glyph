@@ -31,4 +31,5 @@ SplineSet
  151 462 219 431 275 431 c 0xc0
  304 431 327 445 348 462 c 1xa0
 EndSplineSet
+Kerns2: 98 40 "'kern' Horizontal Kerning lookup 0-1"  89 40 "'kern' Horizontal Kerning lookup 0-1"  107 40 "'kern' Horizontal Kerning lookup 0-1" 
 EndChar

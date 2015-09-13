@@ -25,4 +25,5 @@ SplineSet
  224 401 207 313 207 257 c 0
  207 225 214 109 221 33 c 1xd0
 EndSplineSet
+Kerns2: 107 75 "'kern' Horizontal Kerning lookup 0-1"  108 75 "'kern' Horizontal Kerning lookup 0-1"  89 75 "'kern' Horizontal Kerning lookup 0-1"  90 75 "'kern' Horizontal Kerning lookup 0-1"  100 60 "'kern' Horizontal Kerning lookup 0-1"  101 95 "'kern' Horizontal Kerning lookup 0-1"  102 95 "'kern' Horizontal Kerning lookup 0-1"  103 95 "'kern' Horizontal Kerning lookup 0-1"  104 95 "'kern' Horizontal Kerning lookup 0-1"  105 95 "'kern' Horizontal Kerning lookup 0-1"  106 40 "'kern' Horizontal Kerning lookup 0-1"  93 60 "'kern' Horizontal Kerning lookup 0-1"  94 60 "'kern' Horizontal Kerning lookup 0-1" 
 EndChar
