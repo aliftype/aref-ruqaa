@@ -24,7 +24,7 @@ PDF=$(DOCDIR)/$(NAME)-table.pdf
 TST=$(TESTS:%=$(TESTDIR)/%.txt)
 SHP=$(TESTS:%=$(TESTDIR)/%.shp)
 RUN=$(TESTS:%=$(TESTDIR)/%.run)
-LNT=$(FONTS:%=$(SRCDIR)/$(NAME)-%.lnt)
+LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 
 ttx?=false
 crunch?=false
@@ -52,7 +52,7 @@ $(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-regular.ttf
 	@echo "   TST	$*"
 	@$(PY3) $(RUNTEST) $(NAME)-regular.ttf $(@D)/$*.txt $(@D)/$*.shp $(@D)/$*.run
 
-%.lnt: %.sfdir $(SFDLINT)
+$(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
 	@echo "   LNT	$<"
 	@$(PY) $(SFDLINT) $< $@
 
