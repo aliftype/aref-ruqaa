@@ -20,7 +20,7 @@ def merge(args):
 
     latin_locl = ""
     for glyph in latin.glyphs():
-        if glyph.unicode > ord("~") or glyph.unicode == -1:
+        if glyph.color == 0xff0000:
             latin.removeGlyph(glyph)
         else:
             if glyph.glyphname in arabic:

@@ -25,4 +25,5 @@ SplineSet
  390 36 410 147 410 216 c 0
  410 307 384 429 280 429 c 0
 EndSplineSet
+Colour: ff0000
 EndChar
