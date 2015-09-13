@@ -676,13 +676,13 @@ feature kern {
   @beh_feh = [arBeh.isol arFeh.isol];
   @qaf_noon= [arQaf.isol arQaf.isol2 arNoon.isol arNoon.isol2];
   lookupflag IgnoreMarks;
-    pos arAlef.fina   <-396 0 -396 0> arHah.isol;
-    pos arAlef.fina.1 <-400 0 -400 0> arHah.isol;
+    pos [arAlef.fina]   <-396 0 -396 0> [arHah.isol];
+    pos [arAlef.fina.1] <-400 0 -400 0> [arHah.isol];
 
     pos @dal_waw'  <-500 0 -500 0> [arAin.isol arSad.isol arSeen.isol arHah.isol arHah.init.7];
     pos @dal_waw'  <-300 0 -300 0> [arAlef.isol arMem.isol];
-    pos @dal_waw'  <-300 0 -300 0> arHeh.isol' <0 300 0 0>;
-    pos @dal_waw'  <-540 0 -540 0> arTah.isol' <0 440 0 0>;
+    pos @dal_waw'  <-300 0 -300 0> [arHeh.isol]' <0 300 0 0>;
+    pos @dal_waw'  <-540 0 -540 0> [arTah.isol]' <0 440 0 0>;
     pos @dal_waw'  <-275 0 -275 0> @qaf_noon' <0 175 0 0>;
 
     pos @dal_waw'  <-75  0 -75  0> [arSeen.init arSad.init] @low_fina;
@@ -692,7 +692,7 @@ feature kern {
 
     pos @dal_waw'  <-150 0 -150 0> @beh_feh;
 
-    pos arAlef.fina.1' <-200 0 -200 0> [@beh_feh @qaf_noon];
+    pos [arAlef.fina.1]' <-200 0 -200 0> [@beh_feh @qaf_noon];
 
     # XXX: need to extend the ignore rule
     ignore pos @dal_waw' [arLam.init.4] [arSad.medi.8] [arHeh.medi];
@@ -711,6 +711,6 @@ feature kern {
     pos @waw'      <-200 0 -200 0> [arLam.isol];
     pos @dal'      <-100 0 -100 0> [arLam.isol];
 
-    pos arFeh.init < 120 0  120 0> arKaf.init.10.1;
+    pos [arFeh.init]' < 120 0  120 0> [arKaf.init.10.1];
     pos [arAlef.isol arAlef.fina]' <200 0 200 0> [arLam.init.1] [arHah.fina];
 } kern;
