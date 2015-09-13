@@ -1,0 +1,21 @@
+StartChar: colon
+Encoding: 58 58 119
+Width: 216
+Flags: W
+HStem: -12 117 343 115
+VStem: 50 119
+LayerCount: 2
+Fore
+SplineSet
+50 45 m 0
+ 50 76 76 102 108 102 c 0
+ 139 102 164 76 164 45 c 0
+ 164 14 139 -12 108 -12 c 0
+ 76 -12 50 14 50 45 c 0
+50 398 m 0
+ 50 429 76 455 108 455 c 0
+ 139 455 164 429 164 398 c 0
+ 164 367 139 341 108 341 c 0
+ 76 341 50 367 50 398 c 0
+EndSplineSet
+EndChar
