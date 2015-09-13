@@ -14,10 +14,6 @@ def merge(args):
     latin.em = arabic.em
     latin.encoding = "Unicode"
 
-    for glyph in arabic.glyphs():
-        if glyph.unicode < 0x0600 and glyph.unicode != -1 and glyph.unicode != ord(" "):
-            arabic.removeGlyph(glyph)
-
     latin_locl = ""
     for glyph in latin.glyphs():
         if glyph.color == 0xff0000:
