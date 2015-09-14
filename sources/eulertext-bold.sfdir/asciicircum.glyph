@@ -1,18 +1,8 @@
 StartChar: asciicircum
 Encoding: 94 94 114
 Width: 590
-Flags: W
-HStem: 516 192
-DStem2: 298 708 295 646 0.756916 -0.653512<38.247 224.701>
+Flags: MW
 LayerCount: 2
 Fore
-SplineSet
-298 708 m 1
- 481 550 l 1
- 436 524 l 1
- 295 646 l 1
- 128 516 l 1
- 101 528 l 1
- 298 708 l 1
-EndSplineSet
+Refer: 165 770 S 1 0 0 1 291 0 2
 EndChar
