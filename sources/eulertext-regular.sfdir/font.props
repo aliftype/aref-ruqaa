@@ -64,4 +64,9 @@ ForceBold 5 false
 StemSnapH 9 [ 69 83 ]
 StemSnapV 9 [ 78 86 ]
 EndPrivate
+Grid
+-1000 718 m 4
+ 2000 718 l 4
+  Named: "Cap accent" 
+EndSplineSet
 EndSplineFont
