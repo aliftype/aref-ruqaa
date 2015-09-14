@@ -11,8 +11,8 @@ def merge(args):
     arabic.mergeFeature(args.feature_file)
 
     latin = fontforge.open(args.latinfile)
-    latin.em = arabic.em
     latin.encoding = "Unicode"
+    latin.em = arabic.em
 
     latin_locl = ""
     for glyph in latin.glyphs():
@@ -51,11 +51,6 @@ this Font Software.')
     arabic.appendSFNTName(en, "Descriptor", "Aref Ruqaa is an Arabic typeface that aspires to capture the essence of \
 the classical Ruqaa calligraphic style.")
     arabic.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
-
-    # Handle mixed outlines and references
-    arabic.selection.all()
-    arabic.correctReferences()
-    arabic.selection.none()
 
     return arabic
 
