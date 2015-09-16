@@ -711,6 +711,8 @@ feature kern {
     pos @waw'      <-200 0 -200 0> [arLam.isol];
     pos @dal'      <-100 0 -100 0> [arLam.isol];
 
+    pos @dal_waw'  <-200 0 -200 0> [arFeh.init.5];
+
     pos [arFeh.init]' < 120 0  120 0> [arKaf.init.10.1];
     pos [arAlef.isol arAlef.fina]' <200 0 200 0> [arLam.init.1] [arHah.fina];
     pos [arAlef.isol arAlef.fina]' <100 0 100 0> [arLam.init.1];
