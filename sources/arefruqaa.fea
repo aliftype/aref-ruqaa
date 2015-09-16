@@ -713,6 +713,7 @@ feature kern {
 
     pos [arFeh.init]' < 120 0  120 0> [arKaf.init.10.1];
     pos [arAlef.isol arAlef.fina]' <200 0 200 0> [arLam.init.1] [arHah.fina];
+    pos [arAlef.isol arAlef.fina]' <100 0 100 0> [arLam.init.1];
 
     pos [arYeh.fina arYeh.fina.1 arYeh.fina.2 arYeh.fina.2.1] [uni0621]' <0 400 0 0>;
 } kern;
