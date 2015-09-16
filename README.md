@@ -1,6 +1,7 @@
 Aref Ruqaa
 ==========
 
+![Sample](documentation/sample.png)
 Aref Ruqaa is an Arabic typeface that aspires to capture the essence of
 the classical [Ruqaa] [1] calligraphic style.
 

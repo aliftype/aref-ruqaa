@@ -1,0 +1,9 @@
+\begin[papersize=180mm x 25mm]{document}
+\script[src=packages/raiselower]
+\nofolios
+\noindent
+\font[filename=../arefruqaa-regular.ttf,script=Arab,size=50pt]
+\center{\raise[height=-0.25em]{خط}
+        \raise[height=0.05em]{الرقعة}
+الجديد، رقعة عارف}
+\end{document}
