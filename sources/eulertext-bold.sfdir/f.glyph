@@ -34,6 +34,5 @@ SplineSet
  230 400 l 1
  221 392 l 1
 EndSplineSet
-Kerns2: 90 50 "'kern' Horizontal Kerning lookup 0-1"  89 52 "'kern' Horizontal Kerning lookup 0-1"  107 52 "'kern' Horizontal Kerning lookup 0-1"  108 50 "'kern' Horizontal Kerning lookup 0-1" 
 Substitution2: "f.alt-1" f.alt
 EndChar

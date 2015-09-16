@@ -38,9 +38,28 @@ HheadDOffset: 0
 OS2Vendor: 'BLQ '
 Lookup: 6 0 0 "'calt' Contextual Alternates lookup 2"  {"'calt' Contextual Alternates lookup 2-1"  } ['calt' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "f.alt"  {"f.alt-1"  } []
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0"  {"'kern' Horizontal Kerning lookup 0-1" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0"  {"'kern' Horizontal Kerning lookup 0-1" [150,0,0] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+KernClass2: 11 8 "'kern' Horizontal Kerning lookup 0-1" 
+ 1 d
+ 46 i igrave iacute icircumflex idieresis dotlessi
+ 1 f
+ 44 o ograve oacute ocircumflex otilde odieresis
+ 1 r
+ 1 t
+ 1 v
+ 1 x
+ 1 w
+ 1 z
+ 1 t
+ 1 s
+ 62 u v w x y ugrave uacute ucircumflex udieresis yacute ydieresis
+ 1 z
+ 57 i j igrave iacute icircumflex idieresis dotlessi dotlessj
+ 1 r
+ 3 n m
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 35 {} 5 {} 50 {} 5 {} 0 {} 0 {} 0 {} 0 {} 35 {} 0 {} 40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 80 {} 0 {} 50 {} 50 {} 40 {} 0 {} -40 {} -40 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 60 {} 0 {} 100 {} 40 {} 85 {} 80 {} 60 {} 0 {} 0 {} 40 {} 70 {} 40 {} 45 {} 45 {} 35 {} 0 {} 30 {} 0 {} 70 {} 30 {} 50 {} 50 {} 40 {} 0 {} 20 {} 45 {} 50 {} 40 {} 30 {} 40 {} 35 {} 0 {} 20 {} -10 {} 65 {} 20 {} 50 {} 50 {} 40 {} 0 {} 10 {} 30 {} 40 {} 35 {} 40 {} 40 {} 35 {}
 ChainSub2: coverage "'calt' Contextual Alternates lookup 2-1"  0 0 0 1
  1 0 1
   Coverage: 1 f
