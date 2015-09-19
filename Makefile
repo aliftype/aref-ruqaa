@@ -36,7 +36,7 @@ doc: $(PDF)
 lint: $(LNT)
 check: lint $(RUN)
 
-arefruqaa-%.ttf: $(SRCDIR)/arefruqaa-%.sfdir $(SRCDIR)/eulertext-%.sfdir $(SRCDIR)/arefruqaa.fea Makefile $(BUILD)
+$(NAME)-%.ttf: $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/eulertext-%.sfdir $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
 	@echo "   FF	$@"
 	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} $${FILES[0]} $${FILES[1]}
 ifeq ($(ttx), true)
@@ -64,10 +64,10 @@ $(DOCDIR)/$(NAME)-table.pdf: $(NAME)-regular.ttf
 	@pdftk $@.comp output $@ uncompress
 	@rm -f $@.tmp $@.comp $@.txt
 
-build-encoded-glyphs: $(SFD) $(SRCDIR)/arefruqaa.fea
+build-encoded-glyphs: $(SFD) $(SRCDIR)/$(NAME).fea
 	@$(foreach sfd, $(SFD), \
 	     echo "   CMP	"`basename $(sfd)`; \
-	     $(PY) $(COMPOSE) $(sfd) $(SRCDIR)/arefruqaa.fea; \
+	     $(PY) $(COMPOSE) $(sfd) $(SRCDIR)/$(NAME).fea; \
 	  )
 
 dist:
