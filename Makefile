@@ -71,7 +71,7 @@ build-encoded-glyphs: $(SFD) $(SRCDIR)/$(NAME).fea
 	  )
 
 dist:
-	@make -B ttx=true crunch=true
+	@make -B ttx=true crunch=false
 	@mkdir -p $(NAME)-$(VERSION)
 	@cp $(TTF) $(PDF) $(NAME)-$(VERSION)
 	@cp OFL.txt $(NAME)-$(VERSION)
