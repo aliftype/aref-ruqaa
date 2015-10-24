@@ -1,5 +1,5 @@
 NAME=arefruqaa
-VERSION=0.3
+VERSION=0.4
 
 SRCDIR=sources
 DOCDIR=documentation
