@@ -2,13 +2,20 @@
 # encoding: utf-8
 
 import argparse
+import string
 from datetime import datetime
 from sortsmill import ffcompat as fontforge
 
 def merge(args):
     arabic = fontforge.open(args.arabicfile)
     arabic.encoding = "Unicode"
-    arabic.mergeFeature(args.feature_file)
+
+    with open(args.feature_file) as feature_file:
+        features = string.Template(feature_file.read())
+        gpos = arabic.generateFeatureString()
+        for lookup in arabic.gpos_lookups:
+            arabic.removeLookup(lookup)
+        arabic.mergeFeatureString(features.substitute(GPOS=gpos))
 
     latin = fontforge.open(args.latinfile)
     latin.encoding = "Unicode"

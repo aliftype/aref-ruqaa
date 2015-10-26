@@ -719,3 +719,5 @@ feature kern {
 
     pos [arYeh.fina arYeh.fina.1 arYeh.fina.2 arYeh.fina.2.1] [uni0621]' <0 400 0 0>;
 } kern;
+
+${GPOS}
