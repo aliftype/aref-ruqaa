@@ -72,7 +72,7 @@ languagesystem arab URD;
 @context_ain         = [arAin.fina arAin.medi arAin.medi.1 arAin.medi.2 arAin.medi.3
                         arAin.medi.4 arAin.medi.5 arAin.medi.6 arAin.medi.7 arAin.medi.8
                         arAin.medi.9 arAin.medi.10];
-@context_meem        = [arMem.fina arMeem.medi arMeem.medi.1 arMeem.medi.2 arMeem.medi.3
+@context_meem        = [arMeem.fina arMeem.medi arMeem.medi.1 arMeem.medi.2 arMeem.medi.3
                         arMeem.medi.4 arMeem.medi.5 arMeem.medi.6 arMeem.medi.7 arMeem.medi.8
                         arMeem.medi.9 arMeem.medi.10];
 @context_feh         = [arFeh.fina arFeh.medi arFeh.medi.1 arFeh.medi.2 arFeh.medi.3
@@ -302,7 +302,7 @@ feature isol {
     sub uni0642 by arQaf.isol;
     sub uni0643 by arKaf.isol;
     sub uni0644 by arLam.isol;
-    sub uni0645 by arMem.isol;
+    sub uni0645 by arMeem.isol;
     sub uni0646 by arNoon.isol;
     sub uni0647 by arHeh.isol;
     sub uni0648 by arWaw.isol;
@@ -446,7 +446,7 @@ feature fina {
     sub uni0642 by arQaf.fina;
     sub uni0643 by arKaf.fina;
     sub uni0644 by arLam.fina;
-    sub uni0645 by arMem.fina;
+    sub uni0645 by arMeem.fina;
     sub uni0646 by arNoon.fina;
     sub uni0647 by arHeh.fina;
     sub uni0648 by arWaw.fina;
@@ -680,7 +680,7 @@ feature kern {
     pos [arAlef.fina.1] <-400 0 -400 0> [arHah.isol];
 
     pos @dal_waw'  <-500 0 -500 0> [arAin.isol arSad.isol arSeen.isol arHah.isol arHah.init.7];
-    pos @dal_waw'  <-300 0 -300 0> [arAlef.isol arMem.isol];
+    pos @dal_waw'  <-300 0 -300 0> [arAlef.isol arMeem.isol];
     pos @dal_waw'  <-300 0 -300 0> [arHeh.isol]' <0 300 0 0>;
     pos @dal_waw'  <-540 0 -540 0> [arTah.isol]' <0 440 0 0>;
     pos @dal_waw'  <-275 0 -275 0> @qaf_noon' <0 175 0 0>;
