@@ -1,5 +1,5 @@
 StartChar: arSad.medi
-Encoding: 65576 -1 134
+Encoding: 65576 -1 133
 Width: 679
 GlyphClass: 2
 Flags: W
@@ -13,5 +13,5 @@ AnchorPoint: "Anchor-14" 1035 1071 basechar 0
 AnchorPoint: "Anchor-15" 1116 1161 basechar 0
 LayerCount: 2
 Fore
-Refer: 133 -1 N 1 0 0 1 0 0 2
+Refer: 132 -1 N 1 0 0 1 0 0 2
 EndChar

@@ -1,9 +1,9 @@
 StartChar: uni06C0
-Encoding: 1728 1728 63
+Encoding: 1728 1728 62
 Width: 506
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 163 -1 N 1 0 0 1 0 0 3
-Refer: 78 1620 N 1 0 0 1 297 1143 2
+Refer: 162 -1 N 1 0 0 1 0 0 3
+Refer: 77 1620 N 1 0 0 1 297 1143 2
 EndChar

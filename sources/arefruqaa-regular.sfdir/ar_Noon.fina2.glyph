@@ -1,5 +1,5 @@
 StartChar: arNoon.fina2
-Encoding: 65619 -1 177
+Encoding: 65619 -1 176
 Width: 950
 GlyphClass: 2
 Flags: W
@@ -10,5 +10,5 @@ AnchorPoint: "Anchor-14" 530 1300 basechar 0
 AnchorPoint: "Cursive-5" 756 486 entry 0
 LayerCount: 2
 Fore
-Refer: 176 -1 N 1 0 0 1 0 0 2
+Refer: 175 -1 N 1 0 0 1 0 0 2
 EndChar

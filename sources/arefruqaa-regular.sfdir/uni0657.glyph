@@ -1,5 +1,5 @@
 StartChar: uni0657
-Encoding: 1623 1623 445
+Encoding: 1623 1623 444
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -7,5 +7,5 @@ AnchorPoint: "arMarkMark.above" 0 0 mark 0
 AnchorPoint: "Anchor-14" 0 0 mark 0
 LayerCount: 2
 Fore
-Refer: 72 1615 N -1 0 0 -1 88 217 3
+Refer: 71 1615 N -1 0 0 -1 88 217 3
 EndChar

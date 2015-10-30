@@ -1,5 +1,5 @@
 StartChar: arLam.fina.1
-Encoding: 65864 -1 422
+Encoding: 65864 -1 421
 Width: 2111
 GlyphClass: 2
 Flags: W
@@ -10,5 +10,5 @@ AnchorPoint: "Cursive-4" 1876 450 entry 0
 AnchorPoint: "Cursive-0" 1876 450 entry 0
 LayerCount: 2
 Fore
-Refer: 413 -1 N 1 0 0 1 0 0 2
+Refer: 412 -1 N 1 0 0 1 0 0 2
 EndChar

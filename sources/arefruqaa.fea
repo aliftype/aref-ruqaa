@@ -272,7 +272,6 @@ lookup calt_feh_kaf {
 
 feature isol {
   lookupflag IgnoreMarks;
-    sub uni0621 by arHamza.isol;
     sub uni0622 by arAlef.isol uni0653;
     sub uni0623 by arAlef.isol uni0654;
     sub uni0624 by arWaw.isol uni0654;
@@ -416,7 +415,6 @@ feature medi {
 
 feature fina {
   lookupflag IgnoreMarks;
-    sub uni0621 by arHamza.isol;
     sub uni0622 by arAlef.fina uni0653;
     sub uni0623 by arAlef.fina uni0654;
     sub uni0624 by arWaw.fina uni0654;
