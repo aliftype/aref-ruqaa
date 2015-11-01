@@ -1,8 +1,11 @@
 from sortsmill import ffcompat as fontforge
 import sys
+import string
 
 font = fontforge.open(sys.argv[1])
-font.mergeFeature(sys.argv[2])
+with open(sys.argv[2]) as feature_file:
+    features = string.Template(feature_file.read())
+    font.mergeFeatureString(features.substitute(GPOS=""))
 
 isol_subtable = None
 for lookup in font.gsub_lookups:
