@@ -48,5 +48,6 @@ for glyph in font.glyphs():
         glyph.clear()
         glyph.references = temp_glyph.references
         glyph.useRefsMetrics(names[0])
+        glyph.color = 0xff0000
 font.removeGlyph(temp_glyph)
 font.save()
