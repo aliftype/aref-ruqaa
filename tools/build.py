@@ -47,9 +47,8 @@ def merge(args):
     arabic.version = args.version
     years = datetime.now().year == 2015 and 2015 or "2015-%s" % datetime.now().year
 
-    arabic.copyright = ". ".join(["Portions copyright © %s, Khaled Hosny (<khaledhosny@eglug.org>)",
+    arabic.copyright = ". ".join(["Portions copyright © %s, Khaled Hosny (<khaledhosny@eglug.org>)" % years,
                               "Portions " + latin.copyright[0].lower() + latin.copyright[1:].replace("(c)", "©")])
-    arabic.copyright = arabic.copyright % years
 
     en = "English (US)"
     arabic.appendSFNTName(en, "Designer", "Abdoulla Aref")
