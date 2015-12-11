@@ -2,8 +2,7 @@ StartChar: uni06BA
 Encoding: 1722 1722 60
 Width: 950
 GlyphClass: 2
+Flags: W
 LayerCount: 2
-Fore
-Refer: 175 -1 N 1 0 0 1 0 0 3
 Colour: ff0000
 EndChar

@@ -6,6 +6,8 @@ import string
 from datetime import datetime
 from sortsmill import ffcompat as fontforge
 
+from buildencoded import build as build_encoded
+
 def merge(args):
     arabic = fontforge.open(args.arabicfile)
     arabic.encoding = "Unicode"
@@ -16,6 +18,8 @@ def merge(args):
         for lookup in arabic.gpos_lookups:
             arabic.removeLookup(lookup)
         arabic.mergeFeatureString(features.substitute(GPOS=gpos))
+
+    build_encoded(arabic)
 
     latin = fontforge.open(args.latinfile)
     latin.encoding = "Unicode"

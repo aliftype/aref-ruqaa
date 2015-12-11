@@ -2,8 +2,7 @@ StartChar: uni0627
 Encoding: 1575 1575 19
 Width: 509
 GlyphClass: 2
+Flags: W
 LayerCount: 2
-Fore
-Refer: 112 -1 N 1 0 0 1 0 0 3
 Colour: ff0000
 EndChar
