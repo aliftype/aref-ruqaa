@@ -683,6 +683,7 @@ feature kern {
     pos @dal_waw'  <-540 0 -540 0> [arTah.isol]' <0 440 0 0>;
     pos @dal_waw'  <-275 0 -275 0> @qaf_noon' <0 175 0 0>;
 
+    pos @dal_waw'  <-75  0 -75  0> [arSeen.init arSad.init] [arBeh.medi.4] [arTah.fina];
     pos @dal_waw'  <-75  0 -75  0> [arSeen.init arSad.init] @low_fina;
     pos @dal_waw'  <-100 0 -100 0> [arHeh.init] @low_fina;
     pos @dal_waw'  <-400 0 -400 0> [arSeen.init arSad.init arSad.init.5 arHeh.init arHeh.init.7
