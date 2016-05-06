@@ -84,8 +84,8 @@ StemSnapH 9 [ 69 83 ]
 StemSnapV 9 [ 78 86 ]
 EndPrivate
 Grid
--1000 718 m 4
- 2000 718 l 4
+-1000 718 m 0
+ 2000 718 l 0
   Named: "Cap accent" 
 EndSplineSet
 EndSplineFont
