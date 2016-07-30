@@ -2,6 +2,9 @@
 
 import sys
 
+import gi
+gi.require_version('HarfBuzz', '0.0')
+
 from gi.repository import HarfBuzz
 from gi.repository import GLib
 
@@ -30,9 +33,19 @@ def runHB(text, buf, font, ttfont):
     HarfBuzz.shape(font, buf, [])
 
     info = HarfBuzz.buffer_get_glyph_infos(buf)
-    out = "|".join([ttfont.getGlyphName(i.codepoint) for i in info])
+    positions = HarfBuzz.buffer_get_glyph_positions(buf)
+    out = []
+    for i, p in zip(info, positions):
+        text = ""
+        text += ttfont.getGlyphName(i.codepoint)
+        text += " w=%d" % p.x_advance
+        if p.x_offset:
+            text += " x=%d" % p.x_offset
+        if p.y_offset:
+            text += " y=%d" % p.y_offset
+        out.append(text)
 
-    return "[%s]" % out
+    return "[%s]" % "|".join(out)
 
 def runTest(tests, refs, fontname):
     failed = {}
