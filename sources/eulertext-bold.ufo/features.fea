@@ -1,55 +1,7 @@
-
-# GSUB 
-
-
-lookup caltContextualAlternateslookup2 {
-  lookupflag 0;
-    sub [\f ]' [\b \h \k \l ]  by [\f.alt ];
-} caltContextualAlternateslookup2;
+languagesystem DFLT dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
 
 feature calt {
-
-  script DFLT;
-     language dflt ;
-      lookup caltContextualAlternateslookup2;
-
-  script grek;
-     language dflt ;
-      lookup caltContextualAlternateslookup2;
-
-  script latn;
-     language dflt ;
-      lookup caltContextualAlternateslookup2;
+  sub f' [b h k l]  by f.alt;
 } calt;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
-
-@GDEF_Simple = [\Gamma \Delta \Theta \Lambda \Xi \Pi \Sigma \Upsilon \Phi \Psi \Omega 
-	\alpha \beta \gamma \delta \epsilon1 \zeta \eta \theta \iota \kappa \lambda \mu \nu 
-	\xi \pi \rho \sigma \tau \upsilon \phi \chi \psi \omega \epsilon \theta1 \pi1 \phi1 
-	\zero \one \two \three \four \five \six \seven \eight \nine \period \comma \less 
-	\slash \greater \partialdiff \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W 
-	\X \Y \Z \lscript \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z 
-	\dotlessi \dotlessj \weierstrass \space \f.alt \bracketleft \bracketright 
-	\asciicircum \exclam \ampersand \quotedbl \quotesingle \parenleft \parenright 
-	\asterisk \plus \minus \equal \question \colon \semicolon \quoteleft \quoteright 
-	\asciitilde \braceleft \braceright \bar \backslash \logicalnot \section \hyphen 
-	\dollar \percent \numbersign \underscore \grave \at \sterling \yen \cent 
-	\brokenbar \exclamdown \questiondown \acute \periodcentered \plusminus 
-	\guillemotright \guillemotleft \ordfeminine \ordmasculine \uni00B2 \uni00B3 
-	\uni00B9 \copyright \registered \dieresis \gravecomb \acutecomb \uni0302 
-	\tildecomb \uni0304 \uni0308 \uni030A \uni0327 \Agrave \Aacute \Acircumflex 
-	\Atilde \Adieresis \Aring \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis 
-	\Igrave \Iacute \Icircumflex \Idieresis \Ntilde \Ograve \Oacute \Ocircumflex 
-	\Otilde \Odieresis \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \agrave 
-	\aacute \acircumflex \atilde \adieresis \aring \ccedilla \egrave \eacute 
-	\ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \ntilde \ograve 
-	\oacute \ocircumflex \otilde \odieresis \ugrave \uacute \ucircumflex \udieresis 
-	\yacute \ydieresis \macron \uni00AD \degree \cedilla \divide \multiply \fraction 
-	\onequarter \onehalf \threequarters \germandbls \Oslash \oslash \Eth \currency 
-	\paragraph \AE \ae \eth \OE \oe \Thorn \thorn ];
-
-table GDEF {
-  GlyphClassDef @GDEF_Simple, , , ;
-
-} GDEF;
-
