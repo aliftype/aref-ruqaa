@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Yacute" format="2">
-  <advance width="520"/>
+<glyph name="Yacute" format="1">
+  <advance width="592"/>
   <unicode hex="00DD"/>
   <outline>
-    <component base="acutecomb" xOffset="331.0" yOffset="230.0"/>
     <component base="Y"/>
+    <component base="acutecomb" xOffset="336" yOffset="221"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-09-03 05:17:46 +0000</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

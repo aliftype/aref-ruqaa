@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Atilde" format="2">
-  <advance width="661"/>
+<glyph name="Atilde" format="1">
+  <advance width="722"/>
   <unicode hex="00C3"/>
   <outline>
-    <component base="tildecomb" xOffset="308.0" yOffset="222.0"/>
     <component base="A"/>
+    <component base="tildecomb" xOffset="352" yOffset="218"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-09-03 05:17:46 +0000</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

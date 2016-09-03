@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="fraction" format="2">
+<glyph name="fraction" format="1">
   <advance width="80"/>
   <unicode hex="2044"/>
   <outline>
     <contour>
-      <point x="272.0" y="672.0" type="line"/>
-      <point x="274.0" y="660.0" type="line"/>
-      <point x="-150.0" y="-6.0" type="line"/>
-      <point x="-194.0" y="13.0" type="line"/>
-      <point x="-194.0" y="27.0" type="line"/>
-      <point x="226.0" y="686.0" type="line"/>
-      <point x="238.0" y="687.0" type="line"/>
+      <point x="272" y="672" type="line"/>
+      <point x="274" y="660" type="line"/>
+      <point x="-150" y="-6" type="line"/>
+      <point x="-194" y="13" type="line"/>
+      <point x="-194" y="27" type="line"/>
+      <point x="226" y="686" type="line"/>
+      <point x="238" y="687" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-09-03 06:49:09 +0000</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

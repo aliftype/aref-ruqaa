@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="underscore" format="2">
+<glyph name="underscore" format="1">
   <advance width="893"/>
   <unicode hex="005F"/>
   <outline>
     <contour>
-      <point x="893.0" y="-119.0" type="line"/>
-      <point x="0.0" y="-119.0" type="line"/>
-      <point x="0.0" y="-69.0" type="line"/>
-      <point x="893.0" y="-69.0" type="line"/>
+      <point x="893" y="-119" type="line"/>
+      <point x="0" y="-119" type="line"/>
+      <point x="0" y="-69" type="line"/>
+      <point x="893" y="-69" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-09-03 06:48:54 +0000</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

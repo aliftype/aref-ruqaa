@@ -1,14 +1,77 @@
-
+# Prefix: Prefix
 # GSUB 
-
-
 lookup caltContextualAlternateslookup2 {
   lookupflag 0;
     sub [\f ]' [\b \h \k \l ]  by [\f.alt ];
 } caltContextualAlternateslookup2;
 
-feature calt {
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
+#@GDEF_Simple = [\Gamma \Delta \Theta \Lambda \Xi \Pi \Sigma \Upsilon \Phi \Psi \Omega 
+#	\alpha \beta \gamma \delta \epsilon1 \zeta \eta \theta \iota \kappa \lambda \mu \nu 
+#	\xi \pi \rho \sigma \tau \upsilon \phi \chi \psi \omega \epsilon \theta1 \pi1 \phi1 
+#	\zero \one \two \three \four \five \six \seven \eight \nine \period \comma \less 
+#	\slash \greater \partialdiff \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W 
+#	\X \Y \Z \lscript \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z 
+#	\dotlessi \dotlessj \weierstrass \space \f.alt \bracketleft \bracketright 
+#	\asciicircum \exclam \ampersand \quotedbl \quotesingle \parenleft \parenright 
+#	\asterisk \plus \minus \equal \question \colon \semicolon \quoteleft \quoteright 
+#	\asciitilde \braceleft \braceright \bar \backslash \logicalnot \section \hyphen 
+#	\dollar \percent \numbersign \underscore \grave \at \sterling \yen \cent 
+#	\brokenbar \exclamdown \questiondown \acute \periodcentered \plusminus 
+#	\guillemotright \guillemotleft \ordfeminine \ordmasculine \uni00B2 \uni00B3 
+#	\uni00B9 \copyright \registered \dieresis \gravecomb \acutecomb \uni0302 
+#	\tildecomb \uni0304 \uni0308 \uni030A \uni0327 \Agrave \Aacute \Acircumflex 
+#	\Atilde \Adieresis \Aring \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis 
+#	\Igrave \Iacute \Icircumflex \Idieresis \Ntilde \Ograve \Oacute \Ocircumflex 
+#	\Otilde \Odieresis \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \agrave 
+#	\aacute \acircumflex \atilde \adieresis \aring \ccedilla \egrave \eacute 
+#	\ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \ntilde \ograve 
+#	\oacute \ocircumflex \otilde \odieresis \ugrave \uacute \ucircumflex \udieresis 
+#	\yacute \ydieresis \macron \uni00AD \degree \cedilla \divide \multiply \fraction 
+#	\onequarter \onehalf \threequarters \germandbls \Oslash \oslash \Eth \currency 
+#	\paragraph \AE \ae \eth \OE \oe \Thorn \thorn ];
+
+#table GDEF {
+#  GlyphClassDef @GDEF_Simple, , , ;
+
+#} GDEF;
+
+@public.kern1.kc0_10 = [ z ];
+
+@public.kern1.kc0_5 = [ r ];
+
+@public.kern2.kc0_6 = [ r ];
+
+@public.kern2.kc0_3 = [ u v w x y ugrave uacute ucircumflex udieresis yacute ydieresis ];
+
+@public.kern1.kc0_2 = [ i igrave iacute icircumflex idieresis dotlessi ];
+
+@public.kern1.kc0_7 = [ v ];
+
+@public.kern2.kc0_5 = [ i j igrave iacute icircumflex idieresis dotlessi dotlessj ];
+
+@public.kern1.kc0_4 = [ o ograve oacute ocircumflex otilde odieresis ];
+
+@public.kern1.kc0_9 = [ w ];
+
+@public.kern2.kc0_2 = [ s ];
+
+@public.kern1.kc0_1 = [ d ];
+
+@public.kern1.kc0_6 = [ t ];
+
+@public.kern2.kc0_7 = [ n m ];
+
+@public.kern2.kc0_4 = [ z ];
+
+@public.kern1.kc0_3 = [ f ];
+
+@public.kern1.kc0_8 = [ x ];
+
+@public.kern2.kc0_1 = [ t ];
+
+feature calt {
   script DFLT;
      language dflt ;
       lookup caltContextualAlternateslookup2;
@@ -21,35 +84,4 @@ feature calt {
      language dflt ;
       lookup caltContextualAlternateslookup2;
 } calt;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
-
-@GDEF_Simple = [\Gamma \Delta \Theta \Lambda \Xi \Pi \Sigma \Upsilon \Phi \Psi \Omega 
-	\alpha \beta \gamma \delta \epsilon1 \zeta \eta \theta \iota \kappa \lambda \mu \nu 
-	\xi \pi \rho \sigma \tau \upsilon \phi \chi \psi \omega \epsilon \theta1 \pi1 \phi1 
-	\zero \one \two \three \four \five \six \seven \eight \nine \period \comma \less 
-	\slash \greater \partialdiff \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W 
-	\X \Y \Z \lscript \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z 
-	\dotlessi \dotlessj \weierstrass \space \f.alt \bracketleft \bracketright 
-	\asciicircum \exclam \ampersand \quotedbl \quotesingle \parenleft \parenright 
-	\asterisk \plus \minus \equal \question \colon \semicolon \quoteleft \quoteright 
-	\asciitilde \braceleft \braceright \bar \backslash \logicalnot \section \hyphen 
-	\dollar \percent \numbersign \underscore \grave \at \sterling \yen \cent 
-	\brokenbar \exclamdown \questiondown \acute \periodcentered \plusminus 
-	\guillemotright \guillemotleft \ordfeminine \ordmasculine \uni00B2 \uni00B3 
-	\uni00B9 \copyright \registered \dieresis \gravecomb \acutecomb \uni0302 
-	\tildecomb \uni0304 \uni0308 \uni030A \uni0327 \Agrave \Aacute \Acircumflex 
-	\Atilde \Adieresis \Aring \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis 
-	\Igrave \Iacute \Icircumflex \Idieresis \Ntilde \Ograve \Oacute \Ocircumflex 
-	\Otilde \Odieresis \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \agrave 
-	\aacute \acircumflex \atilde \adieresis \aring \ccedilla \egrave \eacute 
-	\ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \ntilde \ograve 
-	\oacute \ocircumflex \otilde \odieresis \ugrave \uacute \ucircumflex \udieresis 
-	\yacute \ydieresis \macron \uni00AD \degree \cedilla \divide \multiply \fraction 
-	\onequarter \onehalf \threequarters \germandbls \Oslash \oslash \Eth \currency 
-	\paragraph \AE \ae \eth \OE \oe \Thorn \thorn ];
-
-table GDEF {
-  GlyphClassDef @GDEF_Simple, , , ;
-
-} GDEF;
 

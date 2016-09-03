@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cedilla" format="2">
+<glyph name="cedilla" format="1">
   <advance width="520"/>
   <unicode hex="00B8"/>
   <outline>
-    <component base="uni0327" xOffset="260.0"/>
+    <component base="uni0327" xOffset="260"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-09-03 05:20:50 +0000</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>
