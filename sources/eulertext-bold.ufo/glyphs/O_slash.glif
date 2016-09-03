@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Oslash" format="2">
-  <advance width="856"/>
+<glyph name="Oslash" format="1">
+  <advance width="830"/>
   <unicode hex="00D8"/>
   <outline>
+    <contour>
+      <point x="632" y="791" type="line"/>
+      <point x="637" y="780" type="line"/>
+      <point x="248" y="-116" type="line"/>
+      <point x="202" y="-104" type="line"/>
+      <point x="199" y="-90" type="line"/>
+      <point x="585" y="798" type="line"/>
+      <point x="596" y="800" type="line"/>
+    </contour>
     <component base="O"/>
-    <component base="slash" xOffset="140.0" yOffset="80.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-09-03 07:10:23 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>O</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
 </glyph>
