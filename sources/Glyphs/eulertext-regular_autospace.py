@@ -28,6 +28,6 @@
 *,Mark,*,1,*,*,
 
 # Greek
-greek,Letter,Uppercase,1.3,H,*,
+greek,Letter,Uppercase,1.35,H,*,
 greek,Letter,Lowercase,1.05,x,*,
 

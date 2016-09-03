@@ -76,8 +76,7 @@
 	<key>openTypeOS2SuperscriptYSize</key>
 	<integer>0</integer>
 	<key>openTypeOS2Type</key>
-	<array>
-	</array>
+	<array/>
 	<key>openTypeOS2TypoAscender</key>
 	<integer>800</integer>
 	<key>openTypeOS2TypoDescender</key>
@@ -95,17 +94,23 @@
 	<key>openTypeOS2WinDescent</key>
 	<integer>274</integer>
 	<key>postscriptBlueValues</key>
-	<array>
-	</array>
+	<array/>
+	<key>postscriptFamilyBlues</key>
+	<array/>
+	<key>postscriptFamilyOtherBlues</key>
+	<array/>
 	<key>postscriptFontName</key>
 	<string>EulerText-Bold</string>
 	<key>postscriptFullName</key>
 	<string>Euler Text Bold</string>
 	<key>postscriptOtherBlues</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptSlantAngle</key>
 	<real>0.0</real>
+	<key>postscriptStemSnapH</key>
+	<array/>
+	<key>postscriptStemSnapV</key>
+	<array/>
 	<key>postscriptUnderlinePosition</key>
 	<integer>-100</integer>
 	<key>postscriptUnderlineThickness</key>
