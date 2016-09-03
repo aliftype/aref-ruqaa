@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ugrave" format="2">
-  <advance width="696"/>
+<glyph name="Ugrave" format="1">
+  <advance width="712"/>
   <unicode hex="00D9"/>
   <outline>
-    <component base="gravecomb" xOffset="319.0" yOffset="231.0"/>
     <component base="U"/>
+    <component base="gravecomb" xOffset="367" yOffset="221"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-09-03 05:17:46 +0000</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

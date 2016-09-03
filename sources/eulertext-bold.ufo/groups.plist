@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>public.kern1.kc0_1</key>
-	<array>
-		<string>d</string>
-	</array>
-	<key>public.kern1.kc0_10</key>
-	<array>
-		<string>z</string>
-	</array>
-	<key>public.kern1.kc0_2</key>
-	<array>
-		<string>i</string>
-		<string>igrave</string>
-		<string>iacute</string>
-		<string>icircumflex</string>
-		<string>idieresis</string>
-		<string>dotlessi</string>
-	</array>
-	<key>public.kern1.kc0_3</key>
-	<array>
-		<string>f</string>
-	</array>
-	<key>public.kern1.kc0_4</key>
+	<key>@MMK_R_o_L</key>
 	<array>
 		<string>o</string>
 		<string>ograve</string>
@@ -31,72 +10,7 @@
 		<string>ocircumflex</string>
 		<string>otilde</string>
 		<string>odieresis</string>
-	</array>
-	<key>public.kern1.kc0_5</key>
-	<array>
-		<string>r</string>
-	</array>
-	<key>public.kern1.kc0_6</key>
-	<array>
-		<string>t</string>
-	</array>
-	<key>public.kern1.kc0_7</key>
-	<array>
-		<string>v</string>
-	</array>
-	<key>public.kern1.kc0_8</key>
-	<array>
-		<string>x</string>
-	</array>
-	<key>public.kern1.kc0_9</key>
-	<array>
-		<string>w</string>
-	</array>
-	<key>public.kern2.kc0_1</key>
-	<array>
-		<string>t</string>
-	</array>
-	<key>public.kern2.kc0_2</key>
-	<array>
-		<string>s</string>
-	</array>
-	<key>public.kern2.kc0_3</key>
-	<array>
-		<string>u</string>
-		<string>v</string>
-		<string>w</string>
-		<string>x</string>
-		<string>y</string>
-		<string>ugrave</string>
-		<string>uacute</string>
-		<string>ucircumflex</string>
-		<string>udieresis</string>
-		<string>yacute</string>
-		<string>ydieresis</string>
-	</array>
-	<key>public.kern2.kc0_4</key>
-	<array>
-		<string>z</string>
-	</array>
-	<key>public.kern2.kc0_5</key>
-	<array>
-		<string>i</string>
-		<string>j</string>
-		<string>igrave</string>
-		<string>iacute</string>
-		<string>icircumflex</string>
-		<string>idieresis</string>
-		<string>dotlessi</string>
-		<string>dotlessj</string>
-	</array>
-	<key>public.kern2.kc0_6</key>
-	<array>
-		<string>r</string>
-	</array>
-	<key>public.kern2.kc0_7</key>
-	<array>
-		<string>n</string>
-		<string>m</string>
+		<string>oe</string>
 	</array>
 </dict>
 </plist>
