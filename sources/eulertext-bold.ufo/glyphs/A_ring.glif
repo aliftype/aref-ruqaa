@@ -1,9 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Aring" format="2">
-  <advance width="712"/>
+  <advance width="836"/>
   <unicode hex="00C5"/>
+  <anchor x="436" y="868" name="top"/>
+  <anchor x="752" y="10" name="ogonek"/>
+  <anchor x="418" y="0" name="bottom"/>
   <outline>
-    <component base="uni030A" xOffset="340.0" yOffset="201.967"/>
     <component base="A"/>
+    <component base="uni030A" xOffset="436" yOffset="187"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>Bold Sep 3 16, 11:59</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>uni030A</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>340</integer>
+                <real>201.967</real>
+              </array>
+            </dict>
+            <dict>
+              <key>baseGlyph</key>
+              <string>A</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>Aring</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>712</integer>
+        </dict>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

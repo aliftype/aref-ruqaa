@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Idieresis" format="2">
-  <advance width="309"/>
+  <advance width="280"/>
   <unicode hex="00CF"/>
+  <anchor x="137" y="874" name="top"/>
+  <anchor x="141" y="0" name="bottom"/>
   <outline>
-    <component base="dieresis" xOffset="-95.0" yOffset="241.0"/>
     <component base="I"/>
+    <component base="uni0308" xOffset="137" yOffset="221"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

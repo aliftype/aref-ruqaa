@@ -2,8 +2,64 @@
 <glyph name="iacute" format="2">
   <advance width="258"/>
   <unicode hex="00ED"/>
+  <anchor x="164" y="743" name="top"/>
+  <anchor x="268" y="10" name="ogonek"/>
+  <anchor x="165" y="0" name="bottom"/>
   <outline>
-    <component base="acutecomb" xOffset="184.0" yOffset="44.0"/>
     <component base="dotlessi"/>
+    <component base="acutecomb" xOffset="164" yOffset="43"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>Regular Sep 3 16, 10:42</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>acutecomb</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>184</integer>
+                <integer>44</integer>
+              </array>
+            </dict>
+            <dict>
+              <key>baseGlyph</key>
+              <string>dotlessi</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>iacute</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>258</integer>
+        </dict>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,8 +2,63 @@
 <glyph name="icircumflex" format="2">
   <advance width="297"/>
   <unicode hex="00EE"/>
+  <anchor x="140" y="748" name="top"/>
+  <anchor x="172" y="0" name="bottom"/>
   <outline>
-    <component base="uni0302" xOffset="142.0" yOffset="37.0"/>
     <component base="dotlessi"/>
+    <component base="uni0302" xOffset="140" yOffset="40"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>Bold Sep 3 16, 12:10</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>uni0302</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>142</integer>
+                <integer>37</integer>
+              </array>
+            </dict>
+            <dict>
+              <key>baseGlyph</key>
+              <string>dotlessi</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>icircumflex</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>297</integer>
+        </dict>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>
