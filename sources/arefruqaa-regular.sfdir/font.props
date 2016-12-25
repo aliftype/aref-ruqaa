@@ -36,7 +36,7 @@ HheadAscent: 2500
 HheadAOffset: 0
 HheadDescent: -500
 HheadDOffset: 0
-OS2Vendor: 'BLQ '
+OS2Vendor: 'ALIF'
 Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 0"  {"'curs' Cursive Attachment in Arabic lookup 0 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 1"  {"'curs' Cursive Attachment in Arabic lookup 1 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]
 Lookup: 259 8 0 "'curs' Cursive Attachment in Arabic lookup 2"  {"'curs' Cursive Attachment in Arabic lookup 2 subtable"  } ['curs' ('arab' <'FAR ' 'URD ' 'dflt' > ) ]

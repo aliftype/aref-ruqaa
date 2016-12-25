@@ -35,7 +35,7 @@ HheadAscent: 800
 HheadAOffset: 0
 HheadDescent: -200
 HheadDOffset: 0
-OS2Vendor: 'BLQ '
+OS2Vendor: 'ALIF'
 Lookup: 6 0 0 "'calt' Contextual Alternates lookup 2"  {"'calt' Contextual Alternates lookup 2-1"  } ['calt' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "f.alt"  {"f.alt-1"  } []
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0"  {"'kern' Horizontal Kerning lookup 0-1" [150,0,0] } ['kern' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
