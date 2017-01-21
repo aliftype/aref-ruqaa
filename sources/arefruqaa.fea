@@ -329,6 +329,11 @@ feature isol {
     sub uni066E by arBeh.isol;
     sub uni06A1 by arFeh.isol;
     sub uni066F by arQaf.isol2;
+    sub uni0695 by arReh.isol arSmallV.below;
+    sub uni06C6 by arWaw.isol uni065A;
+    sub uni06B5 by arLam.isol uni065A;
+    sub uni06CE by arYeh.isol uni065A;
+    sub uni06D5 by arHeh.isol;
 } isol;
 
 feature init {
@@ -370,6 +375,8 @@ feature init {
     sub uni066E by arBeh.init;
     sub uni06A1 by arFeh.init;
     sub uni066F by arFeh.init;
+    sub uni06B5 by arLam.init uni065A;
+    sub uni06CE by arBeh.init ar2Noqta.below uni065A;
 } init;
 
 feature medi {
@@ -411,6 +418,8 @@ feature medi {
     sub uni066E by arBeh.medi;
     sub uni06A1 by arFeh.medi;
     sub uni066F by arFeh.medi;
+    sub uni06B5 by arLam.medi uni065A;
+    sub uni06CE by arBeh.medi ar2Noqta.below uni065A;
 } medi;
 
 feature fina {
@@ -472,6 +481,11 @@ feature fina {
     sub uni066E by arBeh.fina;
     sub uni06A1 by arFeh.fina;
     sub uni066F by arQaf.fina2;
+    sub uni0695 by arReh.fina arSmallV.below;
+    sub uni06C6 by arWaw.fina uni065A;
+    sub uni06B5 by arLam.fina uni065A;
+    sub uni06CE by arYeh.fina uni065A;
+    sub uni06D5 by arHeh.fina;
 } fina;
 
 feature locl {
