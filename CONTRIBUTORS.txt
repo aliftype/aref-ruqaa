@@ -10,4 +10,4 @@
 # Name <email address>
 
 Khaled Hosny <khaledhosny@eglug.org>
-Aboullah Aref <abdoulla_aref@hotmail.com>
+Abdullah Aref <abdoulla_aref@hotmail.com>

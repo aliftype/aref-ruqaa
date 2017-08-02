@@ -51,7 +51,7 @@ def merge(args):
 
     en = "English (US)"
     arabic.appendSFNTName(en, "Copyright", copyright)
-    arabic.appendSFNTName(en, "Designer", "Aboullah Aref")
+    arabic.appendSFNTName(en, "Designer", "Abdullah Aref")
     arabic.appendSFNTName(en, "License URL", "http://scripts.sil.org/OFL")
     arabic.appendSFNTName(en, "License", 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL')
     arabic.appendSFNTName(en, "Descriptor", "Aref Ruqaa is an Arabic typeface that aspires to capture the essence of \
