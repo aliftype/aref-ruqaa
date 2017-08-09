@@ -4,6 +4,7 @@ EXT=ttf
 LATIN=EulerText
 
 SRCDIR=sources
+BLDDIR=build
 DOCDIR=documentation
 TOOLDIR=tools
 TESTDIR=tests
@@ -37,7 +38,15 @@ doc: $(PDF)
 lint: $(LNT)
 check: lint $(RUN)
 
-$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(LATIN)-%.sfdir $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
+$(BLDDIR)/master_otf/$(LATIN)-%.otf: $(SRCDIR)/$(LATIN)-%.ufo
+	@echo "   FM	$(@F)"
+	@mkdir -p $(BLDDIR)
+	@INPUT=$(realpath $<);                                                 \
+	 pushd $(BLDDIR) 1>/dev/null;                                          \
+	 fontmake -u $$INPUT -o otf --verbose WARNING;                         \
+	 popd 1>/dev/null;
+
+$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(BLDDIR)/master_otf/$(LATIN)-%.otf $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
 	@echo "   FF	$@"
 	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} $${FILES[0]} $${FILES[1]}
 ifeq ($(ttx), true)
