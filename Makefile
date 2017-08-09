@@ -28,6 +28,8 @@ SHP=$(TESTS:%=$(TESTDIR)/%.shp)
 RUN=$(TESTS:%=$(TESTDIR)/%.run)
 LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 
+.PRECIOUS: $(BLDDIR)/master_otf/$(LATIN)-%.otf
+
 all: otf doc
 
 otf: $(OTF)
