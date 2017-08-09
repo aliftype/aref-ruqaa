@@ -1,7 +1,7 @@
-NAME=arefruqaa
+NAME=ArefRuqaa
 VERSION=0.7
 EXT=ttf
-LATIN=eulertext
+LATIN=EulerText
 
 SRCDIR=sources
 DOCDIR=documentation
@@ -15,12 +15,12 @@ BUILD=$(TOOLDIR)/build.py
 RUNTEST=$(TOOLDIR)/runtest.py
 SFDLINT=$(TOOLDIR)/sfdlint.py
 
-FONTS=regular bold
+FONTS=Regular Bold
 TESTS=wb yeh-ragaa
 
 SFD=$(FONTS:%=$(SRCDIR)/$(NAME)-%.sfdir)
 OTF=$(FONTS:%=$(NAME)-%.$(EXT))
-PDF=$(DOCDIR)/$(NAME)-table.pdf
+PDF=$(DOCDIR)/$(NAME)-Table.pdf
 
 TST=$(TESTS:%=$(TESTDIR)/%.txt)
 SHP=$(TESTS:%=$(TESTDIR)/%.shp)
@@ -50,15 +50,15 @@ ifeq ($(crunch), true)
 	@font-crunch -q -j8 -o $@ $@
 endif
 
-$(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-regular.$(EXT)
+$(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-Regular.$(EXT)
 	@echo "   TST	$*"
-	@$(PY3) $(RUNTEST) $(NAME)-regular.$(EXT) $(@D)/$*.txt $(@D)/$*.shp $(@D)/$*.run
+	@$(PY3) $(RUNTEST) $(NAME)-Regular.$(EXT) $(@D)/$*.txt $(@D)/$*.shp $(@D)/$*.run
 
 $(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
 	@echo "   LNT	$<"
 	@$(PY) $(SFDLINT) $< $@
 
-$(DOCDIR)/$(NAME)-table.pdf: $(NAME)-regular.$(EXT)
+$(DOCDIR)/$(NAME)-Table.pdf: $(NAME)-Regular.$(EXT)
 	@echo "   GEN	$@"
 	@mkdir -p $(DOCDIR)
 	@fntsample --font-file $< --output-file $@.tmp --print-outline > $@.txt
