@@ -16,7 +16,7 @@ RUNTEST=$(TOOLDIR)/runtest.py
 SFDLINT=$(TOOLDIR)/sfdlint.py
 
 FONTS=Regular Bold
-TESTS=wb yeh-ragaa
+TESTS=wikipedia-dotless yeh-ragaa
 
 SFD=$(FONTS:%=$(SRCDIR)/$(NAME)-%.sfdir)
 OTF=$(FONTS:%=$(NAME)-%.$(EXT))
