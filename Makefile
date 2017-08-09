@@ -28,9 +28,6 @@ SHP=$(TESTS:%=$(TESTDIR)/%.shp)
 RUN=$(TESTS:%=$(TESTDIR)/%.run)
 LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 
-ttx?=false
-crunch?=false
-
 all: otf doc
 
 otf: $(OTF)
@@ -49,15 +46,6 @@ $(BLDDIR)/master_otf/$(LATIN)-%.otf: $(SRCDIR)/$(LATIN)-%.ufo
 $(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(BLDDIR)/master_otf/$(LATIN)-%.otf $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
 	@echo "   FF	$@"
 	@$(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$(word 3,$+) $< $(word 2,$+)
-ifeq ($(ttx), true)
-	@echo "   TTX	$@"
-	@pyftsubset $@ --output-file=$@.tmp --unicodes='*' --layout-features='*' --name-IDs='*' --notdef-outline
-	@mv $@.tmp $@
-endif
-ifeq ($(crunch), true)
-	@echo "   FC	$@"
-	@font-crunch -q -j8 -o $@ $@
-endif
 
 $(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-Regular.$(EXT)
 	@echo "   TST	$*"
@@ -76,7 +64,7 @@ $(DOCDIR)/$(NAME)-Table.pdf: $(NAME)-Regular.$(EXT)
 	@rm -f $@.tmp $@.comp $@.txt
 
 dist:
-	@make -B ttx=true crunch=false
+	@make -B
 	@mkdir -p $(NAME)-$(VERSION)
 	@cp $(OTF) $(PDF) $(NAME)-$(VERSION)
 	@cp OFL.txt $(NAME)-$(VERSION)
