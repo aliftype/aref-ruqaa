@@ -60,10 +60,7 @@ $(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
 $(DOCDIR)/$(NAME)-Table.pdf: $(NAME)-Regular.$(EXT)
 	@echo "   GEN	$@"
 	@mkdir -p $(DOCDIR)
-	@fntsample --font-file $< --output-file $@.tmp --print-outline > $@.txt
-	@pdfoutline $@.tmp $@.txt $@.comp
-	@mutool clean -d -i -f -a $@.comp $@
-	@rm -f $@.tmp $@.comp $@.txt
+	@fntsample --font-file $< --output-file $@ --write-outline
 
 dist:
 	@make -B
