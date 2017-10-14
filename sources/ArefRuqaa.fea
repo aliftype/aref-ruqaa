@@ -1,6 +1,6 @@
 languagesystem arab dflt;
 #languagesystem arab ARA;
-languagesystem arab FAR;
+#languagesystem arab FAR;
 languagesystem arab URD;
 languagesystem arab KSH;
 languagesystem arab SND;
