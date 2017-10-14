@@ -64,7 +64,7 @@ dist:
 	@mkdir -p $(NAME)-$(VERSION)
 	@cp $(OTF) $(PDF) $(NAME)-$(VERSION)
 	@cp OFL.txt $(NAME)-$(VERSION)
-	@markdown README.md | w3m -dump -T text/html | sed -e "/^Sample$$/d" > $(NAME)-$(VERSION)/README.txt
+	@sed -e "/^!\[Sample\].*./d" README.md > $(NAME)-$(VERSION)/README.txt
 	@zip -r $(NAME)-$(VERSION).zip $(NAME)-$(VERSION)
 
 clean:
