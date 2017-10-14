@@ -40,10 +40,7 @@ check: lint $(RUN)
 $(BLDDIR)/master_otf/$(LATIN)-%.otf: $(SRCDIR)/$(LATIN)-%.ufo
 	@echo "   FM	$(@F)"
 	@mkdir -p $(BLDDIR)
-	@INPUT=$(realpath $<);                                                 \
-	 pushd $(BLDDIR) 1>/dev/null;                                          \
-	 fontmake -u $$INPUT -o otf --verbose WARNING;                         \
-	 popd 1>/dev/null;
+	@cd $(BLDDIR); fontmake -u $(realpath $<) -o otf --verbose WARNING
 
 $(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(BLDDIR)/master_otf/$(LATIN)-%.otf $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
 	@echo "   FF	$@"
