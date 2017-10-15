@@ -2,42 +2,40 @@
 
 import sys
 
-import gi
-gi.require_version('HarfBuzz', '0.0')
-
-from gi.repository import HarfBuzz
-from gi.repository import GLib
-
-from fontTools.ttLib import TTFont
+import harfbuzz as hb
 
 def getHbFont(fontname):
-    font = open(fontname, "rb")
-    data = font.read()
-    font.close()
-    blob = HarfBuzz.glib_blob_create(GLib.Bytes.new(data))
-    face = HarfBuzz.face_create(blob, 0)
-    font = HarfBuzz.font_create(face)
-    upem = HarfBuzz.face_get_upem(face)
-    HarfBuzz.font_set_scale(font, upem, upem)
-    HarfBuzz.ot_font_set_funcs(font)
+    if False:
+        with open(fontname, "rb") as fp:
+            data = fp.read()
+        blob = hb.Blob.create_for_array(data, hb.HARFBUZZ.MEMORY_MODE_READONLY)
+        face = hb.Face.create(blob, 0, False)
+        font = hb.Font.create(face)
+        font.scale = (face.upem, face.upem)
+        font.ot_set_funcs()
+    else:
+        import freetype2 as ft
+        ftface = ft.Face.new(fontname, 0)
+        ftface.set_pixel_sizes(ftface.units_per_EM, ftface.units_per_EM)
+        font = hb.Font.ft_create(ftface)
 
     return font
 
-def runHB(text, buf, font, ttfont):
-    HarfBuzz.buffer_clear_contents(buf)
-    HarfBuzz.buffer_add_utf8(buf, text.encode('utf-8'), 0, -1)
-    HarfBuzz.buffer_set_direction(buf, HarfBuzz.direction_t.RTL)
-    HarfBuzz.buffer_set_script(buf, HarfBuzz.script_t.ARABIC)
-    HarfBuzz.buffer_set_language(buf, HarfBuzz.language_from_string(b"ar"))
+def runHB(text, buf, font):
+    buf.clear_contents()
+    buf.add_str(text)
+    buf.direction = hb.HARFBUZZ.DIRECTION_RTL
+    buf.script = hb.HARFBUZZ.SCRIPT_ARABIC
+    buf.language = hb.Language.from_string("ar")
 
-    HarfBuzz.shape(font, buf, [])
+    hb.shape(font, buf, [])
 
-    info = HarfBuzz.buffer_get_glyph_infos(buf)
-    positions = HarfBuzz.buffer_get_glyph_positions(buf)
+    info = buf.glyph_infos
+    positions = buf.glyph_positions
     out = []
     for i, p in zip(info, positions):
         text = ""
-        text += ttfont.getGlyphName(i.codepoint)
+        text += font.get_glyph_name(i.codepoint)
         text += " w=%d" % p.x_advance
         if p.x_offset:
             text += " x=%d" % p.x_offset
@@ -51,10 +49,9 @@ def runTest(tests, refs, fontname):
     failed = {}
     passed = []
     font = getHbFont(fontname)
-    buf = HarfBuzz.buffer_create()
-    ttfont = TTFont(fontname)
+    buf = hb.Buffer.create()
     for i, (text, ref) in enumerate(zip(tests, refs)):
-        result = runHB(text, buf, font, ttfont)
+        result = runHB(text, buf, font)
         if ref == result:
             passed.append(i + 1)
         else:
