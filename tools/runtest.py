@@ -5,19 +5,13 @@ import sys
 import harfbuzz as hb
 
 def getHbFont(fontname):
-    if False:
-        with open(fontname, "rb") as fp:
-            data = fp.read()
-        blob = hb.Blob.create_for_array(data, hb.HARFBUZZ.MEMORY_MODE_READONLY)
-        face = hb.Face.create(blob, 0, False)
-        font = hb.Font.create(face)
-        font.scale = (face.upem, face.upem)
-        font.ot_set_funcs()
-    else:
-        import freetype2 as ft
-        ftface = ft.Face.new(fontname, 0)
-        ftface.set_pixel_sizes(ftface.units_per_EM, ftface.units_per_EM)
-        font = hb.Font.ft_create(ftface)
+    with open(fontname, "rb") as fp:
+        data = fp.read()
+    blob = hb.Blob.create_for_array(data, hb.HARFBUZZ.MEMORY_MODE_READONLY)
+    face = hb.Face.create(blob, 0, False)
+    font = hb.Font.create(face)
+    font.scale = (face.upem, face.upem)
+    font.ot_set_funcs()
 
     return font
 
