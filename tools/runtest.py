@@ -42,16 +42,18 @@ def runHB(text, buf, font):
 def runTest(tests, refs, fontname):
     failed = {}
     passed = []
+    results = []
     font = getHbFont(fontname)
     buf = hb.Buffer.create()
     for i, (text, ref) in enumerate(zip(tests, refs)):
         result = runHB(text, buf, font)
+        results.append(result)
         if ref == result:
             passed.append(i + 1)
         else:
             failed[i + 1] = (text, ref, result)
 
-    return passed, failed
+    return passed, failed, results
 
 if __name__ == '__main__':
     fontname = sys.argv[1]
@@ -62,7 +64,18 @@ if __name__ == '__main__':
     with open(sys.argv[3]) as ref:
         refs = ref.read().splitlines()
 
-    passed, failed = runTest(tests, refs, fontname)
+    reference = False
+    if len(sys.argv) >= 5 and sys.argv[4] == "--reference":
+        reference = True
+        refs = [""] * len(tests)
+
+    passed, failed, results = runTest(tests, refs, fontname)
+
+    if reference:
+        with open(sys.argv[3], "w") as ref:
+            ref.write("\n".join(results))
+        sys.exit(0)
+
     message = "%d passed, %d failed" % (len(passed), len(failed))
 
     if not failed:
