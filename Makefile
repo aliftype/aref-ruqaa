@@ -17,15 +17,14 @@ RUNTEST=$(TOOLDIR)/runtest.py
 SFDLINT=$(TOOLDIR)/sfdlint.py
 
 FONTS=Regular Bold
-TESTS=wikipedia-dotless yeh-ragaa
 
 SFD=$(FONTS:%=$(SRCDIR)/$(NAME)-%.sfdir)
 OTF=$(FONTS:%=$(NAME)-%.$(EXT))
 PDF=$(DOCDIR)/$(NAME)-Table.pdf
 
-TST=$(TESTS:%=$(TESTDIR)/%.txt)
-SHP=$(TESTS:%=$(TESTDIR)/%.shp)
-RUN=$(TESTS:%=$(TESTDIR)/%.run)
+TST=$(wildcard $(TESTDIR)/*.txt)
+SHP=$(TST:%.txt=%.shp)
+RUN=$(TST:%.txt=%.run)
 LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 
 .PRECIOUS: $(BLDDIR)/master_otf/$(LATIN)-%.otf
