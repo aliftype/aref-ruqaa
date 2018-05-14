@@ -5,18 +5,18 @@
 <<
   /Type /Pages
   /Kids [ 4 0 R 14 0 R 19 0 R 25 0 R 30 0 R 35 0 R 40 0 R 45 0 R
-      50 0 R 55 0 R 60 0 R 65 0 R ]
-  /Count 12
+      50 0 R 55 0 R 60 0 R 65 0 R 70 0 R ]
+  /Count 13
 >>
 endobj
 
 2 0 obj
 <<
   /Title (Aref Ruqaa)
-  /Parent 100 0 R
+  /Parent 105 0 R
   /First 3 0 R
-  /Last 64 0 R
-  /Count 12
+  /Last 69 0 R
+  /Count 13
   /F 0
   /Dest [ 4 0 R /XYZ null null 0 ]
 >>
@@ -605,13 +605,13 @@ endobj
   /BaseFont /ZRQBRD+NotoSerif-Bold
   /FirstChar 32
   /LastChar 117
-  /FontDescriptor 73 0 R
+  /FontDescriptor 78 0 R
   /Encoding /WinAnsiEncoding
   /Widths [ 260 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       0 0 0 0 0 0 0 0 0 753 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 707
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 599 0 0 0 571 407 0 0 0 0 0
       0 0 0 0 0 648 523 0 0 667 ]
-  /ToUnicode 71 0 R
+  /ToUnicode 76 0 R
 >>
 endobj
 
@@ -622,14 +622,14 @@ endobj
   /BaseFont /YZYBGA+NotoSans-Bold
   /FirstChar 32
   /LastChar 121
-  /FontDescriptor 78 0 R
+  /FontDescriptor 83 0 R
   /Encoding /WinAnsiEncoding
   /Widths [ 260 0 0 0 0 0 0 0 0 0 0 0 0 322 0 0 0 572 0 0 0 0
       0 0 0 0 0 0 0 0 0 0 0 690 672 637 740 560 549 724 0 0 0
       0 565 943 0 796 628 0 0 551 0 0 0 0 0 0 0 0 0 0 0 0 0 604
       633 514 633 591 0 633 657 305 0 620 305 982 657 619 633
       0 454 497 434 657 0 0 578 569 ]
-  /ToUnicode 76 0 R
+  /ToUnicode 81 0 R
 >>
 endobj
 
@@ -637,10 +637,10 @@ endobj
 <<
   /Type /Font
   /Subtype /TrueType
-  /BaseFont /PLYJMI+ArefRuqaa-Regular
+  /BaseFont /PXQQOD+ArefRuqaa-Regular
   /FirstChar 32
   /LastChar 255
-  /FontDescriptor 83 0 R
+  /FontDescriptor 88 0 R
   /Encoding /WinAnsiEncoding
   /Widths [ 146 253 332 714 475 826 737 209 256 258 300 746 232
       352 271 389 500 500 500 500 500 500 500 500 500 500 183
@@ -658,7 +658,7 @@ endobj
       547 547 547 547 751 454 437 437 437 437 257 257 257 257
       460 630 500 500 500 536 536 823 519 632 632 632 632 551
       542 551 ]
-  /ToUnicode 81 0 R
+  /ToUnicode 86 0 R
 >>
 endobj
 
@@ -669,11 +669,11 @@ endobj
   /BaseFont /JGEIOJ+NotoSansMono-Regular
   /FirstChar 32
   /LastChar 70
-  /FontDescriptor 94 0 R
+  /FontDescriptor 99 0 R
   /Encoding /WinAnsiEncoding
   /Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600 600 600 600 600
       600 600 600 600 600 0 0 0 0 0 0 0 600 600 600 600 600 600 ]
-  /ToUnicode 92 0 R
+  /ToUnicode 97 0 R
 >>
 endobj
 
@@ -684,11 +684,11 @@ endobj
   /BaseFont /ZDLPJD+NotoSans-Regular
   /FirstChar 32
   /LastChar 70
-  /FontDescriptor 99 0 R
+  /FontDescriptor 104 0 R
   /Encoding /WinAnsiEncoding
   /Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 572 572 572 572 572
       572 572 572 572 572 0 0 0 0 0 0 0 639 650 632 730 556 519 ]
-  /ToUnicode 97 0 R
+  /ToUnicode 102 0 R
 >>
 endobj
 
@@ -1583,10 +1583,10 @@ endobj
 <<
   /Type /Font
   /Subtype /Type0
-  /BaseFont /YIUVPJ+ArefRuqaa-Regular
+  /BaseFont /XUANNP+ArefRuqaa-Regular
   /Encoding /Identity-H
-  /DescendantFonts [ 89 0 R ]
-  /ToUnicode 86 0 R
+  /DescendantFonts [ 94 0 R ]
+  /ToUnicode 91 0 R
 >>
 endobj
 
@@ -2772,7 +2772,7 @@ endobj
 
 42 0 obj
 <<
-  /Length 18664
+  /Length 19110
 >>
 stream
 1 0 0 -1 0 842.4 cm
@@ -3192,10 +3192,16 @@ ET
 330.148 639.449 31.352 43.648 re f
 330.148 683.102 31.352 43.648 re f
 330.148 726.75 31.352 43.648 re f
-361.5 72 31.352 43.648 re f
 0 0 0 rg BT
-16 0 0 -16 371.737305 139.609375 Tm
+16 0 0 -16 374.799805 83.867188 Tm
+/Span << /ActualText <feff06a0> >> BDC
 /f-2-1 1 Tf
+-0.193359 -0.755859 Td
+<0043>Tj
+0.193359 0.755859 Td
+<003b>Tj
+EMC
+-0.191406 -3.483887 Td
 <0045>Tj
 ET
 0.5 0.5 0.5 rg 361.5 159.301 31.352 43.648 re f
@@ -3221,8 +3227,17 @@ ET
 ET
 0.5 0.5 0.5 rg 361.5 508.5 31.352 43.648 re f
 361.5 552.148 31.352 43.648 re f
-361.5 595.801 31.352 43.648 re f
-361.5 639.449 31.352 43.648 re f
+0 0 0 rg BT
+16 0 0 -16 377.549805 607.457031 Tm
+/Span << /ActualText <feff06ac> >> BDC
+/f-2-1 1 Tf
+-0.307617 -0.769043 Td
+<0047>Tj
+0.307617 0.769043 Td
+<003d>Tj
+EMC
+ET
+0.5 0.5 0.5 rg 361.5 639.449 31.352 43.648 re f
 361.5 683.102 31.352 43.648 re f
 0 0 0 rg BT
 16 0 0 -16 380.725586 736.085938 Tm
@@ -3265,10 +3280,16 @@ ET
 EMC
 ET
 0.5 0.5 0.5 rg 392.852 595.801 31.352 43.648 re f
-392.852 639.449 31.352 43.648 re f
 0 0 0 rg BT
-16 0 0 -16 402.59668 707.0625 Tm
+16 0 0 -16 408.401367 654.199219 Tm
+/Span << /ActualText <feff06bd> >> BDC
 /f-2-1 1 Tf
+-0.224121 -0.575684 Td
+<006b>Tj
+0.224121 0.575684 Td
+<003b>Tj
+EMC
+-0.362793 -3.303955 Td
 <006c>Tj
 ET
 0.5 0.5 0.5 rg 392.852 726.75 31.352 43.648 re f
@@ -3562,13 +3583,17 @@ ET
 (0695)Tj
 -0.00585938 -16.368652 Td
 (0698)Tj
-3.924316 38.193848 Td
+3.914062 43.649902 Td
+(06A0)Tj
+0.0102539 -5.456055 Td
 (06A1)Tj
 -0.0151367 -16.369141 Td
 (06A4)Tj
 0.00488281 -27.280762 Td
 (06A9)Tj
-0.0126953 -32.737793 Td
+-0.00488281 -16.369141 Td
+(06AC)Tj
+0.0175781 -16.368652 Td
 (06AF)Tj
 3.916504 54.5625 Td
 (06B5)Tj
@@ -3576,7 +3601,9 @@ ET
 (06BA)Tj
 0.0175781 -5.456055 Td
 (06BB)Tj
-0.0146484 -16.369141 Td
+-0.00488281 -10.912598 Td
+(06BD)Tj
+0.0195312 -5.456543 Td
 (06BE)Tj
 3.90625 76.387695 Td
 (06C0)Tj
@@ -3718,12 +3745,12 @@ endstream
 endobj
 
 43 0 obj
-3812
+3905
 endobj
 
 44 0 obj
 <<
-  /Title (Arabic Extended-A)
+  /Title (Arabic Supplement)
   /Parent 2 0 R
   /Prev 39 0 R
   /Next 49 0 R
@@ -3767,6 +3794,223 @@ endobj
 endobj
 
 47 0 obj
+<<
+  /Length 3706
+>>
+stream
+1 0 0 -1 0 842.4 cm
+q
+0 0 0 rg /a0 gs
+BT
+12 0 0 -12 264.613281 30 Tm
+/f-0-0 1 Tf
+(Aref Ruqaa)Tj
+/f-1-0 1 Tf
+-1.87207 -1.666667 Td
+[(Ar)20(abic Supplement)]TJ
+ET
+0.5 0.5 0.5 rg 251.773 72 31.352 43.648 re f
+251.773 115.648 31.352 43.648 re f
+251.773 159.301 31.352 43.648 re f
+251.773 202.949 31.352 43.648 re f
+251.773 246.602 31.352 43.648 re f
+251.773 290.25 31.352 43.648 re f
+251.773 333.898 31.352 43.648 re f
+251.773 377.551 31.352 43.648 re f
+251.773 421.199 31.352 43.648 re f
+251.773 464.852 31.352 43.648 re f
+251.773 508.5 31.352 43.648 re f
+251.773 552.148 31.352 43.648 re f
+251.773 595.801 31.352 43.648 re f
+251.773 639.449 31.352 43.648 re f
+251.773 683.102 31.352 43.648 re f
+251.773 726.75 31.352 43.648 re f
+283.125 72 31.352 43.648 re f
+283.125 115.648 31.352 43.648 re f
+0 0 0 rg BT
+16 0 0 -16 302.350586 168.636719 Tm
+/Span << /ActualText <feff0762> >> BDC
+/f-2-1 1 Tf
+-0.694336 -0.914062 Td
+<0069>Tj
+0.694336 0.914062 Td
+<003d>Tj
+EMC
+ET
+0.5 0.5 0.5 rg 283.125 202.949 31.352 43.648 re f
+283.125 246.602 31.352 43.648 re f
+283.125 290.25 31.352 43.648 re f
+283.125 333.898 31.352 43.648 re f
+283.125 377.551 31.352 43.648 re f
+283.125 421.199 31.352 43.648 re f
+283.125 464.852 31.352 43.648 re f
+283.125 508.5 31.352 43.648 re f
+283.125 552.148 31.352 43.648 re f
+283.125 595.801 31.352 43.648 re f
+283.125 639.449 31.352 43.648 re f
+283.125 683.102 31.352 43.648 re f
+283.125 726.75 31.352 43.648 re f
+314.477 72 31.352 43.648 re f
+314.477 115.648 31.352 43.648 re f
+314.477 159.301 31.352 43.648 re f
+314.477 202.949 31.352 43.648 re f
+314.477 246.602 31.352 43.648 re f
+314.477 290.25 31.352 43.648 re f
+314.477 333.898 31.352 43.648 re f
+314.477 377.551 31.352 43.648 re f
+314.477 421.199 31.352 43.648 re f
+314.477 464.852 31.352 43.648 re f
+314.477 508.5 31.352 43.648 re f
+314.477 552.148 31.352 43.648 re f
+314.477 595.801 31.352 43.648 re f
+314.477 639.449 31.352 43.648 re f
+314.477 683.102 31.352 43.648 re f
+314.477 726.75 31.352 43.648 re f
+0 0 0 rg BT
+8 0 0 -8 289.660156 198.191406 Tm
+/f-3-0 1 Tf
+(0762)Tj
+ET
+0 0 0 RG 1 w
+0 J
+0 j
+[] 0.0 d
+10 M 251.773 72 m 345.824 72 l 345.824 770.398 l 251.773 770.398 l h
+251.773 72 m 251.773 57 l 345.824 72 m 345.824 57 l S
+0.5 w
+251.773 115.648 m 345.824 115.648 l 251.773 159.301 m 345.824 159.301 l
+ 251.773 202.949 m 345.824 202.949 l 251.773 246.602 m 345.824 246.602 l
+ 251.773 290.25 m 345.824 290.25 l 251.773 333.898 m 345.824 333.898 l 251.773
+ 377.551 m 345.824 377.551 l 251.773 421.199 m 345.824 421.199 l 251.773
+ 464.852 m 345.824 464.852 l 251.773 508.5 m 345.824 508.5 l 251.773 552.148
+ m 345.824 552.148 l 251.773 595.801 m 345.824 595.801 l 251.773 639.449
+ m 345.824 639.449 l 251.773 683.102 m 345.824 683.102 l 251.773 726.75 
+m 345.824 726.75 l 283.125 72 m 283.125 770.398 l 314.477 72 m 314.477 770.398
+ l S
+0 0 0 rg BT
+10 0 0 -10 241.542969 99.21875 Tm
+/f-4-0 1 Tf
+(0)Tj
+10.928125 0 Td
+(0)Tj
+-10.759766 -4.360156 Td
+(1)Tj
+10.759766 0 Td
+(1)Tj
+-10.925 -4.364844 Td
+(2)Tj
+10.925 0 Td
+(2)Tj
+-10.919922 -4.370313 Td
+(3)Tj
+10.919922 0 Td
+(3)Tj
+-10.957031 -4.359766 Td
+(4)Tj
+10.957031 0 Td
+(4)Tj
+-10.919922 -4.369922 Td
+(5)Tj
+10.919922 0 Td
+(5)Tj
+-10.930078 -4.365234 Td
+(6)Tj
+10.930078 0 Td
+(6)Tj
+-10.928125 -4.359766 Td
+(7)Tj
+10.928125 0 Td
+(7)Tj
+-10.926953 -4.370312 Td
+(8)Tj
+10.926953 0 Td
+(8)Tj
+-10.925 -4.364844 Td
+(9)Tj
+10.925 0 Td
+(9)Tj
+-11.042969 -4.360156 Td
+(A)Tj
+11.042969 0 Td
+(A)Tj
+-11.000781 -4.364844 Td
+(B)Tj
+11.000781 0 Td
+(B)Tj
+-11.005859 -4.369922 Td
+(C)Tj
+11.005859 0 Td
+(C)Tj
+-11.073828 -4.360156 Td
+(D)Tj
+11.073828 0 Td
+(D)Tj
+-10.900781 -4.364844 Td
+(E)Tj
+10.900781 0 Td
+(E)Tj
+-10.900781 -4.365234 Td
+(F)Tj
+10.900781 0 Td
+(F)Tj
+-9.142187 68.692188 Td
+[(075)-1414(076)-1420(077)]TJ
+ET
+Q
+
+endstream
+endobj
+
+48 0 obj
+970
+endobj
+
+49 0 obj
+<<
+  /Title (Arabic Extended-A)
+  /Parent 2 0 R
+  /Prev 44 0 R
+  /Next 54 0 R
+  /F 0
+  /Dest [ 50 0 R /XYZ null null 0 ]
+>>
+endobj
+
+50 0 obj
+<<
+  /Type /Page
+  /Parent 1 0 R
+  /MediaBox [ 0 0 597.6 842.4 ]
+  /Contents 52 0 R
+  /Group <<
+    /Type /Group
+    /S /Transparency
+    /I true
+    /CS /DeviceRGB
+  >>
+  /Resources 51 0 R
+>>
+endobj
+
+51 0 obj
+<<
+  /ExtGState <<
+    /a0 <<
+      /CA 1
+      /ca 1
+    >>
+  >>
+  /Font <<
+    /f-0-0 8 0 R
+    /f-1-0 9 0 R
+    /f-2-1 23 0 R
+    /f-3-0 11 0 R
+    /f-4-0 12 0 R
+  >>
+>>
+endobj
+
+52 0 obj
 <<
   /Length 5361
 >>
@@ -3977,38 +4221,38 @@ Q
 endstream
 endobj
 
-48 0 obj
+53 0 obj
 1130
 endobj
 
-49 0 obj
+54 0 obj
 <<
   /Title (General Punctuation)
   /Parent 2 0 R
-  /Prev 44 0 R
-  /Next 54 0 R
+  /Prev 49 0 R
+  /Next 59 0 R
   /F 0
-  /Dest [ 50 0 R /XYZ null null 0 ]
+  /Dest [ 55 0 R /XYZ null null 0 ]
 >>
 endobj
 
-50 0 obj
+55 0 obj
 <<
   /Type /Page
   /Parent 1 0 R
   /MediaBox [ 0 0 597.6 842.4 ]
-  /Contents 52 0 R
+  /Contents 57 0 R
   /Group <<
     /Type /Group
     /S /Transparency
     /I true
     /CS /DeviceRGB
   >>
-  /Resources 51 0 R
+  /Resources 56 0 R
 >>
 endobj
 
-51 0 obj
+56 0 obj
 <<
   /ExtGState <<
     /a0 <<
@@ -4027,7 +4271,7 @@ endobj
 >>
 endobj
 
-52 0 obj
+57 0 obj
 <<
   /Length 6461
 >>
@@ -4294,38 +4538,38 @@ Q
 endstream
 endobj
 
-53 0 obj
+58 0 obj
 1413
 endobj
 
-54 0 obj
+59 0 obj
 <<
   /Title (Letterlike Symbols)
   /Parent 2 0 R
-  /Prev 49 0 R
-  /Next 59 0 R
+  /Prev 54 0 R
+  /Next 64 0 R
   /F 0
-  /Dest [ 55 0 R /XYZ null null 0 ]
+  /Dest [ 60 0 R /XYZ null null 0 ]
 >>
 endobj
 
-55 0 obj
+60 0 obj
 <<
   /Type /Page
   /Parent 1 0 R
   /MediaBox [ 0 0 597.6 842.4 ]
-  /Contents 57 0 R
+  /Contents 62 0 R
   /Group <<
     /Type /Group
     /S /Transparency
     /I true
     /CS /DeviceRGB
   >>
-  /Resources 56 0 R
+  /Resources 61 0 R
 >>
 endobj
 
-56 0 obj
+61 0 obj
 <<
   /ExtGState <<
     /a0 <<
@@ -4343,7 +4587,7 @@ endobj
 >>
 endobj
 
-57 0 obj
+62 0 obj
 <<
   /Length 4960
 >>
@@ -4550,38 +4794,38 @@ Q
 endstream
 endobj
 
-58 0 obj
+63 0 obj
 1136
 endobj
 
-59 0 obj
+64 0 obj
 <<
   /Title (Mathematical Operators)
   /Parent 2 0 R
-  /Prev 54 0 R
-  /Next 64 0 R
+  /Prev 59 0 R
+  /Next 69 0 R
   /F 0
-  /Dest [ 60 0 R /XYZ null null 0 ]
+  /Dest [ 65 0 R /XYZ null null 0 ]
 >>
 endobj
 
-60 0 obj
+65 0 obj
 <<
   /Type /Page
   /Parent 1 0 R
   /MediaBox [ 0 0 597.6 842.4 ]
-  /Contents 62 0 R
+  /Contents 67 0 R
   /Group <<
     /Type /Group
     /S /Transparency
     /I true
     /CS /DeviceRGB
   >>
-  /Resources 61 0 R
+  /Resources 66 0 R
 >>
 endobj
 
-61 0 obj
+66 0 obj
 <<
   /ExtGState <<
     /a0 <<
@@ -4599,7 +4843,7 @@ endobj
 >>
 endobj
 
-62 0 obj
+67 0 obj
 <<
   /Length 11238
 >>
@@ -4990,37 +5234,37 @@ Q
 endstream
 endobj
 
-63 0 obj
+68 0 obj
 1897
 endobj
 
-64 0 obj
+69 0 obj
 <<
   /Title (Arabic Presentation Forms-A)
   /Parent 2 0 R
-  /Prev 59 0 R
+  /Prev 64 0 R
   /F 0
-  /Dest [ 65 0 R /XYZ null null 0 ]
+  /Dest [ 70 0 R /XYZ null null 0 ]
 >>
 endobj
 
-65 0 obj
+70 0 obj
 <<
   /Type /Page
   /Parent 1 0 R
   /MediaBox [ 0 0 597.6 842.4 ]
-  /Contents 67 0 R
+  /Contents 72 0 R
   /Group <<
     /Type /Group
     /S /Transparency
     /I true
     /CS /DeviceRGB
   >>
-  /Resources 66 0 R
+  /Resources 71 0 R
 >>
 endobj
 
-66 0 obj
+71 0 obj
 <<
   /ExtGState <<
     /a0 <<
@@ -5038,7 +5282,7 @@ endobj
 >>
 endobj
 
-67 0 obj
+72 0 obj
 <<
   /Length 11062
 >>
@@ -5420,11 +5664,11 @@ Q
 endstream
 endobj
 
-68 0 obj
+73 0 obj
 1862
 endobj
 
-69 0 obj
+74 0 obj
 <<
   /Length 2371
   /Filter [ /ASCIIHexDecode /FlateDecode ]
@@ -5471,11 +5715,11 @@ fb1757b3aecd48fe98e99a2188b63cda92ade70c91fc3ac0367133b2f981e9da
 endstream
 endobj
 
-70 0 obj
+75 0 obj
 1167
 endobj
 
-71 0 obj
+76 0 obj
 <<
   /Length 434
 >>
@@ -5512,11 +5756,11 @@ end
 endstream
 endobj
 
-72 0 obj
+77 0 obj
 268
 endobj
 
-73 0 obj
+78 0 obj
 <<
   /Type /FontDescriptor
   /FontName /ZRQBRD+NotoSerif-Bold
@@ -5529,11 +5773,11 @@ endobj
   /CapHeight 1065
   /StemV 80
   /StemH 80
-  /FontFile2 69 0 R
+  /FontFile2 74 0 R
 >>
 endobj
 
-74 0 obj
+79 0 obj
 <<
   /Length 5286
   /Filter [ /ASCIIHexDecode /FlateDecode ]
@@ -5625,11 +5869,11 @@ fd227c6fc0f95f5e057d1b7458a700990a784f01eb94f3a0c3f7a812c85805f7
 endstream
 endobj
 
-75 0 obj
+80 0 obj
 2602
 endobj
 
-76 0 obj
+81 0 obj
 <<
   /Length 747
 >>
@@ -5692,11 +5936,11 @@ end
 endstream
 endobj
 
-77 0 obj
+82 0 obj
 389
 endobj
 
-78 0 obj
+83 0 obj
 <<
   /Type /FontDescriptor
   /FontName /YZYBGA+NotoSans-Bold
@@ -5709,11 +5953,11 @@ endobj
   /CapHeight 1069
   /StemV 80
   /StemH 80
-  /FontFile2 74 0 R
+  /FontFile2 79 0 R
 >>
 endobj
 
-79 0 obj
+84 0 obj
 <<
   /Length 36331
   /Filter [ /ASCIIHexDecode /FlateDecode ]
@@ -6282,11 +6526,11 @@ fcb52bddb5cb2d75af73739e46cf1fbd0ddeb7bcbff5fed97b395d9a6e4baf4b
 endstream
 endobj
 
-80 0 obj
+85 0 obj
 17886
 endobj
 
-81 0 obj
+86 0 obj
 <<
   /Length 2754
 >>
@@ -6516,14 +6760,14 @@ end
 endstream
 endobj
 
-82 0 obj
+87 0 obj
 1010
 endobj
 
-83 0 obj
+88 0 obj
 <<
   /Type /FontDescriptor
-  /FontName /PLYJMI+ArefRuqaa-Regular
+  /FontName /PXQQOD+ArefRuqaa-Regular
   /FontFamily (Aref Ruqaa)
   /Flags 32
   /FontBBox [ -199 -377 1458 1027 ]
@@ -6533,11 +6777,11 @@ endobj
   /CapHeight 1027
   /StemV 80
   /StemH 80
-  /FontFile2 79 0 R
+  /FontFile2 84 0 R
 >>
 endobj
 
-84 0 obj
+89 0 obj
 <<
   /Length 27099
   /Filter [ /ASCIIHexDecode /FlateDecode ]
@@ -6964,11 +7208,11 @@ cafe448c922dc441822256102401c7777e09eb9dc25ec3ff05f4d7f30f>
 endstream
 endobj
 
-85 0 obj
+90 0 obj
 13341
 endobj
 
-86 0 obj
+91 0 obj
 <<
   /Length 2177
 >>
@@ -7128,14 +7372,14 @@ end
 endstream
 endobj
 
-87 0 obj
+92 0 obj
 779
 endobj
 
-88 0 obj
+93 0 obj
 <<
   /Type /FontDescriptor
-  /FontName /YIUVPJ+ArefRuqaa-Regular
+  /FontName /XUANNP+ArefRuqaa-Regular
   /FontFamily (Aref Ruqaa)
   /Flags 4
   /FontBBox [ -199 -377 1458 1027 ]
@@ -7145,21 +7389,21 @@ endobj
   /CapHeight 1027
   /StemV 80
   /StemH 80
-  /FontFile2 84 0 R
+  /FontFile2 89 0 R
 >>
 endobj
 
-89 0 obj
+94 0 obj
 <<
   /Type /Font
   /Subtype /CIDFontType2
-  /BaseFont /YIUVPJ+ArefRuqaa-Regular
+  /BaseFont /XUANNP+ArefRuqaa-Regular
   /CIDSystemInfo <<
     /Registry (Adobe)
     /Ordering (Identity)
     /Supplement 0
   >>
-  /FontDescriptor 88 0 R
+  /FontDescriptor 93 0 R
   /W [ 0 [ 500 322 287 0 0 0 0 0 0 0 0 491 777 747 612 667 570
         681 731 735 608 529 588 422 369 420 539 500 277 458 480
         528 471 595 483 542 485 542 643 524 703 770 525 641 774
@@ -7172,7 +7416,7 @@ endobj
 >>
 endobj
 
-90 0 obj
+95 0 obj
 <<
   /Length 3121
   /Filter [ /ASCIIHexDecode /FlateDecode ]
@@ -7231,11 +7475,11 @@ e7db91b4ad72900320b76063f88fc1d320b7f8bb0ae47310c04cbe0288724038
 endstream
 endobj
 
-91 0 obj
+96 0 obj
 1536
 endobj
 
-92 0 obj
+97 0 obj
 <<
   /Length 519
 >>
@@ -7279,11 +7523,11 @@ end
 endstream
 endobj
 
-93 0 obj
+98 0 obj
 295
 endobj
 
-94 0 obj
+99 0 obj
 <<
   /Type /FontDescriptor
   /FontName /JGEIOJ+NotoSansMono-Regular
@@ -7296,11 +7540,11 @@ endobj
   /CapHeight 1229
   /StemV 80
   /StemH 80
-  /FontFile2 90 0 R
+  /FontFile2 95 0 R
 >>
 endobj
 
-95 0 obj
+100 0 obj
 <<
   /Length 3196
   /Filter [ /ASCIIHexDecode /FlateDecode ]
@@ -7360,11 +7604,11 @@ c98405690e7429d0c5713b692e7f07b6511f9b8d1d4958581e7fd268d28a3a48
 endstream
 endobj
 
-96 0 obj
+101 0 obj
 1573
 endobj
 
-97 0 obj
+102 0 obj
 <<
   /Length 519
 >>
@@ -7408,11 +7652,11 @@ end
 endstream
 endobj
 
-98 0 obj
+103 0 obj
 293
 endobj
 
-99 0 obj
+104 0 obj
 <<
   /Type /FontDescriptor
   /FontName /ZDLPJD+NotoSans-Regular
@@ -7425,146 +7669,151 @@ endobj
   /CapHeight 1067
   /StemV 80
   /StemH 80
-  /FontFile2 95 0 R
+  /FontFile2 100 0 R
 >>
 endobj
 
-100 0 obj
+105 0 obj
 <<
   /Type /Outlines
   /First 2 0 R
   /Last 2 0 R
-  /Count -13
+  /Count -14
 >>
 endobj
 
-101 0 obj
+106 0 obj
 <<
   /Producer (cairo 1.15.12 \(http://cairographics.org\))
-  /CreationDate (D:20180514175157+02'00)
+  /CreationDate (D:20180514192457+02'00)
 >>
 endobj
 
-102 0 obj
+107 0 obj
 <<
   /Type /Catalog
   /Pages 1 0 R
-  /Outlines 100 0 R
+  /Outlines 105 0 R
 >>
 endobj
 
 xref
-0 103
+0 108
 0000000000 65536 f 
 0000000016 00000 n 
-0000000166 00000 n 
-0000000312 00000 n 
-0000000430 00000 n 
-0000000637 00000 n 
-0000000826 00000 n 
-0000009791 00000 n 
-0000009812 00000 n 
-0000010232 00000 n 
-0000010717 00000 n 
-0000011874 00000 n 
-0000012208 00000 n 
-0000012538 00000 n 
-0000012679 00000 n 
-0000012889 00000 n 
-0000013079 00000 n 
-0000022203 00000 n 
-0000022225 00000 n 
-0000022365 00000 n 
-0000022575 00000 n 
-0000022783 00000 n 
-0000029458 00000 n 
-0000029480 00000 n 
-0000029647 00000 n 
-0000029787 00000 n 
-0000029997 00000 n 
-0000030187 00000 n 
-0000039752 00000 n 
-0000039774 00000 n 
-0000039925 00000 n 
-0000040135 00000 n 
-0000040325 00000 n 
-0000046682 00000 n 
-0000046704 00000 n 
-0000046844 00000 n 
-0000047054 00000 n 
-0000047244 00000 n 
-0000056289 00000 n 
-0000056311 00000 n 
-0000056441 00000 n 
-0000056651 00000 n 
-0000056841 00000 n 
-0000075562 00000 n 
-0000075584 00000 n 
-0000075725 00000 n 
-0000075935 00000 n 
-0000076125 00000 n 
-0000081542 00000 n 
-0000081564 00000 n 
-0000081707 00000 n 
-0000081917 00000 n 
-0000082125 00000 n 
-0000088642 00000 n 
-0000088664 00000 n 
-0000088806 00000 n 
-0000089016 00000 n 
-0000089206 00000 n 
-0000094222 00000 n 
-0000094244 00000 n 
-0000094390 00000 n 
-0000094600 00000 n 
-0000094790 00000 n 
-0000106085 00000 n 
-0000106107 00000 n 
-0000106243 00000 n 
-0000106453 00000 n 
-0000106643 00000 n 
-0000117762 00000 n 
-0000117784 00000 n 
-0000120270 00000 n 
-0000120292 00000 n 
-0000120781 00000 n 
-0000120802 00000 n 
-0000121069 00000 n 
-0000126470 00000 n 
-0000126492 00000 n 
-0000127294 00000 n 
-0000127315 00000 n 
-0000127580 00000 n 
-0000164028 00000 n 
-0000164051 00000 n 
-0000166861 00000 n 
-0000166883 00000 n 
-0000167153 00000 n 
-0000194369 00000 n 
-0000194392 00000 n 
-0000196625 00000 n 
-0000196646 00000 n 
-0000196915 00000 n 
-0000197660 00000 n 
-0000200896 00000 n 
-0000200918 00000 n 
-0000201492 00000 n 
-0000201513 00000 n 
-0000201790 00000 n 
-0000205101 00000 n 
-0000205123 00000 n 
+0000000173 00000 n 
+0000000319 00000 n 
+0000000437 00000 n 
+0000000644 00000 n 
+0000000833 00000 n 
+0000009798 00000 n 
+0000009819 00000 n 
+0000010239 00000 n 
+0000010724 00000 n 
+0000011881 00000 n 
+0000012215 00000 n 
+0000012547 00000 n 
+0000012688 00000 n 
+0000012898 00000 n 
+0000013088 00000 n 
+0000022212 00000 n 
+0000022234 00000 n 
+0000022374 00000 n 
+0000022584 00000 n 
+0000022792 00000 n 
+0000029467 00000 n 
+0000029489 00000 n 
+0000029656 00000 n 
+0000029796 00000 n 
+0000030006 00000 n 
+0000030196 00000 n 
+0000039761 00000 n 
+0000039783 00000 n 
+0000039934 00000 n 
+0000040144 00000 n 
+0000040334 00000 n 
+0000046691 00000 n 
+0000046713 00000 n 
+0000046853 00000 n 
+0000047063 00000 n 
+0000047253 00000 n 
+0000056298 00000 n 
+0000056320 00000 n 
+0000056450 00000 n 
+0000056660 00000 n 
+0000056850 00000 n 
+0000076017 00000 n 
+0000076039 00000 n 
+0000076180 00000 n 
+0000076390 00000 n 
+0000076580 00000 n 
+0000080342 00000 n 
+0000080363 00000 n 
+0000080504 00000 n 
+0000080714 00000 n 
+0000080904 00000 n 
+0000086321 00000 n 
+0000086343 00000 n 
+0000086486 00000 n 
+0000086696 00000 n 
+0000086904 00000 n 
+0000093421 00000 n 
+0000093443 00000 n 
+0000093585 00000 n 
+0000093795 00000 n 
+0000093985 00000 n 
+0000099001 00000 n 
+0000099023 00000 n 
+0000099169 00000 n 
+0000099379 00000 n 
+0000099569 00000 n 
+0000110864 00000 n 
+0000110886 00000 n 
+0000111022 00000 n 
+0000111232 00000 n 
+0000111422 00000 n 
+0000122541 00000 n 
+0000122563 00000 n 
+0000125049 00000 n 
+0000125071 00000 n 
+0000125560 00000 n 
+0000125581 00000 n 
+0000125848 00000 n 
+0000131249 00000 n 
+0000131271 00000 n 
+0000132073 00000 n 
+0000132094 00000 n 
+0000132359 00000 n 
+0000168807 00000 n 
+0000168830 00000 n 
+0000171640 00000 n 
+0000171662 00000 n 
+0000171932 00000 n 
+0000199148 00000 n 
+0000199171 00000 n 
+0000201404 00000 n 
+0000201425 00000 n 
+0000201694 00000 n 
+0000202439 00000 n 
+0000205675 00000 n 
 0000205697 00000 n 
-0000205718 00000 n 
-0000205986 00000 n 
-0000206070 00000 n 
-0000206192 00000 n 
+0000206271 00000 n 
+0000206292 00000 n 
+0000206569 00000 n 
+0000209881 00000 n 
+0000209904 00000 n 
+0000210479 00000 n 
+0000210501 00000 n 
+0000210771 00000 n 
+0000210855 00000 n 
+0000210977 00000 n 
 
 trailer
 <<
-  /Size 103
-  /Info 101 0 R
-  /Root 102 0 R
+  /Size 108
+  /Info 106 0 R
+  /Root 107 0 R
 >>
 startxref
-206268
+211053
 %%EOF
