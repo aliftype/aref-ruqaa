@@ -3,23 +3,22 @@
 
 import argparse
 import string
+import tempfile
+import io
+import operator
+
 from datetime import datetime
-from sortsmill import ffcompat as fontforge
+
+from fontTools.ttLib import TTFont
+from fontTools.feaLib import ast, parser, builder
+
+import fontforge
 
 from buildencoded import build as build_encoded
 
 def merge(args):
     arabic = fontforge.open(args.arabicfile)
     arabic.encoding = "Unicode"
-
-    with open(args.feature_file) as feature_file:
-        features = string.Template(feature_file.read())
-        gpos = arabic.generateFeatureString()
-        for lookup in arabic.gpos_lookups:
-            arabic.removeLookup(lookup)
-        arabic.mergeFeatureString(features.substitute(GPOS=gpos))
-
-    build_encoded(arabic)
 
     latin = fontforge.open(args.latinfile)
     latin.encoding = "Unicode"
@@ -35,13 +34,36 @@ def merge(args):
                 glyph.unicode = -1
                 glyph.glyphname = name + ".latin"
                 if not latin_locl:
-                    latin_locl = "feature locl {lookupflag IgnoreMarks; script latn;"
+                    latin_locl = "feature locl {\nlookupflag IgnoreMarks; script latn;"
                 latin_locl += "sub %s by %s;" % (name, glyph.glyphname)
 
-    arabic.mergeFonts(latin)
+    with tempfile.NamedTemporaryFile(mode="r") as tmp:
+        latin.save(tmp.name)
+        arabic.mergeFonts(tmp.name)
+
+    with open(args.feature_file) as feature_file:
+        features = string.Template(feature_file.read())
+        with tempfile.NamedTemporaryFile(mode="w+") as tmp:
+            arabic.generateFeatureFile(tmp.name)
+            gpos = tmp.read()
+
     if latin_locl:
         latin_locl += "} locl;"
-        arabic.mergeFeatureString(latin_locl)
+        features += "\n" + latin_locl
+
+    features = features.substitute(GPOS=gpos)
+    glyph_names = [n for n in arabic]
+
+    # Parse the feature file and put all langsysstatement’s on the top
+    fea = parser.Parser(io.StringIO(features), glyph_names).parse()
+    langsys = {s.asFea(): s for s in fea.statements if isinstance(s, ast.LanguageSystemStatement)}
+    statements = [s for s in fea.statements if not isinstance(s, ast.LanguageSystemStatement)]
+    # Make sure DFLT is the first.
+    langsys = sorted(langsys.values(), key=operator.attrgetter("script"))
+    fea.statements = langsys + statements
+
+    for lookup in arabic.gsub_lookups + arabic.gpos_lookups:
+        arabic.removeLookup(lookup)
 
     # Set metadata
     arabic.version = args.version
@@ -58,7 +80,35 @@ def merge(args):
 the classical Ruqaa calligraphic style.")
     arabic.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
 
-    return arabic
+    return arabic, fea
+
+def build(args):
+    font, features = merge(args)
+
+    build_encoded(font, features)
+
+    with tempfile.NamedTemporaryFile(mode="r", suffix=args.out_file) as tmp:
+        font.generate(tmp.name, flags=["round", "opentype"])
+        ttfont = TTFont(tmp.name)
+
+    try:
+        builder.addOpenTypeFeatures(ttfont, features)
+    except:
+        with tempfile.NamedTemporaryFile(mode="w+", delete=False) as tmp:
+            tmp.write(features.asFea())
+            print("Failed! Inspect temporary file: %r" % tmp.name)
+        raise
+
+    # Filter-out useless Macintosh names
+    ttfont["name"].names = [n for n in ttfont["name"].names if n.platformID != 1]
+
+    # https://github.com/fontforge/fontforge/pull/3235
+    # fontDirectionHint is deprecated and must be set to 2
+    ttfont["head"].fontDirectionHint = 2
+    # unset bits 6..10
+    ttfont["head"].flags &= ~0x7e0
+
+    ttfont.save(args.out_file)
 
 def main():
     parser = argparse.ArgumentParser(description="Create a version of Amiri with colored marks using COLR/CPAL tables.")
@@ -70,10 +120,7 @@ def main():
 
     args = parser.parse_args()
 
-    font = merge(args)
-
-    flags = ["round", "opentype", "no-mac-names"]
-    font.generate(args.out_file, flags=flags)
+    build(args)
 
 if __name__ == "__main__":
     main()

@@ -10,8 +10,7 @@ TOOLDIR=tools
 TESTDIR=tests
 DIST=$(NAME)-$(VERSION)
 
-PY=python2
-PY3=python3
+PY=python
 BUILD=$(TOOLDIR)/build.py
 RUNTEST=$(TOOLDIR)/runtest.py
 SFDLINT=$(TOOLDIR)/sfdlint.py
@@ -47,7 +46,7 @@ $(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(BLDDIR)/master_otf/$(LATIN)-%.otf 
 
 $(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-Regular.$(EXT)
 	@echo "   TST	$*"
-	@$(PY3) $(RUNTEST) $(NAME)-Regular.$(EXT) $(@D)/$*.txt $(@D)/$*.shp $(@D)/$*.run
+	@$(PY) $(RUNTEST) $(NAME)-Regular.$(EXT) $(@D)/$*.txt $(@D)/$*.shp $(@D)/$*.run
 
 $(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
 	@echo "   LNT	$<"

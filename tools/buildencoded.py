@@ -1,32 +1,29 @@
-from sortsmill import ffcompat as fontforge
 import sys
 
-def build(font):
-    subtables = []
-    for lookup in font.gsub_lookups:
-        for feature, script in font.getLookupInfo(lookup)[2]:
-            if feature in ("isol", "ccmp"):
-                for subtable in font.getLookupSubtables(lookup):
-                    subtables.append(subtable)
-
+def parse(fea):
     subs = {}
-    for glyph in font.glyphs():
-        if glyph.unicode > 0:
-            for subtable in subtables:
-                sub = glyph.getPosSub(subtable)
-                if sub:
-                    assert glyph.glyphname not in subs
-                    subs[glyph.glyphname] = sub
+    for statement in fea.statements:
+        if getattr(statement, "name", None) in ("isol", "ccmp"):
+            for substatement in statement.statements:
+                if hasattr(substatement, "glyphs"):
+                    # Single
+                    originals = substatement.glyphs[0].glyphSet()
+                    replacements = substatement.replacements[0].glyphSet()
+                    subs.update(dict(zip(originals, replacements)))
+                elif hasattr(substatement, "glyph"):
+                    # Multiple
+                    subs[substatement.glyph] = substatement.replacement
+
+    return subs
+
+def build(font, features):
+    subs = parse(features)
 
     temp_glyph = font.createChar(-1, "TempXXX")
 
     for glyph in font.glyphs():
         if glyph.glyphname in subs:
-            sub = subs[glyph.glyphname]
-            assert len(sub) == 1
-            sub = sub[0]
-            assert sub[1] in ("MultSubs", "Substitution"), sub[1]
-            names = sub[2:]
+            names = subs[glyph.glyphname]
             # build the composite on a temp glyph to prevent FontForge from
             # using its built-in knowledge about components of some encoded
             # glyphs.
