@@ -378,6 +378,7 @@ feature init {
     sub uni06AC by arKaf.init ar1Noqta.above;
     sub uni06AF by arKaf.init arSharta.kaf;
     sub uni06BA by arBeh.init;
+    sub uni06BB by arBeh.init arTah.mark;
     sub uni06BD by arBeh.init ar3Noqta.below;
     sub uni06C1 by arHeh.init2;
     sub uni06BE by arHeh.init;
@@ -422,8 +423,10 @@ feature medi {
     sub uni0686 by arHah.medi ar3Noqta.below;
     sub uni06A0 by arAin.medi ar3Noqta.above;
     sub uni06A9 by arKaf.medi;
+    sub uni06AC by arKaf.medi ar1Noqta.above;
     sub uni06AF by arKaf.medi arSharta.kaf;
     sub uni06BA by arBeh.medi;
+    sub uni06BB by arBeh.medi arTah.mark;
     sub uni06BD by arBeh.medi ar3Noqta.below;
     sub uni06C1 by arHeh.medi;
     sub uni06BE by arHeh.medi2;
