@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 import argparse
+import os
 import string
 import tempfile
 import io
@@ -79,10 +80,14 @@ def merge(args):
     arabic.appendSFNTName(en, "Descriptor", "Aref Ruqaa is an Arabic typeface that aspires to capture the essence of \
 the classical Ruqaa calligraphic style.")
     arabic.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
+    arabic.appendSFNTName(en, "UniqueID", "%s;%s;%s" % (arabic.version, arabic.os2_vendor, arabic.fontname))
 
     return arabic, fea
 
 def build(args):
+    if os.environ.get("SOURCE_DATE_EPOCH") is None:
+        os.environ["SOURCE_DATE_EPOCH"] = "0"
+
     font, features = merge(args)
 
     build_encoded(font, features)
@@ -107,6 +112,10 @@ def build(args):
     ttfont["head"].fontDirectionHint = 2
     # unset bits 6..10
     ttfont["head"].flags &= ~0x7e0
+
+    # Drop useless table with timestamp
+    if "FFTM" in ttfont:
+        del ttfont["FFTM"]
 
     ttfont.save(args.out_file)
 
