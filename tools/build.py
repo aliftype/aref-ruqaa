@@ -59,6 +59,31 @@ def merge(args):
     fea = parser.Parser(io.StringIO(features), glyph_names).parse()
     langsys = {s.asFea(): s for s in fea.statements if isinstance(s, ast.LanguageSystemStatement)}
     statements = [s for s in fea.statements if not isinstance(s, ast.LanguageSystemStatement)]
+
+    # Drop script and language statements from GPOS features (which are
+    # generated from FontForge sources), so that they inherit from the
+    # global languagesytem’s set in the feature file. This way I don’t have to manually repeat them.
+    for statement in statements:
+        if getattr(statement, "name", None) in ("curs", "mark", "mkmk"):
+            scripts = []
+            languages = []
+            substatements = []
+            for substatement in statement.statements:
+                if isinstance(substatement, ast.ScriptStatement):
+                    scripts.append(substatement.script)
+                elif isinstance(substatement, ast.LanguageStatement):
+                    languages.append(substatement.language)
+                else:
+                    substatements.append(substatement)
+            if "latn" in scripts:
+                # Not an Arabic feature, does nothing.
+                continue
+            # There must be one script and one language statement, otherwise
+            # the lookups will be duplicated.
+            assert len(scripts) == 1, statement
+            assert len(languages) == 1, statement
+            statement.statements = substatements
+
     # Make sure DFLT is the first.
     langsys = sorted(langsys.values(), key=operator.attrgetter("script"))
     fea.statements = langsys + statements
