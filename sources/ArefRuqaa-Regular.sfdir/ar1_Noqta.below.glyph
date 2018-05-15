@@ -1,5 +1,5 @@
 StartChar: ar1Noqta.below
-Encoding: 65548 -1 82
+Encoding: 65548 -1 30
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -7,5 +7,5 @@ AnchorPoint: "arMarkMark.below" 0 -510 basemark 0
 AnchorPoint: "Anchor-17" 0 0 mark 0
 LayerCount: 2
 Fore
-Refer: 79 -1 N 1 0 0 1 0 0 2
+Refer: 27 -1 N 1 0 0 1 0 0 2
 EndChar

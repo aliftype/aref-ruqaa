@@ -1,5 +1,5 @@
 StartChar: arTah.medi.10
-Encoding: 65872 -1 428
+Encoding: 65872 -1 376
 Width: 543
 GlyphClass: 2
 Flags: W
@@ -11,5 +11,5 @@ AnchorPoint: "Anchor-14" 657 1449 basechar 0
 AnchorPoint: "Anchor-15" 936 990 basechar 0
 LayerCount: 2
 Fore
-Refer: 427 -1 N 1 0 0 1 0 0 2
+Refer: 375 -1 N 1 0 0 1 0 0 2
 EndChar
