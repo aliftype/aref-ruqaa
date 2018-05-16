@@ -337,6 +337,7 @@ feature isol {
     sub uni06C6 by arWaw.isol uni065A;
     sub uni06CC by arYeh.isol;
     sub uni06CE by arYeh.isol uni065A;
+    sub uni06CF by arWaw.isol ar1Noqta.above;
     sub uni06D2 by arYeh.isol2;
     sub uni06D3 by arYeh.isol2 uni0654;
     sub uni06D5 by arHeh.isol;
@@ -503,6 +504,7 @@ feature fina {
     sub uni06C6 by arWaw.fina uni065A;
     sub uni06CC by arYeh.fina;
     sub uni06CE by arYeh.fina uni065A;
+    sub uni06CF by arWaw.fina ar1Noqta.above;
     sub uni06D2 by arYeh.fina2;
     sub uni06D3 by arYeh.fina2 uni0654;
     sub uni06D5 by arHeh.fina;
