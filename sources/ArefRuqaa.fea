@@ -270,7 +270,7 @@ lookup calt_hah_yeh_ragaa {
 
 lookup calt_feh_kaf {
   lookupflag IgnoreMarks;
-    sub [arFeh.init] [arKaf.init.10]' by [arKaf.init.10.1];
+    sub [arFeh.init] [arKaf.init.10]' by [arKaf.init.10.loop];
 } calt_feh_kaf;
 
 feature isol {
@@ -672,7 +672,7 @@ feature ss04 {
   };
 
   lookupflag IgnoreMarks;
-    sub arKaf.init.10 by arKaf.init.10.1;
+    sub arKaf.init.10 by arKaf.init.10.loop;
 } ss04;
 
 feature ss05 {
@@ -766,7 +766,7 @@ feature kern {
 
     pos @dal_waw'  <-200 0 -200 0> [arFeh.init.5];
 
-    pos [arFeh.init]' < 120 0  120 0> [arKaf.init.10.1];
+    pos [arFeh.init]' < 120 0  120 0> [arKaf.init.10.loop];
     pos [arAlef.isol arAlef.fina]' <200 0 200 0> [arLam.init.1] [arHah.fina];
     pos [arAlef.isol arAlef.fina]' <100 0 100 0> [arLam.init.1];
 
