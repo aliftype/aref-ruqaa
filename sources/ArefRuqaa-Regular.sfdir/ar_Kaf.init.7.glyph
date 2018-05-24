@@ -3,6 +3,7 @@ Encoding: 65777 -1 282
 Width: 187
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Sharta Above" 468 1557 basechar 0
 AnchorPoint: "Meem" -20 -100 exit 0
 AnchorPoint: "Tashkil Below" 261 -720 basechar 0
 AnchorPoint: "Dots Above" 468 1557 basechar 0

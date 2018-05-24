@@ -3,6 +3,7 @@ Encoding: 65765 -1 270
 Width: 950
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Sharta Above" 1305 1845 basechar 0
 AnchorPoint: "Feh" 0 0 exit 0
 AnchorPoint: "Beh" 954 27 entry 0
 AnchorPoint: "Basic" 954 27 entry 0

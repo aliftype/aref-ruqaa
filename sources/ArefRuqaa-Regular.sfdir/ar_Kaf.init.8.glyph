@@ -3,6 +3,7 @@ Encoding: 65801 -1 306
 Width: 1180
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Sharta Above" 1161 1971 basechar 0
 AnchorPoint: "Heh" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 873 -81 basechar 0
 AnchorPoint: "Tashkil Above" 999 2016 basechar 0
