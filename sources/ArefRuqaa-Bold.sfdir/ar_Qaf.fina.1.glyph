@@ -3,11 +3,11 @@ Encoding: 65863 -1 368
 Width: 1740
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-16" 729 -333 basechar 0
-AnchorPoint: "Cursive-3" 1260 72 entry 0
-AnchorPoint: "Anchor-14" 1449 1467 basechar 0
-AnchorPoint: "Cursive-5" 1528 648 entry 0
-AnchorPoint: "Anchor-15" 1530 1206 basechar 0
+AnchorPoint: "Tashkil Below" 729 -333 basechar 0
+AnchorPoint: "Feh" 1260 72 entry 0
+AnchorPoint: "Tashkil Above" 1449 1467 basechar 0
+AnchorPoint: "Waw" 1528 648 entry 0
+AnchorPoint: "Dots Above" 1530 1206 basechar 0
 LayerCount: 2
 Fore
 Refer: 359 -1 N 1 0 0 1 0 0 2

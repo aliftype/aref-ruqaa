@@ -3,8 +3,8 @@ Encoding: 65545 -1 27
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "arMarkMark.above" 5 400 basemark 0
-AnchorPoint: "Anchor-15" 0 0 mark 0
+AnchorPoint: "Mark Mark Above" 5 400 basemark 0
+AnchorPoint: "Dots Above" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet

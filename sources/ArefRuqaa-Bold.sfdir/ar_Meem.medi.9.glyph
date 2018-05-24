@@ -3,9 +3,9 @@ Encoding: 65839 -1 344
 Width: 552
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Cursive-6" 468 585 entry 0
-AnchorPoint: "Anchor-14" 558 1116 basechar 0
-AnchorPoint: "Anchor-16" 783 -45 basechar 0
+AnchorPoint: "Meem" 468 585 entry 0
+AnchorPoint: "Tashkil Above" 558 1116 basechar 0
+AnchorPoint: "Tashkil Below" 783 -45 basechar 0
 LayerCount: 2
 Fore
 SplineSet

@@ -3,12 +3,12 @@ Encoding: 65849 -1 354
 Width: 495
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Cursive-5" 0 90 exit 0
-AnchorPoint: "Anchor-17" 180 -207 basechar 0
-AnchorPoint: "Anchor-16" 279 -360 basechar 0
-AnchorPoint: "Anchor-15" 324 936 basechar 0
-AnchorPoint: "Anchor-14" 459 1017 basechar 0
-AnchorPoint: "Cursive-5" 486 0 entry 0
+AnchorPoint: "Waw" 0 90 exit 0
+AnchorPoint: "Dots Below" 180 -207 basechar 0
+AnchorPoint: "Tashkil Below" 279 -360 basechar 0
+AnchorPoint: "Dots Above" 324 936 basechar 0
+AnchorPoint: "Tashkil Above" 459 1017 basechar 0
+AnchorPoint: "Waw" 486 0 entry 0
 LayerCount: 2
 Fore
 SplineSet

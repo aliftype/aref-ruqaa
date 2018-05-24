@@ -3,8 +3,8 @@ Encoding: 65912 -1 420
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "arMarkMark.above" 0 0 mark 0
-AnchorPoint: "Anchor-14" 0 0 mark 0
+AnchorPoint: "Mark Mark Above" 0 0 mark 0
+AnchorPoint: "Tashkil Above" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet

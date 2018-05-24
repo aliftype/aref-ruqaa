@@ -39,24 +39,24 @@ HheadAOffset: 0
 HheadDescent: -500
 HheadDOffset: 0
 OS2Vendor: 'ALIF'
-Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 0" { "'curs' Cursive Attachment in Arabic lookup 0 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 1" { "'curs' Cursive Attachment in Arabic lookup 1 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 8 0 "'curs' Cursive Attachment in Arabic lookup 2" { "'curs' Cursive Attachment in Arabic lookup 2 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 3" { "'curs' Cursive Attachment in Arabic lookup 3 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 4" { "'curs' Cursive Attachment in Arabic lookup 4 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 5" { "'curs' Cursive Attachment in Arabic lookup 5 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 6" { "'curs' Cursive Attachment in Arabic lookup 6 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 7" { "'curs' Cursive Attachment in Arabic lookup 7 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 8" { "'curs' Cursive Attachment in Arabic lookup 8 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 9" { "'curs' Cursive Attachment in Arabic lookup 9 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 10" { "'curs' Cursive Attachment in Arabic lookup 10 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 11" { "'curs' Cursive Attachment in Arabic lookup 11 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 12" { "'curs' Cursive Attachment in Arabic lookup 12 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Cursive Attachment in Arabic lookup 13" { "'curs' Cursive Attachment in Arabic lookup 13 subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning in Arabic lookup 15" { "'mark' Mark Positioning in Arabic lookup 15 subtable"  } ['mark' ('DFLT' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning in Arabic lookup 16" { "'mark' Mark Positioning in Arabic lookup 16 subtable"  } ['mark' ('DFLT' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark Positioning in Arabic lookup 21" { "'mark' Mark Positioning in Arabic lookup 21 subtable"  } ['mark' ('DFLT' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Mark to Mark in Arabic lookup 20" { "'mkmk' Mark to Mark in Arabic lookup 20-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Basic" { "'curs' Basic subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Sad" { "'curs' Sad subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 8 0 "'curs' Lam" { "'curs' Lam subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Feh" { "'curs' Feh subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Beh" { "'curs' Beh subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Waw" { "'curs' Waw subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Meem" { "'curs' Meem subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Dal" { "'curs' Dal subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Hah" { "'curs' Hah subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Ain" { "'curs' Ain subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Reh" { "'curs' Reh subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Heh" { "'curs' Heh subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Yeh" { "'curs' Yeh subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Seen" { "'curs' Seen subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Above" { "'mark' Above subtable"  } ['mark' ('DFLT' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Below" { "'mark' Below subtable"  } ['mark' ('DFLT' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Middle" { "'mark' Middle subtable"  } ['mark' ('DFLT' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Above" { "'mkmk' Above subtable"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -66,5 +66,5 @@ UnicodeInterp: none
 NameList: AGL For New Fonts
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "arMarkMark.above" "'mkmk' Mark to Mark in Arabic lookup 20-1" "arMarkMark.below" "'mkmk' Mark to Mark in Arabic lookup 20-1" "Anchor-20" "'mark' Mark Positioning in Arabic lookup 21 subtable" "Cursive-0" "'curs' Cursive Attachment in Arabic lookup 0 subtable" "Cursive-1" "'curs' Cursive Attachment in Arabic lookup 1 subtable" "Cursive-2" "'curs' Cursive Attachment in Arabic lookup 2 subtable" "Cursive-3" "'curs' Cursive Attachment in Arabic lookup 3 subtable" "Cursive-4" "'curs' Cursive Attachment in Arabic lookup 4 subtable" "Cursive-5" "'curs' Cursive Attachment in Arabic lookup 5 subtable" "Cursive-6" "'curs' Cursive Attachment in Arabic lookup 6 subtable" "Cursive-7" "'curs' Cursive Attachment in Arabic lookup 7 subtable" "Cursive-8" "'curs' Cursive Attachment in Arabic lookup 8 subtable" "Cursive-9" "'curs' Cursive Attachment in Arabic lookup 9 subtable" "Cursive-10" "'curs' Cursive Attachment in Arabic lookup 10 subtable" "Cursive-11" "'curs' Cursive Attachment in Arabic lookup 11 subtable" "Cursive-12" "'curs' Cursive Attachment in Arabic lookup 12 subtable" "Cursive-13" "'curs' Cursive Attachment in Arabic lookup 13 subtable" "Anchor-14" "'mark' Mark Positioning in Arabic lookup 15 subtable" "Anchor-15" "'mark' Mark Positioning in Arabic lookup 15 subtable" "Anchor-16" "'mark' Mark Positioning in Arabic lookup 16 subtable" "Anchor-17" "'mark' Mark Positioning in Arabic lookup 16 subtable"
+AnchorClass2: "Mark Mark Above" "'mkmk' Above subtable" "Mark Mark Below" "'mkmk' Above subtable" "Middle" "'mark' Middle subtable" "Basic" "'curs' Basic subtable" "Sad" "'curs' Sad subtable" "Lam" "'curs' Lam subtable" "Feh" "'curs' Feh subtable" "Beh" "'curs' Beh subtable" "Waw" "'curs' Waw subtable" "Meem" "'curs' Meem subtable" "Dal" "'curs' Dal subtable" "Hah" "'curs' Hah subtable" "Ain" "'curs' Ain subtable" "Reh" "'curs' Reh subtable" "Heh" "'curs' Heh subtable" "Yeh" "'curs' Yeh subtable" "Seen" "'curs' Seen subtable" "Tashkil Above" "'mark' Above subtable" "Dots Above" "'mark' Above subtable" "Tashkil Below" "'mark' Below subtable" "Dots Below" "'mark' Below subtable"
 EndSplineFont

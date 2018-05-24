@@ -3,7 +3,7 @@ Encoding: 65873 -1 377
 Width: 761
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Cursive-0" 0 0 exit 0
+AnchorPoint: "Basic" 0 0 exit 0
 LayerCount: 2
 Fore
 SplineSet

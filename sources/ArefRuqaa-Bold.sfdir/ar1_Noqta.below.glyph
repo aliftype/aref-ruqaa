@@ -3,8 +3,8 @@ Encoding: 65548 -1 30
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "arMarkMark.below" 0 -510 basemark 0
-AnchorPoint: "Anchor-17" 0 0 mark 0
+AnchorPoint: "Mark Mark Below" 0 -510 basemark 0
+AnchorPoint: "Dots Below" 0 0 mark 0
 LayerCount: 2
 Fore
 Refer: 27 -1 N 1 0 0 1 0 0 2
