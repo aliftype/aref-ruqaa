@@ -41,7 +41,7 @@ HheadDOffset: 0
 OS2Vendor: 'ALIF'
 Lookup: 259 9 0 "'curs' Basic" { "'curs' Basic subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Sad" { "'curs' Sad subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 8 0 "'curs' Lam" { "'curs' Lam subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Lam" { "'curs' Lam subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Feh" { "'curs' Feh subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Beh" { "'curs' Beh subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Waw" { "'curs' Waw subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
