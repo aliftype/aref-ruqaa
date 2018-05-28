@@ -6,10 +6,10 @@ languagesystem arab KSH;
 languagesystem arab SND;
 languagesystem arab MLY;
 
-@init_group = [arBeh.init arHah.init arSeen.init arSad.init arTah.init
+@init      = [arBeh.init arHah.init arSeen.init arSad.init arTah.init
               arAin.init arFeh.init arKaf.init arLam.init arMeem.init
               arHeh.init];
-@medi_group = [arBeh.medi arHah.medi arSeen.medi arSad.medi arTah.medi
+@medi      = [arBeh.medi arHah.medi arSeen.medi arSad.medi arTah.medi
               arAin.medi arFeh.medi arKaf.medi arLam.medi arMeem.medi
               arHeh.medi2];
 @init_medi = [arBeh.init arBeh.medi arHah.init arHah.medi arSeen.init
@@ -17,109 +17,80 @@ languagesystem arab MLY;
               arAin.init arAin.medi arFeh.init arFeh.medi arKaf.init
               arKaf.medi arLam.init arLam.medi arMeem.init arMeem.medi
               arHeh.init arHeh.medi2 arHeh.medi arHeh.init2];
-@calt_ain  = [arBeh.init.ain arBeh.medi.ain arHah.init.ain arHah.medi.ain arSeen.init.ain
+@ain       = [arBeh.init.ain arBeh.medi.ain arHah.init.ain arHah.medi.ain arSeen.init.ain
               arSeen.medi.ain arSad.init.ain arSad.medi.ain arTah.init.ain arTah.medi.ain
               arAin.init.ain arAin.medi.ain arFeh.init.ain arFeh.medi.ain arKaf.init.ain
               arKaf.medi.ain arLam.init.ain arLam.medi.ain arMeem.init.ain arMeem.medi.ain
               arHeh.init.ain arHeh.medi2.ain arHeh.medi.ain arHeh.init2.ain];
-@calt_dal  = [arBeh.init.dal arBeh.medi.dal arHah.init.dal arHah.medi.dal arSeen.init.dal
+@dal        = [arBeh.init.dal arBeh.medi.dal arHah.init.dal arHah.medi.dal arSeen.init.dal
               arSeen.medi.dal arSad.init.dal arSad.medi.dal arTah.init.dal arTah.medi.dal
               arAin.init.dal arAin.medi.dal arFeh.init.dal arFeh.medi.dal arKaf.init.dal
               arKaf.medi.dal arLam.init.dal arLam.medi.dal arMeem.init.dal arMeem.medi.dal
               arHeh.init.dal arHeh.medi2.dal arHeh.medi.dal arHeh.init2.dal];
-@calt_feh  = [arBeh.init.feh arBeh.medi.feh arHah.init.feh arHah.medi.feh arSeen.init.feh
+@feh       = [arBeh.init.feh arBeh.medi.feh arHah.init.feh arHah.medi.feh arSeen.init.feh
               arSeen.medi.feh arSad.init.feh arSad.medi.feh arTah.init.feh arTah.medi.feh
               arAin.init.feh arAin.medi.feh arFeh.init.feh arFeh.medi.feh arKaf.init.feh
               arKaf.medi.feh arLam.init.feh arLam.medi.feh arMeem.init.feh arMeem.medi.feh
               arHeh.init.feh arHeh.medi2.feh arHeh.medi.feh arHeh.init2.feh];
-@calt_hah  = [arBeh.init.hah arBeh.medi.hah arHah.init.hah arHah.medi.hah arSeen.init.hah
+@hah       = [arBeh.init.hah arBeh.medi.hah arHah.init.hah arHah.medi.hah arSeen.init.hah
               arSeen.medi.hah arSad.init.hah arSad.medi.hah arTah.init.hah arTah.medi.hah
               arAin.init.hah arAin.medi.hah arFeh.init.hah arFeh.medi.hah arKaf.init.hah
               arKaf.medi.hah arLam.init.hah arLam.medi.hah arMeem.init.hah arMeem.medi.hah
               arHeh.init.hah arHeh.medi2.hah arHeh.medi.hah arHeh.init2.hah];
-@calt_heh  = [arBeh.init.heh arBeh.medi.heh arHah.init.heh arHah.medi.heh arSeen.init.heh
+@heh       = [arBeh.init.heh arBeh.medi.heh arHah.init.heh arHah.medi.heh arSeen.init.heh
               arSeen.medi.heh arSad.init.heh arSad.medi.heh arTah.init.heh arTah.medi.heh
               arAin.init.heh arAin.medi.heh arFeh.init.heh arFeh.medi.heh arKaf.init.heh
               arKaf.medi.heh arLam.init.heh arLam.medi.heh arMeem.init.heh arMeem.medi.heh
               arHeh.init.heh arHeh.medi2.heh arHeh.medi.heh arHeh.init2.heh];
-@calt_meem = [arBeh.init.meem arBeh.medi.meem arHah.init.meem arHah.medi.meem arSeen.init.meem
+@meem      = [arBeh.init.meem arBeh.medi.meem arHah.init.meem arHah.medi.meem arSeen.init.meem
               arSeen.medi.meem arSad.init.meem arSad.medi.meem arTah.init.meem arTah.medi.meem
               arAin.init.meem arAin.medi.meem arFeh.init.meem arFeh.medi.meem arKaf.init.meem
               arKaf.medi.meem arLam.init.meem arLam.medi.meem arMeem.init.meem arMeem.medi.meem
               arHeh.init.meem arHeh.medi2.meem arHeh.medi.meem arHeh.init2.meem];
-@calt_reh  = [arBeh.init.reh arBeh.medi.reh arHah.init.reh arHah.medi.reh arSeen.init.reh
+@reh       = [arBeh.init.reh arBeh.medi.reh arHah.init.reh arHah.medi.reh arSeen.init.reh
               arSeen.medi.reh arSad.init.reh arSad.medi.reh arTah.init.reh arTah.medi.reh
               arAin.init.reh arAin.medi.reh arFeh.init.reh arFeh.medi.reh arKaf.init.reh
               arKaf.medi.reh arLam.init.reh arLam.medi.reh arMeem.init.reh arMeem.medi.reh
               arHeh.init.reh arHeh.medi2.reh arHeh.medi.reh arHeh.init2.reh];
-@calt_sad  = [arBeh.init.sad arBeh.medi.sad arHah.init.sad arHah.medi.sad arSeen.init.sad
+@sad       = [arBeh.init.sad arBeh.medi.sad arHah.init.sad arHah.medi.sad arSeen.init.sad
               arSeen.medi.sad arSad.init.sad arSad.medi.sad arTah.init.sad arTah.medi.sad
               arAin.init.sad arAin.medi.sad arFeh.init.sad arFeh.medi.sad arKaf.init.sad
               arKaf.medi.sad arLam.init.sad arLam.medi.sad arMeem.init.sad arMeem.medi.sad
               arHeh.init.sad arHeh.medi2.sad arHeh.medi.sad arHeh.init2.sad];
-@calt_yeh  = [arBeh.init.yeh arBeh.medi.yeh arHah.init.yeh arHah.medi.yeh arSeen.init.yeh
+@yeh       = [arBeh.init.yeh arBeh.medi.yeh arHah.init.yeh arHah.medi.yeh arSeen.init.yeh
               arSeen.medi.yeh arSad.init.yeh arSad.medi.yeh arTah.init.yeh arTah.medi.yeh
               arAin.init.yeh arAin.medi.yeh arFeh.init.yeh arFeh.medi.yeh arKaf.init.yeh
               arKaf.medi.yeh arLam.init.yeh arLam.medi.yeh arMeem.init.yeh arMeem.medi.yeh
               arHeh.init.yeh arHeh.medi2.yeh arHeh.medi.yeh arHeh.init2.yeh];
-@calt_ragaa = [arBeh.init.ragaa arBeh.medi.ragaa arHah.init.ragaa arHah.medi.ragaa arSeen.init.ragaa
+@ragaa     = [arBeh.init.ragaa arBeh.medi.ragaa arHah.init.ragaa arHah.medi.ragaa arSeen.init.ragaa
                arSeen.medi.ragaa arSad.init.ragaa arSad.medi.ragaa arTah.init.ragaa arTah.medi.ragaa
                arAin.init.ragaa arAin.medi.ragaa arFeh.init.ragaa arFeh.medi.ragaa arKaf.init.ragaa
                arKaf.medi.ragaa arLam.init.ragaa arLam.medi.ragaa arMeem.init.ragaa arMeem.medi.ragaa
                arHeh.init.ragaa arHeh.medi2.ragaa arHeh.medi.ragaa arHeh.init2.ragaa];
 
-@context_ain         = [arAin.fina arAin.medi arAin.medi.hah arAin.medi.dal arAin.medi.reh
-                        arAin.medi.sad arAin.medi.ain arAin.medi.feh arAin.medi.meem arAin.medi.heh
-                        arAin.medi.yeh arAin.medi.ragaa];
-@context_meem        = [arMeem.fina arMeem.medi arMeem.medi.hah arMeem.medi.dal arMeem.medi.reh
-                        arMeem.medi.sad arMeem.medi.ain arMeem.medi.feh arMeem.medi.meem arMeem.medi.heh
-                        arMeem.medi.yeh arMeem.medi.ragaa];
-@context_feh         = [arFeh.fina arFeh.medi arFeh.medi.hah arFeh.medi.dal arFeh.medi.reh
-                        arFeh.medi.sad arFeh.medi.ain arFeh.medi.feh arFeh.medi.meem arFeh.medi.heh
-                        arFeh.medi.yeh arFeh.fina.jalt arQaf.fina.jalt arFeh.medi.ragaa];
-@context_hah         = [arHah.fina arHah.medi arHah.medi.hah arHah.medi.dal arHah.medi.reh
-                        arHah.medi.sad arHah.medi.ain arHah.medi.feh arHah.medi.meem arHah.medi.heh
-                        arHah.medi.yeh arHah.medi.ragaa];
-@context_heh         = [arHeh.medi arHeh.medi.hah arHeh.medi.dal arHeh.medi.reh arHeh.medi.sad
-                        arHeh.medi.ain arHeh.medi.feh arHeh.medi.meem arHeh.medi.heh arHeh.medi.yeh];
-@context_heh_1       = [arHeh.medi2 arHeh.fina3 arHeh.medi2.hah arHeh.medi2.dal arHeh.medi2.reh
-                        arHeh.medi2.sad arHeh.medi2.ain arHeh.medi2.feh arHeh.medi2.meem arHeh.medi2.heh
-                        arHeh.medi2.yeh arHeh.medi2.ragaa];
-@context_kaf_alef    = [arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.alef
-                        arGaf.fina arKaf.medi.hah arLam.medi.hah arKaf.medi.dal arLam.medi.dal
-                        arKaf.medi.reh arLam.medi.reh arKaf.medi.sad arLam.medi.sad arKaf.medi.ain
-                        arLam.medi.ain arKaf.medi.feh arLam.medi.feh arKaf.medi.meem arLam.medi.meem
-                        arKaf.medi.heh arLam.medi.heh arKaf.medi.yeh arLam.medi.yeh arLam.fina.jalt
-                        arGaf.fina.jalt arKaf.medi.ragaa arLam.medi.ragaa];
-@context_sad         = [arSad.fina arSad.medi arTah.fina arTah.medi arSad.medi.hah arTah.medi.hah
-                        arSad.medi.dal arTah.medi.dal arSad.medi.reh arTah.medi.reh arSad.medi.sad
-                        arTah.medi.sad arSad.medi.ain arTah.medi.ain arSad.medi.feh arTah.medi.feh
-                        arSad.medi.meem arTah.medi.meem arSad.medi.heh arTah.medi.heh arSad.medi.yeh
-                        arTah.medi.yeh arSad.fina.jalt arTah.medi.kaf];
-@context_yeh_by_yeh1 = [arBeh.init.yeh arFeh.init.yeh arKaf.init.yeh arLam.init.yeh];
-@kantara_all         = [arBeh.medi.hah arBeh.medi.reh arBeh.medi.sad arBeh.medi.ain arBeh.medi.feh
-                        arBeh.medi.meem arBeh.medi.heh arBeh.medi.yeh];
-@seen_all            = [arSeen.fina arSeen.medi arSeen.medi.hah arSeen.medi.dal arSeen.medi.reh
-                        arSeen.medi.sad arSeen.medi.ain arSeen.medi.feh arSeen.medi.meem arSeen.medi.heh
-                        arSeen.medi.yeh arSeen.fina.jalt arSeen.medi.ragaa];
-
-@noqta_below         = [ar1Noqta.below ar2Noqta.below ar3Noqta.below];
-
+@context_hah = [arHah.fina arHah.medi arHah.medi.hah arHah.medi.dal arHah.medi.reh
+                arHah.medi.sad arHah.medi.ain arHah.medi.feh arHah.medi.meem arHah.medi.heh
+                arHah.medi.yeh arHah.medi.ragaa];
 lookup calt_hah {
   lookupflag IgnoreMarks;
-    sub @init_medi' @context_hah by @calt_hah;
+    sub @init_medi' @context_hah by @hah;
 } calt_hah;
 
 lookup calt_dal {
   lookupflag IgnoreMarks;
-    sub @init_medi' [arDal.fina] by @calt_dal;
+    sub @init_medi' [arDal.fina] by @dal;
 } calt_dal;
 
 lookup calt_reh {
   lookupflag IgnoreMarks;
-    sub @init_medi' [arReh.fina] by @calt_reh;
+    sub @init_medi' [arReh.fina] by @reh;
 } calt_reh;
 
+@context_sad = [arSad.fina arSad.medi arTah.fina arTah.medi arSad.medi.hah arTah.medi.hah
+                arSad.medi.dal arTah.medi.dal arSad.medi.reh arTah.medi.reh arSad.medi.sad
+                arTah.medi.sad arSad.medi.ain arTah.medi.ain arSad.medi.feh arTah.medi.feh
+                arSad.medi.meem arTah.medi.meem arSad.medi.heh arTah.medi.heh arSad.medi.yeh
+                arTah.medi.yeh arSad.fina.jalt arTah.medi.kaf];
 lookup calt_sad {
   lookupflag IgnoreMarks;
     # Don’t do the substitition if the words ends in a bari yeh, as the
@@ -127,39 +98,60 @@ lookup calt_sad {
     ignore sub @init_medi' @context_sad [arYeh.fina2];
     ignore sub @init_medi' @context_sad @init_medi [arYeh.fina2];
 
-    sub @init_medi' @context_sad by @calt_sad;
+    sub @init_medi' @context_sad by @sad;
 } calt_sad;
 
+@context_ain = [arAin.fina arAin.medi arAin.medi.hah arAin.medi.dal arAin.medi.reh
+                arAin.medi.sad arAin.medi.ain arAin.medi.feh arAin.medi.meem arAin.medi.heh
+                arAin.medi.yeh arAin.medi.ragaa];
 lookup calt_ain {
   lookupflag IgnoreMarks;
-    sub @init_medi' @context_ain by @calt_ain;
+    sub @init_medi' @context_ain by @ain;
 } calt_ain;
 
+@context_feh = [arFeh.fina arFeh.medi arFeh.medi.hah arFeh.medi.dal arFeh.medi.reh
+                arFeh.medi.sad arFeh.medi.ain arFeh.medi.feh arFeh.medi.meem arFeh.medi.heh
+                arFeh.medi.yeh arFeh.fina.jalt arQaf.fina.jalt arFeh.medi.ragaa];
 lookup calt_feh {
   lookupflag IgnoreMarks;
-    sub @init_medi' @context_feh by @calt_feh;
+    sub @init_medi' @context_feh by @feh;
 } calt_feh;
 
+@context_meem = [arMeem.fina arMeem.medi arMeem.medi.hah arMeem.medi.dal arMeem.medi.reh
+                 arMeem.medi.sad arMeem.medi.ain arMeem.medi.feh arMeem.medi.meem arMeem.medi.heh
+                 arMeem.medi.yeh arMeem.medi.ragaa
+                 arHeh.medi2 arHeh.fina3 arHeh.medi2.hah arHeh.medi2.dal arHeh.medi2.reh
+                 arHeh.medi2.sad arHeh.medi2.ain arHeh.medi2.feh arHeh.medi2.meem arHeh.medi2.heh
+                 arHeh.medi2.yeh arHeh.medi2.ragaa];
 lookup calt_meem_heh {
   lookupflag IgnoreMarks;
-    sub @init_medi' [@context_meem @context_heh_1] by @calt_meem;
+    sub @init_medi' @context_meem by @meem;
 } calt_meem_heh;
 
+@context_heh = [arHeh.medi arHeh.medi.hah arHeh.medi.dal arHeh.medi.reh arHeh.medi.sad
+                arHeh.medi.ain arHeh.medi.feh arHeh.medi.meem arHeh.medi.heh arHeh.medi.yeh];
 lookup calt_heh {
   lookupflag IgnoreMarks;
-    sub @init_medi' @context_heh by @calt_heh;
+    sub @init_medi' @context_heh by @heh;
 } calt_heh;
 
 lookup calt_yeh {
   lookupflag IgnoreMarks;
-    sub @init_medi' [arYeh.fina] by @calt_yeh;
+    sub @init_medi' [arYeh.fina] by @yeh;
 } calt_yeh;
 
-lookup calt_yeh_by_yeh1 {
+@context_yeh_by_yeh = [arBeh.init.yeh arFeh.init.yeh arKaf.init.yeh arLam.init.yeh];
+lookup calt_yeh_by_yeh {
   lookupflag IgnoreMarks;
-    sub @context_yeh_by_yeh1 [arYeh.fina]' by [arYeh.fina.yeh];
-} calt_yeh_by_yeh1;
+    sub @context_yeh_by_yeh [arYeh.fina]' by [arYeh.fina.yeh];
+} calt_yeh_by_yeh;
 
+@context_kaf_alef = [arAlef.fina arKaf.fina arKaf.medi arLam.fina arLam.medi arLam.medi.alef
+                     arGaf.fina arKaf.medi.hah arLam.medi.hah arKaf.medi.dal arLam.medi.dal
+                     arKaf.medi.reh arLam.medi.reh arKaf.medi.sad arLam.medi.sad arKaf.medi.ain
+                     arLam.medi.ain arKaf.medi.feh arLam.medi.feh arKaf.medi.meem arLam.medi.meem
+                     arKaf.medi.heh arLam.medi.heh arKaf.medi.yeh arLam.medi.yeh arLam.fina.jalt
+                     arGaf.fina.jalt arKaf.medi.ragaa arLam.medi.ragaa];
 lookup calt_kaf_alef {
   lookupflag IgnoreMarks;
     sub [arKaf.init]' @context_kaf_alef by [arKaf.init.alef];
@@ -172,7 +164,7 @@ lookup calt_kaf_kaf_kaf {
 
 lookup calt_kaf_init_medi {
   lookupflag IgnoreMarks;
-    sub [@init_group @medi_group] [arKaf.medi]' @context_kaf_alef by [arKaf.init.alef];
+    sub [@init @medi] [arKaf.medi]' @context_kaf_alef by [arKaf.init.alef];
 } calt_kaf_init_medi;
 
 lookup calt_lamalef {
@@ -190,9 +182,20 @@ lookup calt_beh_1 {
     sub [arBeh.medi]' [arNoon.fina arNoon.fina2 arNoon.isol.jalt] by [arBeh.medi.noon];
 } calt_beh_1;
 
+@context_beh_2 = [arAlef.fina arBeh.fina arBeh.medi arKaf.fina arKaf.medi
+		  arLam.fina arLam.medi arNoon.fina arLam.medi.alef arGaf.fina
+		  arNoon.fina2 arBeh.medi.hah arKaf.medi.hah arLam.medi.hah
+		  arBeh.medi.dal arKaf.medi.dal arLam.medi.dal arBeh.medi.reh
+		  arKaf.medi.reh arLam.medi.reh arBeh.medi.sad arKaf.medi.sad
+		  arLam.medi.sad arBeh.medi.ain arKaf.medi.ain arLam.medi.ain
+		  arBeh.medi.feh arKaf.medi.feh arLam.medi.feh arBeh.medi.meem
+		  arKaf.medi.meem arLam.medi.meem arBeh.medi.heh arKaf.medi.heh
+		  arLam.medi.heh arBeh.medi.yeh arKaf.medi.yeh arLam.medi.yeh
+		  arKaf.init.alef arBeh.fina.jalt arLam.fina.jalt
+                  arGaf.fina.jalt];
 lookup calt_beh_2 {
   lookupflag IgnoreMarks;
-    sub [arBeh.init]' [arAlef.fina arBeh.fina arBeh.medi arKaf.fina arKaf.medi arLam.fina arLam.medi arNoon.fina arLam.medi.alef arGaf.fina arNoon.fina2 arBeh.medi.hah arKaf.medi.hah arLam.medi.hah arBeh.medi.dal arKaf.medi.dal arLam.medi.dal arBeh.medi.reh arKaf.medi.reh arLam.medi.reh arBeh.medi.sad arKaf.medi.sad arLam.medi.sad arBeh.medi.ain arKaf.medi.ain arLam.medi.ain arBeh.medi.feh arKaf.medi.feh arLam.medi.feh arBeh.medi.meem arKaf.medi.meem arLam.medi.meem arBeh.medi.heh arKaf.medi.heh arLam.medi.heh arBeh.medi.yeh arKaf.medi.yeh arLam.medi.yeh arKaf.init.alef arBeh.fina.jalt arLam.fina.jalt arGaf.fina.jalt] by [arBeh.init.ascend];
+    sub [arBeh.init]' @context_beh_2 by [arBeh.init.ascend];
 } calt_beh_2;
 
 lookup calt_beh_3 {
@@ -205,6 +208,11 @@ lookup high_beh {
     sub arBeh.medi by arBeh.medi.high2;
 } high_beh;
 
+@kantara  = [arBeh.medi.hah arBeh.medi.reh arBeh.medi.sad arBeh.medi.ain arBeh.medi.feh
+             arBeh.medi.meem arBeh.medi.heh arBeh.medi.yeh];
+@seen_all = [arSeen.fina arSeen.medi arSeen.medi.hah arSeen.medi.dal arSeen.medi.reh
+             arSeen.medi.sad arSeen.medi.ain arSeen.medi.feh arSeen.medi.meem arSeen.medi.heh
+             arSeen.medi.yeh arSeen.fina.jalt arSeen.medi.ragaa];
 lookup calt_beh_4 {
   lookupflag IgnoreMarks;
     sub [arBeh.medi] [arBeh.medi]'lookup high_beh [arBeh.medi];
@@ -212,8 +220,8 @@ lookup calt_beh_4 {
     sub [arBeh.init.ascend] [arBeh.medi.high] [arBeh.medi] [arBeh.medi]'lookup high_beh;
     sub [arBeh.init.ascend] [arBeh.medi.high] [arBeh.medi] [arBeh.medi] [arBeh.medi]'lookup high_beh;
     sub [arBeh.medi]'lookup high_beh @seen_all;
-    sub [arBeh.init.ascend] [arBeh.medi]'lookup high_beh @kantara_all;
-    sub [arBeh.medi] [arBeh.medi]'lookup high_beh @kantara_all;
+    sub [arBeh.init.ascend] [arBeh.medi]'lookup high_beh @kantara;
+    sub [arBeh.medi] [arBeh.medi]'lookup high_beh @kantara;
     sub [arSeen.medi] [arBeh.medi]'lookup high_beh [arBeh.fina];
     sub [arSad.init] [arBeh.medi]'lookup high_beh [arBeh.medi];
     sub [arSad.medi] [arBeh.medi]'lookup high_beh [arBeh.medi];
@@ -225,8 +233,8 @@ lookup sub_chain_caltarab_36 {
     sub [arBeh.init.ascend] [arBeh.medi.high] [arBeh.medi] [arBeh.medi]'lookup high_beh;
     sub [arBeh.init.ascend] [arBeh.medi.high] [arBeh.medi] [arBeh.medi] [arBeh.medi]'lookup high_beh;
     sub [arBeh.medi]'lookup high_beh @seen_all;
-    sub [arBeh.init.ascend] [arBeh.medi]'lookup high_beh @kantara_all;
-    sub [arBeh.medi] [arBeh.medi]'lookup high_beh @kantara_all;
+    sub [arBeh.init.ascend] [arBeh.medi]'lookup high_beh @kantara;
+    sub [arBeh.medi] [arBeh.medi]'lookup high_beh @kantara;
     sub [arSeen.medi] [arBeh.medi]'lookup high_beh [arBeh.fina];
     sub [arSad.init] [arBeh.medi]'lookup high_beh [arBeh.medi];
     sub [arSad.medi] [arBeh.medi]'lookup high_beh [arBeh.medi];
@@ -255,7 +263,7 @@ lookup calt_kaf_lam_tah {
 
 lookup calt_yeh_ragaa {
   lookupflag IgnoreMarks;
-    sub @init_medi' [arYeh.fina2] by @calt_ragaa;
+    sub @init_medi' [arYeh.fina2] by @ragaa;
     sub [arBeh.medi.high2]' [arYeh.fina2] by [arBeh.medi.ragaa];
 } calt_yeh_ragaa;
 
@@ -542,7 +550,7 @@ feature calt {
     lookup calt_meem_heh;
     lookup calt_heh;
     lookup calt_yeh;
-    lookup calt_yeh_by_yeh1;
+    lookup calt_yeh_by_yeh;
     lookup calt_kaf_alef;
     lookup calt_kaf_kaf_kaf;
     lookup calt_kaf_init_medi;
@@ -559,6 +567,8 @@ feature calt {
     lookup calt_hah_yeh_ragaa;
     lookup calt_looped_kaf;
 } calt;
+
+@noqta_below = [ar1Noqta.below ar2Noqta.below ar3Noqta.below];
 
 feature calt {
   lookupflag 0;
