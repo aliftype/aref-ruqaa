@@ -6,10 +6,6 @@ languagesystem arab KSH;
 languagesystem arab SND;
 languagesystem arab MLY;
 
-@beh_beh   = [arBeh.fina arBeh.medi arNoon.fina arNoon.fina2 arBeh.medi.hah
-              arBeh.medi.dal arBeh.medi.reh arBeh.medi.sad arBeh.medi.ain arBeh.medi.feh
-              arBeh.medi.meem arBeh.medi.heh arBeh.medi.yeh arBeh.fina.jalt arBeh.medi.ragaa];
-
 @init_group = [arBeh.init arHah.init arSeen.init arSad.init arTah.init
               arAin.init arFeh.init arKaf.init arLam.init arMeem.init
               arHeh.init];
