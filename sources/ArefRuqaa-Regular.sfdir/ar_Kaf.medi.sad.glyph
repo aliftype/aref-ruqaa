@@ -5,8 +5,8 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "Sharta Above" 1557 1836 basechar 0
 AnchorPoint: "Sad" 50 180 exit 0
-AnchorPoint: "Beh" 1188 0 entry 0
-AnchorPoint: "Basic" 1188 0 entry 0
+AnchorPoint: "Beh" 1176 0 entry 0
+AnchorPoint: "Basic" 1176 0 entry 0
 AnchorPoint: "Tashkil Below" 1233 -369 basechar 0
 AnchorPoint: "Tashkil Above" 1404 1926 basechar 0
 AnchorPoint: "Dots Above" 1557 1836 basechar 0

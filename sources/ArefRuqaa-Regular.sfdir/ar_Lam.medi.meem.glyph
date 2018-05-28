@@ -5,8 +5,8 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "Meem" 0 350 exit 0
 AnchorPoint: "Tashkil Above" 603 1683 basechar 0
-AnchorPoint: "Beh" 666 0 entry 0
-AnchorPoint: "Basic" 666 0 entry 0
+AnchorPoint: "Beh" 657 0 entry 0
+AnchorPoint: "Basic" 657 0 entry 0
 AnchorPoint: "Tashkil Below" 747 -324 basechar 0
 LayerCount: 2
 Fore

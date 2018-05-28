@@ -5,8 +5,8 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "Tashkil Below" 954 -288 basechar 0
 AnchorPoint: "Tashkil Above" 1161 1710 basechar 0
-AnchorPoint: "Basic" 1892 0 entry 0
-AnchorPoint: "Beh" 1892 0 entry 0
+AnchorPoint: "Basic" 1896 0 entry 0
+AnchorPoint: "Beh" 1896 0 entry 0
 LayerCount: 2
 Fore
 SplineSet

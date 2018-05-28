@@ -6,8 +6,8 @@ Flags: W
 AnchorPoint: "Sharta Above" 1422 1872 basechar 0
 AnchorPoint: "Dots Below" 495 -216 basechar 0
 AnchorPoint: "Tashkil Below" 558 -324 basechar 0
-AnchorPoint: "Beh" 1044 0 entry 0
-AnchorPoint: "Basic" 1044 0 entry 0
+AnchorPoint: "Beh" 1048 0 entry 0
+AnchorPoint: "Basic" 1048 0 entry 0
 AnchorPoint: "Tashkil Above" 1386 1980 basechar 0
 AnchorPoint: "Dots Above" 1422 1872 basechar 0
 LayerCount: 2

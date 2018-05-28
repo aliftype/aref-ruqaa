@@ -5,8 +5,8 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "Dal" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 567 1737 basechar 0
-AnchorPoint: "Beh" 576 0 entry 0
-AnchorPoint: "Basic" 576 0 entry 0
+AnchorPoint: "Beh" 585 0 entry 0
+AnchorPoint: "Basic" 585 0 entry 0
 AnchorPoint: "Tashkil Below" 657 -333 basechar 0
 LayerCount: 2
 Fore

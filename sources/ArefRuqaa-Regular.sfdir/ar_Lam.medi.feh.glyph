@@ -4,8 +4,8 @@ Width: 948
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Feh" 0 0 exit 0
-AnchorPoint: "Beh" 954 20 entry 0
-AnchorPoint: "Basic" 954 20 entry 0
+AnchorPoint: "Beh" 948 19 entry 0
+AnchorPoint: "Basic" 948 19 entry 0
 AnchorPoint: "Tashkil Above" 954 1692 basechar 0
 AnchorPoint: "Tashkil Below" 999 -369 basechar 0
 LayerCount: 2

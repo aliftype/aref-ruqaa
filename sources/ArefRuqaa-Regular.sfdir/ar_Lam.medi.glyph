@@ -8,8 +8,8 @@ AnchorPoint: "Basic" 0 0 exit 0
 AnchorPoint: "Dots Below" 378 -216 basechar 0
 AnchorPoint: "Dots Above" 459 1584 basechar 0
 AnchorPoint: "Tashkil Above" 486 1692 basechar 0
-AnchorPoint: "Beh" 513 0 entry 0
-AnchorPoint: "Basic" 513 0 entry 0
+AnchorPoint: "Beh" 505 0 entry 0
+AnchorPoint: "Basic" 505 0 entry 0
 AnchorPoint: "Tashkil Below" 540 -387 basechar 0
 LayerCount: 2
 Fore

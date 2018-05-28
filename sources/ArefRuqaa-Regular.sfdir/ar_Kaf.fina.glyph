@@ -8,8 +8,8 @@ AnchorPoint: "Tashkil Below" 450 -315 basechar 0
 AnchorPoint: "Dots Below" 495 -378 basechar 0
 AnchorPoint: "Dots Above" 630 1584 basechar 0
 AnchorPoint: "Tashkil Above" 675 1485 basechar 0
-AnchorPoint: "Beh" 1044 0 entry 0
-AnchorPoint: "Basic" 1044 0 entry 0
+AnchorPoint: "Beh" 1048 0 entry 0
+AnchorPoint: "Basic" 1048 0 entry 0
 LayerCount: 2
 Fore
 SplineSet
