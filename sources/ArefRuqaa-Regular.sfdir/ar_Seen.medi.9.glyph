@@ -3,7 +3,7 @@ Encoding: 65832 -1 337
 Width: 758
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Yeh" 0 0 exit 0
+AnchorPoint: "Yeh" -10 0 exit 0
 AnchorPoint: "Tashkil Below" 747 -108 basechar 0
 AnchorPoint: "Tashkil Above" 819 990 basechar 0
 AnchorPoint: "Dots Above" 828 1080 basechar 0
