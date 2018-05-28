@@ -6,8 +6,8 @@ Flags: W
 AnchorPoint: "Sad" 0 0 exit 0
 AnchorPoint: "Dots Below" 891 -306 basechar 0
 AnchorPoint: "Tashkil Below" 918 -342 basechar 0
-AnchorPoint: "Beh" 981 108 entry 0
-AnchorPoint: "Basic" 981 108 entry 0
+AnchorPoint: "Beh" 977 97 entry 0
+AnchorPoint: "Basic" 977 95 entry 0
 AnchorPoint: "Dots Above" 1089 990 basechar 0
 AnchorPoint: "Tashkil Above" 1107 936 basechar 0
 LayerCount: 2
