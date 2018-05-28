@@ -194,10 +194,10 @@ lookup calt_beh_1 {
     sub [arBeh.medi]' [arNoon.fina arNoon.fina2 arNoon.isol.1] by [arBeh.medi.10];
 } calt_beh_1;
 
-lookup sub_chain_caltarab_30 {
+lookup calt_beh_2 {
   lookupflag IgnoreMarks;
     sub [arBeh.init]' [arAlef.fina arBeh.fina arBeh.medi arKaf.fina arKaf.medi arLam.fina arLam.medi arNoon.fina arLam.medi.10 arGaf.fina arNoon.fina2 arBeh.medi.1 arKaf.medi.1 arLam.medi.1 arBeh.medi.2 arKaf.medi.2 arLam.medi.2 arBeh.medi.3 arKaf.medi.3 arLam.medi.3 arBeh.medi.4 arKaf.medi.4 arLam.medi.4 arBeh.medi.5 arKaf.medi.5 arLam.medi.5 arBeh.medi.6 arKaf.medi.6 arLam.medi.6 arBeh.medi.7 arKaf.medi.7 arLam.medi.7 arBeh.medi.8 arKaf.medi.8 arLam.medi.8 arBeh.medi.9 arKaf.medi.9 arLam.medi.9 arKaf.init.10 arBeh.fina.1 arLam.fina.1 arGaf.fina.1] by [arBeh.init.10];
-} sub_chain_caltarab_30;
+} calt_beh_2;
 
 lookup calt_beh_3 {
   lookupflag IgnoreMarks;
@@ -553,7 +553,7 @@ feature calt {
     lookup calt_lamalef;
     lookup calt_alef;
     lookup calt_beh_1;
-    lookup sub_chain_caltarab_30;
+    lookup calt_beh_2;
     lookup calt_beh_3;
     lookup calt_beh_4;
     lookup sub_chain_caltarab_36;
