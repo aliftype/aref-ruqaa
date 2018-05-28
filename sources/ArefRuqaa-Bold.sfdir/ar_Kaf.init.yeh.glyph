@@ -1,0 +1,14 @@
+StartChar: arKaf.init.yeh
+Encoding: 65825 -1 330
+Width: 1047
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Sharta Above" 648 1701 basechar 0
+AnchorPoint: "Yeh" 0 0 exit 0
+AnchorPoint: "Tashkil Above" 594 1782 basechar 0
+AnchorPoint: "Dots Above" 648 1701 basechar 0
+AnchorPoint: "Tashkil Below" 756 117 basechar 0
+LayerCount: 2
+Fore
+Refer: 138 -1 N 1 0 0 1 0 0 2
+EndChar

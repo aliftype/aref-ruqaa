@@ -1,0 +1,26 @@
+StartChar: arBeh.init.ascend
+Encoding: 65848 -1 353
+Width: 642
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Waw" 0 0 exit 0
+AnchorPoint: "Beh" 0 0 exit 0
+AnchorPoint: "Tashkil Below" 297 -297 basechar 0
+AnchorPoint: "Dots Below" 333 -279 basechar 0
+AnchorPoint: "Tashkil Above" 405 864 basechar 0
+AnchorPoint: "Dots Above" 432 864 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+616 502 m 1,0,1
+ 615 411 615 411 561.5 278 c 128,-1,2
+ 508 145 508 145 411 89 c 0,3,4
+ 289 19 289 19 0 0 c 1,5,-1
+ 0 0 l 1,6,-1
+ 29 275 l 1,7,-1
+ 31 275 l 1,8,9
+ 349 291 349 291 453.5 327.5 c 128,-1,10
+ 558 364 558 364 610 505 c 1,11,-1
+ 616 502 l 1,0,1
+EndSplineSet
+EndChar

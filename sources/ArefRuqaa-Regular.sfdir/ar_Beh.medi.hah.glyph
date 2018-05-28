@@ -1,0 +1,40 @@
+StartChar: arBeh.medi.hah
+Encoding: 65638 -1 143
+Width: 927
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Hah" -66 0 exit 0
+AnchorPoint: "Dots Above" 468 999 basechar 0
+AnchorPoint: "Tashkil Above" 639 1188 basechar 0
+AnchorPoint: "Beh" 729 387 entry 0
+AnchorPoint: "Basic" 729 387 entry 0
+AnchorPoint: "Tashkil Below" 819 36 basechar 0
+AnchorPoint: "Dots Below" 945 0 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+24 5 m 1,0,1
+ 19 0 19 0 9.5 1 c 128,-1,2
+ 0 2 0 2 0 11 c 0,3,4
+ 3 53 3 53 18.5 134.5 c 128,-1,5
+ 34 216 34 216 61 283 c 1,6,7
+ 88 317 88 317 124 359.5 c 128,-1,8
+ 160 402 160 402 205 447 c 1,9,10
+ 274 519 274 519 358.5 586.5 c 128,-1,11
+ 443 654 443 654 532 696 c 1,12,13
+ 627 739 627 739 706 739 c 0,14,15
+ 746 739 746 739 765.5 707.5 c 128,-1,16
+ 785 676 785 676 804 652 c 1,17,18
+ 807 651 807 651 810 650 c 128,-1,19
+ 813 649 813 649 816 649 c 2,20,-1
+ 883 659 l 1,21,-1
+ 756 385 l 1,22,23
+ 730 379 730 379 717 375 c 1,24,25
+ 664 373 664 373 650 421 c 1,26,27
+ 635 452 635 452 602 473 c 128,-1,28
+ 569 494 569 494 526 477 c 0,29,30
+ 400 430 400 430 292 342 c 0,31,32
+ 179 249 179 249 136.5 183 c 128,-1,33
+ 94 117 94 117 24 5 c 1,0,1
+EndSplineSet
+EndChar

@@ -1,0 +1,19 @@
+StartChar: arLam.init.meem
+Encoding: 65778 -1 283
+Width: 276
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Meem" -20 -100 exit 0
+AnchorPoint: "Tashkil Above" 90 1215 basechar 0
+AnchorPoint: "Tashkil Below" 261 -702 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+43 0 m 1,0,-1
+ 0 724 l 1,1,-1
+ 153 972 l 1,2,-1
+ 196 283 l 2,3,4
+ 198 255 198 255 196 204 c 1,5,-1
+ 43 0 l 1,0,-1
+EndSplineSet
+EndChar

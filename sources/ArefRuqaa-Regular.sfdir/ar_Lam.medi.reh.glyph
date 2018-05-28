@@ -1,0 +1,35 @@
+StartChar: arLam.medi.reh
+Encoding: 65694 -1 199
+Width: 639
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Reh" -20 150 exit 0
+AnchorPoint: "Tashkil Above" 630 1584 basechar 0
+AnchorPoint: "Beh" 639 0 entry 0
+AnchorPoint: "Basic" 639 0 entry 0
+AnchorPoint: "Tashkil Below" 720 -324 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+598 459 m 1,0,1
+ 547 358 547 358 450 321 c 0,2,3
+ 340 279 340 279 210 251 c 1,4,-1
+ 210 250 l 1,5,6
+ 97 220 97 220 61 186 c 1,7,-1
+ 60 185 l 1,8,9
+ 40 156 40 156 23 156 c 0,10,11
+ 10 156 10 156 -2 173 c 0,12,13
+ -12 187 -12 187 -12 204 c 0,14,15
+ -12 232 -12 232 18 268 c 1,16,-1
+ 18 270 l 1,17,18
+ 36 311 36 311 57 344 c 0,19,20
+ 104 420 104 420 147.5 455 c 128,-1,21
+ 191 490 191 490 235 505 c 1,22,23
+ 321 532 321 532 586 590 c 1,24,-1
+ 547 1027 l 1,25,-1
+ 699 1278 l 1,26,-1
+ 786 222 l 1,27,-1
+ 639 0 l 1,28,-1
+ 598 459 l 1,0,1
+EndSplineSet
+EndChar

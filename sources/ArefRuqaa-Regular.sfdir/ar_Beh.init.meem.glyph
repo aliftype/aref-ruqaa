@@ -1,0 +1,29 @@
+StartChar: arBeh.init.meem
+Encoding: 65770 -1 275
+Width: 753
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Meem" 0 0 exit 0
+AnchorPoint: "Tashkil Below" 540 -72 basechar 0
+AnchorPoint: "Tashkil Above" 558 981 basechar 0
+AnchorPoint: "Dots Above" 585 1116 basechar 0
+AnchorPoint: "Dots Below" 729 -18 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+590 306 m 1,0,1
+ 536 424 536 424 458.5 416.5 c 128,-1,2
+ 381 409 381 409 301.5 339.5 c 128,-1,3
+ 222 270 222 270 150.5 169 c 128,-1,4
+ 79 68 79 68 36 0 c 1,5,-1
+ 0 0 l 1,6,7
+ 3 4 3 4 9.5 26.5 c 128,-1,8
+ 16 49 16 49 42 103 c 0,9,10
+ 73 169 73 169 135 283.5 c 128,-1,11
+ 197 398 197 398 279 497 c 128,-1,12
+ 361 596 361 596 457.5 648 c 128,-1,13
+ 554 700 554 700 655 642 c 1,14,15
+ 718 604 718 604 666 486.5 c 128,-1,16
+ 614 369 614 369 590 306 c 1,0,1
+EndSplineSet
+EndChar

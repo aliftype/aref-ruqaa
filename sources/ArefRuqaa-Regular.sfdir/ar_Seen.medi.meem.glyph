@@ -1,0 +1,16 @@
+StartChar: arSeen.medi.meem
+Encoding: 65784 -1 289
+Width: 847
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Meem" 0 0 exit 0
+AnchorPoint: "Tashkil Above" 909 1116 basechar 0
+AnchorPoint: "Dots Above" 909 1224 basechar 0
+AnchorPoint: "Tashkil Below" 918 -45 basechar 0
+AnchorPoint: "Seen" 990 342 entry 0
+AnchorPoint: "Beh" 990 342 entry 0
+AnchorPoint: "Basic" 990 342 entry 0
+LayerCount: 2
+Fore
+Refer: 277 -1 N 1 0 0 1 0 0 2
+EndChar
