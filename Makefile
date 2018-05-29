@@ -26,6 +26,8 @@ SHP=$(TST:%.txt=%.shp)
 RUN=$(TST:%.txt=%.run)
 LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 
+export SOURCE_DATE_EPOCH ?= 0
+
 .PRECIOUS: $(BLDDIR)/master_otf/$(LATIN)-%.otf
 
 all: otf doc

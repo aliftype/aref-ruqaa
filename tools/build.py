@@ -110,9 +110,6 @@ the classical Ruqaa calligraphic style.")
     return arabic, fea
 
 def build(args):
-    if os.environ.get("SOURCE_DATE_EPOCH") is None:
-        os.environ["SOURCE_DATE_EPOCH"] = "0"
-
     font, features = merge(args)
 
     build_encoded(font, features)
