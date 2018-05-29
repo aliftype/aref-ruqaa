@@ -12,7 +12,6 @@ DIST=$(NAME)-$(VERSION)
 
 PY=python
 BUILD=$(TOOLDIR)/build.py
-RUNTEST=$(TOOLDIR)/runtest.py
 SFDLINT=$(TOOLDIR)/sfdlint.py
 
 FONTS=Regular Bold
@@ -21,9 +20,6 @@ SFD=$(FONTS:%=$(SRCDIR)/$(NAME)-%.sfdir)
 OTF=$(FONTS:%=$(NAME)-%.$(EXT))
 PDF=$(DOCDIR)/$(NAME)-Table.pdf
 
-TST=$(wildcard $(TESTDIR)/*.txt)
-SHP=$(TST:%.txt=%.shp)
-RUN=$(TST:%.txt=%.run)
 LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 
 export SOURCE_DATE_EPOCH ?= 0
@@ -35,7 +31,7 @@ all: otf doc
 otf: $(OTF)
 doc: $(PDF)
 lint: $(LNT)
-check: lint $(RUN)
+check: lint
 
 $(BLDDIR)/master_otf/$(LATIN)-%.otf: $(SRCDIR)/$(LATIN)-%.ufo
 	@echo "   FM	$(@F)"
@@ -45,10 +41,6 @@ $(BLDDIR)/master_otf/$(LATIN)-%.otf: $(SRCDIR)/$(LATIN)-%.ufo
 $(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(BLDDIR)/master_otf/$(LATIN)-%.otf $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
 	@echo "   FF	$@"
 	@$(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$(word 3,$+) $< $(word 2,$+)
-
-$(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-Regular.$(EXT)
-	@echo "   TST	$*"
-	@$(PY) $(RUNTEST) $(NAME)-Regular.$(EXT) $(@D)/$*.txt $(@D)/$*.shp $(@D)/$*.run
 
 $(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
 	@echo "   LNT	$<"
