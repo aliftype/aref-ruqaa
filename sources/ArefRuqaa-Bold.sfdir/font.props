@@ -39,25 +39,25 @@ HheadAOffset: 0
 HheadDescent: -500
 HheadDOffset: 0
 OS2Vendor: 'ALIF'
-Lookup: 259 9 0 "'curs' Basic" { "'curs' Basic subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Sad" { "'curs' Sad subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Lam" { "'curs' Lam subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Feh" { "'curs' Feh subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Beh" { "'curs' Beh subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Waw" { "'curs' Waw subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Meem" { "'curs' Meem subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Dal" { "'curs' Dal subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Hah" { "'curs' Hah subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Ain" { "'curs' Ain subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Reh" { "'curs' Reh subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Heh" { "'curs' Heh subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Yeh" { "'curs' Yeh subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 259 9 0 "'curs' Seen" { "'curs' Seen subtable"  } ['curs' ('DFLT' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Above" { "'mark' Above subtable"  } ['mark' ('DFLT' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Below" { "'mark' Below subtable"  } ['mark' ('DFLT' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Middle" { "'mark' Middle subtable"  } ['mark' ('DFLT' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Above" { "'mkmk' Above subtable"  } ['mkmk' ('DFLT' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Below" { "'mkmk' Below subtable"  } ['mkmk' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Basic" { "'curs' Basic"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Sad" { "'curs' Sad"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Lam" { "'curs' Lam"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Feh" { "'curs' Feh"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Beh" { "'curs' Beh"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Waw" { "'curs' Waw"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Meem" { "'curs' Meem"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Dal" { "'curs' Dal"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Hah" { "'curs' Hah"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Ain" { "'curs' Ain"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Reh" { "'curs' Reh"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Heh" { "'curs' Heh"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Yeh" { "'curs' Yeh"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 259 9 0 "'curs' Seen" { "'curs' Seen"  } ['curs' ('DFLT' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Above" { "'mark' Above"  } ['mark' ('DFLT' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Below" { "'mark' Below"  } ['mark' ('DFLT' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Middle" { "'mark' Middle"  } ['mark' ('DFLT' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Above" { "'mkmk' Above"  } ['mkmk' ('DFLT' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Below" { "'mkmk' Below"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -67,5 +67,5 @@ UnicodeInterp: none
 NameList: AGL For New Fonts
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "Sharta Above" "'mark' Above subtable" "Mark Mark Above" "'mkmk' Above subtable" "Mark Mark Below" "'mkmk' Below subtable" "Middle" "'mark' Middle subtable" "Basic" "'curs' Basic subtable" "Sad" "'curs' Sad subtable" "Lam" "'curs' Lam subtable" "Feh" "'curs' Feh subtable" "Beh" "'curs' Beh subtable" "Waw" "'curs' Waw subtable" "Meem" "'curs' Meem subtable" "Dal" "'curs' Dal subtable" "Hah" "'curs' Hah subtable" "Ain" "'curs' Ain subtable" "Reh" "'curs' Reh subtable" "Heh" "'curs' Heh subtable" "Yeh" "'curs' Yeh subtable" "Seen" "'curs' Seen subtable" "Tashkil Above" "'mark' Above subtable" "Dots Above" "'mark' Above subtable" "Tashkil Below" "'mark' Below subtable" "Dots Below" "'mark' Below subtable"
+AnchorClass2: "Sharta Above" "'mark' Above" "Mark Mark Above" "'mkmk' Above" "Mark Mark Below" "'mkmk' Below" "Middle" "'mark' Middle" "Basic" "'curs' Basic" "Sad" "'curs' Sad" "Lam" "'curs' Lam" "Feh" "'curs' Feh" "Beh" "'curs' Beh" "Waw" "'curs' Waw" "Meem" "'curs' Meem" "Dal" "'curs' Dal" "Hah" "'curs' Hah" "Ain" "'curs' Ain" "Reh" "'curs' Reh" "Heh" "'curs' Heh" "Yeh" "'curs' Yeh" "Seen" "'curs' Seen" "Tashkil Above" "'mark' Above" "Dots Above" "'mark' Above" "Tashkil Below" "'mark' Below" "Dots Below" "'mark' Below"
 EndSplineFont
