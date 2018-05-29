@@ -1,4 +1,4 @@
-from sortsmill import ffcompat as fontforge
+import fontforge
 import sys
 
 font = fontforge.open(sys.argv[1])
@@ -20,16 +20,16 @@ for glyph in font.glyphs():
 
 if bad_glyph_classes:
     from pprint import pformat
-    print >> sys.stderr, "Some glyphs have bad glyph class:"
-    print >> sys.stderr, pformat(bad_glyph_classes)
+    print("Some glyphs have bad glyph class:", file=sys.stderr)
+    print(pformat(bad_glyph_classes), file=sys.stderr)
     sys.exit(1)
 
 if bad_side_bearings:
     from pprint import pformat
-    print >> sys.stderr, "Some glyphs have bad side bearings:"
-    print >> sys.stderr, pformat(bad_side_bearings)
+    print("Some glyphs have bad side bearings:", file=sys.stderr)
+    print(pformat(bad_side_bearings), file=sys.stderr)
     sys.exit(1)
 
 with open(sys.argv[2], "w") as log:
-    print >> log, "All tests passed"
+    print("All tests passed", file=log)
 sys.exit(0)
