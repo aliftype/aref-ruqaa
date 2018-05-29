@@ -57,6 +57,7 @@ Lookup: 260 0 0 "'mark' Above" { "'mark' Above subtable"  } ['mark' ('DFLT' <'df
 Lookup: 260 0 0 "'mark' Below" { "'mark' Below subtable"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Middle" { "'mark' Middle subtable"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Above" { "'mkmk' Above subtable"  } ['mkmk' ('DFLT' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Below" { "'mkmk' Below subtable"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -66,5 +67,5 @@ UnicodeInterp: none
 NameList: AGL For New Fonts
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "Sharta Above" "'mark' Above subtable" "Mark Mark Above" "'mkmk' Above subtable" "Mark Mark Below" "'mkmk' Above subtable" "Middle" "'mark' Middle subtable" "Basic" "'curs' Basic subtable" "Sad" "'curs' Sad subtable" "Lam" "'curs' Lam subtable" "Feh" "'curs' Feh subtable" "Beh" "'curs' Beh subtable" "Waw" "'curs' Waw subtable" "Meem" "'curs' Meem subtable" "Dal" "'curs' Dal subtable" "Hah" "'curs' Hah subtable" "Ain" "'curs' Ain subtable" "Reh" "'curs' Reh subtable" "Heh" "'curs' Heh subtable" "Yeh" "'curs' Yeh subtable" "Seen" "'curs' Seen subtable" "Tashkil Above" "'mark' Above subtable" "Dots Above" "'mark' Above subtable" "Tashkil Below" "'mark' Below subtable" "Dots Below" "'mark' Below subtable"
+AnchorClass2: "Sharta Above" "'mark' Above subtable" "Mark Mark Above" "'mkmk' Above subtable" "Mark Mark Below" "'mkmk' Below subtable" "Middle" "'mark' Middle subtable" "Basic" "'curs' Basic subtable" "Sad" "'curs' Sad subtable" "Lam" "'curs' Lam subtable" "Feh" "'curs' Feh subtable" "Beh" "'curs' Beh subtable" "Waw" "'curs' Waw subtable" "Meem" "'curs' Meem subtable" "Dal" "'curs' Dal subtable" "Hah" "'curs' Hah subtable" "Ain" "'curs' Ain subtable" "Reh" "'curs' Reh subtable" "Heh" "'curs' Heh subtable" "Yeh" "'curs' Yeh subtable" "Seen" "'curs' Seen subtable" "Tashkil Above" "'mark' Above subtable" "Dots Above" "'mark' Above subtable" "Tashkil Below" "'mark' Below subtable" "Dots Below" "'mark' Below subtable"
 EndSplineFont
