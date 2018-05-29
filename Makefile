@@ -10,7 +10,7 @@ TOOLDIR=tools
 TESTDIR=tests
 DIST=$(NAME)-$(VERSION)
 
-PY=python
+PY ?= python
 BUILD=$(TOOLDIR)/build.py
 SFDLINT=$(TOOLDIR)/sfdlint.py
 
