@@ -3,20 +3,20 @@ Encoding: 65878 -1 382
 Width: 807
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Beh" -55 -297 entry 0
-AnchorPoint: "Lam" -55 -297 entry 0
-AnchorPoint: "Dots Above" 583 1166 basechar 0
-AnchorPoint: "Tashkil Above" 594 1078 basechar 0
-AnchorPoint: "Dots Below" 649 -715 basechar 0
-AnchorPoint: "Tashkil Below" 649 -528 basechar 0
+AnchorPoint: "Beh" -55 0 entry 0
+AnchorPoint: "Lam" -55 0 entry 0
+AnchorPoint: "Dots Above" 583 1463 basechar 0
+AnchorPoint: "Tashkil Above" 594 1375 basechar 0
+AnchorPoint: "Dots Below" 649 -418 basechar 0
+AnchorPoint: "Tashkil Below" 649 -231 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-662 0 m 1,0,-1
- 591 613 l 1,1,-1
- 724 859 l 1,2,3
- 742 700 742 700 764 546.5 c 128,-1,4
- 786 393 786 393 798 229 c 1,5,-1
- 662 0 l 1,0,-1
+662 297 m 1,0,-1
+ 591 910 l 1,1,-1
+ 724 1156 l 1,2,3
+ 742 997 742 997 764 843.5 c 128,-1,4
+ 786 690 786 690 798 526 c 1,5,-1
+ 662 297 l 1,0,-1
 EndSplineSet
 EndChar
