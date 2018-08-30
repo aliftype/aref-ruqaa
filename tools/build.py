@@ -17,54 +17,21 @@ import fontforge
 
 from buildencoded import build as build_encoded
 
-def merge(args):
-    arabic = fontforge.open(args.arabicfile)
-    arabic.encoding = "Unicode"
-
-    latin = fontforge.open(args.latinfile)
-    latin.encoding = "Unicode"
-    latin.em = arabic.em
-
-    latin_locl = ""
-    for glyph in latin.glyphs():
-        if glyph.color == 0xff0000:
-            latin.removeGlyph(glyph)
-        else:
-            if glyph.glyphname in arabic:
-                name = glyph.glyphname
-                glyph.unicode = -1
-                glyph.glyphname = name + ".latin"
-                if not latin_locl:
-                    latin_locl = "feature locl {\nlookupflag IgnoreMarks; script latn;"
-                latin_locl += "sub %s by %s;" % (name, glyph.glyphname)
-
-    with tempfile.NamedTemporaryFile(mode="r") as tmp:
-        latin.save(tmp.name)
-        arabic.mergeFonts(tmp.name)
-
-    with open(args.feature_file) as feature_file:
-        features = string.Template(feature_file.read())
-        with tempfile.NamedTemporaryFile(mode="w+") as tmp:
-            arabic.generateFeatureFile(tmp.name)
-            gpos = tmp.read()
-
-    if latin_locl:
-        latin_locl += "} locl;"
-        features += "\n" + latin_locl
-
-    features = features.substitute(GPOS=gpos)
-    glyph_names = [n for n in arabic]
-
-    # Parse the feature file and put all langsysstatement’s on the top
-    fea = parser.Parser(io.StringIO(features), glyph_names).parse()
-    langsys = {s.asFea(): s for s in fea.statements if isinstance(s, ast.LanguageSystemStatement)}
-    statements = [s for s in fea.statements if not isinstance(s, ast.LanguageSystemStatement)]
+def parse_arabic_features(font, features):
+    fea = parser.Parser(io.StringIO(features), font).parse()
 
     # Drop script and language statements from GPOS features (which are
-    # generated from FontForge sources), so that they inherit from the
-    # global languagesytem’s set in the feature file. This way I don’t have to manually repeat them.
-    for statement in statements:
-        if getattr(statement, "name", None) in ("curs", "mark", "mkmk"):
+    # generated from FontForge sources), so that they inherit from the global
+    # languagesytem’s set in the feature file. This way I don’t have to
+    # manually repeat them.
+    langsys = {}
+    statements = []
+    for statement in fea.statements:
+        name = getattr(statement, "name", "")
+        if isinstance(statement, ast.LanguageSystemStatement):
+            langsys[statement.asFea()] = statement
+            continue
+        if name in ("curs", "mark", "mkmk"):
             scripts = []
             languages = []
             substatements = []
@@ -75,21 +42,98 @@ def merge(args):
                     languages.append(substatement.language)
                 else:
                     substatements.append(substatement)
-            if "latn" in scripts:
-                # Not an Arabic feature, does nothing.
-                continue
             # There must be one script and one language statement, otherwise
             # the lookups will be duplicated.
             assert len(scripts) == 1, statement
             assert len(languages) == 1, statement
             statement.statements = substatements
+        statements.append(statement)
 
     # Make sure DFLT is the first.
     langsys = sorted(langsys.values(), key=operator.attrgetter("script"))
     fea.statements = langsys + statements
 
-    for lookup in arabic.gsub_lookups + arabic.gpos_lookups:
-        arabic.removeLookup(lookup)
+    return fea
+
+
+def parse_latin_features(font, features):
+    # Parse the features and drop any languagesystem statement, they are
+    # superfluous in FontForge generated features.
+    fea = parser.Parser(io.StringIO(features), font).parse()
+
+    fea.statements = [s for s in fea.statements
+                      if not isinstance(s, ast.LanguageSystemStatement)]
+
+    return fea
+
+
+def merge_features(fea1, fea2):
+    # Merge the GDEF classes, since that i the only thing duplicated.
+    gdef = {}
+    for statement in fea1.statements:
+        name = getattr(statement, "name", "")
+        if name.startswith("GDEF_"):
+            gdef[name] = statement
+
+    for statement in fea2.statements:
+        name = getattr(statement, "name", "")
+        if name.startswith("GDEF_"):
+            if name in gdef:
+                 gdef[name].glyphs.extend(statement.glyphSet())
+                 continue
+            gdef[name] = statement
+        elif name == "GDEF":
+            continue
+        fea1.statements.append(statement)
+
+    return fea1
+
+
+def merge(args):
+    arabic = fontforge.open(args.arabicfile)
+    arabic.encoding = "Unicode"
+
+    latin = fontforge.open(args.latinfile)
+    latin.encoding = "Unicode"
+    latin.em = arabic.em
+
+    # If any Latin glyph exists in the Arabic font, rename it and add to a locl
+    # feature.
+    locl = []
+    for glyph in latin.glyphs():
+        if glyph.glyphname in arabic or glyph.unicode in arabic:
+            name = arabic[glyph.unicode].glyphname
+            glyph.unicode = -1
+            glyph.glyphname += ".latn"
+            locl.append("sub %s by %s;" % (name, glyph.glyphname))
+
+    # Read external feature file.
+    with open(args.feature_file) as feature_file:
+        features = string.Template(feature_file.read())
+
+    # Add Arabic GPOS features from the SFD file.
+    with tempfile.NamedTemporaryFile(mode="w+") as tmp:
+        arabic.generateFeatureFile(tmp.name)
+        gpos = tmp.read()
+        features = features.substitute(GPOS=gpos)
+        arabic_fea = parse_arabic_features(arabic, features)
+
+    # Add Latin features, must do before merging the fonts.
+    with tempfile.NamedTemporaryFile(mode="w+") as tmp:
+        latin.generateFeatureFile(tmp.name)
+        features = tmp.read()
+        if locl:
+            features += "feature locl {\nlookupflag IgnoreMarks; script latn;"
+            features += "\n".join(locl)
+            features += "} locl;"
+        latin_fea = parse_latin_features(latin, features)
+
+    # Merge Arabic and Latin fonts
+    with tempfile.NamedTemporaryFile(mode="r") as tmp:
+        latin.save(tmp.name)
+        arabic.mergeFonts(tmp.name)
+
+    fea = merge_features(arabic_fea, latin_fea)
 
     # Set metadata
     arabic.version = args.version
@@ -108,6 +152,7 @@ the classical Ruqaa calligraphic style.")
     arabic.appendSFNTName(en, "UniqueID", "%s;%s;%s" % (arabic.version, arabic.os2_vendor, arabic.fontname))
 
     return arabic, fea
+
 
 def build(args):
     font, features = merge(args)
