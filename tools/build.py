@@ -3,7 +3,6 @@
 
 import argparse
 import os
-import string
 import tempfile
 import io
 import operator
@@ -109,13 +108,12 @@ def merge(args):
 
     # Read external feature file.
     with open(args.feature_file) as feature_file:
-        features = string.Template(feature_file.read())
+        features = feature_file.read()
 
     # Add Arabic GPOS features from the SFD file.
     with tempfile.NamedTemporaryFile(mode="w+") as tmp:
         arabic.generateFeatureFile(tmp.name)
-        gpos = tmp.read()
-        features = features.substitute(GPOS=gpos)
+        features += tmp.read()
         arabic_fea = parse_arabic_features(arabic, features)
 
     # Add Latin features, must do before merging the fonts.

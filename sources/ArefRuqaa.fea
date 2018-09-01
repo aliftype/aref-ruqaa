@@ -724,8 +724,6 @@ feature ss08 {
 
 # GPOS
 
-${GPOS}
-
 feature kern {
   @dal     = [arDal.isol arDal.fina];
   @waw     = [arReh.isol arReh.fina arWaw.isol arWaw.fina];
