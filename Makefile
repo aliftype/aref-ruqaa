@@ -36,7 +36,12 @@ check: lint
 $(BLDDIR)/master_otf/$(LATIN)-%.otf: $(SRCDIR)/$(LATIN)-%.ufo
 	@echo "   FM	$(@F)"
 	@mkdir -p $(BLDDIR)
-	@cd $(BLDDIR); fontmake -u $(realpath $<) -o otf --verbose WARNING
+	@cd $(BLDDIR); fontmake                                                \
+	                        --verbose WARNING                              \
+	                        --production-names                             \
+	                        -u $(realpath $<)                              \
+	                        -o otf                                         \
+	                ;
 
 $(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(BLDDIR)/master_otf/$(LATIN)-%.otf $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
 	@echo "   FF	$@"
