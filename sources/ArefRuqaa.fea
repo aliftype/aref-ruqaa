@@ -130,10 +130,58 @@ lookup calt_meem_heh {
 
 @context_heh = [arHeh.medi arHeh.medi.hah arHeh.medi.dal arHeh.medi.reh arHeh.medi.sad
                 arHeh.medi.ain arHeh.medi.feh arHeh.medi.meem arHeh.medi.heh arHeh.medi.yeh];
-lookup calt_heh {
-  lookupflag IgnoreMarks;
-    sub @init_medi' @context_heh by @heh;
-} calt_heh;
+lookup calt_heh_1 {
+    lookupflag RightToLeft IgnoreMarks;
+    sub arBeh.init' @context_heh by arBeh.init.heh;
+    sub arHah.init' @context_heh by arHah.init.heh;
+    sub arSeen.init' @context_heh by arSeen.init.heh;
+    sub arSad.init' @context_heh by arSad.init.heh;
+    sub arTah.init' @context_heh by arTah.init.heh;
+    sub arAin.init' @context_heh by arAin.init.heh;
+    sub arFeh.init' @context_heh by arFeh.init.heh;
+    sub arKaf.init' @context_heh by arKaf.init.heh;
+    sub arLam.init' @context_heh by arLam.init.heh;
+    sub arMeem.init' @context_heh by arMeem.init.heh;
+    sub arHeh.init' @context_heh by arHeh.init.heh;
+    sub arHeh.init2' @context_heh by arHeh.init2.heh;
+    sub arBeh.medi' @context_heh by arBeh.medi.heh;
+    sub arHah.medi' @context_heh by arHah.medi.heh;
+    sub arSeen.medi' @context_heh by arSeen.medi.heh;
+    sub arSad.medi' @context_heh by arSad.medi.heh;
+    sub arTah.medi' @context_heh by arTah.medi.heh;
+    sub arAin.medi' @context_heh by arAin.medi.heh;
+    sub arFeh.medi' @context_heh by arFeh.medi.heh;
+    sub arKaf.medi' @context_heh by arKaf.medi.heh;
+    sub arLam.medi' @context_heh by arLam.medi.heh;
+    sub arMeem.medi' @context_heh by arMeem.medi.heh;
+    sub arHeh.medi2' @context_heh by arHeh.medi2.heh;
+    sub arHeh.medi' @context_heh by arHeh.medi.heh;
+} calt_heh_1;
+
+lookup calt_heh_2 {
+    lookupflag RightToLeft IgnoreMarks;
+    sub arHeh.medi.heh arHeh.medi.heh' arHeh.medi.heh by arHeh.medi2.heh;
+    sub arHeh.medi.heh arHeh.medi.heh' arHeh.medi by arHeh.medi2.heh;
+    sub arHeh.medi.heh' arHeh.medi arHeh.fina by arHeh.medi2.heh;
+} calt_heh_2;
+
+lookup calt_heh_3 {
+    lookupflag RightToLeft IgnoreMarks;
+    sub arHeh.medi.heh' arHeh.medi2.heh by arHeh.medi.meem;
+    sub arHeh.init.heh' arHeh.medi2.heh by arHeh.init.hah;
+    sub arHeh.medi2.heh arHeh.medi.heh' arHeh.medi2 by arHeh.medi.meem;
+    sub arHeh.medi2.heh arHeh.init.heh' arHeh.medi2 by arHeh.init.hah;
+} calt_heh_3;
+
+lookup calt_heh_4 {
+    lookupflag RightToLeft IgnoreMarks;
+    sub arHeh.medi2.heh arHeh.medi2.heh arHeh.medi' by arHeh.medi2;
+} calt_heh_4;
+
+lookup calt_heh_5 {
+    lookupflag RightToLeft IgnoreMarks;
+    sub arHeh.medi2.heh arHeh.medi2.heh' arHeh.medi2 by arHeh.medi.meem;
+} calt_heh_5;
 
 lookup calt_yeh {
   lookupflag IgnoreMarks;
@@ -548,7 +596,11 @@ feature calt {
     lookup calt_ain;
     lookup calt_feh;
     lookup calt_meem_heh;
-    lookup calt_heh;
+    lookup calt_heh_1;
+    lookup calt_heh_2;
+    lookup calt_heh_3;
+    lookup calt_heh_4;
+    lookup calt_heh_5;
     lookup calt_yeh;
     lookup calt_yeh_by_yeh;
     lookup calt_kaf_alef;
