@@ -53,7 +53,7 @@ languagesystem arab MLY;
               arKaf.medi.reh arLam.init.reh arLam.medi.reh arMeem.init.reh arMeem.medi.reh
               arHeh.init.reh arHeh.medi2.reh arHeh.medi.reh arHeh.init2.reh];
 @sad       = [arBeh.init.sad arBeh.medi.sad arHah.init.sad arHah.medi.sad arSeen.init.sad
-              arSeen.medi.sad arSad.init.sad arSad.medi.sad arTah.init.sad arTah.medi.sad
+              arSeen.medi.sad arSad.init.qantara arSad.medi.qantara arTah.init.qantara arTah.medi.qantara
               arAin.init.sad arAin.medi.sad arFeh.init.sad arFeh.medi.sad arKaf.init.sad
               arKaf.medi.sad arLam.init.sad arLam.medi.sad arMeem.init.sad arMeem.medi.sad
               arHeh.init.sad arHeh.medi2.sad arHeh.medi.sad arHeh.init2.sad];
@@ -87,8 +87,8 @@ lookup calt_reh {
 } calt_reh;
 
 @context_sad = [arSad.fina arSad.medi arTah.fina arTah.medi arSad.medi.hah arTah.medi.hah
-                arSad.medi.dal arTah.medi.dal arSad.medi.reh arTah.medi.reh arSad.medi.sad
-                arTah.medi.sad arSad.medi.ain arTah.medi.ain arSad.medi.feh arTah.medi.feh
+                arSad.medi.dal arTah.medi.dal arSad.medi.reh arTah.medi.reh arSad.medi.qantara
+                arTah.medi.qantara arSad.medi.ain arTah.medi.ain arSad.medi.feh arTah.medi.feh
                 arSad.medi.meem arTah.medi.meem arSad.medi.heh arTah.medi.heh arSad.medi.yeh
                 arTah.medi.yeh arSad.fina.jalt arTah.medi.kaf];
 lookup calt_sad {
@@ -759,10 +759,10 @@ feature ss07 {
   };
 
   lookupflag IgnoreMarks;
-    sub arSad.init.sad by arSad.init.qantara;
-    sub arSad.medi.sad by arSad.medi.qantara;
-    sub arTah.init.sad by arTah.init.qantara;
-    sub arTah.medi.sad by arTah.medi.qantara;
+    sub arSad.init.qantara by arSad.init.sad;
+    sub arSad.medi.qantara by arSad.medi.sad;
+    sub arTah.init.qantara by arTah.init.sad;
+    sub arTah.medi.qantara by arTah.medi.sad;
 } ss07;
 
 feature ss08 {
