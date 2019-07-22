@@ -50,7 +50,6 @@ $(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
 	@$(PY) $(SFDLINT) $< $@
 
 dist:
-	@make -B
 	@mkdir -p $(NAME)-$(VERSION)
 	@cp $(OTF) $(NAME)-$(VERSION)
 	@cp OFL.txt $(NAME)-$(VERSION)
