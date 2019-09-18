@@ -5,6 +5,7 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "Hah" -10 -60 exit 0
 AnchorPoint: "Tashkil Below" 1026 -387 basechar 0
+AnchorPoint: "Tashkil Above" 891 1422 basechar 0
 LayerCount: 2
 Fore
 SplineSet

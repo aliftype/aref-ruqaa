@@ -5,6 +5,7 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "Meem" -20 -50 exit 0
 AnchorPoint: "Tashkil Below" 963 -9 basechar 0
+AnchorPoint: "Tashkil Above" 873 1809 basechar 0
 LayerCount: 2
 Fore
 SplineSet

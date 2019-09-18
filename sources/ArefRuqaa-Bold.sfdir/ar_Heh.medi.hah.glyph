@@ -3,8 +3,9 @@ Encoding: 65649 -1 154
 Width: 819
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Hah" -30 -100 exit 0
 AnchorPoint: "Heh" 765 243 entry 0
+AnchorPoint: "Tashkil Above" 756 1044 basechar 0
+AnchorPoint: "Hah" -30 -100 exit 0
 AnchorPoint: "Tashkil Below" 819 -639 basechar 0
 LayerCount: 2
 Fore
