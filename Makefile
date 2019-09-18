@@ -23,25 +23,26 @@ LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 
 export SOURCE_DATE_EPOCH ?= 0
 
-.PRECIOUS: $(BLDDIR)/master_otf/$(LATIN)-%.otf
+.PRECIOUS: $(BLDDIR)/$(LATIN)-%.$(EXT)
 
-all: otf
+all: $(EXT)
 
-otf: $(OTF)
+$(EXT): $(OTF)
 lint: $(LNT)
 check: lint
 
-$(BLDDIR)/master_otf/$(LATIN)-%.otf: $(SRCDIR)/$(LATIN)-%.ufo
+$(BLDDIR)/$(LATIN)-%.$(EXT): $(SRCDIR)/$(LATIN)-%.ufo
 	@echo "   FM	$(@F)"
 	@mkdir -p $(BLDDIR)
-	@cd $(BLDDIR); fontmake                                                \
-	                        --verbose WARNING                              \
-	                        --production-names                             \
-	                        -u $(realpath $<)                              \
-	                        -o otf                                         \
-	                ;
+	@fontmake                                                              \
+	   --verbose WARNING                                                   \
+	   --production-names                                                  \
+	   -u $(realpath $<)                                                   \
+	   -o $(EXT)                                                           \
+	   --output-path $@                                                    \
+	 ;
 
-$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(BLDDIR)/master_otf/$(LATIN)-%.otf $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
+$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(BLDDIR)/$(LATIN)-%.$(EXT) $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
 	@echo "   FF	$@"
 	@$(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$(word 3,$+) $< $(word 2,$+)
 
