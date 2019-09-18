@@ -48,6 +48,7 @@ $(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(BLDDIR)/$(LATIN)-%.$(EXT) $(SRCDIR
 
 $(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
 	@echo "   LNT	$<"
+	@mkdir -p $(TESTDIR)
 	@$(PY) $(SFDLINT) $< $@
 
 dist:
