@@ -1,4 +1,4 @@
 cu2qu==1.6.6
 fontmake==2.0.3
-fonttools==4.0.1
+fonttools[ufo,lxml]==4.0.1
 ufo2ft==2.9.1
