@@ -749,8 +749,7 @@ feature ss06 {
     name "Tailed Sheen";
   };
 
-  lookupflag IgnoreMarks;
-    sub arSeen.isol ar3Noqta.above by arSheen.fina2;
+  sub arSeen.isol ar3Noqta.above by arSheen.fina2;
 } ss06;
 
 feature ss07 {
