@@ -749,7 +749,7 @@ feature ss06 {
     name "Tailed Sheen";
   };
 
-  sub arSeen.isol ar3Noqta.above by arSheen.fina2;
+  sub arSeen.isol ar3Noqta.above by arSheen.isol;
 } ss06;
 
 feature ss07 {
