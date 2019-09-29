@@ -234,6 +234,10 @@
     <string>egrave.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
+    <key>eight.dnom</key>
+    <string>eight.dnom.glif</string>
+    <key>eight.numr</key>
+    <string>eight.numr.glif</string>
     <key>epsilon</key>
     <string>epsilon.glif</string>
     <key>epsilon1</key>
@@ -254,8 +258,16 @@
     <string>f.alt.glif</string>
     <key>five</key>
     <string>five.glif</string>
+    <key>five.dnom</key>
+    <string>five.dnom.glif</string>
+    <key>five.numr</key>
+    <string>five.numr.glif</string>
     <key>four</key>
     <string>four.glif</string>
+    <key>four.dnom</key>
+    <string>four.dnom.glif</string>
+    <key>four.numr</key>
+    <string>four.numr.glif</string>
     <key>fraction</key>
     <string>fraction.glif</string>
     <key>g</key>
@@ -320,6 +332,10 @@
     <string>n.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
+    <key>nine.dnom</key>
+    <string>nine.dnom.glif</string>
+    <key>nine.numr</key>
+    <string>nine.numr.glif</string>
     <key>ntilde</key>
     <string>ntilde.glif</string>
     <key>nu</key>
@@ -342,6 +358,10 @@
     <string>omega.glif</string>
     <key>one</key>
     <string>one.glif</string>
+    <key>one.dnom</key>
+    <string>one.dnom.glif</string>
+    <key>one.numr</key>
+    <string>one.numr.glif</string>
     <key>onehalf</key>
     <string>onehalf.glif</string>
     <key>onequarter</key>
@@ -412,10 +432,18 @@
     <string>semicolon.glif</string>
     <key>seven</key>
     <string>seven.glif</string>
+    <key>seven.dnom</key>
+    <string>seven.dnom.glif</string>
+    <key>seven.numr</key>
+    <string>seven.numr.glif</string>
     <key>sigma</key>
     <string>sigma.glif</string>
     <key>six</key>
     <string>six.glif</string>
+    <key>six.dnom</key>
+    <string>six.dnom.glif</string>
+    <key>six.numr</key>
+    <string>six.numr.glif</string>
     <key>slash</key>
     <string>slash.glif</string>
     <key>space</key>
@@ -434,12 +462,20 @@
     <string>thorn.glif</string>
     <key>three</key>
     <string>three.glif</string>
+    <key>three.dnom</key>
+    <string>three.dnom.glif</string>
+    <key>three.numr</key>
+    <string>three.numr.glif</string>
     <key>threequarters</key>
     <string>threequarters.glif</string>
     <key>tildecomb</key>
     <string>tildecomb.glif</string>
     <key>two</key>
     <string>two.glif</string>
+    <key>two.dnom</key>
+    <string>two.dnom.glif</string>
+    <key>two.numr</key>
+    <string>two.numr.glif</string>
     <key>u</key>
     <string>u.glif</string>
     <key>uacute</key>
@@ -494,6 +530,10 @@
     <string>z.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
+    <key>zero.dnom</key>
+    <string>zero.dnom.glif</string>
+    <key>zero.numr</key>
+    <string>zero.numr.glif</string>
     <key>zeta</key>
     <string>zeta.glif</string>
   </dict>
