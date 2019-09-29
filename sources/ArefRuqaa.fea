@@ -776,6 +776,52 @@ feature ss08 {
     sub uni0652 by uni0652.alt;
 } ss08;
 
+feature numr {
+  sub uni0030 by uni0030.numr;
+  sub uni0031 by uni0031.numr;
+  sub uni0032 by uni0032.numr;
+  sub uni0033 by uni0033.numr;
+  sub uni0034 by uni0034.numr;
+  sub uni0035 by uni0035.numr;
+  sub uni0036 by uni0036.numr;
+  sub uni0037 by uni0037.numr;
+  sub uni0038 by uni0038.numr;
+  sub uni0039 by uni0039.numr;
+  sub uni0660 by uni0660.numr;
+  sub uni0661 by uni0661.numr;
+  sub uni0662 by uni0662.numr;
+  sub uni0663 by uni0663.numr;
+  sub uni0664 by uni0664.numr;
+  sub uni0665 by uni0665.numr;
+  sub uni0666 by uni0666.numr;
+  sub uni0667 by uni0667.numr;
+  sub uni0668 by uni0668.numr;
+  sub uni0669 by uni0669.numr;
+} numr;
+
+feature dnom {
+  sub uni0030 by uni0030.dnom;
+  sub uni0031 by uni0031.dnom;
+  sub uni0032 by uni0032.dnom;
+  sub uni0033 by uni0033.dnom;
+  sub uni0034 by uni0034.dnom;
+  sub uni0035 by uni0035.dnom;
+  sub uni0036 by uni0036.dnom;
+  sub uni0037 by uni0037.dnom;
+  sub uni0038 by uni0038.dnom;
+  sub uni0039 by uni0039.dnom;
+  sub uni0660 by uni0660.dnom;
+  sub uni0661 by uni0661.dnom;
+  sub uni0662 by uni0662.dnom;
+  sub uni0663 by uni0663.dnom;
+  sub uni0664 by uni0664.dnom;
+  sub uni0665 by uni0665.dnom;
+  sub uni0666 by uni0666.dnom;
+  sub uni0667 by uni0667.dnom;
+  sub uni0668 by uni0668.dnom;
+  sub uni0669 by uni0669.dnom;
+} dnom;
+
 # GPOS
 
 feature kern {
