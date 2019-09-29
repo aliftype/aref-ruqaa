@@ -9,6 +9,7 @@ import operator
 
 from datetime import datetime
 
+from fontTools import subset
 from fontTools.ttLib import TTFont
 from fontTools.feaLib import ast, parser, builder
 
@@ -169,6 +170,19 @@ def build(args):
             print("Failed! Inspect temporary file: %r" % tmp.name)
         raise
 
+    # Drop useless table with timestamp
+    if "FFTM" in ttfont:
+        del ttfont["FFTM"]
+
+    unicodes = [g.unicode for g in font.glyphs() if g.unicode > 0]
+
+    options = subset.Options()
+    options.set(layout_features='*', name_IDs='*', name_languages='*',
+        notdef_outline=True, glyph_names=True)
+    subsetter = subset.Subsetter(options=options)
+    subsetter.populate(unicodes=unicodes)
+    subsetter.subset(ttfont)
+
     # Filter-out useless Macintosh names
     ttfont["name"].names = [n for n in ttfont["name"].names if n.platformID != 1]
 
@@ -177,10 +191,6 @@ def build(args):
     ttfont["head"].fontDirectionHint = 2
     # unset bits 6..10
     ttfont["head"].flags &= ~0x7e0
-
-    # Drop useless table with timestamp
-    if "FFTM" in ttfont:
-        del ttfont["FFTM"]
 
     ttfont.save(args.out_file)
 
