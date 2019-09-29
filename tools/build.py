@@ -176,6 +176,9 @@ def build(args):
 
     unicodes = [g.unicode for g in font.glyphs() if g.unicode > 0]
 
+    # Drop incomplete Greek support.
+    unicodes = set(unicodes) - set(range(0x0370, 0x03FF))
+
     options = subset.Options()
     options.set(layout_features='*', name_IDs='*', name_languages='*',
         notdef_outline=True, glyph_names=True)
