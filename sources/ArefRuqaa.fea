@@ -797,6 +797,13 @@ feature numr {
   sub uni0667 by uni0667.numr;
   sub uni0668 by uni0668.numr;
   sub uni0669 by uni0669.numr;
+  sub uni06F2 by uni06F2.numr;
+  sub uni06F4 by uni06F4.numr;
+  sub uni06F5 by uni06F5.numr;
+  sub uni06F6 by uni06F6.numr;
+  sub uni06F7 by uni0667.numr;
+  sub uni06F4.urd by uni06F4.urd.numr;
+  sub uni06F7.urd by uni06F7.urd.numr;
 } numr;
 
 feature dnom {
@@ -820,6 +827,13 @@ feature dnom {
   sub uni0667 by uni0667.dnom;
   sub uni0668 by uni0668.dnom;
   sub uni0669 by uni0669.dnom;
+  sub uni06F2 by uni06F2.dnom;
+  sub uni06F4 by uni06F4.dnom;
+  sub uni06F5 by uni06F5.dnom;
+  sub uni06F6 by uni06F6.dnom;
+  sub uni06F7 by uni0667.dnom;
+  sub uni06F4.urd by uni06F4.urd.dnom;
+  sub uni06F7.urd by uni06F7.urd.dnom;
 } dnom;
 
 # GPOS
