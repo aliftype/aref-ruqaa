@@ -1,5 +1,5 @@
 StartChar: arSad.medi.reh
-Encoding: 65689 -1 194
+Encoding: 65689 -1 189
 Width: 592
 GlyphClass: 2
 Flags: W
@@ -10,5 +10,5 @@ AnchorPoint: "Tashkil Above" 873 1062 basechar 0
 AnchorPoint: "Dots Above" 999 1170 basechar 0
 LayerCount: 2
 Fore
-Refer: 182 -1 N 1 0 0 1 0 0 2
+Refer: 177 -1 N 1 0 0 1 0 0 2
 EndChar

@@ -1,5 +1,5 @@
 StartChar: arKaf.isol.jalt
-Encoding: 65876 -1 380
+Encoding: 65876 -1 375
 Width: 2111
 GlyphClass: 2
 Flags: W
@@ -8,6 +8,6 @@ AnchorPoint: "Tashkil Above" 1161 1737 basechar 0
 AnchorPoint: "Tashkil Below" 945 -297 basechar 0
 LayerCount: 2
 Fore
-Refer: 59 1569 N 0.75 0 0 0.75 752.801 409.125 2
-Refer: 360 -1 N 1 0 0 1 0 0 2
+Refer: 54 1569 N 0.75 0 0 0.75 752.801 409.125 2
+Refer: 355 -1 N 1 0 0 1 0 0 2
 EndChar

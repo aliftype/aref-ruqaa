@@ -1,5 +1,5 @@
 StartChar: arTah.medi.feh
-Encoding: 65762 -1 267
+Encoding: 65762 -1 262
 Width: 787
 GlyphClass: 2
 Flags: W
@@ -11,5 +11,5 @@ AnchorPoint: "Basic" 1171 168 entry 0
 AnchorPoint: "Dots Above" 1215 1107 basechar 0
 LayerCount: 2
 Fore
-Refer: 255 -1 N 1 0 0 1 0 0 2
+Refer: 250 -1 N 1 0 0 1 0 0 2
 EndChar

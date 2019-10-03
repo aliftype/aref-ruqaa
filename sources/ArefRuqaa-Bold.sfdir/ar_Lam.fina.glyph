@@ -1,5 +1,5 @@
 StartChar: arLam.fina
-Encoding: 65596 -1 101
+Encoding: 65596 -1 96
 Width: 878
 GlyphClass: 2
 Flags: W
@@ -11,5 +11,5 @@ AnchorPoint: "Beh" 738 432 entry 0
 AnchorPoint: "Basic" 738 432 entry 0
 LayerCount: 2
 Fore
-Refer: 100 -1 N 1 0 0 1 0 0 2
+Refer: 95 -1 N 1 0 0 1 0 0 2
 EndChar

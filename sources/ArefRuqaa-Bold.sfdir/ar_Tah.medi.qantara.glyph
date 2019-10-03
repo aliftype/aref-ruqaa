@@ -1,5 +1,5 @@
 StartChar: arTah.medi.qantara
-Encoding: 65911 -1 417
+Encoding: 65911 -1 412
 Width: 1002
 GlyphClass: 2
 Flags: W
@@ -10,5 +10,5 @@ AnchorPoint: "Tashkil Below" 1197 -207 basechar 0
 AnchorPoint: "Dots Above" 1449 1089 basechar 0
 LayerCount: 2
 Fore
-Refer: 415 -1 N 1 0 0 1 0 0 2
+Refer: 410 -1 N 1 0 0 1 0 0 2
 EndChar

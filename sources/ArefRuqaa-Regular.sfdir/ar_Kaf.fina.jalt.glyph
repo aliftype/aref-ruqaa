@@ -1,5 +1,5 @@
 StartChar: arKaf.fina.jalt
-Encoding: 65877 -1 381
+Encoding: 65877 -1 376
 Width: 1896
 GlyphClass: 2
 Flags: W
@@ -39,5 +39,5 @@ SplineSet
  1060 8 1060 8 884 4 c 0,44,45
  708 0 708 0 588 16 c 0,0,1
 EndSplineSet
-Refer: 59 1569 N 0.75 0 0 0.75 768.801 416.125 2
+Refer: 54 1569 N 0.75 0 0 0.75 768.801 416.125 2
 EndChar

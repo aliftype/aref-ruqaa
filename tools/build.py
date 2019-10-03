@@ -174,10 +174,15 @@ def build(args):
     if "FFTM" in ttfont:
         del ttfont["FFTM"]
 
-    unicodes = [g.unicode for g in font.glyphs() if g.unicode > 0]
+    unicodes = set()
+    for glyph in font.glyphs():
+        if glyph.unicode > 0:
+            unicodes.add(glyph.unicode)
+        if glyph.altuni:
+            unicodes.update(u[0] for u in glyph.altuni if u[1] < 0)
 
     # Drop incomplete Greek support.
-    unicodes = set(unicodes) - set(range(0x0370, 0x03FF))
+    unicodes = unicodes - set(range(0x0370, 0x03FF))
 
     options = subset.Options()
     options.set(layout_features='*', name_IDs='*', name_languages='*',

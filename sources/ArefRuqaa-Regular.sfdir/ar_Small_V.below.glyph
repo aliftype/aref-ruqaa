@@ -1,10 +1,10 @@
 StartChar: arSmallV.below
-Encoding: 65915 -1 425
+Encoding: 65915 -1 420
 Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Dots Below" 0 0 mark 0
 LayerCount: 2
 Fore
-Refer: 424 1626 N 1 0 0 1 0 0 2
+Refer: 419 1626 N 1 0 0 1 0 0 2
 EndChar

@@ -1,5 +1,5 @@
 StartChar: arSad.medi.qantara
-Encoding: 65910 -1 416
+Encoding: 65910 -1 411
 Width: 1314
 GlyphClass: 2
 Flags: W
@@ -10,5 +10,5 @@ AnchorPoint: "Dots Above" 1377 1188 basechar 0
 AnchorPoint: "Tashkil Above" 1386 1098 basechar 0
 LayerCount: 2
 Fore
-Refer: 414 -1 N 1 0 0 1 0 0 2
+Refer: 409 -1 N 1 0 0 1 0 0 2
 EndChar

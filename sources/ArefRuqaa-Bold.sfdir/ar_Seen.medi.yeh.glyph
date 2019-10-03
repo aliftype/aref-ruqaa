@@ -1,5 +1,5 @@
 StartChar: arSeen.medi.yeh
-Encoding: 65832 -1 337
+Encoding: 65832 -1 332
 Width: 758
 GlyphClass: 2
 Flags: W
@@ -12,5 +12,5 @@ AnchorPoint: "Beh" 900 225 entry 0
 AnchorPoint: "Basic" 900 225 entry 0
 LayerCount: 2
 Fore
-Refer: 325 -1 N 1 0 0 1 0 0 2
+Refer: 320 -1 N 1 0 0 1 0 0 2
 EndChar

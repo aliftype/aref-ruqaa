@@ -1,5 +1,5 @@
 StartChar: arFeh.init.yeh
-Encoding: 65824 -1 329
+Encoding: 65824 -1 324
 Width: 436
 GlyphClass: 2
 Flags: W
@@ -9,5 +9,5 @@ AnchorPoint: "Tashkil Above" 198 1089 basechar 0
 AnchorPoint: "Tashkil Below" 225 -864 basechar 0
 LayerCount: 2
 Fore
-Refer: 137 -1 N 1 0 0 1 0 0 2
+Refer: 132 -1 N 1 0 0 1 0 0 2
 EndChar

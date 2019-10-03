@@ -1,5 +1,5 @@
 StartChar: arTah.fina
-Encoding: 65578 -1 83
+Encoding: 65578 -1 78
 Width: 657
 GlyphClass: 2
 Flags: W
@@ -10,5 +10,5 @@ AnchorPoint: "Tashkil Above" 729 1449 basechar 0
 AnchorPoint: "Dots Above" 1017 981 basechar 0
 LayerCount: 2
 Fore
-Refer: 82 -1 N 1 0 0 1 0 0 2
+Refer: 77 -1 N 1 0 0 1 0 0 2
 EndChar
