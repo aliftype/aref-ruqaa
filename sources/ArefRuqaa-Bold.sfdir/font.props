@@ -59,6 +59,14 @@ Lookup: 262 0 0 "'mkmk' Above" { "'mkmk' Above"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Below" { "'mkmk' Below"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+TtTable: prep
+PUSHW_1
+ 511
+SCANCTRL
+PUSHB_1
+ 4
+SCANTYPE
+EndTTInstrs
 LangName: 1033
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
