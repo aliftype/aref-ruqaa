@@ -136,15 +136,13 @@ def merge(args):
 
     # Set metadata
     arabic.version = args.version
-    copyright = 'Copyright © 2015-%s The Aref Ruqaa Project Authors, with Reserved Font Name "EURM10".' % datetime.now().year
-
-    arabic.copyright = copyright.replace("©", "(c)")
+    year = datetime.now().year
+    arabic.copyright = 'Copyright 2015-%s The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10.' % datetime.now().year
 
     en = "English (US)"
-    arabic.appendSFNTName(en, "Copyright", copyright)
     arabic.appendSFNTName(en, "Designer", "Abdullah Aref")
-    arabic.appendSFNTName(en, "License URL", "http://scripts.sil.org/OFL")
-    arabic.appendSFNTName(en, "License", 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL')
+    arabic.appendSFNTName(en, "License URL", "https://scripts.sil.org/OFL")
+    arabic.appendSFNTName(en, "License", 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL')
     arabic.appendSFNTName(en, "Descriptor", "Aref Ruqaa is an Arabic typeface that aspires to capture the essence of \
 the classical Ruqaa calligraphic style.")
     arabic.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
