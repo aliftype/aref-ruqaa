@@ -157,7 +157,7 @@ def build(args):
     build_encoded(font, features)
 
     with tempfile.NamedTemporaryFile(mode="r", suffix=args.out_file) as tmp:
-        font.generate(tmp.name, flags=["round", "opentype"])
+        font.generate(tmp.name, flags=["round", "opentype", "dummy-dsig"])
         ttfont = TTFont(tmp.name)
 
     try:
@@ -167,10 +167,6 @@ def build(args):
             tmp.write(features.asFea())
             print("Failed! Inspect temporary file: %r" % tmp.name)
         raise
-
-    # Drop useless table with timestamp
-    if "FFTM" in ttfont:
-        del ttfont["FFTM"]
 
     unicodes = set()
     for glyph in font.glyphs():
@@ -184,7 +180,7 @@ def build(args):
 
     options = subset.Options()
     options.set(layout_features='*', name_IDs='*', name_languages='*',
-        notdef_outline=True, glyph_names=True)
+        notdef_outline=True, glyph_names=True, drop_tables=['FFTM'])
     subsetter = subset.Subsetter(options=options)
     subsetter.populate(unicodes=unicodes)
     subsetter.subset(ttfont)
