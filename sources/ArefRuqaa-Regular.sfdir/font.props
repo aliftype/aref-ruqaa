@@ -4,14 +4,13 @@ FullName: Aref Ruqaa Regular
 FamilyName: Aref Ruqaa
 Weight: Book
 Copyright: Copyright (c) 2015, Khaled Hosny <khaledhosny@eglug.org>
-Version: 000.001
+Version: 
 ItalicAngle: 0
 UnderlinePosition: -142
 UnderlineWidth: 150
 Ascent: 1638
 Descent: 410
 InvalidEm: 0
-sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
