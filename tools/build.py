@@ -130,7 +130,13 @@ def merge(args):
     # Merge Arabic and Latin fonts
     with tempfile.NamedTemporaryFile(mode="r") as tmp:
         latin.save(tmp.name)
+        latin.close()
+        del latin
         arabic.mergeFonts(tmp.name)
+        arabic.save(tmp.name)
+        arabic.close()
+        del arabic
+        arabic = fontforge.open(tmp.name)
 
     fea = merge_features(arabic_fea, latin_fea)
 
@@ -177,7 +183,7 @@ def build(args):
             unicodes.update(u[0] for u in glyph.altuni if u[1] < 0)
 
     # Drop incomplete Greek support.
-    unicodes = unicodes - set(range(0x0370, 0x03FF))
+    unicodes -= set(range(0x0370, 0x03FF))
 
     options = subset.Options()
     options.set(layout_features='*', name_IDs='*', name_languages='*',

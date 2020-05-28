@@ -496,6 +496,10 @@
     <string>uni00B_3.glif</string>
     <key>uni00B9</key>
     <string>uni00B_9.glif</string>
+    <key>uni02DA</key>
+    <string>uni02D_A_.glif</string>
+    <key>uni02DC</key>
+    <string>uni02D_C_.glif</string>
     <key>uni0302</key>
     <string>uni0302.glif</string>
     <key>uni0304</key>
@@ -506,6 +510,16 @@
     <string>uni030A_.glif</string>
     <key>uni0327</key>
     <string>uni0327.glif</string>
+    <key>uni2022</key>
+    <string>uni2022.glif</string>
+    <key>uni2039</key>
+    <string>uni2039.glif</string>
+    <key>uni203A</key>
+    <string>uni203A_.glif</string>
+    <key>uni2074</key>
+    <string>uni2074.glif</string>
+    <key>uni20AC</key>
+    <string>uni20A_C_.glif</string>
     <key>upsilon</key>
     <string>upsilon.glif</string>
     <key>v</key>
