@@ -1,5 +1,5 @@
 NAME=ArefRuqaa
-VERSION=0.10
+VERSION=1.002
 EXT=ttf
 LATIN=EulerText
 
