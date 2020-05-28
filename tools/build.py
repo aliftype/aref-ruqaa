@@ -180,7 +180,8 @@ def build(args):
 
     options = subset.Options()
     options.set(layout_features='*', name_IDs='*', name_languages='*',
-        notdef_outline=True, glyph_names=True, drop_tables=['FFTM'])
+        notdef_outline=True, glyph_names=True, drop_tables=['FFTM'],
+        recalc_average_width=True)
     subsetter = subset.Subsetter(options=options)
     subsetter.populate(unicodes=unicodes)
     subsetter.subset(ttfont)
