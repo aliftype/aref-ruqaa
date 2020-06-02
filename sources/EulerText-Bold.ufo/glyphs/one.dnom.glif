@@ -26,35 +26,4 @@
       <point x="65" y="356" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-5</integer>
-            <key>width</key>
-            <integer>13</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>416</integer>
-            <key>width</key>
-            <integer>12</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>173</integer>
-            <key>width</key>
-            <integer>67</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

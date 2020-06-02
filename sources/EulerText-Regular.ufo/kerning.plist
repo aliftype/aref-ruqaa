@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>r</key>
-	<dict>
-		<key>d</key>
-		<integer>-26</integer>
-		<key>g</key>
-		<integer>-26</integer>
-		<key>public.kern2.o_L</key>
-		<integer>-20</integer>
-		<key>q</key>
-		<integer>-26</integer>
-	</dict>
-</dict>
+  <dict>
+    <key>r</key>
+    <dict>
+      <key>d</key>
+      <integer>-26</integer>
+      <key>g</key>
+      <integer>-26</integer>
+      <key>public.kern2.o_L</key>
+      <integer>-20</integer>
+      <key>q</key>
+      <integer>-26</integer>
+    </dict>
+  </dict>
 </plist>
