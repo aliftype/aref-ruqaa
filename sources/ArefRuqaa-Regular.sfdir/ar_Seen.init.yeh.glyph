@@ -2,7 +2,6 @@ StartChar: arSeen.init.yeh
 Encoding: 65820 -1 320
 Width: 1117
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Yeh" -10 0 exit 0
 AnchorPoint: "Tashkil Below" 828 -117 basechar 0
 AnchorPoint: "Tashkil Above" 828 972 basechar 0

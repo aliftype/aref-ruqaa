@@ -2,7 +2,6 @@ StartChar: arWaw.fina
 Encoding: 65611 -1 111
 Width: 1007
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Below" 513 -207 basechar 0
 AnchorPoint: "Tashkil Below" 590 -350 basechar 0
 AnchorPoint: "Dots Above" 790 1242 basechar 0

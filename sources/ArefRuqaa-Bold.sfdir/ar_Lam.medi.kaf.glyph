@@ -2,7 +2,6 @@ StartChar: arLam.medi.kaf
 Encoding: 65874 -1 373
 Width: 626
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Basic" 0 0 exit 0
 AnchorPoint: "Beh" 612 0 entry 0
 AnchorPoint: "Basic" 612 0 entry 0

@@ -2,7 +2,6 @@ StartChar: arTah.medi.ragaa
 Encoding: 65899 -1 400
 Width: 449
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 528 1705 basechar 0
 AnchorPoint: "Tashkil Below" 627 -209 basechar 0

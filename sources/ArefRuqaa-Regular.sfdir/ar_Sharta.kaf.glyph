@@ -2,7 +2,6 @@ StartChar: arSharta.kaf
 Encoding: 65551 -1 33
 Width: 0
 GlyphClass: 4
-Flags: W
 AnchorPoint: "Mark Mark Above" 0 400 basemark 0
 AnchorPoint: "Sharta Above" 0 0 mark 0
 LayerCount: 2

@@ -2,7 +2,6 @@ StartChar: arAin.init.meem
 Encoding: 65775 -1 275
 Width: 1056
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Meem" 0 -20 exit 0
 AnchorPoint: "Dots Above" 594 1467 basechar 0
 AnchorPoint: "Tashkil Above" 630 1404 basechar 0

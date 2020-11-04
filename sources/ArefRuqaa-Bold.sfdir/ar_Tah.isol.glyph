@@ -2,7 +2,6 @@ StartChar: arTah.isol
 Encoding: 65577 -1 77
 Width: 1395
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Below" 585 -423 basechar 0
 AnchorPoint: "Tashkil Below" 666 -297 basechar 0
 AnchorPoint: "Tashkil Above" 729 1386 basechar 0

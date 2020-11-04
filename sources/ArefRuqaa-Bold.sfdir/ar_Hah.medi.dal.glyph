@@ -2,7 +2,6 @@ StartChar: arHah.medi.dal
 Encoding: 65663 -1 163
 Width: 598
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dal" 0 0 exit 0
 AnchorPoint: "Dots Above" 468 1233 basechar 0
 AnchorPoint: "Hah" 485 534 entry 0

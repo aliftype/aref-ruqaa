@@ -2,7 +2,6 @@ StartChar: arBeh.init
 Encoding: 65559 -1 59
 Width: 604
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Waw" 0 0 exit 0
 AnchorPoint: "Basic" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 306 -351 basechar 0

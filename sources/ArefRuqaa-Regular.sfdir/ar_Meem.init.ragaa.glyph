@@ -2,7 +2,6 @@ StartChar: arMeem.init.ragaa
 Encoding: 65893 -1 394
 Width: 1390
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 671 -88 basechar 0
 AnchorPoint: "Tashkil Above" 781 1265 basechar 0

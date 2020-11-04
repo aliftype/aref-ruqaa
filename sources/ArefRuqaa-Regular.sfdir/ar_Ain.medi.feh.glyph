@@ -2,7 +2,6 @@ StartChar: arAin.medi.feh
 Encoding: 65763 -1 263
 Width: 957
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Feh" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 864 -225 basechar 0
 AnchorPoint: "Ain" 909 117 entry 0

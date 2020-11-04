@@ -2,7 +2,6 @@ StartChar: arLam.init.feh
 Encoding: 65754 -1 254
 Width: 1151
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Feh" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 819 -243 basechar 0
 AnchorPoint: "Tashkil Above" 846 1872 basechar 0

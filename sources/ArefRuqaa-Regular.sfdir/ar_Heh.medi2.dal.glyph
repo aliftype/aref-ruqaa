@@ -2,7 +2,6 @@ StartChar: arHeh.medi2.dal
 Encoding: 65672 -1 172
 Width: 790
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dal" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 630 1359 basechar 0
 AnchorPoint: "Meem" 684 684 entry 0

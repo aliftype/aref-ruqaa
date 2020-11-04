@@ -2,7 +2,6 @@ StartChar: arMeem.fina
 Encoding: 65600 -1 100
 Width: 717
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Below" 126 -909 basechar 0
 AnchorPoint: "Dots Above" 340 1200 basechar 0
 AnchorPoint: "Tashkil Above" 460 1280 basechar 0

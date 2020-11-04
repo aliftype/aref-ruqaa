@@ -2,7 +2,6 @@ StartChar: arSmallV.below
 Encoding: 65915 -1 420
 Width: 0
 GlyphClass: 4
-Flags: W
 AnchorPoint: "Dots Below" 0 0 mark 0
 LayerCount: 2
 Fore

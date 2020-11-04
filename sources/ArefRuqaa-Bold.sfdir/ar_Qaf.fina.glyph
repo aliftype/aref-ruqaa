@@ -2,7 +2,6 @@ StartChar: arQaf.fina
 Encoding: 65590 -1 90
 Width: 1300
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Below" 657 -351 basechar 0
 AnchorPoint: "Dots Below" 711 -342 basechar 0
 AnchorPoint: "Dots Above" 747 1305 basechar 0

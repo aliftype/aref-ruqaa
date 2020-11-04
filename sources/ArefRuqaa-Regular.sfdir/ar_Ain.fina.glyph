@@ -2,7 +2,6 @@ StartChar: arAin.fina
 Encoding: 65582 -1 82
 Width: 700
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Ain" 540 504 entry 0
 AnchorPoint: "Dots Below" 612 -1080 basechar 0
 AnchorPoint: "Tashkil Below" 621 -1089 basechar 0

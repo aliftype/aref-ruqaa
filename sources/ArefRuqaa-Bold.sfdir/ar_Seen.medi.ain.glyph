@@ -2,7 +2,6 @@ StartChar: arSeen.medi.ain
 Encoding: 65736 -1 236
 Width: 852
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Ain" 0 0 exit 0
 AnchorPoint: "Dots Above" 873 1044 basechar 0
 AnchorPoint: "Tashkil Below" 882 -324 basechar 0

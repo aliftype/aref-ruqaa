@@ -2,7 +2,6 @@ StartChar: arAlef.fina.lam
 Encoding: 65878 -1 377
 Width: 807
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Beh" -55 0 entry 0
 AnchorPoint: "Lam" -55 0 entry 0
 AnchorPoint: "Dots Above" 583 1463 basechar 0

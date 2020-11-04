@@ -2,7 +2,6 @@ StartChar: arHah.fina
 Encoding: 65562 -1 62
 Width: 387
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Above" 288 1584 basechar 0
 AnchorPoint: "Hah" 302 868 entry 0
 AnchorPoint: "Dots Above" 324 1557 basechar 0

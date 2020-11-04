@@ -2,7 +2,6 @@ StartChar: arTah.init.heh
 Encoding: 65798 -1 298
 Width: 1570
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Heh" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 855 1818 basechar 0
 AnchorPoint: "Tashkil Below" 1089 0 basechar 0

@@ -2,7 +2,6 @@ StartChar: arAin.init.yeh
 Encoding: 65823 -1 323
 Width: 998
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Yeh" 20 0 exit 0
 AnchorPoint: "Dots Above" 558 1350 basechar 0
 AnchorPoint: "Tashkil Above" 558 1359 basechar 0

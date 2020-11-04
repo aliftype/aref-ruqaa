@@ -2,7 +2,6 @@ StartChar: arHeh.medi2
 Encoding: 65608 -1 108
 Width: 645
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Waw" 0 0 exit 0
 AnchorPoint: "Basic" 0 0 exit 0
 AnchorPoint: "Dots Below" 495 -207 basechar 0

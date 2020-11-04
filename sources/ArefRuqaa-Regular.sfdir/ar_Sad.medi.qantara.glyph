@@ -2,7 +2,6 @@ StartChar: arSad.medi.qantara
 Encoding: 65910 -1 411
 Width: 1314
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sad" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 1071 -252 basechar 0
 AnchorPoint: "Sad" 1144 -66 entry 0

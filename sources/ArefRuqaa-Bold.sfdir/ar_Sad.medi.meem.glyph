@@ -2,7 +2,6 @@ StartChar: arSad.medi.meem
 Encoding: 65785 -1 285
 Width: 800
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Meem" 0 0 exit 0
 AnchorPoint: "Sad" 612 -270 entry 0
 AnchorPoint: "Tashkil Below" 954 -144 basechar 0

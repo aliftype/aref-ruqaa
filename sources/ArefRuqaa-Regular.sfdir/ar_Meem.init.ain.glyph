@@ -2,7 +2,6 @@ StartChar: arMeem.init.ain
 Encoding: 65731 -1 231
 Width: 1151
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Ain" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 783 -315 basechar 0
 AnchorPoint: "Tashkil Above" 945 1089 basechar 0

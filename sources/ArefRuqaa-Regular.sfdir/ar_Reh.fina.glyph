@@ -2,7 +2,6 @@ StartChar: arReh.fina
 Encoding: 65568 -1 68
 Width: 840
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Below" 432 -450 basechar 0
 AnchorPoint: "Tashkil Below" 459 -360 basechar 0
 AnchorPoint: "Reh" 648 216 entry 0

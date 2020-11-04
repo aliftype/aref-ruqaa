@@ -2,7 +2,6 @@ StartChar: arGaf.isol.jalt
 Encoding: 65858 -1 358
 Width: 2833
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sharta Above" 2268 1989 basechar 0
 AnchorPoint: "Tashkil Below" 1071 -351 basechar 0
 AnchorPoint: "Tashkil Above" 1143 1683 basechar 0

@@ -2,7 +2,6 @@ StartChar: arHeh.medi.yeh
 Encoding: 65841 -1 341
 Width: 674
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Yeh" 40 50 exit 0
 AnchorPoint: "Heh" 594 225 entry 0
 AnchorPoint: "Tashkil Below" 648 -657 basechar 0

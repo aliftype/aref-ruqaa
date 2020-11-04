@@ -2,7 +2,6 @@ StartChar: arBeh.fina.jalt
 Encoding: 65859 -1 359
 Width: 1740
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Basic" 1743 169 entry 0
 AnchorPoint: "Beh" 1743 169 entry 0
 AnchorPoint: "Dots Below" 927 -360 basechar 0

@@ -2,7 +2,6 @@ StartChar: arSeen.medi.feh
 Encoding: 65760 -1 260
 Width: 1096
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Feh" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 1062 -306 basechar 0
 AnchorPoint: "Tashkil Above" 1116 999 basechar 0

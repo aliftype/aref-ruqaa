@@ -2,7 +2,6 @@ StartChar: arTah.init.kaf
 Encoding: 65871 -1 370
 Width: 1266
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Basic" 0 0 exit 0
 AnchorPoint: "Dots Below" 450 -180 basechar 0
 AnchorPoint: "Tashkil Below" 612 -297 basechar 0

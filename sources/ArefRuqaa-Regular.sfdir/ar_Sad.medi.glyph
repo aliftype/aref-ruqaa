@@ -2,7 +2,6 @@ StartChar: arSad.medi
 Encoding: 65576 -1 76
 Width: 679
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Basic" 1103 147 entry 0
 AnchorPoint: "Waw" 0 0 exit 0
 AnchorPoint: "Basic" 0 0 exit 0

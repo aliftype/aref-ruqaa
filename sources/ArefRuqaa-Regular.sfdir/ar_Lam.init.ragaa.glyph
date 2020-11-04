@@ -2,7 +2,6 @@ StartChar: arLam.init.ragaa
 Encoding: 65892 -1 393
 Width: 1390
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 583 1903 basechar 0
 AnchorPoint: "Tashkil Below" 605 -187 basechar 0

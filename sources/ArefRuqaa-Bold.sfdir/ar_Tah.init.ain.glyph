@@ -2,7 +2,6 @@ StartChar: arTah.init.ain
 Encoding: 65726 -1 226
 Width: 1445
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Ain" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 756 1575 basechar 0
 AnchorPoint: "Tashkil Below" 828 -270 basechar 0

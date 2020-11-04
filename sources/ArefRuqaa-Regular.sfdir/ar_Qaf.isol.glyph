@@ -2,7 +2,6 @@ StartChar: arQaf.isol
 Encoding: 65589 -1 89
 Width: 1300
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Below" 657 -369 basechar 0
 AnchorPoint: "Dots Below" 684 -342 basechar 0
 AnchorPoint: "Dots Above" 747 1305 basechar 0

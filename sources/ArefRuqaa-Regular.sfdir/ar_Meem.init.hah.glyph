@@ -2,7 +2,6 @@ StartChar: arMeem.init.hah
 Encoding: 65635 -1 135
 Width: 1054
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Hah" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 558 1215 basechar 0
 AnchorPoint: "Tashkil Below" 873 108 basechar 0

@@ -2,7 +2,6 @@ StartChar: arHah.medi.ain
 Encoding: 65735 -1 235
 Width: 810
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Ain" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 486 1017 basechar 0
 AnchorPoint: "Hah" 694 569 entry 0

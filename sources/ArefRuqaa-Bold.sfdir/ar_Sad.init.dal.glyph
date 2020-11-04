@@ -2,7 +2,6 @@ StartChar: arSad.init.dal
 Encoding: 65653 -1 153
 Width: 1478
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dal" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 882 -324 basechar 0
 AnchorPoint: "Tashkil Above" 990 1071 basechar 0

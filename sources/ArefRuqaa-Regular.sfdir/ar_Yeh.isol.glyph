@@ -2,7 +2,6 @@ StartChar: arYeh.isol
 Encoding: 65612 -1 112
 Width: 1261
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Below" 531 -198 basechar 0
 AnchorPoint: "Dots Above" 585 1269 basechar 0
 AnchorPoint: "Tashkil Below" 630 -288 basechar 0

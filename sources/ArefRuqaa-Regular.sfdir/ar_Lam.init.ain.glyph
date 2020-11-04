@@ -2,7 +2,6 @@ StartChar: arLam.init.ain
 Encoding: 65730 -1 230
 Width: 931
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Ain" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 675 1710 basechar 0
 AnchorPoint: "Tashkil Below" 747 -252 basechar 0

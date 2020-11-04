@@ -2,7 +2,6 @@ StartChar: arFeh.medi.ragaa
 Encoding: 65901 -1 402
 Width: 554
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Feh" 440 165 entry 0
 AnchorPoint: "Tashkil Below" 583 -220 basechar 0

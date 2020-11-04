@@ -2,7 +2,6 @@ StartChar: arHeh.medi2.sad
 Encoding: 65720 -1 220
 Width: 1170
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Below" 1098 -306 basechar 0
 AnchorPoint: "Meem" 1098 738 entry 0
 AnchorPoint: "Sad" 20 180 exit 0

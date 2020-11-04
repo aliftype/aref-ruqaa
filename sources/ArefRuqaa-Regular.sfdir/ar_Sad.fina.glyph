@@ -2,7 +2,6 @@ StartChar: arSad.fina
 Encoding: 65574 -1 74
 Width: 1155
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sad" 942 113 entry 0
 AnchorPoint: "Dots Below" 1296 126 basechar 0
 AnchorPoint: "Tashkil Below" 1296 189 basechar 0

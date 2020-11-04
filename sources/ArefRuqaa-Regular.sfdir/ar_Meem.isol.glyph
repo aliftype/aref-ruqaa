@@ -2,7 +2,6 @@ StartChar: arMeem.isol
 Encoding: 65599 -1 99
 Width: 1036
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Above" 340 1200 basechar 0
 AnchorPoint: "Tashkil Above" 460 1280 basechar 0
 AnchorPoint: "Dots Below" 612 -18 basechar 0

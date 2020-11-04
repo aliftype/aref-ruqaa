@@ -2,7 +2,6 @@ StartChar: arTah.init.dal
 Encoding: 65654 -1 154
 Width: 1302
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dal" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 612 1494 basechar 0
 AnchorPoint: "Tashkil Below" 828 -207 basechar 0

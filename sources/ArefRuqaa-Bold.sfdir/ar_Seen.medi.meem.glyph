@@ -2,7 +2,6 @@ StartChar: arSeen.medi.meem
 Encoding: 65784 -1 284
 Width: 847
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Meem" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 909 1116 basechar 0
 AnchorPoint: "Dots Above" 909 1224 basechar 0

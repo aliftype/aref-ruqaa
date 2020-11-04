@@ -2,7 +2,6 @@ StartChar: arKaf.medi.ragaa
 Encoding: 65902 -1 403
 Width: 512
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sharta Above" 669 1962 basechar 0
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Basic" 506 231 entry 0

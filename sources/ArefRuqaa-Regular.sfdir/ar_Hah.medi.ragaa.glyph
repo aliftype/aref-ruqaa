@@ -2,7 +2,6 @@ StartChar: arHah.medi.ragaa
 Encoding: 65896 -1 397
 Width: 407
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Hah" 306 696 entry 0
 AnchorPoint: "Dots Above" 341 1419 basechar 0

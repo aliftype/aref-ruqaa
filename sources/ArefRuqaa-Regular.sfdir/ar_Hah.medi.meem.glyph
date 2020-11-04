@@ -2,7 +2,6 @@ StartChar: arHah.medi.meem
 Encoding: 65783 -1 283
 Width: 627
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Meem" -20 -50 exit 0
 AnchorPoint: "Dots Above" 414 1512 basechar 0
 AnchorPoint: "Tashkil Above" 468 1485 basechar 0

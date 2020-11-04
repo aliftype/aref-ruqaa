@@ -2,7 +2,6 @@ StartChar: arFeh.init.ain
 Encoding: 65728 -1 228
 Width: 1134
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Ain" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 801 1305 basechar 0
 AnchorPoint: "Dots Above" 837 1278 basechar 0

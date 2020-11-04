@@ -2,7 +2,6 @@ StartChar: arAlef.isol
 Encoding: 65555 -1 55
 Width: 509
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Above" 247 1620 basechar 0
 AnchorPoint: "Dots Below" 263 -45 basechar 0
 AnchorPoint: "Tashkil Above" 265 1710 basechar 0

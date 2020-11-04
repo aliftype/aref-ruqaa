@@ -2,7 +2,6 @@ StartChar: arHeh.medi2.ragaa
 Encoding: 65905 -1 406
 Width: 815
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Meem" 759 880 entry 0
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 726 -264 basechar 0

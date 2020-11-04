@@ -2,7 +2,6 @@ StartChar: arSad.isol
 Encoding: 65573 -1 73
 Width: 1806
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Below" 1143 189 basechar 0
 AnchorPoint: "Tashkil Below" 1206 198 basechar 0
 AnchorPoint: "Dots Above" 1250 1600 basechar 0

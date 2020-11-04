@@ -2,7 +2,6 @@ StartChar: arKaf.init.heh
 Encoding: 65801 -1 301
 Width: 1180
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sharta Above" 1161 1971 basechar 0
 AnchorPoint: "Heh" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 873 -81 basechar 0

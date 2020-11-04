@@ -2,7 +2,6 @@ StartChar: arKaf.init.sad
 Encoding: 65705 -1 205
 Width: 1505
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sharta Above" 1503 1890 basechar 0
 AnchorPoint: "Sad" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 927 -270 basechar 0

@@ -2,7 +2,6 @@ StartChar: arYeh.fina2
 Encoding: 65625 -1 125
 Width: 1432
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Seen" 39 319 entry 0
 AnchorPoint: "Dots Below" 1053 -261 basechar 0
 AnchorPoint: "Tashkil Below" 1107 -378 basechar 0

@@ -2,7 +2,6 @@ StartChar: arHeh.medi2.hah
 Encoding: 65648 -1 148
 Width: 753
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Hah" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 612 1530 basechar 0
 AnchorPoint: "Meem" 648 927 entry 0

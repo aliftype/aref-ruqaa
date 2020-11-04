@@ -2,7 +2,6 @@ StartChar: arLam.init.reh
 Encoding: 65682 -1 182
 Width: 775
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Reh" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 594 1602 basechar 0
 AnchorPoint: "Tashkil Below" 603 -126 basechar 0

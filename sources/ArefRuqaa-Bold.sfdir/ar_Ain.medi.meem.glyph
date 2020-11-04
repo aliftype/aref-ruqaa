@@ -2,7 +2,6 @@ StartChar: arAin.medi.meem
 Encoding: 65787 -1 287
 Width: 767
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Meem" -20 -50 exit 0
 AnchorPoint: "Ain" 702 306 entry 0
 AnchorPoint: "Dots Above" 819 1386 basechar 0

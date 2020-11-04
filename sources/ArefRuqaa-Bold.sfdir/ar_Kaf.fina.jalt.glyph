@@ -2,7 +2,6 @@ StartChar: arKaf.fina.jalt
 Encoding: 65877 -1 376
 Width: 1896
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Above" 1160 1575 basechar 0
 AnchorPoint: "Tashkil Above" 1161 1710 basechar 0
 AnchorPoint: "Beh" 1847 0 entry 0

@@ -2,7 +2,6 @@ StartChar: arSeen.medi.yeh
 Encoding: 65832 -1 332
 Width: 758
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Yeh" 3 0 exit 0
 AnchorPoint: "Tashkil Below" 747 -108 basechar 0
 AnchorPoint: "Tashkil Above" 819 990 basechar 0

@@ -2,7 +2,6 @@ StartChar: arAin.init.feh
 Encoding: 65751 -1 251
 Width: 1549
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Feh" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 981 -288 basechar 0
 AnchorPoint: "Dots Above" 1008 1287 basechar 0

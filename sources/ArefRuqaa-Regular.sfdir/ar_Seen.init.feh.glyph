@@ -2,7 +2,6 @@ StartChar: arSeen.init.feh
 Encoding: 65748 -1 248
 Width: 1719
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Feh" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 891 -333 basechar 0
 AnchorPoint: "Tashkil Above" 1017 972 basechar 0

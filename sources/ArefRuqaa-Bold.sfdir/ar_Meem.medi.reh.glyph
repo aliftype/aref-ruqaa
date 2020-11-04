@@ -2,7 +2,6 @@ StartChar: arMeem.medi.reh
 Encoding: 65695 -1 195
 Width: 606
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Reh" 0 -20 exit 0
 AnchorPoint: "Meem" 540 621 entry 0
 AnchorPoint: "Tashkil Above" 657 1152 basechar 0

@@ -2,7 +2,6 @@ StartChar: arMeem.init.sad
 Encoding: 65707 -1 207
 Width: 1478
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sad" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 1044 -207 basechar 0
 AnchorPoint: "Dots Above" 1224 981 basechar 0

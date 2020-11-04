@@ -2,7 +2,6 @@ StartChar: arMeem.medi.feh
 Encoding: 65767 -1 267
 Width: 1015
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Above" 1044 1071 basechar 0
 AnchorPoint: "Meem" 927 459 entry 0
 AnchorPoint: "Feh" 0 0 exit 0

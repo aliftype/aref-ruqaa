@@ -2,7 +2,6 @@ StartChar: uni0657
 Encoding: 1623 1623 382
 Width: 0
 GlyphClass: 4
-Flags: W
 AnchorPoint: "Mark Mark Above" 0 0 mark 0
 AnchorPoint: "Tashkil Above" 0 0 mark 0
 LayerCount: 2

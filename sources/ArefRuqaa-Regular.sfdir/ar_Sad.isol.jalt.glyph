@@ -2,7 +2,6 @@ StartChar: arSad.isol.jalt
 Encoding: 65852 -1 352
 Width: 2847
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Below" 1179 -342 basechar 0
 AnchorPoint: "Tashkil Above" 2043 1521 basechar 0
 AnchorPoint: "Dots Above" 2331 1557 basechar 0

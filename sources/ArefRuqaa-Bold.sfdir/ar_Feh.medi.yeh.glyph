@@ -2,7 +2,6 @@ StartChar: arFeh.medi.yeh
 Encoding: 65836 -1 336
 Width: 707
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Yeh" 20 0 exit 0
 AnchorPoint: "Feh" 576 234 entry 0
 AnchorPoint: "Tashkil Below" 855 18 basechar 0

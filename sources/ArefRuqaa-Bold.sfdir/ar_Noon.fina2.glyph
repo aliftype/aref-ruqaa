@@ -2,7 +2,6 @@ StartChar: arNoon.fina2
 Encoding: 65619 -1 119
 Width: 950
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Below" 351 -198 basechar 0
 AnchorPoint: "Tashkil Below" 420 -340 basechar 0
 AnchorPoint: "Dots Above" 459 1179 basechar 0

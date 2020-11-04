@@ -2,7 +2,6 @@ StartChar: arSeen.medi.reh
 Encoding: 65688 -1 188
 Width: 677
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Reh" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 666 -288 basechar 0
 AnchorPoint: "Tashkil Above" 693 909 basechar 0

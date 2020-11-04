@@ -2,7 +2,6 @@ StartChar: arMeem.init.yeh
 Encoding: 65827 -1 327
 Width: 870
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Yeh" 20 0 exit 0
 AnchorPoint: "Tashkil Above" 594 1170 basechar 0
 AnchorPoint: "Tashkil Below" 675 -54 basechar 0

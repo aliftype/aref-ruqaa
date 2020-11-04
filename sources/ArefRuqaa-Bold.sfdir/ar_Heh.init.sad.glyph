@@ -2,7 +2,6 @@ StartChar: arHeh.init.sad
 Encoding: 65708 -1 208
 Width: 1859
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sad" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 1206 -207 basechar 0
 AnchorPoint: "Tashkil Above" 1413 1602 basechar 0

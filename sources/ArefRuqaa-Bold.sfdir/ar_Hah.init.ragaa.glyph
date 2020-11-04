@@ -2,7 +2,6 @@ StartChar: arHah.init.ragaa
 Encoding: 65885 -1 386
 Width: 1390
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 682 -77 basechar 0
 AnchorPoint: "Dots Above" 682 1375 basechar 0

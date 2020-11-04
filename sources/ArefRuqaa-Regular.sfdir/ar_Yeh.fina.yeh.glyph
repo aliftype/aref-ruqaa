@@ -2,7 +2,6 @@ StartChar: arYeh.fina.yeh
 Encoding: 65845 -1 345
 Width: 1311
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Below" 567 -333 basechar 0
 AnchorPoint: "Dots Below" 639 -243 basechar 0
 AnchorPoint: "Tashkil Above" 639 1377 basechar 0

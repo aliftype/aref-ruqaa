@@ -2,7 +2,6 @@ StartChar: arSeen.fina.jalt
 Encoding: 65860 -1 360
 Width: 2135
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Below" 1071 -315 basechar 0
 AnchorPoint: "Tashkil Above" 2088 1413 basechar 0
 AnchorPoint: "Dots Above" 2214 1413 basechar 0

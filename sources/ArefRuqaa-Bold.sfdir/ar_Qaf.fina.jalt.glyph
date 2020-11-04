@@ -2,7 +2,6 @@ StartChar: arQaf.fina.jalt
 Encoding: 65863 -1 363
 Width: 1740
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Below" 729 -333 basechar 0
 AnchorPoint: "Feh" 1260 72 entry 0
 AnchorPoint: "Tashkil Above" 1449 1467 basechar 0

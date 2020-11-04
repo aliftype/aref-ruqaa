@@ -2,7 +2,6 @@ StartChar: arBeh.fina
 Encoding: 65558 -1 58
 Width: 1005
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Below" 495 -396 basechar 0
 AnchorPoint: "Tashkil Below" 522 -378 basechar 0
 AnchorPoint: "Dots Above" 720 846 basechar 0

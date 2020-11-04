@@ -2,7 +2,6 @@ StartChar: arFeh.isol.jalt
 Encoding: 65853 -1 353
 Width: 2121
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Above" 954 1593 basechar 0
 AnchorPoint: "Tashkil Below" 999 -360 basechar 0
 AnchorPoint: "Dots Above" 1701 1359 basechar 0

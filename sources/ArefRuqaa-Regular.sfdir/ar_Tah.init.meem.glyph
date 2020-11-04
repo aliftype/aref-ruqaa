@@ -2,7 +2,6 @@ StartChar: arTah.init.meem
 Encoding: 65774 -1 274
 Width: 1199
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Meem" -20 -50 exit 0
 AnchorPoint: "Tashkil Above" 513 1728 basechar 0
 AnchorPoint: "Tashkil Below" 738 -9 basechar 0

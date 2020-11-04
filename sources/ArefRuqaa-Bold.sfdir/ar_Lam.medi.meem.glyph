@@ -2,7 +2,6 @@ StartChar: arLam.medi.meem
 Encoding: 65790 -1 290
 Width: 657
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Meem" 0 350 exit 0
 AnchorPoint: "Tashkil Above" 603 1683 basechar 0
 AnchorPoint: "Basic" 666 0 entry 0

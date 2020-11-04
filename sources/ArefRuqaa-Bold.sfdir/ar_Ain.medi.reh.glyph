@@ -2,7 +2,6 @@ StartChar: arAin.medi.reh
 Encoding: 65691 -1 191
 Width: 588
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Reh" 0 0 exit 0
 AnchorPoint: "Ain" 522 153 entry 0
 AnchorPoint: "Tashkil Below" 594 -171 basechar 0

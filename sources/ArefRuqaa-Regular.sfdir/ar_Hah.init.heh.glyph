@@ -2,7 +2,6 @@ StartChar: arHah.init.heh
 Encoding: 65795 -1 295
 Width: 1296
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Heh" 0 0 exit 0
 AnchorPoint: "Dots Above" 882 1548 basechar 0
 AnchorPoint: "Tashkil Above" 927 1449 basechar 0

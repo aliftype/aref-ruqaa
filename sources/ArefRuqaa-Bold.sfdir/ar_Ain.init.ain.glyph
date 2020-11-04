@@ -2,7 +2,6 @@ StartChar: arAin.init.ain
 Encoding: 65727 -1 227
 Width: 1468
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Ain" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 972 -243 basechar 0
 AnchorPoint: "Dots Above" 981 1296 basechar 0

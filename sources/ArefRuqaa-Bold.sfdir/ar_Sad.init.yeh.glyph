@@ -2,7 +2,6 @@ StartChar: arSad.init.yeh
 Encoding: 65821 -1 321
 Width: 1530
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Yeh" 34 0 exit 0
 AnchorPoint: "Tashkil Below" 864 -180 basechar 0
 AnchorPoint: "Dots Above" 1089 1125 basechar 0

@@ -2,7 +2,6 @@ StartChar: arAin.init.reh
 Encoding: 65679 -1 179
 Width: 1099
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Reh" 0 0 exit 0
 AnchorPoint: "Dots Above" 648 1341 basechar 0
 AnchorPoint: "Tashkil Above" 657 1377 basechar 0

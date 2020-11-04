@@ -2,7 +2,6 @@ StartChar: arSeen.isol
 Encoding: 65569 -1 69
 Width: 1912
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Below" 1107 -9 basechar 0
 AnchorPoint: "Tashkil Below" 1233 54 basechar 0
 AnchorPoint: "Dots Above" 1296 1440 basechar 0

@@ -2,7 +2,6 @@ StartChar: arMeem.medi.sad
 Encoding: 65719 -1 219
 Width: 1188
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sad" 0 0 exit 0
 AnchorPoint: "Meem" 1089 477 entry 0
 AnchorPoint: "Tashkil Below" 1215 -243 basechar 0

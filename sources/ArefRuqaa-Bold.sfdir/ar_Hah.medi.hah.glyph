@@ -2,7 +2,6 @@ StartChar: arHah.medi.hah
 Encoding: 65639 -1 139
 Width: 549
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Hah" 0 0 exit 0
 AnchorPoint: "Dots Above" 387 1467 basechar 0
 AnchorPoint: "Hah" 432 796 entry 0

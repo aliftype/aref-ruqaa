@@ -2,7 +2,6 @@ StartChar: arLam.medi.hah
 Encoding: 65646 -1 146
 Width: 728
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Hah" -11 250 exit 0
 AnchorPoint: "Beh" 728 0 entry 0
 AnchorPoint: "Basic" 728 0 entry 0

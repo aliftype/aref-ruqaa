@@ -2,7 +2,6 @@ StartChar: arLam.medi.reh
 Encoding: 65694 -1 194
 Width: 639
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Reh" -20 150 exit 0
 AnchorPoint: "Tashkil Below" 720 -324 basechar 0
 AnchorPoint: "Beh" 639 0 entry 0

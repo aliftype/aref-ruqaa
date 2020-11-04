@@ -2,7 +2,6 @@ StartChar: arFeh.init.reh
 Encoding: 65680 -1 180
 Width: 783
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Reh" 0 0 exit 0
 AnchorPoint: "Dots Above" 504 1323 basechar 0
 AnchorPoint: "Tashkil Above" 513 1368 basechar 0

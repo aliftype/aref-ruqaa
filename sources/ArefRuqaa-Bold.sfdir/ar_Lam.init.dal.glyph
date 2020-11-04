@@ -2,7 +2,6 @@ StartChar: arLam.init.dal
 Encoding: 65658 -1 158
 Width: 720
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dal" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 414 -288 basechar 0
 AnchorPoint: "Tashkil Above" 459 1638 basechar 0

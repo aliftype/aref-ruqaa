@@ -2,7 +2,6 @@ StartChar: arLam.isol
 Encoding: 65595 -1 95
 Width: 913
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Below" 360 -387 basechar 0
 AnchorPoint: "Tashkil Below" 369 -333 basechar 0
 AnchorPoint: "Dots Above" 405 1728 basechar 0

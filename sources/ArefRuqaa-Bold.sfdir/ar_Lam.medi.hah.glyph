@@ -2,7 +2,6 @@ StartChar: arLam.medi.hah
 Encoding: 65646 -1 146
 Width: 728
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Basic" 711 0 entry 0
 AnchorPoint: "Tashkil Above" 747 1773 basechar 0
 AnchorPoint: "Tashkil Below" 774 -288 basechar 0

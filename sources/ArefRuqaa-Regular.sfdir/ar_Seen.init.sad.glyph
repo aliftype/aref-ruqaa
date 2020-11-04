@@ -2,7 +2,6 @@ StartChar: arSeen.init.sad
 Encoding: 65700 -1 200
 Width: 1621
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sad" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 945 -261 basechar 0
 AnchorPoint: "Dots Above" 1233 990 basechar 0

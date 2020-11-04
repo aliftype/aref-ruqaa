@@ -2,7 +2,6 @@ StartChar: arAin.medi.hah
 Encoding: 65643 -1 143
 Width: 686
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Hah" 0 0 exit 0
 AnchorPoint: "Ain" 567 351 entry 0
 AnchorPoint: "Dots Above" 765 1332 basechar 0

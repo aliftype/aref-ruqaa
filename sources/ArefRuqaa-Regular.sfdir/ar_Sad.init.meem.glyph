@@ -2,7 +2,6 @@ StartChar: arSad.init.meem
 Encoding: 65773 -1 273
 Width: 1601
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Meem" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 981 -63 basechar 0
 AnchorPoint: "Tashkil Above" 1089 1287 basechar 0

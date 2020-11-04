@@ -2,7 +2,6 @@ StartChar: arSad.medi.ragaa
 Encoding: 65898 -1 399
 Width: 790
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 913 -165 basechar 0
 AnchorPoint: "Tashkil Above" 1122 1331 basechar 0

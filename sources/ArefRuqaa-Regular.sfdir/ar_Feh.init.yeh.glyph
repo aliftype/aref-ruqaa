@@ -2,7 +2,6 @@ StartChar: arFeh.init.yeh
 Encoding: 65824 -1 324
 Width: 436
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Yeh" 50 20 exit 0
 AnchorPoint: "Dots Above" 153 1089 basechar 0
 AnchorPoint: "Tashkil Above" 198 1089 basechar 0

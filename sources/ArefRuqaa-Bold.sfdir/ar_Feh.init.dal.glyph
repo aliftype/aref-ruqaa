@@ -2,7 +2,6 @@ StartChar: arFeh.init.dal
 Encoding: 65656 -1 156
 Width: 879
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dal" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 558 -243 basechar 0
 AnchorPoint: "Tashkil Above" 558 1260 basechar 0

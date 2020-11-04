@@ -2,7 +2,6 @@ StartChar: arHeh.medi2.feh
 Encoding: 65768 -1 268
 Width: 1149
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Feh" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 945 -315 basechar 0
 AnchorPoint: "Tashkil Above" 1026 1323 basechar 0

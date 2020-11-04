@@ -2,7 +2,6 @@ StartChar: arLam.init.heh
 Encoding: 65802 -1 302
 Width: 908
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Heh" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 711 -135 basechar 0
 AnchorPoint: "Tashkil Above" 765 1638 basechar 0

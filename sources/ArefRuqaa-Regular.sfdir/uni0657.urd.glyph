@@ -2,7 +2,6 @@ StartChar: uni0657.urd
 Encoding: 65883 -1 384
 Width: 0
 GlyphClass: 4
-Flags: W
 AnchorPoint: "Tashkil Above" 0 0 mark 0
 LayerCount: 2
 Fore

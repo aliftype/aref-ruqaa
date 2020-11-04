@@ -2,7 +2,6 @@ StartChar: arDal.isol
 Encoding: 65565 -1 65
 Width: 752
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Below" 369 -342 basechar 0
 AnchorPoint: "Dots Below" 405 -342 basechar 0
 AnchorPoint: "Dots Above" 477 1152 basechar 0

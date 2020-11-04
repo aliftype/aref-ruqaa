@@ -2,7 +2,6 @@ StartChar: arMeem.init.meem
 Encoding: 65779 -1 279
 Width: 908
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Below" 882 72 basechar 0
 AnchorPoint: "Meem" -20 -50 exit 0
 AnchorPoint: "Tashkil Above" 630 1233 basechar 0

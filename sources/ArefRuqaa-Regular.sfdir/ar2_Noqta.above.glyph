@@ -2,7 +2,6 @@ StartChar: ar2Noqta.above
 Encoding: 65546 -1 28
 Width: 0
 GlyphClass: 4
-Flags: W
 AnchorPoint: "Mark Mark Above" 72 500 basemark 0
 AnchorPoint: "Dots Above" 0 0 mark 0
 LayerCount: 2

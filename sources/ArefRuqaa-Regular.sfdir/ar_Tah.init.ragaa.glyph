@@ -2,7 +2,6 @@ StartChar: arTah.init.ragaa
 Encoding: 65888 -1 389
 Width: 1390
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Tashkil Above" 550 1694 basechar 0
 AnchorPoint: "Tashkil Below" 638 -176 basechar 0

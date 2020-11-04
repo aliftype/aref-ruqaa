@@ -2,7 +2,6 @@ StartChar: arTah.init.sad
 Encoding: 65702 -1 202
 Width: 1848
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sad" 18 63 exit 0
 AnchorPoint: "Tashkil Below" 1125 -189 basechar 0
 AnchorPoint: "Tashkil Above" 1143 1665 basechar 0

@@ -2,7 +2,6 @@ StartChar: arSad.init.feh
 Encoding: 65749 -1 249
 Width: 1739
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Feh" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 1071 -333 basechar 0
 AnchorPoint: "Tashkil Above" 1170 1134 basechar 0

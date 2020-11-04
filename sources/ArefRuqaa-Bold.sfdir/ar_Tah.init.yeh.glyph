@@ -2,7 +2,6 @@ StartChar: arTah.init.yeh
 Encoding: 65822 -1 322
 Width: 1149
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Yeh" 20 0 exit 0
 AnchorPoint: "Tashkil Above" 549 1629 basechar 0
 AnchorPoint: "Dots Above" 774 1143 basechar 0

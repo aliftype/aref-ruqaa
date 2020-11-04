@@ -2,7 +2,6 @@ StartChar: arBeh.medi.hah
 Encoding: 65638 -1 138
 Width: 927
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Hah" -66 0 exit 0
 AnchorPoint: "Dots Above" 468 999 basechar 0
 AnchorPoint: "Tashkil Above" 639 1188 basechar 0

@@ -2,7 +2,6 @@ StartChar: arLam.init.sad
 Encoding: 65706 -1 206
 Width: 1255
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sad" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 918 -225 basechar 0
 AnchorPoint: "Dots Above" 1035 1485 basechar 0

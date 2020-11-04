@@ -2,7 +2,6 @@ StartChar: arKaf.fina
 Encoding: 65592 -1 92
 Width: 1048
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sharta Above" 630 1584 basechar 0
 AnchorPoint: "Tashkil Below" 450 -315 basechar 0
 AnchorPoint: "Dots Below" 495 -378 basechar 0

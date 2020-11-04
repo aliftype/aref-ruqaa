@@ -2,7 +2,6 @@ StartChar: arFeh.fina
 Encoding: 65586 -1 86
 Width: 1163
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Below" 594 -297 basechar 0
 AnchorPoint: "Tashkil Below" 648 -315 basechar 0
 AnchorPoint: "Feh" 1035 108 entry 0

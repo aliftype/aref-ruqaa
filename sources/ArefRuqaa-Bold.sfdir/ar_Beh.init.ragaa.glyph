@@ -2,7 +2,6 @@ StartChar: arBeh.init.ragaa
 Encoding: 65884 -1 385
 Width: 1390
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Dots Above" 407 1276 basechar 0
 AnchorPoint: "Tashkil Above" 495 1309 basechar 0

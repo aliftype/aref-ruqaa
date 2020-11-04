@@ -2,7 +2,6 @@ StartChar: arHah.init.dal
 Encoding: 65651 -1 151
 Width: 1304
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dal" 0 0 exit 0
 AnchorPoint: "Dots Below" 666 -315 basechar 0
 AnchorPoint: "Tashkil Below" 828 -252 basechar 0

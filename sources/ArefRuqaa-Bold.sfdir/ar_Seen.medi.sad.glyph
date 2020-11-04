@@ -2,7 +2,6 @@ StartChar: arSeen.medi.sad
 Encoding: 65712 -1 212
 Width: 1188
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sad" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 1044 -261 basechar 0
 AnchorPoint: "Tashkil Above" 1233 1044 basechar 0

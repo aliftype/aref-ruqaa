@@ -2,7 +2,6 @@ StartChar: arMeem.medi.heh
 Encoding: 65815 -1 315
 Width: 883
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Heh" 15 0 exit 0
 AnchorPoint: "Meem" 774 612 entry 0
 AnchorPoint: "Tashkil Below" 900 -90 basechar 0

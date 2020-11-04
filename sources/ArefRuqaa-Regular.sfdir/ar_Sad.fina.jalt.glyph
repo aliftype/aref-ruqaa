@@ -2,7 +2,6 @@ StartChar: arSad.fina.jalt
 Encoding: 65861 -1 361
 Width: 2252
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Below" 1179 -342 basechar 0
 AnchorPoint: "Sad" 2020 86 entry 0
 AnchorPoint: "Tashkil Above" 2196 1530 basechar 0

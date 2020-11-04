@@ -2,7 +2,6 @@ StartChar: arSheen.isol
 Encoding: 65882 -1 381
 Width: 2048
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Tashkil Above" 1341 1485 basechar 0
 AnchorPoint: "Tashkil Below" 1233 54 basechar 0
 LayerCount: 2

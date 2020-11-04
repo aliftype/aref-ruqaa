@@ -2,7 +2,6 @@ StartChar: arBeh.medi.ragaa
 Encoding: 65895 -1 396
 Width: 532
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 421 -523 basechar 0
 AnchorPoint: "Dots Above" 506 1012 basechar 0

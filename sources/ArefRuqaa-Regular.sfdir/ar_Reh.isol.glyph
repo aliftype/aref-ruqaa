@@ -2,7 +2,6 @@ StartChar: arReh.isol
 Encoding: 65567 -1 67
 Width: 961
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Below" 477 -459 basechar 0
 AnchorPoint: "Tashkil Below" 495 -396 basechar 0
 AnchorPoint: "Tashkil Above" 567 882 basechar 0

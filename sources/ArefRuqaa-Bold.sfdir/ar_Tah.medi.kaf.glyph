@@ -2,7 +2,6 @@ StartChar: arTah.medi.kaf
 Encoding: 65872 -1 371
 Width: 543
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Basic" 0 0 exit 0
 AnchorPoint: "Sad" 333 -378 entry 0
 AnchorPoint: "Dots Below" 522 -144 basechar 0

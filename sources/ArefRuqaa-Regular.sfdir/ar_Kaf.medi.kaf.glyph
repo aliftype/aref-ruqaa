@@ -2,7 +2,6 @@ StartChar: arKaf.medi.kaf
 Encoding: 65875 -1 374
 Width: 702
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Basic" 0 0 exit 0
 AnchorPoint: "Beh" 702 0 entry 0
 AnchorPoint: "Basic" 702 0 entry 0

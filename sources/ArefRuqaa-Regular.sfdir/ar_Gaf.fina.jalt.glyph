@@ -2,7 +2,6 @@ StartChar: arGaf.fina.jalt
 Encoding: 65867 -1 367
 Width: 1897
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sharta Above" 2259 1980 basechar 0
 AnchorPoint: "Tashkil Below" 864 -297 basechar 0
 AnchorPoint: "Tashkil Above" 1125 1719 basechar 0

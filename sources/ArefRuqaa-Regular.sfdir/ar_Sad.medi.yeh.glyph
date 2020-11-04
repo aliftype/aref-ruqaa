@@ -2,7 +2,6 @@ StartChar: arSad.medi.yeh
 Encoding: 65833 -1 333
 Width: 733
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Yeh" 25 0 exit 0
 AnchorPoint: "Sad" 558 -396 entry 0
 AnchorPoint: "Tashkil Below" 882 -198 basechar 0

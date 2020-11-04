@@ -2,7 +2,6 @@ StartChar: arBeh.isol
 Encoding: 65557 -1 57
 Width: 1641
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dots Below" 630 -279 basechar 0
 AnchorPoint: "Tashkil Below" 675 -378 basechar 0
 AnchorPoint: "Tashkil Above" 711 1089 basechar 0

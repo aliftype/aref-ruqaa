@@ -2,7 +2,6 @@ StartChar: arTah.medi.hah
 Encoding: 65642 -1 142
 Width: 613
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Hah" 0 0 exit 0
 AnchorPoint: "Sad" 414 -81 entry 0
 AnchorPoint: "Tashkil Above" 720 1899 basechar 0

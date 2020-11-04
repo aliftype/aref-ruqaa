@@ -2,7 +2,6 @@ StartChar: arSeen.medi.ragaa
 Encoding: 65897 -1 398
 Width: 784
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 682 -198 basechar 0
 AnchorPoint: "Dots Above" 803 1067 basechar 0

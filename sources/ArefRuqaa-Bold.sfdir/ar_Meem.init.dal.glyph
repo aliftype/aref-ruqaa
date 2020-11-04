@@ -2,7 +2,6 @@ StartChar: arMeem.init.dal
 Encoding: 65659 -1 159
 Width: 962
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Dal" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 585 -234 basechar 0
 AnchorPoint: "Tashkil Above" 612 1035 basechar 0

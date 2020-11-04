@@ -2,7 +2,6 @@ StartChar: arFeh.init.sad
 Encoding: 65704 -1 204
 Width: 1476
 GlyphClass: 2
-Flags: W
 AnchorPoint: "Sad" 0 0 exit 0
 AnchorPoint: "Tashkil Below" 972 -216 basechar 0
 AnchorPoint: "Dots Above" 1080 1413 basechar 0
