@@ -18,7 +18,7 @@ import fontforge
 from buildencoded import build as build_encoded
 
 def parse_arabic_features(font, features):
-    fea = parser.Parser(io.StringIO(features), font).parse()
+    fea = parser.Parser(io.StringIO(features), []).parse()
 
     # Drop script and language statements from GPOS features (which are
     # generated from FontForge sources), so that they inherit from the global
@@ -59,7 +59,7 @@ def parse_arabic_features(font, features):
 def parse_latin_features(font, features):
     # Parse the features and drop any languagesystem statement, they are
     # superfluous in FontForge generated features.
-    fea = parser.Parser(io.StringIO(features), font).parse()
+    fea = parser.Parser(io.StringIO(features), []).parse()
 
     fea.statements = [s for s in fea.statements
                       if not isinstance(s, ast.LanguageSystemStatement)]
