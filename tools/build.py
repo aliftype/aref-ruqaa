@@ -205,7 +205,7 @@ def build(args):
     ttfont.save(args.out_file)
 
 def main():
-    parser = argparse.ArgumentParser(description="Create a version of Amiri with colored marks using COLR/CPAL tables.")
+    parser = argparse.ArgumentParser(description="Build Aref Ruqaa fonts.")
     parser.add_argument("arabicfile", metavar="FILE", help="input font to process")
     parser.add_argument("latinfile", metavar="FILE", help="input font to process")
     parser.add_argument("--out-file", metavar="FILE", help="output font to write", required=True)
