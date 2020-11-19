@@ -55,9 +55,12 @@ Lookup: 259 9 0 "'curs' Seen" { "'curs' Seen"  } ['curs' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Above" { "'mark' Above"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Below" { "'mark' Below"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Middle" { "'mark' Middle"  } ['mark' ('DFLT' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Above" { "'mkmk' Above"  } ['mkmk' ('DFLT' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Below" { "'mkmk' Below"  } ['mkmk' ('DFLT' <'dflt' > ) ]
+Lookup: 262 16 0 "'mkmk' Above" { "'mkmk' Above"  } ['mkmk' ('DFLT' <'dflt' > ) ]
+Lookup: 262 65552 0 "'mkmk' Below" { "'mkmk' Below"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
+MarkAttachSets: 2
+"MarkMarkAbove" 177 uni064B uni064C uni064E uni064F uni0651 uni0652 uni0653 uni0654 uni0657 uni0658 uni065A uni0670 ar1Noqta.above ar2Noqta.above ar3Noqta.above arSharta.kaf uni0657.urd uni0652.alt
+"MarkMarkBelow" 84 uni064D uni0650 uni0651 uni0655 uni0656 ar1Noqta.below ar2Noqta.below ar3Noqta.below
 DEI: 91125
 TtTable: prep
 PUSHW_1
