@@ -725,17 +725,14 @@ feature ss03 {
     sub arNoon.fina by arNoon.fina.tail;
 } ss03;
 
-feature cv01 {
-  cvParameters {
-    FeatUILabelNameID { name "Looped initial Kaf"; };
-    FeatUITooltipTextNameID { name "Select looped initial Kaf variants that is usually used before Alif"; };
-    SampleTextNameID { name "كل"; };
-    Character 0x0643;
+feature ss04 {
+  featureNames {
+    name "Looped initial Kaf";
   };
 
   lookupflag IgnoreMarks;
     sub arKaf.init.alef by arKaf.init.alef.loop;
-} cv01;
+} ss04;
 
 feature ss05 {
   featureNames {
