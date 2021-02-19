@@ -36,7 +36,6 @@ $(BLDDIR)/$(LATIN)-%.$(EXT): $(SRCDIR)/$(LATIN)-%.ufo
 	@mkdir -p $(BLDDIR)
 	@fontmake                                                              \
 	   --verbose WARNING                                                   \
-	   --production-names                                                  \
 	   -u $(realpath $<)                                                   \
 	   -o $(EXT)                                                           \
 	   --output-path $@                                                    \

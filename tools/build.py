@@ -202,6 +202,9 @@ def build(args):
     # unset bits 6..10
     ttfont["head"].flags &= ~0x7e0
 
+    # We don’t want glyph names, they are useless.
+    ttfont["post"].formatType = 3
+
     ttfont.save(args.out_file)
 
 def main():
