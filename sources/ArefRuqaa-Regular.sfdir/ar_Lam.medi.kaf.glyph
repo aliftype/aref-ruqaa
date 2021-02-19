@@ -6,7 +6,7 @@ AnchorPoint: "Basic" 0 0 exit 0
 AnchorPoint: "Beh" 626 0 entry 0
 AnchorPoint: "Basic" 626 0 entry 0
 LayerCount: 2
-Fore
+Back
 SplineSet
 772 224 m 1,0,-1
  626 0 l 1,1,-1
@@ -19,5 +19,19 @@ SplineSet
  559 904 l 1,10,-1
  709 1155 l 1,11,-1
  772 224 l 1,0,-1
+EndSplineSet
+Fore
+SplineSet
+772 224 m 1
+ 626 0 l 1
+ 607 269 l 1
+ 535 163 464.666666667 101 396 83 c 128
+ 327.333333333 65 195.333333333 37.3333333333 0 0 c 1
+ 45 265 l 1
+ 347.666666667 305 532 342 598 376 c 1
+ 560 886 l 1
+ 559 904 l 1
+ 709 1155 l 1
+ 772 224 l 1
 EndSplineSet
 EndChar

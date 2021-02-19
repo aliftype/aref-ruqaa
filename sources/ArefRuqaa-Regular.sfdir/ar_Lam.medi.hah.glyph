@@ -8,7 +8,7 @@ AnchorPoint: "Basic" 728 0 entry 0
 AnchorPoint: "Tashkil Above" 747 1773 basechar 0
 AnchorPoint: "Tashkil Below" 774 -288 basechar 0
 LayerCount: 2
-Fore
+Back
 SplineSet
 636 1160 m 1,0,-1
  787 1410 l 1,1,-1
@@ -21,5 +21,19 @@ SplineSet
  88 626 88 626 295 744.5 c 128,-1,10
  502 863 502 863 655 917 c 1,11,-1
  636 1160 l 1,0,-1
+EndSplineSet
+Fore
+SplineSet
+636 1160 m 1
+ 787 1410 l 1
+ 874 220 l 1
+ 728 0 l 1
+ 670 734 l 1
+ 556 696 443.666666667 638.666666667 333 562 c 128
+ 222.333333333 485.333333333 127 391.333333333 47 280 c 1
+ 0 290 l 1
+ 58.6666666667 514 157 665.5 295 744.5 c 128
+ 433 823.5 553 881 655 917 c 1
+ 636 1160 l 1
 EndSplineSet
 EndChar

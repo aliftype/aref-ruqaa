@@ -13,7 +13,7 @@ Descent: 410
 InvalidEm: 0
 LayerCount: 2
 Layer: 0 1 "Back" 1
-Layer: 1 1 "Fore" 0
+Layer: 1 0 "Fore" 0
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0

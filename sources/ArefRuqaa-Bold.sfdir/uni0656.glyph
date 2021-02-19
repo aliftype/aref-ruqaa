@@ -5,6 +5,8 @@ GlyphClass: 2
 AnchorPoint: "Tashkil Below" 0 200 mark 0
 AnchorPoint: "Mark Mark Below" 0 200 mark 0
 LayerCount: 2
+Back
+Refer: 24 1648 N 1 0 0 1 0 0 2
 Fore
 Refer: 24 1648 N 1 0 0 1 0 0 2
 EndChar

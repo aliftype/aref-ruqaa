@@ -2,6 +2,8 @@ StartChar: uni06F4.urd.numr
 Encoding: 65948 -1 455
 Width: 543
 LayerCount: 2
+Back
+Refer: 454 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 454 -1 N 1 0 0 1 0 0 2
 EndChar

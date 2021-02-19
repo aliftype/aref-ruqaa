@@ -5,7 +5,7 @@ GlyphClass: 4
 AnchorPoint: "Mark Mark Above" 72 500 basemark 0
 AnchorPoint: "Dots Above" 0 0 mark 0
 LayerCount: 2
-Fore
+Back
 SplineSet
 133 -77 m 1,0,1
  34 -95 34 -95 -64 -113.5 c 128,-1,2
@@ -13,5 +13,14 @@ SplineSet
  -138 94 l 1,4,5
  76 132 76 132 256 167 c 1,6,-1
  133 -77 l 1,0,1
+EndSplineSet
+Fore
+SplineSet
+133 -77 m 1
+ 67 -89 1.33333333333 -101.166666667 -64 -113.5 c 128
+ -129.333333333 -125.833333333 -194.666666667 -138 -260 -150 c 1
+ -138 94 l 1
+ 4.66666666667 119.333333333 136 143.666666667 256 167 c 1
+ 133 -77 l 1
 EndSplineSet
 EndChar

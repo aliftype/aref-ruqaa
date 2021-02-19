@@ -8,6 +8,8 @@ AnchorPoint: "Tashkil Below" 981 63 basechar 0
 AnchorPoint: "Tashkil Above" 1080 1359 basechar 0
 AnchorPoint: "Dots Above" 1143 1197 basechar 0
 LayerCount: 2
+Back
+Refer: 129 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 129 -1 N 1 0 0 1 0 0 2
 EndChar

@@ -2,6 +2,8 @@ StartChar: uni0666.dnom
 Encoding: 65934 -1 440
 Width: 543
 LayerCount: 2
+Back
+Refer: 42 1638 N 0.7 0 0 0.7 -3.6001 0 2
 Fore
 Refer: 42 1638 N 0.7 0 0 0.7 -3.6001 0 2
 EndChar

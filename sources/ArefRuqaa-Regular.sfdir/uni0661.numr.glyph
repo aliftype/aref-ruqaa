@@ -2,6 +2,8 @@ StartChar: uni0661.numr
 Encoding: 65919 -1 425
 Width: 543
 LayerCount: 2
+Back
+Refer: 435 -1 N 1 0 0 1 0 550 2
 Fore
 Refer: 435 -1 N 1 0 0 1 0 550 2
 EndChar
