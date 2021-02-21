@@ -15,7 +15,6 @@ from fontTools.feaLib import ast, parser, builder
 
 import fontforge
 
-from buildencoded import build as build_encoded
 
 def parse_arabic_features(font, features):
     fea = parser.Parser(io.StringIO(features), []).parse()
@@ -160,8 +159,6 @@ the classical Ruqaa calligraphic style.")
 
 def build(args):
     font, features = merge(args)
-
-    build_encoded(font, features)
 
     with tempfile.NamedTemporaryFile(mode="r", suffix=args.out_file) as tmp:
         font.generate(tmp.name, flags=["round", "opentype", "dummy-dsig"])
