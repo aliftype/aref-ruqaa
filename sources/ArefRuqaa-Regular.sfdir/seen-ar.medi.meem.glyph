@@ -1,14 +1,14 @@
 StartChar: seen-ar.medi.meem
 Encoding: 65774 -1 284
-Width: 847
+Width: 413
 GlyphClass: 2
 AnchorPoint: "Meem" 0 0 exit 0
-AnchorPoint: "Tashkil Above" 909 1116 basechar 0
-AnchorPoint: "Dots Above" 909 1224 basechar 0
-AnchorPoint: "Tashkil Below" 918 -45 basechar 0
-AnchorPoint: "Seen" 990 342 entry 0
-AnchorPoint: "Beh" 990 342 entry 0
-AnchorPoint: "Basic" 990 342 entry 0
+AnchorPoint: "Tashkil Above" 444 545 basechar 0
+AnchorPoint: "Dots Above" 444 598 basechar 0
+AnchorPoint: "Tashkil Below" 448 -22 basechar 0
+AnchorPoint: "Seen" 483 167 entry 0
+AnchorPoint: "Beh" 483 167 entry 0
+AnchorPoint: "Basic" 483 167 entry 0
 LayerCount: 2
 Back
 Refer: 272 -1 N 1 0 0 1 0 0 2

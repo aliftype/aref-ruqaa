@@ -1,10 +1,10 @@
 StartChar: one-ar.dnom
 Encoding: 65918 -1 435
-Width: 543
+Width: 265
 GlyphClass: 2
 LayerCount: 2
 Back
-Refer: 37 1633 N 0.7 0 0 0.7 140.25 0 2
+Refer: 37 1633 N 0.7 0 0 0.7 68.4814 0 2
 Fore
-Refer: 37 1633 N 0.7 0 0 0.7 140.25 0 2
+Refer: 37 1633 N 0.7 0 0 0.7 68 0 2
 EndChar

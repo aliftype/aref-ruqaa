@@ -107,7 +107,6 @@ def merge(args):
 
     latin = fontforge.open(args.latinfile)
     latin.encoding = "Unicode"
-    latin.em = arabic.em
 
     # If any Latin glyph exists in the Arabic font, rename it and add to a locl
     # feature.

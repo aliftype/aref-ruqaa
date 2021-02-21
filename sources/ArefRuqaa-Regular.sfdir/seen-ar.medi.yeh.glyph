@@ -1,14 +1,14 @@
 StartChar: seen-ar.medi.yeh
 Encoding: 65822 -1 332
-Width: 758
+Width: 370
 GlyphClass: 2
-AnchorPoint: "Yeh" -10 0 exit 0
-AnchorPoint: "Tashkil Below" 747 -108 basechar 0
-AnchorPoint: "Tashkil Above" 819 990 basechar 0
-AnchorPoint: "Dots Above" 828 1080 basechar 0
-AnchorPoint: "Seen" 900 225 entry 0
-AnchorPoint: "Beh" 900 225 entry 0
-AnchorPoint: "Basic" 900 225 entry 0
+AnchorPoint: "Yeh" -5 0 exit 0
+AnchorPoint: "Tashkil Below" 365 -53 basechar 0
+AnchorPoint: "Tashkil Above" 400 483 basechar 0
+AnchorPoint: "Dots Above" 404 527 basechar 0
+AnchorPoint: "Seen" 439 110 entry 0
+AnchorPoint: "Beh" 439 110 entry 0
+AnchorPoint: "Basic" 439 110 entry 0
 LayerCount: 2
 Back
 Refer: 320 -1 N 1 0 0 1 0 0 2

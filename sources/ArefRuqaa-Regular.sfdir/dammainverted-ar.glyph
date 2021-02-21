@@ -6,7 +6,7 @@ AnchorPoint: "Mark Mark Above" 0 0 mark 0
 AnchorPoint: "Tashkil Above" 0 0 mark 0
 LayerCount: 2
 Back
-Refer: 19 1615 N -1 0 0 -1 88 217 3
+Refer: 19 1615 N -1 0 0 -1 42.9688 105.957 3
 Fore
-Refer: 19 1615 N -1 0 0 -1 88 217 3
+Refer: 19 1615 N -1 0 0 -1 43 106 3
 EndChar

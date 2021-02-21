@@ -2,7 +2,7 @@ StartChar: twodotsbelow-ar
 Encoding: 65540 -1 31
 Width: 0
 GlyphClass: 4
-AnchorPoint: "Mark Mark Below" 0 -440 basemark 0
+AnchorPoint: "Mark Mark Below" 0 -215 basemark 0
 AnchorPoint: "Dots Below" 0 0 mark 0
 LayerCount: 2
 Back

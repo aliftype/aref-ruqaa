@@ -1,27 +1,27 @@
 StartChar: lam-ar.init.meem
 Encoding: 65768 -1 278
-Width: 276
+Width: 134
 GlyphClass: 2
-AnchorPoint: "Meem" -20 -100 exit 0
-AnchorPoint: "Tashkil Above" 90 1215 basechar 0
-AnchorPoint: "Tashkil Below" 261 -702 basechar 0
+AnchorPoint: "Meem" -10 -49 exit 0
+AnchorPoint: "Tashkil Above" 44 593 basechar 0
+AnchorPoint: "Tashkil Below" 127 -343 basechar 0
 LayerCount: 2
 Back
 SplineSet
-43 0 m 1,0,-1
- 0 724 l 1,1,-1
- 153 972 l 1,2,-1
- 196 283 l 2,3,4
- 198 255 198 255 196 204 c 1,5,-1
- 43 0 l 1,0,-1
+20.99609375 0 m 1,0,-1
+ 0 353.515625 l 1,1,-1
+ 74.70703125 474.609375 l 1,2,-1
+ 95.703125 138.18359375 l 2,3,4
+ 96.6796875 124.51171875 96.6796875 124.51171875 95.703125 99.609375 c 1,5,-1
+ 20.99609375 0 l 1,0,-1
 EndSplineSet
 Fore
 SplineSet
-43 0 m 1
- 0 724 l 1
- 153 972 l 1
- 196 283 l 2
- 197.333333333 264.333333333 197.333333333 238 196 204 c 1
- 43 0 l 1
+21 0 m 1
+ 0 354 l 1
+ 75 475 l 1
+ 96 138 l 2
+ 97 129 97 117 96 100 c 1
+ 21 0 l 1
 EndSplineSet
 EndChar

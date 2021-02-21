@@ -1,42 +1,42 @@
 StartChar: behDotless-ar.medi.high2
 Encoding: 65836 -1 346
-Width: 485
+Width: 236
 GlyphClass: 2
 AnchorPoint: "Seen" 0 0 exit 0
 AnchorPoint: "Beh" 0 0 exit 0
-AnchorPoint: "Dots Below" 387 -324 basechar 0
-AnchorPoint: "Beh" 486 0 entry 0
-AnchorPoint: "Basic" 486 0 entry 0
-AnchorPoint: "Dots Above" 500 1200 basechar 0
-AnchorPoint: "Tashkil Above" 513 1116 basechar 0
-AnchorPoint: "Tashkil Below" 558 -351 basechar 0
+AnchorPoint: "Dots Below" 189 -158 basechar 0
+AnchorPoint: "Beh" 237 0 entry 0
+AnchorPoint: "Basic" 237 0 entry 0
+AnchorPoint: "Dots Above" 244 586 basechar 0
+AnchorPoint: "Tashkil Above" 250 545 basechar 0
+AnchorPoint: "Tashkil Below" 272 -171 basechar 0
 LayerCount: 2
 Back
 SplineSet
-441 601 m 1,0,-1
- 592 841 l 1,1,-1
- 636 240 l 1,2,-1
- 485 0 l 1,3,-1
- 469 220 l 1,4,5
- 409 151 409 151 320 103 c 1,6,-1
+215.33203125 293.45703125 m 1,0,-1
+ 289.0625 410.64453125 l 1,1,-1
+ 310.546875 117.1875 l 1,2,-1
+ 236.81640625 0 l 1,3,-1
+ 229.00390625 107.421875 l 1,4,5
+ 199.70703125 73.73046875 199.70703125 73.73046875 156.25 50.29296875 c 1,6,-1
  0 0 l 1,7,-1
  0 0 l 1,8,-1
- 134 280 l 1,9,10
- 215 294 215 294 298 313.5 c 128,-1,11
- 381 333 381 333 458 366 c 1,12,-1
- 441 601 l 1,0,-1
+ 65.4296875 136.71875 l 1,9,10
+ 104.98046875 143.5546875 104.98046875 143.5546875 145.5078125 153.076171875 c 128,-1,11
+ 186.03515625 162.59765625 186.03515625 162.59765625 223.6328125 178.7109375 c 1,12,-1
+ 215.33203125 293.45703125 l 1,0,-1
 EndSplineSet
 Fore
 SplineSet
-441 601 m 1
- 592 841 l 1
- 636 240 l 1
- 485 0 l 1
- 469 220 l 1
- 429 174 379.333333333 135 320 103 c 1
+215 293 m 1
+ 289 411 l 1
+ 311 117 l 1
+ 237 0 l 1
+ 229 107 l 1
+ 209 85 185 66 156 50 c 1
  0 0 l 1
- 134 280 l 1
- 248.331285335 299.760962897 361.322752752 324.566894036 458 366 c 1
- 441 601 l 1
+ 65 137 l 1
+ 121 147 177 159 224 179 c 1
+ 215 293 l 1
 EndSplineSet
 EndChar

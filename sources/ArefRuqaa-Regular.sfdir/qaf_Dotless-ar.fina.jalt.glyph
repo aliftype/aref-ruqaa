@@ -1,12 +1,12 @@
 StartChar: qafDotless-ar.fina.jalt
 Encoding: 65853 -1 363
-Width: 1740
+Width: 849
 GlyphClass: 2
-AnchorPoint: "Tashkil Below" 729 -333 basechar 0
-AnchorPoint: "Feh" 1260 72 entry 0
-AnchorPoint: "Tashkil Above" 1449 1467 basechar 0
-AnchorPoint: "Waw" 1528 648 entry 0
-AnchorPoint: "Dots Above" 1530 1206 basechar 0
+AnchorPoint: "Tashkil Below" 356 -163 basechar 0
+AnchorPoint: "Feh" 615 35 entry 0
+AnchorPoint: "Tashkil Above" 708 716 basechar 0
+AnchorPoint: "Waw" 746 316 entry 0
+AnchorPoint: "Dots Above" 747 589 basechar 0
 LayerCount: 2
 Back
 Refer: 354 -1 N 1 0 0 1 0 0 2

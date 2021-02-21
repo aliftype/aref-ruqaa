@@ -1,10 +1,10 @@
 StartChar: alefHamzabelow-ar
 Encoding: 1573 1573 459
-Width: 509
+Width: 248
 GlyphClass: 2
 LayerCount: 2
 Fore
 Refer: 55 -1 N 1 0 0 1 0 0 3
-Refer: 26 1621 N 1 0 0 1 270 -45 2
+Refer: 26 1621 N 1 0 0 1 132 -22 2
 Colour: ff0000
 EndChar

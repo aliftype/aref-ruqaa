@@ -6,10 +6,10 @@ Weight: Bold
 Copyright: Copyright (c) 2015, Khaled Hosny <khaledhosny@eglug.org>
 Version: 
 ItalicAngle: 0
-UnderlinePosition: -142
-UnderlineWidth: 150
-Ascent: 1638
-Descent: 410
+UnderlinePosition: -69
+UnderlineWidth: 73
+Ascent: 800
+Descent: 200
 InvalidEm: 0
 LayerCount: 2
 Layer: 0 1 "Back" 1
@@ -22,20 +22,20 @@ CreationTime: 1425763181
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
-LineGap: 200
+LineGap: 98
 VLineGap: 0
-OS2TypoAscent: 2500
+OS2TypoAscent: 1221
 OS2TypoAOffset: 0
-OS2TypoDescent: -500
+OS2TypoDescent: -244
 OS2TypoDOffset: 0
-OS2TypoLinegap: 200
-OS2WinAscent: 2500
+OS2TypoLinegap: 98
+OS2WinAscent: 1221
 OS2WinAOffset: 0
-OS2WinDescent: 900
+OS2WinDescent: 439
 OS2WinDOffset: 0
-HheadAscent: 2500
+HheadAscent: 1221
 HheadAOffset: 0
-HheadDescent: -500
+HheadDescent: -244
 HheadDOffset: 0
 OS2Vendor: 'ALIF'
 Lookup: 259 9 0 "'curs' Basic" { "'curs' Basic"  } ['curs' ('DFLT' <'dflt' > ) ]

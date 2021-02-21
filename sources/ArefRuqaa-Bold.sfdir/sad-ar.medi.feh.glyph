@@ -1,12 +1,12 @@
 StartChar: sad-ar.medi.feh
 Encoding: 65751 -1 261
-Width: 932
+Width: 455
 GlyphClass: 2
 AnchorPoint: "Feh" 0 0 exit 0
-AnchorPoint: "Sad" 710 -444 entry 0
-AnchorPoint: "Tashkil Below" 1089 -279 basechar 0
-AnchorPoint: "Tashkil Above" 1197 1089 basechar 0
-AnchorPoint: "Dots Above" 1197 1125 basechar 0
+AnchorPoint: "Sad" 347 -217 entry 0
+AnchorPoint: "Tashkil Below" 532 -136 basechar 0
+AnchorPoint: "Tashkil Above" 584 532 basechar 0
+AnchorPoint: "Dots Above" 584 549 basechar 0
 LayerCount: 2
 Back
 Refer: 249 -1 N 1 0 0 1 0 0 2

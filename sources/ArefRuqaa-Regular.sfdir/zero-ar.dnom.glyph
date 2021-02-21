@@ -1,10 +1,10 @@
 StartChar: zero-ar.dnom
 Encoding: 65917 -1 434
-Width: 543
+Width: 265
 GlyphClass: 2
 LayerCount: 2
 Back
-Refer: 36 1632 N 0.7 0 0 0.7 105.25 0 2
+Refer: 36 1632 N 0.7 0 0 0.7 51.3916 0 2
 Fore
-Refer: 36 1632 N 0.7 0 0 0.7 105.25 0 2
+Refer: 36 1632 N 0.7 0 0 0.7 51 0 2
 EndChar

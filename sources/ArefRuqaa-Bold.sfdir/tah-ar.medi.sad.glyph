@@ -1,12 +1,12 @@
 StartChar: tah-ar.medi.sad
 Encoding: 65704 -1 214
-Width: 1027
+Width: 501
 GlyphClass: 2
 AnchorPoint: "Sad" 0 0 exit 0
-AnchorPoint: "Sad" 795 -422 entry 0
-AnchorPoint: "Tashkil Above" 1143 1584 basechar 0
-AnchorPoint: "Tashkil Below" 1197 -207 basechar 0
-AnchorPoint: "Dots Above" 1449 1089 basechar 0
+AnchorPoint: "Sad" 388 -206 entry 0
+AnchorPoint: "Tashkil Above" 558 773 basechar 0
+AnchorPoint: "Tashkil Below" 584 -101 basechar 0
+AnchorPoint: "Dots Above" 708 532 basechar 0
 LayerCount: 2
 Back
 Refer: 202 -1 N 1 0 0 1 0 0 2
