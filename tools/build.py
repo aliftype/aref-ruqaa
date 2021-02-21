@@ -17,7 +17,8 @@ import fontforge
 
 
 def parse_arabic_features(font, features):
-    fea = parser.Parser(io.StringIO(features), []).parse()
+    glyphs = set(g.glyphname for g in font.glyphs())
+    fea = parser.Parser(io.StringIO(features), glyphs).parse()
 
     # Drop script and language statements from GPOS features (which are
     # generated from FontForge sources), so that they inherit from the global
@@ -55,13 +56,24 @@ def parse_arabic_features(font, features):
     return fea
 
 
-def parse_latin_features(font, features):
+def parse_latin_features(font, features, locl):
     # Parse the features and drop any languagesystem statement, they are
     # superfluous in FontForge generated features.
-    fea = parser.Parser(io.StringIO(features), []).parse()
+    glyphs = set(g.glyphname for g in font.glyphs())
+    fea = parser.Parser(io.StringIO(features), glyphs).parse()
 
     fea.statements = [s for s in fea.statements
                       if not isinstance(s, ast.LanguageSystemStatement)]
+    if locl:
+        feature = ast.FeatureBlock("locl")
+        fea.statements.append(feature)
+        feature.statements.append(ast.LookupFlagStatement(8))
+        feature.statements.append(ast.ScriptStatement("latn"))
+        for sub in locl:
+            src = [ast.GlyphName(sub[0])]
+            rpl = [ast.GlyphName(sub[1])]
+            rule = ast.SingleSubstStatement(src, rpl, [], [], False)
+            feature.statements.append(rule)
 
     return fea
 
@@ -104,7 +116,7 @@ def merge(args):
             name = arabic[glyph.unicode].glyphname
             glyph.unicode = -1
             glyph.glyphname += ".latn"
-            locl.append("sub %s by %s;" % (name, glyph.glyphname))
+            locl.append((name, glyph.glyphname))
 
     # Read external feature file.
     with open(args.feature_file) as feature_file:
@@ -120,11 +132,7 @@ def merge(args):
     with tempfile.NamedTemporaryFile(mode="w+") as tmp:
         latin.generateFeatureFile(tmp.name)
         features = tmp.read()
-        if locl:
-            features += "feature locl {\nlookupflag IgnoreMarks; script latn;"
-            features += "\n".join(locl)
-            features += "} locl;"
-        latin_fea = parse_latin_features(latin, features)
+        latin_fea = parse_latin_features(latin, features, locl)
 
     # Merge Arabic and Latin fonts
     with tempfile.NamedTemporaryFile(mode="r") as tmp:
