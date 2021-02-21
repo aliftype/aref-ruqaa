@@ -1,0 +1,12 @@
+StartChar: dammainverted-ar
+Encoding: 1623 1623 382
+Width: 0
+GlyphClass: 4
+AnchorPoint: "Mark Mark Above" 0 0 mark 0
+AnchorPoint: "Tashkil Above" 0 0 mark 0
+LayerCount: 2
+Back
+Refer: 19 1615 N -1 0 0 -1 88 217 3
+Fore
+Refer: 19 1615 N -1 0 0 -1 88 217 3
+EndChar

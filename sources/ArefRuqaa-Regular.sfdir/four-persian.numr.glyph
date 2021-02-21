@@ -1,0 +1,10 @@
+StartChar: four-persian.numr
+Encoding: 65928 -1 445
+Width: 543
+GlyphClass: 2
+LayerCount: 2
+Back
+Refer: 450 -1 N 1 0 0 1 0 550 2
+Fore
+Refer: 450 -1 N 1 0 0 1 0 550 2
+EndChar

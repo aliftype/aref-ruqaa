@@ -1,0 +1,15 @@
+StartChar: sad-ar.medi.ain
+Encoding: 65727 -1 237
+Width: 794
+GlyphClass: 2
+AnchorPoint: "Ain" 0 0 exit 0
+AnchorPoint: "Sad" 552 -512 entry 0
+AnchorPoint: "Tashkil Below" 1026 -324 basechar 0
+AnchorPoint: "Tashkil Above" 1035 1053 basechar 0
+AnchorPoint: "Dots Above" 1242 1089 basechar 0
+LayerCount: 2
+Back
+Refer: 225 -1 N 1 0 0 1 0 0 2
+Fore
+Refer: 225 -1 N 1 0 0 1 0 0 2
+EndChar

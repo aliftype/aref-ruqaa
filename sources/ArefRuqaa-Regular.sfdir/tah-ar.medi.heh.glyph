@@ -1,0 +1,15 @@
+StartChar: tah-ar.medi.heh
+Encoding: 65800 -1 310
+Width: 789
+GlyphClass: 2
+AnchorPoint: "Heh" 0 0 exit 0
+AnchorPoint: "Sad" 549 -252 entry 0
+AnchorPoint: "Tashkil Above" 882 1755 basechar 0
+AnchorPoint: "Tashkil Below" 990 -45 basechar 0
+AnchorPoint: "Dots Above" 1215 1332 basechar 0
+LayerCount: 2
+Back
+Refer: 298 -1 N 1 0 0 1 0 0 2
+Fore
+Refer: 298 -1 N 1 0 0 1 0 0 2
+EndChar

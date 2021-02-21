@@ -1,0 +1,15 @@
+StartChar: sad-ar.medi.yeh
+Encoding: 65823 -1 333
+Width: 733
+GlyphClass: 2
+AnchorPoint: "Yeh" 34 0 exit 0
+AnchorPoint: "Sad" 558 -396 entry 0
+AnchorPoint: "Tashkil Below" 882 -198 basechar 0
+AnchorPoint: "Tashkil Above" 1017 1170 basechar 0
+AnchorPoint: "Dots Above" 1026 1107 basechar 0
+LayerCount: 2
+Back
+Refer: 321 -1 N 1 0 0 1 0 0 2
+Fore
+Refer: 321 -1 N 1 0 0 1 0 0 2
+EndChar

@@ -1,0 +1,15 @@
+StartChar: meem-ar.fina
+Encoding: 65590 -1 100
+Width: 717
+GlyphClass: 2
+AnchorPoint: "Dots Below" 126 -909 basechar 0
+AnchorPoint: "Dots Above" 340 1200 basechar 0
+AnchorPoint: "Tashkil Above" 460 1280 basechar 0
+AnchorPoint: "Meem" 621 828 entry 0
+AnchorPoint: "Tashkil Below" 650 50 basechar 0
+LayerCount: 2
+Back
+Refer: 99 -1 N 1 0 0 1 0 0 2
+Fore
+Refer: 99 -1 N 1 0 0 1 0 0 2
+EndChar

@@ -1,0 +1,27 @@
+StartChar: dotabove-ar
+Encoding: 65536 -1 27
+Width: 0
+GlyphClass: 4
+AnchorPoint: "Mark Mark Above" 5 400 basemark 0
+AnchorPoint: "Dots Above" 0 0 mark 0
+LayerCount: 2
+Back
+SplineSet
+162 25 m 1,0,1
+ 120 -29 120 -29 78 -81 c 128,-1,2
+ 36 -133 36 -133 -6 -185 c 1,3,-1
+ -150 -50 l 1,4,5
+ -109 3 -109 3 -66.5 55 c 128,-1,6
+ -24 107 -24 107 18 160 c 1,7,-1
+ 162 25 l 1,0,1
+EndSplineSet
+Fore
+SplineSet
+-150 -50 m 1
+ -95.0853713355 20.9872029086 -37.7900390385 89.5982840711 18 160 c 1
+ 162 25 l 1
+ 134 -11 106 -46.3333333333 78 -81 c 128
+ 36 -133 36 -133 -6 -185 c 1
+ -150 -50 l 1
+EndSplineSet
+EndChar

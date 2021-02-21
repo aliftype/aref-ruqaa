@@ -1,0 +1,24 @@
+StartChar: gafsarkashabove-ar
+Encoding: 65542 -1 33
+Width: 0
+GlyphClass: 4
+AnchorPoint: "Mark Mark Above" 0 400 basemark 0
+AnchorPoint: "Sharta Above" 0 0 mark 0
+LayerCount: 2
+Back
+SplineSet
+-270 -119 m 1,0,-1
+ 344 233 l 1,1,-1
+ 281 127 l 1,2,-1
+ -333 -225 l 1,3,-1
+ -270 -119 l 1,0,-1
+EndSplineSet
+Fore
+SplineSet
+-270 -119 m 1
+ 344 233 l 1
+ 281 127 l 1
+ -333 -225 l 1
+ -270 -119 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,15 @@
+StartChar: noonghunna-ar.fina2
+Encoding: 65609 -1 119
+Width: 950
+GlyphClass: 2
+AnchorPoint: "Dots Below" 351 -198 basechar 0
+AnchorPoint: "Tashkil Below" 420 -340 basechar 0
+AnchorPoint: "Dots Above" 459 1179 basechar 0
+AnchorPoint: "Tashkil Above" 530 1300 basechar 0
+AnchorPoint: "Waw" 756 486 entry 0
+LayerCount: 2
+Back
+Refer: 118 -1 N 1 0 0 1 0 0 2
+Fore
+Refer: 118 -1 N 1 0 0 1 0 0 2
+EndChar

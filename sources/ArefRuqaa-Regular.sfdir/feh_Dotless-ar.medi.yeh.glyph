@@ -1,0 +1,15 @@
+StartChar: fehDotless-ar.medi.yeh
+Encoding: 65826 -1 336
+Width: 707
+GlyphClass: 2
+AnchorPoint: "Yeh" 20 0 exit 0
+AnchorPoint: "Feh" 576 234 entry 0
+AnchorPoint: "Tashkil Below" 855 18 basechar 0
+AnchorPoint: "Tashkil Above" 855 1341 basechar 0
+AnchorPoint: "Dots Above" 918 1395 basechar 0
+LayerCount: 2
+Back
+Refer: 288 -1 N 1 0 0 1 0 0 2
+Fore
+Refer: 288 -1 N 1 0 0 1 0 0 2
+EndChar

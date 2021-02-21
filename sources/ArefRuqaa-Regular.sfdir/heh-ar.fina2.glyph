@@ -1,0 +1,43 @@
+StartChar: heh-ar.fina2
+Encoding: 65610 -1 120
+Width: 362
+GlyphClass: 2
+AnchorPoint: "Dots Below" 261 -396 basechar 0
+AnchorPoint: "Dots Above" 333 756 basechar 0
+AnchorPoint: "Tashkil Above" 387 765 basechar 0
+AnchorPoint: "Tashkil Below" 405 -486 basechar 0
+AnchorPoint: "Beh" 477 0 entry 0
+AnchorPoint: "Basic" 477 0 entry 0
+LayerCount: 2
+Back
+SplineSet
+586 280 m 1,0,-1
+ 511 16 l 1,1,2
+ 408 -1 408 -1 341 -1 c 0,3,4
+ 306 -1 306 -1 280 4 c 0,5,6
+ 207 18 207 18 159 35 c 1,7,-1
+ 65 -188 l 1,8,-1
+ 0 -232 l 1,9,-1
+ 187 253 l 2,10,11
+ 202 291 202 291 229 291 c 2,12,-1
+ 234 291 l 1,13,14
+ 265 287 265 287 309 278 c 0,15,16
+ 345 270 345 270 416 269 c 0,17,18
+ 423 268 423 268 431 268 c 0,19,20
+ 497 268 497 268 586 280 c 1,0,-1
+EndSplineSet
+Fore
+SplineSet
+234 291 m 1
+ 295.151442788 283.109491252 346.404486293 268 431 268 c 0
+ 475 268 526.666666667 272 586 280 c 1
+ 511 16 l 1
+ 442.333333333 4.66666666667 385.666666667 -1 341 -1 c 0
+ 271.55917495 -1 203.318432086 19.3038886363 159 35 c 1
+ 65 -188 l 1
+ 0 -232 l 1
+ 187 253 l 2
+ 197 278.333333333 211 291 229 291 c 2
+ 234 291 l 1
+EndSplineSet
+EndChar

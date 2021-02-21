@@ -1,0 +1,12 @@
+StartChar: kasra-ar
+Encoding: 1616 1616 20
+Width: 0
+GlyphClass: 4
+AnchorPoint: "Mark Mark Below" 0 0 mark 0
+AnchorPoint: "Tashkil Below" 0 0 mark 0
+LayerCount: 2
+Back
+Refer: 18 1614 N 1 0 0 1 0 141 2
+Fore
+Refer: 18 1614 N 1 0 0 1 0 141 2
+EndChar
