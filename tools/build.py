@@ -62,8 +62,9 @@ def parse_latin_features(font, features, locl):
     glyphs = set(g.glyphname for g in font.glyphs())
     fea = parser.Parser(io.StringIO(features), glyphs).parse()
 
-    fea.statements = [s for s in fea.statements
-                      if not isinstance(s, ast.LanguageSystemStatement)]
+    fea.statements = [
+        s for s in fea.statements if not isinstance(s, ast.LanguageSystemStatement)
+    ]
     if locl:
         feature = ast.FeatureBlock("locl")
         fea.statements.append(feature)
@@ -90,8 +91,8 @@ def merge_features(fea1, fea2):
         name = getattr(statement, "name", "")
         if name.startswith("GDEF_"):
             if name in gdef:
-                 gdef[name].glyphs.extend(statement.glyphSet())
-                 continue
+                gdef[name].glyphs.extend(statement.glyphSet())
+                continue
             gdef[name] = statement
         elif name == "GDEF":
             continue
@@ -150,17 +151,32 @@ def merge(args):
     # Set metadata
     arabic.version = args.version
     year = datetime.now().year
-    arabic.copyright = 'Copyright 2015-%s The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10.' % datetime.now().year
+    arabic.copyright = (
+        "Copyright 2015-%s The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10."
+        % datetime.now().year
+    )
 
     en = "English (US)"
     arabic.appendSFNTName(en, "Version", "Version %s" % arabic.version)
     arabic.appendSFNTName(en, "Designer", "Abdullah Aref")
     arabic.appendSFNTName(en, "License URL", "https://scripts.sil.org/OFL")
-    arabic.appendSFNTName(en, "License", 'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL')
-    arabic.appendSFNTName(en, "Descriptor", "Aref Ruqaa is an Arabic typeface that aspires to capture the essence of \
-the classical Ruqaa calligraphic style.")
+    arabic.appendSFNTName(
+        en,
+        "License",
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
+    )
+    arabic.appendSFNTName(
+        en,
+        "Descriptor",
+        "Aref Ruqaa is an Arabic typeface that aspires to capture the essence of \
+the classical Ruqaa calligraphic style.",
+    )
     arabic.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
-    arabic.appendSFNTName(en, "UniqueID", "%s;%s;%s" % (arabic.version, arabic.os2_vendor, arabic.fontname))
+    arabic.appendSFNTName(
+        en,
+        "UniqueID",
+        "%s;%s;%s" % (arabic.version, arabic.os2_vendor, arabic.fontname),
+    )
 
     return arabic, fea
 
@@ -191,9 +207,15 @@ def build(args):
     unicodes -= set(range(0x0370, 0x03FF))
 
     options = subset.Options()
-    options.set(layout_features='*', name_IDs='*', name_languages='*',
-        notdef_outline=True, glyph_names=True, drop_tables=['FFTM'],
-        recalc_average_width=True)
+    options.set(
+        layout_features="*",
+        name_IDs="*",
+        name_languages="*",
+        notdef_outline=True,
+        glyph_names=True,
+        drop_tables=["FFTM"],
+        recalc_average_width=True,
+    )
     subsetter = subset.Subsetter(options=options)
     subsetter.populate(unicodes=unicodes)
     subsetter.subset(ttfont)
@@ -205,24 +227,32 @@ def build(args):
     # fontDirectionHint is deprecated and must be set to 2
     ttfont["head"].fontDirectionHint = 2
     # unset bits 6..10
-    ttfont["head"].flags &= ~0x7e0
+    ttfont["head"].flags &= ~0x7E0
 
     # We don’t want glyph names, they are useless.
     ttfont["post"].formatType = 3
 
     ttfont.save(args.out_file)
 
+
 def main():
     parser = argparse.ArgumentParser(description="Build Aref Ruqaa fonts.")
     parser.add_argument("arabicfile", metavar="FILE", help="input font to process")
     parser.add_argument("latinfile", metavar="FILE", help="input font to process")
-    parser.add_argument("--out-file", metavar="FILE", help="output font to write", required=True)
-    parser.add_argument("--feature-file", metavar="FILE", help="output font to write", required=True)
-    parser.add_argument("--version", metavar="version", help="version number", required=True)
+    parser.add_argument(
+        "--out-file", metavar="FILE", help="output font to write", required=True
+    )
+    parser.add_argument(
+        "--feature-file", metavar="FILE", help="output font to write", required=True
+    )
+    parser.add_argument(
+        "--version", metavar="version", help="version number", required=True
+    )
 
     args = parser.parse_args()
 
     build(args)
+
 
 if __name__ == "__main__":
     main()
