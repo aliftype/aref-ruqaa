@@ -1,52 +1,44 @@
 NAME=ArefRuqaa
 VERSION=1.002
-EXT=ttf
 LATIN=EulerText
 
 SRCDIR=sources
 BLDDIR=build
-DOCDIR=documentation
-TOOLDIR=tools
-TESTDIR=tests
 DIST=$(NAME)-$(VERSION)
 
 PY := python
 
 FONTS=Regular Bold
 
-SFD=$(FONTS:%=$(SRCDIR)/$(NAME)-%.sfdir)
-OTF=$(FONTS:%=$(NAME)-%.$(EXT))
+OTF=$(FONTS:%=$(NAME)-%.ttf)
 
 MAKEFLAGS := -r -s
 
 export SOURCE_DATE_EPOCH := 0
 
-.PRECIOUS: $(BLDDIR)/$(LATIN)-%.$(EXT) $(BLDDIR)/$(NAME)-%.$(EXT)
+.PRECIOUS: $(BLDDIR)/$(LATIN)-%.ttf $(BLDDIR)/$(NAME)-%.ttf
 
-all: $(EXT)
+all: $(OTF)
 
-$(EXT): $(OTF)
-
-$(BLDDIR)/$(LATIN)-%.$(EXT): $(SRCDIR)/$(LATIN)-%.ufo
-	echo "   FM     $(@F)"
+$(BLDDIR)/$(LATIN)-%.ttf: $(SRCDIR)/$(LATIN)-%.ufo
+	echo "   BUILD  $(@F)"
 	mkdir -p $(BLDDIR)
-	$(PY) -m fontmake --verbose WARNING -u $< -o $(EXT) --output-path $@
+	$(PY) -m fontmake --verbose WARNING -u $< -o ttf --output-path $@
 
-$(BLDDIR)/$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(NAME).fea
-	echo "   FF     $(@F)"
+$(BLDDIR)/$(NAME)-%.ttf: $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(NAME).fea
+	echo "   BUILD  $(@F)"
 	mkdir -p $(BLDDIR)
 	$(PY) build.py --version=$(VERSION) --out-file=$@ --feature-file=$(word 2,$+) $<
 
-$(NAME)-%.$(EXT): $(BLDDIR)/$(NAME)-%.$(EXT) $(BLDDIR)/$(LATIN)-%.$(EXT)
+$(NAME)-%.ttf: $(BLDDIR)/$(NAME)-%.ttf $(BLDDIR)/$(LATIN)-%.ttf
 	echo "   MERGE  $@"
 	$(PY) merge.py --out-file=$@ $+
 
 dist:
-	mkdir -p $(NAME)-$(VERSION)
-	cp $(OTF) $(NAME)-$(VERSION)
-	cp OFL.txt $(NAME)-$(VERSION)
-	sed -e "/^!\[Sample\].*./d" README.md > $(NAME)-$(VERSION)/README.txt
-	zip -r $(NAME)-$(VERSION).zip $(NAME)-$(VERSION)
+	install -Dm644 -t $(DIST) $(OTF)
+	install -Dm644 -t $(DIST) OFL.txt
+	install -Dm644 -t $(DIST) README.md
+	zip -r $(DIST).zip $(DIST)
 
 clean:
 	rm -rf $(BLDDIR) $(OTF) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
