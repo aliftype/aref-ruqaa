@@ -10,9 +10,7 @@ TOOLDIR=tools
 TESTDIR=tests
 DIST=$(NAME)-$(VERSION)
 
-PY ?= python
-BUILD=$(TOOLDIR)/build.py
-MERGE=$(TOOLDIR)/merge.py
+PY := python
 
 FONTS=Regular Bold
 
@@ -37,11 +35,11 @@ $(BLDDIR)/$(LATIN)-%.$(EXT): $(SRCDIR)/$(LATIN)-%.ufo
 $(BLDDIR)/$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(NAME).fea
 	echo "   FF     $(@F)"
 	mkdir -p $(BLDDIR)
-	$(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$(word 2,$+) $<
+	$(PY) build.py --version=$(VERSION) --out-file=$@ --feature-file=$(word 2,$+) $<
 
 $(NAME)-%.$(EXT): $(BLDDIR)/$(NAME)-%.$(EXT) $(BLDDIR)/$(LATIN)-%.$(EXT)
 	echo "   MERGE  $@"
-	$(PY) $(MERGE) --out-file=$@ $+
+	$(PY) merge.py --out-file=$@ $+
 
 dist:
 	mkdir -p $(NAME)-$(VERSION)
