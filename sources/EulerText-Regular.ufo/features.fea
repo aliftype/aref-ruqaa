@@ -31,3 +31,8 @@ feature dnom {
   sub eight by eight.dnom;
   sub nine by nine.dnom;
 } dnom;
+
+# Dummy feature for the merger.
+feature locl {
+  sub space by space;
+} locl;

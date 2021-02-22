@@ -1,6 +1,3 @@
-#!/usr/bin/env python2
-# encoding: utf-8
-
 import argparse
 import os
 import tempfile
@@ -9,14 +6,13 @@ import operator
 
 from datetime import datetime
 
-from fontTools import subset
 from fontTools.ttLib import TTFont
 from fontTools.feaLib import ast, parser, builder
 
 import fontforge
 
 
-def parse_arabic_features(font, features):
+def parse_features(font, features):
     glyphs = set(g.glyphname for g in font.glyphs())
     fea = parser.Parser(io.StringIO(features), glyphs).parse()
 
@@ -56,135 +52,58 @@ def parse_arabic_features(font, features):
     return fea
 
 
-def parse_latin_features(font, features, locl):
-    # Parse the features and drop any languagesystem statement, they are
-    # superfluous in FontForge generated features.
-    glyphs = set(g.glyphname for g in font.glyphs())
-    fea = parser.Parser(io.StringIO(features), glyphs).parse()
-
-    fea.statements = [
-        s for s in fea.statements if not isinstance(s, ast.LanguageSystemStatement)
-    ]
-    if locl:
-        feature = ast.FeatureBlock("locl")
-        fea.statements.append(feature)
-        feature.statements.append(ast.LookupFlagStatement(8))
-        feature.statements.append(ast.ScriptStatement("latn"))
-        for sub in locl:
-            src = [ast.GlyphName(sub[0])]
-            rpl = [ast.GlyphName(sub[1])]
-            rule = ast.SingleSubstStatement(src, rpl, [], [], False)
-            feature.statements.append(rule)
-
-    return fea
-
-
-def merge_features(fea1, fea2):
-    # Merge the GDEF classes, since that i the only thing duplicated.
-    gdef = {}
-    for statement in fea1.statements:
-        name = getattr(statement, "name", "")
-        if name.startswith("GDEF_"):
-            gdef[name] = statement
-
-    for statement in fea2.statements:
-        name = getattr(statement, "name", "")
-        if name.startswith("GDEF_"):
-            if name in gdef:
-                gdef[name].glyphs.extend(statement.glyphSet())
-                continue
-            gdef[name] = statement
-        elif name == "GDEF":
-            continue
-        fea1.statements.append(statement)
-
-    return fea1
-
-
-def merge(args):
-    arabic = fontforge.open(args.arabicfile)
-    arabic.encoding = "Unicode"
-
-    latin = fontforge.open(args.latinfile)
-    latin.encoding = "Unicode"
-
-    # If any Latin glyph exists in the Arabic font, rename it and add to a locl
-    # feature.
-    locl = []
-    for glyph in latin.glyphs():
-        if glyph.glyphname in arabic or glyph.unicode in arabic:
-            name = arabic[glyph.unicode].glyphname
-            glyph.unicode = -1
-            glyph.glyphname += ".latn"
-            locl.append((name, glyph.glyphname))
+def prepare(args):
+    font = fontforge.open(args.file)
+    font.encoding = "Unicode"
 
     # Read external feature file.
     with open(args.feature_file) as feature_file:
         features = feature_file.read()
 
-    # Add Arabic GPOS features from the SFD file.
+    # Add font GPOS features from the SFD file.
     with tempfile.NamedTemporaryFile(mode="w+") as tmp:
-        arabic.generateFeatureFile(tmp.name)
+        font.generateFeatureFile(tmp.name)
         features += tmp.read()
-        arabic_fea = parse_arabic_features(arabic, features)
-
-    # Add Latin features, must do before merging the fonts.
-    with tempfile.NamedTemporaryFile(mode="w+") as tmp:
-        latin.generateFeatureFile(tmp.name)
-        features = tmp.read()
-        latin_fea = parse_latin_features(latin, features, locl)
-
-    # Merge Arabic and Latin fonts
-    with tempfile.NamedTemporaryFile(mode="r") as tmp:
-        latin.save(tmp.name)
-        latin.close()
-        del latin
-        arabic.mergeFonts(tmp.name)
-        arabic.save(tmp.name)
-        arabic.close()
-        del arabic
-        arabic = fontforge.open(tmp.name)
-
-    fea = merge_features(arabic_fea, latin_fea)
+        fea = parse_features(font, features)
 
     # Set metadata
-    arabic.version = args.version
+    font.version = args.version
     year = datetime.now().year
-    arabic.copyright = (
+    font.copyright = (
         "Copyright 2015-%s The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10."
         % datetime.now().year
     )
 
     en = "English (US)"
-    arabic.appendSFNTName(en, "Version", "Version %s" % arabic.version)
-    arabic.appendSFNTName(en, "Designer", "Abdullah Aref")
-    arabic.appendSFNTName(en, "License URL", "https://scripts.sil.org/OFL")
-    arabic.appendSFNTName(
+    font.appendSFNTName(en, "Version", "Version %s" % font.version)
+    font.appendSFNTName(en, "Designer", "Abdullah Aref")
+    font.appendSFNTName(en, "License URL", "https://scripts.sil.org/OFL")
+    font.appendSFNTName(
         en,
         "License",
         "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
     )
-    arabic.appendSFNTName(
+    font.appendSFNTName(
         en,
         "Descriptor",
-        "Aref Ruqaa is an Arabic typeface that aspires to capture the essence of \
+        "Aref Ruqaa is an font typeface that aspires to capture the essence of \
 the classical Ruqaa calligraphic style.",
     )
-    arabic.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
-    arabic.appendSFNTName(
+    font.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
+    font.appendSFNTName(
         en,
         "UniqueID",
-        "%s;%s;%s" % (arabic.version, arabic.os2_vendor, arabic.fontname),
+        "%s;%s;%s" % (font.version, font.os2_vendor, font.fontname),
     )
 
-    return arabic, fea
+    return font, fea
 
 
 def build(args):
-    font, features = merge(args)
+    font, features = prepare(args)
 
-    with tempfile.NamedTemporaryFile(mode="r", suffix=args.out_file) as tmp:
-        font.generate(tmp.name, flags=["round", "opentype", "dummy-dsig"])
+    with tempfile.NamedTemporaryFile(mode="r", suffix=os.path.basename(args.out_file)) as tmp:
+        font.generate(tmp.name, flags=["round", "opentype", "dummy-dsig", "no-hints"])
         ttfont = TTFont(tmp.name)
 
     try:
@@ -195,54 +114,17 @@ def build(args):
             print("Failed! Inspect temporary file: %r" % tmp.name)
         raise
 
-    unicodes = set()
-    for glyph in font.glyphs():
-        if glyph.unicode > 0:
-            unicodes.add(glyph.unicode)
-        if glyph.altuni:
-            unicodes.update(u[0] for u in glyph.altuni if u[1] < 0)
-
-    # Drop incomplete Greek support.
-    unicodes -= set(range(0x0370, 0x03FF))
-
-    options = subset.Options()
-    options.set(
-        layout_features="*",
-        name_IDs="*",
-        name_languages="*",
-        notdef_outline=True,
-        glyph_names=True,
-        drop_tables=["FFTM"],
-        recalc_average_width=True,
-    )
-    subsetter = subset.Subsetter(options=options)
-    subsetter.populate(unicodes=unicodes)
-    subsetter.subset(ttfont)
-
-    # Filter-out useless Macintosh names
-    ttfont["name"].names = [n for n in ttfont["name"].names if n.platformID != 1]
-
-    # https://github.com/fontforge/fontforge/pull/3235
-    # fontDirectionHint is deprecated and must be set to 2
-    ttfont["head"].fontDirectionHint = 2
-    # unset bits 6..10
-    ttfont["head"].flags &= ~0x7E0
-
-    # We don’t want glyph names, they are useless.
-    ttfont["post"].formatType = 3
-
     ttfont.save(args.out_file)
 
 
 def main():
     parser = argparse.ArgumentParser(description="Build Aref Ruqaa fonts.")
-    parser.add_argument("arabicfile", metavar="FILE", help="input font to process")
-    parser.add_argument("latinfile", metavar="FILE", help="input font to process")
+    parser.add_argument("file", metavar="FILE", help="input font to process")
     parser.add_argument(
         "--out-file", metavar="FILE", help="output font to write", required=True
     )
     parser.add_argument(
-        "--feature-file", metavar="FILE", help="output font to write", required=True
+        "--feature-file", metavar="FILE", help="input feature file", required=True
     )
     parser.add_argument(
         "--version", metavar="version", help="version number", required=True

@@ -12,6 +12,7 @@ DIST=$(NAME)-$(VERSION)
 
 PY ?= python
 BUILD=$(TOOLDIR)/build.py
+MERGE=$(TOOLDIR)/merge.py
 SFDLINT=$(TOOLDIR)/sfdlint.py
 
 FONTS=Regular Bold
@@ -21,9 +22,11 @@ OTF=$(FONTS:%=$(NAME)-%.$(EXT))
 
 LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 
-export SOURCE_DATE_EPOCH ?= 0
+MAKEFLAGS := -r -s
 
-.PRECIOUS: $(BLDDIR)/$(LATIN)-%.$(EXT)
+export SOURCE_DATE_EPOCH := 0
+
+.PRECIOUS: $(BLDDIR)/$(LATIN)-%.$(EXT) $(BLDDIR)/$(NAME)-%.$(EXT)
 
 all: $(EXT)
 
@@ -32,30 +35,30 @@ lint: $(LNT)
 check: lint
 
 $(BLDDIR)/$(LATIN)-%.$(EXT): $(SRCDIR)/$(LATIN)-%.ufo
-	@echo "   FM	$(@F)"
-	@mkdir -p $(BLDDIR)
-	@fontmake                                                              \
-	   --verbose WARNING                                                   \
-	   -u $(realpath $<)                                                   \
-	   -o $(EXT)                                                           \
-	   --output-path $@                                                    \
-	 ;
+	echo "   FM     $(@F)"
+	mkdir -p $(BLDDIR)
+	$(PY) -m fontmake --verbose WARNING -u $< -o $(EXT) --output-path $@
 
-$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(BLDDIR)/$(LATIN)-%.$(EXT) $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
-	@echo "   FF	$@"
-	@$(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$(word 3,$+) $< $(word 2,$+)
+$(BLDDIR)/$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(NAME).fea
+	echo "   FF     $(@F)"
+	mkdir -p $(BLDDIR)
+	$(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$(word 2,$+) $<
+
+$(NAME)-%.$(EXT): $(BLDDIR)/$(NAME)-%.$(EXT) $(BLDDIR)/$(LATIN)-%.$(EXT)
+	echo "   MERGE  $@"
+	$(PY) $(MERGE) --out-file=$@ $+
 
 $(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
-	@echo "   LNT	$<"
-	@mkdir -p $(TESTDIR)
-	@$(PY) $(SFDLINT) $< $@
+	echo "   LNT	$<"
+	mkdir -p $(TESTDIR)
+	$(PY) $(SFDLINT) $< $@
 
 dist:
-	@mkdir -p $(NAME)-$(VERSION)
-	@cp $(OTF) $(NAME)-$(VERSION)
-	@cp OFL.txt $(NAME)-$(VERSION)
-	@sed -e "/^!\[Sample\].*./d" README.md > $(NAME)-$(VERSION)/README.txt
-	@zip -r $(NAME)-$(VERSION).zip $(NAME)-$(VERSION)
+	mkdir -p $(NAME)-$(VERSION)
+	cp $(OTF) $(NAME)-$(VERSION)
+	cp OFL.txt $(NAME)-$(VERSION)
+	sed -e "/^!\[Sample\].*./d" README.md > $(NAME)-$(VERSION)/README.txt
+	zip -r $(NAME)-$(VERSION).zip $(NAME)-$(VERSION)
 
 clean:
-	@rm -rf $(BLDDIR) $(OTF) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
+	rm -rf $(BLDDIR) $(OTF) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip

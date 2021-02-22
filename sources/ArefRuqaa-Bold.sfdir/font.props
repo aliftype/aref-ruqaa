@@ -37,6 +37,8 @@ HheadAscent: 1221
 HheadAOffset: 0
 HheadDescent: -244
 HheadDOffset: 0
+OS2CapHeight: 692
+OS2XHeight: 485
 OS2Vendor: 'ALIF'
 Lookup: 259 9 0 "'curs' Basic" { "'curs' Basic"  } ['curs' ('DFLT' <'dflt' > ) ]
 Lookup: 259 9 0 "'curs' Sad" { "'curs' Sad"  } ['curs' ('DFLT' <'dflt' > ) ]
