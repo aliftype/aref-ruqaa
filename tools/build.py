@@ -1,31 +1,32 @@
 import argparse
-import os
-import tempfile
 import io
-import operator
 
 from datetime import datetime
 
 from fontTools.ttLib import TTFont
 from fontTools.feaLib import ast, parser, builder
 
-import fontforge
+from sfdLib.parser import SFDParser
+from sfdLib.utils import sortGlyphs
+
+from ufo2ft import compileTTF
+
+from ufoLib2 import Font
 
 
-def parse_features(font, features):
-    glyphs = set(g.glyphname for g in font.glyphs())
-    fea = parser.Parser(io.StringIO(features), glyphs).parse()
+def parse_features(font):
+    fea = parser.Parser(io.StringIO(font.features.text), font.glyphOrder).parse()
 
     # Drop script and language statements from GPOS features (which are
-    # generated from FontForge sources), so that they inherit from the global
+    # generated from sources), so that they inherit from the global
     # languagesytem’s set in the feature file. This way I don’t have to
     # manually repeat them.
-    langsys = {}
+    langsys = []
     statements = []
     for statement in fea.statements:
         name = getattr(statement, "name", "")
         if isinstance(statement, ast.LanguageSystemStatement):
-            langsys[statement.asFea()] = statement
+            langsys.append(statement)
             continue
         if name in ("curs", "mark", "mkmk"):
             scripts = []
@@ -45,76 +46,47 @@ def parse_features(font, features):
             statement.statements = substatements
         statements.append(statement)
 
-    # Make sure DFLT is the first.
-    langsys = sorted(langsys.values(), key=operator.attrgetter("script"))
     fea.statements = langsys + statements
 
     return fea
 
 
-def prepare(args):
-    font = fontforge.open(args.file)
-    font.encoding = "Unicode"
+def build(args):
+    font = Font(validate=False)
+    SFDParser(
+        args.file,
+        font,
+        ignore_uvs=False,
+        ufo_anchors=False,
+        ufo_kerning=False,
+        minimal=True,
+    ).parse()
 
     # Read external feature file.
     with open(args.feature_file) as feature_file:
-        features = feature_file.read()
+        font.features.text = feature_file.read() + font.features.text
 
-    # Add font GPOS features from the SFD file.
-    with tempfile.NamedTemporaryFile(mode="w+") as tmp:
-        font.generateFeatureFile(tmp.name)
-        features += tmp.read()
-        fea = parse_features(font, features)
+    # Add Arabic GPOS features from the SFD file.
+    fea = parse_features(font)
 
     # Set metadata
-    font.version = args.version
+    info = font.info
+
+    major, minor = args.version.split(".")
+    info.versionMajor, info.versionMinor = int(major), int(minor)
     year = datetime.now().year
-    font.copyright = (
-        "Copyright 2015-%s The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10."
-        % datetime.now().year
-    )
+    info.copyright = f"Copyright 2015-{year} The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10."
+    info.openTypeNameDesigner = "Abdullah Aref"
+    info.openTypeNameLicenseURL = "https://scripts.sil.org/OFL"
+    info.openTypeNameLicense = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL"
+    info.openTypeNameDescription = "Aref Ruqaa is an Arabic typeface that aspires to capture the essence of \
+the classical Ruqaa calligraphic style."
+    info.openTypeNameSampleText = "الخط هندسة روحانية ظهرت بآلة جسمانية"
 
-    en = "English (US)"
-    font.appendSFNTName(en, "Version", "Version %s" % font.version)
-    font.appendSFNTName(en, "Designer", "Abdullah Aref")
-    font.appendSFNTName(en, "License URL", "https://scripts.sil.org/OFL")
-    font.appendSFNTName(
-        en,
-        "License",
-        "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL",
-    )
-    font.appendSFNTName(
-        en,
-        "Descriptor",
-        "Aref Ruqaa is an font typeface that aspires to capture the essence of \
-the classical Ruqaa calligraphic style.",
-    )
-    font.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
-    font.appendSFNTName(
-        en,
-        "UniqueID",
-        "%s;%s;%s" % (font.version, font.os2_vendor, font.fontname),
-    )
+    font.features.text = str(fea)
+    font.glyphOrder = sortGlyphs(font)
 
-    return font, fea
-
-
-def build(args):
-    font, features = prepare(args)
-
-    with tempfile.NamedTemporaryFile(mode="r", suffix=os.path.basename(args.out_file)) as tmp:
-        font.generate(tmp.name, flags=["round", "opentype", "dummy-dsig", "no-hints"])
-        ttfont = TTFont(tmp.name)
-
-    try:
-        builder.addOpenTypeFeatures(ttfont, features)
-    except:
-        with tempfile.NamedTemporaryFile(mode="w+", delete=False) as tmp:
-            tmp.write(features.asFea())
-            print("Failed! Inspect temporary file: %r" % tmp.name)
-        raise
-
-    ttfont.save(args.out_file)
+    compileTTF(font, inplace=True).save(args.out_file)
 
 
 def main():

@@ -24,6 +24,7 @@ TTFWeight: 400
 TTFWidth: 5
 LineGap: 98
 VLineGap: 0
+Panose: 2 0 5 3 0 0 0 0 0 0
 OS2TypoAscent: 1221
 OS2TypoAOffset: 0
 OS2TypoDescent: -244
@@ -37,6 +38,16 @@ HheadAscent: 1221
 HheadAOffset: 0
 HheadDescent: -244
 HheadDOffset: 0
+OS2SubXSize: 650
+OS2SubYSize: 700
+OS2SubXOff: 47
+OS2SubYOff: 140
+OS2SupXSize: 650
+OS2SupYSize: 700
+OS2SupXOff: -164
+OS2SupYOff: 480
+OS2StrikeYSize: 49
+OS2StrikeYPos: 258
 OS2CapHeight: 683
 OS2XHeight: 462
 OS2Vendor: 'ALIF'

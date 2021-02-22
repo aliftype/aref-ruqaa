@@ -48,6 +48,8 @@ pyclipper==1.2.1
     # via booleanoperations
 pytz==2021.1
     # via fs
+git+git://github.com/alif-type/sfdLib.git@v1.0.8#egg=sfdLib
+    # via -r requirements.in
 six==1.15.0
     # via fs
 ufo2ft[cffsubr]==2.19.2
