@@ -7,7 +7,6 @@ from fontTools.ttLib import TTFont
 from fontTools.feaLib import ast, parser, builder
 
 from sfdLib.parser import SFDParser
-from sfdLib.utils import sortGlyphs
 
 from ufo2ft import compileTTF
 
@@ -84,7 +83,6 @@ the classical Ruqaa calligraphic style."
     info.openTypeNameSampleText = "الخط هندسة روحانية ظهرت بآلة جسمانية"
 
     font.features.text = str(fea)
-    font.glyphOrder = sortGlyphs(font)
 
     compileTTF(font, inplace=True).save(args.out_file)
 
