@@ -27,6 +27,7 @@ def main():
     options = subset.Options()
     options.set(
         layout_features="*",
+        layout_scripts=["arab", "latn", "DFLT"],
         name_IDs="*",
         name_languages="*",
         notdef_outline=True,
