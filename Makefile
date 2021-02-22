@@ -13,14 +13,11 @@ DIST=$(NAME)-$(VERSION)
 PY ?= python
 BUILD=$(TOOLDIR)/build.py
 MERGE=$(TOOLDIR)/merge.py
-SFDLINT=$(TOOLDIR)/sfdlint.py
 
 FONTS=Regular Bold
 
 SFD=$(FONTS:%=$(SRCDIR)/$(NAME)-%.sfdir)
 OTF=$(FONTS:%=$(NAME)-%.$(EXT))
-
-LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 
 MAKEFLAGS := -r -s
 
@@ -31,8 +28,6 @@ export SOURCE_DATE_EPOCH := 0
 all: $(EXT)
 
 $(EXT): $(OTF)
-lint: $(LNT)
-check: lint
 
 $(BLDDIR)/$(LATIN)-%.$(EXT): $(SRCDIR)/$(LATIN)-%.ufo
 	echo "   FM     $(@F)"
@@ -47,11 +42,6 @@ $(BLDDIR)/$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(NAME).fea
 $(NAME)-%.$(EXT): $(BLDDIR)/$(NAME)-%.$(EXT) $(BLDDIR)/$(LATIN)-%.$(EXT)
 	echo "   MERGE  $@"
 	$(PY) $(MERGE) --out-file=$@ $+
-
-$(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
-	echo "   LNT	$<"
-	mkdir -p $(TESTDIR)
-	$(PY) $(SFDLINT) $< $@
 
 dist:
 	mkdir -p $(NAME)-$(VERSION)
