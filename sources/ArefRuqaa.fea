@@ -624,17 +624,17 @@ feature calt {
 
 feature calt {
   lookupflag 0;
-    pos [behDotless-ar.init.ascend] @noqta_below' <200 -300 0 0> [behDotless-ar.medi.ragaa];
-    pos [behDotless-ar.init.ascend] @noqta_below' <0   -380 0 0> [kaf-ar.medi.ragaa lam-ar.medi.ragaa];
+    pos [behDotless-ar.init.ascend] @noqta_below' <98  -146 0 0> [behDotless-ar.medi.ragaa];
+    pos [behDotless-ar.init.ascend] @noqta_below' <0   -186 0 0> [kaf-ar.medi.ragaa lam-ar.medi.ragaa];
 
-    pos [behDotless-ar.medi.high]   @noqta_below' <0   -300 0 0> [behDotless-ar.medi.ragaa];
-    pos [behDotless-ar.medi]        @noqta_below' <85  -300 0 0> [behDotless-ar.medi.ragaa];
-    pos [behDotless-ar.medi]        @noqta_below' <0   -300 0 0> [kaf-ar.medi.ragaa lam-ar.medi.ragaa];
+    pos [behDotless-ar.medi.high]   @noqta_below' <0   -146 0 0> [behDotless-ar.medi.ragaa];
+    pos [behDotless-ar.medi]        @noqta_below' <42  -146 0 0> [behDotless-ar.medi.ragaa];
+    pos [behDotless-ar.medi]        @noqta_below' <0   -146 0 0> [kaf-ar.medi.ragaa lam-ar.medi.ragaa];
 
-    pos [behDotless-ar.init.feh]    @noqta_below' <0   -150 0 0> [fehDotless-ar.medi.ragaa];
+    pos [behDotless-ar.init.feh]    @noqta_below' <0   -73  0 0> [fehDotless-ar.medi.ragaa];
 
-    pos [hah-ar.init]        @noqta_below' <50  -250 0 0> [behDotless-ar.medi.ragaa];
-    pos [hah-ar.init]        @noqta_below' <0   -300 0 0> [kaf-ar.medi.ragaa lam-ar.medi.ragaa];
+    pos [hah-ar.init]        @noqta_below' <24  -122 0 0> [behDotless-ar.medi.ragaa];
+    pos [hah-ar.init]        @noqta_below' <0   -146 0 0> [kaf-ar.medi.ragaa lam-ar.medi.ragaa];
 } calt;
 
 feature jalt {
@@ -824,47 +824,47 @@ feature kern {
   @beh_feh = [behDotless-ar.isol fehDotless-ar.isol];
   @qaf_noon= [qafDotless-ar.isol qafDotless-ar.isol2 noonghunna-ar.isol noonghunna-ar.isol2];
   lookupflag IgnoreMarks;
-    pos [alef-ar.fina]   <-396 0 -396 0> [hah-ar.isol];
-    pos [alef-ar.fina.lam] <-400 0 -400 0> [hah-ar.isol];
+    pos [alef-ar.fina]     <-193 0 -193 0> [hah-ar.isol];
+    pos [alef-ar.fina.lam] <-195 0 -195 0> [hah-ar.isol];
 
-    pos @dal_waw'  <-500 0 -500 0> [ain-ar.isol sad-ar.isol seen-ar.isol hah-ar.isol hah-ar.init.meem];
-    pos @dal_waw'  <-300 0 -300 0> [alef-ar.isol meem-ar.isol];
-    pos @dal_waw'  <-300 0 -300 0> [heh-ar.isol]' <0 300 0 0>;
-    pos @dal_waw'  <-540 0 -540 0> [tah-ar.isol]' <0 440 0 0>;
-    pos @dal_waw'  <-275 0 -275 0> @qaf_noon' <0 175 0 0>;
+    pos @dal_waw'  <-244 0 -244 0> [ain-ar.isol sad-ar.isol seen-ar.isol hah-ar.isol hah-ar.init.meem];
+    pos @dal_waw'  <-146 0 -146 0> [alef-ar.isol meem-ar.isol];
+    pos @dal_waw'  <-146 0 -146 0> [heh-ar.isol]' <0 146 0 0>;
+    pos @dal_waw'  <-264 0 -264 0> [tah-ar.isol]' <0 215 0 0>;
+    pos @dal_waw'  <-134 0 -134 0> @qaf_noon'     <0 85  0 0>;
 
-    pos @dal_waw'  <-75  0 -75  0> [seen-ar.init sad-ar.init] [behDotless-ar.medi.sad] [tah-ar.fina];
-    pos @dal_waw'  <-75  0 -75  0> [seen-ar.init sad-ar.init] @low_fina;
-    pos @dal_waw'  <-100 0 -100 0> [heh-ar.init] @low_fina;
-    pos @dal_waw'  <-400 0 -400 0> [seen-ar.init sad-ar.init sad-ar.init.ain heh-ar.init heh-ar.init.meem
+    pos @dal_waw'  <-37  0 -37  0> [seen-ar.init sad-ar.init] [behDotless-ar.medi.sad] [tah-ar.fina];
+    pos @dal_waw'  <-37  0 -37  0> [seen-ar.init sad-ar.init] @low_fina;
+    pos @dal_waw'  <-49  0 -49  0> [heh-ar.init] @low_fina;
+    pos @dal_waw'  <-195 0 -195 0> [seen-ar.init sad-ar.init sad-ar.init.ain heh-ar.init heh-ar.init.meem
                                     heh-ar.init.yeh ain-ar.init.yeh kaf-ar.init.alef];
 
-    pos @dal_waw'  <-150 0 -150 0> @beh_feh;
+    pos @dal_waw'  <-73 0 -73 0> @beh_feh;
 
-    pos [alef-ar.fina.lam]' <-200 0 -200 0> [@beh_feh @qaf_noon];
+    pos [alef-ar.fina.lam]' <-98 0 -98 0> [@beh_feh @qaf_noon];
 
     # XXX: need to extend the ignore rule
     ignore pos @dal_waw' [lam-ar.init.sad] [sad-ar.medi.heh] [heh-ar.medi];
-    pos @waw'      <-300 0 -300 0> @lam;
-    pos @dal'      <-200 0 -200 0> @lam;
+    pos @waw'      <-146 0 -146 0> @lam;
+    pos @dal'      <-98  0 -98  0> @lam;
 
-    pos @dal_waw   [lam-ar.init.meem] [meem-ar.medi] [alef-ar.fina]' <0 200 0 0>;
+    pos @dal_waw   [lam-ar.init.meem] [meem-ar.medi] [alef-ar.fina]' <0 98 0 0>;
 
-    pos @dal_waw'  <-100 0 -100 0> [lam-ar.init] @low_fina;
-    pos @waw'      <-500 0 -500 0> [lam-ar.init];
-    pos @dal'      <-300 0 -300 0> [lam-ar.init];
+    pos @dal_waw'  <-49  0 -49  0> [lam-ar.init] @low_fina;
+    pos @waw'      <-244 0 -244 0> [lam-ar.init];
+    pos @dal'      <-146 0 -146 0> [lam-ar.init];
 
-    pos @waw'      <-250 0 -250 0> [lam-ar.init.yeh lam-ar.init.ragaa];
-    pos @dal'      <-150 0 -150 0> [lam-ar.init.yeh lam-ar.init.ragaa];
+    pos @waw'      <-122 0 -122 0> [lam-ar.init.yeh lam-ar.init.ragaa];
+    pos @dal'      <-73  0 -73  0> [lam-ar.init.yeh lam-ar.init.ragaa];
 
-    pos @waw'      <-200 0 -200 0> [lam-ar.isol];
-    pos @dal'      <-100 0 -100 0> [lam-ar.isol];
+    pos @waw'      <-98  0 -98  0> [lam-ar.isol];
+    pos @dal'      <-49  0 -49  0> [lam-ar.isol];
 
-    pos @dal_waw'  <-200 0 -200 0> [fehDotless-ar.init.ain];
+    pos @dal_waw'  <-98  0 -98  0> [fehDotless-ar.init.ain];
 
-    pos [fehDotless-ar.init]' < 120 0  120 0> [kaf-ar.init.alef.loop];
-    pos [alef-ar.isol alef-ar.fina]' <200 0 200 0> [lam-ar.init.hah] [hah-ar.fina];
-    pos [alef-ar.isol alef-ar.fina]' <100 0 100 0> [lam-ar.init.hah];
+    pos [fehDotless-ar.init]'        <59 0 59 0> [kaf-ar.init.alef.loop];
+    pos [alef-ar.isol alef-ar.fina]' <98 0 98 0> [lam-ar.init.hah] [hah-ar.fina];
+    pos [alef-ar.isol alef-ar.fina]' <49 0 49 0> [lam-ar.init.hah];
 
-    pos [alefMaksura-ar.fina alefMaksura-ar.fina.jalt alefMaksura-ar.fina.yeh alefMaksura-ar.fina.yeh.jalt] [hamza-ar]' <0 400 0 0>;
+    pos [alefMaksura-ar.fina alefMaksura-ar.fina.jalt alefMaksura-ar.fina.yeh alefMaksura-ar.fina.yeh.jalt] [hamza-ar]' <0 195 0 0>;
 } kern;

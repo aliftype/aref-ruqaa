@@ -63,7 +63,7 @@ def build(args):
 
     # Read external feature file.
     with open(args.feature_file) as feature_file:
-        font.features.text = feature_file.read() + font.features.text
+        font.features.text += feature_file.read()
 
     # Add Arabic GPOS features from the SFD file.
     fea = parse_features(font)
