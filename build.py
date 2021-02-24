@@ -73,14 +73,7 @@ def build(args):
 
     major, minor = args.version.split(".")
     info.versionMajor, info.versionMinor = int(major), int(minor)
-    year = datetime.now().year
-    info.copyright = f"Copyright 2015-{year} The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10."
-    info.openTypeNameDesigner = "Abdullah Aref"
-    info.openTypeNameLicenseURL = "https://scripts.sil.org/OFL"
-    info.openTypeNameLicense = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL"
-    info.openTypeNameDescription = "Aref Ruqaa is an Arabic typeface that aspires to capture the essence of \
-the classical Ruqaa calligraphic style."
-    info.openTypeNameSampleText = "الخط هندسة روحانية ظهرت بآلة جسمانية"
+    info.copyright = info.copyright.format(year=datetime.now().year)
 
     font.features.text = str(fea)
 
