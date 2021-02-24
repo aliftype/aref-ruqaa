@@ -815,6 +815,34 @@ feature dnom {
 
 # GPOS
 
+feature curs {
+    lookup cursBasic;
+    lookup cursSad;
+    lookup cursLam;
+    lookup cursFeh;
+    lookup cursBeh;
+    lookup cursWaw;
+    lookup cursMeem;
+    lookup cursDal;
+    lookup cursHah;
+    lookup cursAin;
+    lookup cursReh;
+    lookup cursHeh;
+    lookup cursYeh;
+    lookup cursSeen;
+} curs;
+
+feature mark {
+    lookup markAbove;
+    lookup markBelow;
+    lookup markMiddle;
+} mark;
+
+feature mkmk {
+    lookup mkmkAbove;
+    lookup mkmkBelow;
+} mkmk;
+
 feature kern {
   @dal     = [dal-ar.isol dal-ar.fina];
   @waw     = [reh-ar.isol reh-ar.fina waw-ar.isol waw-ar.fina];
