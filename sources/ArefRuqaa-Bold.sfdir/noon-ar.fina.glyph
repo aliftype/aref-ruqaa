@@ -1,0 +1,15 @@
+StartChar: noon-ar.fina
+Encoding: 65594 -1 104
+Width: 428
+GlyphClass: 2
+AnchorPoint: "Dots Below" 163 -110 basechar 0
+AnchorPoint: "Tashkil Below" 205 -171 basechar 0
+AnchorPoint: "Dots Above" 237 664 basechar 0
+AnchorPoint: "Tashkil Above" 277 650 basechar 0
+AnchorPoint: "Waw" 381 229 entry 0
+LayerCount: 2
+Back
+Refer: 103 1606 N 1 0 0 1 0 0 2
+Fore
+Refer: 103 1606 N 1 0 0 1 0 0 2
+EndChar

@@ -38,7 +38,6 @@ feature isol {
     sub kaf-ar                  by kaf-ar;
     sub lam-ar                  by lam-ar;
     sub meem-ar                 by meem-ar;
-    sub noon-ar                 by noonghunna-ar;
     sub heh-ar                  by heh-ar;
     sub waw-ar                  by waw-ar;
     sub alefMaksura-ar          by alefMaksura-ar;
@@ -61,9 +60,9 @@ feature isol {
     sub kafDotabove-ar          by kaf-ar dotabove-ar;
     sub gaf-ar                  by keheh-ar gafsarkashabove-ar;
     sub lamVabove-ar            by lam-ar vabove-ar;
-    sub noonghunna-ar           by noonghunna-ar.isol2;
-    sub rnoon-ar                by noonghunna-ar.isol2 tahabove-ar;
-    sub noonThreedotsabove-ar   by noonghunna-ar.isol2 threedotsupabove-ar;
+    sub noonghunna-ar           by noonghunna-ar;
+    sub rnoon-ar                by noonghunna-ar tahabove-ar;
+    sub noonThreedotsabove-ar   by noonghunna-ar threedotsupabove-ar;
     sub hehDoachashmee-ar       by heh-ar.isol2;
     sub hehHamzaabove-ar        by heh-ar hamzaabove-ar;
     sub hehgoal-ar              by heh-ar;
@@ -205,7 +204,7 @@ feature fina {
     sub kaf-ar                  by kaf-ar.fina;
     sub lam-ar                  by lam-ar.fina;
     sub meem-ar                 by meem-ar.fina;
-    sub noon-ar                 by noonghunna-ar.fina;
+    sub noon-ar                 by noon-ar.fina;
     sub heh-ar                  by heh-ar.fina;
     sub waw-ar                  by waw-ar.fina;
     sub alefMaksura-ar          by alefMaksura-ar.fina;
@@ -228,9 +227,9 @@ feature fina {
     sub kafDotabove-ar          by kaf-ar.fina dotabove-ar;
     sub gaf-ar                  by keheh-ar.fina gafsarkashabove-ar;
     sub lamVabove-ar            by lam-ar.fina vabove-ar;
-    sub noonghunna-ar           by noonghunna-ar.fina2;
-    sub rnoon-ar                by noonghunna-ar.fina2 tahabove-ar;
-    sub noonThreedotsabove-ar   by noonghunna-ar.fina2 threedotsupabove-ar;
+    sub noonghunna-ar           by noonghunna-ar.fina;
+    sub rnoon-ar                by noonghunna-ar.fina tahabove-ar;
+    sub noonThreedotsabove-ar   by noonghunna-ar.fina threedotsupabove-ar;
     sub hehDoachashmee-ar       by heh-ar.fina3;
     sub hehHamzaabove-ar        by heh-ar.fina hamzaabove-ar;
     sub hehgoal-ar              by heh-ar.fina2;
@@ -489,12 +488,12 @@ lookup calt_alef {
 
 lookup calt_beh_1 {
   lookupflag IgnoreMarks;
-    sub [behDotless-ar.medi]' [noonghunna-ar.fina noonghunna-ar.fina2 noonghunna-ar.isol.jalt] by [behDotless-ar.medi.noon];
+    sub [behDotless-ar.medi]' [noon-ar.fina noonghunna-ar.fina noonghunna-ar.jalt] by [behDotless-ar.medi.noon];
 } calt_beh_1;
 
 @context_beh_2 = [alef-ar.fina behDotless-ar.fina behDotless-ar.medi kaf-ar.fina kaf-ar.medi
-		  lam-ar.fina lam-ar.medi noonghunna-ar.fina lam-ar.medi.alef keheh-ar.fina
-		  noonghunna-ar.fina2 behDotless-ar.medi.hah kaf-ar.medi.hah lam-ar.medi.hah
+		  lam-ar.fina lam-ar.medi noon-ar.fina lam-ar.medi.alef keheh-ar.fina
+		  noonghunna-ar.fina behDotless-ar.medi.hah kaf-ar.medi.hah lam-ar.medi.hah
 		  behDotless-ar.medi.dal kaf-ar.medi.dal lam-ar.medi.dal behDotless-ar.medi.reh
 		  kaf-ar.medi.reh lam-ar.medi.reh behDotless-ar.medi.sad kaf-ar.medi.sad
 		  lam-ar.medi.sad behDotless-ar.medi.ain kaf-ar.medi.ain lam-ar.medi.ain
@@ -637,8 +636,10 @@ feature jalt {
     sub kaf-ar.fina by kaf-ar.fina.jalt;
     sub lam-ar by lam-ar.isol.jalt;
     sub lam-ar.fina by lam-ar.fina.jalt;
-    sub noonghunna-ar by noonghunna-ar.isol.jalt dotabove-ar;
-    sub noonghunna-ar.fina by noonghunna-ar.isol.jalt dotabove-ar;
+    sub noonghunna-ar by noonghunna-ar.jalt;
+    sub noonghunna-ar.fina by noonghunna-ar.jalt;
+    sub noon-ar by noonghunna-ar.jalt dotabove-ar;
+    sub noon-ar.fina by noonghunna-ar.jalt dotabove-ar;
     sub alefMaksura-ar by alefMaksura-ar.isol.jalt;
     sub alefMaksura-ar.fina by alefMaksura-ar.fina.jalt;
     sub keheh-ar by keheh-ar.isol.jalt;
@@ -705,8 +706,8 @@ feature ss03 {
   };
 
   lookupflag IgnoreMarks;
-    sub noonghunna-ar by noonghunna-ar.isol.tail;
-    sub noonghunna-ar.fina by noonghunna-ar.fina.tail;
+    sub noon-ar by noon-ar.tail;
+    sub noon-ar.fina by noon-ar.fina.tail;
 } ss03;
 
 feature ss04 {
@@ -852,7 +853,7 @@ feature kern {
   @lam     = [lam-ar.init.dal lam-ar.init.reh lam-ar.init.sad lam-ar.init.meem lam-ar.init.heh lam-ar.init.alef];
   @low_fina= [alef-ar.fina heh-ar.fina heh-ar.fina2 behDotless-ar.fina lam-ar.medi.alef kaf-ar.fina];
   @beh_feh = [behDotless-ar fehDotless-ar];
-  @qaf_noon= [qafDotless-ar qafDotless-ar.isol2 noonghunna-ar noonghunna-ar.isol2];
+  @qaf_noon= [qafDotless-ar qafDotless-ar.isol2 noon-ar noonghunna-ar];
   lookupflag IgnoreMarks;
     pos [alef-ar.fina]     <-193 0 -193 0> [hah-ar];
     pos [alef-ar.fina.lam] <-195 0 -195 0> [hah-ar];
