@@ -511,29 +511,29 @@ feature calt {
 
 feature jalt {
   lookupflag IgnoreMarks;
-    sub behDotless-ar by behDotless-ar.isol.jalt;
+    sub behDotless-ar by behDotless-ar.jalt;
     sub behDotless-ar.fina by behDotless-ar.fina.jalt;
-    sub seen-ar by seen-ar.isol.jalt;
+    sub seen-ar by seen-ar.jalt;
     sub seen-ar.fina by seen-ar.fina.jalt;
-    sub sad-ar by sad-ar.isol.jalt;
+    sub sad-ar by sad-ar.jalt;
     sub sad-ar.fina by sad-ar.fina.jalt;
-    sub fehDotless-ar by fehDotless-ar.isol.jalt;
+    sub fehDotless-ar by fehDotless-ar.jalt;
     sub fehDotless-ar.fina by fehDotless-ar.fina.jalt;
     sub qafDotless-ar by qafDotless-ar.jalt;
     sub qafDotless-ar.fina by qafDotless-ar.fina.jalt;
     sub qaf-ar by qafDotless-ar.jalt twodotsabove-ar;
     sub qaf-ar.fina by qafDotless-ar.fina.jalt twodotsabove-ar;
-    sub kaf-ar by kaf-ar.isol.jalt;
+    sub kaf-ar by kaf-ar.jalt;
     sub kaf-ar.fina by kaf-ar.fina.jalt;
-    sub lam-ar by lam-ar.isol.jalt;
+    sub lam-ar by lam-ar.jalt;
     sub lam-ar.fina by lam-ar.fina.jalt;
     sub noonghunna-ar by noonghunna-ar.jalt;
     sub noonghunna-ar.fina by noonghunna-ar.jalt;
     sub noon-ar by noonghunna-ar.jalt dotabove-ar;
     sub noon-ar.fina by noonghunna-ar.jalt dotabove-ar;
-    sub alefMaksura-ar by alefMaksura-ar.isol.jalt;
+    sub alefMaksura-ar by alefMaksura-ar.jalt;
     sub alefMaksura-ar.fina by alefMaksura-ar.fina.jalt;
-    sub keheh-ar by keheh-ar.isol.jalt;
+    sub keheh-ar by keheh-ar.jalt;
     sub keheh-ar.fina by keheh-ar.fina.jalt;
     sub alefMaksura-ar.fina.yeh by alefMaksura-ar.fina.yeh.jalt;
 } jalt;
