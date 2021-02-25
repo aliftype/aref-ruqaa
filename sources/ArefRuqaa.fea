@@ -7,7 +7,6 @@ languagesystem arab SND;
 languagesystem arab MLY;
 
 feature isol {
-  lookupflag IgnoreMarks;
     sub alefMadda-ar            by alef-ar madda-ar;
     sub alefHamzaabove-ar       by alef-ar hamzaabove-ar;
     sub wawHamzaabove-ar        by waw-ar hamzaabove-ar;
@@ -56,7 +55,6 @@ feature isol {
 } isol;
 
 feature init {
-  lookupflag IgnoreMarks;
     sub yehHamzaabove-ar        by behDotless-ar.init hamzaabove-ar;
     sub beh-ar                  by behDotless-ar.init dotbelow-ar;
     sub teh-ar                  by behDotless-ar.init twodotsabove-ar;
@@ -104,7 +102,6 @@ feature init {
 } init;
 
 feature medi {
-  lookupflag IgnoreMarks;
     sub yehHamzaabove-ar        by behDotless-ar.medi hamzaabove-ar;
     sub beh-ar                  by behDotless-ar.medi dotbelow-ar;
     sub teh-ar                  by behDotless-ar.medi twodotsabove-ar;
@@ -152,7 +149,6 @@ feature medi {
 } medi;
 
 feature fina {
-  lookupflag IgnoreMarks;
     sub alefMadda-ar            by alef-ar.fina madda-ar;
     sub alefHamzaabove-ar       by alef-ar.fina hamzaabove-ar;
     sub wawHamzaabove-ar        by waw-ar.fina hamzaabove-ar;
@@ -223,7 +219,6 @@ feature fina {
 } fina;
 
 feature locl {
-  lookupflag IgnoreMarks;
   script arab;
 
   language URD  exclude_dflt;
