@@ -61,7 +61,6 @@ feature isol {
     sub noonghunna-ar           by noonghunna-ar;
     sub rnoon-ar                by noonghunna-ar tahabove-ar;
     sub noonThreedotsabove-ar   by noonghunna-ar threedotsupabove-ar;
-    sub hehDoachashmee-ar       by heh-ar.isol2;
     sub hehHamzaabove-ar        by heh-ar hamzaabove-ar;
     sub hehgoal-ar              by heh-ar;
     sub oe-ar                   by waw-ar vabove-ar;
@@ -227,7 +226,7 @@ feature fina {
     sub noonghunna-ar           by noonghunna-ar.fina;
     sub rnoon-ar                by noonghunna-ar.fina tahabove-ar;
     sub noonThreedotsabove-ar   by noonghunna-ar.fina threedotsupabove-ar;
-    sub hehDoachashmee-ar       by heh-ar.fina3;
+    sub hehDoachashmee-ar       by hehDoachashmee-ar.fina;
     sub hehHamzaabove-ar        by heh-ar.fina hamzaabove-ar;
     sub hehgoal-ar              by heh-ar.fina2;
     sub oe-ar                   by waw-ar.fina vabove-ar;
@@ -378,7 +377,7 @@ lookup calt_feh {
 @context_meem = [meem-ar.fina meem-ar.medi meem-ar.medi.hah meem-ar.medi.dal meem-ar.medi.reh
                  meem-ar.medi.sad meem-ar.medi.ain meem-ar.medi.feh meem-ar.medi.meem meem-ar.medi.heh
                  meem-ar.medi.yeh meem-ar.medi.ragaa
-                 heh-ar.medi2 heh-ar.fina3 heh-ar.medi2.hah heh-ar.medi2.dal heh-ar.medi2.reh
+                 heh-ar.medi2 hehDoachashmee-ar.fina heh-ar.medi2.hah heh-ar.medi2.dal heh-ar.medi2.reh
                  heh-ar.medi2.sad heh-ar.medi2.ain heh-ar.medi2.feh heh-ar.medi2.meem heh-ar.medi2.heh
                  heh-ar.medi2.yeh heh-ar.medi2.ragaa];
 lookup calt_meem_heh {
