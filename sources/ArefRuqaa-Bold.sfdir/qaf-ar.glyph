@@ -1,9 +1,9 @@
 StartChar: qaf-ar
-Encoding: 1602 1602 482
+Encoding: 1602 1602 473
 Width: 634
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 89 -1 N 1 0 0 1 0 0 3
+Refer: 89 1647 N 1 0 0 1 0 0 3
 Colour: ff0000
 EndChar

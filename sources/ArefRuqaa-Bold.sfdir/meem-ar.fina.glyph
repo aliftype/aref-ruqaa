@@ -9,7 +9,7 @@ AnchorPoint: "Meem" 303 404 entry 0
 AnchorPoint: "Tashkil Below" 317 24 basechar 0
 LayerCount: 2
 Back
-Refer: 99 -1 N 1 0 0 1 0 0 2
+Refer: 99 1605 N 1 0 0 1 0 0 2
 Fore
-Refer: 99 -1 N 1 0 0 1 0 0 2
+Refer: 99 1605 N 1 0 0 1 0 0 2
 EndChar

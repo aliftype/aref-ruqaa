@@ -1,10 +1,10 @@
 StartChar: peh-ar
-Encoding: 1662 1662 495
+Encoding: 1662 1662 478
 Width: 801
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 57 -1 N 1 0 0 1 0 0 3
+Refer: 57 1646 N 1 0 0 1 0 0 3
 Refer: 32 -1 N 1 0 0 1 308 -185 2
 Colour: ff0000
 EndChar

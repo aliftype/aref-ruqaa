@@ -1,10 +1,10 @@
 StartChar: theh-ar
-Encoding: 1579 1579 465
+Encoding: 1579 1579 464
 Width: 801
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 57 -1 N 1 0 0 1 0 0 3
+Refer: 57 1646 N 1 0 0 1 0 0 3
 Refer: 29 -1 N 1 0 0 1 397 505 2
 Colour: ff0000
 EndChar

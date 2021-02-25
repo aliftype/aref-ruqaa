@@ -1,10 +1,10 @@
 StartChar: ghain-ar
-Encoding: 1594 1594 480
+Encoding: 1594 1594 471
 Width: 683
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 81 -1 N 1 0 0 1 0 0 3
+Refer: 81 1593 N 1 0 0 1 0 0 3
 Refer: 27 -1 N 1 0 0 1 193 756 2
 Colour: ff0000
 EndChar

@@ -1,9 +1,9 @@
 StartChar: yeh-farsi
-Encoding: 1740 1740 516
+Encoding: 1740 1740 496
 Width: 615
 GlyphClass: 2
 LayerCount: 2
 Fore
-Refer: 112 -1 N 1 0 0 1 0 0 3
+Refer: 112 1609 N 1 0 0 1 0 0 3
 Colour: ff0000
 EndChar
