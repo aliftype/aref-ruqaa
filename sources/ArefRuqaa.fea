@@ -76,7 +76,7 @@ feature init {
     sub noonghunna-ar           by behDotless-ar.init;
     sub noonThreedotsabove-ar   by behDotless-ar.init threedotsdownbelow-ar;
     sub hehDoachashmee-ar       by heh-ar.init;
-    sub hehgoal-ar              by heh-ar.init2;
+    sub hehgoal-ar              by hehgoal-ar.init;
     sub yeh-farsi               by behDotless-ar.init twodotsbelow-ar;
 } init;
 
@@ -128,7 +128,7 @@ feature fina {
     sub noonghunna-ar           by noonghunna-ar.fina;
     sub noonThreedotsabove-ar   by noonghunna-ar.fina threedotsupabove-ar;
     sub hehDoachashmee-ar       by hehDoachashmee-ar.fina;
-    sub hehgoal-ar              by heh-ar.fina2;
+    sub hehgoal-ar              by hehgoal-ar.fina;
     sub yeh-farsi               by alefMaksura-ar.fina;
     sub yehbarree-ar            by yehbarree-ar.fina;
 } fina;
@@ -166,57 +166,57 @@ feature locl {
               seen-ar.medi sad-ar.init sad-ar.medi tah-ar.init tah-ar.medi
               ain-ar.init ain-ar.medi fehDotless-ar.init fehDotless-ar.medi kaf-ar.init
               kaf-ar.medi lam-ar.init lam-ar.medi meem-ar.init meem-ar.medi
-              heh-ar.init heh-ar.medi2 heh-ar.medi heh-ar.init2];
+              heh-ar.init heh-ar.medi2 heh-ar.medi hehgoal-ar.init];
 @ain       = [behDotless-ar.init.ain behDotless-ar.medi.ain hah-ar.init.ain hah-ar.medi.ain seen-ar.init.ain
               seen-ar.medi.ain sad-ar.init.ain sad-ar.medi.ain tah-ar.init.ain tah-ar.medi.ain
               ain-ar.init.ain ain-ar.medi.ain fehDotless-ar.init.ain fehDotless-ar.medi.ain kaf-ar.init.ain
               kaf-ar.medi.ain lam-ar.init.ain lam-ar.medi.ain meem-ar.init.ain meem-ar.medi.ain
-              heh-ar.init.ain heh-ar.medi2.ain heh-ar.medi.ain heh-ar.init2.ain];
+              heh-ar.init.ain heh-ar.medi2.ain heh-ar.medi.ain hehgoal-ar.init.ain];
 @dal        = [behDotless-ar.init.dal behDotless-ar.medi.dal hah-ar.init.dal hah-ar.medi.dal seen-ar.init.dal
               seen-ar.medi.dal sad-ar.init.dal sad-ar.medi.dal tah-ar.init.dal tah-ar.medi.dal
               ain-ar.init.dal ain-ar.medi.dal fehDotless-ar.init.dal fehDotless-ar.medi.dal kaf-ar.init.dal
               kaf-ar.medi.dal lam-ar.init.dal lam-ar.medi.dal meem-ar.init.dal meem-ar.medi.dal
-              heh-ar.init.dal heh-ar.medi2.dal heh-ar.medi.dal heh-ar.init2.dal];
+              heh-ar.init.dal heh-ar.medi2.dal heh-ar.medi.dal hehgoal-ar.init.dal];
 @feh       = [behDotless-ar.init.feh behDotless-ar.medi.feh hah-ar.init.feh hah-ar.medi.feh seen-ar.init.feh
               seen-ar.medi.feh sad-ar.init.feh sad-ar.medi.feh tah-ar.init.feh tah-ar.medi.feh
               ain-ar.init.feh ain-ar.medi.feh fehDotless-ar.init.feh fehDotless-ar.medi.feh kaf-ar.init.feh
               kaf-ar.medi.feh lam-ar.init.feh lam-ar.medi.feh meem-ar.init.feh meem-ar.medi.feh
-              heh-ar.init.feh heh-ar.medi2.feh heh-ar.medi.feh heh-ar.init2.feh];
+              heh-ar.init.feh heh-ar.medi2.feh heh-ar.medi.feh hehgoal-ar.init.feh];
 @hah       = [behDotless-ar.init.hah behDotless-ar.medi.hah hah-ar.init.hah hah-ar.medi.hah seen-ar.init.hah
               seen-ar.medi.hah sad-ar.init.hah sad-ar.medi.hah tah-ar.init.hah tah-ar.medi.hah
               ain-ar.init.hah ain-ar.medi.hah fehDotless-ar.init.hah fehDotless-ar.medi.hah kaf-ar.init.hah
               kaf-ar.medi.hah lam-ar.init.hah lam-ar.medi.hah meem-ar.init.hah meem-ar.medi.hah
-              heh-ar.init.hah heh-ar.medi2.hah heh-ar.medi.hah heh-ar.init2.hah];
+              heh-ar.init.hah heh-ar.medi2.hah heh-ar.medi.hah hehgoal-ar.init.hah];
 @heh       = [behDotless-ar.init.heh behDotless-ar.medi.heh hah-ar.init.heh hah-ar.medi.heh seen-ar.init.heh
               seen-ar.medi.heh sad-ar.init.heh sad-ar.medi.heh tah-ar.init.heh tah-ar.medi.heh
               ain-ar.init.heh ain-ar.medi.heh fehDotless-ar.init.heh fehDotless-ar.medi.heh kaf-ar.init.heh
               kaf-ar.medi.heh lam-ar.init.heh lam-ar.medi.heh meem-ar.init.heh meem-ar.medi.heh
-              heh-ar.init.heh heh-ar.medi2.heh heh-ar.medi.heh heh-ar.init2.heh];
+              heh-ar.init.heh heh-ar.medi2.heh heh-ar.medi.heh hehgoal-ar.init.heh];
 @meem      = [behDotless-ar.init.meem behDotless-ar.medi.meem hah-ar.init.meem hah-ar.medi.meem seen-ar.init.meem
               seen-ar.medi.meem sad-ar.init.meem sad-ar.medi.meem tah-ar.init.meem tah-ar.medi.meem
               ain-ar.init.meem ain-ar.medi.meem fehDotless-ar.init.meem fehDotless-ar.medi.meem kaf-ar.init.meem
               kaf-ar.medi.meem lam-ar.init.meem lam-ar.medi.meem meem-ar.init.meem meem-ar.medi.meem
-              heh-ar.init.meem heh-ar.medi2.meem heh-ar.medi.meem heh-ar.init2.meem];
+              heh-ar.init.meem heh-ar.medi2.meem heh-ar.medi.meem hehgoal-ar.init.meem];
 @reh       = [behDotless-ar.init.reh behDotless-ar.medi.reh hah-ar.init.reh hah-ar.medi.reh seen-ar.init.reh
               seen-ar.medi.reh sad-ar.init.reh sad-ar.medi.reh tah-ar.init.reh tah-ar.medi.reh
               ain-ar.init.reh ain-ar.medi.reh fehDotless-ar.init.reh fehDotless-ar.medi.reh kaf-ar.init.reh
               kaf-ar.medi.reh lam-ar.init.reh lam-ar.medi.reh meem-ar.init.reh meem-ar.medi.reh
-              heh-ar.init.reh heh-ar.medi2.reh heh-ar.medi.reh heh-ar.init2.reh];
+              heh-ar.init.reh heh-ar.medi2.reh heh-ar.medi.reh hehgoal-ar.init.reh];
 @sad       = [behDotless-ar.init.sad behDotless-ar.medi.sad hah-ar.init.sad hah-ar.medi.sad seen-ar.init.sad
               seen-ar.medi.sad sad-ar.init.qantara sad-ar.medi.qantara tah-ar.init.qantara tah-ar.medi.qantara
               ain-ar.init.sad ain-ar.medi.sad fehDotless-ar.init.sad fehDotless-ar.medi.sad kaf-ar.init.sad
               kaf-ar.medi.sad lam-ar.init.sad lam-ar.medi.sad meem-ar.init.sad meem-ar.medi.sad
-              heh-ar.init.sad heh-ar.medi2.sad heh-ar.medi.sad heh-ar.init2.sad];
+              heh-ar.init.sad heh-ar.medi2.sad heh-ar.medi.sad hehgoal-ar.init.sad];
 @yeh       = [behDotless-ar.init.yeh behDotless-ar.medi.yeh hah-ar.init.yeh hah-ar.medi.yeh seen-ar.init.yeh
               seen-ar.medi.yeh sad-ar.init.yeh sad-ar.medi.yeh tah-ar.init.yeh tah-ar.medi.yeh
               ain-ar.init.yeh ain-ar.medi.yeh fehDotless-ar.init.yeh fehDotless-ar.medi.yeh kaf-ar.init.yeh
               kaf-ar.medi.yeh lam-ar.init.yeh lam-ar.medi.yeh meem-ar.init.yeh meem-ar.medi.yeh
-              heh-ar.init.yeh heh-ar.medi2.yeh heh-ar.medi.yeh heh-ar.init2.yeh];
+              heh-ar.init.yeh heh-ar.medi2.yeh heh-ar.medi.yeh hehgoal-ar.init.yeh];
 @ragaa     = [behDotless-ar.init.ragaa behDotless-ar.medi.ragaa hah-ar.init.ragaa hah-ar.medi.ragaa seen-ar.init.ragaa
                seen-ar.medi.ragaa sad-ar.init.ragaa sad-ar.medi.ragaa tah-ar.init.ragaa tah-ar.medi.ragaa
                ain-ar.init.ragaa ain-ar.medi.ragaa fehDotless-ar.init.ragaa fehDotless-ar.medi.ragaa kaf-ar.init.ragaa
                kaf-ar.medi.ragaa lam-ar.init.ragaa lam-ar.medi.ragaa meem-ar.init.ragaa meem-ar.medi.ragaa
-               heh-ar.init.ragaa heh-ar.medi2.ragaa heh-ar.medi.ragaa heh-ar.init2.ragaa];
+               heh-ar.init.ragaa heh-ar.medi2.ragaa heh-ar.medi.ragaa hehgoal-ar.init.ragaa];
 
 @context_hah = [hah-ar.fina hah-ar.medi hah-ar.medi.hah hah-ar.medi.dal hah-ar.medi.reh
                 hah-ar.medi.sad hah-ar.medi.ain hah-ar.medi.feh hah-ar.medi.meem hah-ar.medi.heh
@@ -293,7 +293,7 @@ lookup calt_heh_1 {
     sub lam-ar.init' @context_heh by lam-ar.init.heh;
     sub meem-ar.init' @context_heh by meem-ar.init.heh;
     sub heh-ar.init' @context_heh by heh-ar.init.heh;
-    sub heh-ar.init2' @context_heh by heh-ar.init2.heh;
+    sub hehgoal-ar.init' @context_heh by hehgoal-ar.init.heh;
     sub behDotless-ar.medi' @context_heh by behDotless-ar.medi.heh;
     sub hah-ar.medi' @context_heh by hah-ar.medi.heh;
     sub seen-ar.medi' @context_heh by seen-ar.medi.heh;
@@ -564,7 +564,7 @@ feature ss01 {
     sub lam-ar.init.heh by lam-ar.init.meem;
     sub meem-ar.init.heh by meem-ar.init.meem;
     sub heh-ar.init.heh by heh-ar.init.meem;
-    sub heh-ar.init2.heh by heh-ar.init2.meem;
+    sub hehgoal-ar.init.heh by hehgoal-ar.init.meem;
     sub behDotless-ar.medi.heh by behDotless-ar.medi.meem;
     sub hah-ar.medi.heh by hah-ar.medi.meem;
     sub seen-ar.medi.heh by seen-ar.medi.meem;
@@ -586,7 +586,7 @@ feature ss02 {
   };
 
   lookupflag IgnoreMarks;
-    sub heh-ar.fina by heh-ar.fina2;
+    sub heh-ar.fina by hehgoal-ar.fina;
 } ss02;
 
 feature ss03 {
@@ -740,7 +740,7 @@ feature kern {
   @waw     = [reh-ar reh-ar.fina waw-ar waw-ar.fina];
   @dal_waw = [@dal @waw];
   @lam     = [lam-ar.init.dal lam-ar.init.reh lam-ar.init.sad lam-ar.init.meem lam-ar.init.heh lam-ar.init.alef];
-  @low_fina= [alef-ar.fina heh-ar.fina heh-ar.fina2 behDotless-ar.fina lam-ar.medi.alef kaf-ar.fina];
+  @low_fina= [alef-ar.fina heh-ar.fina hehgoal-ar.fina behDotless-ar.fina lam-ar.medi.alef kaf-ar.fina];
   @beh_feh = [behDotless-ar fehDotless-ar];
   @qaf_noon= [qaf-ar qafDotless-ar noon-ar noonghunna-ar];
   lookupflag IgnoreMarks;
