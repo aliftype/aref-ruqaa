@@ -2,11 +2,11 @@ StartChar: hah-ar.init.sad
 Encoding: 65689 -1 199
 Width: 797
 GlyphClass: 2
-AnchorPoint: "Sad" 24 49 exit 0
-AnchorPoint: "Tashkil Below" 448 -149 basechar 0
-AnchorPoint: "Dots Below" 475 -163 basechar 0
-AnchorPoint: "Dots Above" 580 567 basechar 0
-AnchorPoint: "Tashkil Above" 598 571 basechar 0
+AnchorPoint: "sad" 24 49 exit 0
+AnchorPoint: "bottom.mark" 448 -149 basechar 0
+AnchorPoint: "bottom" 475 -163 basechar 0
+AnchorPoint: "top" 580 567 basechar 0
+AnchorPoint: "top.mark" 598 571 basechar 0
 LayerCount: 2
 Back
 SplineSet

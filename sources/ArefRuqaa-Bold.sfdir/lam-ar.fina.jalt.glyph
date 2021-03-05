@@ -2,11 +2,11 @@ StartChar: lam-ar.fina.jalt
 Encoding: 65854 -1 364
 Width: 1030
 GlyphClass: 2
-AnchorPoint: "Tashkil Below" 435 -171 basechar 0
-AnchorPoint: "Tashkil Above" 554 804 basechar 0
-AnchorPoint: "Dots Above" 589 347 basechar 0
-AnchorPoint: "Beh" 916 220 entry 0
-AnchorPoint: "Basic" 916 220 entry 0
+AnchorPoint: "bottom.mark" 435 -171 basechar 0
+AnchorPoint: "top.mark" 554 804 basechar 0
+AnchorPoint: "top" 589 347 basechar 0
+AnchorPoint: "beh" 916 220 entry 0
+AnchorPoint: "basic" 916 220 entry 0
 LayerCount: 2
 Back
 Refer: 355 -1 N 1 0 0 1 0 0 2

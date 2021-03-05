@@ -2,13 +2,13 @@ StartChar: kaf-ar.medi.sad
 Encoding: 65707 -1 217
 Width: 574
 GlyphClass: 2
-AnchorPoint: "Sharta Above" 760 896 basechar 0
-AnchorPoint: "Sad" 24 88 exit 0
-AnchorPoint: "Beh" 580 0 entry 0
-AnchorPoint: "Basic" 580 0 entry 0
-AnchorPoint: "Tashkil Below" 602 -180 basechar 0
-AnchorPoint: "Tashkil Above" 686 940 basechar 0
-AnchorPoint: "Dots Above" 760 896 basechar 0
+AnchorPoint: "top.gaf" 760 896 basechar 0
+AnchorPoint: "sad" 24 88 exit 0
+AnchorPoint: "beh" 580 0 entry 0
+AnchorPoint: "basic" 580 0 entry 0
+AnchorPoint: "bottom.mark" 602 -180 basechar 0
+AnchorPoint: "top.mark" 686 940 basechar 0
+AnchorPoint: "top" 760 896 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -2,11 +2,11 @@ StartChar: tah-ar.medi.meem
 Encoding: 65776 -1 286
 Width: 326
 GlyphClass: 2
-AnchorPoint: "Meem" -10 -24 exit 0
-AnchorPoint: "Sad" 242 -66 entry 0
-AnchorPoint: "Tashkil Above" 360 831 basechar 0
-AnchorPoint: "Tashkil Below" 470 -9 basechar 0
-AnchorPoint: "Dots Above" 536 659 basechar 0
+AnchorPoint: "meem" -10 -24 exit 0
+AnchorPoint: "sad" 242 -66 entry 0
+AnchorPoint: "top.mark" 360 831 basechar 0
+AnchorPoint: "bottom.mark" 470 -9 basechar 0
+AnchorPoint: "top" 536 659 basechar 0
 LayerCount: 2
 Back
 SplineSet

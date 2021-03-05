@@ -2,10 +2,10 @@ StartChar: sad-ar.init.dal
 Encoding: 65643 -1 153
 Width: 721
 GlyphClass: 2
-AnchorPoint: "Dal" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 431 -158 basechar 0
-AnchorPoint: "Tashkil Above" 483 523 basechar 0
-AnchorPoint: "Dots Above" 532 536 basechar 0
+AnchorPoint: "dal" 0 0 exit 0
+AnchorPoint: "bottom.mark" 431 -158 basechar 0
+AnchorPoint: "top.mark" 483 523 basechar 0
+AnchorPoint: "top" 532 536 basechar 0
 LayerCount: 2
 Back
 SplineSet

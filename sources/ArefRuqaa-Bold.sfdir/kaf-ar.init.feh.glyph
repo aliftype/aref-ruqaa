@@ -2,11 +2,11 @@ StartChar: kaf-ar.init.feh
 Encoding: 65743 -1 253
 Width: 670
 GlyphClass: 2
-AnchorPoint: "Sharta Above" 655 914 basechar 0
-AnchorPoint: "Feh" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 422 -145 basechar 0
-AnchorPoint: "Tashkil Above" 549 945 basechar 0
-AnchorPoint: "Dots Above" 655 914 basechar 0
+AnchorPoint: "top.gaf" 655 914 basechar 0
+AnchorPoint: "feh" 0 0 exit 0
+AnchorPoint: "bottom.mark" 422 -145 basechar 0
+AnchorPoint: "top.mark" 549 945 basechar 0
+AnchorPoint: "top" 655 914 basechar 0
 LayerCount: 2
 Back
 SplineSet

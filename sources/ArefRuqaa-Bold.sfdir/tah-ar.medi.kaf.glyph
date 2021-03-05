@@ -2,12 +2,12 @@ StartChar: tah-ar.medi.kaf
 Encoding: 65861 -1 371
 Width: 265
 GlyphClass: 2
-AnchorPoint: "Basic" 0 0 exit 0
-AnchorPoint: "Sad" 163 -185 entry 0
-AnchorPoint: "Dots Below" 255 -70 basechar 0
-AnchorPoint: "Tashkil Below" 316 -158 basechar 0
-AnchorPoint: "Tashkil Above" 321 708 basechar 0
-AnchorPoint: "Dots Above" 457 483 basechar 0
+AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "sad" 163 -185 entry 0
+AnchorPoint: "bottom" 255 -70 basechar 0
+AnchorPoint: "bottom.mark" 316 -158 basechar 0
+AnchorPoint: "top.mark" 321 708 basechar 0
+AnchorPoint: "top" 457 483 basechar 0
 LayerCount: 2
 Back
 Refer: 370 -1 N 1 0 0 1 0 0 2

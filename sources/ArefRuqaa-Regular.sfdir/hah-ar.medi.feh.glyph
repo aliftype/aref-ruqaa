@@ -2,12 +2,12 @@ StartChar: hah-ar.medi.feh
 Encoding: 65749 -1 259
 Width: 438
 GlyphClass: 2
-AnchorPoint: "Feh" 0 0 exit 0
-AnchorPoint: "Dots Above" 365 650 basechar 0
-AnchorPoint: "Hah" 387 279 entry 0
-AnchorPoint: "Tashkil Above" 396 633 basechar 0
-AnchorPoint: "Tashkil Below" 457 -110 basechar 0
-AnchorPoint: "Dots Below" 510 -83 basechar 0
+AnchorPoint: "feh" 0 0 exit 0
+AnchorPoint: "top" 365 650 basechar 0
+AnchorPoint: "hah" 387 279 entry 0
+AnchorPoint: "top.mark" 396 633 basechar 0
+AnchorPoint: "bottom.mark" 457 -110 basechar 0
+AnchorPoint: "bottom" 510 -83 basechar 0
 LayerCount: 2
 Back
 SplineSet

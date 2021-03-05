@@ -2,9 +2,9 @@ StartChar: meem-ar.init.feh
 Encoding: 65745 -1 255
 Width: 658
 GlyphClass: 2
-AnchorPoint: "Feh" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 439 -127 basechar 0
-AnchorPoint: "Tashkil Above" 470 584 basechar 0
+AnchorPoint: "feh" 0 0 exit 0
+AnchorPoint: "bottom.mark" 439 -127 basechar 0
+AnchorPoint: "top.mark" 470 584 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -2,10 +2,10 @@ StartChar: seen-ar.init.feh
 Encoding: 65738 -1 248
 Width: 839
 GlyphClass: 2
-AnchorPoint: "Feh" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 435 -163 basechar 0
-AnchorPoint: "Tashkil Above" 497 475 basechar 0
-AnchorPoint: "Dots Above" 545 554 basechar 0
+AnchorPoint: "feh" 0 0 exit 0
+AnchorPoint: "bottom.mark" 435 -163 basechar 0
+AnchorPoint: "top.mark" 497 475 basechar 0
+AnchorPoint: "top" 545 554 basechar 0
 LayerCount: 2
 Back
 SplineSet

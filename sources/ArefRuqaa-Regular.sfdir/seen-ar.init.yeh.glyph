@@ -2,10 +2,10 @@ StartChar: seen-ar.init.yeh
 Encoding: 65810 -1 320
 Width: 545
 GlyphClass: 2
-AnchorPoint: "Yeh" -5 0 exit 0
-AnchorPoint: "Tashkil Below" 404 -57 basechar 0
-AnchorPoint: "Tashkil Above" 404 475 basechar 0
-AnchorPoint: "Dots Above" 413 523 basechar 0
+AnchorPoint: "yeh" -5 0 exit 0
+AnchorPoint: "bottom.mark" 404 -57 basechar 0
+AnchorPoint: "top.mark" 404 475 basechar 0
+AnchorPoint: "top" 413 523 basechar 0
 LayerCount: 2
 Back
 SplineSet

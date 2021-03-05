@@ -2,11 +2,11 @@ StartChar: alefMaksura-ar.fina
 Encoding: 65603 -1 113
 Width: 414
 GlyphClass: 2
-AnchorPoint: "Dots Below" 233 -101 basechar 0
-AnchorPoint: "Tashkil Above" 277 681 basechar 0
-AnchorPoint: "Dots Above" 281 606 basechar 0
-AnchorPoint: "Tashkil Below" 308 -141 basechar 0
-AnchorPoint: "Yeh" 387 365 entry 0
+AnchorPoint: "bottom" 233 -101 basechar 0
+AnchorPoint: "top.mark" 277 681 basechar 0
+AnchorPoint: "top" 281 606 basechar 0
+AnchorPoint: "bottom.mark" 308 -141 basechar 0
+AnchorPoint: "yeh" 387 365 entry 0
 LayerCount: 2
 Back
 SplineSet

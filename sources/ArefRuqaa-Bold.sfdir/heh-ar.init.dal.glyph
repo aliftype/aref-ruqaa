@@ -2,9 +2,9 @@ StartChar: heh-ar.init.dal
 Encoding: 65650 -1 160
 Width: 601
 GlyphClass: 2
-AnchorPoint: "Dal" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 330 -132 basechar 0
-AnchorPoint: "Tashkil Above" 417 743 basechar 0
+AnchorPoint: "dal" 0 0 exit 0
+AnchorPoint: "bottom.mark" 330 -132 basechar 0
+AnchorPoint: "top.mark" 417 743 basechar 0
 LayerCount: 2
 Back
 SplineSet

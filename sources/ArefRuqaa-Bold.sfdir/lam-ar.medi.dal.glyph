@@ -2,11 +2,11 @@ StartChar: lam-ar.medi.dal
 Encoding: 65660 -1 170
 Width: 285
 GlyphClass: 2
-AnchorPoint: "Dal" 0 0 exit 0
-AnchorPoint: "Tashkil Above" 277 848 basechar 0
-AnchorPoint: "Basic" 281 0 entry 0
-AnchorPoint: "Beh" 281 0 entry 0
-AnchorPoint: "Tashkil Below" 321 -163 basechar 0
+AnchorPoint: "dal" 0 0 exit 0
+AnchorPoint: "top.mark" 277 848 basechar 0
+AnchorPoint: "basic" 281 0 entry 0
+AnchorPoint: "beh" 281 0 entry 0
+AnchorPoint: "bottom.mark" 321 -163 basechar 0
 LayerCount: 2
 Back
 SplineSet

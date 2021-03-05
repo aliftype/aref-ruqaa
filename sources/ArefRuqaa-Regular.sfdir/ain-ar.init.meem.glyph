@@ -2,10 +2,10 @@ StartChar: ain-ar.init.meem
 Encoding: 65765 -1 275
 Width: 515
 GlyphClass: 2
-AnchorPoint: "Meem" 0 -10 exit 0
-AnchorPoint: "Dots Above" 290 716 basechar 0
-AnchorPoint: "Tashkil Above" 308 686 basechar 0
-AnchorPoint: "Tashkil Below" 352 0 basechar 0
+AnchorPoint: "meem" 0 -10 exit 0
+AnchorPoint: "top" 290 716 basechar 0
+AnchorPoint: "top.mark" 308 686 basechar 0
+AnchorPoint: "bottom.mark" 352 0 basechar 0
 LayerCount: 2
 Back
 SplineSet

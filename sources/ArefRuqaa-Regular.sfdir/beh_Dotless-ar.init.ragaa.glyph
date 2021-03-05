@@ -2,11 +2,11 @@ StartChar: behDotless-ar.init.ragaa
 Encoding: 65873 -1 385
 Width: 678
 GlyphClass: 2
-AnchorPoint: "Seen" 0 0 exit 0
-AnchorPoint: "Dots Above" 199 623 basechar 0
-AnchorPoint: "Tashkil Above" 242 639 basechar 0
-AnchorPoint: "Tashkil Below" 274 -102 basechar 0
-AnchorPoint: "Dots Below" 419 145 basechar 0
+AnchorPoint: "seen" 0 0 exit 0
+AnchorPoint: "top" 199 623 basechar 0
+AnchorPoint: "top.mark" 242 639 basechar 0
+AnchorPoint: "bottom.mark" 274 -102 basechar 0
+AnchorPoint: "bottom" 419 145 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -2,8 +2,8 @@ StartChar: noon-ar.tail
 Encoding: 65868 -1 378
 Width: 537
 GlyphClass: 2
-AnchorPoint: "Tashkil Below" 225 -166 basechar 0
-AnchorPoint: "Tashkil Above" 293 635 basechar 0
+AnchorPoint: "bottom.mark" 225 -166 basechar 0
+AnchorPoint: "top.mark" 293 635 basechar 0
 LayerCount: 2
 Back
 SplineSet

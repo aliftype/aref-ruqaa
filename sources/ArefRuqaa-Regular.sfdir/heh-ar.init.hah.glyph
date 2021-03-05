@@ -2,10 +2,10 @@ StartChar: heh-ar.init.hah
 Encoding: 65626 -1 136
 Width: 627
 GlyphClass: 2
-AnchorPoint: "Meem" 0 0 exit 0
-AnchorPoint: "Hah" 0 0 exit 0
-AnchorPoint: "Tashkil Above" 448 896 basechar 0
-AnchorPoint: "Tashkil Below" 475 26 basechar 0
+AnchorPoint: "meem" 0 0 exit 0
+AnchorPoint: "hah" 0 0 exit 0
+AnchorPoint: "top.mark" 448 896 basechar 0
+AnchorPoint: "bottom.mark" 475 26 basechar 0
 LayerCount: 2
 Back
 SplineSet

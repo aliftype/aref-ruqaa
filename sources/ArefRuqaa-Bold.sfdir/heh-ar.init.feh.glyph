@@ -2,9 +2,9 @@ StartChar: heh-ar.init.feh
 Encoding: 65746 -1 256
 Width: 817
 GlyphClass: 2
-AnchorPoint: "Feh" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 541 -141 basechar 0
-AnchorPoint: "Tashkil Above" 549 839 basechar 0
+AnchorPoint: "feh" 0 0 exit 0
+AnchorPoint: "bottom.mark" 541 -141 basechar 0
+AnchorPoint: "top.mark" 549 839 basechar 0
 LayerCount: 2
 Back
 SplineSet

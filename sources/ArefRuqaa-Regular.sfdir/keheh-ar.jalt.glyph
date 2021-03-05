@@ -2,10 +2,10 @@ StartChar: keheh-ar.jalt
 Encoding: 65848 -1 358
 Width: 1383
 GlyphClass: 2
-AnchorPoint: "Sharta Above" 1107 971 basechar 0
-AnchorPoint: "Tashkil Below" 523 -171 basechar 0
-AnchorPoint: "Tashkil Above" 558 822 basechar 0
-AnchorPoint: "Dots Above" 1107 971 basechar 0
+AnchorPoint: "top.gaf" 1107 971 basechar 0
+AnchorPoint: "bottom.mark" 523 -171 basechar 0
+AnchorPoint: "top.mark" 558 822 basechar 0
+AnchorPoint: "top" 1107 971 basechar 0
 LayerCount: 2
 Back
 SplineSet

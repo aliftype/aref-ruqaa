@@ -2,10 +2,10 @@ StartChar: lam-ar
 Encoding: 1604 1604 95
 Width: 445
 GlyphClass: 2
-AnchorPoint: "Dots Below" 176 -189 basechar 0
-AnchorPoint: "Tashkil Below" 180 -163 basechar 0
-AnchorPoint: "Dots Above" 198 844 basechar 0
-AnchorPoint: "Tashkil Above" 242 848 basechar 0
+AnchorPoint: "bottom" 176 -189 basechar 0
+AnchorPoint: "bottom.mark" 180 -163 basechar 0
+AnchorPoint: "top" 198 844 basechar 0
+AnchorPoint: "top.mark" 242 848 basechar 0
 LayerCount: 2
 Back
 SplineSet

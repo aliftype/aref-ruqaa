@@ -2,10 +2,10 @@ StartChar: alef-ar
 Encoding: 1575 1575 55
 Width: 248
 GlyphClass: 2
-AnchorPoint: "Dots Above" 124 791 basechar 0
-AnchorPoint: "Dots Below" 132 -22 basechar 0
-AnchorPoint: "Tashkil Above" 133 835 basechar 0
-AnchorPoint: "Tashkil Below" 148 -31 basechar 0
+AnchorPoint: "top" 124 791 basechar 0
+AnchorPoint: "bottom" 132 -22 basechar 0
+AnchorPoint: "top.mark" 133 835 basechar 0
+AnchorPoint: "bottom.mark" 148 -31 basechar 0
 LayerCount: 2
 Back
 SplineSet

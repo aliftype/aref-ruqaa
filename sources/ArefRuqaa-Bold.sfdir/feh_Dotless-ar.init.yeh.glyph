@@ -2,10 +2,10 @@ StartChar: fehDotless-ar.init.yeh
 Encoding: 65814 -1 324
 Width: 212
 GlyphClass: 2
-AnchorPoint: "Yeh" 24 10 exit 0
-AnchorPoint: "Dots Above" 75 532 basechar 0
-AnchorPoint: "Tashkil Above" 97 532 basechar 0
-AnchorPoint: "Tashkil Below" 110 -422 basechar 0
+AnchorPoint: "yeh" 24 10 exit 0
+AnchorPoint: "top" 75 532 basechar 0
+AnchorPoint: "top.mark" 97 532 basechar 0
+AnchorPoint: "bottom.mark" 110 -422 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -2,9 +2,9 @@ StartChar: hehgoal-ar.init.yeh
 Encoding: 65819 -1 329
 Width: 466
 GlyphClass: 2
-AnchorPoint: "Yeh" 10 0 exit 0
-AnchorPoint: "Tashkil Above" 343 650 basechar 0
-AnchorPoint: "Tashkil Below" 374 -237 basechar 0
+AnchorPoint: "yeh" 10 0 exit 0
+AnchorPoint: "top.mark" 343 650 basechar 0
+AnchorPoint: "bottom.mark" 374 -237 basechar 0
 LayerCount: 2
 Back
 SplineSet

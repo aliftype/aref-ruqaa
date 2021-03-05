@@ -2,11 +2,11 @@ StartChar: waw-ar.fina
 Encoding: 65601 -1 111
 Width: 491
 GlyphClass: 2
-AnchorPoint: "Dots Below" 250 -101 basechar 0
-AnchorPoint: "Tashkil Below" 288 -171 basechar 0
-AnchorPoint: "Dots Above" 386 606 basechar 0
-AnchorPoint: "Tashkil Above" 396 633 basechar 0
-AnchorPoint: "Waw" 426 259 entry 0
+AnchorPoint: "bottom" 250 -101 basechar 0
+AnchorPoint: "bottom.mark" 288 -171 basechar 0
+AnchorPoint: "top" 386 606 basechar 0
+AnchorPoint: "top.mark" 396 633 basechar 0
+AnchorPoint: "waw" 426 259 entry 0
 LayerCount: 2
 Back
 Refer: 110 1608 N 1 0 0 1 0 0 2

@@ -2,11 +2,11 @@ StartChar: lam-ar.medi.reh
 Encoding: 65684 -1 194
 Width: 312
 GlyphClass: 2
-AnchorPoint: "Reh" -10 73 exit 0
-AnchorPoint: "Tashkil Below" 352 -158 basechar 0
-AnchorPoint: "Beh" 312 0 entry 0
-AnchorPoint: "Basic" 312 0 entry 0
-AnchorPoint: "Tashkil Above" 308 773 basechar 0
+AnchorPoint: "reh" -10 73 exit 0
+AnchorPoint: "bottom.mark" 352 -158 basechar 0
+AnchorPoint: "beh" 312 0 entry 0
+AnchorPoint: "basic" 312 0 entry 0
+AnchorPoint: "top.mark" 308 773 basechar 0
 LayerCount: 2
 Back
 SplineSet

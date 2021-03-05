@@ -2,11 +2,11 @@ StartChar: lam-ar.medi.ain
 Encoding: 65732 -1 242
 Width: 441
 GlyphClass: 2
-AnchorPoint: "Ain" 0 0 exit 0
-AnchorPoint: "Tashkil Above" 426 804 basechar 0
-AnchorPoint: "Beh" 442 0 entry 0
-AnchorPoint: "Basic" 442 0 entry 0
-AnchorPoint: "Tashkil Below" 453 -163 basechar 0
+AnchorPoint: "ain" 0 0 exit 0
+AnchorPoint: "top.mark" 426 804 basechar 0
+AnchorPoint: "beh" 442 0 entry 0
+AnchorPoint: "basic" 442 0 entry 0
+AnchorPoint: "bottom.mark" 453 -163 basechar 0
 LayerCount: 2
 Back
 SplineSet

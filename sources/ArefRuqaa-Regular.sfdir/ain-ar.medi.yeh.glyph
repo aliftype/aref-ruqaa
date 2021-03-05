@@ -2,11 +2,11 @@ StartChar: ain-ar.medi.yeh
 Encoding: 65825 -1 335
 Width: 366
 GlyphClass: 2
-AnchorPoint: "Yeh" 10 0 exit 0
-AnchorPoint: "Ain" 360 141 entry 0
-AnchorPoint: "Tashkil Above" 369 633 basechar 0
-AnchorPoint: "Dots Above" 369 637 basechar 0
-AnchorPoint: "Tashkil Below" 396 -13 basechar 0
+AnchorPoint: "yeh" 10 0 exit 0
+AnchorPoint: "ain" 360 141 entry 0
+AnchorPoint: "top.mark" 369 633 basechar 0
+AnchorPoint: "top" 369 637 basechar 0
+AnchorPoint: "bottom.mark" 396 -13 basechar 0
 LayerCount: 2
 Back
 SplineSet

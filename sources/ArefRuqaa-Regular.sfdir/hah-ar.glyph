@@ -2,10 +2,10 @@ StartChar: hah-ar
 Encoding: 1581 1581 61
 Width: 683
 GlyphClass: 2
-AnchorPoint: "Tashkil Below" 294 -545 basechar 0
-AnchorPoint: "Dots Above" 308 739 basechar 0
-AnchorPoint: "Tashkil Above" 325 738 basechar 0
-AnchorPoint: "Dots Below" 382 24 basechar 0
+AnchorPoint: "bottom.mark" 294 -545 basechar 0
+AnchorPoint: "top" 308 739 basechar 0
+AnchorPoint: "top.mark" 325 738 basechar 0
+AnchorPoint: "bottom" 382 24 basechar 0
 AnchorPoint: "Middle" 382 73 basechar 0
 LayerCount: 2
 Back

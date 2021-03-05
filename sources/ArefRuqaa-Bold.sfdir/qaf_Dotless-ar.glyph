@@ -2,10 +2,10 @@ StartChar: qafDotless-ar
 Encoding: 1647 1647 379
 Width: 490
 GlyphClass: 2
-AnchorPoint: "Tashkil Below" 176 -180 basechar 0
-AnchorPoint: "Dots Below" 189 -167 basechar 0
-AnchorPoint: "Dots Above" 220 637 basechar 0
-AnchorPoint: "Tashkil Above" 299 655 basechar 0
+AnchorPoint: "bottom.mark" 176 -180 basechar 0
+AnchorPoint: "bottom" 189 -167 basechar 0
+AnchorPoint: "top" 220 637 basechar 0
+AnchorPoint: "top.mark" 299 655 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -2,10 +2,10 @@ StartChar: seen-ar.init.ragaa
 Encoding: 65875 -1 387
 Width: 678
 GlyphClass: 2
-AnchorPoint: "Tashkil Above" 387 484 basechar 0
-AnchorPoint: "Seen" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 306 -70 basechar 0
-AnchorPoint: "Dots Above" 387 537 basechar 0
+AnchorPoint: "top.mark" 387 484 basechar 0
+AnchorPoint: "seen" 0 0 exit 0
+AnchorPoint: "bottom.mark" 306 -70 basechar 0
+AnchorPoint: "top" 387 537 basechar 0
 LayerCount: 2
 Back
 SplineSet

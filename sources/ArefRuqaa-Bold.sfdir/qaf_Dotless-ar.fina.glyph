@@ -2,11 +2,11 @@ StartChar: qafDotless-ar.fina
 Encoding: 65870 -1 380
 Width: 490
 GlyphClass: 2
-AnchorPoint: "Tashkil Below" 176 -171 basechar 0
-AnchorPoint: "Dots Below" 203 -167 basechar 0
-AnchorPoint: "Dots Above" 220 637 basechar 0
-AnchorPoint: "Tashkil Above" 286 664 basechar 0
-AnchorPoint: "Waw" 378 316 entry 0
+AnchorPoint: "bottom.mark" 176 -171 basechar 0
+AnchorPoint: "bottom" 203 -167 basechar 0
+AnchorPoint: "top" 220 637 basechar 0
+AnchorPoint: "top.mark" 286 664 basechar 0
+AnchorPoint: "waw" 378 316 entry 0
 LayerCount: 2
 Back
 Refer: 379 1647 N 1 0 0 1 0 0 2

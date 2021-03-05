@@ -2,11 +2,11 @@ StartChar: ain-ar.medi.sad
 Encoding: 65705 -1 215
 Width: 524
 GlyphClass: 2
-AnchorPoint: "Sad" 0 0 exit 0
-AnchorPoint: "Ain" 492 48 entry 0
-AnchorPoint: "Tashkil Below" 527 -97 basechar 0
-AnchorPoint: "Tashkil Above" 554 549 basechar 0
-AnchorPoint: "Dots Above" 589 541 basechar 0
+AnchorPoint: "sad" 0 0 exit 0
+AnchorPoint: "ain" 492 48 entry 0
+AnchorPoint: "bottom.mark" 527 -97 basechar 0
+AnchorPoint: "top.mark" 554 549 basechar 0
+AnchorPoint: "top" 589 541 basechar 0
 LayerCount: 2
 Back
 SplineSet

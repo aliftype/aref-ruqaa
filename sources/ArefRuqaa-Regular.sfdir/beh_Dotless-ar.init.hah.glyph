@@ -2,11 +2,11 @@ StartChar: behDotless-ar.init.hah
 Encoding: 65616 -1 126
 Width: 423
 GlyphClass: 2
-AnchorPoint: "Hah" -44 -107 exit 0
-AnchorPoint: "Tashkil Below" 286 -66 basechar 0
-AnchorPoint: "Dots Above" 308 412 basechar 0
-AnchorPoint: "Tashkil Above" 308 472 basechar 0
-AnchorPoint: "Dots Below" 378 -29 basechar 0
+AnchorPoint: "hah" -44 -107 exit 0
+AnchorPoint: "bottom.mark" 286 -66 basechar 0
+AnchorPoint: "top" 308 412 basechar 0
+AnchorPoint: "top.mark" 308 472 basechar 0
+AnchorPoint: "bottom" 378 -29 basechar 0
 LayerCount: 2
 Back
 SplineSet

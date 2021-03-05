@@ -2,12 +2,12 @@ StartChar: seen-ar.medi.ragaa
 Encoding: 65886 -1 398
 Width: 382
 GlyphClass: 2
-AnchorPoint: "Seen" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 333 -97 basechar 0
-AnchorPoint: "Dots Above" 392 521 basechar 0
-AnchorPoint: "Tashkil Above" 414 537 basechar 0
-AnchorPoint: "Basic" 446 118 entry 0
-AnchorPoint: "Seen" 446 118 entry 0
+AnchorPoint: "seen" 0 0 exit 0
+AnchorPoint: "bottom.mark" 333 -97 basechar 0
+AnchorPoint: "top" 392 521 basechar 0
+AnchorPoint: "top.mark" 414 537 basechar 0
+AnchorPoint: "basic" 446 118 entry 0
+AnchorPoint: "seen" 446 118 entry 0
 LayerCount: 2
 Back
 SplineSet

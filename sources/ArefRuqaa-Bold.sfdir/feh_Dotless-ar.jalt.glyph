@@ -2,9 +2,9 @@ StartChar: fehDotless-ar.jalt
 Encoding: 65843 -1 353
 Width: 1035
 GlyphClass: 2
-AnchorPoint: "Tashkil Above" 466 778 basechar 0
-AnchorPoint: "Tashkil Below" 488 -176 basechar 0
-AnchorPoint: "Dots Above" 831 664 basechar 0
+AnchorPoint: "top.mark" 466 778 basechar 0
+AnchorPoint: "bottom.mark" 488 -176 basechar 0
+AnchorPoint: "top" 831 664 basechar 0
 LayerCount: 2
 Back
 SplineSet

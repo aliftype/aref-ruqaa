@@ -2,9 +2,9 @@ StartChar: hehgoal-ar.init.meem
 Encoding: 65771 -1 281
 Width: 444
 GlyphClass: 2
-AnchorPoint: "Meem" -7 -24 exit 0
-AnchorPoint: "Tashkil Above" 299 637 basechar 0
-AnchorPoint: "Tashkil Below" 347 -242 basechar 0
+AnchorPoint: "meem" -7 -24 exit 0
+AnchorPoint: "top.mark" 299 637 basechar 0
+AnchorPoint: "bottom.mark" 347 -242 basechar 0
 LayerCount: 2
 Back
 SplineSet

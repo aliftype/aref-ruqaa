@@ -2,8 +2,8 @@ StartChar: sheen-ar
 Encoding: 1588 1588 381
 Width: 1000
 GlyphClass: 2
-AnchorPoint: "Tashkil Above" 655 725 basechar 0
-AnchorPoint: "Tashkil Below" 602 26 basechar 0
+AnchorPoint: "top.mark" 655 725 basechar 0
+AnchorPoint: "bottom.mark" 602 26 basechar 0
 LayerCount: 2
 Back
 SplineSet

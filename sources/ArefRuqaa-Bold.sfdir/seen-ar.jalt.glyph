@@ -2,9 +2,9 @@ StartChar: seen-ar.jalt
 Encoding: 65841 -1 351
 Width: 1531
 GlyphClass: 2
-AnchorPoint: "Tashkil Below" 519 -163 basechar 0
-AnchorPoint: "Tashkil Above" 1213 782 basechar 0
-AnchorPoint: "Dots Above" 1239 703 basechar 0
+AnchorPoint: "bottom.mark" 519 -163 basechar 0
+AnchorPoint: "top.mark" 1213 782 basechar 0
+AnchorPoint: "top" 1239 703 basechar 0
 LayerCount: 2
 Back
 SplineSet

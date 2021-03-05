@@ -2,10 +2,10 @@ StartChar: fehDotless-ar.init.sad
 Encoding: 65694 -1 204
 Width: 720
 GlyphClass: 2
-AnchorPoint: "Sad" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 475 -105 basechar 0
-AnchorPoint: "Dots Above" 527 690 basechar 0
-AnchorPoint: "Tashkil Above" 580 664 basechar 0
+AnchorPoint: "sad" 0 0 exit 0
+AnchorPoint: "bottom.mark" 475 -105 basechar 0
+AnchorPoint: "top" 527 690 basechar 0
+AnchorPoint: "top.mark" 580 664 basechar 0
 LayerCount: 2
 Back
 SplineSet

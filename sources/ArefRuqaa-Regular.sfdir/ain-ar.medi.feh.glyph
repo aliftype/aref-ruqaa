@@ -2,11 +2,11 @@ StartChar: ain-ar.medi.feh
 Encoding: 65753 -1 263
 Width: 467
 GlyphClass: 2
-AnchorPoint: "Feh" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 422 -110 basechar 0
-AnchorPoint: "Ain" 444 57 entry 0
-AnchorPoint: "Dots Above" 505 580 basechar 0
-AnchorPoint: "Tashkil Above" 510 562 basechar 0
+AnchorPoint: "feh" 0 0 exit 0
+AnchorPoint: "bottom.mark" 422 -110 basechar 0
+AnchorPoint: "ain" 444 57 entry 0
+AnchorPoint: "top" 505 580 basechar 0
+AnchorPoint: "top.mark" 510 562 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -2,9 +2,9 @@ StartChar: meem-ar.init.dal
 Encoding: 65649 -1 159
 Width: 469
 GlyphClass: 2
-AnchorPoint: "Dal" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 286 -114 basechar 0
-AnchorPoint: "Tashkil Above" 299 505 basechar 0
+AnchorPoint: "dal" 0 0 exit 0
+AnchorPoint: "bottom.mark" 286 -114 basechar 0
+AnchorPoint: "top.mark" 299 505 basechar 0
 LayerCount: 2
 Back
 SplineSet

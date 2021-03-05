@@ -2,10 +2,10 @@ StartChar: sad-ar.init.qantara
 Encoding: 65897 -1 409
 Width: 984
 GlyphClass: 2
-AnchorPoint: "Sad" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 523 -149 basechar 0
-AnchorPoint: "Dots Above" 677 558 basechar 0
-AnchorPoint: "Tashkil Above" 690 549 basechar 0
+AnchorPoint: "sad" 0 0 exit 0
+AnchorPoint: "bottom.mark" 523 -149 basechar 0
+AnchorPoint: "top" 677 558 basechar 0
+AnchorPoint: "top.mark" 690 549 basechar 0
 LayerCount: 2
 Back
 SplineSet

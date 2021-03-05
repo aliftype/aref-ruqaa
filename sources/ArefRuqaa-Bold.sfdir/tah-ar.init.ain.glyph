@@ -2,10 +2,10 @@ StartChar: tah-ar.init.ain
 Encoding: 65716 -1 226
 Width: 705
 GlyphClass: 2
-AnchorPoint: "Ain" 0 0 exit 0
-AnchorPoint: "Tashkil Above" 369 769 basechar 0
-AnchorPoint: "Tashkil Below" 404 -132 basechar 0
-AnchorPoint: "Dots Above" 532 523 basechar 0
+AnchorPoint: "ain" 0 0 exit 0
+AnchorPoint: "top.mark" 369 769 basechar 0
+AnchorPoint: "bottom.mark" 404 -132 basechar 0
+AnchorPoint: "top" 532 523 basechar 0
 LayerCount: 2
 Back
 SplineSet

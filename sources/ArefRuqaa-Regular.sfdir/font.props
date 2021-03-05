@@ -90,5 +90,5 @@ UnicodeInterp: none
 NameList: AGL For New Fonts
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "Sharta Above" "'mark' Above" "Mark Mark Above" "'mkmk' Above" "Mark Mark Below" "'mkmk' Below" "Middle" "'mark' Middle" "Basic" "'curs' Basic" "Sad" "'curs' Sad" "Lam" "'curs' Lam" "Feh" "'curs' Feh" "Beh" "'curs' Beh" "Waw" "'curs' Waw" "Meem" "'curs' Meem" "Dal" "'curs' Dal" "Hah" "'curs' Hah" "Ain" "'curs' Ain" "Reh" "'curs' Reh" "Heh" "'curs' Heh" "Yeh" "'curs' Yeh" "Seen" "'curs' Seen" "Tashkil Above" "'mark' Above" "Dots Above" "'mark' Above" "Tashkil Below" "'mark' Below" "Dots Below" "'mark' Below"
+AnchorClass2: "top.gaf" "'mark' Above" "top.mkmk" "'mkmk' Above" "bottom.mkmk" "'mkmk' Below" "Middle" "'mark' Middle" "basic" "'curs' Basic" "sad" "'curs' Sad" "lam" "'curs' Lam" "feh" "'curs' Feh" "beh" "'curs' Beh" "waw" "'curs' Waw" "meem" "'curs' Meem" "dal" "'curs' Dal" "hah" "'curs' Hah" "ain" "'curs' Ain" "reh" "'curs' Reh" "heh" "'curs' Heh" "yeh" "'curs' Yeh" "seen" "'curs' Seen" "top.mark" "'mark' Above" "top" "'mark' Above" "bottom.mark" "'mark' Below" "bottom" "'mark' Below"
 EndSplineFont

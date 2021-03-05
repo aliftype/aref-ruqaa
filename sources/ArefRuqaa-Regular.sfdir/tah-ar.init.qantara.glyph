@@ -2,10 +2,10 @@ StartChar: tah-ar.init.qantara
 Encoding: 65898 -1 410
 Width: 857
 GlyphClass: 2
-AnchorPoint: "Sad" 9 31 exit 0
-AnchorPoint: "Tashkil Below" 549 -92 basechar 0
-AnchorPoint: "Tashkil Above" 558 813 basechar 0
-AnchorPoint: "Dots Above" 721 545 basechar 0
+AnchorPoint: "sad" 9 31 exit 0
+AnchorPoint: "bottom.mark" 549 -92 basechar 0
+AnchorPoint: "top.mark" 558 813 basechar 0
+AnchorPoint: "top" 721 545 basechar 0
 LayerCount: 2
 Back
 SplineSet

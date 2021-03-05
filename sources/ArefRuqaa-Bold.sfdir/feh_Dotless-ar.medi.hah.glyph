@@ -2,11 +2,11 @@ StartChar: fehDotless-ar.medi.hah
 Encoding: 65634 -1 144
 Width: 319
 GlyphClass: 2
-AnchorPoint: "Hah" 0 0 exit 0
-AnchorPoint: "Feh" 224 119 entry 0
-AnchorPoint: "Tashkil Below" 347 0 basechar 0
-AnchorPoint: "Tashkil Above" 422 690 basechar 0
-AnchorPoint: "Dots Above" 431 734 basechar 0
+AnchorPoint: "hah" 0 0 exit 0
+AnchorPoint: "feh" 224 119 entry 0
+AnchorPoint: "bottom.mark" 347 0 basechar 0
+AnchorPoint: "top.mark" 422 690 basechar 0
+AnchorPoint: "top" 431 734 basechar 0
 LayerCount: 2
 Back
 SplineSet

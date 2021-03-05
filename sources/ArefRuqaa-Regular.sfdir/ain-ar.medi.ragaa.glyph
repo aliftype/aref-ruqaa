@@ -2,11 +2,11 @@ StartChar: ain-ar.medi.ragaa
 Encoding: 65889 -1 401
 Width: 294
 GlyphClass: 2
-AnchorPoint: "Seen" 0 0 exit 0
-AnchorPoint: "Ain" 269 102 entry 0
-AnchorPoint: "Tashkil Below" 295 -91 basechar 0
-AnchorPoint: "Dots Above" 312 580 basechar 0
-AnchorPoint: "Tashkil Above" 344 612 basechar 0
+AnchorPoint: "seen" 0 0 exit 0
+AnchorPoint: "ain" 269 102 entry 0
+AnchorPoint: "bottom.mark" 295 -91 basechar 0
+AnchorPoint: "top" 312 580 basechar 0
+AnchorPoint: "top.mark" 344 612 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -2,10 +2,10 @@ StartChar: behDotless-ar
 Encoding: 1646 1646 57
 Width: 801
 GlyphClass: 2
-AnchorPoint: "Dots Below" 308 -136 basechar 0
-AnchorPoint: "Tashkil Below" 330 -185 basechar 0
-AnchorPoint: "Tashkil Above" 347 532 basechar 0
-AnchorPoint: "Dots Above" 397 505 basechar 0
+AnchorPoint: "bottom" 308 -136 basechar 0
+AnchorPoint: "bottom.mark" 330 -185 basechar 0
+AnchorPoint: "top.mark" 347 532 basechar 0
+AnchorPoint: "top" 397 505 basechar 0
 LayerCount: 2
 Back
 SplineSet

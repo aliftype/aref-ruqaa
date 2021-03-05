@@ -2,11 +2,11 @@ StartChar: kaf-ar.init.dal
 Encoding: 65647 -1 157
 Width: 519
 GlyphClass: 2
-AnchorPoint: "Sharta Above" 523 923 basechar 0
-AnchorPoint: "Dal" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 286 -145 basechar 0
-AnchorPoint: "Tashkil Above" 413 927 basechar 0
-AnchorPoint: "Dots Above" 523 923 basechar 0
+AnchorPoint: "top.gaf" 523 923 basechar 0
+AnchorPoint: "dal" 0 0 exit 0
+AnchorPoint: "bottom.mark" 286 -145 basechar 0
+AnchorPoint: "top.mark" 413 927 basechar 0
+AnchorPoint: "top" 523 923 basechar 0
 LayerCount: 2
 Back
 SplineSet

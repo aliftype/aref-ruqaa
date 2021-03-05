@@ -2,10 +2,10 @@ StartChar: seen-ar.init.dal
 Encoding: 65642 -1 152
 Width: 696
 GlyphClass: 2
-AnchorPoint: "Dal" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 321 -136 basechar 0
-AnchorPoint: "Dots Above" 347 448 basechar 0
-AnchorPoint: "Tashkil Above" 391 435 basechar 0
+AnchorPoint: "dal" 0 0 exit 0
+AnchorPoint: "bottom.mark" 321 -136 basechar 0
+AnchorPoint: "top" 347 448 basechar 0
+AnchorPoint: "top.mark" 391 435 basechar 0
 LayerCount: 2
 Back
 SplineSet

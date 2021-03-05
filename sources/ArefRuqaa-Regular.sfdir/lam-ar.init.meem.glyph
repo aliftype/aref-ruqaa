@@ -2,9 +2,9 @@ StartChar: lam-ar.init.meem
 Encoding: 65768 -1 278
 Width: 134
 GlyphClass: 2
-AnchorPoint: "Meem" -10 -49 exit 0
-AnchorPoint: "Tashkil Above" 44 593 basechar 0
-AnchorPoint: "Tashkil Below" 127 -343 basechar 0
+AnchorPoint: "meem" -10 -49 exit 0
+AnchorPoint: "top.mark" 44 593 basechar 0
+AnchorPoint: "bottom.mark" 127 -343 basechar 0
 LayerCount: 2
 Back
 SplineSet

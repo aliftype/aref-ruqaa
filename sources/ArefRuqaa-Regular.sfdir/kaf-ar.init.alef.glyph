@@ -2,13 +2,13 @@ StartChar: kaf-ar.init.alef
 Encoding: 65832 -1 342
 Width: 566
 GlyphClass: 2
-AnchorPoint: "Sharta Above" 396 738 basechar 0
-AnchorPoint: "Basic" 0 0 exit 0
-AnchorPoint: "Beh" 167 0 entry 0
-AnchorPoint: "Basic" 167 0 entry 0
-AnchorPoint: "Tashkil Below" 268 -127 basechar 0
-AnchorPoint: "Tashkil Above" 365 809 basechar 0
-AnchorPoint: "Dots Above" 366 758 basechar 0
+AnchorPoint: "top.gaf" 396 738 basechar 0
+AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "beh" 167 0 entry 0
+AnchorPoint: "basic" 167 0 entry 0
+AnchorPoint: "bottom.mark" 268 -127 basechar 0
+AnchorPoint: "top.mark" 365 809 basechar 0
+AnchorPoint: "top" 366 758 basechar 0
 LayerCount: 2
 Back
 SplineSet

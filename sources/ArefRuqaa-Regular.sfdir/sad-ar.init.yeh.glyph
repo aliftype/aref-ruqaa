@@ -2,10 +2,10 @@ StartChar: sad-ar.init.yeh
 Encoding: 65811 -1 321
 Width: 747
 GlyphClass: 2
-AnchorPoint: "Yeh" 12 0 exit 0
-AnchorPoint: "Tashkil Below" 422 -88 basechar 0
-AnchorPoint: "Dots Above" 532 549 basechar 0
-AnchorPoint: "Tashkil Above" 536 549 basechar 0
+AnchorPoint: "yeh" 12 0 exit 0
+AnchorPoint: "bottom.mark" 422 -88 basechar 0
+AnchorPoint: "top" 532 549 basechar 0
+AnchorPoint: "top.mark" 536 549 basechar 0
 LayerCount: 2
 Back
 SplineSet

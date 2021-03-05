@@ -2,7 +2,7 @@ StartChar: vabove-ar
 Encoding: 1626 1626 419
 Width: 0
 GlyphClass: 4
-AnchorPoint: "Tashkil Above" 0 0 mark 0
+AnchorPoint: "top.mark" 0 0 mark 0
 LayerCount: 2
 Back
 SplineSet

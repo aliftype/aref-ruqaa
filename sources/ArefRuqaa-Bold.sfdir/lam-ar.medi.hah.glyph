@@ -2,11 +2,11 @@ StartChar: lam-ar.medi.hah
 Encoding: 65636 -1 146
 Width: 355
 GlyphClass: 2
-AnchorPoint: "Basic" 347 0 entry 0
-AnchorPoint: "Tashkil Above" 365 866 basechar 0
-AnchorPoint: "Tashkil Below" 378 -141 basechar 0
-AnchorPoint: "Hah" -10 122 exit 0
-AnchorPoint: "Beh" 355 0 entry 0
+AnchorPoint: "basic" 347 0 entry 0
+AnchorPoint: "top.mark" 365 866 basechar 0
+AnchorPoint: "bottom.mark" 378 -141 basechar 0
+AnchorPoint: "hah" -10 122 exit 0
+AnchorPoint: "beh" 355 0 entry 0
 LayerCount: 2
 Back
 SplineSet

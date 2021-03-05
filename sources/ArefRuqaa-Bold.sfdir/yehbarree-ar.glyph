@@ -2,10 +2,10 @@ StartChar: yehbarree-ar
 Encoding: 1746 1746 124
 Width: 699
 GlyphClass: 2
-AnchorPoint: "Dots Above" 281 659 basechar 0
-AnchorPoint: "Tashkil Above" 360 712 basechar 0
-AnchorPoint: "Dots Below" 483 -119 basechar 0
-AnchorPoint: "Tashkil Below" 549 -185 basechar 0
+AnchorPoint: "top" 281 659 basechar 0
+AnchorPoint: "top.mark" 360 712 basechar 0
+AnchorPoint: "bottom" 483 -119 basechar 0
+AnchorPoint: "bottom.mark" 549 -185 basechar 0
 LayerCount: 2
 Back
 SplineSet

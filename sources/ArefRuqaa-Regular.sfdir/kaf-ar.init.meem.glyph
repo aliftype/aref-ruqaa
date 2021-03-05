@@ -2,11 +2,11 @@ StartChar: kaf-ar.init.meem
 Encoding: 65767 -1 277
 Width: 91
 GlyphClass: 2
-AnchorPoint: "Sharta Above" 229 760 basechar 0
-AnchorPoint: "Meem" -10 -49 exit 0
-AnchorPoint: "Tashkil Below" 127 -352 basechar 0
-AnchorPoint: "Dots Above" 229 760 basechar 0
-AnchorPoint: "Tashkil Above" 229 782 basechar 0
+AnchorPoint: "top.gaf" 229 760 basechar 0
+AnchorPoint: "meem" -10 -49 exit 0
+AnchorPoint: "bottom.mark" 127 -352 basechar 0
+AnchorPoint: "top" 229 760 basechar 0
+AnchorPoint: "top.mark" 229 782 basechar 0
 LayerCount: 2
 Back
 SplineSet

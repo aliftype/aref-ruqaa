@@ -2,12 +2,12 @@ StartChar: heh-ar.fina
 Encoding: 65596 -1 106
 Width: 196
 GlyphClass: 2
-AnchorPoint: "Tashkil Above" 180 624 basechar 0
-AnchorPoint: "Tashkil Below" 185 -185 basechar 0
-AnchorPoint: "Dots Below" 189 -105 basechar 0
-AnchorPoint: "Dots Above" 189 628 basechar 0
-AnchorPoint: "Beh" 193 0 entry 0
-AnchorPoint: "Basic" 193 0 entry 0
+AnchorPoint: "top.mark" 180 624 basechar 0
+AnchorPoint: "bottom.mark" 185 -185 basechar 0
+AnchorPoint: "bottom" 189 -105 basechar 0
+AnchorPoint: "top" 189 628 basechar 0
+AnchorPoint: "beh" 193 0 entry 0
+AnchorPoint: "basic" 193 0 entry 0
 LayerCount: 2
 Back
 SplineSet

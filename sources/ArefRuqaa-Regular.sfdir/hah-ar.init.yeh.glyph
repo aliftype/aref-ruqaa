@@ -2,11 +2,11 @@ StartChar: hah-ar.init.yeh
 Encoding: 65809 -1 319
 Width: 514
 GlyphClass: 2
-AnchorPoint: "Yeh" 10 49 exit 0
-AnchorPoint: "Dots Above" 308 743 basechar 0
-AnchorPoint: "Tashkil Above" 334 738 basechar 0
-AnchorPoint: "Dots Below" 343 22 basechar 0
-AnchorPoint: "Tashkil Below" 435 92 basechar 0
+AnchorPoint: "yeh" 10 49 exit 0
+AnchorPoint: "top" 308 743 basechar 0
+AnchorPoint: "top.mark" 334 738 basechar 0
+AnchorPoint: "bottom" 343 22 basechar 0
+AnchorPoint: "bottom.mark" 435 92 basechar 0
 LayerCount: 2
 Back
 SplineSet

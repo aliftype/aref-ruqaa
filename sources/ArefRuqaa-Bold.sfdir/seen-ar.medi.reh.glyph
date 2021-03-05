@@ -2,13 +2,13 @@ StartChar: seen-ar.medi.reh
 Encoding: 65678 -1 188
 Width: 330
 GlyphClass: 2
-AnchorPoint: "Reh" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 325 -141 basechar 0
-AnchorPoint: "Tashkil Above" 338 444 basechar 0
-AnchorPoint: "Dots Above" 378 457 basechar 0
-AnchorPoint: "Seen" 396 48 entry 0
-AnchorPoint: "Beh" 396 48 entry 0
-AnchorPoint: "Basic" 396 48 entry 0
+AnchorPoint: "reh" 0 0 exit 0
+AnchorPoint: "bottom.mark" 325 -141 basechar 0
+AnchorPoint: "top.mark" 338 444 basechar 0
+AnchorPoint: "top" 378 457 basechar 0
+AnchorPoint: "seen" 396 48 entry 0
+AnchorPoint: "beh" 396 48 entry 0
+AnchorPoint: "basic" 396 48 entry 0
 LayerCount: 2
 Back
 SplineSet

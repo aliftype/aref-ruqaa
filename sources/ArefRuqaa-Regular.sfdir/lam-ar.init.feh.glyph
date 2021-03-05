@@ -2,9 +2,9 @@ StartChar: lam-ar.init.feh
 Encoding: 65744 -1 254
 Width: 562
 GlyphClass: 2
-AnchorPoint: "Feh" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 400 -119 basechar 0
-AnchorPoint: "Tashkil Above" 413 914 basechar 0
+AnchorPoint: "feh" 0 0 exit 0
+AnchorPoint: "bottom.mark" 400 -119 basechar 0
+AnchorPoint: "top.mark" 413 914 basechar 0
 LayerCount: 2
 Back
 SplineSet

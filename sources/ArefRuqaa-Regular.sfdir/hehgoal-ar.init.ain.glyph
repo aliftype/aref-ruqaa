@@ -2,9 +2,9 @@ StartChar: hehgoal-ar.init.ain
 Encoding: 65723 -1 233
 Width: 495
 GlyphClass: 2
-AnchorPoint: "Ain" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 347 -378 basechar 0
-AnchorPoint: "Tashkil Above" 365 479 basechar 0
+AnchorPoint: "ain" 0 0 exit 0
+AnchorPoint: "bottom.mark" 347 -378 basechar 0
+AnchorPoint: "top.mark" 365 479 basechar 0
 LayerCount: 2
 Back
 SplineSet

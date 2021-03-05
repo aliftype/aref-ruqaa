@@ -2,13 +2,13 @@ StartChar: kaf-ar.medi.meem
 Encoding: 65779 -1 289
 Width: 320
 GlyphClass: 2
-AnchorPoint: "Sharta Above" 497 896 basechar 0
-AnchorPoint: "Meem" 0 171 exit 0
-AnchorPoint: "Beh" 330 0 entry 0
-AnchorPoint: "Basic" 330 0 entry 0
-AnchorPoint: "Tashkil Below" 343 -158 basechar 0
-AnchorPoint: "Tashkil Above" 391 896 basechar 0
-AnchorPoint: "Dots Above" 497 896 basechar 0
+AnchorPoint: "top.gaf" 497 896 basechar 0
+AnchorPoint: "meem" 0 171 exit 0
+AnchorPoint: "beh" 330 0 entry 0
+AnchorPoint: "basic" 330 0 entry 0
+AnchorPoint: "bottom.mark" 343 -158 basechar 0
+AnchorPoint: "top.mark" 391 896 basechar 0
+AnchorPoint: "top" 497 896 basechar 0
 LayerCount: 2
 Back
 SplineSet

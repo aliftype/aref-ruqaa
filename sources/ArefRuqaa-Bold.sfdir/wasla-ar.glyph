@@ -2,7 +2,7 @@ StartChar: wasla-ar
 Encoding: 65859 -1 369
 Width: 0
 GlyphClass: 4
-AnchorPoint: "Dots Above" 0 0 mark 0
+AnchorPoint: "top" 0 0 mark 0
 LayerCount: 2
 Back
 SplineSet

@@ -2,9 +2,9 @@ StartChar: lam-ar.init.dal
 Encoding: 65648 -1 158
 Width: 351
 GlyphClass: 2
-AnchorPoint: "Dal" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 202 -141 basechar 0
-AnchorPoint: "Tashkil Above" 224 800 basechar 0
+AnchorPoint: "dal" 0 0 exit 0
+AnchorPoint: "bottom.mark" 202 -141 basechar 0
+AnchorPoint: "top.mark" 224 800 basechar 0
 LayerCount: 2
 Back
 SplineSet

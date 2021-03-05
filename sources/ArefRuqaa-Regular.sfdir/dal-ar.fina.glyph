@@ -2,11 +2,11 @@ StartChar: dal-ar.fina
 Encoding: 65556 -1 66
 Width: 390
 GlyphClass: 2
-AnchorPoint: "Tashkil Below" 207 -176 basechar 0
-AnchorPoint: "Dots Below" 211 -207 basechar 0
-AnchorPoint: "Tashkil Above" 308 457 basechar 0
-AnchorPoint: "Dal" 338 48 entry 0
-AnchorPoint: "Dots Above" 347 417 basechar 0
+AnchorPoint: "bottom.mark" 207 -176 basechar 0
+AnchorPoint: "bottom" 211 -207 basechar 0
+AnchorPoint: "top.mark" 308 457 basechar 0
+AnchorPoint: "dal" 338 48 entry 0
+AnchorPoint: "top" 347 417 basechar 0
 LayerCount: 2
 Back
 SplineSet

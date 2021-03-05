@@ -2,10 +2,10 @@ StartChar: shadda-ar
 Encoding: 1617 1617 21
 Width: 0
 GlyphClass: 4
-AnchorPoint: "Mark Mark Below" -5 -195 basemark 0
-AnchorPoint: "Mark Mark Above" -10 171 basemark 0
-AnchorPoint: "Mark Mark Above" 0 0 mark 0
-AnchorPoint: "Tashkil Above" 0 0 mark 0
+AnchorPoint: "bottom.mkmk" -5 -195 basemark 0
+AnchorPoint: "top.mkmk" -10 171 basemark 0
+AnchorPoint: "top.mkmk" 0 0 mark 0
+AnchorPoint: "top.mark" 0 0 mark 0
 LayerCount: 2
 Back
 SplineSet

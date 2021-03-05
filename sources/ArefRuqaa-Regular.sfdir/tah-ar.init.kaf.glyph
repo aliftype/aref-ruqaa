@@ -2,11 +2,11 @@ StartChar: tah-ar.init.kaf
 Encoding: 65860 -1 370
 Width: 618
 GlyphClass: 2
-AnchorPoint: "Basic" 0 0 exit 0
-AnchorPoint: "Dots Below" 220 -88 basechar 0
-AnchorPoint: "Tashkil Below" 299 -145 basechar 0
-AnchorPoint: "Tashkil Above" 312 694 basechar 0
-AnchorPoint: "Dots Above" 453 470 basechar 0
+AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "bottom" 220 -88 basechar 0
+AnchorPoint: "bottom.mark" 299 -145 basechar 0
+AnchorPoint: "top.mark" 312 694 basechar 0
+AnchorPoint: "top" 453 470 basechar 0
 LayerCount: 2
 Back
 SplineSet

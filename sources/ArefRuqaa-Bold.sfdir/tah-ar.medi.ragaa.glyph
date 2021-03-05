@@ -2,11 +2,11 @@ StartChar: tah-ar.medi.ragaa
 Encoding: 65888 -1 400
 Width: 219
 GlyphClass: 2
-AnchorPoint: "Seen" 0 0 exit 0
-AnchorPoint: "Tashkil Above" 258 833 basechar 0
-AnchorPoint: "Tashkil Below" 306 -102 basechar 0
-AnchorPoint: "Dots Above" 414 585 basechar 0
-AnchorPoint: "Basic" 430 172 entry 0
+AnchorPoint: "seen" 0 0 exit 0
+AnchorPoint: "top.mark" 258 833 basechar 0
+AnchorPoint: "bottom.mark" 306 -102 basechar 0
+AnchorPoint: "top" 414 585 basechar 0
+AnchorPoint: "basic" 430 172 entry 0
 LayerCount: 2
 Back
 SplineSet

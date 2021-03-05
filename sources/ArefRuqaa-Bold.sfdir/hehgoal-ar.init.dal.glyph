@@ -2,9 +2,9 @@ StartChar: hehgoal-ar.init.dal
 Encoding: 65651 -1 161
 Width: 468
 GlyphClass: 2
-AnchorPoint: "Dal" 0 0 exit 0
-AnchorPoint: "Tashkil Above" 312 549 basechar 0
-AnchorPoint: "Tashkil Below" 343 -347 basechar 0
+AnchorPoint: "dal" 0 0 exit 0
+AnchorPoint: "top.mark" 312 549 basechar 0
+AnchorPoint: "bottom.mark" 343 -347 basechar 0
 LayerCount: 2
 Back
 SplineSet

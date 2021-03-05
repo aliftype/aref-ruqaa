@@ -2,11 +2,11 @@ StartChar: fehDotless-ar.medi.ragaa
 Encoding: 65890 -1 402
 Width: 270
 GlyphClass: 2
-AnchorPoint: "Seen" 0 0 exit 0
-AnchorPoint: "Feh" 215 81 entry 0
-AnchorPoint: "Tashkil Below" 285 -107 basechar 0
-AnchorPoint: "Tashkil Above" 365 655 basechar 0
-AnchorPoint: "Dots Above" 376 661 basechar 0
+AnchorPoint: "seen" 0 0 exit 0
+AnchorPoint: "feh" 215 81 entry 0
+AnchorPoint: "bottom.mark" 285 -107 basechar 0
+AnchorPoint: "top.mark" 365 655 basechar 0
+AnchorPoint: "top" 376 661 basechar 0
 LayerCount: 2
 Back
 SplineSet

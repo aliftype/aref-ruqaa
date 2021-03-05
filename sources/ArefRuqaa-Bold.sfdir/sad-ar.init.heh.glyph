@@ -2,10 +2,10 @@ StartChar: sad-ar.init.heh
 Encoding: 65787 -1 297
 Width: 975
 GlyphClass: 2
-AnchorPoint: "Heh" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 615 -18 basechar 0
-AnchorPoint: "Tashkil Above" 620 655 basechar 0
-AnchorPoint: "Dots Above" 747 681 basechar 0
+AnchorPoint: "heh" 0 0 exit 0
+AnchorPoint: "bottom.mark" 615 -18 basechar 0
+AnchorPoint: "top.mark" 620 655 basechar 0
+AnchorPoint: "top" 747 681 basechar 0
 LayerCount: 2
 Back
 SplineSet

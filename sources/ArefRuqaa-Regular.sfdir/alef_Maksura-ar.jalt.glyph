@@ -2,10 +2,10 @@ StartChar: alefMaksura-ar.jalt
 Encoding: 65847 -1 357
 Width: 1083
 GlyphClass: 2
-AnchorPoint: "Dots Above" 176 665 basechar 0
-AnchorPoint: "Tashkil Below" 488 -171 basechar 0
-AnchorPoint: "Dots Below" 536 -136 basechar 0
-AnchorPoint: "Tashkil Above" 536 822 basechar 0
+AnchorPoint: "top" 176 665 basechar 0
+AnchorPoint: "bottom.mark" 488 -171 basechar 0
+AnchorPoint: "bottom" 536 -136 basechar 0
+AnchorPoint: "top.mark" 536 822 basechar 0
 LayerCount: 2
 Back
 SplineSet

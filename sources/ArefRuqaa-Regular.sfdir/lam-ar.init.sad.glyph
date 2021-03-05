@@ -2,10 +2,10 @@ StartChar: lam-ar.init.sad
 Encoding: 65696 -1 206
 Width: 612
 GlyphClass: 2
-AnchorPoint: "Sad" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 448 -110 basechar 0
-AnchorPoint: "Dots Above" 505 725 basechar 0
-AnchorPoint: "Tashkil Above" 541 861 basechar 0
+AnchorPoint: "sad" 0 0 exit 0
+AnchorPoint: "bottom.mark" 448 -110 basechar 0
+AnchorPoint: "top" 505 725 basechar 0
+AnchorPoint: "top.mark" 541 861 basechar 0
 LayerCount: 2
 Back
 SplineSet

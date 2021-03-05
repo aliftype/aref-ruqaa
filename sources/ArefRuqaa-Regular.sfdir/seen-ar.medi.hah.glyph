@@ -2,13 +2,13 @@ StartChar: seen-ar.medi.hah
 Encoding: 65630 -1 140
 Width: 447
 GlyphClass: 2
-AnchorPoint: "Hah" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 413 26 basechar 0
-AnchorPoint: "Dots Above" 444 514 basechar 0
-AnchorPoint: "Tashkil Above" 448 624 basechar 0
-AnchorPoint: "Seen" 505 198 entry 0
-AnchorPoint: "Beh" 505 198 entry 0
-AnchorPoint: "Basic" 505 198 entry 0
+AnchorPoint: "hah" 0 0 exit 0
+AnchorPoint: "bottom.mark" 413 26 basechar 0
+AnchorPoint: "top" 444 514 basechar 0
+AnchorPoint: "top.mark" 448 624 basechar 0
+AnchorPoint: "seen" 505 198 entry 0
+AnchorPoint: "beh" 505 198 entry 0
+AnchorPoint: "basic" 505 198 entry 0
 LayerCount: 2
 Back
 SplineSet

@@ -2,13 +2,13 @@ StartChar: kaf-ar.medi.ragaa
 Encoding: 65891 -1 403
 Width: 250
 GlyphClass: 2
-AnchorPoint: "Sharta Above" 327 958 basechar 0
-AnchorPoint: "Seen" 0 0 exit 0
-AnchorPoint: "Basic" 247 113 entry 0
-AnchorPoint: "Beh" 247 113 entry 0
-AnchorPoint: "Tashkil Below" 263 -129 basechar 0
-AnchorPoint: "Tashkil Above" 317 978 basechar 0
-AnchorPoint: "Dots Above" 327 958 basechar 0
+AnchorPoint: "top.gaf" 327 958 basechar 0
+AnchorPoint: "seen" 0 0 exit 0
+AnchorPoint: "basic" 247 113 entry 0
+AnchorPoint: "beh" 247 113 entry 0
+AnchorPoint: "bottom.mark" 263 -129 basechar 0
+AnchorPoint: "top.mark" 317 978 basechar 0
+AnchorPoint: "top" 327 958 basechar 0
 LayerCount: 2
 Back
 SplineSet

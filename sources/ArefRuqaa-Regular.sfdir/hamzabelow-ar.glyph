@@ -2,8 +2,8 @@ StartChar: hamzabelow-ar
 Encoding: 1621 1621 26
 Width: 0
 GlyphClass: 4
-AnchorPoint: "Mark Mark Below" 0 -192 basemark 0
-AnchorPoint: "Dots Below" 0 0 mark 0
+AnchorPoint: "bottom.mkmk" 0 -192 basemark 0
+AnchorPoint: "bottom" 0 0 mark 0
 LayerCount: 2
 Back
 Refer: 25 1620 N 1 0 0 1 0 0 2

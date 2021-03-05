@@ -2,13 +2,13 @@ StartChar: seen-ar.medi.dal
 Encoding: 65654 -1 164
 Width: 333
 GlyphClass: 2
-AnchorPoint: "Dal" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 338 -154 basechar 0
-AnchorPoint: "Tashkil Above" 338 435 basechar 0
-AnchorPoint: "Dots Above" 356 457 basechar 0
-AnchorPoint: "Seen" 396 40 entry 0
-AnchorPoint: "Beh" 396 40 entry 0
-AnchorPoint: "Basic" 396 40 entry 0
+AnchorPoint: "dal" 0 0 exit 0
+AnchorPoint: "bottom.mark" 338 -154 basechar 0
+AnchorPoint: "top.mark" 338 435 basechar 0
+AnchorPoint: "top" 356 457 basechar 0
+AnchorPoint: "seen" 396 40 entry 0
+AnchorPoint: "beh" 396 40 entry 0
+AnchorPoint: "basic" 396 40 entry 0
 LayerCount: 2
 Back
 SplineSet

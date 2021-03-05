@@ -2,9 +2,9 @@ StartChar: lam-ar.jalt
 Encoding: 65845 -1 355
 Width: 1030
 GlyphClass: 2
-AnchorPoint: "Tashkil Below" 519 -158 basechar 0
-AnchorPoint: "Tashkil Above" 554 804 basechar 0
-AnchorPoint: "Dots Above" 593 352 basechar 0
+AnchorPoint: "bottom.mark" 519 -158 basechar 0
+AnchorPoint: "top.mark" 554 804 basechar 0
+AnchorPoint: "top" 593 352 basechar 0
 LayerCount: 2
 Back
 SplineSet

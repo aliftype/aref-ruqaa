@@ -2,11 +2,11 @@ StartChar: behDotless-ar.init.sad
 Encoding: 65688 -1 198
 Width: 643
 GlyphClass: 2
-AnchorPoint: "Sad" 0 0 exit 0
-AnchorPoint: "Dots Below" 426 -105 basechar 0
-AnchorPoint: "Tashkil Below" 483 -92 basechar 0
-AnchorPoint: "Tashkil Above" 497 637 basechar 0
-AnchorPoint: "Dots Above" 567 602 basechar 0
+AnchorPoint: "sad" 0 0 exit 0
+AnchorPoint: "bottom" 426 -105 basechar 0
+AnchorPoint: "bottom.mark" 483 -92 basechar 0
+AnchorPoint: "top.mark" 497 637 basechar 0
+AnchorPoint: "top" 567 602 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -2,13 +2,13 @@ StartChar: behDotless-ar.medi.yeh
 Encoding: 65820 -1 330
 Width: 258
 GlyphClass: 2
-AnchorPoint: "Yeh" 10 0 exit 0
-AnchorPoint: "Dots Above" 242 470 basechar 0
-AnchorPoint: "Tashkil Above" 242 483 basechar 0
-AnchorPoint: "Beh" 286 92 entry 0
-AnchorPoint: "Basic" 286 92 entry 0
-AnchorPoint: "Tashkil Below" 294 -123 basechar 0
-AnchorPoint: "Dots Below" 321 -110 basechar 0
+AnchorPoint: "yeh" 10 0 exit 0
+AnchorPoint: "top" 242 470 basechar 0
+AnchorPoint: "top.mark" 242 483 basechar 0
+AnchorPoint: "beh" 286 92 entry 0
+AnchorPoint: "basic" 286 92 entry 0
+AnchorPoint: "bottom.mark" 294 -123 basechar 0
+AnchorPoint: "bottom" 321 -110 basechar 0
 LayerCount: 2
 Back
 SplineSet

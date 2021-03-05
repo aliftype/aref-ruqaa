@@ -2,11 +2,11 @@ StartChar: sad-ar.medi.qantara
 Encoding: 65899 -1 411
 Width: 641
 GlyphClass: 2
-AnchorPoint: "Sad" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 523 -123 basechar 0
-AnchorPoint: "Sad" 559 -32 entry 0
-AnchorPoint: "Dots Above" 672 580 basechar 0
-AnchorPoint: "Tashkil Above" 677 536 basechar 0
+AnchorPoint: "sad" 0 0 exit 0
+AnchorPoint: "bottom.mark" 523 -123 basechar 0
+AnchorPoint: "sad" 559 -32 entry 0
+AnchorPoint: "top" 672 580 basechar 0
+AnchorPoint: "top.mark" 677 536 basechar 0
 LayerCount: 2
 Back
 Refer: 409 -1 N 1 0 0 1 0 0 2

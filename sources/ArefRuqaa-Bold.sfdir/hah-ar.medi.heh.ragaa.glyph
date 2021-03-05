@@ -2,12 +2,12 @@ StartChar: hah-ar.medi.heh.ragaa
 Encoding: 65903 -1 417
 Width: 391
 GlyphClass: 2
-AnchorPoint: "Hah" 301 305 entry 0
-AnchorPoint: "Tashkil Above" 280 626 basechar 0
-AnchorPoint: "Dots Above" 333 670 basechar 0
-AnchorPoint: "Dots Below" 354 -82 basechar 0
-AnchorPoint: "Tashkil Below" 368 -104 basechar 0
-AnchorPoint: "Heh" 0 0 exit 0
+AnchorPoint: "hah" 301 305 entry 0
+AnchorPoint: "top.mark" 280 626 basechar 0
+AnchorPoint: "top" 333 670 basechar 0
+AnchorPoint: "bottom" 354 -82 basechar 0
+AnchorPoint: "bottom.mark" 368 -104 basechar 0
+AnchorPoint: "heh" 0 0 exit 0
 LayerCount: 2
 Back
 SplineSet

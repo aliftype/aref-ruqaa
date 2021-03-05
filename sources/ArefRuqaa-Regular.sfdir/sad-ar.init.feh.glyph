@@ -2,10 +2,10 @@ StartChar: sad-ar.init.feh
 Encoding: 65739 -1 249
 Width: 849
 GlyphClass: 2
-AnchorPoint: "Feh" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 523 -163 basechar 0
-AnchorPoint: "Tashkil Above" 571 554 basechar 0
-AnchorPoint: "Dots Above" 606 549 basechar 0
+AnchorPoint: "feh" 0 0 exit 0
+AnchorPoint: "bottom.mark" 523 -163 basechar 0
+AnchorPoint: "top.mark" 571 554 basechar 0
+AnchorPoint: "top" 606 549 basechar 0
 LayerCount: 2
 Back
 SplineSet

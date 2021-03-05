@@ -2,13 +2,13 @@ StartChar: kaf-ar.medi.heh
 Encoding: 65803 -1 313
 Width: 482
 GlyphClass: 2
-AnchorPoint: "Sharta Above" 659 888 basechar 0
-AnchorPoint: "Heh" 0 0 exit 0
-AnchorPoint: "Beh" 492 0 entry 0
-AnchorPoint: "Basic" 492 0 entry 0
-AnchorPoint: "Tashkil Below" 523 -154 basechar 0
-AnchorPoint: "Tashkil Above" 606 927 basechar 0
-AnchorPoint: "Dots Above" 659 888 basechar 0
+AnchorPoint: "top.gaf" 659 888 basechar 0
+AnchorPoint: "heh" 0 0 exit 0
+AnchorPoint: "beh" 492 0 entry 0
+AnchorPoint: "basic" 492 0 entry 0
+AnchorPoint: "bottom.mark" 523 -154 basechar 0
+AnchorPoint: "top.mark" 606 927 basechar 0
+AnchorPoint: "top" 659 888 basechar 0
 LayerCount: 2
 Back
 SplineSet

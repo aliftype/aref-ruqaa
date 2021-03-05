@@ -2,11 +2,11 @@ StartChar: kaf-ar.init.ain
 Encoding: 65719 -1 229
 Width: 585
 GlyphClass: 2
-AnchorPoint: "Sharta Above" 584 918 basechar 0
-AnchorPoint: "Ain" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 378 -136 basechar 0
-AnchorPoint: "Tashkil Above" 497 958 basechar 0
-AnchorPoint: "Dots Above" 584 918 basechar 0
+AnchorPoint: "top.gaf" 584 918 basechar 0
+AnchorPoint: "ain" 0 0 exit 0
+AnchorPoint: "bottom.mark" 378 -136 basechar 0
+AnchorPoint: "top.mark" 497 958 basechar 0
+AnchorPoint: "top" 584 918 basechar 0
 LayerCount: 2
 Back
 SplineSet

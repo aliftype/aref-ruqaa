@@ -2,9 +2,9 @@ StartChar: hehgoal-ar.init.ragaa
 Encoding: 65895 -1 407
 Width: 689
 GlyphClass: 2
-AnchorPoint: "Tashkil Below" 505 -204 basechar 0
-AnchorPoint: "Tashkil Above" 474 684 basechar 0
-AnchorPoint: "Seen" 0 0 exit 0
+AnchorPoint: "bottom.mark" 505 -204 basechar 0
+AnchorPoint: "top.mark" 474 684 basechar 0
+AnchorPoint: "seen" 0 0 exit 0
 LayerCount: 2
 Back
 SplineSet

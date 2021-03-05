@@ -2,11 +2,11 @@ StartChar: sad-ar.fina
 Encoding: 65564 -1 74
 Width: 563
 GlyphClass: 2
-AnchorPoint: "Sad" 460 55 entry 0
-AnchorPoint: "Dots Below" 633 62 basechar 0
-AnchorPoint: "Tashkil Below" 633 92 basechar 0
-AnchorPoint: "Tashkil Above" 668 782 basechar 0
-AnchorPoint: "Dots Above" 685 781 basechar 0
+AnchorPoint: "sad" 460 55 entry 0
+AnchorPoint: "bottom" 633 62 basechar 0
+AnchorPoint: "bottom.mark" 633 92 basechar 0
+AnchorPoint: "top.mark" 668 782 basechar 0
+AnchorPoint: "top" 685 781 basechar 0
 LayerCount: 2
 Back
 SplineSet

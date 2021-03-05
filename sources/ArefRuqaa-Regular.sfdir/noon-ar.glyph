@@ -2,10 +2,10 @@ StartChar: noon-ar
 Encoding: 1606 1606 103
 Width: 463
 GlyphClass: 2
-AnchorPoint: "Dots Below" 185 -101 basechar 0
-AnchorPoint: "Tashkil Below" 205 -171 basechar 0
-AnchorPoint: "Dots Above" 237 664 basechar 0
-AnchorPoint: "Tashkil Above" 277 650 basechar 0
+AnchorPoint: "bottom" 185 -101 basechar 0
+AnchorPoint: "bottom.mark" 205 -171 basechar 0
+AnchorPoint: "top" 237 664 basechar 0
+AnchorPoint: "top.mark" 277 650 basechar 0
 LayerCount: 2
 Back
 SplineSet

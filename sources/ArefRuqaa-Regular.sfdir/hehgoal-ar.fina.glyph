@@ -2,12 +2,12 @@ StartChar: hehgoal-ar.fina
 Encoding: 65610 -1 120
 Width: 176
 GlyphClass: 2
-AnchorPoint: "Dots Below" 127 -193 basechar 0
-AnchorPoint: "Dots Above" 163 369 basechar 0
-AnchorPoint: "Tashkil Above" 189 374 basechar 0
-AnchorPoint: "Tashkil Below" 198 -237 basechar 0
-AnchorPoint: "Beh" 233 0 entry 0
-AnchorPoint: "Basic" 233 0 entry 0
+AnchorPoint: "bottom" 127 -193 basechar 0
+AnchorPoint: "top" 163 369 basechar 0
+AnchorPoint: "top.mark" 189 374 basechar 0
+AnchorPoint: "bottom.mark" 198 -237 basechar 0
+AnchorPoint: "beh" 233 0 entry 0
+AnchorPoint: "basic" 233 0 entry 0
 LayerCount: 2
 Back
 SplineSet

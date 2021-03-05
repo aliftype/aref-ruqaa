@@ -2,11 +2,11 @@ StartChar: kaf-ar.init.yeh
 Encoding: 65815 -1 325
 Width: 511
 GlyphClass: 2
-AnchorPoint: "Sharta Above" 316 831 basechar 0
-AnchorPoint: "Yeh" 0 0 exit 0
-AnchorPoint: "Tashkil Above" 290 870 basechar 0
-AnchorPoint: "Dots Above" 316 831 basechar 0
-AnchorPoint: "Tashkil Below" 369 57 basechar 0
+AnchorPoint: "top.gaf" 316 831 basechar 0
+AnchorPoint: "yeh" 0 0 exit 0
+AnchorPoint: "top.mark" 290 870 basechar 0
+AnchorPoint: "top" 316 831 basechar 0
+AnchorPoint: "bottom.mark" 369 57 basechar 0
 LayerCount: 2
 Back
 Refer: 133 -1 N 1 0 0 1 0 0 2

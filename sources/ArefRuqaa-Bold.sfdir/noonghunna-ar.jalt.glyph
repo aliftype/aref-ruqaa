@@ -2,9 +2,9 @@ StartChar: noonghunna-ar.jalt
 Encoding: 65846 -1 356
 Width: 878
 GlyphClass: 2
-AnchorPoint: "Tashkil Below" 426 -163 basechar 0
-AnchorPoint: "Dots Above" 444 338 basechar 0
-AnchorPoint: "Tashkil Above" 497 787 basechar 0
+AnchorPoint: "bottom.mark" 426 -163 basechar 0
+AnchorPoint: "top" 444 338 basechar 0
+AnchorPoint: "top.mark" 497 787 basechar 0
 LayerCount: 2
 Back
 SplineSet

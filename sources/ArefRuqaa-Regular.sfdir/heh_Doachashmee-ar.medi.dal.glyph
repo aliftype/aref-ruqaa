@@ -2,10 +2,10 @@ StartChar: hehDoachashmee-ar.medi.dal
 Encoding: 65662 -1 172
 Width: 385
 GlyphClass: 2
-AnchorPoint: "Dal" 0 0 exit 0
-AnchorPoint: "Tashkil Above" 308 664 basechar 0
-AnchorPoint: "Meem" 334 334 entry 0
-AnchorPoint: "Tashkil Below" 369 -154 basechar 0
+AnchorPoint: "dal" 0 0 exit 0
+AnchorPoint: "top.mark" 308 664 basechar 0
+AnchorPoint: "meem" 334 334 entry 0
+AnchorPoint: "bottom.mark" 369 -154 basechar 0
 LayerCount: 2
 Back
 SplineSet

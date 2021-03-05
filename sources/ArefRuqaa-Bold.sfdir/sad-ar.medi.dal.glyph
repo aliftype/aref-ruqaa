@@ -2,11 +2,11 @@ StartChar: sad-ar.medi.dal
 Encoding: 65655 -1 165
 Width: 333
 GlyphClass: 2
-AnchorPoint: "Dal" 0 0 exit 0
-AnchorPoint: "Sad" 259 -215 entry 0
-AnchorPoint: "Tashkil Below" 435 -158 basechar 0
-AnchorPoint: "Tashkil Above" 501 488 basechar 0
-AnchorPoint: "Dots Above" 510 541 basechar 0
+AnchorPoint: "dal" 0 0 exit 0
+AnchorPoint: "sad" 259 -215 entry 0
+AnchorPoint: "bottom.mark" 435 -158 basechar 0
+AnchorPoint: "top.mark" 501 488 basechar 0
+AnchorPoint: "top" 510 541 basechar 0
 LayerCount: 2
 Back
 Refer: 153 -1 N 1 0 0 1 0 0 2

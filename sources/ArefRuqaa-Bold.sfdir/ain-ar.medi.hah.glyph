@@ -2,11 +2,11 @@ StartChar: ain-ar.medi.hah
 Encoding: 65633 -1 143
 Width: 334
 GlyphClass: 2
-AnchorPoint: "Hah" 0 0 exit 0
-AnchorPoint: "Ain" 277 171 entry 0
-AnchorPoint: "Dots Above" 374 650 basechar 0
-AnchorPoint: "Tashkil Above" 374 668 basechar 0
-AnchorPoint: "Tashkil Below" 382 9 basechar 0
+AnchorPoint: "hah" 0 0 exit 0
+AnchorPoint: "ain" 277 171 entry 0
+AnchorPoint: "top" 374 650 basechar 0
+AnchorPoint: "top.mark" 374 668 basechar 0
+AnchorPoint: "bottom.mark" 382 9 basechar 0
 LayerCount: 2
 Back
 SplineSet

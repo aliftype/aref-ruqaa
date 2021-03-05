@@ -2,11 +2,11 @@ StartChar: tah-ar.medi.hah
 Encoding: 65632 -1 142
 Width: 299
 GlyphClass: 2
-AnchorPoint: "Hah" 0 0 exit 0
-AnchorPoint: "Sad" 202 -40 entry 0
-AnchorPoint: "Tashkil Above" 352 927 basechar 0
-AnchorPoint: "Tashkil Below" 448 44 basechar 0
-AnchorPoint: "Dots Above" 510 686 basechar 0
+AnchorPoint: "hah" 0 0 exit 0
+AnchorPoint: "sad" 202 -40 entry 0
+AnchorPoint: "top.mark" 352 927 basechar 0
+AnchorPoint: "bottom.mark" 448 44 basechar 0
+AnchorPoint: "top" 510 686 basechar 0
 LayerCount: 2
 Back
 Refer: 130 -1 N 1 0 0 1 0 0 2

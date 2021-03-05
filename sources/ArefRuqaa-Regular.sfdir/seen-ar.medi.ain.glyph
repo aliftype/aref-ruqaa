@@ -2,13 +2,13 @@ StartChar: seen-ar.medi.ain
 Encoding: 65726 -1 236
 Width: 416
 GlyphClass: 2
-AnchorPoint: "Ain" 0 0 exit 0
-AnchorPoint: "Dots Above" 426 510 basechar 0
-AnchorPoint: "Tashkil Below" 431 -158 basechar 0
-AnchorPoint: "Tashkil Above" 435 422 basechar 0
-AnchorPoint: "Seen" 470 62 entry 0
-AnchorPoint: "Beh" 470 62 entry 0
-AnchorPoint: "Basic" 470 62 entry 0
+AnchorPoint: "ain" 0 0 exit 0
+AnchorPoint: "top" 426 510 basechar 0
+AnchorPoint: "bottom.mark" 431 -158 basechar 0
+AnchorPoint: "top.mark" 435 422 basechar 0
+AnchorPoint: "seen" 470 62 entry 0
+AnchorPoint: "beh" 470 62 entry 0
+AnchorPoint: "basic" 470 62 entry 0
 LayerCount: 2
 Back
 SplineSet

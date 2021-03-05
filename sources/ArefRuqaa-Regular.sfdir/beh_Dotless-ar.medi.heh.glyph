@@ -2,13 +2,13 @@ StartChar: behDotless-ar.medi.heh
 Encoding: 65796 -1 306
 Width: 572
 GlyphClass: 2
-AnchorPoint: "Heh" 0 0 exit 0
-AnchorPoint: "Dots Above" 404 514 basechar 0
-AnchorPoint: "Dots Below" 413 -79 basechar 0
-AnchorPoint: "Tashkil Above" 417 541 basechar 0
-AnchorPoint: "Tashkil Below" 466 -83 basechar 0
-AnchorPoint: "Beh" 475 132 entry 0
-AnchorPoint: "Basic" 475 132 entry 0
+AnchorPoint: "heh" 0 0 exit 0
+AnchorPoint: "top" 404 514 basechar 0
+AnchorPoint: "bottom" 413 -79 basechar 0
+AnchorPoint: "top.mark" 417 541 basechar 0
+AnchorPoint: "bottom.mark" 466 -83 basechar 0
+AnchorPoint: "beh" 475 132 entry 0
+AnchorPoint: "basic" 475 132 entry 0
 LayerCount: 2
 Back
 SplineSet

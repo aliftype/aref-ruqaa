@@ -2,11 +2,11 @@ StartChar: tah-ar.medi.yeh
 Encoding: 65824 -1 334
 Width: 390
 GlyphClass: 2
-AnchorPoint: "Yeh" 10 0 exit 0
-AnchorPoint: "Sad" 312 -92 entry 0
-AnchorPoint: "Tashkil Above" 431 853 basechar 0
-AnchorPoint: "Tashkil Below" 527 -13 basechar 0
-AnchorPoint: "Dots Above" 584 606 basechar 0
+AnchorPoint: "yeh" 10 0 exit 0
+AnchorPoint: "sad" 312 -92 entry 0
+AnchorPoint: "top.mark" 431 853 basechar 0
+AnchorPoint: "bottom.mark" 527 -13 basechar 0
+AnchorPoint: "top" 584 606 basechar 0
 LayerCount: 2
 Back
 SplineSet

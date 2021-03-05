@@ -2,10 +2,10 @@ StartChar: hamza-ar
 Encoding: 1569 1569 54
 Width: 431
 GlyphClass: 2
-AnchorPoint: "Dots Below" 119 -189 basechar 0
-AnchorPoint: "Tashkil Below" 149 -189 basechar 0
-AnchorPoint: "Dots Above" 272 584 basechar 0
-AnchorPoint: "Tashkil Above" 294 576 basechar 0
+AnchorPoint: "bottom" 119 -189 basechar 0
+AnchorPoint: "bottom.mark" 149 -189 basechar 0
+AnchorPoint: "top" 272 584 basechar 0
+AnchorPoint: "top.mark" 294 576 basechar 0
 LayerCount: 2
 Back
 SplineSet

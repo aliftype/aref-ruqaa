@@ -2,10 +2,10 @@ StartChar: meem-ar.medi.sad
 Encoding: 65709 -1 219
 Width: 580
 GlyphClass: 2
-AnchorPoint: "Sad" 0 0 exit 0
-AnchorPoint: "Meem" 532 233 entry 0
-AnchorPoint: "Tashkil Below" 593 -119 basechar 0
-AnchorPoint: "Tashkil Above" 642 519 basechar 0
+AnchorPoint: "sad" 0 0 exit 0
+AnchorPoint: "meem" 532 233 entry 0
+AnchorPoint: "bottom.mark" 593 -119 basechar 0
+AnchorPoint: "top.mark" 642 519 basechar 0
 LayerCount: 2
 Back
 SplineSet

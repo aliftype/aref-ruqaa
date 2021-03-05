@@ -2,11 +2,11 @@ StartChar: hah-ar.init.ragaa
 Encoding: 65874 -1 386
 Width: 678
 GlyphClass: 2
-AnchorPoint: "Seen" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 333 -38 basechar 0
-AnchorPoint: "Dots Above" 333 671 basechar 0
-AnchorPoint: "Tashkil Above" 338 666 basechar 0
-AnchorPoint: "Dots Below" 510 193 basechar 0
+AnchorPoint: "seen" 0 0 exit 0
+AnchorPoint: "bottom.mark" 333 -38 basechar 0
+AnchorPoint: "top" 333 671 basechar 0
+AnchorPoint: "top.mark" 338 666 basechar 0
+AnchorPoint: "bottom" 510 193 basechar 0
 LayerCount: 2
 Back
 SplineSet

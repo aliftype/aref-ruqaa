@@ -2,11 +2,11 @@ StartChar: lam-ar.medi.sad
 Encoding: 65708 -1 218
 Width: 574
 GlyphClass: 2
-AnchorPoint: "Sad" 24 88 exit 0
-AnchorPoint: "Beh" 574 0 entry 0
-AnchorPoint: "Basic" 574 0 entry 0
-AnchorPoint: "Tashkil Above" 589 817 basechar 0
-AnchorPoint: "Tashkil Below" 624 -136 basechar 0
+AnchorPoint: "sad" 24 88 exit 0
+AnchorPoint: "beh" 574 0 entry 0
+AnchorPoint: "basic" 574 0 entry 0
+AnchorPoint: "top.mark" 589 817 basechar 0
+AnchorPoint: "bottom.mark" 624 -136 basechar 0
 LayerCount: 2
 Back
 SplineSet

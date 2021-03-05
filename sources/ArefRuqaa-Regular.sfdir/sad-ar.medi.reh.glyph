@@ -2,11 +2,11 @@ StartChar: sad-ar.medi.reh
 Encoding: 65679 -1 189
 Width: 289
 GlyphClass: 2
-AnchorPoint: "Reh" 0 0 exit 0
-AnchorPoint: "Sad" 202 -215 entry 0
-AnchorPoint: "Tashkil Below" 382 -119 basechar 0
-AnchorPoint: "Tashkil Above" 426 519 basechar 0
-AnchorPoint: "Dots Above" 488 571 basechar 0
+AnchorPoint: "reh" 0 0 exit 0
+AnchorPoint: "sad" 202 -215 entry 0
+AnchorPoint: "bottom.mark" 382 -119 basechar 0
+AnchorPoint: "top.mark" 426 519 basechar 0
+AnchorPoint: "top" 488 571 basechar 0
 LayerCount: 2
 Back
 Refer: 177 -1 N 1 0 0 1 0 0 2

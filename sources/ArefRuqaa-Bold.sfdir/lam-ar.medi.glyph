@@ -2,14 +2,14 @@ StartChar: lam-ar.medi
 Encoding: 65588 -1 98
 Width: 246
 GlyphClass: 2
-AnchorPoint: "Waw" 0 0 exit 0
-AnchorPoint: "Basic" 0 0 exit 0
-AnchorPoint: "Dots Below" 185 -105 basechar 0
-AnchorPoint: "Dots Above" 224 773 basechar 0
-AnchorPoint: "Tashkil Above" 237 826 basechar 0
-AnchorPoint: "Beh" 250 0 entry 0
-AnchorPoint: "Basic" 250 0 entry 0
-AnchorPoint: "Tashkil Below" 264 -189 basechar 0
+AnchorPoint: "waw" 0 0 exit 0
+AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "bottom" 185 -105 basechar 0
+AnchorPoint: "top" 224 773 basechar 0
+AnchorPoint: "top.mark" 237 826 basechar 0
+AnchorPoint: "beh" 250 0 entry 0
+AnchorPoint: "basic" 250 0 entry 0
+AnchorPoint: "bottom.mark" 264 -189 basechar 0
 LayerCount: 2
 Back
 SplineSet

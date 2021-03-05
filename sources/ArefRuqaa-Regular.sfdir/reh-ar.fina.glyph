@@ -2,11 +2,11 @@ StartChar: reh-ar.fina
 Encoding: 65558 -1 68
 Width: 410
 GlyphClass: 2
-AnchorPoint: "Dots Below" 211 -220 basechar 0
-AnchorPoint: "Tashkil Below" 224 -176 basechar 0
-AnchorPoint: "Reh" 316 105 entry 0
-AnchorPoint: "Dots Above" 334 439 basechar 0
-AnchorPoint: "Tashkil Above" 369 466 basechar 0
+AnchorPoint: "bottom" 211 -220 basechar 0
+AnchorPoint: "bottom.mark" 224 -176 basechar 0
+AnchorPoint: "reh" 316 105 entry 0
+AnchorPoint: "top" 334 439 basechar 0
+AnchorPoint: "top.mark" 369 466 basechar 0
 LayerCount: 2
 Back
 SplineSet

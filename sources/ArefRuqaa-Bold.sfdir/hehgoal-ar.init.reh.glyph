@@ -2,9 +2,9 @@ StartChar: hehgoal-ar.init.reh
 Encoding: 65675 -1 185
 Width: 434
 GlyphClass: 2
-AnchorPoint: "Reh" 0 0 exit 0
-AnchorPoint: "Tashkil Below" 316 -290 basechar 0
-AnchorPoint: "Tashkil Above" 330 593 basechar 0
+AnchorPoint: "reh" 0 0 exit 0
+AnchorPoint: "bottom.mark" 316 -290 basechar 0
+AnchorPoint: "top.mark" 330 593 basechar 0
 LayerCount: 2
 Back
 SplineSet
