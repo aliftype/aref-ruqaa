@@ -2,6 +2,7 @@ StartChar: seen-ar.fina
 Encoding: 65560 -1 70
 Width: 507
 GlyphClass: 2
+AnchorPoint: "basic" 571 321 entry 0
 AnchorPoint: "bottom" 510 13 basechar 0
 AnchorPoint: "top" 545 681 basechar 0
 AnchorPoint: "top.mark" 549 690 basechar 0

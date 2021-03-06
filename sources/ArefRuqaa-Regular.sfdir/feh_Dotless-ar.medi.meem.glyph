@@ -2,6 +2,8 @@ StartChar: fehDotless-ar.medi.meem
 Encoding: 65778 -1 288
 Width: 345
 GlyphClass: 2
+AnchorPoint: "basic" -20 -39 exit 0
+AnchorPoint: "basic" 281 119 entry 0
 AnchorPoint: "meem" -20 -39 exit 0
 AnchorPoint: "feh" 281 119 entry 0
 AnchorPoint: "bottom.mark" 378 -18 basechar 0

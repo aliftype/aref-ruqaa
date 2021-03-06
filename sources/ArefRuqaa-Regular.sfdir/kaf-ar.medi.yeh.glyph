@@ -2,6 +2,7 @@ StartChar: kaf-ar.medi.yeh
 Encoding: 65827 -1 337
 Width: 320
 GlyphClass: 2
+AnchorPoint: "basic" 15 171 exit 0
 AnchorPoint: "top.gaf" 492 883 basechar 0
 AnchorPoint: "yeh" 15 171 exit 0
 AnchorPoint: "beh" 325 0 entry 0

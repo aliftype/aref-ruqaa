@@ -2,6 +2,7 @@ StartChar: meem-ar.init.yeh
 Encoding: 65817 -1 327
 Width: 424
 GlyphClass: 2
+AnchorPoint: "basic" 10 0 exit 0
 AnchorPoint: "yeh" 10 0 exit 0
 AnchorPoint: "top.mark" 290 571 basechar 0
 AnchorPoint: "bottom.mark" 330 -26 basechar 0

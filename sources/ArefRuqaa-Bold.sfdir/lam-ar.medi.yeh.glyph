@@ -2,6 +2,7 @@ StartChar: lam-ar.medi.yeh
 Encoding: 65828 -1 338
 Width: 320
 GlyphClass: 2
+AnchorPoint: "basic" 19 171 exit 0
 AnchorPoint: "yeh" 19 171 exit 0
 AnchorPoint: "top.mark" 312 822 basechar 0
 AnchorPoint: "basic" 313 0 entry 0

@@ -2,6 +2,8 @@ StartChar: hehDoachashmee-ar.medi.reh
 Encoding: 65686 -1 196
 Width: 404
 GlyphClass: 2
+AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "basic" 360 374 entry 0
 AnchorPoint: "bottom.mark" 400 -119 basechar 0
 AnchorPoint: "top.mark" 343 677 basechar 0
 AnchorPoint: "reh" 0 0 exit 0

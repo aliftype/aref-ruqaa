@@ -2,6 +2,7 @@ StartChar: sad-ar.init.qantara
 Encoding: 65897 -1 409
 Width: 984
 GlyphClass: 2
+AnchorPoint: "basic" 0 0 exit 0
 AnchorPoint: "sad" 0 0 exit 0
 AnchorPoint: "bottom.mark" 523 -149 basechar 0
 AnchorPoint: "top" 677 558 basechar 0

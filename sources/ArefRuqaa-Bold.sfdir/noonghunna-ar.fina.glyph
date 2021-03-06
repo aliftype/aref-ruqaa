@@ -2,6 +2,7 @@ StartChar: noonghunna-ar.fina
 Encoding: 65609 -1 119
 Width: 463
 GlyphClass: 2
+AnchorPoint: "basic" 369 237 entry 0
 AnchorPoint: "bottom" 171 -97 basechar 0
 AnchorPoint: "bottom.mark" 205 -166 basechar 0
 AnchorPoint: "top" 224 576 basechar 0

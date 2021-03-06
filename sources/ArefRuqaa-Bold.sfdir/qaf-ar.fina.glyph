@@ -2,6 +2,7 @@ StartChar: qaf-ar.fina
 Encoding: 65580 -1 90
 Width: 634
 GlyphClass: 2
+AnchorPoint: "basic" 523 316 entry 0
 AnchorPoint: "bottom.mark" 321 -171 basechar 0
 AnchorPoint: "bottom" 347 -167 basechar 0
 AnchorPoint: "top" 365 637 basechar 0

@@ -2,6 +2,8 @@ StartChar: hah-ar.medi.heh.ragaa
 Encoding: 65903 -1 417
 Width: 391
 GlyphClass: 2
+AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "basic" 306 288 entry 0
 AnchorPoint: "bottom.mark" 385 -121 basechar 0
 AnchorPoint: "bottom" 372 -99 basechar 0
 AnchorPoint: "top" 350 653 basechar 0

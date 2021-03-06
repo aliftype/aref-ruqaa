@@ -2,6 +2,8 @@ StartChar: meem-ar.medi.ragaa
 Encoding: 65893 -1 405
 Width: 312
 GlyphClass: 2
+AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "basic" 274 317 entry 0
 AnchorPoint: "seen" 0 0 exit 0
 AnchorPoint: "top.mark" 247 661 basechar 0
 AnchorPoint: "meem" 274 317 entry 0

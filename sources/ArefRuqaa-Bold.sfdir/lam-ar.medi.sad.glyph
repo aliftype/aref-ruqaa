@@ -2,6 +2,7 @@ StartChar: lam-ar.medi.sad
 Encoding: 65708 -1 218
 Width: 574
 GlyphClass: 2
+AnchorPoint: "basic" 24 88 exit 0
 AnchorPoint: "sad" 24 88 exit 0
 AnchorPoint: "bottom.mark" 624 -136 basechar 0
 AnchorPoint: "top.mark" 589 817 basechar 0

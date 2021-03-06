@@ -2,6 +2,7 @@ StartChar: qafDotless-ar.fina
 Encoding: 65870 -1 380
 Width: 490
 GlyphClass: 2
+AnchorPoint: "basic" 378 316 entry 0
 AnchorPoint: "bottom.mark" 176 -171 basechar 0
 AnchorPoint: "bottom" 203 -167 basechar 0
 AnchorPoint: "top" 220 637 basechar 0

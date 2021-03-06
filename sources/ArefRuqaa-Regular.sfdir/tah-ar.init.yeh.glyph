@@ -2,6 +2,7 @@ StartChar: tah-ar.init.yeh
 Encoding: 65812 -1 322
 Width: 561
 GlyphClass: 2
+AnchorPoint: "basic" 10 0 exit 0
 AnchorPoint: "yeh" 10 0 exit 0
 AnchorPoint: "top.mark" 268 795 basechar 0
 AnchorPoint: "top" 378 558 basechar 0

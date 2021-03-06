@@ -2,6 +2,8 @@ StartChar: meem-ar.medi.dal
 Encoding: 65661 -1 171
 Width: 360
 GlyphClass: 2
+AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "basic" 316 211 entry 0
 AnchorPoint: "dal" 0 0 exit 0
 AnchorPoint: "meem" 316 211 entry 0
 AnchorPoint: "bottom.mark" 352 -154 basechar 0

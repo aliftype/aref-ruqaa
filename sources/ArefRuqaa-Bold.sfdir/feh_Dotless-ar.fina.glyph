@@ -2,6 +2,7 @@ StartChar: fehDotless-ar.fina
 Encoding: 65576 -1 86
 Width: 567
 GlyphClass: 2
+AnchorPoint: "basic" 505 53 entry 0
 AnchorPoint: "bottom" 290 -145 basechar 0
 AnchorPoint: "bottom.mark" 316 -154 basechar 0
 AnchorPoint: "feh" 505 53 entry 0

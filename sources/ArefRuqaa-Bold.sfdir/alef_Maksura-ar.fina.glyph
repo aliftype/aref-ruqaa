@@ -2,6 +2,7 @@ StartChar: alefMaksura-ar.fina
 Encoding: 65603 -1 113
 Width: 414
 GlyphClass: 2
+AnchorPoint: "basic" 387 365 entry 0
 AnchorPoint: "bottom" 233 -101 basechar 0
 AnchorPoint: "top.mark" 277 681 basechar 0
 AnchorPoint: "top" 281 606 basechar 0

@@ -86,6 +86,7 @@ EndTTInstrs
 LangName: 1033 "" "" "" "" "" "" "" "" "" "Abdullah Aref" "Aref Ruqaa is an Arabic typeface that aspires to capture the essence of the classical Ruqaa calligraphic style." "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL" "" "" "" "" "+BicGRAYuBjcA +BkcGRgYvBjMGKQAA +BjEGSAYtBicGRgZKBikA +BjgGRwYxBioA +BigGIgZEBikA +BiwGMwZFBicGRgZKBikA"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 BeginPrivate: 0

@@ -2,6 +2,7 @@ StartChar: behDotless-ar.medi.meem
 Encoding: 65772 -1 282
 Width: 287
 GlyphClass: 2
+AnchorPoint: "basic" -24 -49 exit 0
 AnchorPoint: "meem" -24 -49 exit 0
 AnchorPoint: "top" 224 461 basechar 0
 AnchorPoint: "top.mark" 246 466 basechar 0

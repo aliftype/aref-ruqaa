@@ -2,6 +2,7 @@ StartChar: alefMaksura-ar.fina.yeh.jalt
 Encoding: 65856 -1 366
 Width: 793
 GlyphClass: 2
+AnchorPoint: "basic" 798 395 entry 0
 AnchorPoint: "top" 176 665 basechar 0
 AnchorPoint: "bottom.mark" 413 -158 basechar 0
 AnchorPoint: "bottom" 466 -141 basechar 0

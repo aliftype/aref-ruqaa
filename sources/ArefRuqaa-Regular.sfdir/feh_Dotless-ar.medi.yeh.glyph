@@ -2,6 +2,8 @@ StartChar: fehDotless-ar.medi.yeh
 Encoding: 65826 -1 336
 Width: 345
 GlyphClass: 2
+AnchorPoint: "basic" 10 0 exit 0
+AnchorPoint: "basic" 281 114 entry 0
 AnchorPoint: "yeh" 10 0 exit 0
 AnchorPoint: "feh" 281 114 entry 0
 AnchorPoint: "bottom.mark" 417 9 basechar 0

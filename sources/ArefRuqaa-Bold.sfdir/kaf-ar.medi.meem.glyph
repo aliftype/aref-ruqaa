@@ -2,6 +2,7 @@ StartChar: kaf-ar.medi.meem
 Encoding: 65779 -1 289
 Width: 320
 GlyphClass: 2
+AnchorPoint: "basic" 0 171 exit 0
 AnchorPoint: "top.gaf" 497 896 basechar 0
 AnchorPoint: "meem" 0 171 exit 0
 AnchorPoint: "beh" 330 0 entry 0

@@ -2,6 +2,7 @@ StartChar: sad-ar.init.meem
 Encoding: 65763 -1 273
 Width: 781
 GlyphClass: 2
+AnchorPoint: "basic" 0 0 exit 0
 AnchorPoint: "meem" 0 0 exit 0
 AnchorPoint: "bottom.mark" 479 -31 basechar 0
 AnchorPoint: "top.mark" 532 628 basechar 0

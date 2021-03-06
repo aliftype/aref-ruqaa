@@ -2,6 +2,7 @@ StartChar: lam-ar.medi.meem
 Encoding: 65780 -1 290
 Width: 320
 GlyphClass: 2
+AnchorPoint: "basic" 0 171 exit 0
 AnchorPoint: "meem" 0 171 exit 0
 AnchorPoint: "top.mark" 294 822 basechar 0
 AnchorPoint: "basic" 325 0 entry 0

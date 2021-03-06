@@ -2,6 +2,8 @@ StartChar: heh-ar.medi.hah
 Encoding: 65639 -1 149
 Width: 399
 GlyphClass: 2
+AnchorPoint: "basic" -22 -49 exit 0
+AnchorPoint: "basic" 374 119 entry 0
 AnchorPoint: "hah" -22 -49 exit 0
 AnchorPoint: "top.mark" 369 510 basechar 0
 AnchorPoint: "heh" 374 119 entry 0

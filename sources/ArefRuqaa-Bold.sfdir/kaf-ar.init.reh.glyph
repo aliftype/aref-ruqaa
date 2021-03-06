@@ -2,6 +2,7 @@ StartChar: kaf-ar.init.reh
 Encoding: 65671 -1 181
 Width: 513
 GlyphClass: 2
+AnchorPoint: "basic" 0 0 exit 0
 AnchorPoint: "top.gaf" 497 976 basechar 0
 AnchorPoint: "reh" 0 0 exit 0
 AnchorPoint: "bottom.mark" 365 -31 basechar 0

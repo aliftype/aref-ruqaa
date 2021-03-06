@@ -2,6 +2,7 @@ StartChar: tah-ar.init.sad
 Encoding: 65692 -1 202
 Width: 902
 GlyphClass: 2
+AnchorPoint: "basic" 9 31 exit 0
 AnchorPoint: "sad" 9 31 exit 0
 AnchorPoint: "bottom.mark" 549 -92 basechar 0
 AnchorPoint: "top.mark" 558 813 basechar 0
