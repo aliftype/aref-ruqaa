@@ -267,6 +267,12 @@ lookup calt_feh {
     sub @init_medi' @context_feh by @feh;
 } calt_feh;
 
+lookup calt_heh_2 {
+    lookupflag IgnoreMarks;
+    sub heh-ar.medi heh-ar.medi' heh-ar.medi by hehDoachashmee-ar.medi;
+    sub heh-ar.medi' heh-ar.medi heh-ar.fina by hehDoachashmee-ar.medi;
+} calt_heh_2;
+
 @context_meem = [meem-ar.fina meem-ar.medi meem-ar.medi.hah meem-ar.medi.dal meem-ar.medi.reh
                  meem-ar.medi.sad meem-ar.medi.ain meem-ar.medi.feh meem-ar.medi.meem meem-ar.medi.heh
                  meem-ar.medi.yeh meem-ar.medi.ragaa
@@ -308,15 +314,9 @@ lookup calt_heh_1 {
     sub heh-ar.medi' @context_heh by heh-ar.medi.heh;
 } calt_heh_1;
 
-lookup calt_heh_2 {
-    lookupflag IgnoreMarks;
-    sub heh-ar.medi.heh heh-ar.medi.heh' heh-ar.medi.heh by hehDoachashmee-ar.medi.heh;
-    sub heh-ar.medi.heh heh-ar.medi.heh' heh-ar.medi by hehDoachashmee-ar.medi.heh;
-    sub heh-ar.medi.heh' heh-ar.medi heh-ar.fina by hehDoachashmee-ar.medi.heh;
-} calt_heh_2;
-
 lookup calt_heh_3 {
     lookupflag IgnoreMarks;
+    sub heh-ar.medi.meem hehDoachashmee-ar.medi.meem' by hehDoachashmee-ar.medi.heh;
     sub heh-ar.medi.heh' hehDoachashmee-ar.medi.heh by heh-ar.medi.meem;
     sub heh-ar.init.heh' hehDoachashmee-ar.medi.heh by heh-ar.init.hah;
     sub hehDoachashmee-ar.medi.heh heh-ar.medi.heh' hehDoachashmee-ar.medi by heh-ar.medi.meem;
