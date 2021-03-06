@@ -15,6 +15,7 @@ OTF=$(FONTS:%=$(NAME)-%.ttf)
 MAKEFLAGS := -r -s
 
 export SOURCE_DATE_EPOCH := 0
+export FONTTOOLS_LOOKUP_DEBUGGING := 1
 
 .PRECIOUS: $(BLDDIR)/$(LATIN)-%.ttf $(BLDDIR)/$(NAME)-%.ttf
 
