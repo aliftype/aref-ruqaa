@@ -1,6 +1,6 @@
 StartChar: lam-ar.medi.alef
 Encoding: 65605 -1 115
-Width: 731
+Width: 732
 GlyphClass: 2
 AnchorPoint: "lam" 0 0 exit 0
 AnchorPoint: "bottom" 635 -164 basechar 0
