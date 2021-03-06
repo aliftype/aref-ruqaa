@@ -7,7 +7,6 @@ AnchorPoint: "bottom" 198 -158 basechar 0
 AnchorPoint: "top" 198 453 basechar 0
 AnchorPoint: "top.mark" 229 426 basechar 0
 AnchorPoint: "bottom.mark" 242 -167 basechar 0
-AnchorPoint: "beh" 264 22 entry 0
 AnchorPoint: "basic" 264 22 entry 0
 LayerCount: 2
 Back

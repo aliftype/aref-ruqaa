@@ -3,7 +3,6 @@ Encoding: 65863 -1 373
 Width: 305
 GlyphClass: 2
 AnchorPoint: "basic" 0 0 exit 0
-AnchorPoint: "beh" 299 0 entry 0
 AnchorPoint: "basic" 299 0 entry 0
 LayerCount: 2
 Back

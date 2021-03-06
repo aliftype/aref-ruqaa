@@ -53,7 +53,6 @@ OS2XHeight: 462
 OS2Vendor: 'ALIF'
 Lookup: 259 9 0 "'curs' Basic" { "'curs' Basic"  } []
 Lookup: 259 9 0 "'curs' Sad" { "'curs' Sad"  } []
-Lookup: 259 9 0 "'curs' Beh" { "'curs' Beh"  } []
 Lookup: 260 0 0 "'mark' Above" { "'mark' Above"  } []
 Lookup: 260 0 0 "'mark' Below" { "'mark' Below"  } []
 Lookup: 260 0 0 "'mark' Middle" { "'mark' Middle"  } []
@@ -80,5 +79,5 @@ UnicodeInterp: none
 NameList: AGL For New Fonts
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "top.gaf" "'mark' Above" "top.mkmk" "'mkmk' Above" "bottom.mkmk" "'mkmk' Below" "Middle" "'mark' Middle" "basic" "'curs' Basic" "sad" "'curs' Sad" "beh" "'curs' Beh" "top.mark" "'mark' Above" "top" "'mark' Above" "bottom.mark" "'mark' Below" "bottom" "'mark' Below"
+AnchorClass2: "top.gaf" "'mark' Above" "top.mkmk" "'mkmk' Above" "bottom.mkmk" "'mkmk' Below" "Middle" "'mark' Middle" "basic" "'curs' Basic" "sad" "'curs' Sad" "top.mark" "'mark' Above" "top" "'mark' Above" "bottom.mark" "'mark' Below" "bottom" "'mark' Below"
 EndSplineFont

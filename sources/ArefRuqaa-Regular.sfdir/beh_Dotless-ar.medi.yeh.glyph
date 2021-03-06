@@ -5,7 +5,6 @@ GlyphClass: 2
 AnchorPoint: "basic" 10 0 exit 0
 AnchorPoint: "top" 242 470 basechar 0
 AnchorPoint: "top.mark" 242 483 basechar 0
-AnchorPoint: "beh" 286 92 entry 0
 AnchorPoint: "basic" 286 92 entry 0
 AnchorPoint: "bottom.mark" 294 -123 basechar 0
 AnchorPoint: "bottom" 321 -110 basechar 0

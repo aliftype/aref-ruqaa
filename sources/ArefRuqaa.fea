@@ -709,7 +709,6 @@ lookup markContext {
 feature curs {
     lookup cursBasic;
     lookup cursSad;
-    lookup cursBeh;
 } curs;
 
 feature mark {

@@ -6,7 +6,6 @@ AnchorPoint: "top.gaf" 413 875 basechar 0
 AnchorPoint: "basic" 0 0 exit 0
 AnchorPoint: "bottom.mark" 220 -180 basechar 0
 AnchorPoint: "bottom" 229 -193 basechar 0
-AnchorPoint: "beh" 259 0 entry 0
 AnchorPoint: "basic" 259 0 entry 0
 AnchorPoint: "top.mark" 404 940 basechar 0
 AnchorPoint: "top" 413 875 basechar 0

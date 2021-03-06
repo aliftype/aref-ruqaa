@@ -6,7 +6,6 @@ AnchorPoint: "basic" 0 0 exit 0
 AnchorPoint: "sad" 0 0 exit 0
 AnchorPoint: "bottom" 435 -149 basechar 0
 AnchorPoint: "bottom.mark" 448 -167 basechar 0
-AnchorPoint: "beh" 477 47 entry 0
 AnchorPoint: "basic" 477 46 entry 0
 AnchorPoint: "top" 532 483 basechar 0
 AnchorPoint: "top.mark" 541 457 basechar 0
