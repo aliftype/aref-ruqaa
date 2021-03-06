@@ -2,7 +2,6 @@ StartChar: sad-ar.init
 Encoding: 65565 -1 75
 Width: 721
 GlyphClass: 2
-AnchorPoint: "waw" 0 0 exit 0
 AnchorPoint: "basic" 0 0 exit 0
 AnchorPoint: "bottom" 334 -193 basechar 0
 AnchorPoint: "bottom.mark" 387 -136 basechar 0

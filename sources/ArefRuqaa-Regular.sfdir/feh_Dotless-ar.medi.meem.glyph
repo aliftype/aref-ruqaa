@@ -4,8 +4,6 @@ Width: 345
 GlyphClass: 2
 AnchorPoint: "basic" -20 -39 exit 0
 AnchorPoint: "basic" 281 119 entry 0
-AnchorPoint: "meem" -20 -39 exit 0
-AnchorPoint: "feh" 281 119 entry 0
 AnchorPoint: "bottom.mark" 378 -18 basechar 0
 AnchorPoint: "top.mark" 400 646 basechar 0
 AnchorPoint: "top" 444 708 basechar 0

@@ -3,7 +3,6 @@ Encoding: 65747 -1 257
 Width: 482
 GlyphClass: 2
 AnchorPoint: "basic" 0 0 exit 0
-AnchorPoint: "feh" 0 0 exit 0
 AnchorPoint: "bottom.mark" 365 -365 basechar 0
 AnchorPoint: "top.mark" 387 593 basechar 0
 LayerCount: 2

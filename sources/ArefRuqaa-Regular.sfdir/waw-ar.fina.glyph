@@ -7,7 +7,6 @@ AnchorPoint: "bottom" 250 -101 basechar 0
 AnchorPoint: "bottom.mark" 288 -171 basechar 0
 AnchorPoint: "top" 386 606 basechar 0
 AnchorPoint: "top.mark" 396 633 basechar 0
-AnchorPoint: "waw" 426 259 entry 0
 LayerCount: 2
 Back
 Refer: 110 1608 N 1 0 0 1 0 0 2

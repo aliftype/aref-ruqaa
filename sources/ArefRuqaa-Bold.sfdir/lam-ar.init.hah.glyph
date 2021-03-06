@@ -5,7 +5,6 @@ GlyphClass: 2
 AnchorPoint: "basic" -63 -73 exit 0
 AnchorPoint: "top.mark" 123 672 basechar 0
 AnchorPoint: "bottom.mark" 347 57 basechar 0
-AnchorPoint: "hah" -63 -73 exit 0
 LayerCount: 2
 Back
 SplineSet

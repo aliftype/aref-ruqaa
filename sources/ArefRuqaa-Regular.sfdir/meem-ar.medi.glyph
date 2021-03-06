@@ -3,11 +3,9 @@ Encoding: 65592 -1 102
 Width: 405
 GlyphClass: 2
 AnchorPoint: "basic" 215 207 entry 0
-AnchorPoint: "waw" 0 0 exit 0
 AnchorPoint: "basic" 0 0 exit 0
 AnchorPoint: "bottom" 185 -92 basechar 0
 AnchorPoint: "top" 202 439 basechar 0
-AnchorPoint: "meem" 215 207 entry 0
 AnchorPoint: "bottom.mark" 244 -117 basechar 0
 AnchorPoint: "top.mark" 281 514 basechar 0
 LayerCount: 2

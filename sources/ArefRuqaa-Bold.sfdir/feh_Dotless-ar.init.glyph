@@ -2,7 +2,6 @@ StartChar: fehDotless-ar.init
 Encoding: 65577 -1 87
 Width: 390
 GlyphClass: 2
-AnchorPoint: "waw" 0 0 exit 0
 AnchorPoint: "basic" 0 0 exit 0
 AnchorPoint: "bottom" 185 -136 basechar 0
 AnchorPoint: "bottom.mark" 198 -145 basechar 0

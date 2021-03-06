@@ -4,9 +4,7 @@ Width: 399
 GlyphClass: 2
 AnchorPoint: "basic" -15 -49 exit 0
 AnchorPoint: "basic" 374 119 entry 0
-AnchorPoint: "heh" 374 119 entry 0
 AnchorPoint: "top.mark" 369 510 basechar 0
-AnchorPoint: "hah" -15 -49 exit 0
 AnchorPoint: "bottom.mark" 400 -312 basechar 0
 LayerCount: 2
 Back

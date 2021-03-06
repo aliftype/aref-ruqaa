@@ -53,18 +53,7 @@ OS2XHeight: 485
 OS2Vendor: 'ALIF'
 Lookup: 259 9 0 "'curs' Basic" { "'curs' Basic"  } []
 Lookup: 259 9 0 "'curs' Sad" { "'curs' Sad"  } []
-Lookup: 259 9 0 "'curs' Lam" { "'curs' Lam"  } []
-Lookup: 259 9 0 "'curs' Feh" { "'curs' Feh"  } []
 Lookup: 259 9 0 "'curs' Beh" { "'curs' Beh"  } []
-Lookup: 259 9 0 "'curs' Waw" { "'curs' Waw"  } []
-Lookup: 259 9 0 "'curs' Meem" { "'curs' Meem"  } []
-Lookup: 259 9 0 "'curs' Dal" { "'curs' Dal"  } []
-Lookup: 259 9 0 "'curs' Hah" { "'curs' Hah"  } []
-Lookup: 259 9 0 "'curs' Ain" { "'curs' Ain"  } []
-Lookup: 259 9 0 "'curs' Reh" { "'curs' Reh"  } []
-Lookup: 259 9 0 "'curs' Heh" { "'curs' Heh"  } []
-Lookup: 259 9 0 "'curs' Yeh" { "'curs' Yeh"  } []
-Lookup: 259 9 0 "'curs' Seen" { "'curs' Seen"  } []
 Lookup: 260 0 0 "'mark' Above" { "'mark' Above"  } []
 Lookup: 260 0 0 "'mark' Below" { "'mark' Below"  } []
 Lookup: 260 0 0 "'mark' Middle" { "'mark' Middle"  } []
@@ -91,5 +80,5 @@ UnicodeInterp: none
 NameList: AGL For New Fonts
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "top.gaf" "'mark' Above" "top.mkmk" "'mkmk' Above" "bottom.mkmk" "'mkmk' Below" "Middle" "'mark' Middle" "basic" "'curs' Basic" "sad" "'curs' Sad" "lam" "'curs' Lam" "feh" "'curs' Feh" "beh" "'curs' Beh" "waw" "'curs' Waw" "meem" "'curs' Meem" "dal" "'curs' Dal" "hah" "'curs' Hah" "ain" "'curs' Ain" "reh" "'curs' Reh" "heh" "'curs' Heh" "yeh" "'curs' Yeh" "seen" "'curs' Seen" "top.mark" "'mark' Above" "top" "'mark' Above" "bottom.mark" "'mark' Below" "bottom" "'mark' Below"
+AnchorClass2: "top.gaf" "'mark' Above" "top.mkmk" "'mkmk' Above" "bottom.mkmk" "'mkmk' Below" "Middle" "'mark' Middle" "basic" "'curs' Basic" "sad" "'curs' Sad" "beh" "'curs' Beh" "top.mark" "'mark' Above" "top" "'mark' Above" "bottom.mark" "'mark' Below" "bottom" "'mark' Below"
 EndSplineFont

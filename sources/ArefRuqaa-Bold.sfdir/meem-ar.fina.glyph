@@ -6,7 +6,6 @@ AnchorPoint: "basic" 303 404 entry 0
 AnchorPoint: "bottom" 62 -444 basechar 0
 AnchorPoint: "top" 166 586 basechar 0
 AnchorPoint: "top.mark" 225 625 basechar 0
-AnchorPoint: "meem" 303 404 entry 0
 AnchorPoint: "bottom.mark" 317 24 basechar 0
 LayerCount: 2
 Back

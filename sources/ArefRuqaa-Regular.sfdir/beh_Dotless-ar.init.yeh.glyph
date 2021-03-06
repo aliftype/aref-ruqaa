@@ -3,7 +3,6 @@ Encoding: 65808 -1 318
 Width: 177
 GlyphClass: 2
 AnchorPoint: "basic" 0 0 exit 0
-AnchorPoint: "yeh" 0 0 exit 0
 AnchorPoint: "top" 92 470 basechar 0
 AnchorPoint: "top.mark" 101 497 basechar 0
 AnchorPoint: "bottom.mark" 145 -457 basechar 0

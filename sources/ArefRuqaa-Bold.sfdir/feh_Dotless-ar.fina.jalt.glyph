@@ -4,7 +4,6 @@ Width: 803
 GlyphClass: 2
 AnchorPoint: "basic" 738 44 entry 0
 AnchorPoint: "bottom.mark" 439 -158 basechar 0
-AnchorPoint: "feh" 738 44 entry 0
 AnchorPoint: "top.mark" 853 677 basechar 0
 AnchorPoint: "top" 896 611 basechar 0
 LayerCount: 2

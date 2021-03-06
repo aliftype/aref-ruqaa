@@ -5,7 +5,6 @@ GlyphClass: 2
 AnchorPoint: "basic" 510 217 entry 0
 AnchorPoint: "bottom.mark" 225 -166 basechar 0
 AnchorPoint: "top.mark" 293 635 basechar 0
-AnchorPoint: "waw" 510 217 entry 0
 LayerCount: 2
 Back
 SplineSet

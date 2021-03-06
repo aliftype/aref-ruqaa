@@ -4,12 +4,10 @@ Width: 241
 GlyphClass: 2
 AnchorPoint: "basic" 0 44 exit 0
 AnchorPoint: "basic" 242 0 entry 0
-AnchorPoint: "waw" 0 44 exit 0
 AnchorPoint: "bottom" 88 -101 basechar 0
 AnchorPoint: "bottom.mark" 136 -176 basechar 0
 AnchorPoint: "top" 158 457 basechar 0
 AnchorPoint: "top.mark" 224 497 basechar 0
-AnchorPoint: "waw" 242 0 entry 0
 LayerCount: 2
 Back
 SplineSet

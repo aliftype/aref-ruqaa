@@ -6,8 +6,6 @@ AnchorPoint: "basic" -5 0 exit 0
 AnchorPoint: "basic" 426 492 entry 0
 AnchorPoint: "bottom.mark" 453 -31 basechar 0
 AnchorPoint: "top.mark" 330 743 basechar 0
-AnchorPoint: "meem" -5 0 exit 0
-AnchorPoint: "meem" 426 492 entry 0
 LayerCount: 2
 Back
 SplineSet

@@ -2,7 +2,6 @@ StartChar: seen-ar.init
 Encoding: 65561 -1 71
 Width: 685
 GlyphClass: 2
-AnchorPoint: "waw" 0 0 exit 0
 AnchorPoint: "basic" 0 0 exit 0
 AnchorPoint: "bottom.mark" 281 -141 basechar 0
 AnchorPoint: "bottom" 290 -180 basechar 0

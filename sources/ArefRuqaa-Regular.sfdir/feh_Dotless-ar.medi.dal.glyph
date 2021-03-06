@@ -4,8 +4,6 @@ Width: 289
 GlyphClass: 2
 AnchorPoint: "basic" 0 0 exit 0
 AnchorPoint: "basic" 220 9 entry 0
-AnchorPoint: "dal" 0 0 exit 0
-AnchorPoint: "feh" 220 9 entry 0
 AnchorPoint: "bottom.mark" 299 -119 basechar 0
 AnchorPoint: "top.mark" 360 576 basechar 0
 AnchorPoint: "top" 382 576 basechar 0
