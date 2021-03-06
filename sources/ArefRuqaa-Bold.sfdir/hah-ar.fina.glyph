@@ -7,7 +7,7 @@ AnchorPoint: "top.mark" 141 773 basechar 0
 AnchorPoint: "top" 158 760 basechar 0
 AnchorPoint: "bottom.mark" 294 -545 basechar 0
 AnchorPoint: "bottom" 382 24 basechar 0
-AnchorPoint: "Middle" 382 73 basechar 0
+AnchorPoint: "center" 382 73 basechar 0
 LayerCount: 2
 Back
 SplineSet

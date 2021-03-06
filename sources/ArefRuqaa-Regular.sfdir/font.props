@@ -79,5 +79,5 @@ UnicodeInterp: none
 NameList: AGL For New Fonts
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "top.gaf" "'mark' Above" "top.mkmk" "'mkmk' Above" "bottom.mkmk" "'mkmk' Below" "Middle" "'mark' Middle" "basic" "'curs' Basic" "sad" "'curs' Sad" "top.mark" "'mark' Above" "top" "'mark' Above" "bottom.mark" "'mark' Below" "bottom" "'mark' Below"
+AnchorClass2: "top.gaf" "'mark' Above" "top.mkmk" "'mkmk' Above" "bottom.mkmk" "'mkmk' Below" "center" "'mark' Middle" "basic" "'curs' Basic" "sad" "'curs' Sad" "top.mark" "'mark' Above" "top" "'mark' Above" "bottom.mark" "'mark' Below" "bottom" "'mark' Below"
 EndSplineFont
