@@ -6,8 +6,6 @@ AnchorPoint: "basic" 0 0 exit 0
 AnchorPoint: "bottom.mark" 97 -426 basechar 0
 AnchorPoint: "top.mark" 123 615 basechar 0
 LayerCount: 2
-Back
-Refer: 134 -1 N 1 0 0 1 0 0 2
 Fore
 Refer: 134 -1 N 1 0 0 1 0 0 2
 EndChar

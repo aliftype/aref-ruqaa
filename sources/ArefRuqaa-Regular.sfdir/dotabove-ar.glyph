@@ -17,11 +17,10 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--73 -24 m 1
- -46 11 -18 44 9 78 c 1
- 79 12 l 1
- 65 -6 52 -23 38 -40 c 128
- 17 -65 18 -65 -3 -90 c 1
- -73 -24 l 1
+79 13 m 1
+ 52 -22 25 -56 -3 -90 c 1
+ -74 -24 l 1
+ -47 10 -19 45 8 79 c 1
+ 79 13 l 1
 EndSplineSet
 EndChar
