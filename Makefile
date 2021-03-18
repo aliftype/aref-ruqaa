@@ -24,7 +24,7 @@ all: $(OTF)
 $(BLDDIR)/$(LATIN)-%.ttf: $(SRCDIR)/$(LATIN)-%.ufo
 	echo "   BUILD  $(@F)"
 	mkdir -p $(BLDDIR)
-	$(PY) -m fontmake --verbose WARNING -u $< -o ttf --output-path $@
+	$(PY) -m fontmake --verbose WARNING --flatten-components -u $< -o ttf --output-path $@
 
 $(BLDDIR)/$(NAME)-%.ttf: $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(NAME).fea
 	echo "   BUILD  $(@F)"

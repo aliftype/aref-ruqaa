@@ -32,7 +32,7 @@ def build(args):
     info.versionMajor, info.versionMinor = int(major), int(minor)
     info.copyright = info.copyright.format(year=datetime.now().year)
 
-    compileTTF(font, inplace=True).save(args.out_file)
+    compileTTF(font, inplace=True, flattenComponents=True).save(args.out_file)
 
 
 def main():
