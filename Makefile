@@ -1,5 +1,5 @@
 NAME=ArefRuqaa
-VERSION=1.002
+VERSION=1.003
 LATIN=EulerText
 
 SRCDIR=sources
