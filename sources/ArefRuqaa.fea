@@ -13,8 +13,8 @@ feature ccmp {
     sub alefHamzabelow-ar       by alef-ar hamzabelow-ar;
     sub yehHamzaabove-ar        by alefMaksura-ar hamzaabove-ar;
     sub beh-ar                  by behDotless-ar dotbelow-ar;
-    sub tehMarbuta-ar           by heh-ar twodotsabove-ar;
-    sub teh-ar                  by behDotless-ar twodotsabove-ar;
+    sub tehMarbuta-ar           by heh-ar twodotshorizontalabove-ar;
+    sub teh-ar                  by behDotless-ar twodotshorizontalabove-ar;
     sub theh-ar                 by behDotless-ar threedotsupabove-ar;
     sub jeem-ar                 by hah-ar dotbelow-ar;
     sub khah-ar                 by hah-ar dotabove-ar;
@@ -25,7 +25,7 @@ feature ccmp {
     sub zah-ar                  by tah-ar dotabove-ar;
     sub ghain-ar                by ain-ar dotabove-ar;
     sub feh-ar                  by fehDotless-ar dotabove-ar;
-    sub yeh-ar                  by alefMaksura-ar twodotsbelow-ar;
+    sub yeh-ar                  by alefMaksura-ar twodotshorizontalbelow-ar;
     sub alefWasla-ar            by alef-ar wasla-ar;
     sub tteh-ar                 by behDotless-ar tahabove-ar;
     sub peh-ar                  by behDotless-ar threedotsdownbelow-ar;
@@ -62,7 +62,7 @@ feature init {
     sub sad-ar                  by sad-ar.init;
     sub tah-ar                  by tah-ar.init;
     sub ain-ar                  by ain-ar.init;
-    sub qaf-ar                  by fehDotless-ar.init twodotsabove-ar;
+    sub qaf-ar                  by fehDotless-ar.init twodotshorizontalabove-ar;
     sub kaf-ar                  by kaf-ar.init;
     sub lam-ar                  by lam-ar.init;
     sub meem-ar                 by meem-ar.init;
@@ -77,7 +77,7 @@ feature init {
     sub noonThreedotsabove-ar   by behDotless-ar.init threedotsdownbelow-ar;
     sub hehDoachashmee-ar       by heh-ar.init;
     sub hehgoal-ar              by hehgoal-ar.init;
-    sub yeh-farsi               by behDotless-ar.init twodotsbelow-ar;
+    sub yeh-farsi               by behDotless-ar.init twodotshorizontalbelow-ar;
 } init;
 
 feature medi {
@@ -86,7 +86,7 @@ feature medi {
     sub sad-ar                  by sad-ar.medi;
     sub tah-ar                  by tah-ar.medi;
     sub ain-ar                  by ain-ar.medi;
-    sub qaf-ar                  by fehDotless-ar.medi twodotsabove-ar;
+    sub qaf-ar                  by fehDotless-ar.medi twodotshorizontalabove-ar;
     sub kaf-ar                  by kaf-ar.medi;
     sub lam-ar                  by lam-ar.medi;
     sub meem-ar                 by meem-ar.medi;
@@ -101,7 +101,7 @@ feature medi {
     sub noonThreedotsabove-ar   by behDotless-ar.medi threedotsdownbelow-ar;
     sub hehDoachashmee-ar       by hehDoachashmee-ar.medi;
     sub hehgoal-ar              by heh-ar.medi;
-    sub yeh-farsi               by behDotless-ar.medi twodotsbelow-ar;
+    sub yeh-farsi               by behDotless-ar.medi twodotshorizontalbelow-ar;
 } medi;
 
 feature fina {
@@ -528,8 +528,8 @@ feature jalt {
     sub fehDotless-ar.fina by fehDotless-ar.fina.jalt;
     sub qafDotless-ar by qafDotless-ar.jalt;
     sub qafDotless-ar.fina by qafDotless-ar.fina.jalt;
-    sub qaf-ar by qafDotless-ar.jalt twodotsabove-ar;
-    sub qaf-ar.fina by qafDotless-ar.fina.jalt twodotsabove-ar;
+    sub qaf-ar by qafDotless-ar.jalt twodotshorizontalabove-ar;
+    sub qaf-ar.fina by qafDotless-ar.fina.jalt twodotshorizontalabove-ar;
     sub kaf-ar by kaf-ar.jalt;
     sub kaf-ar.fina by kaf-ar.fina.jalt;
     sub lam-ar by lam-ar.jalt;
@@ -696,7 +696,7 @@ feature dnom {
 
 # GPOS
 
-@noqta_below = [dotbelow-ar twodotsbelow-ar threedotsdownbelow-ar];
+@noqta_below = [dotbelow-ar twodotshorizontalbelow-ar threedotsdownbelow-ar];
 
 lookup markContext {
   lookupflag 0;

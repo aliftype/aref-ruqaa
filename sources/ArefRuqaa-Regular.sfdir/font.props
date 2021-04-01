@@ -59,8 +59,8 @@ Lookup: 262 16 0 "'mkmk' Above" { "'mkmk' Above"  } []
 Lookup: 262 65552 0 "'mkmk' Below" { "'mkmk' Below"  } []
 MarkAttachClasses: 1
 MarkAttachSets: 2
-"MarkMarkAbove" 243 fathatan-ar dammatan-ar fatha-ar damma-ar shadda-ar sukun-ar madda-ar hamzaabove-ar dammainverted-ar noonghunnaabove-ar vabove-ar alefabove-ar dotabove-ar twodotsabove-ar threedotsupabove-ar gafsarkashabove-ar dammainverted-ar.urd sukun-ar.alt
-"MarkMarkBelow" 107 kasratan-ar kasra-ar shadda-ar hamzabelow-ar alefbelow-ar dotbelow-ar twodotsbelow-ar threedotsdownbelow-ar
+"MarkMarkAbove" 253 fathatan-ar dammatan-ar fatha-ar damma-ar shadda-ar sukun-ar madda-ar hamzaabove-ar dammainverted-ar noonghunnaabove-ar vabove-ar alefabove-ar dotabove-ar twodotshorizontalabove-ar threedotsupabove-ar gafsarkashabove-ar dammainverted-ar.urd sukun-ar.alt
+"MarkMarkBelow" 117 kasratan-ar kasra-ar shadda-ar hamzabelow-ar alefbelow-ar dotbelow-ar twodotshorizontalbelow-ar threedotsdownbelow-ar
 DEI: 91125
 TtTable: prep
 PUSHW_1
