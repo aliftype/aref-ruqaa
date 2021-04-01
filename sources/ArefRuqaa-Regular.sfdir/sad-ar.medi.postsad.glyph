@@ -1,0 +1,13 @@
+StartChar: sad-ar.medi.postsad
+Encoding: 65939 -1 499
+Width: 331
+AnchorPoint: "top" 545 567 basechar 0
+AnchorPoint: "top.mark" 505 523 basechar 0
+AnchorPoint: "bottom.mark" 404 -127 basechar 0
+AnchorPoint: "bottom" 343 -202 basechar 0
+AnchorPoint: "basic" 255 -189 entry 0
+AnchorPoint: "basic" 0 0 exit 0
+LayerCount: 2
+Fore
+Refer: 75 -1 N 1 0 0 1 0 0 2
+EndChar

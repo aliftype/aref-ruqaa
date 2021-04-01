@@ -476,6 +476,11 @@ lookup calt_looped_kaf {
     sub [lam-ar.init.meem] [meem-ar.medi] [kaf-ar.init.alef]' by [kaf-ar.init.alef.loop];
 } calt_looped_kaf;
 
+lookup calt_postsad {
+  lookupflag IgnoreMarks;
+    sub @sad [sad-ar.medi tah-ar.medi]' by [sad-ar.medi.postsad tah-ar.medi.postsad];
+} calt_postsad;
+
 
 feature calt {
     lookup calt_hah;
@@ -508,6 +513,7 @@ feature calt {
     lookup calt_hah_yeh_ragaa;
     lookup calt_sad_ragaa;
     lookup calt_looped_kaf;
+    lookup calt_postsad;
 } calt;
 
 feature jalt {
@@ -709,7 +715,6 @@ lookup markContext {
 
 feature curs {
     lookup cursBasic;
-    lookup cursSad;
 } curs;
 
 feature mark {
