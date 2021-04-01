@@ -2,8 +2,8 @@ StartChar: sad-ar.medi.yeh
 Encoding: 65823 -1 333
 Width: 357
 GlyphClass: 2
-AnchorPoint: "basic" 12 0 exit 0
-AnchorPoint: "basic" 272 -193 entry 0
+AnchorPoint: "cursive" 12 0 exit 0
+AnchorPoint: "cursive" 272 -193 entry 0
 AnchorPoint: "bottom.mark" 431 -97 basechar 0
 AnchorPoint: "top.mark" 497 571 basechar 0
 AnchorPoint: "top" 501 541 basechar 0

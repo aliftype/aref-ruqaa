@@ -2,7 +2,7 @@ StartChar: behDotless-ar.init.dal
 Encoding: 65640 -1 150
 Width: 373
 GlyphClass: 2
-AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "cursive" 0 0 exit 0
 AnchorPoint: "bottom" 171 -154 basechar 0
 AnchorPoint: "top" 213 409 basechar 0
 AnchorPoint: "bottom.mark" 220 -145 basechar 0

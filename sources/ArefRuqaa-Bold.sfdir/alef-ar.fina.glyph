@@ -2,7 +2,7 @@ StartChar: alef-ar.fina
 Encoding: 65546 -1 56
 Width: 112
 GlyphClass: 2
-AnchorPoint: "basic" 107 -0 entry 0
+AnchorPoint: "cursive" 107 -0 entry 0
 AnchorPoint: "top" 112 800 basechar 0
 AnchorPoint: "top.mark" 116 791 basechar 0
 AnchorPoint: "bottom" 125 -185 basechar 0

@@ -2,8 +2,8 @@ StartChar: hehDoachashmee-ar.medi
 Encoding: 65598 -1 108
 Width: 314
 GlyphClass: 2
-AnchorPoint: "basic" 277 347 entry 0
-AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "cursive" 277 347 entry 0
+AnchorPoint: "cursive" 0 0 exit 0
 AnchorPoint: "bottom" 242 -101 basechar 0
 AnchorPoint: "bottom.mark" 268 -154 basechar 0
 AnchorPoint: "top" 312 690 basechar 0

@@ -2,7 +2,7 @@ StartChar: hah-ar.init.meem
 Encoding: 65761 -1 271
 Width: 567
 GlyphClass: 2
-AnchorPoint: "basic" -24 -49 exit 0
+AnchorPoint: "cursive" -24 -49 exit 0
 AnchorPoint: "bottom.mark" 387 -4 basechar 0
 AnchorPoint: "top" 404 734 basechar 0
 AnchorPoint: "top.mark" 422 703 basechar 0

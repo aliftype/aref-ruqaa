@@ -2,8 +2,8 @@ StartChar: fehDotless-ar.medi.feh
 Encoding: 65754 -1 264
 Width: 491
 GlyphClass: 2
-AnchorPoint: "basic" 0 0 exit 0
-AnchorPoint: "basic" 422 31 entry 0
+AnchorPoint: "cursive" 0 0 exit 0
+AnchorPoint: "cursive" 422 31 entry 0
 AnchorPoint: "bottom.mark" 466 -132 basechar 0
 AnchorPoint: "top" 580 637 basechar 0
 AnchorPoint: "top.mark" 589 589 basechar 0

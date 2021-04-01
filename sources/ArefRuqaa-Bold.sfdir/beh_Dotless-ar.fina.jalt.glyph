@@ -6,7 +6,7 @@ AnchorPoint: "bottom" 453 -176 basechar 0
 AnchorPoint: "bottom.mark" 466 -180 basechar 0
 AnchorPoint: "top.mark" 536 804 basechar 0
 AnchorPoint: "top" 558 360 basechar 0
-AnchorPoint: "basic" 851 83 entry 0
+AnchorPoint: "cursive" 851 83 entry 0
 LayerCount: 2
 Back
 SplineSet

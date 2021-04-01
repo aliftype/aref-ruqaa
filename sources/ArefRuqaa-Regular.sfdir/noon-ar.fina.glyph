@@ -2,7 +2,7 @@ StartChar: noon-ar.fina
 Encoding: 65594 -1 104
 Width: 428
 GlyphClass: 2
-AnchorPoint: "basic" 381 229 entry 0
+AnchorPoint: "cursive" 381 229 entry 0
 AnchorPoint: "bottom" 163 -110 basechar 0
 AnchorPoint: "bottom.mark" 205 -171 basechar 0
 AnchorPoint: "top" 237 664 basechar 0

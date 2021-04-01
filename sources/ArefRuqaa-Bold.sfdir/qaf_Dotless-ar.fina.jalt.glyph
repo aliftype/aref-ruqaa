@@ -2,7 +2,7 @@ StartChar: qafDotless-ar.fina.jalt
 Encoding: 65853 -1 363
 Width: 849
 GlyphClass: 2
-AnchorPoint: "basic" 615 35 entry 0
+AnchorPoint: "cursive" 615 35 entry 0
 AnchorPoint: "bottom.mark" 356 -163 basechar 0
 AnchorPoint: "top.mark" 708 716 basechar 0
 AnchorPoint: "top" 747 589 basechar 0

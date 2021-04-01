@@ -2,11 +2,11 @@ StartChar: seen-ar.medi.heh
 Encoding: 65798 -1 308
 Width: 609
 GlyphClass: 2
-AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "cursive" 0 0 exit 0
 AnchorPoint: "bottom.mark" 505 -57 basechar 0
 AnchorPoint: "top.mark" 611 580 basechar 0
 AnchorPoint: "top" 650 584 basechar 0
-AnchorPoint: "basic" 677 171 entry 0
+AnchorPoint: "cursive" 677 171 entry 0
 LayerCount: 2
 Back
 SplineSet

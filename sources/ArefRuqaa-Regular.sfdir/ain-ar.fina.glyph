@@ -2,7 +2,7 @@ StartChar: ain-ar.fina
 Encoding: 65572 -1 82
 Width: 341
 GlyphClass: 2
-AnchorPoint: "basic" 264 246 entry 0
+AnchorPoint: "cursive" 264 246 entry 0
 AnchorPoint: "bottom" 299 -527 basechar 0
 AnchorPoint: "bottom.mark" 303 -532 basechar 0
 AnchorPoint: "top" 338 760 basechar 0

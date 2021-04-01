@@ -2,10 +2,10 @@ StartChar: behDotless-ar.medi
 Encoding: 65550 -1 60
 Width: 206
 GlyphClass: 2
-AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "cursive" 0 0 exit 0
 AnchorPoint: "bottom.mark" 145 -193 basechar 0
 AnchorPoint: "bottom" 149 -171 basechar 0
-AnchorPoint: "basic" 198 22 entry 0
+AnchorPoint: "cursive" 198 22 entry 0
 AnchorPoint: "top" 215 374 basechar 0
 AnchorPoint: "top.mark" 250 404 basechar 0
 LayerCount: 2

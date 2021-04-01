@@ -2,9 +2,9 @@ StartChar: lam-ar.medi.reh
 Encoding: 65684 -1 194
 Width: 312
 GlyphClass: 2
-AnchorPoint: "basic" -10 73 exit 0
+AnchorPoint: "cursive" -10 73 exit 0
 AnchorPoint: "bottom.mark" 352 -158 basechar 0
-AnchorPoint: "basic" 312 0 entry 0
+AnchorPoint: "cursive" 312 0 entry 0
 AnchorPoint: "top.mark" 308 773 basechar 0
 LayerCount: 2
 Back

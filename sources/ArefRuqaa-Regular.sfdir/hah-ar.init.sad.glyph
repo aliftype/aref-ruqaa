@@ -2,8 +2,7 @@ StartChar: hah-ar.init.sad
 Encoding: 65689 -1 199
 Width: 797
 GlyphClass: 2
-AnchorPoint: "basic" 24 49 exit 0
-AnchorPoint: "sad" 24 49 exit 0
+AnchorPoint: "cursive" 24 49 exit 0
 AnchorPoint: "bottom.mark" 448 -149 basechar 0
 AnchorPoint: "bottom" 475 -163 basechar 0
 AnchorPoint: "top" 580 567 basechar 0

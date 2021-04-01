@@ -2,7 +2,7 @@ StartChar: dal-ar.fina
 Encoding: 65556 -1 66
 Width: 390
 GlyphClass: 2
-AnchorPoint: "basic" 338 48 entry 0
+AnchorPoint: "cursive" 338 48 entry 0
 AnchorPoint: "bottom.mark" 207 -176 basechar 0
 AnchorPoint: "bottom" 211 -207 basechar 0
 AnchorPoint: "top.mark" 308 457 basechar 0

@@ -2,7 +2,7 @@ StartChar: seen-ar.fina.jalt
 Encoding: 65850 -1 360
 Width: 1042
 GlyphClass: 2
-AnchorPoint: "basic" 1107 281 entry 0
+AnchorPoint: "cursive" 1107 281 entry 0
 AnchorPoint: "bottom.mark" 523 -154 basechar 0
 AnchorPoint: "top.mark" 1020 690 basechar 0
 AnchorPoint: "top" 1081 690 basechar 0

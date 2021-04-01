@@ -2,7 +2,7 @@ StartChar: kaf-ar.init.ragaa
 Encoding: 65880 -1 392
 Width: 678
 GlyphClass: 2
-AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "cursive" 0 0 exit 0
 AnchorPoint: "top.gaf" 391 953 basechar 0
 AnchorPoint: "bottom.mark" 258 -91 basechar 0
 AnchorPoint: "top.mark" 381 972 basechar 0

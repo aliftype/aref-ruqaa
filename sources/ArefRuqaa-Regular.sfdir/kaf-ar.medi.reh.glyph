@@ -2,9 +2,9 @@ StartChar: kaf-ar.medi.reh
 Encoding: 65683 -1 193
 Width: 312
 GlyphClass: 2
-AnchorPoint: "basic" -10 73 exit 0
+AnchorPoint: "cursive" -10 73 exit 0
 AnchorPoint: "top.gaf" 497 914 basechar 0
-AnchorPoint: "basic" 312 0 entry 0
+AnchorPoint: "cursive" 312 0 entry 0
 AnchorPoint: "bottom.mark" 374 -141 basechar 0
 AnchorPoint: "top.mark" 391 914 basechar 0
 AnchorPoint: "top" 497 914 basechar 0

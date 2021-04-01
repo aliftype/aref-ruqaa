@@ -2,7 +2,7 @@ StartChar: yehbarree-ar.fina
 Encoding: 65615 -1 125
 Width: 699
 GlyphClass: 2
-AnchorPoint: "basic" 19 156 entry 0
+AnchorPoint: "cursive" 19 156 entry 0
 AnchorPoint: "bottom" 514 -127 basechar 0
 AnchorPoint: "bottom.mark" 541 -185 basechar 0
 AnchorPoint: "top.mark" 549 650 basechar 0

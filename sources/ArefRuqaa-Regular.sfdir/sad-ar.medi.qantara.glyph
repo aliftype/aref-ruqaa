@@ -2,9 +2,8 @@ StartChar: sad-ar.medi.qantara
 Encoding: 65899 -1 411
 Width: 641
 GlyphClass: 2
-AnchorPoint: "basic" 0 0 exit 0
-AnchorPoint: "basic" 559 -32 entry 0
-AnchorPoint: "sad" 0 0 exit 0
+AnchorPoint: "cursive" 0 0 exit 0
+AnchorPoint: "cursive" 559 -32 entry 0
 AnchorPoint: "bottom.mark" 523 -123 basechar 0
 AnchorPoint: "top" 672 580 basechar 0
 AnchorPoint: "top.mark" 677 536 basechar 0

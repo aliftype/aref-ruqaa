@@ -2,7 +2,7 @@ StartChar: sad-ar.fina.jalt
 Encoding: 65851 -1 361
 Width: 1099
 GlyphClass: 2
-AnchorPoint: "basic" 986 42 entry 0
+AnchorPoint: "cursive" 986 42 entry 0
 AnchorPoint: "bottom.mark" 576 -167 basechar 0
 AnchorPoint: "top.mark" 1072 747 basechar 0
 AnchorPoint: "top" 1173 712 basechar 0

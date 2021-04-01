@@ -2,7 +2,7 @@ StartChar: tah-ar.init.kaf
 Encoding: 65860 -1 370
 Width: 618
 GlyphClass: 2
-AnchorPoint: "basic" 0 0 exit 0
+AnchorPoint: "cursive" 0 0 exit 0
 AnchorPoint: "bottom" 220 -88 basechar 0
 AnchorPoint: "bottom.mark" 299 -145 basechar 0
 AnchorPoint: "top.mark" 312 694 basechar 0

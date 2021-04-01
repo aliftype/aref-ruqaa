@@ -2,8 +2,8 @@ StartChar: heh-ar.medi.meem
 Encoding: 65783 -1 293
 Width: 332
 GlyphClass: 2
-AnchorPoint: "basic" 3 9 exit 0
-AnchorPoint: "basic" 329 -71 entry 0
+AnchorPoint: "cursive" 3 9 exit 0
+AnchorPoint: "cursive" 329 -71 entry 0
 AnchorPoint: "top.mark" 308 527 basechar 0
 AnchorPoint: "bottom.mark" 321 -489 basechar 0
 LayerCount: 2

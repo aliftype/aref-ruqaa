@@ -2,7 +2,7 @@ StartChar: meem-ar.fina
 Encoding: 65590 -1 100
 Width: 350
 GlyphClass: 2
-AnchorPoint: "basic" 303 404 entry 0
+AnchorPoint: "cursive" 303 404 entry 0
 AnchorPoint: "bottom" 62 -444 basechar 0
 AnchorPoint: "top" 166 586 basechar 0
 AnchorPoint: "top.mark" 225 625 basechar 0
