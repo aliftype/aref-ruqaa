@@ -481,6 +481,11 @@ lookup calt_postsad {
     sub @sad [sad-ar.medi tah-ar.medi]' by [sad-ar.medi.postsad tah-ar.medi.postsad];
 } calt_postsad;
 
+lookup calt_alefabove {
+  sub space' alefabove-ar' by alefabove-ar.isol;
+  sub kashida-ar' alefabove-ar' by alefabove-ar.medi;
+} calt_alefabove;
+
 
 feature calt {
     lookup calt_hah;
@@ -514,6 +519,7 @@ feature calt {
     lookup calt_sad_ragaa;
     lookup calt_looped_kaf;
     lookup calt_postsad;
+    lookup calt_alefabove;
 } calt;
 
 feature jalt {
