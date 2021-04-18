@@ -1,3 +1,3 @@
 fontmake
 fontTools
-git+git://github.com/alif-type/sfdLib.git@v1.1.3#egg=sfdLib
+git+git://github.com/alif-type/sfdLib.git@v1.2.1#egg=sfdLib

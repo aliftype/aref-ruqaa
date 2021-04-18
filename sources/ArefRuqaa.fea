@@ -720,19 +720,19 @@ lookup markContext {
 } markContext;
 
 feature curs {
-    lookup cursBasic;
+    lookup curs;
 } curs;
 
 feature mark {
-    lookup markAbove;
-    lookup markBelow;
-    lookup markMiddle;
+    lookup markTop;
+    lookup markBottom;
+    lookup markCenter;
     lookup markContext;
 } mark;
 
 feature mkmk {
-    lookup mkmkAbove;
-    lookup mkmkBelow;
+    lookup mkmkTop;
+    lookup mkmkBottom;
 } mkmk;
 
 feature kern {
