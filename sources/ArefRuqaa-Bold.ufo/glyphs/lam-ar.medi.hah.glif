@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam-ar.medi.hah" format="2">
+  <advance width="355"/>
+  <anchor x="-10.0" y="122.0" name="exit"/>
+  <anchor x="347.0" y="0.0" name="entry"/>
+  <anchor x="365.0" y="866.0" name="top.mark"/>
+  <anchor x="378.0" y="-141.0" name="bottom.mark"/>
+  <outline>
+    <contour>
+      <point x="292.0" y="562.0" type="line"/>
+      <point x="365.0" y="683.0" type="line"/>
+      <point x="370.0" y="693.0"/>
+      <point x="386.0" y="689.0"/>
+      <point x="387.0" y="678.0" type="curve" smooth="yes"/>
+      <point x="428.0" y="112.0" type="line"/>
+      <point x="357.0" y="5.0" type="line" smooth="yes"/>
+      <point x="350.0" y="-5.0"/>
+      <point x="336.0" y="-1.0"/>
+      <point x="335.0" y="11.0" type="curve" smooth="yes"/>
+      <point x="309.0" y="342.0" type="line"/>
+      <point x="195.0" y="301.0"/>
+      <point x="100.0" y="229.0"/>
+      <point x="35.0" y="137.0" type="curve" smooth="yes"/>
+      <point x="33.0" y="135.0"/>
+      <point x="28.0" y="130.0"/>
+      <point x="23.0" y="132.0" type="curve"/>
+      <point x="1.0" y="137.0" type="line" smooth="yes"/>
+      <point x="-5.0" y="138.0"/>
+      <point x="-10.0" y="143.0"/>
+      <point x="-8.0" y="151.0" type="curve" smooth="yes"/>
+      <point x="18.0" y="250.0"/>
+      <point x="63.0" y="329.0"/>
+      <point x="137.0" y="373.0" type="curve" smooth="yes"/>
+      <point x="190.0" y="403.0"/>
+      <point x="244.0" y="433.0"/>
+      <point x="300.0" y="453.0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

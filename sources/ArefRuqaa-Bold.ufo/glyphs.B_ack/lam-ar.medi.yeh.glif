@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam-ar.medi.yeh" format="2">
+  <advance width="320"/>
+  <outline>
+    <contour>
+      <point x="257.8125" y="533.203125" type="line"/>
+      <point x="329.58984375" y="652.83203125" type="line" smooth="yes"/>
+      <point x="334.47265625" y="660.64453125"/>
+      <point x="342.529296875" y="658.69140625"/>
+      <point x="350.5859375" y="656.73828125"/>
+      <point x="351.5625" y="647.94921875" type="qcurve" smooth="yes"/>
+      <point x="395.01953125" y="107.91015625" type="line"/>
+      <point x="322.75390625" y="5.37109375" type="line" smooth="yes"/>
+      <point x="317.3828125" y="-1.953125"/>
+      <point x="309.814453125" y="0.244140625"/>
+      <point x="302.24609375" y="2.44140625"/>
+      <point x="301.26953125" y="10.7421875" type="qcurve" smooth="yes"/>
+      <point x="272.94921875" y="333.0078125" type="line"/>
+      <point x="221.19140625" y="315.4296875"/>
+      <point x="184.814453125" y="299.560546875"/>
+      <point x="148.4375" y="283.69140625"/>
+      <point x="126.46484375" y="270.99609375" type="qcurve" smooth="yes"/>
+      <point x="81.0546875" y="244.140625"/>
+      <point x="27.83203125" y="160.64453125" type="qcurve"/>
+      <point x="18.06640625" y="146.97265625"/>
+      <point x="5.859375" y="148.4375" type="qcurve" smooth="yes"/>
+      <point x="-15.13671875" y="150.87890625"/>
+      <point x="-6.34765625" y="180.17578125" type="qcurve"/>
+      <point x="12.20703125" y="238.28125"/>
+      <point x="38.330078125" y="281.005859375"/>
+      <point x="64.453125" y="323.73046875"/>
+      <point x="99.609375" y="351.07421875" type="qcurve"/>
+      <point x="99.609375" y="350.5859375" type="line"/>
+      <point x="132.32421875" y="376.953125"/>
+      <point x="172.8515625" y="402.587890625"/>
+      <point x="213.37890625" y="428.22265625"/>
+      <point x="262.20703125" y="453.125" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

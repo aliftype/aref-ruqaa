@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kaf-ar.jalt" format="2">
+  <advance width="1030"/>
+  <outline>
+    <component base="lam-ar.jalt"/>
+    <component base="hamza-ar" xScale="0.75" yScale="0.75" xOffset="375.391" yOffset="203.186"/>
+  </outline>
+</glyph>

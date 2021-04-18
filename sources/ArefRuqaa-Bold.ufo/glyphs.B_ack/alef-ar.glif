@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alef-ar" format="2">
+  <advance width="248"/>
+  <outline>
+    <contour>
+      <point x="62.98828125" y="564.453125" type="line"/>
+      <point x="136.23046875" y="680.6640625" type="line" smooth="yes"/>
+      <point x="138.671875" y="684.5703125"/>
+      <point x="142.333984375" y="685.791015625"/>
+      <point x="145.99609375" y="687.01171875"/>
+      <point x="149.4140625" y="686.279296875"/>
+      <point x="152.83203125" y="685.546875"/>
+      <point x="155.2734375" y="682.861328125"/>
+      <point x="157.71484375" y="680.17578125"/>
+      <point x="158.203125" y="675.78125" type="qcurve" smooth="yes"/>
+      <point x="186.03515625" y="261.23046875" type="line"/>
+      <point x="112.3046875" y="145.01953125" type="line" smooth="yes"/>
+      <point x="107.421875" y="137.20703125"/>
+      <point x="99.609375" y="139.16015625"/>
+      <point x="91.796875" y="141.11328125"/>
+      <point x="90.8203125" y="149.90234375" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

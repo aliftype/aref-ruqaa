@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="behDotless-ar.init.ascend" format="2">
+  <advance width="313"/>
+  <outline>
+    <contour>
+      <point x="300.78125" y="245.1171875" type="line"/>
+      <point x="300.29296875" y="200.68359375"/>
+      <point x="274.169921875" y="135.7421875"/>
+      <point x="248.046875" y="70.80078125"/>
+      <point x="200.68359375" y="43.45703125" type="qcurve" smooth="yes"/>
+      <point x="141.11328125" y="9.27734375"/>
+      <point x="0.0" y="0.0" type="qcurve"/>
+      <point x="0.0" y="0.0" type="line"/>
+      <point x="18.3427734375" y="134.440429688" type="line"/>
+      <point x="170.938476562" y="142.274414062"/>
+      <point x="221.435546875" y="159.912109375" type="qcurve" smooth="yes"/>
+      <point x="272.4609375" y="177.734375"/>
+      <point x="297.8515625" y="246.58203125" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

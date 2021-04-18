@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qaf-ar.fina" format="2">
+  <advance width="634"/>
+  <anchor x="523.0" y="316.0" name="entry"/>
+  <anchor x="321.0" y="-171.0" name="bottom.mark"/>
+  <anchor x="347.0" y="-167.0" name="bottom"/>
+  <anchor x="365.0" y="637.0" name="top"/>
+  <anchor x="431.0" y="664.0" name="top.mark"/>
+  <outline>
+    <component base="qaf-ar"/>
+  </outline>
+</glyph>

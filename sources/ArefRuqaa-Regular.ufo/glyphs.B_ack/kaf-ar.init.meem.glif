@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kaf-ar.init.meem" format="2">
+  <advance width="91"/>
+  <outline>
+    <contour>
+      <point x="17.08984375" y="0.0" type="line"/>
+      <point x="16.11328125" y="74.21875"/>
+      <point x="10.25390625" y="152.099609375"/>
+      <point x="4.39453125" y="229.98046875"/>
+      <point x="0.0" y="303.22265625" type="qcurve"/>
+      <point x="60.05859375" y="398.92578125" type="line"/>
+      <point x="92.28515625" y="515.625" type="line"/>
+      <point x="172.8515625" y="562.5"/>
+      <point x="253.90625" y="609.86328125"/>
+      <point x="334.9609375" y="657.2265625"/>
+      <point x="415.52734375" y="704.58984375" type="qcurve"/>
+      <point x="428.22265625" y="710.9375"/>
+      <point x="426.26953125" y="697.75390625" type="qcurve"/>
+      <point x="394.04296875" y="581.0546875" type="line"/>
+      <point x="313.96484375" y="534.1796875"/>
+      <point x="234.375" y="487.79296875"/>
+      <point x="154.78515625" y="441.40625"/>
+      <point x="75.1953125" y="395.01953125" type="qcurve"/>
+      <point x="91.30859375" y="138.18359375" type="line" smooth="yes"/>
+      <point x="92.7734375" y="117.67578125"/>
+      <point x="91.30859375" y="99.609375" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

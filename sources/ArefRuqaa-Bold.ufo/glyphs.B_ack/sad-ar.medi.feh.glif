@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sad-ar.medi.feh" format="2">
+  <advance width="455"/>
+  <outline>
+    <component base="sad-ar.init.feh"/>
+  </outline>
+</glyph>

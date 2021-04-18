@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tah-ar.medi.qantara" format="2">
+  <advance width="489"/>
+  <anchor x="0.0" y="0.0" name="exit"/>
+  <anchor x="414.0" y="-86.0" name="entry"/>
+  <anchor x="558.0" y="773.0" name="top.mark"/>
+  <anchor x="584.0" y="-101.0" name="bottom.mark"/>
+  <anchor x="708.0" y="532.0" name="top"/>
+  <outline>
+    <component base="tah-ar.init.qantara"/>
+  </outline>
+</glyph>

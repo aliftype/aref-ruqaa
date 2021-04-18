@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam-ar.init.meem" format="2">
+  <advance width="134"/>
+  <outline>
+    <contour>
+      <point x="30.76171875" y="4.8828125" type="line" smooth="yes"/>
+      <point x="27.83203125" y="1.46484375"/>
+      <point x="24.169921875" y="0.48828125"/>
+      <point x="20.5078125" y="-0.48828125"/>
+      <point x="17.333984375" y="0.48828125"/>
+      <point x="14.16015625" y="1.46484375"/>
+      <point x="11.71875" y="4.150390625"/>
+      <point x="9.27734375" y="6.8359375"/>
+      <point x="9.27734375" y="11.23046875" type="qcurve" smooth="yes"/>
+      <point x="-11.23046875" y="356.4453125" type="line"/>
+      <point x="62.98828125" y="476.5625" type="line" smooth="yes"/>
+      <point x="67.87109375" y="483.88671875"/>
+      <point x="75.927734375" y="481.93359375"/>
+      <point x="83.984375" y="479.98046875"/>
+      <point x="84.9609375" y="471.19140625" type="qcurve" smooth="yes"/>
+      <point x="104.98046875" y="145.99609375" type="line" smooth="yes"/>
+      <point x="104.98046875" y="142.08984375"/>
+      <point x="105.224609375" y="137.939453125"/>
+      <point x="105.46875" y="133.7890625"/>
+      <point x="105.46875" y="129.39453125" type="qcurve" smooth="yes"/>
+      <point x="105.46875" y="124.51171875"/>
+      <point x="105.224609375" y="117.431640625"/>
+      <point x="104.98046875" y="110.3515625"/>
+      <point x="104.98046875" y="104.4921875" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

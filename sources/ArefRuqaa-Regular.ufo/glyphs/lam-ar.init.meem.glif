@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam-ar.init.meem" format="2">
+  <advance width="134"/>
+  <anchor x="-10.0" y="-49.0" name="exit"/>
+  <anchor x="44.0" y="593.0" name="top.mark"/>
+  <anchor x="127.0" y="-343.0" name="bottom.mark"/>
+  <outline>
+    <contour>
+      <point x="21.0" y="0.0" type="line"/>
+      <point x="0.0" y="354.0" type="line"/>
+      <point x="75.0" y="475.0" type="line"/>
+      <point x="96.0" y="138.0" type="line" smooth="yes"/>
+      <point x="97.0" y="129.0"/>
+      <point x="97.0" y="117.0"/>
+      <point x="96.0" y="100.0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

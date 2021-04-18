@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dammatan-ar" format="2">
+  <outline>
+    <contour>
+      <point x="129.716796875" y="279.115234375" type="qcurve"/>
+      <point x="148.299804688" y="249.692382812"/>
+      <point x="133.09765625" y="215.288085938" type="qcurve" smooth="yes"/>
+      <point x="117.896484375" y="180.883789062"/>
+      <point x="106.94140625" y="176.498046875" type="qcurve" smooth="yes"/>
+      <point x="91.357421875" y="170.258789062"/>
+      <point x="97.390625" y="194.40625" type="qcurve" smooth="yes"/>
+      <point x="103.571289062" y="219.141601562"/>
+      <point x="98.8095703125" y="232.489257812" type="qcurve" smooth="yes"/>
+      <point x="90.537109375" y="255.681640625"/>
+      <point x="40.9306640625" y="245.495117188" type="qcurve" smooth="yes"/>
+      <point x="-8.67578125" y="235.30859375"/>
+      <point x="-69.2197265625" y="181.399414062" type="qcurve" smooth="yes"/>
+      <point x="-104.442382812" y="150.037109375"/>
+      <point x="-114.083007812" y="127.899414062" type="qcurve" smooth="yes"/>
+      <point x="-123.723632812" y="105.76171875"/>
+      <point x="-122.055664062" y="98.185546875" type="qcurve" smooth="yes"/>
+      <point x="-120.388671875" y="90.609375"/>
+      <point x="-118.896484375" y="87.2490234375" type="qcurve" smooth="yes"/>
+      <point x="-108.686523438" y="64.2587890625"/>
+      <point x="-60.7705078125" y="82.43359375" type="qcurve" smooth="yes"/>
+      <point x="-46.94140625" y="87.6796875"/>
+      <point x="-38.4609375" y="92.390625" type="qcurve" smooth="yes"/>
+      <point x="-25.2353515625" y="99.73828125" type="line"/>
+      <point x="-55.1982421875" y="35.986328125" type="line"/>
+      <point x="-105.682617188" y="2.330078125"/>
+      <point x="-141.013671875" y="31.62890625" type="qcurve" smooth="yes"/>
+      <point x="-151.978515625" y="40.72265625"/>
+      <point x="-159.291992188" y="59.5244140625" type="qcurve" smooth="yes"/>
+      <point x="-166.60546875" y="78.326171875"/>
+      <point x="-162.787109375" y="102.256835938" type="qcurve" smooth="yes"/>
+      <point x="-158.967773438" y="126.188476562"/>
+      <point x="-146.865234375" y="146.548828125" type="qcurve"/>
+      <point x="-95.6162109375" y="258.559570312"/>
+      <point x="39.4599609375" y="299.936523438" type="qcurve" smooth="yes"/>
+      <point x="106.146484375" y="320.36328125"/>
+    </contour>
+    <component base="damma-ar"/>
+  </outline>
+</glyph>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four-persian.urd.numr" format="2">
+  <advance width="265"/>
+  <outline>
+    <component base="four-persian.urd.dnom" yOffset="268.555"/>
+  </outline>
+</glyph>

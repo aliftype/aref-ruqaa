@@ -3,8 +3,6 @@ import io
 
 from datetime import datetime
 
-from sfdLib.parser import SFDParser
-
 from ufo2ft import compileTTF
 
 from ufoLib2 import Font
@@ -19,14 +17,7 @@ def _dumpAnchor(anchor):
 
 
 def build(args):
-    font = Font(validate=False)
-    SFDParser(
-        args.file,
-        font,
-        ufo_anchors=True,
-        ufo_kerning=True,
-        minimal=False,
-    ).parse()
+    font = Font(args.file, validate=False)
 
     lookups = {}
     lines = []

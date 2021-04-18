@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>800</integer>
+    <key>capHeight</key>
+    <integer>683</integer>
+    <key>copyright</key>
+    <string>Copyright 2015-{year} The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10.</string>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>familyName</key>
+    <string>Aref Ruqaa</string>
+    <key>italicAngle</key>
+    <real>0.0</real>
+    <key>openTypeGaspRangeRecords</key>
+    <array>
+      <dict>
+        <key>rangeGaspBehavior</key>
+        <array>
+          <integer>1</integer>
+        </array>
+        <key>rangeMaxPPEM</key>
+        <integer>65535</integer>
+      </dict>
+    </array>
+    <key>openTypeHeadCreated</key>
+    <string>2015/03/07 21:19:41</string>
+    <key>openTypeHheaAscender</key>
+    <integer>1221</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-244</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>98</integer>
+    <key>openTypeNameDescription</key>
+    <string>Aref Ruqaa is an Arabic typeface that aspires to capture the essence of the classical Ruqaa calligraphic style.</string>
+    <key>openTypeNameDesigner</key>
+    <string>Abdullah Aref</string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>https://scripts.sil.org/OFL</string>
+    <key>openTypeNameSampleText</key>
+    <string>الخط هندسة روحانية ظهرت بآلة جسمانية</string>
+    <key>openTypeOS2Panose</key>
+    <array>
+      <integer>2</integer>
+      <integer>0</integer>
+      <integer>5</integer>
+      <integer>3</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
+    <key>openTypeOS2StrikeoutPosition</key>
+    <integer>258</integer>
+    <key>openTypeOS2StrikeoutSize</key>
+    <integer>49</integer>
+    <key>openTypeOS2SubscriptXOffset</key>
+    <integer>47</integer>
+    <key>openTypeOS2SubscriptXSize</key>
+    <integer>650</integer>
+    <key>openTypeOS2SubscriptYOffset</key>
+    <integer>140</integer>
+    <key>openTypeOS2SubscriptYSize</key>
+    <integer>700</integer>
+    <key>openTypeOS2SuperscriptXOffset</key>
+    <integer>-164</integer>
+    <key>openTypeOS2SuperscriptXSize</key>
+    <integer>650</integer>
+    <key>openTypeOS2SuperscriptYOffset</key>
+    <integer>480</integer>
+    <key>openTypeOS2SuperscriptYSize</key>
+    <integer>700</integer>
+    <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>1221</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-244</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>98</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>ALIF</string>
+    <key>openTypeOS2WeightClass</key>
+    <integer>400</integer>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>1221</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>439</integer>
+    <key>openTypeVheaVertTypoLineGap</key>
+    <integer>0</integer>
+    <key>postscriptFontName</key>
+    <string>ArefRuqaa-Regular</string>
+    <key>postscriptFullName</key>
+    <string>Aref Ruqaa Regular</string>
+    <key>postscriptSlantAngle</key>
+    <real>0.0</real>
+    <key>postscriptUnderlinePosition</key>
+    <real>-32.5</real>
+    <key>postscriptUnderlineThickness</key>
+    <real>73.0</real>
+    <key>postscriptWeightName</key>
+    <string>Book</string>
+    <key>styleName</key>
+    <string>Regular</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>xHeight</key>
+    <integer>462</integer>
+  </dict>
+</plist>

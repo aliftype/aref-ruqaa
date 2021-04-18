@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seen-ar.init.dal" format="2">
+  <advance width="696"/>
+  <anchor x="0.0" y="0.0" name="exit"/>
+  <anchor x="321.0" y="-136.0" name="bottom.mark"/>
+  <anchor x="347.0" y="448.0" name="top"/>
+  <anchor x="391.0" y="435.0" name="top.mark"/>
+  <outline>
+    <contour>
+      <point x="682.0" y="286.0" type="curve" smooth="yes"/>
+      <point x="673.0" y="246.0"/>
+      <point x="628.0" y="132.0"/>
+      <point x="589.0" y="51.0" type="curve" smooth="yes"/>
+      <point x="579.0" y="31.0"/>
+      <point x="555.0" y="47.0"/>
+      <point x="566.0" y="72.0" type="curve" smooth="yes"/>
+      <point x="592.0" y="131.0" type="line"/>
+      <point x="380.0" y="38.0"/>
+      <point x="98.0" y="-22.0"/>
+      <point x="40.0" y="6.0" type="curve" smooth="yes"/>
+      <point x="-27.0" y="39.0"/>
+      <point x="6.0" y="149.0"/>
+      <point x="48.0" y="205.0" type="curve" smooth="yes"/>
+      <point x="50.0" y="208.0"/>
+      <point x="52.0" y="207.0"/>
+      <point x="52.0" y="205.0" type="curve" smooth="yes"/>
+      <point x="47.0" y="174.0"/>
+      <point x="60.0" y="140.0"/>
+      <point x="86.0" y="133.0" type="curve" smooth="yes"/>
+      <point x="192.0" y="106.0"/>
+      <point x="547.0" y="205.0"/>
+      <point x="651.0" y="265.0" type="curve" smooth="yes"/>
+      <point x="662.0" y="271.0"/>
+      <point x="669.0" y="283.0"/>
+      <point x="678.0" y="291.0" type="curve" smooth="yes"/>
+      <point x="681.0" y="293.0"/>
+      <point x="683.0" y="290.0"/>
+    </contour>
+  </outline>
+</glyph>

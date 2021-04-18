@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threedotsdownbelow-ar" format="2">
+  <anchor x="0.0" y="-225.0" name="bottom.mkmk"/>
+  <anchor x="0.0" y="49.0" name="_center"/>
+  <anchor x="0.0" y="49.0" name="_bottom"/>
+  <outline>
+    <component base="threedotsupabove-ar"/>
+  </outline>
+</glyph>

@@ -26,7 +26,7 @@ $(BLDDIR)/$(LATIN)-%.ttf: $(SRCDIR)/$(LATIN)-%.ufo
 	mkdir -p $(BLDDIR)
 	$(PY) -m fontmake --verbose WARNING --flatten-components -u $< -o ttf --output-path $@
 
-$(BLDDIR)/$(NAME)-%.ttf: $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(NAME).fea
+$(BLDDIR)/$(NAME)-%.ttf: $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(NAME).fea
 	echo "   BUILD  $(@F)"
 	mkdir -p $(BLDDIR)
 	$(PY) build.py --version=$(VERSION) --out-file=$@ --feature-file=$(word 2,$+) $<

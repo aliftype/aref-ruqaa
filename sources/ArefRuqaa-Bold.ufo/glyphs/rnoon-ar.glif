@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rnoon-ar" format="2">
+  <advance width="463"/>
+  <unicode hex="06BB"/>
+  <outline>
+    <component base="tahabove-ar" xOffset="224.0" yOffset="576.0"/>
+    <component base="noonghunna-ar"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
+</glyph>

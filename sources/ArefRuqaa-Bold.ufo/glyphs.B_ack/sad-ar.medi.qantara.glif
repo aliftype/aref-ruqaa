@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sad-ar.medi.qantara" format="2">
+  <advance width="641"/>
+  <outline>
+    <component base="sad-ar.init.qantara"/>
+  </outline>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alef-ar.fina" format="2">
+  <advance width="112"/>
+  <anchor x="112.0" y="0.0" name="entry"/>
+  <anchor x="112.0" y="800.0" name="top"/>
+  <anchor x="116.0" y="791.0" name="top.mark"/>
+  <anchor x="125.0" y="-185.0" name="bottom"/>
+  <anchor x="208.0" y="-189.0" name="bottom.mark"/>
+  <outline>
+    <contour>
+      <point x="73.0" y="570.0" type="line"/>
+      <point x="136.0" y="687.0" type="line"/>
+      <point x="174.0" y="118.0" type="line"/>
+      <point x="112.0" y="0.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

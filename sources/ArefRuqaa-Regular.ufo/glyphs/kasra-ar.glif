@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kasra-ar" format="2">
+  <unicode hex="0650"/>
+  <anchor x="0.0" y="0.0" name="_bottom.mkmk"/>
+  <anchor x="0.0" y="0.0" name="_bottom.mark"/>
+  <outline>
+    <component base="fatha-ar" yOffset="69.0"/>
+  </outline>
+</glyph>

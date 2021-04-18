@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="highhamza-ar" format="2">
+  <advance width="431"/>
+  <unicode hex="0674"/>
+  <outline>
+    <component base="hamza-ar" yOffset="254.0"/>
+  </outline>
+</glyph>

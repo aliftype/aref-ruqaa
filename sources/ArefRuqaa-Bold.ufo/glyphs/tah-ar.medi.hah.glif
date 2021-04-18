@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tah-ar.medi.hah" format="2">
+  <advance width="299"/>
+  <anchor x="0.0" y="0.0" name="exit"/>
+  <anchor x="202.0" y="-40.0" name="entry"/>
+  <anchor x="352.0" y="927.0" name="top.mark"/>
+  <anchor x="448.0" y="44.0" name="bottom.mark"/>
+  <anchor x="510.0" y="686.0" name="top"/>
+  <outline>
+    <component base="tah-ar.init.hah"/>
+  </outline>
+</glyph>

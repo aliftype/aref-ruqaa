@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fatha-ar" format="2">
+  <unicode hex="064E"/>
+  <anchor x="-20.0" y="122.0" name="top.mkmk"/>
+  <anchor x="0.0" y="0.0" name="_top.mkmk"/>
+  <anchor x="0.0" y="0.0" name="_top.mark"/>
+  <outline>
+    <contour>
+      <point x="-99.0" y="-23.0" type="line"/>
+      <point x="-99.0" y="-23.0" type="line"/>
+      <point x="-35.0" y="3.0"/>
+      <point x="41.0" y="29.0"/>
+      <point x="108.0" y="53.0" type="curve"/>
+      <point x="79.0" y="7.0" type="line"/>
+      <point x="10.0" y="-17.0"/>
+      <point x="-71.0" y="-45.0"/>
+      <point x="-132.0" y="-75.0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

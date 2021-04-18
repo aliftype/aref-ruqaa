@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dammainverted-ar" format="2">
+  <outline>
+    <component base="damma-ar" xScale="-1.0" yScale="-1.0" xOffset="42.9688" yOffset="105.957"/>
+  </outline>
+</glyph>

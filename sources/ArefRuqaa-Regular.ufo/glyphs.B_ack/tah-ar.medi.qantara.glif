@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tah-ar.medi.qantara" format="2">
+  <advance width="489"/>
+  <outline>
+    <component base="tah-ar.init.qantara"/>
+  </outline>
+</glyph>

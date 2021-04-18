@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sad-ar.medi.heh" format="2">
+  <advance width="574"/>
+  <anchor x="0.0" y="0.0" name="exit"/>
+  <anchor x="483.0" y="-88.0" name="entry"/>
+  <anchor x="527.0" y="-44.0" name="bottom.mark"/>
+  <anchor x="743.0" y="655.0" name="top"/>
+  <anchor x="751.0" y="681.0" name="top.mark"/>
+  <outline>
+    <component base="sad-ar.init.heh"/>
+  </outline>
+</glyph>

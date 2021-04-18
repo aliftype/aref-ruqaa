@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="meem-ar.medi" format="2">
+  <advance width="405"/>
+  <anchor x="215.0" y="207.0" name="entry"/>
+  <anchor x="0.0" y="0.0" name="exit"/>
+  <anchor x="185.0" y="-92.0" name="bottom"/>
+  <anchor x="202.0" y="439.0" name="top"/>
+  <anchor x="244.0" y="-117.0" name="bottom.mark"/>
+  <anchor x="281.0" y="514.0" name="top.mark"/>
+  <outline>
+    <component base="meem-ar.init"/>
+  </outline>
+</glyph>

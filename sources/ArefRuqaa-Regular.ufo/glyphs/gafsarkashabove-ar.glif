@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gafsarkashabove-ar" format="2">
+  <anchor x="0.0" y="195.0" name="top.mkmk"/>
+  <anchor x="0.0" y="0.0" name="_top.gaf"/>
+  <outline>
+    <contour>
+      <point x="-132.0" y="-58.0" type="line"/>
+      <point x="168.0" y="114.0" type="line"/>
+      <point x="137.0" y="62.0" type="line"/>
+      <point x="-163.0" y="-110.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

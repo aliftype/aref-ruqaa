@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="meem-ar.init.reh" format="2">
+  <advance width="448"/>
+  <anchor x="0.0" y="0.0" name="exit"/>
+  <anchor x="316.0" y="-79.0" name="bottom.mark"/>
+  <anchor x="316.0" y="545.0" name="top.mark"/>
+  <outline>
+    <contour>
+      <point x="283.0" y="128.0" type="curve" smooth="yes"/>
+      <point x="206.0" y="89.0"/>
+      <point x="95.0" y="69.0"/>
+      <point x="35.0" y="14.0" type="curve"/>
+      <point x="34.0" y="13.0" type="line"/>
+      <point x="23.0" y="-4.0"/>
+      <point x="13.0" y="-6.0"/>
+      <point x="4.0" y="7.0" type="curve" smooth="yes"/>
+      <point x="-5.0" y="20.0"/>
+      <point x="-1.0" y="36.0"/>
+      <point x="14.0" y="54.0" type="curve"/>
+      <point x="14.0" y="55.0" type="line"/>
+      <point x="27.0" y="82.0"/>
+      <point x="31.0" y="111.0"/>
+      <point x="46.0" y="135.0" type="curve" smooth="yes"/>
+      <point x="63.0" y="162.0"/>
+      <point x="130.0" y="185.0"/>
+      <point x="160.0" y="194.0" type="curve" smooth="yes"/>
+      <point x="181.0" y="200.0"/>
+      <point x="208.0" y="208.0"/>
+      <point x="239.0" y="219.0" type="curve"/>
+      <point x="248.0" y="238.0"/>
+      <point x="260.0" y="267.0"/>
+      <point x="277.0" y="304.0" type="curve" smooth="yes"/>
+      <point x="294.0" y="341.0"/>
+      <point x="310.0" y="359.0"/>
+      <point x="328.0" y="359.0" type="curve"/>
+      <point x="340.0" y="363.0"/>
+      <point x="362.0" y="365.0"/>
+      <point x="393.0" y="364.0" type="curve" smooth="yes"/>
+      <point x="424.0" y="363.0"/>
+      <point x="437.0" y="349.0"/>
+      <point x="432.0" y="324.0" type="curve" smooth="yes"/>
+      <point x="417.0" y="251.0"/>
+      <point x="410.0" y="240.0"/>
+      <point x="373.0" y="195.0" type="curve" smooth="yes"/>
+      <point x="353.0" y="171.0"/>
+      <point x="323.0" y="148.0"/>
+    </contour>
+  </outline>
+</glyph>

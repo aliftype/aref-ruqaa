@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gafsarkashabove-ar" format="2">
+  <outline>
+    <contour>
+      <point x="-131.8359375" y="-58.10546875" type="line"/>
+      <point x="167.96875" y="113.76953125" type="line"/>
+      <point x="137.20703125" y="62.01171875" type="line"/>
+      <point x="-162.59765625" y="-109.86328125" type="line"/>
+    </contour>
+  </outline>
+</glyph>

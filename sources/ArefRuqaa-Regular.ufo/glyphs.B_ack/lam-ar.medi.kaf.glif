@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam-ar.medi.kaf" format="2">
+  <advance width="305"/>
+  <outline>
+    <contour>
+      <point x="376.953125" y="109.375" type="line"/>
+      <point x="305.6640625" y="0.0" type="line"/>
+      <point x="296.38671875" y="131.34765625" type="line"/>
+      <point x="243.65234375" y="53.7109375"/>
+      <point x="193.359375" y="40.52734375"/>
+      <point x="143.06640625" y="27.34375"/>
+      <point x="0.0" y="0.0" type="qcurve"/>
+      <point x="21.97265625" y="129.39453125" type="line"/>
+      <point x="243.65234375" y="158.69140625"/>
+      <point x="291.9921875" y="183.59375" type="qcurve"/>
+      <point x="273.4375" y="432.6171875" type="line"/>
+      <point x="272.94921875" y="441.40625" type="line"/>
+      <point x="346.19140625" y="563.96484375" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="six-persian.dnom" format="2">
+  <advance height="699" width="265"/>
+  <outline>
+    <component base="six-persian" xScale="0.7" yScale="0.7" xOffset="-34.0"/>
+  </outline>
+</glyph>

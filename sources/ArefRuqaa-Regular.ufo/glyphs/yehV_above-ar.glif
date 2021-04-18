@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehVabove-ar" format="2">
+  <advance width="615"/>
+  <unicode hex="06CE"/>
+  <outline>
+    <component base="vabove-ar" xOffset="321.0" yOffset="681.0"/>
+    <component base="alefMaksura-ar"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
+</glyph>

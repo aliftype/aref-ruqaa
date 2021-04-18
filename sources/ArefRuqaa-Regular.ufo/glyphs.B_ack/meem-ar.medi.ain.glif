@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="meem-ar.medi.ain" format="2">
+  <advance width="400"/>
+  <outline>
+    <contour>
+      <point x="239.2578125" y="20.99609375" type="line"/>
+      <point x="144.04296875" y="-5.859375"/>
+      <point x="56.15234375" y="1.953125" type="qcurve" smooth="yes"/>
+      <point x="35.15625" y="3.90625"/>
+      <point x="18.06640625" y="15.13671875"/>
+      <point x="0.9765625" y="26.3671875"/>
+      <point x="0.0" y="48.33984375" type="qcurve"/>
+      <point x="19.04296875" y="123.046875"/>
+      <point x="39.0625" y="175.78125" type="qcurve"/>
+      <point x="48.33984375" y="143.5546875"/>
+      <point x="90.8203125" y="133.30078125" type="qcurve" smooth="yes"/>
+      <point x="133.7890625" y="123.046875"/>
+      <point x="193.84765625" y="132.8125"/>
+      <point x="253.90625" y="142.578125"/>
+      <point x="300.78125" y="154.78515625" type="qcurve"/>
+      <point x="300.78125" y="154.78515625" type="line"/>
+      <point x="332.03125" y="163.57421875" type="line"/>
+      <point x="345.21484375" y="192.3828125"/>
+      <point x="370.1171875" y="248.046875"/>
+      <point x="395.01953125" y="303.7109375"/>
+      <point x="421.38671875" y="303.7109375" type="qcurve"/>
+      <point x="439.453125" y="309.5703125"/>
+      <point x="485.83984375" y="307.6171875"/>
+      <point x="532.2265625" y="305.6640625"/>
+      <point x="524.90234375" y="268.06640625" type="qcurve" smooth="yes"/>
+      <point x="513.18359375" y="210.9375"/>
+      <point x="501.220703125" y="189.453125"/>
+      <point x="489.2578125" y="167.96875"/>
+      <point x="465.8203125" y="138.671875" type="qcurve" smooth="yes"/>
+      <point x="437.5" y="103.515625"/>
+      <point x="375.9765625" y="72.265625" type="qcurve" smooth="yes"/>
+      <point x="319.3359375" y="43.45703125"/>
+      <point x="239.2578125" y="20.5078125" type="qcurve"/>
+      <point x="239.2578125" y="20.5078125" type="line"/>
+    </contour>
+  </outline>
+</glyph>

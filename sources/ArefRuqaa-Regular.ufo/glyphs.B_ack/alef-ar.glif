@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alef-ar" format="2">
+  <advance width="248"/>
+  <outline>
+    <contour>
+      <point x="73.2421875" y="568.84765625" type="line"/>
+      <point x="146.97265625" y="686.03515625" type="line"/>
+      <point x="175.29296875" y="261.23046875" type="line"/>
+      <point x="101.5625" y="144.04296875" type="line"/>
+    </contour>
+  </outline>
+</glyph>

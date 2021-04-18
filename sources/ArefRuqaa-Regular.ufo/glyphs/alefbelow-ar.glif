@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefbelow-ar" format="2">
+  <unicode hex="0656"/>
+  <anchor x="0.0" y="98.0" name="_bottom.mkmk"/>
+  <anchor x="0.0" y="98.0" name="_bottom.mark"/>
+  <outline>
+    <component base="alefabove-ar"/>
+  </outline>
+</glyph>

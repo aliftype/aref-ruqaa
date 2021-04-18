@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four-persian.urd" format="2">
+  <advance width="398"/>
+  <outline>
+    <contour>
+      <point x="263.0" y="346.0" type="line" smooth="yes"/>
+      <point x="260.0" y="343.0"/>
+      <point x="257.0" y="340.0"/>
+      <point x="254.0" y="341.0" type="curve" smooth="yes"/>
+      <point x="213.0" y="353.0"/>
+      <point x="132.0" y="525.0"/>
+      <point x="81.0" y="454.0" type="curve"/>
+      <point x="110.0" y="382.0"/>
+      <point x="164.0" y="298.0"/>
+      <point x="186.0" y="219.0" type="curve"/>
+      <point x="195.0" y="141.0"/>
+      <point x="164.0" y="78.0"/>
+      <point x="147.0" y="14.0" type="curve" smooth="yes"/>
+      <point x="146.0" y="9.0"/>
+      <point x="143.0" y="4.0"/>
+      <point x="137.0" y="-0.0" type="curve"/>
+      <point x="149.0" y="107.0"/>
+      <point x="98.0" y="208.0"/>
+      <point x="59.0" y="274.0" type="curve" smooth="yes"/>
+      <point x="7.0" y="363.0"/>
+      <point x="15.0" y="575.0"/>
+      <point x="128.0" y="588.0" type="curve" smooth="yes"/>
+      <point x="158.0" y="591.0"/>
+      <point x="200.0" y="532.0"/>
+      <point x="237.0" y="483.0" type="curve"/>
+      <point x="271.0" y="579.0" type="line"/>
+      <point x="374.0" y="614.0" type="line"/>
+      <point x="333.0" y="485.0"/>
+      <point x="284.0" y="377.0"/>
+      <point x="263.0" y="347.0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="362.0" y="613.0" type="move" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

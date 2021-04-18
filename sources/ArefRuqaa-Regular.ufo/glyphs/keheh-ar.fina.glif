@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="keheh-ar.fina" format="2">
+  <advance width="511"/>
+  <anchor x="694.0" y="914.0" name="top.gaf"/>
+  <anchor x="242.0" y="-105.0" name="bottom"/>
+  <anchor x="272.0" y="-158.0" name="bottom.mark"/>
+  <anchor x="512.0" y="0.0" name="entry"/>
+  <anchor x="677.0" y="967.0" name="top.mark"/>
+  <anchor x="694.0" y="914.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="581.0" y="138.0" type="curve"/>
+      <point x="511.0" y="0.0" type="line"/>
+      <point x="500.0" y="174.0" type="line"/>
+      <point x="420.0" y="56.0"/>
+      <point x="163.0" y="-63.0"/>
+      <point x="49.0" y="38.0" type="curve" smooth="yes"/>
+      <point x="-3.0" y="84.0"/>
+      <point x="-42.0" y="170.0"/>
+      <point x="87.0" y="368.0" type="curve" smooth="yes"/>
+      <point x="92.0" y="376.0"/>
+      <point x="99.0" y="381.0"/>
+      <point x="110.0" y="384.0" type="curve"/>
+      <point x="90.0" y="348.0"/>
+      <point x="63.0" y="306.0"/>
+      <point x="62.0" y="253.0" type="curve" smooth="yes"/>
+      <point x="56.0" y="23.0"/>
+      <point x="442.0" y="193.0"/>
+      <point x="494.0" y="226.0" type="curve"/>
+      <point x="488.0" y="328.0"/>
+      <point x="482.0" y="424.0"/>
+      <point x="475.0" y="524.0" type="curve"/>
+      <point x="535.0" y="620.0" type="line"/>
+      <point x="567.0" y="736.0" type="line"/>
+      <point x="675.0" y="799.0"/>
+      <point x="783.0" y="862.0"/>
+      <point x="891.0" y="925.0" type="curve" smooth="yes"/>
+      <point x="896.0" y="927.0"/>
+      <point x="903.0" y="925.0"/>
+      <point x="902.0" y="919.0" type="curve" smooth="yes"/>
+      <point x="869.0" y="802.0" type="line"/>
+      <point x="763.0" y="740.0"/>
+      <point x="656.0" y="678.0"/>
+      <point x="550.0" y="616.0" type="curve"/>
+      <point x="560.0" y="458.0"/>
+      <point x="570.0" y="296.0"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotabove-ar" format="2">
+  <anchor x="2.0" y="195.0" name="top.mkmk"/>
+  <anchor x="0.0" y="0.0" name="_top"/>
+  <outline>
+    <contour>
+      <point x="79.0" y="13.0" type="line"/>
+      <point x="52.0" y="-22.0"/>
+      <point x="25.0" y="-56.0"/>
+      <point x="-3.0" y="-90.0" type="curve"/>
+      <point x="-74.0" y="-24.0" type="line"/>
+      <point x="-47.0" y="10.0"/>
+      <point x="-19.0" y="45.0"/>
+      <point x="8.0" y="79.0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

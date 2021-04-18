@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tah-ar.medi.reh" format="2">
+  <advance width="213"/>
+  <outline>
+    <component base="tah-ar.init.reh"/>
+  </outline>
+</glyph>

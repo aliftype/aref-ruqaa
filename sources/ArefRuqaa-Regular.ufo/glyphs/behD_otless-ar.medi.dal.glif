@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="behDotless-ar.medi.dal" format="2">
+  <advance width="228"/>
+  <anchor x="0.0" y="0.0" name="exit"/>
+  <anchor x="193.0" y="-171.0" name="bottom"/>
+  <anchor x="202.0" y="-171.0" name="bottom.mark"/>
+  <anchor x="233.0" y="18.0" name="entry"/>
+  <anchor x="242.0" y="387.0" name="top"/>
+  <anchor x="281.0" y="435.0" name="top.mark"/>
+  <outline>
+    <contour>
+      <point x="226.0" y="35.0" type="curve"/>
+      <point x="196.0" y="23.0"/>
+      <point x="82.0" y="-14.0"/>
+      <point x="40.0" y="6.0" type="curve" smooth="yes"/>
+      <point x="-27.0" y="39.0"/>
+      <point x="1.0" y="150.0"/>
+      <point x="47.0" y="203.0" type="curve" smooth="yes"/>
+      <point x="53.0" y="210.0"/>
+      <point x="52.0" y="209.0"/>
+      <point x="52.0" y="202.0" type="curve" smooth="yes"/>
+      <point x="52.0" y="172.0"/>
+      <point x="60.0" y="139.0"/>
+      <point x="86.0" y="132.0" type="curve" smooth="yes"/>
+      <point x="135.0" y="120.0"/>
+      <point x="246.0" y="146.0"/>
+      <point x="275.0" y="162.0" type="curve" smooth="yes"/>
+      <point x="294.0" y="173.0"/>
+      <point x="309.0" y="190.0"/>
+      <point x="317.0" y="211.0" type="curve" smooth="yes"/>
+      <point x="324.0" y="221.0"/>
+      <point x="323.0" y="200.0"/>
+      <point x="321.0" y="197.0" type="curve" smooth="yes"/>
+      <point x="308.0" y="154.0"/>
+      <point x="274.0" y="86.0"/>
+      <point x="242.0" y="26.0" type="curve" smooth="yes"/>
+      <point x="235.0" y="14.0"/>
+      <point x="219.0" y="12.0"/>
+    </contour>
+  </outline>
+</glyph>

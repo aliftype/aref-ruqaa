@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kaf-ar.medi" format="2">
+  <advance width="259"/>
+  <outline>
+    <contour>
+      <point x="214.35546875" y="500.9765625" type="line"/>
+      <point x="279.296875" y="608.88671875" type="line"/>
+      <point x="301.7578125" y="689.94140625" type="line"/>
+      <point x="382.32421875" y="736.81640625"/>
+      <point x="454.833984375" y="777.34375"/>
+      <point x="527.34375" y="817.87109375"/>
+      <point x="608.3984375" y="865.234375" type="qcurve" smooth="yes"/>
+      <point x="612.79296875" y="867.67578125"/>
+      <point x="615.72265625" y="867.67578125" type="qcurve" smooth="yes"/>
+      <point x="619.62890625" y="867.67578125"/>
+      <point x="619.62890625" y="862.79296875" type="qcurve" smooth="yes"/>
+      <point x="619.62890625" y="860.83984375"/>
+      <point x="619.140625" y="858.88671875" type="qcurve" smooth="yes"/>
+      <point x="586.42578125" y="742.1875" type="line"/>
+      <point x="508.7890625" y="696.77734375"/>
+      <point x="438.96484375" y="657.470703125"/>
+      <point x="369.140625" y="618.1640625"/>
+      <point x="292.48046875" y="573.73046875" type="qcurve"/>
+      <point x="330.078125" y="113.28125" type="line"/>
+      <point x="259.27734375" y="0.0" type="line"/>
+      <point x="249.51171875" y="125.0" type="line"/>
+      <point x="196.77734375" y="47.36328125"/>
+      <point x="139.892578125" y="32.958984375"/>
+      <point x="83.0078125" y="18.5546875"/>
+      <point x="0.0" y="0.0" type="qcurve"/>
+      <point x="21.97265625" y="128.41796875" type="line"/>
+      <point x="197.265625" y="152.34375"/>
+      <point x="245.60546875" y="177.24609375" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

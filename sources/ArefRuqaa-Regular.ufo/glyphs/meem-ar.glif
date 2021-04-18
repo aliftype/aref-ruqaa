@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="meem-ar" format="2">
+  <advance width="505"/>
+  <unicode hex="0645"/>
+  <anchor x="166.0" y="586.0" name="top"/>
+  <anchor x="225.0" y="625.0" name="top.mark"/>
+  <anchor x="299.0" y="-9.0" name="bottom"/>
+  <anchor x="317.0" y="-24.0" name="bottom.mark"/>
+  <outline>
+    <contour>
+      <point x="475.0" y="468.0" type="curve" smooth="yes"/>
+      <point x="451.0" y="350.0"/>
+      <point x="405.0" y="303.0"/>
+      <point x="309.0" y="254.0" type="curve" smooth="yes"/>
+      <point x="244.0" y="221.0"/>
+      <point x="153.0" y="212.0"/>
+      <point x="88.0" y="177.0" type="curve" smooth="yes"/>
+      <point x="62.0" y="163.0"/>
+      <point x="31.0" y="145.0"/>
+      <point x="38.0" y="102.0" type="curve" smooth="yes"/>
+      <point x="80.0" y="-159.0" type="line" smooth="yes"/>
+      <point x="88.0" y="-225.0"/>
+      <point x="82.0" y="-302.0"/>
+      <point x="66.0" y="-358.0" type="curve"/>
+      <point x="47.0" y="-218.0"/>
+      <point x="4.0" y="-94.0"/>
+      <point x="3.0" y="52.0" type="curve" smooth="yes"/>
+      <point x="3.0" y="125.0"/>
+      <point x="19.0" y="196.0"/>
+      <point x="44.0" y="252.0" type="curve"/>
+      <point x="78.0" y="304.0"/>
+      <point x="138.0" y="323.0"/>
+      <point x="211.0" y="343.0" type="curve" smooth="yes"/>
+      <point x="281.0" y="361.0" type="line"/>
+      <point x="333.0" y="476.0"/>
+      <point x="336.0" y="477.0"/>
+      <point x="354.0" y="494.0" type="curve" smooth="yes"/>
+      <point x="376.0" y="514.0"/>
+      <point x="422.0" y="505.0"/>
+      <point x="458.0" y="501.0" type="curve" smooth="yes"/>
+      <point x="477.0" y="499.0"/>
+      <point x="478.0" y="481.0"/>
+    </contour>
+  </outline>
+</glyph>
