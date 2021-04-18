@@ -76,7 +76,7 @@ def build(args):
                 lines.append(line)
         lines.append(f"}} {lookup};")
 
-    font.features.text += "\n".join(lines)
+    font.features.text = "\n".join(lines)
 
     # Read external feature file.
     with open(args.feature_file) as feature_file:
