@@ -26,7 +26,7 @@ fontmake==2.4.0
     # via -r requirements.in
 fontmath==0.6.0
     # via fontmake
-fonttools[lxml,ufo,unicode]==4.21.1
+fonttools[lxml,ufo,unicode]==4.22.0
     # via
     #   -r requirements.in
     #   booleanoperations
@@ -50,7 +50,7 @@ pytz==2021.1
     # via fs
 six==1.15.0
     # via fs
-ufo2ft[compreffor]==2.20.0
+ufo2ft[compreffor]==2.21.0
     # via fontmake
 ufolib2==0.11.1
     # via
