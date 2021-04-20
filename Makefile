@@ -26,10 +26,10 @@ $(BLDDIR)/$(LATIN)-%.ttf: $(SRCDIR)/$(LATIN)-%.ufo
 	mkdir -p $(BLDDIR)
 	$(PY) -m fontmake --verbose WARNING --flatten-components -u $< -o ttf --output-path $@
 
-$(BLDDIR)/$(NAME)-%.ttf: $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(NAME).fea
+$(BLDDIR)/$(NAME)-%.ttf: $(SRCDIR)/$(NAME).glyphs
 	echo "   BUILD  $(@F)"
 	mkdir -p $(BLDDIR)
-	$(PY) build.py --version=$(VERSION) --out-file=$@ --feature-file=$(word 2,$+) $<
+	$(PY) build.py --version=$(VERSION) --master=$* --out-file=$@ $<
 
 $(NAME)-%.ttf: $(BLDDIR)/$(NAME)-%.ttf $(BLDDIR)/$(LATIN)-%.ttf
 	echo "   MERGE  $@"

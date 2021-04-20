@@ -5,7 +5,8 @@ from datetime import datetime
 
 from ufo2ft import compileTTF
 
-from ufoLib2 import Font
+from glyphsLib import GSFont
+from glyphsLib.builder.builders import UFOBuilder
 
 from fontTools.misc.fixedTools import otRound
 
@@ -17,7 +18,17 @@ def _dumpAnchor(anchor):
 
 
 def build(args):
-    font = Font(args.file, validate=False)
+    glyphs = GSFont(args.file)
+
+    builder = UFOBuilder(
+        glyphs,
+        propagate_anchors=False,
+        write_skipexportglyphs=True,
+        store_editor_state=False,
+    )
+    for master in builder.masters:
+        if master.info.styleName == args.master:
+            font = master
 
     lookups = {}
     lines = []
@@ -43,7 +54,9 @@ def build(args):
         if lookup == "curs":
             lines.append("lookupflag RightToLeft IgnoreMarks;")
             for glyph, (entry, exit_) in lookups[lookup].items():
-                lines.append(f"pos cursive {glyph} {_dumpAnchor(entry)} {_dumpAnchor(exit_)};")
+                lines.append(
+                    f"pos cursive {glyph} {_dumpAnchor(entry)} {_dumpAnchor(exit_)};"
+                )
         else:
             type_ = "base"
             if lookup.startswith("mkmk"):
@@ -54,7 +67,9 @@ def build(args):
                 for anchor in anchors:
                     if not anchor.name.startswith("_"):
                         continue
-                    lines.append(f"markClass {glyph} {_dumpAnchor(anchor)} @{anchor.name[1:]};")
+                    lines.append(
+                        f"markClass {glyph} {_dumpAnchor(anchor)} @{anchor.name[1:]};"
+                    )
             for glyph, anchors in lookups[lookup].items():
                 if all([a.name.startswith("_") for a in anchors]):
                     continue
@@ -67,11 +82,7 @@ def build(args):
                 lines.append(line)
         lines.append(f"}} {lookup};")
 
-    font.features.text = "\n".join(lines)
-
-    # Read external feature file.
-    with open(args.feature_file) as feature_file:
-        font.features.text += feature_file.read()
+    font.features.text = "\n".join(lines) + "\n" + font.features.text
 
     # Set metadata
     info = font.info
@@ -80,7 +91,9 @@ def build(args):
     info.versionMajor, info.versionMinor = int(major), int(minor)
     info.copyright = info.copyright.format(year=datetime.now().year)
 
-    compileTTF(font, inplace=True, flattenComponents=True).save(args.out_file)
+    compileTTF(
+        font, inplace=True, flattenComponents=True, useProductionNames=False
+    ).save(args.out_file)
 
 
 def main():
@@ -90,7 +103,7 @@ def main():
         "--out-file", metavar="FILE", help="output font to write", required=True
     )
     parser.add_argument(
-        "--feature-file", metavar="FILE", help="input feature file", required=True
+        "--master", metavar="NAME", help="name of the master to build", required=True
     )
     parser.add_argument(
         "--version", metavar="version", help="version number", required=True

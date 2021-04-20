@@ -41,7 +41,9 @@ fonttools[lxml,ufo,unicode]==4.22.0
 fs==2.4.13
     # via fonttools
 glyphslib==5.3.2
-    # via fontmake
+    # via
+    #   -r requirements.in
+    #   fontmake
 lxml==4.6.3
     # via fonttools
 pyclipper==1.2.1
