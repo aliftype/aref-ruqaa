@@ -21,10 +21,10 @@ export FONTTOOLS_LOOKUP_DEBUGGING := 1
 
 all: $(OTF)
 
-$(BLDDIR)/$(LATIN)-%.ttf: $(SRCDIR)/$(LATIN)-%.ufo
+$(BLDDIR)/$(LATIN)-%.ttf: $(SRCDIR)/$(LATIN).glyphs
 	echo "   BUILD  $(@F)"
 	mkdir -p $(BLDDIR)
-	$(PY) -m fontmake --verbose WARNING --flatten-components -u $< -o ttf --output-path $@
+	$(PY) -m fontmake --verbose WARNING --flatten-components -g $< -i ".* $*" -o ttf --output-path $@ --master-dir="{tmp}" --instance-dir="{tmp}"
 
 $(BLDDIR)/$(NAME)-%.ttf: $(SRCDIR)/$(NAME).glyphs
 	echo "   BUILD  $(@F)"
