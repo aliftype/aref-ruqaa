@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="four-persian.dnom" format="2">
-  <advance height="699" width="265"/>
-  <outline>
-    <component base="four-persian" xScale="0.7" yScale="0.7" xOffset="-12.0"/>
-  </outline>
-</glyph>

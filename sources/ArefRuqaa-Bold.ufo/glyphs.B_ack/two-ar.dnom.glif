@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="two-ar.dnom" format="2">
-  <advance width="265"/>
-  <outline>
-    <component base="two-ar" xScale="0.7" yScale="0.7" xOffset="32.7635"/>
-  </outline>
-</glyph>

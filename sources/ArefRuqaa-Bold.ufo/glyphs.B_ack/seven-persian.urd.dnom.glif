@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="seven-persian.urd.dnom" format="2">
-  <advance width="265"/>
-  <outline>
-    <component base="seven-persian.urd" xScale="0.7" yScale="0.7" xOffset="-57.9834"/>
-  </outline>
-</glyph>

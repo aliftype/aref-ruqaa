@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="two-persian.dnom" format="2">
-  <advance width="265"/>
-  <outline>
-    <component base="two-persian" xScale="0.7" yScale="0.7" xOffset="-4.7261"/>
-  </outline>
-</glyph>

@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="alefabove-ar.isol" format="2">
-  <advance width="121"/>
-  <outline>
-    <component base="alefabove-ar" xOffset="90.0" yOffset="480.0"/>
-  </outline>
-</glyph>

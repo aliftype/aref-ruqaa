@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="tah-ar.medi.sad" format="2">
-  <advance width="501"/>
-  <outline>
-    <component base="tah-ar.init.sad"/>
-  </outline>
-</glyph>

@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="hamzabelow-ar" format="2">
-  <unicode hex="0655"/>
-  <anchor x="0.0" y="-192.0" name="bottom.mkmk"/>
-  <anchor x="0.0" y="0.0" name="_bottom"/>
-  <outline>
-    <component base="hamzaabove-ar"/>
-  </outline>
-</glyph>

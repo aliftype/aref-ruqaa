@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="dotbelow-ar" format="2">
-  <anchor x="0.0" y="-249.0" name="bottom.mkmk"/>
-  <anchor x="0.0" y="0.0" name="_bottom"/>
-  <outline>
-    <component base="dotabove-ar"/>
-  </outline>
-</glyph>

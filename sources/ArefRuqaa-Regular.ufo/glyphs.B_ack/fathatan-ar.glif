@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="fathatan-ar" format="2">
-  <outline>
-    <component base="fatha-ar" yOffset="2.92969"/>
-    <component base="fatha-ar" yOffset="68.3594"/>
-  </outline>
-</glyph>

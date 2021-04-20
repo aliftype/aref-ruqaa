@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="meem-ar.medi" format="2">
-  <advance width="405"/>
-  <outline>
-    <component base="meem-ar.init"/>
-  </outline>
-</glyph>
