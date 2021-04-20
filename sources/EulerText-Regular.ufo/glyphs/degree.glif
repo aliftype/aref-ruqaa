@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="degree" format="2">
-  <advance width="332"/>
-  <unicode hex="00B0"/>
-  <outline>
-    <component base="uni030A" xOffset="166"/>
-  </outline>
-</glyph>
