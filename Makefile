@@ -2,7 +2,6 @@ NAME=ArefRuqaa
 VERSION=1.003
 LATIN=EulerText
 
-SRCDIR=sources
 BLDDIR=build
 DIST=$(NAME)-$(VERSION)
 
@@ -21,12 +20,12 @@ export FONTTOOLS_LOOKUP_DEBUGGING := 1
 
 all: $(OTF)
 
-$(BLDDIR)/$(LATIN)-%.ttf: $(SRCDIR)/$(LATIN).glyphs
+$(BLDDIR)/$(LATIN)-%.ttf: $(LATIN).glyphs
 	echo "   BUILD  $(@F)"
 	mkdir -p $(BLDDIR)
 	$(PY) -m fontmake --verbose WARNING --flatten-components -g $< -i ".* $*" -o ttf --output-path $@ --master-dir="{tmp}" --instance-dir="{tmp}"
 
-$(BLDDIR)/$(NAME)-%.ttf: $(SRCDIR)/$(NAME).glyphs
+$(BLDDIR)/$(NAME)-%.ttf: $(NAME).glyphs
 	echo "   BUILD  $(@F)"
 	mkdir -p $(BLDDIR)
 	$(PY) build.py --version=$(VERSION) --master=$* --out-file=$@ $<
