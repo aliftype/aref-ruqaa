@@ -5,6 +5,343 @@ classes = (
 automatic = 1;
 code = "hamza-ar highhamza-ar alef-ar alef-ar.fina alef-ar.fina.lam alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar alefWasla-ar behDotless-ar behDotless-ar.jalt behDotless-ar.fina behDotless-ar.fina.jalt behDotless-ar.medi behDotless-ar.medi.ain behDotless-ar.medi.dal behDotless-ar.medi.feh behDotless-ar.medi.hah behDotless-ar.medi.heh behDotless-ar.medi.high behDotless-ar.medi.high2 behDotless-ar.medi.meem behDotless-ar.medi.noon behDotless-ar.medi.ragaa behDotless-ar.medi.reh behDotless-ar.medi.sad behDotless-ar.medi.yeh behDotless-ar.init behDotless-ar.init.ain behDotless-ar.init.ascend behDotless-ar.init.dal behDotless-ar.init.feh behDotless-ar.init.hah behDotless-ar.init.heh behDotless-ar.init.meem behDotless-ar.init.ragaa behDotless-ar.init.reh behDotless-ar.init.sad behDotless-ar.init.yeh beh-ar peh-ar teh-ar theh-ar tteh-ar jeem-ar tcheh-ar hah-ar hah-ar.fina hah-ar.medi hah-ar.medi.ain hah-ar.medi.dal hah-ar.medi.feh hah-ar.medi.hah hah-ar.medi.heh hah-ar.medi.heh.ragaa hah-ar.medi.meem hah-ar.medi.ragaa hah-ar.medi.reh hah-ar.medi.sad hah-ar.medi.yeh hah-ar.init hah-ar.init.ain hah-ar.init.dal hah-ar.init.feh hah-ar.init.hah hah-ar.init.heh hah-ar.init.heh.ragaa hah-ar.init.meem hah-ar.init.ragaa hah-ar.init.reh hah-ar.init.sad hah-ar.init.yeh khah-ar dal-ar dal-ar.fina thal-ar ddal-ar dul-ar reh-ar reh-ar.fina zain-ar rreh-ar rehVbelow-ar jeh-ar seen-ar seen-ar.jalt seen-ar.fina seen-ar.fina.jalt seen-ar.medi seen-ar.medi.ain seen-ar.medi.dal seen-ar.medi.feh seen-ar.medi.hah seen-ar.medi.heh seen-ar.medi.meem seen-ar.medi.ragaa seen-ar.medi.reh seen-ar.medi.sad seen-ar.medi.yeh seen-ar.init seen-ar.init.ain seen-ar.init.dal seen-ar.init.feh seen-ar.init.hah seen-ar.init.heh seen-ar.init.meem seen-ar.init.ragaa seen-ar.init.reh seen-ar.init.sad seen-ar.init.yeh sheen-ar sad-ar sad-ar.jalt sad-ar.fina sad-ar.fina.jalt sad-ar.medi sad-ar.medi.ain sad-ar.medi.dal sad-ar.medi.feh sad-ar.medi.hah sad-ar.medi.heh sad-ar.medi.meem sad-ar.medi.postsad sad-ar.medi.qantara sad-ar.medi.ragaa sad-ar.medi.reh sad-ar.medi.sad sad-ar.medi.yeh sad-ar.init sad-ar.init.ain sad-ar.init.dal sad-ar.init.feh sad-ar.init.hah sad-ar.init.heh sad-ar.init.meem sad-ar.init.qantara sad-ar.init.ragaa sad-ar.init.reh sad-ar.init.sad sad-ar.init.yeh dad-ar tah-ar tah-ar.fina tah-ar.medi tah-ar.medi.ain tah-ar.medi.dal tah-ar.medi.feh tah-ar.medi.hah tah-ar.medi.heh tah-ar.medi.kaf tah-ar.medi.meem tah-ar.medi.postsad tah-ar.medi.qantara tah-ar.medi.ragaa tah-ar.medi.reh tah-ar.medi.sad tah-ar.medi.yeh tah-ar.init tah-ar.init.ain tah-ar.init.dal tah-ar.init.feh tah-ar.init.hah tah-ar.init.heh tah-ar.init.kaf tah-ar.init.meem tah-ar.init.qantara tah-ar.init.ragaa tah-ar.init.reh tah-ar.init.sad tah-ar.init.yeh zah-ar ain-ar ain-ar.fina ain-ar.medi ain-ar.medi.ain ain-ar.medi.dal ain-ar.medi.feh ain-ar.medi.hah ain-ar.medi.heh ain-ar.medi.meem ain-ar.medi.ragaa ain-ar.medi.reh ain-ar.medi.sad ain-ar.medi.yeh ain-ar.init ain-ar.init.ain ain-ar.init.dal ain-ar.init.feh ain-ar.init.hah ain-ar.init.heh ain-ar.init.meem ain-ar.init.ragaa ain-ar.init.reh ain-ar.init.sad ain-ar.init.yeh ainThreedots-ar ghain-ar feh-ar veh-ar fehDotless-ar fehDotless-ar.jalt fehDotless-ar.fina fehDotless-ar.fina.jalt fehDotless-ar.medi fehDotless-ar.medi.ain fehDotless-ar.medi.dal fehDotless-ar.medi.feh fehDotless-ar.medi.hah fehDotless-ar.medi.heh fehDotless-ar.medi.meem fehDotless-ar.medi.ragaa fehDotless-ar.medi.reh fehDotless-ar.medi.sad fehDotless-ar.medi.yeh fehDotless-ar.init fehDotless-ar.init.ain fehDotless-ar.init.dal fehDotless-ar.init.feh fehDotless-ar.init.hah fehDotless-ar.init.heh fehDotless-ar.init.meem fehDotless-ar.init.ragaa fehDotless-ar.init.reh fehDotless-ar.init.sad fehDotless-ar.init.yeh qafDotless-ar qafDotless-ar.jalt qafDotless-ar.fina qafDotless-ar.fina.jalt qaf-ar qaf-ar.fina kaf-ar kaf-ar.jalt kaf-ar.fina kaf-ar.fina.jalt kaf-ar.medi kaf-ar.medi.ain kaf-ar.medi.dal kaf-ar.medi.feh kaf-ar.medi.hah kaf-ar.medi.heh kaf-ar.medi.kaf kaf-ar.medi.meem kaf-ar.medi.ragaa kaf-ar.medi.reh kaf-ar.medi.sad kaf-ar.medi.yeh kaf-ar.init kaf-ar.init.ain kaf-ar.init.alef kaf-ar.init.alef.loop kaf-ar.init.dal kaf-ar.init.feh kaf-ar.init.hah kaf-ar.init.heh kaf-ar.init.meem kaf-ar.init.ragaa kaf-ar.init.reh kaf-ar.init.sad kaf-ar.init.yeh keheh-ar keheh-ar.jalt keheh-ar.fina keheh-ar.fina.jalt kehehDotabove-ar gaf-ar kafDotabove-ar lam-ar lam-ar.jalt lam-ar.fina lam-ar.fina.jalt lam-ar.medi lam-ar.medi.ain lam-ar.medi.alef lam-ar.medi.dal lam-ar.medi.feh lam-ar.medi.hah lam-ar.medi.heh lam-ar.medi.kaf lam-ar.medi.meem lam-ar.medi.ragaa lam-ar.medi.reh lam-ar.medi.sad lam-ar.medi.yeh lam-ar.init lam-ar.init.ain lam-ar.init.alef lam-ar.init.dal lam-ar.init.feh lam-ar.init.hah lam-ar.init.heh lam-ar.init.kaf lam-ar.init.meem lam-ar.init.ragaa lam-ar.init.reh lam-ar.init.sad lam-ar.init.yeh lamVabove-ar meem-ar meem-ar.fina meem-ar.medi meem-ar.medi.ain meem-ar.medi.dal meem-ar.medi.feh meem-ar.medi.hah meem-ar.medi.heh meem-ar.medi.meem meem-ar.medi.ragaa meem-ar.medi.reh meem-ar.medi.sad meem-ar.medi.yeh meem-ar.init meem-ar.init.ain meem-ar.init.dal meem-ar.init.feh meem-ar.init.hah meem-ar.init.heh meem-ar.init.meem meem-ar.init.ragaa meem-ar.init.reh meem-ar.init.sad meem-ar.init.yeh noon-ar noon-ar.tail noon-ar.fina noon-ar.fina.tail noonghunna-ar noonghunna-ar.jalt noonghunna-ar.fina rnoon-ar noonThreedotsabove-ar heh-ar heh-ar.fina heh-ar.medi heh-ar.medi.ain heh-ar.medi.dal heh-ar.medi.feh heh-ar.medi.hah heh-ar.medi.heh heh-ar.medi.meem heh-ar.medi.ragaa heh-ar.medi.reh heh-ar.medi.sad heh-ar.medi.yeh heh-ar.init heh-ar.init.ain heh-ar.init.dal heh-ar.init.feh heh-ar.init.hah heh-ar.init.heh heh-ar.init.meem heh-ar.init.ragaa heh-ar.init.reh heh-ar.init.sad heh-ar.init.yeh hehHamzaabove-ar hehgoal-ar hehgoal-ar.fina hehgoal-ar.init hehgoal-ar.init.ain hehgoal-ar.init.dal hehgoal-ar.init.feh hehgoal-ar.init.hah hehgoal-ar.init.heh hehgoal-ar.init.meem hehgoal-ar.init.ragaa hehgoal-ar.init.reh hehgoal-ar.init.sad hehgoal-ar.init.yeh hehDoachashmee-ar hehDoachashmee-ar.fina hehDoachashmee-ar.medi hehDoachashmee-ar.medi.ain hehDoachashmee-ar.medi.dal hehDoachashmee-ar.medi.feh hehDoachashmee-ar.medi.hah hehDoachashmee-ar.medi.heh hehDoachashmee-ar.medi.meem hehDoachashmee-ar.medi.ragaa hehDoachashmee-ar.medi.reh hehDoachashmee-ar.medi.sad hehDoachashmee-ar.medi.yeh tehMarbuta-ar waw-ar waw-ar.fina wawDotabove-ar wawHamzaabove-ar oe-ar alefMaksura-ar alefMaksura-ar.jalt alefMaksura-ar.fina alefMaksura-ar.fina.jalt alefMaksura-ar.fina.yeh alefMaksura-ar.fina.yeh.jalt yeh-ar yehHamzaabove-ar yehVabove-ar yeh-farsi yehbarree-ar yehbarree-ar.fina yehbarreeHamzaabove-ar ae-ar";
 name = ArabicLetters;
+},
+{
+code = "behDotless-ar.init
+hah-ar.init
+seen-ar.init
+sad-ar.init
+tah-ar.init
+ain-ar.init
+fehDotless-ar.init
+kaf-ar.init
+lam-ar.init
+meem-ar.init
+heh-ar.init
+";
+name = init;
+},
+{
+code = "behDotless-ar.medi
+hah-ar.medi
+seen-ar.medi
+sad-ar.medi
+tah-ar.medi
+ain-ar.medi
+fehDotless-ar.medi
+kaf-ar.medi
+lam-ar.medi
+meem-ar.medi
+hehDoachashmee-ar.medi
+";
+name = medi;
+},
+{
+code = "behDotless-ar.init
+behDotless-ar.medi
+hah-ar.init
+hah-ar.medi
+seen-ar.init
+seen-ar.medi
+sad-ar.init
+sad-ar.medi
+tah-ar.init
+tah-ar.medi
+ain-ar.init
+ain-ar.medi
+fehDotless-ar.init
+fehDotless-ar.medi
+kaf-ar.init
+kaf-ar.medi
+lam-ar.init
+lam-ar.medi
+meem-ar.init
+meem-ar.medi
+heh-ar.init
+hehDoachashmee-ar.medi
+heh-ar.medi
+hehgoal-ar.init
+";
+name = init_medi;
+},
+{
+code = "behDotless-ar.init.ain
+behDotless-ar.medi.ain
+hah-ar.init.ain
+hah-ar.medi.ain
+seen-ar.init.ain
+seen-ar.medi.ain
+sad-ar.init.ain
+sad-ar.medi.ain
+tah-ar.init.ain
+tah-ar.medi.ain
+ain-ar.init.ain
+ain-ar.medi.ain
+fehDotless-ar.init.ain
+fehDotless-ar.medi.ain
+kaf-ar.init.ain
+kaf-ar.medi.ain
+lam-ar.init.ain
+lam-ar.medi.ain
+meem-ar.init.ain
+meem-ar.medi.ain
+heh-ar.init.ain
+hehDoachashmee-ar.medi.ain
+heh-ar.medi.ain
+hehgoal-ar.init.ain
+";
+name = init_medi.ain;
+},
+{
+code = "behDotless-ar.init.dal
+behDotless-ar.medi.dal
+hah-ar.init.dal
+hah-ar.medi.dal
+seen-ar.init.dal
+seen-ar.medi.dal
+sad-ar.init.dal
+sad-ar.medi.dal
+tah-ar.init.dal
+tah-ar.medi.dal
+ain-ar.init.dal
+ain-ar.medi.dal
+fehDotless-ar.init.dal
+fehDotless-ar.medi.dal
+kaf-ar.init.dal
+kaf-ar.medi.dal
+lam-ar.init.dal
+lam-ar.medi.dal
+meem-ar.init.dal
+meem-ar.medi.dal
+heh-ar.init.dal
+hehDoachashmee-ar.medi.dal
+heh-ar.medi.dal
+hehgoal-ar.init.dal
+";
+name = init_medi.dal;
+},
+{
+code = "behDotless-ar.init.feh
+behDotless-ar.medi.feh
+hah-ar.init.feh
+hah-ar.medi.feh
+seen-ar.init.feh
+seen-ar.medi.feh
+sad-ar.init.feh
+sad-ar.medi.feh
+tah-ar.init.feh
+tah-ar.medi.feh
+ain-ar.init.feh
+ain-ar.medi.feh
+fehDotless-ar.init.feh
+fehDotless-ar.medi.feh
+kaf-ar.init.feh
+kaf-ar.medi.feh
+lam-ar.init.feh
+lam-ar.medi.feh
+meem-ar.init.feh
+meem-ar.medi.feh
+heh-ar.init.feh
+hehDoachashmee-ar.medi.feh
+heh-ar.medi.feh
+hehgoal-ar.init.feh
+";
+name = init_medi.feh;
+},
+{
+code = "behDotless-ar.init.hah
+behDotless-ar.medi.hah
+hah-ar.init.hah
+hah-ar.medi.hah
+seen-ar.init.hah
+seen-ar.medi.hah
+sad-ar.init.hah
+sad-ar.medi.hah
+tah-ar.init.hah
+tah-ar.medi.hah
+ain-ar.init.hah
+ain-ar.medi.hah
+fehDotless-ar.init.hah
+fehDotless-ar.medi.hah
+kaf-ar.init.hah
+kaf-ar.medi.hah
+lam-ar.init.hah
+lam-ar.medi.hah
+meem-ar.init.hah
+meem-ar.medi.hah
+heh-ar.init.hah
+hehDoachashmee-ar.medi.hah
+heh-ar.medi.hah
+hehgoal-ar.init.hah";
+name = init_medi.hah;
+},
+{
+code = "behDotless-ar.init.heh
+behDotless-ar.medi.heh
+hah-ar.init.heh
+hah-ar.medi.heh
+seen-ar.init.heh
+seen-ar.medi.heh
+sad-ar.init.heh
+sad-ar.medi.heh
+tah-ar.init.heh
+tah-ar.medi.heh
+ain-ar.init.heh
+ain-ar.medi.heh
+fehDotless-ar.init.heh
+fehDotless-ar.medi.heh
+kaf-ar.init.heh
+kaf-ar.medi.heh
+lam-ar.init.heh
+lam-ar.medi.heh
+meem-ar.init.heh
+meem-ar.medi.heh
+heh-ar.init.heh
+hehDoachashmee-ar.medi.heh
+heh-ar.medi.heh
+hehgoal-ar.init.heh
+";
+name = init_medi.heh;
+},
+{
+code = "behDotless-ar.init.meem
+behDotless-ar.medi.meem
+hah-ar.init.meem
+hah-ar.medi.meem
+seen-ar.init.meem
+seen-ar.medi.meem
+sad-ar.init.meem
+sad-ar.medi.meem
+tah-ar.init.meem
+tah-ar.medi.meem
+ain-ar.init.meem
+ain-ar.medi.meem
+fehDotless-ar.init.meem
+fehDotless-ar.medi.meem
+kaf-ar.init.meem
+kaf-ar.medi.meem
+lam-ar.init.meem
+lam-ar.medi.meem
+meem-ar.init.meem
+meem-ar.medi.meem
+heh-ar.init.meem
+hehDoachashmee-ar.medi.meem
+heh-ar.medi.meem
+hehgoal-ar.init.meem
+";
+name = init_medi.meem;
+},
+{
+code = "behDotless-ar.init.reh
+behDotless-ar.medi.reh
+hah-ar.init.reh
+hah-ar.medi.reh
+seen-ar.init.reh
+seen-ar.medi.reh
+sad-ar.init.reh
+sad-ar.medi.reh
+tah-ar.init.reh
+tah-ar.medi.reh
+ain-ar.init.reh
+ain-ar.medi.reh
+fehDotless-ar.init.reh
+fehDotless-ar.medi.reh
+kaf-ar.init.reh
+kaf-ar.medi.reh
+lam-ar.init.reh
+lam-ar.medi.reh
+meem-ar.init.reh
+meem-ar.medi.reh
+heh-ar.init.reh
+hehDoachashmee-ar.medi.reh
+heh-ar.medi.reh
+hehgoal-ar.init.reh
+";
+name = init_medi.reh;
+},
+{
+code = "behDotless-ar.init.sad
+behDotless-ar.medi.sad
+hah-ar.init.sad
+hah-ar.medi.sad
+seen-ar.init.sad
+seen-ar.medi.sad
+sad-ar.init.qantara
+sad-ar.medi.qantara
+tah-ar.init.qantara
+tah-ar.medi.qantara
+ain-ar.init.sad
+ain-ar.medi.sad
+fehDotless-ar.init.sad
+fehDotless-ar.medi.sad
+kaf-ar.init.sad
+kaf-ar.medi.sad
+lam-ar.init.sad
+lam-ar.medi.sad
+meem-ar.init.sad
+meem-ar.medi.sad
+heh-ar.init.sad
+hehDoachashmee-ar.medi.sad
+heh-ar.medi.sad
+hehgoal-ar.init.sad
+";
+name = init_medi.sad;
+},
+{
+code = "behDotless-ar.init.yeh
+behDotless-ar.medi.yeh
+hah-ar.init.yeh
+hah-ar.medi.yeh
+seen-ar.init.yeh
+seen-ar.medi.yeh
+sad-ar.init.yeh
+sad-ar.medi.yeh
+tah-ar.init.yeh
+tah-ar.medi.yeh
+ain-ar.init.yeh
+ain-ar.medi.yeh
+fehDotless-ar.init.yeh
+fehDotless-ar.medi.yeh
+kaf-ar.init.yeh
+kaf-ar.medi.yeh
+lam-ar.init.yeh
+lam-ar.medi.yeh
+meem-ar.init.yeh
+meem-ar.medi.yeh
+heh-ar.init.yeh
+hehDoachashmee-ar.medi.yeh
+heh-ar.medi.yeh
+hehgoal-ar.init.yeh
+";
+name = init_medi.yeh;
+},
+{
+code = "behDotless-ar.init.ragaa
+behDotless-ar.medi.ragaa
+hah-ar.init.ragaa
+hah-ar.medi.ragaa
+seen-ar.init.ragaa
+seen-ar.medi.ragaa
+sad-ar.init.ragaa
+sad-ar.medi.ragaa
+tah-ar.init.ragaa
+tah-ar.medi.ragaa
+ain-ar.init.ragaa
+ain-ar.medi.ragaa
+fehDotless-ar.init.ragaa
+fehDotless-ar.medi.ragaa
+kaf-ar.init.ragaa
+kaf-ar.medi.ragaa
+lam-ar.init.ragaa
+lam-ar.medi.ragaa
+meem-ar.init.ragaa
+meem-ar.medi.ragaa
+heh-ar.init.ragaa
+hehDoachashmee-ar.medi.ragaa
+heh-ar.medi.ragaa
+hehgoal-ar.init.ragaa
+";
+name = init_medi.ragaa;
 }
 );
 copyright = "Copyright 2015-{year} The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10.";
@@ -327,84 +664,22 @@ feature rlig {
     sub heh-ar' by hehDoachashmee-ar;
 } rlig;
 
-@init      = [behDotless-ar.init hah-ar.init seen-ar.init sad-ar.init tah-ar.init
-              ain-ar.init fehDotless-ar.init kaf-ar.init lam-ar.init meem-ar.init
-              heh-ar.init];
-@medi      = [behDotless-ar.medi hah-ar.medi seen-ar.medi sad-ar.medi tah-ar.medi
-              ain-ar.medi fehDotless-ar.medi kaf-ar.medi lam-ar.medi meem-ar.medi
-              hehDoachashmee-ar.medi];
-@init_medi = [behDotless-ar.init behDotless-ar.medi hah-ar.init hah-ar.medi seen-ar.init
-              seen-ar.medi sad-ar.init sad-ar.medi tah-ar.init tah-ar.medi
-              ain-ar.init ain-ar.medi fehDotless-ar.init fehDotless-ar.medi kaf-ar.init
-              kaf-ar.medi lam-ar.init lam-ar.medi meem-ar.init meem-ar.medi
-              heh-ar.init hehDoachashmee-ar.medi heh-ar.medi hehgoal-ar.init];
-@ain       = [behDotless-ar.init.ain behDotless-ar.medi.ain hah-ar.init.ain hah-ar.medi.ain seen-ar.init.ain
-              seen-ar.medi.ain sad-ar.init.ain sad-ar.medi.ain tah-ar.init.ain tah-ar.medi.ain
-              ain-ar.init.ain ain-ar.medi.ain fehDotless-ar.init.ain fehDotless-ar.medi.ain kaf-ar.init.ain
-              kaf-ar.medi.ain lam-ar.init.ain lam-ar.medi.ain meem-ar.init.ain meem-ar.medi.ain
-              heh-ar.init.ain hehDoachashmee-ar.medi.ain heh-ar.medi.ain hehgoal-ar.init.ain];
-@dal        = [behDotless-ar.init.dal behDotless-ar.medi.dal hah-ar.init.dal hah-ar.medi.dal seen-ar.init.dal
-              seen-ar.medi.dal sad-ar.init.dal sad-ar.medi.dal tah-ar.init.dal tah-ar.medi.dal
-              ain-ar.init.dal ain-ar.medi.dal fehDotless-ar.init.dal fehDotless-ar.medi.dal kaf-ar.init.dal
-              kaf-ar.medi.dal lam-ar.init.dal lam-ar.medi.dal meem-ar.init.dal meem-ar.medi.dal
-              heh-ar.init.dal hehDoachashmee-ar.medi.dal heh-ar.medi.dal hehgoal-ar.init.dal];
-@feh       = [behDotless-ar.init.feh behDotless-ar.medi.feh hah-ar.init.feh hah-ar.medi.feh seen-ar.init.feh
-              seen-ar.medi.feh sad-ar.init.feh sad-ar.medi.feh tah-ar.init.feh tah-ar.medi.feh
-              ain-ar.init.feh ain-ar.medi.feh fehDotless-ar.init.feh fehDotless-ar.medi.feh kaf-ar.init.feh
-              kaf-ar.medi.feh lam-ar.init.feh lam-ar.medi.feh meem-ar.init.feh meem-ar.medi.feh
-              heh-ar.init.feh hehDoachashmee-ar.medi.feh heh-ar.medi.feh hehgoal-ar.init.feh];
-@hah       = [behDotless-ar.init.hah behDotless-ar.medi.hah hah-ar.init.hah hah-ar.medi.hah seen-ar.init.hah
-              seen-ar.medi.hah sad-ar.init.hah sad-ar.medi.hah tah-ar.init.hah tah-ar.medi.hah
-              ain-ar.init.hah ain-ar.medi.hah fehDotless-ar.init.hah fehDotless-ar.medi.hah kaf-ar.init.hah
-              kaf-ar.medi.hah lam-ar.init.hah lam-ar.medi.hah meem-ar.init.hah meem-ar.medi.hah
-              heh-ar.init.hah hehDoachashmee-ar.medi.hah heh-ar.medi.hah hehgoal-ar.init.hah];
-@heh       = [behDotless-ar.init.heh behDotless-ar.medi.heh hah-ar.init.heh hah-ar.medi.heh seen-ar.init.heh
-              seen-ar.medi.heh sad-ar.init.heh sad-ar.medi.heh tah-ar.init.heh tah-ar.medi.heh
-              ain-ar.init.heh ain-ar.medi.heh fehDotless-ar.init.heh fehDotless-ar.medi.heh kaf-ar.init.heh
-              kaf-ar.medi.heh lam-ar.init.heh lam-ar.medi.heh meem-ar.init.heh meem-ar.medi.heh
-              heh-ar.init.heh hehDoachashmee-ar.medi.heh heh-ar.medi.heh hehgoal-ar.init.heh];
-@meem      = [behDotless-ar.init.meem behDotless-ar.medi.meem hah-ar.init.meem hah-ar.medi.meem seen-ar.init.meem
-              seen-ar.medi.meem sad-ar.init.meem sad-ar.medi.meem tah-ar.init.meem tah-ar.medi.meem
-              ain-ar.init.meem ain-ar.medi.meem fehDotless-ar.init.meem fehDotless-ar.medi.meem kaf-ar.init.meem
-              kaf-ar.medi.meem lam-ar.init.meem lam-ar.medi.meem meem-ar.init.meem meem-ar.medi.meem
-              heh-ar.init.meem hehDoachashmee-ar.medi.meem heh-ar.medi.meem hehgoal-ar.init.meem];
-@reh       = [behDotless-ar.init.reh behDotless-ar.medi.reh hah-ar.init.reh hah-ar.medi.reh seen-ar.init.reh
-              seen-ar.medi.reh sad-ar.init.reh sad-ar.medi.reh tah-ar.init.reh tah-ar.medi.reh
-              ain-ar.init.reh ain-ar.medi.reh fehDotless-ar.init.reh fehDotless-ar.medi.reh kaf-ar.init.reh
-              kaf-ar.medi.reh lam-ar.init.reh lam-ar.medi.reh meem-ar.init.reh meem-ar.medi.reh
-              heh-ar.init.reh hehDoachashmee-ar.medi.reh heh-ar.medi.reh hehgoal-ar.init.reh];
-@sad       = [behDotless-ar.init.sad behDotless-ar.medi.sad hah-ar.init.sad hah-ar.medi.sad seen-ar.init.sad
-              seen-ar.medi.sad sad-ar.init.qantara sad-ar.medi.qantara tah-ar.init.qantara tah-ar.medi.qantara
-              ain-ar.init.sad ain-ar.medi.sad fehDotless-ar.init.sad fehDotless-ar.medi.sad kaf-ar.init.sad
-              kaf-ar.medi.sad lam-ar.init.sad lam-ar.medi.sad meem-ar.init.sad meem-ar.medi.sad
-              heh-ar.init.sad hehDoachashmee-ar.medi.sad heh-ar.medi.sad hehgoal-ar.init.sad];
-@yeh       = [behDotless-ar.init.yeh behDotless-ar.medi.yeh hah-ar.init.yeh hah-ar.medi.yeh seen-ar.init.yeh
-              seen-ar.medi.yeh sad-ar.init.yeh sad-ar.medi.yeh tah-ar.init.yeh tah-ar.medi.yeh
-              ain-ar.init.yeh ain-ar.medi.yeh fehDotless-ar.init.yeh fehDotless-ar.medi.yeh kaf-ar.init.yeh
-              kaf-ar.medi.yeh lam-ar.init.yeh lam-ar.medi.yeh meem-ar.init.yeh meem-ar.medi.yeh
-              heh-ar.init.yeh hehDoachashmee-ar.medi.yeh heh-ar.medi.yeh hehgoal-ar.init.yeh];
-@ragaa     = [behDotless-ar.init.ragaa behDotless-ar.medi.ragaa hah-ar.init.ragaa hah-ar.medi.ragaa seen-ar.init.ragaa
-               seen-ar.medi.ragaa sad-ar.init.ragaa sad-ar.medi.ragaa tah-ar.init.ragaa tah-ar.medi.ragaa
-               ain-ar.init.ragaa ain-ar.medi.ragaa fehDotless-ar.init.ragaa fehDotless-ar.medi.ragaa kaf-ar.init.ragaa
-               kaf-ar.medi.ragaa lam-ar.init.ragaa lam-ar.medi.ragaa meem-ar.init.ragaa meem-ar.medi.ragaa
-               heh-ar.init.ragaa hehDoachashmee-ar.medi.ragaa heh-ar.medi.ragaa hehgoal-ar.init.ragaa];
-
 @context_hah = [hah-ar.fina hah-ar.medi hah-ar.medi.hah hah-ar.medi.dal hah-ar.medi.reh
                 hah-ar.medi.sad hah-ar.medi.ain hah-ar.medi.feh hah-ar.medi.meem hah-ar.medi.heh
                 hah-ar.medi.yeh hah-ar.medi.ragaa];
 lookup calt_hah {
   lookupflag IgnoreMarks;
-    sub @init_medi' @context_hah by @hah;
+    sub @init_medi' @context_hah by @init_medi.hah;
 } calt_hah;
 
 lookup calt_dal {
   lookupflag IgnoreMarks;
-    sub @init_medi' [dal-ar.fina] by @dal;
+    sub @init_medi' [dal-ar.fina] by @init_medi.dal;
 } calt_dal;
 
 lookup calt_reh {
   lookupflag IgnoreMarks;
-    sub @init_medi' [reh-ar.fina] by @reh;
+    sub @init_medi' [reh-ar.fina] by @init_medi.reh;
 } calt_reh;
 
 @context_sad = [sad-ar.fina sad-ar.medi tah-ar.fina tah-ar.medi sad-ar.medi.hah tah-ar.medi.hah
@@ -414,7 +689,7 @@ lookup calt_reh {
                 tah-ar.medi.yeh sad-ar.fina.jalt tah-ar.medi.kaf];
 lookup calt_sad {
   lookupflag IgnoreMarks;
-    sub @init_medi' @context_sad by @sad;
+    sub @init_medi' @context_sad by @init_medi.sad;
 } calt_sad;
 
 @context_ain = [ain-ar.fina ain-ar.medi ain-ar.medi.hah ain-ar.medi.dal ain-ar.medi.reh
@@ -422,7 +697,7 @@ lookup calt_sad {
                 ain-ar.medi.yeh ain-ar.medi.ragaa];
 lookup calt_ain {
   lookupflag IgnoreMarks;
-    sub @init_medi' @context_ain by @ain;
+    sub @init_medi' @context_ain by @init_medi.ain;
 } calt_ain;
 
 @context_feh = [fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.medi.hah fehDotless-ar.medi.dal fehDotless-ar.medi.reh
@@ -430,7 +705,7 @@ lookup calt_ain {
                 fehDotless-ar.medi.yeh fehDotless-ar.fina.jalt qafDotless-ar.fina.jalt fehDotless-ar.medi.ragaa];
 lookup calt_feh {
   lookupflag IgnoreMarks;
-    sub @init_medi' @context_feh by @feh;
+    sub @init_medi' @context_feh by @init_medi.feh;
 } calt_feh;
 
 lookup calt_heh_2 {
@@ -447,7 +722,7 @@ lookup calt_heh_2 {
                  hehDoachashmee-ar.medi.yeh hehDoachashmee-ar.medi.ragaa];
 lookup calt_meem_heh {
   lookupflag IgnoreMarks;
-    sub @init_medi' @context_meem by @meem;
+    sub @init_medi' @context_meem by @init_medi.meem;
 } calt_meem_heh;
 
 @context_heh = [heh-ar.medi heh-ar.medi.hah heh-ar.medi.dal heh-ar.medi.reh heh-ar.medi.sad
@@ -501,7 +776,7 @@ lookup calt_heh_5 {
 
 lookup calt_yeh {
   lookupflag IgnoreMarks;
-    sub @init_medi' [alefMaksura-ar.fina] by @yeh;
+    sub @init_medi' [alefMaksura-ar.fina] by @init_medi.yeh;
 } calt_yeh;
 
 @context_yeh_by_yeh = [behDotless-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.init.yeh lam-ar.init.yeh];
@@ -627,7 +902,7 @@ lookup calt_kaf_lam_tah {
 
 lookup calt_yeh_ragaa {
   lookupflag IgnoreMarks;
-    sub @init_medi' [yehbarree-ar.fina] by @ragaa;
+    sub @init_medi' [yehbarree-ar.fina] by @init_medi.ragaa;
     sub [behDotless-ar.medi.high2]' [yehbarree-ar.fina] by [behDotless-ar.medi.ragaa];
 } calt_yeh_ragaa;
 
@@ -638,7 +913,7 @@ lookup calt_hah_yeh_ragaa {
 
 lookup calt_sad_ragaa {
   lookupflag IgnoreMarks;
-    sub @sad' [sad-ar.medi.ragaa tah-ar.medi.ragaa] by @init_medi;
+    sub @init_medi.sad' [sad-ar.medi.ragaa tah-ar.medi.ragaa] by @init_medi;
 } calt_sad_ragaa;
 
 lookup calt_looped_kaf {
@@ -649,7 +924,7 @@ lookup calt_looped_kaf {
 
 lookup calt_postsad {
   lookupflag IgnoreMarks;
-    sub @sad [sad-ar.medi tah-ar.medi]' by [sad-ar.medi.postsad tah-ar.medi.postsad];
+    sub @init_medi.sad [sad-ar.medi tah-ar.medi]' by [sad-ar.medi.postsad tah-ar.medi.postsad];
 } calt_postsad;
 
 lookup calt_alefabove {
