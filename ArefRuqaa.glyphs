@@ -121,6 +121,10 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
+name = "Propagate Anchors";
+value = 0;
+},
+{
 name = description;
 value = "Aref Ruqaa is an Arabic typeface that aspires to capture the essence of the classical Ruqaa calligraphic style.";
 },
