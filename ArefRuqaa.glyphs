@@ -1186,49 +1186,49 @@ feature kern {
   @beh_feh = [behDotless-ar fehDotless-ar];
   @qaf_noon= [qaf-ar qafDotless-ar noon-ar noonghunna-ar];
   lookupflag IgnoreMarks;
-    pos [alef-ar.fina]     <-193 0 -193 0> [hah-ar] <NULL>;
-    pos [alef-ar.fina.lam] <-195 0 -195 0> [hah-ar] <NULL>;
+    pos alef-ar.fina     <-193 0 -193 0> hah-ar <NULL>;
+    pos alef-ar.fina.lam <-195 0 -195 0> hah-ar <NULL>;
 
     pos @dal_waw'  <-244 0 -244 0> [ain-ar sad-ar seen-ar hah-ar hah-ar.init.meem];
     pos @dal_waw'  <-146 0 -146 0> [alef-ar meem-ar];
-    pos @dal_waw'  <-146 0 -146 0> [heh-ar]' <0 146 0 0>;
-    pos @dal_waw'  <-264 0 -264 0> [tah-ar]' <0 215 0 0>;
+    pos @dal_waw'  <-146 0 -146 0> heh-ar' <0 146 0 0>;
+    pos @dal_waw'  <-264 0 -264 0> tah-ar' <0 215 0 0>;
     pos @dal_waw'  <-134 0 -134 0> @qaf_noon'     <0 85  0 0>;
 
-    pos @dal_waw'  <-37  0 -37  0> [seen-ar.init sad-ar.init] [behDotless-ar.medi.sad] [tah-ar.fina];
+    pos @dal_waw'  <-37  0 -37  0> [seen-ar.init sad-ar.init] [behDotless-ar.medi.sad] tah-ar.fina;
     pos @dal_waw'  <-37  0 -37  0> [seen-ar.init sad-ar.init] @low_fina;
-    pos @dal_waw'  <-49  0 -49  0> [heh-ar.init] @low_fina;
+    pos @dal_waw'  <-49  0 -49  0> heh-ar.init @low_fina;
     pos @dal_waw'  <-195 0 -195 0> [seen-ar.init sad-ar.init sad-ar.init.ain heh-ar.init heh-ar.init.meem
                                     heh-ar.init.yeh ain-ar.init.yeh kaf-ar.init.alef];
 
     pos @dal_waw'  <-73 0 -73 0> @beh_feh;
 
-    pos [alef-ar.fina.lam]' <-98 0 -98 0> [@beh_feh @qaf_noon];
+    pos alef-ar.fina.lam' <-98 0 -98 0> [@beh_feh @qaf_noon];
 
     # XXX: need to extend the ignore rule
-    ignore pos @dal_waw' [lam-ar.init.sad] [sad-ar.medi.heh] [heh-ar.medi];
+    ignore pos @dal_waw' lam-ar.init.sad sad-ar.medi.heh heh-ar.medi;
     pos @waw'      <-146 0 -146 0> @lam;
     pos @dal'      <-98  0 -98  0> @lam;
 
-    pos @dal_waw   [lam-ar.init.meem] [meem-ar.medi] [alef-ar.fina]' <0 98 0 0>;
+    pos @dal_waw   lam-ar.init.meem meem-ar.medi alef-ar.fina' <0 98 0 0>;
 
-    pos @dal_waw'  <-49  0 -49  0> [lam-ar.init] @low_fina;
-    pos @waw'      <-244 0 -244 0> [lam-ar.init];
-    pos @dal'      <-146 0 -146 0> [lam-ar.init];
+    pos @dal_waw'  <-49  0 -49  0> lam-ar.init @low_fina;
+    pos @waw'      <-244 0 -244 0> lam-ar.init;
+    pos @dal'      <-146 0 -146 0> lam-ar.init;
 
     pos @waw'      <-122 0 -122 0> [lam-ar.init.yeh lam-ar.init.ragaa];
     pos @dal'      <-73  0 -73  0> [lam-ar.init.yeh lam-ar.init.ragaa];
 
-    pos @waw'      <-98  0 -98  0> [lam-ar];
-    pos @dal'      <-49  0 -49  0> [lam-ar];
+    pos @waw'      <-98  0 -98  0> lam-ar;
+    pos @dal'      <-49  0 -49  0> lam-ar;
 
-    pos @dal_waw'  <-98  0 -98  0> [fehDotless-ar.init.ain];
+    pos @dal_waw'  <-98  0 -98  0> fehDotless-ar.init.ain;
 
-    pos [fehDotless-ar.init]'        <59 0 59 0> [kaf-ar.init.alef.loop];
-    pos [alef-ar alef-ar.fina]' <98 0 98 0> [lam-ar.init.hah] [hah-ar.fina];
-    pos [alef-ar alef-ar.fina]' <49 0 49 0> [lam-ar.init.hah];
+    pos fehDotless-ar.init'   <59 0 59 0> kaf-ar.init.alef.loop;
+    pos [alef-ar alef-ar.fina]' <98 0 98 0> lam-ar.init.hah hah-ar.fina;
+    pos [alef-ar alef-ar.fina]' <49 0 49 0> lam-ar.init.hah;
 
-    pos [alefMaksura-ar.fina alefMaksura-ar.fina.jalt alefMaksura-ar.fina.yeh alefMaksura-ar.fina.yeh.jalt] [hamza-ar]' <0 195 0 0>;
+    pos [alefMaksura-ar.fina alefMaksura-ar.fina.jalt alefMaksura-ar.fina.yeh alefMaksura-ar.fina.yeh.jalt] hamza-ar' <0 195 0 0>;
 } kern;
 ";
 name = Features;
