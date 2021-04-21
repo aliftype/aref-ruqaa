@@ -1186,8 +1186,8 @@ feature kern {
   @beh_feh = [behDotless-ar fehDotless-ar];
   @qaf_noon= [qaf-ar qafDotless-ar noon-ar noonghunna-ar];
   lookupflag IgnoreMarks;
-    pos [alef-ar.fina]     <-193 0 -193 0> [hah-ar];
-    pos [alef-ar.fina.lam] <-195 0 -195 0> [hah-ar];
+    pos [alef-ar.fina]     <-193 0 -193 0> [hah-ar] <NULL>;
+    pos [alef-ar.fina.lam] <-195 0 -195 0> [hah-ar] <NULL>;
 
     pos @dal_waw'  <-244 0 -244 0> [ain-ar sad-ar seen-ar hah-ar hah-ar.init.meem];
     pos @dal_waw'  <-146 0 -146 0> [alef-ar meem-ar];
