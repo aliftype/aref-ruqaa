@@ -30,59 +30,19 @@ def build(args):
         if master.info.styleName == args.master:
             font = master
 
-    lookups = {}
-    lines = []
-
+    anchors = {}
+    curs = []
+    curs.append("lookupflag RightToLeft IgnoreMarks;")
     for glyph in font:
         for anchor in glyph.anchors:
             if anchor.name in ("entry", "exit"):
-                lookups.setdefault("curs", {}).setdefault(glyph.name, [None, None])
-                lookups["curs"][glyph.name][0 if anchor.name == "entry" else 1] = anchor
-            else:
-                name = anchor.name
-                if name.startswith("_"):
-                    name = name[1:]
-                lookup = name.split(".")[0].title()
-                if name.endswith(".mkmk"):
-                    lookup = f"mkmk{lookup}"
-                else:
-                    lookup = f"mark{lookup}"
-                lookups.setdefault(lookup, {}).setdefault(glyph.name, []).append(anchor)
+                anchors.setdefault(glyph.name, [None, None])
+                anchors[glyph.name][0 if anchor.name == "entry" else 1] = anchor
+    for glyph, (entry, exit_) in anchors.items():
+        curs.append(f"pos cursive {glyph} {_dumpAnchor(entry)} {_dumpAnchor(exit_)};")
 
-    for lookup in sorted(lookups):
-        lines.append(f"lookup {lookup} {{")
-        if lookup == "curs":
-            lines.append("lookupflag RightToLeft IgnoreMarks;")
-            for glyph, (entry, exit_) in lookups[lookup].items():
-                lines.append(
-                    f"pos cursive {glyph} {_dumpAnchor(entry)} {_dumpAnchor(exit_)};"
-                )
-        else:
-            type_ = "base"
-            if lookup.startswith("mkmk"):
-                type_ = "mark"
-                glyphs = " ".join([g for g in lookups[lookup].keys()])
-                lines.append(f"lookupflag UseMarkFilteringSet [{glyphs}];")
-            for glyph, anchors in lookups[lookup].items():
-                for anchor in anchors:
-                    if not anchor.name.startswith("_"):
-                        continue
-                    lines.append(
-                        f"markClass {glyph} {_dumpAnchor(anchor)} @{anchor.name[1:]};"
-                    )
-            for glyph, anchors in lookups[lookup].items():
-                if all([a.name.startswith("_") for a in anchors]):
-                    continue
-                line = f"pos {type_} {glyph} "
-                for anchor in anchors:
-                    if anchor.name.startswith("_"):
-                        continue
-                    line += f"{_dumpAnchor(anchor)} mark @{anchor.name} "
-                line += ";"
-                lines.append(line)
-        lines.append(f"}} {lookup};")
-
-    font.features.text = "\n".join(lines) + "\n" + font.features.text
+    curs = "\n".join(curs) + "\n"
+    font.features.text = font.features.text.replace("# Automatic Code Cursive", curs)
 
     # Set metadata
     info = font.info

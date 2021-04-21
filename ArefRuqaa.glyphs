@@ -873,9 +873,17 @@ feature dnom {
 
 # GPOS
 
+feature curs {
+    # Automatic Code Cursive
+} curs;
+
+feature mark {
+    # Automatic Code
+} mark;
+
 @noqta_below = [dotbelow-ar twodotshorizontalbelow-ar threedotsdownbelow-ar];
 
-lookup markContext {
+feature mark {
   lookupflag 0;
     pos [behDotless-ar.init.ascend] @noqta_below' <98  -146 0 0> [behDotless-ar.medi.ragaa];
     pos [behDotless-ar.init.ascend] @noqta_below' <0   -186 0 0> [kaf-ar.medi.ragaa lam-ar.medi.ragaa];
@@ -888,22 +896,10 @@ lookup markContext {
 
     pos [hah-ar.init]               @noqta_below' <24  -122 0 0> [behDotless-ar.medi.ragaa];
     pos [hah-ar.init]               @noqta_below' <0   -146 0 0> [kaf-ar.medi.ragaa lam-ar.medi.ragaa];
-} markContext;
-
-feature curs {
-    lookup curs;
-} curs;
-
-feature mark {
-    lookup markTop;
-    lookup markBottom;
-    lookup markCenter;
-    lookup markContext;
 } mark;
 
 feature mkmk {
-    lookup mkmkTop;
-    lookup mkmkBottom;
+    # Automatic Code
 } mkmk;
 
 feature kern {
@@ -10655,10 +10651,6 @@ layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{382, 24}";
-},
-{
 name = bottom.mark;
 position = "{294, -545}";
 },
@@ -11109,10 +11101,6 @@ glyphname = "hah-ar.fina";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-position = "{382, 24}";
-},
 {
 name = bottom.mark;
 position = "{294, -545}";
@@ -132623,6 +132611,10 @@ name = _bottom;
 position = "{0, 0}";
 },
 {
+name = _center;
+position = "{0, 49}";
+},
+{
 name = bottom.mkmk;
 position = "{0, -249}";
 }
@@ -132812,6 +132804,10 @@ anchors = (
 {
 name = _bottom;
 position = "{0, 0}";
+},
+{
+name = _center;
+position = "{0, 49}";
 },
 {
 name = bottom.mkmk;
