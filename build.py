@@ -18,22 +18,28 @@ def _dumpAnchor(anchor):
 
 
 def build(args):
-    glyphs = GSFont(args.file)
+    font = GSFont(args.file)
+
+    # Set metadata
+    major, minor = args.version.split(".")
+    font.versionMajor, font.versionMinor = int(major), int(minor)
+    font.copyright = font.copyright.format(year=datetime.now().year)
 
     builder = UFOBuilder(
-        glyphs,
+        font,
         propagate_anchors=False,
         write_skipexportglyphs=True,
         store_editor_state=False,
     )
     for master in builder.masters:
         if master.info.styleName == args.master:
-            font = master
+            ufo = master
+            break
 
     anchors = {}
     curs = []
     curs.append("lookupflag RightToLeft IgnoreMarks;")
-    for glyph in font:
+    for glyph in ufo:
         for anchor in glyph.anchors:
             if anchor.name in ("entry", "exit"):
                 anchors.setdefault(glyph.name, [None, None])
@@ -42,17 +48,10 @@ def build(args):
         curs.append(f"pos cursive {glyph} {_dumpAnchor(entry)} {_dumpAnchor(exit_)};")
 
     curs = "\n".join(curs) + "\n"
-    font.features.text = font.features.text.replace("# Automatic Code Cursive", curs)
-
-    # Set metadata
-    info = font.info
-
-    major, minor = args.version.split(".")
-    info.versionMajor, info.versionMinor = int(major), int(minor)
-    info.copyright = info.copyright.format(year=datetime.now().year)
+    ufo.features.text = ufo.features.text.replace("# Automatic Code Cursive", curs)
 
     compileTTF(
-        font, inplace=True, flattenComponents=True, useProductionNames=False
+        ufo, inplace=True, flattenComponents=True, useProductionNames=False
     ).save(args.out_file)
 
 
