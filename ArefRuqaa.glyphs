@@ -1,5 +1,5 @@
 {
-.appVersion = "3079";
+.appVersion = "3087";
 classes = (
 {
 automatic = 1;
@@ -4697,7 +4697,7 @@ position = "{400, 18}";
 },
 {
 name = entry;
-position = "{356, 189}";
+position = "{356, 184}";
 },
 {
 name = exit;
@@ -4741,7 +4741,7 @@ nodes = (
 "431 322 LINE",
 "369 188 LINE",
 "361 186 OFFCURVE",
-"354 184 OFFCURVE",
+"354 183 OFFCURVE",
 "350 183 CURVE",
 "333 182 OFFCURVE",
 "322 190 OFFCURVE",
