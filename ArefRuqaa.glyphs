@@ -344,7 +344,7 @@ hehgoal-ar.init.ragaa
 name = init_medi.ragaa;
 }
 );
-copyright = "Copyright 2015-{year} The Aref Ruqaa Project Authors (https://github.com/alif-type/aref-ruqaa), with Reserved Font Name EURM10.";
+copyright = "Copyright 2015-{year} The Aref Ruqaa Project Authors (https://github.com/aliftype/aref-ruqaa), with Reserved Font Name EURM10.";
 customParameters = (
 {
 name = hheaAscender;
