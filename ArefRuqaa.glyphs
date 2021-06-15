@@ -4701,7 +4701,7 @@ position = "{356, 184}";
 },
 {
 name = exit;
-position = "{-32, 0}";
+position = "{-31, 7}";
 },
 {
 name = top;
@@ -13264,7 +13264,7 @@ position = "{435, 79}";
 },
 {
 name = entry;
-position = "{211, 389}";
+position = "{208, 389}";
 },
 {
 name = exit;
