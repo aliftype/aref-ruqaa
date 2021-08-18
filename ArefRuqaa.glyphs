@@ -1,5 +1,5 @@
 {
-.appVersion = "3087";
+.appVersion = "3097";
 classes = (
 {
 automatic = 1;
@@ -916,11 +916,17 @@ lookup calt_sad_ragaa {
     sub @init_medi.sad' [sad-ar.medi.ragaa tah-ar.medi.ragaa] by @init_medi;
 } calt_sad_ragaa;
 
-lookup calt_looped_kaf {
+lookup calt_looped_kaf_1 {
   lookupflag IgnoreMarks;
     sub [fehDotless-ar.init] [kaf-ar.init.alef]' by [kaf-ar.init.alef.loop];
     sub [lam-ar.init.meem] [meem-ar.medi] [kaf-ar.init.alef]' by [kaf-ar.init.alef.loop];
-} calt_looped_kaf;
+} calt_looped_kaf_1;
+
+@marks_looped_kaf = [dotabove-ar twodotshorizontalbelow-ar threedotsupabove-ar];
+lookup calt_looped_kaf_2 {
+  lookupflag UseMarkFilteringSet @marks_looped_kaf;
+    sub ain-ar.init @marks_looped_kaf kaf-ar.init.alef' by kaf-ar.init.alef.loop;
+} calt_looped_kaf_2;
 
 lookup calt_postsad {
   lookupflag IgnoreMarks;
@@ -963,7 +969,8 @@ feature calt {
     lookup calt_yeh_ragaa;
     lookup calt_hah_yeh_ragaa;
     lookup calt_sad_ragaa;
-    lookup calt_looped_kaf;
+    lookup calt_looped_kaf_1;
+    lookup calt_looped_kaf_2;
     lookup calt_postsad;
     lookup calt_alefabove;
 } calt;
@@ -1224,7 +1231,7 @@ feature kern {
 
     pos @dal_waw'  <-98  0 -98  0> fehDotless-ar.init.ain;
 
-    pos fehDotless-ar.init'   <59 0 59 0> kaf-ar.init.alef.loop;
+    pos [ain-ar.init fehDotless-ar.init]'   <59 0 59 0> kaf-ar.init.alef.loop;
     pos [alef-ar alef-ar.fina]' <98 0 98 0> lam-ar.init.hah hah-ar.fina;
     pos [alef-ar alef-ar.fina]' <49 0 49 0> lam-ar.init.hah;
 
