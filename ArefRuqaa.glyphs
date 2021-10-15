@@ -1,5 +1,5 @@
 {
-.appVersion = "3097";
+.appVersion = "3099";
 classes = (
 {
 automatic = 1;
@@ -512,7 +512,6 @@ feature ccmp {
     sub alefHamzabelow-ar       by alef-ar hamzabelow-ar;
     sub yehHamzaabove-ar        by alefMaksura-ar hamzaabove-ar;
     sub beh-ar                  by behDotless-ar dotbelow-ar;
-    sub tehMarbuta-ar           by heh-ar twodotshorizontalabove-ar;
     sub teh-ar                  by behDotless-ar twodotshorizontalabove-ar;
     sub theh-ar                 by behDotless-ar threedotsupabove-ar;
     sub jeem-ar                 by hah-ar dotbelow-ar;
@@ -540,12 +539,12 @@ feature ccmp {
     sub gaf-ar                  by keheh-ar gafsarkashabove-ar;
     sub lamVabove-ar            by lam-ar vabove-ar;
     sub rnoon-ar                by noonghunna-ar tahabove-ar;
+    sub tehMarbuta-ar           by ae-ar twodotshorizontalabove-ar;
     sub hehHamzaabove-ar        by heh-ar hamzaabove-ar;
     sub oe-ar                   by waw-ar vabove-ar;
     sub yehVabove-ar            by yeh-farsi vabove-ar;
     sub wawDotabove-ar          by waw-ar dotabove-ar;
     sub yehbarreeHamzaabove-ar  by yehbarree-ar hamzaabove-ar;
-    sub ae-ar                   by heh-ar;
     sub kehehDotabove-ar        by keheh-ar dotabove-ar;
 } ccmp;
 
@@ -618,6 +617,7 @@ feature fina {
     sub meem-ar                 by meem-ar.fina;
     sub noon-ar                 by noon-ar.fina;
     sub heh-ar                  by heh-ar.fina;
+    sub ae-ar                   by heh-ar.fina;
     sub waw-ar                  by waw-ar.fina;
     sub alefMaksura-ar          by alefMaksura-ar.fina;
     sub behDotless-ar           by behDotless-ar.fina;
@@ -656,11 +656,8 @@ feature locl {
 } locl;
 
 feature rlig {
-  @hehMarks = [twodotshorizontalabove-ar hamzaabove-ar];
-  lookupflag UseMarkFilteringSet @hehMarks;
+  lookupflag IgnoreMarks;
     ignore sub @ArabicLetters heh-ar';
-    ignore sub @hehMarks heh-ar';
-    ignore sub heh-ar' @hehMarks;
     sub heh-ar' by hehDoachashmee-ar;
 } rlig;
 
@@ -121808,10 +121805,27 @@ width = 699;
 unicode = 06D3;
 },
 {
-color = (0,0,255,255);
 glyphname = "ae-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{75, -132}";
+},
+{
+name = bottom.mark;
+position = "{97, -167}";
+},
+{
+name = top;
+position = "{145, 558}";
+},
+{
+name = top.mark;
+position = "{158, 558}";
+}
+);
 components = (
 {
 name = "heh-ar";
@@ -121821,6 +121835,24 @@ layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
 width = 247;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{75, -132}";
+},
+{
+name = bottom.mark;
+position = "{97, -167}";
+},
+{
+name = top;
+position = "{145, 558}";
+},
+{
+name = top.mark;
+position = "{158, 558}";
+}
+);
 components = (
 {
 name = "heh-ar";
