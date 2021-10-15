@@ -2102,7 +2102,7 @@ width = 394;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "alefHamzaabove-ar";
 layers = (
 {
@@ -2135,7 +2135,7 @@ width = 248;
 unicode = 0623;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "alefHamzabelow-ar";
 layers = (
 {
@@ -2168,7 +2168,7 @@ width = 248;
 unicode = 0625;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "alefMadda-ar";
 layers = (
 {
@@ -2201,7 +2201,7 @@ width = 248;
 unicode = 0622;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "alefWasla-ar";
 layers = (
 {
@@ -10694,7 +10694,7 @@ width = 177;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "beh-ar";
 layers = (
 {
@@ -10727,7 +10727,7 @@ width = 801;
 unicode = 0628;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "peh-ar";
 layers = (
 {
@@ -10760,7 +10760,7 @@ width = 801;
 unicode = 067E;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "teh-ar";
 layers = (
 {
@@ -10793,7 +10793,7 @@ width = 801;
 unicode = 062A;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "theh-ar";
 layers = (
 {
@@ -10826,7 +10826,7 @@ width = 801;
 unicode = 062B;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "tteh-ar";
 layers = (
 {
@@ -10859,7 +10859,7 @@ width = 801;
 unicode = 0679;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "jeem-ar";
 layers = (
 {
@@ -10892,7 +10892,7 @@ width = 683;
 unicode = 062C;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "tcheh-ar";
 layers = (
 {
@@ -21250,7 +21250,7 @@ width = 514;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "khah-ar";
 layers = (
 {
@@ -21769,7 +21769,7 @@ width = 390;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "thal-ar";
 layers = (
 {
@@ -21802,7 +21802,7 @@ width = 367;
 unicode = 0630;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "ddal-ar";
 layers = (
 {
@@ -21835,7 +21835,7 @@ width = 367;
 unicode = 0688;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "dul-ar";
 layers = (
 {
@@ -22316,7 +22316,7 @@ width = 410;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "zain-ar";
 layers = (
 {
@@ -22349,7 +22349,7 @@ width = 469;
 unicode = 0632;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "rreh-ar";
 layers = (
 {
@@ -22382,7 +22382,7 @@ width = 469;
 unicode = 0691;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "rehVbelow-ar";
 layers = (
 {
@@ -22415,7 +22415,7 @@ width = 469;
 unicode = 0695;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "jeh-ar";
 layers = (
 {
@@ -41811,7 +41811,7 @@ width = 747;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "dad-ar";
 layers = (
 {
@@ -49842,7 +49842,7 @@ width = 561;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "zah-ar";
 layers = (
 {
@@ -58542,7 +58542,7 @@ width = 487;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "ainThreedots-ar";
 layers = (
 {
@@ -58575,7 +58575,7 @@ width = 683;
 unicode = 06A0;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "ghain-ar";
 layers = (
 {
@@ -58608,7 +58608,7 @@ width = 683;
 unicode = 063A;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "feh-ar";
 layers = (
 {
@@ -58641,7 +58641,7 @@ width = 679;
 unicode = 0641;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "veh-ar";
 layers = (
 {
@@ -80010,7 +80010,7 @@ width = 926;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "kehehDotabove-ar";
 layers = (
 {
@@ -80043,7 +80043,7 @@ width = 944;
 unicode = 0762;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "gaf-ar";
 layers = (
 {
@@ -80076,7 +80076,7 @@ width = 944;
 unicode = 06AF;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "kafDotabove-ar";
 layers = (
 {
@@ -87024,7 +87024,7 @@ width = 183;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "lamVabove-ar";
 layers = (
 {
@@ -95223,7 +95223,7 @@ width = 463;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "rnoon-ar";
 layers = (
 {
@@ -95256,7 +95256,7 @@ width = 463;
 unicode = 06BB;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "noonThreedotsabove-ar";
 layers = (
 {
@@ -105881,7 +105881,7 @@ width = 630;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "hehHamzaabove-ar";
 layers = (
 {
@@ -105914,7 +105914,7 @@ width = 247;
 unicode = 06C0;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "hehgoal-ar";
 layers = (
 {
@@ -117884,7 +117884,7 @@ width = 394;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "tehMarbuta-ar";
 layers = (
 {
@@ -118319,7 +118319,7 @@ width = 491;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "wawDotabove-ar";
 layers = (
 {
@@ -118352,7 +118352,7 @@ width = 491;
 unicode = 06CF;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "wawHamzaabove-ar";
 layers = (
 {
@@ -118385,7 +118385,7 @@ width = 491;
 unicode = 0624;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "oe-ar";
 layers = (
 {
@@ -121035,7 +121035,7 @@ width = 793;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "yeh-ar";
 layers = (
 {
@@ -121068,7 +121068,7 @@ width = 615;
 unicode = 064A;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "yehHamzaabove-ar";
 layers = (
 {
@@ -121101,7 +121101,7 @@ width = 615;
 unicode = 0626;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "yehVabove-ar";
 layers = (
 {
@@ -121134,7 +121134,7 @@ width = 615;
 unicode = 06CE;
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "yeh-farsi";
 layers = (
 {
@@ -121772,7 +121772,7 @@ width = 699;
 );
 },
 {
-color = (0,0,255,255);
+color = 0;
 glyphname = "yehbarreeHamzaabove-ar";
 layers = (
 {
