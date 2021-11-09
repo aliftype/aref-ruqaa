@@ -138303,6 +138303,23 @@ subCategory = Nonspacing;
 );
 instances = (
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+0,
+5,
+3,
+0,
+0,
+0,
+0,
+0,
+0
+);
+}
+);
 interpolationWeight = 400;
 instanceInterpolations = {
 "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA" = 1;
@@ -138310,6 +138327,27 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+0,
+8,
+3,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
+{
+name = weightClass;
+value = 700;
+}
+);
 interpolationWeight = 700;
 instanceInterpolations = {
 "EF321139-F770-433D-B2B6-C3EFA1B16465" = 1;

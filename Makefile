@@ -23,12 +23,16 @@ all: $(OTF)
 $(BLDDIR)/$(LATIN)-%.ttf: $(LATIN).glyphs
 	echo "   BUILD  $(@F)"
 	mkdir -p $(BLDDIR)
-	$(PY) -m fontmake --verbose WARNING --flatten-components -g $< -i ".* $*" -o ttf --output-path $@ --master-dir="{tmp}" --instance-dir="{tmp}"
+	$(PY) -m fontmake --verbose WARNING --flatten-components --no-production-names -g $< -i ".* $*" -o ttf --output-path $@ --master-dir="{tmp}" --instance-dir="{tmp}"
 
-$(BLDDIR)/$(NAME)-%.ttf: $(NAME).glyphs
+$(BLDDIR)/$(NAME).glyphs: $(NAME).glyphs
+	echo "   PREPARE  $(@F)"
+	$(PY) prepare.py --version=$(VERSION) --out-file=$@ $<
+
+$(BLDDIR)/$(NAME)-%.ttf: $(BLDDIR)/$(NAME).glyphs
 	echo "   BUILD  $(@F)"
 	mkdir -p $(BLDDIR)
-	$(PY) build.py --version=$(VERSION) --master=$* --out-file=$@ $<
+	$(PY) -m fontmake --verbose WARNING --flatten-components --no-production-names -g $< -i ".* $*" -o ttf --output-path $@ --master-dir="{tmp}" --instance-dir="{tmp}"
 
 $(NAME)-%.ttf: $(BLDDIR)/$(NAME)-%.ttf $(BLDDIR)/$(LATIN)-%.ttf
 	echo "   MERGE  $@"
