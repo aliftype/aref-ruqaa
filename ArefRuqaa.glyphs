@@ -1153,7 +1153,7 @@ feature dnom {
 # GPOS
 
 feature curs {
-    # Automatic Code Cursive
+    # Automatic Code
 } curs;
 
 feature mark {

@@ -8,14 +8,6 @@ from ufo2ft import compileTTF
 from glyphsLib import GSFont
 from glyphsLib.builder.builders import UFOBuilder
 
-from fontTools.misc.fixedTools import otRound
-
-
-def _dumpAnchor(anchor):
-    if not anchor:
-        return "<anchor NULL>"
-    return f"<anchor {otRound(anchor.x)} {otRound(anchor.y)}>"
-
 
 def build(args):
     font = GSFont(args.file)
@@ -35,20 +27,6 @@ def build(args):
         if master.info.styleName == args.master:
             ufo = master
             break
-
-    anchors = {}
-    curs = []
-    curs.append("lookupflag RightToLeft IgnoreMarks;")
-    for glyph in ufo:
-        for anchor in glyph.anchors:
-            if anchor.name in ("entry", "exit"):
-                anchors.setdefault(glyph.name, [None, None])
-                anchors[glyph.name][0 if anchor.name == "entry" else 1] = anchor
-    for glyph, (entry, exit_) in anchors.items():
-        curs.append(f"pos cursive {glyph} {_dumpAnchor(entry)} {_dumpAnchor(exit_)};")
-
-    curs = "\n".join(curs) + "\n"
-    ufo.features.text = ufo.features.text.replace("# Automatic Code Cursive", curs)
 
     compileTTF(
         ufo, inplace=True, flattenComponents=True, useProductionNames=False
