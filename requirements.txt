@@ -36,7 +36,7 @@ fonttools[lxml,ufo,unicode]==4.28.1
     #   ufolib2
 fs==2.4.13
     # via fonttools
-glyphslib==6.0.0b4
+glyphslib==6.0.0b5
     # via
     #   -r requirements.in
     #   fontmake
@@ -52,7 +52,7 @@ six==1.16.0
     # via fs
 ufo2ft[compreffor]==2.25.1
     # via fontmake
-ufolib2==0.12.0
+ufolib2==0.12.1
     # via
     #   fontmake
     #   glyphslib
