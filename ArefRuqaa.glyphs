@@ -1,5 +1,5 @@
 {
-.appVersion = "3099";
+.appVersion = "3100";
 classes = (
 {
 automatic = 1;
@@ -126927,12 +126927,6 @@ nodes = (
 "284 377 OFFCURVE",
 "263 347 CURVE",
 "263 346 LINE SMOOTH"
-);
-},
-{
-closed = 0;
-nodes = (
-"362 613 LINE SMOOTH"
 );
 }
 );
