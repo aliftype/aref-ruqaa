@@ -28,7 +28,7 @@ $(BLDDIR)/$(LATIN)-%.ttf: $(LATIN).glyphs
 $(BLDDIR)/$(NAME).glyphs: $(NAME).glyphs
 	echo "   PREPARE  $(@F)"
 	mkdir -p $(BLDDIR)
-	$(PY) prepare.py --version=$(VERSION) --out-file=$@ $<
+	$(PY) setversion.py $< $@ $(VERSION)
 
 $(BLDDIR)/$(NAME)-%.ttf: $(BLDDIR)/$(NAME).glyphs
 	echo "   BUILD  $(@F)"
