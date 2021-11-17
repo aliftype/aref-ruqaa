@@ -1,3 +1,3 @@
 fontmake
-fontTools
+fontTools >= 4.28.2
 glyphsLib

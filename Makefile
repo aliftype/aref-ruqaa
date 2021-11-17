@@ -5,42 +5,52 @@ LATIN=EulerText
 BLDDIR=build
 DIST=$(NAME)-$(VERSION)
 
-PY := python
+PY := python3
 
 FONTS=Regular Bold
 
-OTF=$(FONTS:%=$(NAME)-%.ttf)
+OTF=$(FONTS:%=$(NAME)-%.otf)
+TTF=$(FONTS:%=$(NAME)-%.ttf)
 
 MAKEFLAGS := -r -s
 
 export SOURCE_DATE_EPOCH := 0
 export FONTTOOLS_LOOKUP_DEBUGGING := 1
 
-.PRECIOUS: $(BLDDIR)/$(LATIN)-%.ttf $(BLDDIR)/$(NAME)-%.ttf
+.PRECIOUS: $(BLDDIR)/$(LATIN)-%.otf $(BLDDIR)/$(NAME)-%.otf
 
-all: $(OTF)
+all: otf
+otf: $(OTF)
+ttf: $(TTF)
 
-$(BLDDIR)/$(LATIN)-%.ttf: $(LATIN).glyphs
-	echo "   BUILD  $(@F)"
-	mkdir -p $(BLDDIR)
-	$(PY) -m fontmake --verbose WARNING --flatten-components --no-production-names -g $< -i ".* $*" -o ttf --output-path $@ --master-dir="{tmp}" --instance-dir="{tmp}"
+FM_OPTS = --verbose WARNING \
+	  --flatten-components \
+	  --no-production-names \
+	  --master-dir="{tmp}" \
+	  --instance-dir="{tmp}"
 
 $(BLDDIR)/$(NAME).glyphs: $(NAME).glyphs
 	echo "   PREPARE  $(@F)"
 	mkdir -p $(BLDDIR)
 	$(PY) setversion.py $< $@ $(VERSION)
 
-$(BLDDIR)/$(NAME)-%.ttf: $(BLDDIR)/$(NAME).glyphs
+$(BLDDIR)/$(LATIN)-%: $(LATIN).glyphs
 	echo "   BUILD  $(@F)"
 	mkdir -p $(BLDDIR)
-	$(PY) -m fontmake --verbose WARNING --flatten-components --no-production-names -g $< -i ".* $*" -o ttf --output-path $@ --master-dir="{tmp}" --instance-dir="{tmp}"
+	$(PY) -m fontmake $(FM_OPTS) -g $< -i ".* $(basename $*)" -o $(subst .,,$(suffix $(@F))) --output-path $@
 
-$(NAME)-%.ttf: $(BLDDIR)/$(NAME)-%.ttf $(BLDDIR)/$(LATIN)-%.ttf
+$(BLDDIR)/$(NAME)-%: $(BLDDIR)/$(NAME).glyphs
+	echo "   BUILD  $(@F)"
+	mkdir -p $(BLDDIR)
+	$(PY) -m fontmake $(FM_OPTS) -g $< -i ".* $(basename $*)" -o $(subst .,,$(suffix $(@F))) --output-path $@
+
+$(NAME)-%: $(BLDDIR)/$(NAME)-% $(BLDDIR)/$(LATIN)-%
 	echo "   MERGE  $@"
 	$(PY) merge.py --out-file=$@ $+
 
 dist:
 	install -Dm644 -t $(DIST) $(OTF)
+	install -Dm644 -t $(DIST)/ttf $(TTF)
 	install -Dm644 -t $(DIST) OFL.txt
 	install -Dm644 -t $(DIST) README.md
 	zip -r $(DIST).zip $(DIST)
