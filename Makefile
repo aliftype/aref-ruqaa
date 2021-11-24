@@ -17,7 +17,7 @@ MAKEFLAGS := -r -s
 export SOURCE_DATE_EPOCH := 0
 export FONTTOOLS_LOOKUP_DEBUGGING := 1
 
-.PRECIOUS: $(BLDDIR)/$(LATIN)-%.otf $(BLDDIR)/$(NAME)-%.otf
+.SECONDARY:
 
 all: otf
 otf: $(OTF)
