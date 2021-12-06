@@ -12,6 +12,8 @@ FONTS=Regular Bold
 
 OTF=$(FONTS:%=$(NAME)-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
+COTF=$(FONTS:%=$(NAME)Ink-%.otf)
+CTTF=$(FONTS:%=$(NAME)Ink-%.ttf)
 
 MAKEFLAGS := -r -s
 
@@ -21,8 +23,8 @@ export FONTTOOLS_LOOKUP_DEBUGGING := 1
 .SECONDARY:
 
 all: otf
-otf: $(OTF)
-ttf: $(TTF)
+otf: $(OTF) $(COTF)
+ttf: $(TTF) $(CTTF)
 
 FM_OPTS = --verbose WARNING \
 	  --flatten-components \
@@ -60,6 +62,10 @@ $(BLDDIR)/$(NAME)-%: $(BLDDIR)/$(NAME).designspace
 $(NAME)-%: $(BLDDIR)/$(NAME)-% $(BLDDIR)/$(LATIN)-%
 	echo "   MERGE  $@"
 	$(PY) merge.py --out-file=$@ $+
+
+$(NAME)Ink-%: $(BLDDIR)/$(NAME)-% $(BLDDIR)/$(LATIN)-%
+	echo "   MERGE  $@"
+	$(PY) merge.py --color --family="Aref Ruqaa" --suffix=Ink --out-file=$@ $+
 
 dist:
 	install -Dm644 -t $(DIST) $(OTF)
