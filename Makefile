@@ -69,4 +69,4 @@ dist:
 	zip -r $(DIST).zip $(DIST)
 
 clean:
-	rm -rf $(BLDDIR) $(OTF) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
+	rm -rf $(BLDDIR) $(OTF) $(TTF) $(DIST) $(DIST).zip
