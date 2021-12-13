@@ -40,7 +40,7 @@ glyphslib==6.0.0b5
     # via
     #   -r requirements.in
     #   fontmake
-lxml==4.6.4
+lxml==4.6.5
     # via fonttools
 openstep-plist==0.3.0
     # via glyphslib
