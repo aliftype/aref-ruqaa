@@ -3,6 +3,7 @@ VERSION=1.003
 LATIN=EulerText
 
 BLDDIR=build
+INSTANCEDIR=$(BLDDIR)/instance_ufos
 DIST=$(NAME)-$(VERSION)
 
 PY := python3
@@ -25,7 +26,9 @@ ttf: $(TTF)
 
 FM_OPTS = --verbose WARNING \
 	  --flatten-components \
-	  --no-production-names \
+	  --no-production-names
+
+FM_OPTS2 = $(FM_OPTS) \
 	  --master-dir="{tmp}" \
 	  --instance-dir="{tmp}"
 
@@ -34,15 +37,25 @@ $(BLDDIR)/$(NAME).glyphs: $(NAME).glyphs
 	mkdir -p $(BLDDIR)
 	$(PY) setversion.py $< $@ $(VERSION)
 
+$(BLDDIR)/$(NAME).designspace: $(BLDDIR)/$(NAME).glyphs
+	echo "   UFO    $(@F)"
+	mkdir -p $(BLDDIR)
+	glyphs2ufo $< -m $(BLDDIR) -n "$(PWD)"/$(INSTANCEDIR) \
+		   --generate-GDEF \
+		   --write-public-skip-export-glyphs \
+		   --no-store-editor-state \
+		   --no-preserve-glyphsapp-metadata \
+		   --minimal
+
 $(BLDDIR)/$(LATIN)-%: $(LATIN).glyphs
 	echo "   BUILD  $(@F)"
 	mkdir -p $(BLDDIR)
-	$(PY) -m fontmake $(FM_OPTS) -g $< -i ".* $(basename $*)" -o $(subst .,,$(suffix $(@F))) --output-path $@
+	$(PY) -m fontmake $(FM_OPTS2) -g $< -i ".* $(basename $*)" -o $(subst .,,$(suffix $(@F))) --output-path $@
 
-$(BLDDIR)/$(NAME)-%: $(BLDDIR)/$(NAME).glyphs
+$(BLDDIR)/$(NAME)-%: $(BLDDIR)/$(NAME).designspace
 	echo "   BUILD  $(@F)"
 	mkdir -p $(BLDDIR)
-	$(PY) -m fontmake $(FM_OPTS) -g $< -i ".* $(basename $*)" -o $(subst .,,$(suffix $(@F))) --output-path $@
+	$(PY) -m fontmake $(FM_OPTS) $(BLDDIR)/$(basename $(@F)).ufo -o $(subst .,,$(suffix $(@F))) --output-path $@
 
 $(NAME)-%: $(BLDDIR)/$(NAME)-% $(BLDDIR)/$(LATIN)-%
 	echo "   MERGE  $@"
