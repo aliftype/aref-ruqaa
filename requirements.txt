@@ -18,11 +18,11 @@ compreffor==0.5.1.post1
     # via ufo2ft
 cu2qu==1.6.7.post1
     # via ufo2ft
-fontmake==3.0.0
+fontmake==3.1.0
     # via -r requirements.in
 fontmath==0.8.1
     # via fontmake
-fonttools[lxml,ufo,unicode]==4.28.4
+fonttools[lxml,ufo,unicode]==4.28.5
     # via
     #   -r requirements.in
     #   booleanoperations
@@ -36,7 +36,7 @@ fonttools[lxml,ufo,unicode]==4.28.4
     #   ufolib2
 fs==2.4.14
     # via fonttools
-glyphslib==6.0.1
+glyphslib==6.0.2
     # via
     #   -r requirements.in
     #   fontmake
@@ -50,9 +50,9 @@ pytz==2021.3
     # via fs
 six==1.16.0
     # via fs
-ufo2ft[compreffor]==2.25.1
+ufo2ft[compreffor]==2.25.2
     # via fontmake
-ufolib2==0.12.1
+ufolib2==0.13.0
     # via
     #   fontmake
     #   glyphslib
