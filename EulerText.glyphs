@@ -1,5 +1,5 @@
 {
-.appVersion = "3079";
+.appVersion = "3110";
 copyright = "Copyright (c) 1997, 2009, 2011 American Mathematical Society (<http://www.ams.org>), with Reserved Font Name EURM10.";
 customParameters = (
 {
@@ -38,6 +38,7 @@ Tag = wght;
 }
 );
 date = "2015-04-18 10:46:40 +0000";
+disablesAutomaticAlignment = 1;
 familyName = "Euler Text";
 featurePrefixes = (
 {
@@ -432,7 +433,6 @@ components = (
 name = A;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 402, 218}";
 }
@@ -446,7 +446,6 @@ components = (
 name = A;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 468, 267}";
 }
@@ -494,7 +493,6 @@ components = (
 name = A;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 418, 227}";
 }
@@ -542,7 +540,6 @@ components = (
 name = A;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 123, 260}";
 }
@@ -590,7 +587,6 @@ components = (
 name = A;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 348, 267}";
 }
@@ -625,7 +621,6 @@ components = (
 name = A;
 },
 {
-alignment = -1;
 name = ringcomb;
 transform = "{1, 0, 0, 1, 372, 178}";
 }
@@ -639,7 +634,6 @@ components = (
 name = A;
 },
 {
-alignment = -1;
 name = ringcomb;
 transform = "{1, 0, 0, 1, 436, 187}";
 }
@@ -687,7 +681,6 @@ components = (
 name = A;
 },
 {
-alignment = -1;
 name = tildecomb;
 transform = "{1, 0, 0, 1, 419, 227}";
 }
@@ -1589,7 +1582,6 @@ components = (
 name = E;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 316, 227}";
 }
@@ -1601,11 +1593,9 @@ width = 611;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = E;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 310, 232}";
 }
@@ -1639,7 +1629,6 @@ components = (
 name = E;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 306, 237}";
 }
@@ -1651,11 +1640,9 @@ width = 611;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = E;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 275, 238}";
 }
@@ -1689,7 +1676,6 @@ components = (
 name = E;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 1, 240}";
 }
@@ -1701,11 +1687,9 @@ width = 611;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = E;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -21, 241}";
 }
@@ -1739,7 +1723,6 @@ components = (
 name = E;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 266, 227}";
 }
@@ -1751,11 +1734,9 @@ width = 611;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = E;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 206, 230}";
 }
@@ -2281,7 +2262,6 @@ components = (
 name = I;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 213, 237}";
 }
@@ -2293,11 +2273,9 @@ width = 365;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = I;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 175, 232}";
 }
@@ -2333,7 +2311,6 @@ components = (
 name = I;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 183, 237}";
 }
@@ -2345,11 +2322,9 @@ width = 365;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = I;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 165, 238}";
 }
@@ -2386,7 +2361,6 @@ components = (
 name = I;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -112, 237}";
 }
@@ -2398,11 +2372,9 @@ width = 365;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = I;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -119, 241}";
 }
@@ -2439,7 +2411,6 @@ components = (
 name = I;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 143, 233}";
 }
@@ -2451,11 +2422,9 @@ width = 365;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = I;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 142, 232}";
 }
@@ -3064,7 +3033,6 @@ components = (
 name = N;
 },
 {
-alignment = -1;
 name = tildecomb;
 transform = "{1, 0, 0, 1, 445, 230}";
 }
@@ -3076,11 +3044,9 @@ width = 808;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = N;
 },
 {
-alignment = -1;
 name = tildecomb;
 transform = "{1, 0, 0, 1, 390, 232}";
 }
@@ -3256,7 +3222,6 @@ components = (
 name = O;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 465, 255}";
 }
@@ -3268,11 +3233,9 @@ width = 830;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = O;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 442, 254}";
 }
@@ -3321,7 +3284,6 @@ components = (
 name = O;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 415, 247}";
 }
@@ -3333,11 +3295,9 @@ width = 830;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = O;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 411, 249}";
 }
@@ -3386,7 +3346,6 @@ components = (
 name = O;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 130, 235}";
 }
@@ -3398,11 +3357,9 @@ width = 830;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = O;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 138, 225}";
 }
@@ -3459,7 +3416,6 @@ components = (
 name = O;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 355, 255}";
 }
@@ -3471,11 +3427,9 @@ width = 830;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = O;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 337, 254}";
 }
@@ -3578,7 +3532,6 @@ components = (
 name = O;
 },
 {
-alignment = -1;
 name = tildecomb;
 transform = "{1, 0, 0, 1, 426, 255}";
 }
@@ -3590,11 +3543,9 @@ width = 830;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = O;
 },
 {
-alignment = -1;
 name = tildecomb;
 transform = "{1, 0, 0, 1, 426, 253}";
 }
@@ -4763,7 +4714,6 @@ components = (
 name = U;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 442, 227}";
 }
@@ -4811,7 +4761,6 @@ components = (
 name = U;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 412, 237}";
 }
@@ -4823,11 +4772,9 @@ width = 823;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = U;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 349, 238}";
 }
@@ -4861,7 +4808,6 @@ components = (
 name = U;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 117, 240}";
 }
@@ -4873,11 +4819,9 @@ width = 823;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = U;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 96, 241}";
 }
@@ -4911,7 +4855,6 @@ components = (
 name = U;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 352, 227}";
 }
@@ -4923,11 +4866,9 @@ width = 823;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = U;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 319, 231}";
 }
@@ -5416,7 +5357,6 @@ components = (
 name = Y;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 419, 227}";
 }
@@ -5428,11 +5368,9 @@ width = 667;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = Y;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 331, 230}";
 }
@@ -5723,7 +5661,6 @@ components = (
 name = a;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 369, 43}";
 }
@@ -5772,7 +5709,6 @@ components = (
 name = a;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 309, 43}";
 }
@@ -5821,7 +5757,6 @@ components = (
 name = a;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 11, 37}";
 }
@@ -5870,7 +5805,6 @@ components = (
 name = a;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 249, 43}";
 }
@@ -5919,7 +5853,6 @@ components = (
 name = a;
 },
 {
-alignment = -1;
 name = ringcomb;
 transform = "{1, 0, 0, 1, 304, 89}";
 }
@@ -5968,7 +5901,6 @@ components = (
 name = a;
 },
 {
-alignment = -1;
 name = tildecomb;
 transform = "{1, 0, 0, 1, 310, 43}";
 }
@@ -6929,11 +6861,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = e;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 239, 50}";
 }
@@ -6963,7 +6893,6 @@ components = (
 name = e;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 355, 40}";
 }
@@ -6996,11 +6925,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = e;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 239, 50}";
 }
@@ -7014,7 +6941,6 @@ components = (
 name = e;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 305, 40}";
 }
@@ -7047,11 +6973,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = e;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -21, 20}";
 }
@@ -7081,7 +7005,6 @@ components = (
 name = e;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -10, 40}";
 }
@@ -7114,11 +7037,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = e;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 239, 51}";
 }
@@ -7148,7 +7069,6 @@ components = (
 name = e;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 255, 40}";
 }
@@ -7814,11 +7734,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = dotlessi;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 164, 43}";
 }
@@ -7845,11 +7763,9 @@ width = 258;
 {
 components = (
 {
-alignment = -1;
 name = dotlessi;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 199, 40}";
 }
@@ -7881,11 +7797,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = dotlessi;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 112, 51}";
 }
@@ -7912,11 +7826,9 @@ width = 258;
 {
 components = (
 {
-alignment = -1;
 name = dotlessi;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 140, 40}";
 }
@@ -7948,11 +7860,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = dotlessi;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -148, 12}";
 }
@@ -7979,11 +7889,9 @@ width = 258;
 {
 components = (
 {
-alignment = -1;
 name = dotlessi;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -155, 34}";
 }
@@ -8015,11 +7923,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = dotlessi;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 60, 43}";
 }
@@ -8046,11 +7952,9 @@ width = 258;
 {
 components = (
 {
-alignment = -1;
 name = dotlessi;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 79, 40}";
 }
@@ -8864,7 +8768,6 @@ components = (
 name = n;
 },
 {
-alignment = -1;
 name = tildecomb;
 transform = "{1, 0, 0, 1, 330, 34}";
 }
@@ -9014,11 +8917,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = o;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 251, 30}";
 }
@@ -9045,11 +8946,9 @@ width = 520;
 {
 components = (
 {
-alignment = -1;
 name = o;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 351, 31}";
 }
@@ -9082,11 +8981,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = o;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 251, 44}";
 }
@@ -9113,11 +9010,9 @@ width = 520;
 {
 components = (
 {
-alignment = -1;
 name = o;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 291, 31}";
 }
@@ -9178,11 +9073,9 @@ width = 520;
 {
 components = (
 {
-alignment = -1;
 name = o;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -8, 28}";
 }
@@ -9215,11 +9108,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = o;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 251, 30}";
 }
@@ -9230,11 +9121,9 @@ width = 501;
 {
 components = (
 {
-alignment = -1;
 name = o;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 231, 31}";
 }
@@ -9348,11 +9237,9 @@ width = 520;
 {
 components = (
 {
-alignment = -1;
 name = o;
 },
 {
-alignment = -1;
 name = tildecomb;
 transform = "{1, 0, 0, 1, 292, 25}";
 }
@@ -10632,11 +10519,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = u;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 327, 40}";
 }
@@ -10666,7 +10551,6 @@ components = (
 name = u;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 367, 40}";
 }
@@ -10698,11 +10582,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = u;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 317, 50}";
 }
@@ -10732,7 +10614,6 @@ components = (
 name = u;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 317, 50}";
 }
@@ -10744,11 +10625,9 @@ width = 654;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = u;
 },
 {
-alignment = -1;
 name = circumflexcomb;
 transform = "{1, 0, 0, 1, 255, 51}";
 }
@@ -10766,11 +10645,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = u;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 57, 11}";
 }
@@ -10800,7 +10677,6 @@ components = (
 name = u;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 32, 30}";
 }
@@ -10812,11 +10688,9 @@ width = 654;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = u;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -9, 11}";
 }
@@ -10834,11 +10708,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = u;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 317, 40}";
 }
@@ -10868,7 +10740,6 @@ components = (
 name = u;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 267, 40}";
 }
@@ -10880,11 +10751,9 @@ width = 654;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = u;
 },
 {
-alignment = -1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 229, 43}";
 }
@@ -11507,11 +11376,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = y;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 326, 35}";
 }
@@ -11541,7 +11408,6 @@ components = (
 name = y;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 347, 40}";
 }
@@ -11553,11 +11419,9 @@ width = 593;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = y;
 },
 {
-alignment = -1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 314, 41}";
 }
@@ -11575,11 +11439,9 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = y;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 36, 10}";
 }
@@ -11609,7 +11471,6 @@ components = (
 name = y;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 22, 10}";
 }
@@ -11621,11 +11482,9 @@ width = 593;
 associatedMasterId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 components = (
 {
-alignment = -1;
 name = y;
 },
 {
-alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -15, 9}";
 }
@@ -19087,7 +18946,6 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = four.numr;
 }
 );
