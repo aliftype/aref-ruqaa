@@ -54,8 +54,6 @@ def main():
         glyph_names=False,
         recalc_average_width=True,
     )
-    if not args.color:
-        options.set(drop_tables=["CPAL", "COLR"])
     subsetter = subset.Subsetter(options=options)
     subsetter.populate(unicodes=unicodes)
     subsetter.subset(font)
