@@ -42,12 +42,12 @@ def main():
                 )
 
     # Drop incomplete Greek support.
-    unicodes = set(font.getBestCmap().keys()) - set(range(0x0370, 0x03FF))
+    unicodes = font.getBestCmap().keys()
 
     options = subset.Options()
     options.set(
         layout_features="*",
-        layout_scripts=["arab", "latn", "DFLT"],
+        layout_scripts="*",
         name_IDs="*",
         name_languages="*",
         notdef_outline=True,
