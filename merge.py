@@ -41,7 +41,6 @@ def main():
                     .replace(psname, psname + args.suffix)
                 )
 
-    # Drop incomplete Greek support.
     unicodes = font.getBestCmap().keys()
 
     options = subset.Options()
