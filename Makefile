@@ -10,10 +10,8 @@ PY := python3
 
 FONTS=Regular Bold
 
-OTF=$(FONTS:%=$(NAME)-%.otf)
-TTF=$(FONTS:%=$(NAME)-%.ttf)
-COTF=$(FONTS:%=$(NAME)Ink-%.otf)
-CTTF=$(FONTS:%=$(NAME)Ink-%.ttf)
+OTF=$(FONTS:%=$(NAME)-%.otf) $(FONTS:%=$(NAME)Ink-%.otf)
+TTF=$(FONTS:%=$(NAME)-%.ttf) $(FONTS:%=$(NAME)Ink-%.ttf)
 
 MAKEFLAGS := -r -s
 
@@ -23,8 +21,8 @@ export FONTTOOLS_LOOKUP_DEBUGGING := 1
 .SECONDARY:
 
 all: otf
-otf: $(OTF) $(COTF)
-ttf: $(TTF) $(CTTF)
+otf: $(OTF)
+ttf: $(TTF)
 
 FM_OPTS = --verbose WARNING \
 	  --flatten-components \
