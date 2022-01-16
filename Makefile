@@ -65,7 +65,7 @@ $(NAME)Ink-%: $(BLDDIR)/$(NAME)-% $(BLDDIR)/$(LATIN)-%
 	echo "   MERGE  $@"
 	$(PY) merge.py --color --family="Aref Ruqaa" --suffix=Ink --out-file=$@ $+
 
-dist:
+dist: $(OTF) $(TTF)
 	install -Dm644 -t $(DIST) $(OTF)
 	install -Dm644 -t $(DIST)/ttf $(TTF)
 	install -Dm644 -t $(DIST) OFL.txt
