@@ -19596,29 +19596,9 @@ unicode = 32;
 glyphname = period;
 layers = (
 {
-attr = {
-color = 1;
-};
 layerId = "21503E60-83E9-42CA-80F5-20ED7CD97021";
 shapes = (
 {
-attr = {
-gradient = {
-colors = (
-(
-(210,46,31,128),
-0
-),
-(
-(210,46,31,255),
-1
-)
-);
-end = (0.2902,0.7216);
-start = (0.5001,0.5008);
-type = circle;
-};
-};
 closed = 1;
 nodes = (
 (69,52,cs),
@@ -19639,29 +19619,9 @@ nodes = (
 width = 272;
 },
 {
-attr = {
-color = 1;
-};
 layerId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
 shapes = (
 {
-attr = {
-gradient = {
-colors = (
-(
-(210,46,31,128),
-0
-),
-(
-(210,46,31,255),
-1
-)
-);
-end = (0,0);
-start = (0.5001,0.5008);
-type = circle;
-};
-};
 closed = 1;
 nodes = (
 (69,56,cs),
