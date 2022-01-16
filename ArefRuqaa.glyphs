@@ -131112,7 +131112,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2015-2021 The Aref Ruqaa Project Authors (https://github.com/aliftype/aref-ruqaa), with Reserved Font Name EURM10.";
+value = "Copyright 2015-2022 The Aref Ruqaa Project Authors (https://github.com/aliftype/aref-ruqaa), with Reserved Font Name EURM10.";
 }
 );
 },
