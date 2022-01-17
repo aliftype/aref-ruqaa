@@ -12,6 +12,7 @@ FONTS=Regular Bold
 
 OTF=$(FONTS:%=$(NAME)-%.otf) $(FONTS:%=$(NAME)Ink-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf) $(FONTS:%=$(NAME)Ink-%.ttf)
+SAMPLE=sample.svg
 
 MAKEFLAGS := -r -s
 
@@ -20,9 +21,10 @@ export FONTTOOLS_LOOKUP_DEBUGGING := 1
 
 .SECONDARY:
 
-all: otf
+all: otf doc
 otf: $(OTF)
 ttf: $(TTF)
+doc: $(SAMPLE)
 
 FM_OPTS = --verbose WARNING \
 	  --flatten-components \
@@ -64,6 +66,13 @@ $(NAME)-%: $(BLDDIR)/$(NAME)-% $(BLDDIR)/$(LATIN)-%
 $(NAME)Ink-%: $(BLDDIR)/$(NAME)-% $(BLDDIR)/$(LATIN)-%
 	echo "   MERGE  $@"
 	$(PY) merge.py --color --family="Aref Ruqaa" --suffix=Ink --out-file=$@ $+
+
+$(SAMPLE): $(OTF)
+	@echo "   SAMPLE    $(@F)"
+	@python3 mksample.py $+ \
+	  --output=$@ \
+	  --text="﴿الحُبُّ سَمَاءٌ لَا تُمطرُ غَيرَ الأَحلَامِ﴾"
+
 
 dist: $(OTF) $(TTF)
 	install -Dm644 -t $(DIST) $(OTF)
