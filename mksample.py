@@ -43,8 +43,10 @@ def makeLine(buf, font, bounds, y):
         rect = unionRect(bounds, rect)
 
     ascender = font.ttFont["OS/2"].sTypoAscender
+    descender = font.ttFont["OS/2"].sTypoDescender
+    height = -ascender + descender
 
-    return line, rect, -ascender
+    return line, rect, height
 
 
 def draw(surface, paths, text, features):
