@@ -34,13 +34,11 @@ def parseFeatures(text):
     return features
 
 
-def makeLine(buf, font, bounds, y):
+def makeLine(buf, font, y):
     line = buildGlyphLine(buf.glyph_infos, buf.glyph_positions, font.glyphNames)
 
     rect = calcGlyphLineBounds(line, font)
     rect = offsetRect(rect, 0, y)
-    if bounds:
-        rect = unionRect(bounds, rect)
 
     ascender = font.ttFont["OS/2"].sTypoAscender
     descender = font.ttFont["OS/2"].sTypoDescender
@@ -61,14 +59,20 @@ def draw(surface, paths, text, features):
         buf.guess_segment_properties()
         hb.shape(font.hbFont, buf, features)
 
-        line, bounds, height = makeLine(buf, font, bounds, y)
-        lines.append((font, line, y))
+        line, rect, height = makeLine(buf, font, y)
+        lines.append((font, line, rect, y))
+
+        if bounds is None:
+            bounds = rect
+        bounds = unionRect(bounds, rect)
         y += height
 
     with surface.canvas(bounds) as canvas:
-        for font, line, y in lines:
+        for font, line, rect, y in lines:
             with canvas.savedState():
-                canvas.translate(0, y)
+                # Center align the line. 
+                x = (bounds[2] - rect[2]) / 2
+                canvas.translate(x, y)
                 for glyph in line:
                     with canvas.savedState():
                         canvas.translate(glyph.xOffset, glyph.yOffset)
