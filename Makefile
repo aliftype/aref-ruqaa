@@ -1,5 +1,5 @@
 NAME=ArefRuqaa
-VERSION=1.004
+VERSION=1.005
 LATIN=EulerText
 
 BLDDIR=build
