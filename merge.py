@@ -57,6 +57,16 @@ def main():
     subsetter.populate(unicodes=unicodes)
     subsetter.subset(font)
 
+    if "glyf" in font:
+        from fontTools.ttLib import newTable
+        from fontTools.ttLib.tables import ttProgram
+
+        font["prep"] = prep = newTable("prep")
+        prep.program = ttProgram.Program()
+        prep.program.fromAssembly(
+            ["PUSHW[]", "511", "SCANCTRL[]", "PUSHB[]", "4", "SCANTYPE[]"]
+        )
+
     font.save(args.out_file)
 
 
