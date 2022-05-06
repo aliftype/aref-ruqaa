@@ -120606,6 +120606,7 @@ nodes = (
 width = 278;
 }
 );
+unicode = 11841;
 },
 {
 glyphname = "semicolon-ar";
@@ -120851,6 +120852,7 @@ ref = "comma-ar.alt";
 width = 278;
 }
 );
+unicode = 8271;
 },
 {
 glyphname = "question-ar";
