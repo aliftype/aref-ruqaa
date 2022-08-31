@@ -11,7 +11,7 @@ def main():
     args = parser.parse_args()
 
     font = GSFont(args.file)
-    font.versionMajor, font.versionMinor = [int(x) for x in args.version.split(".")]
+    font.versionMajor, font.versionMinor = [int(x) for x in args.version[1:].split(".")]
     font.save(args.outfile)
 
 

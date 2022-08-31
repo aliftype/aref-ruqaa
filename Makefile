@@ -1,5 +1,4 @@
 NAME=ArefRuqaa
-VERSION=1.005
 LATIN=EulerText
 
 BLDDIR=build
@@ -13,6 +12,8 @@ FONTS=Regular Bold
 OTF=$(FONTS:%=$(NAME)-%.otf) $(FONTS:%=$(NAME)Ink-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf) $(FONTS:%=$(NAME)Ink-%.ttf)
 SAMPLE=sample.svg
+
+VERSION=$(shell git describe --tags --abbrev=0)
 
 MAKEFLAGS := -r -s
 
