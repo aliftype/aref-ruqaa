@@ -9,7 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Fetch
+      uses: actions/checkout@v2
+    - name: Unshallow
+      run: git fetch --prune --unshallow --tags --force
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
