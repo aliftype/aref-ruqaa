@@ -13,7 +13,8 @@ OTF=$(FONTS:%=$(NAME)-%.otf) $(FONTS:%=$(NAME)Ink-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf) $(FONTS:%=$(NAME)Ink-%.ttf)
 SAMPLE=sample.svg
 
-VERSION=$(shell git describe --tags --abbrev=0)
+TAG=$(shell git describe --tags --abbrev=0)
+VERSION=$(TAG:v%=%)
 
 MAKEFLAGS := -r -s
 
