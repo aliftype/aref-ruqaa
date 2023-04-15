@@ -12,7 +12,6 @@ PY := python3
 
 FONTS=Regular Bold
 
-OTF=$(FONTS:%=$(FONTDIR)/$(NAME)-%.otf) $(FONTS:%=$(FONTDIR)/$(NAME)Ink-%.otf)
 TTF=$(FONTS:%=$(FONTDIR)/$(NAME)-%.ttf) $(FONTS:%=$(FONTDIR)/$(NAME)Ink-%.ttf)
 SAMPLE=sample.svg
 
@@ -26,8 +25,7 @@ export FONTTOOLS_LOOKUP_DEBUGGING := 1
 
 .SECONDARY:
 
-all: otf doc
-otf: $(OTF)
+all: ttf doc
 ttf: $(TTF)
 doc: $(SAMPLE)
 
@@ -72,19 +70,18 @@ $(FONTDIR)/$(NAME)Ink-%: $(BUILDDIR)/$(NAME)-% $(BUILDDIR)/$(LATIN)-%
 	echo "   MERGE  $@"
 	$(PY) $(SCRIPTDIR)/merge.py --color --family="Aref Ruqaa" --suffix=Ink --out-file=$@ $+
 
-$(SAMPLE): $(OTF)
+$(SAMPLE): $(TTF)
 	@echo "   SAMPLE    $(@F)"
 	@python3 $(SCRIPTDIR)/mksample.py $+ \
 	  --output=$@ \
 	  --text="﴿الحُبُّ سَمَاءٌ لَا تُمطرُ غَيرَ الأَحلَامِ﴾"
 
 
-dist: $(OTF) $(TTF)
-	install -Dm644 -t $(DIST) $(OTF)
-	install -Dm644 -t $(DIST)/ttf $(TTF)
+dist: $(TTF)
+	install -Dm644 -t $(DIST) $(TTF)
 	install -Dm644 -t $(DIST) OFL.txt
 	install -Dm644 -t $(DIST) README.md
 	zip -r $(DIST).zip $(DIST)
 
 clean:
-	rm -rf $(BUILDDIR) $(OTF) $(TTF) $(DIST) $(DIST).zip
+	rm -rf $(BUILDDIR) $(TTF) $(DIST) $(DIST).zip
