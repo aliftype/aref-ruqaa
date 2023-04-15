@@ -1,16 +1,19 @@
 NAME=ArefRuqaa
 LATIN=EulerText
 
-BLDDIR=build
-INSTANCEDIR=$(BLDDIR)/instance_ufos
+FONTDIR=fonts
+BUILDDIR=build
+SOURCEDIR=sources
+SCRIPTDIR=scripts
+INSTANCEDIR=$(BUILDDIR)/instance_ufos
 DIST=$(NAME)-$(VERSION)
 
 PY := python3
 
 FONTS=Regular Bold
 
-OTF=$(FONTS:%=$(NAME)-%.otf) $(FONTS:%=$(NAME)Ink-%.otf)
-TTF=$(FONTS:%=$(NAME)-%.ttf) $(FONTS:%=$(NAME)Ink-%.ttf)
+OTF=$(FONTS:%=$(FONTDIR)/$(NAME)-%.otf) $(FONTS:%=$(FONTDIR)/$(NAME)Ink-%.otf)
+TTF=$(FONTS:%=$(FONTDIR)/$(NAME)-%.ttf) $(FONTS:%=$(FONTDIR)/$(NAME)Ink-%.ttf)
 SAMPLE=sample.svg
 
 TAG=$(shell git describe --tags --abbrev=0)
@@ -36,42 +39,42 @@ FM_OPTS2 = $(FM_OPTS) \
 	  --master-dir="{tmp}" \
 	  --instance-dir="{tmp}"
 
-$(BLDDIR)/$(NAME).glyphs: $(NAME).glyphs
+$(BUILDDIR)/$(NAME).glyphs: $(SOURCEDIR)/$(NAME).glyphs
 	echo "   PREPARE  $(@F)"
-	mkdir -p $(BLDDIR)
-	$(PY) setversion.py $< $@ $(VERSION)
+	mkdir -p $(BUILDDIR)
+	$(PY) $(SCRIPTDIR)/setversion.py $< $@ $(VERSION)
 
-$(BLDDIR)/$(NAME).designspace: $(BLDDIR)/$(NAME).glyphs
+$(BUILDDIR)/$(NAME).designspace: $(BUILDDIR)/$(NAME).glyphs
 	echo "   UFO    $(@F)"
-	mkdir -p $(BLDDIR)
-	glyphs2ufo $< -m $(BLDDIR) -n "$(PWD)"/$(INSTANCEDIR) \
+	mkdir -p $(BUILDDIR)
+	glyphs2ufo $< -m $(BUILDDIR) -n "$(PWD)"/$(INSTANCEDIR) \
 		   --generate-GDEF \
 		   --write-public-skip-export-glyphs \
 		   --no-store-editor-state \
 		   --no-preserve-glyphsapp-metadata \
 		   --minimal
 
-$(BLDDIR)/$(LATIN)-%: $(LATIN).glyphs
+$(BUILDDIR)/$(LATIN)-%: $(SOURCEDIR)/$(LATIN).glyphs
 	echo "   BUILD  $(@F)"
-	mkdir -p $(BLDDIR)
+	mkdir -p $(BUILDDIR)
 	$(PY) -m fontmake $(FM_OPTS2) -g $< -i ".* $(basename $*)" -o $(subst .,,$(suffix $(@F))) --output-path $@
 
-$(BLDDIR)/$(NAME)-%: $(BLDDIR)/$(NAME).designspace
+$(BUILDDIR)/$(NAME)-%: $(BUILDDIR)/$(NAME).designspace
 	echo "   BUILD  $(@F)"
-	mkdir -p $(BLDDIR)
-	$(PY) -m fontmake $(FM_OPTS) $(BLDDIR)/$(basename $(@F)).ufo -o $(subst .,,$(suffix $(@F))) --output-path $@
+	mkdir -p $(BUILDDIR)
+	$(PY) -m fontmake $(FM_OPTS) $(BUILDDIR)/$(basename $(@F)).ufo -o $(subst .,,$(suffix $(@F))) --output-path $@
 
-$(NAME)-%: $(BLDDIR)/$(NAME)-% $(BLDDIR)/$(LATIN)-%
+$(FONTDIR)/$(NAME)-%: $(BUILDDIR)/$(NAME)-% $(BUILDDIR)/$(LATIN)-%
 	echo "   MERGE  $@"
-	$(PY) merge.py --out-file=$@ $+
+	$(PY) $(SCRIPTDIR)/merge.py --out-file=$@ $+
 
-$(NAME)Ink-%: $(BLDDIR)/$(NAME)-% $(BLDDIR)/$(LATIN)-%
+$(FONTDIR)/$(NAME)Ink-%: $(BUILDDIR)/$(NAME)-% $(BUILDDIR)/$(LATIN)-%
 	echo "   MERGE  $@"
-	$(PY) merge.py --color --family="Aref Ruqaa" --suffix=Ink --out-file=$@ $+
+	$(PY) $(SCRIPTDIR)/merge.py --color --family="Aref Ruqaa" --suffix=Ink --out-file=$@ $+
 
 $(SAMPLE): $(OTF)
 	@echo "   SAMPLE    $(@F)"
-	@python3 mksample.py $+ \
+	@python3 $(SCRIPTDIR)/mksample.py $+ \
 	  --output=$@ \
 	  --text="﴿الحُبُّ سَمَاءٌ لَا تُمطرُ غَيرَ الأَحلَامِ﴾"
 
@@ -84,4 +87,4 @@ dist: $(OTF) $(TTF)
 	zip -r $(DIST).zip $(DIST)
 
 clean:
-	rm -rf $(BLDDIR) $(OTF) $(TTF) $(DIST) $(DIST).zip
+	rm -rf $(BUILDDIR) $(OTF) $(TTF) $(DIST) $(DIST).zip
