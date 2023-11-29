@@ -1,5 +1,5 @@
 {
-.appVersion = "3138";
+.appVersion = "3227";
 .formatVersion = 3;
 axes = (
 {
@@ -24270,6 +24270,27 @@ width = 333;
 glyphname = "seen-ar.medi.feh";
 layers = (
 {
+anchors = (
+{
+name = bottom.mark;
+pos = (519,-149);
+},
+{
+name = entry;
+pos = (580,66);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (557,468);
+},
+{
+name = top.mark;
+pos = (545,488);
+}
+);
 layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
 shapes = (
 {
@@ -121967,7 +121988,7 @@ glyphname = period;
 layers = (
 {
 attr = {
-color = "1";
+color = 1;
 };
 layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
 shapes = (
@@ -122010,7 +122031,7 @@ width = 272;
 },
 {
 attr = {
-color = "1";
+color = 1;
 };
 layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
 shapes = (
@@ -129839,20 +129860,20 @@ value = "Copyright 2015-2022 The Aref Ruqaa Project Authors (https://github.com/
 );
 },
 {
-key = designers;
-values = (
-{
-language = dflt;
-value = "Abdullah Aref";
-}
-);
-},
-{
 key = descriptions;
 values = (
 {
 language = dflt;
 value = "Aref Ruqaa is an Arabic typeface that aspires to capture the essence of the classical Ruqaa calligraphic style.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Abdullah Aref";
 }
 );
 },
