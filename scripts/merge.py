@@ -50,7 +50,7 @@ def main():
         name_IDs="*",
         name_languages="*",
         notdef_outline=True,
-        glyph_names=False,
+        glyph_names=True,
         recalc_average_width=True,
     )
     subsetter = subset.Subsetter(options=options)
