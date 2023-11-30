@@ -1,0 +1,50 @@
+{
+category = Mark;
+glyphname = "kasra-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom.mark;
+},
+{
+name = _bottom.mkmk;
+}
+);
+attr = {
+color = 1;
+};
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+pos = (0,69);
+ref = "fatha-ar";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom.mark;
+},
+{
+name = _bottom.mkmk;
+}
+);
+attr = {
+color = 1;
+};
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+pos = (0,69);
+ref = "fatha-ar";
+}
+);
+width = 0;
+}
+);
+subCategory = Nonspacing;
+unicode = 1616;
+}

@@ -1,0 +1,33 @@
+{
+color = 0;
+glyphname = "rehVbelow-ar";
+layers = (
+{
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+pos = (233,-224);
+ref = "vbelow-ar";
+},
+{
+ref = "reh-ar";
+}
+);
+width = 469;
+},
+{
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+pos = (233,-224);
+ref = "vbelow-ar";
+},
+{
+ref = "reh-ar";
+}
+);
+width = 469;
+}
+);
+unicode = 1685;
+}

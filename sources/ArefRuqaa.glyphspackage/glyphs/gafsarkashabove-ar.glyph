@@ -1,0 +1,99 @@
+{
+category = Mark;
+glyphname = "gafsarkashabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.gaf;
+},
+{
+name = top.mkmk;
+pos = (0,195);
+}
+);
+attr = {
+color = 1;
+};
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+attr = {
+gradient = {
+colors = (
+(
+(210,46,31,128),
+0
+),
+(
+(210,46,31,255),
+1
+)
+);
+end = (0.6361,0.3741);
+start = (-0.0072,0.1894);
+};
+};
+closed = 1;
+nodes = (
+(168,114,l),
+(137,62,l),
+(-163,-110,l),
+(-132,-58,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.gaf;
+},
+{
+name = top.mkmk;
+pos = (0,195);
+}
+);
+attr = {
+color = 1;
+};
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+attr = {
+gradient = {
+colors = (
+(
+(210,46,31,128),
+0
+),
+(
+(210,46,31,255),
+1
+)
+);
+end = (0.6361,0.3741);
+start = (-0.0072,0.1894);
+};
+};
+closed = 1;
+nodes = (
+(155,130,ls),
+(165,135,o),
+(176,124,o),
+(170,114,cs),
+(139,62,l),
+(-149,-104,ls),
+(-159,-110,o),
+(-171,-97,o),
+(-165,-87,cs),
+(-134,-35,l)
+);
+}
+);
+width = 0;
+}
+);
+subCategory = Nonspacing;
+}

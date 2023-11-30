@@ -1,0 +1,31 @@
+{
+glyphname = "zero-ar.numr";
+layers = (
+{
+attr = {
+color = 1;
+};
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+pos = (0,269);
+ref = "zero-ar.dnom";
+}
+);
+width = 265;
+},
+{
+attr = {
+color = 1;
+};
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+pos = (0,269);
+ref = "zero-ar.dnom";
+}
+);
+width = 265;
+}
+);
+}

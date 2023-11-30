@@ -1,0 +1,53 @@
+{
+category = Mark;
+glyphname = "dotbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+},
+{
+name = _center;
+pos = (0,49);
+},
+{
+name = bottom.mkmk;
+pos = (0,-249);
+}
+);
+attr = {
+color = 1;
+};
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+ref = "dotabove-ar";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+},
+{
+name = bottom.mkmk;
+pos = (0,-249);
+}
+);
+attr = {
+color = 1;
+};
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+ref = "dotabove-ar";
+}
+);
+width = 0;
+}
+);
+subCategory = Nonspacing;
+}

@@ -1,0 +1,55 @@
+{
+glyphname = "four-ar.numr";
+layers = (
+{
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+pos = (0,269);
+ref = "four-ar.dnom";
+}
+);
+width = 265;
+},
+{
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+pos = (0,269);
+ref = "four-ar.dnom";
+}
+);
+width = 265;
+},
+{
+associatedMasterId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+attr = {
+color = 1;
+};
+layerId = "5AC7806F-0349-4C10-93E7-5A2221F5FBEE";
+name = "11 Jan 22, 21:04";
+shapes = (
+{
+pos = (0,269);
+ref = "four-ar.dnom";
+}
+);
+width = 265;
+},
+{
+associatedMasterId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+attr = {
+color = 1;
+};
+layerId = "DA1178F0-83A1-461E-B12E-49D31536793F";
+name = "11 Jan 22, 21:06";
+shapes = (
+{
+pos = (0,269);
+ref = "four-ar.dnom";
+}
+);
+width = 265;
+}
+);
+}

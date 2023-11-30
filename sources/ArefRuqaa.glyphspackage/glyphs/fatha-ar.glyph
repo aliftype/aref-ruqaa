@@ -1,0 +1,115 @@
+{
+category = Mark;
+glyphname = "fatha-ar";
+layers = (
+{
+anchors = (
+{
+name = _top.mark;
+},
+{
+name = _top.mkmk;
+},
+{
+name = top.mkmk;
+pos = (-20,122);
+}
+);
+attr = {
+color = 1;
+};
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,116,182,255),
+0
+),
+(
+(0,116,182,128),
+1
+)
+);
+end = (0.0016,0);
+start = (1.0025,0.9906);
+};
+};
+closed = 1;
+nodes = (
+(-35,3,o),
+(41,29,o),
+(108,53,c),
+(79,7,l),
+(10,-17,o),
+(-71,-45,o),
+(-132,-75,c),
+(-99,-23,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top.mark;
+},
+{
+name = _top.mkmk;
+},
+{
+name = top.mkmk;
+pos = (-20,122);
+}
+);
+attr = {
+color = 1;
+};
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,116,182,255),
+0
+),
+(
+(0,116,182,128),
+1
+)
+);
+end = (0.0016,0);
+start = (1.0025,0.9906);
+};
+};
+closed = 1;
+nodes = (
+(-41,22,o),
+(35,49,o),
+(101,72,cs),
+(110,75,o),
+(119,67,o),
+(113,57,cs),
+(83,8,l),
+(-26,-31,ls),
+(-61,-43,o),
+(-93,-57,o),
+(-124,-72,cs),
+(-133,-77,o),
+(-142,-66,o),
+(-137,-57,cs),
+(-104,-4,l)
+);
+}
+);
+width = 0;
+}
+);
+subCategory = Nonspacing;
+unicode = 1614;
+}

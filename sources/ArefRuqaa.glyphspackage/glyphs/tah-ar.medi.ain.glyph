@@ -1,0 +1,73 @@
+{
+glyphname = "tah-ar.medi.ain";
+layers = (
+{
+anchors = (
+{
+name = bottom.mark;
+pos = (453,-132);
+},
+{
+name = entry;
+pos = (219,-230);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (545,523);
+},
+{
+name = top.mark;
+pos = (365,738);
+}
+);
+attr = {
+color = 1;
+};
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+name = Regular;
+shapes = (
+{
+ref = "tah-ar.init.ain";
+}
+);
+width = 327;
+},
+{
+anchors = (
+{
+name = bottom.mark;
+pos = (453,-132);
+},
+{
+name = entry;
+pos = (219,-230);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (545,523);
+},
+{
+name = top.mark;
+pos = (365,738);
+}
+);
+attr = {
+color = 1;
+};
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+name = Bold;
+shapes = (
+{
+ref = "tah-ar.init.ain";
+}
+);
+width = 327;
+}
+);
+}

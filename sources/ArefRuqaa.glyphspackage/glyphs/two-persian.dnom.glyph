@@ -1,0 +1,59 @@
+{
+glyphname = "two-persian.dnom";
+layers = (
+{
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+pos = (-5,0);
+ref = "two-persian";
+scale = (0.7,0.7);
+}
+);
+width = 265;
+},
+{
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+pos = (-5,0);
+ref = "two-persian";
+scale = (0.7,0.7);
+}
+);
+width = 265;
+},
+{
+associatedMasterId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+attr = {
+color = 1;
+};
+layerId = "BD217EB4-C3EA-44CB-AF3C-FD2D62B7581F";
+name = "11 Jan 22, 23:10";
+shapes = (
+{
+pos = (-5,0);
+ref = "two-persian";
+scale = (0.7,0.7);
+}
+);
+width = 265;
+},
+{
+associatedMasterId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+attr = {
+color = 1;
+};
+layerId = "E36B55F7-588F-40E6-9EE5-73DD99215FC5";
+name = "11 Jan 22, 23:10";
+shapes = (
+{
+pos = (-5,0);
+ref = "two-persian";
+scale = (0.7,0.7);
+}
+);
+width = 265;
+}
+);
+}

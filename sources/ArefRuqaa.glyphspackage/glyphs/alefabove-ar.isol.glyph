@@ -1,0 +1,33 @@
+{
+category = Mark;
+glyphname = "alefabove-ar.isol";
+layers = (
+{
+attr = {
+color = 1;
+};
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+pos = (90,480);
+ref = "alefabove-ar";
+}
+);
+width = 121;
+},
+{
+attr = {
+color = 1;
+};
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+pos = (101,480);
+ref = "alefabove-ar";
+}
+);
+width = 143;
+}
+);
+subCategory = Spacing;
+}

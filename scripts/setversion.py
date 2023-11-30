@@ -1,5 +1,6 @@
 import argparse
-from glyphsLib import GSFont
+import shutil
+import openstep_plist
 
 
 def main():
@@ -10,9 +11,18 @@ def main():
 
     args = parser.parse_args()
 
-    font = GSFont(args.file)
-    font.versionMajor, font.versionMinor = [int(x) for x in args.version.split(".")]
-    font.save(args.outfile)
+    shutil.copytree(args.file, args.outfile, dirs_exist_ok=True)
+
+    fontinfo = f"{args.outfile}/fontinfo.plist"
+    with open(fontinfo, "r") as f:
+        info = openstep_plist.load(f, use_numbers=True)
+
+    major, minor = args.version.split(".")
+    info["versionMajor"] = int(major)
+    info["versionMinor"] = int(minor)
+
+    with open(fontinfo, "wb") as f:
+        openstep_plist.dump(info, f)
 
 
 if __name__ == "__main__":

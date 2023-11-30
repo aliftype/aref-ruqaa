@@ -1,0 +1,74 @@
+{
+glyphname = "fullstop-ar";
+layers = (
+{
+attr = {
+color = 1;
+};
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+attr = {
+gradient = {
+colors = (
+(
+(210,46,31,128),
+0
+),
+(
+(210,46,31,255),
+1
+)
+);
+end = (0.7584,0.2265);
+start = (0.2305,0.766);
+};
+};
+closed = 1;
+nodes = (
+(232,119,l),
+(187,20,l),
+(22,0,l),
+(62,99,l)
+);
+}
+);
+width = 253;
+},
+{
+attr = {
+color = 1;
+};
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+attr = {
+gradient = {
+colors = (
+(
+(210,46,31,128),
+0
+),
+(
+(210,46,31,255),
+1
+)
+);
+end = (0.7584,0.2265);
+start = (0.2305,0.766);
+};
+};
+closed = 1;
+nodes = (
+(241,139,l),
+(186,20,l),
+(22,0,l),
+(71,119,l)
+);
+}
+);
+width = 263;
+}
+);
+unicode = 1748;
+}

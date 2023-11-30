@@ -1,0 +1,103 @@
+{
+glyphname = "kaf-ar.init.yeh";
+layers = (
+{
+anchors = (
+{
+name = bottom.mark;
+pos = (369,57);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (216,831);
+},
+{
+name = top.gaf;
+pos = (316,831);
+},
+{
+name = top.mark;
+pos = (190,870);
+}
+);
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+ref = "kaf-ar.init.hah";
+}
+);
+width = 511;
+},
+{
+anchors = (
+{
+name = bottom.mark;
+pos = (369,57);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (216,831);
+},
+{
+name = top.gaf;
+pos = (316,831);
+},
+{
+name = top.mark;
+pos = (190,870);
+}
+);
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+ref = "kaf-ar.init.hah";
+}
+);
+width = 511;
+},
+{
+anchors = (
+{
+name = exit;
+}
+);
+associatedMasterId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+attr = {
+color = 1;
+};
+layerId = "624ED68C-A17F-47D6-BFD5-DFF183907403";
+name = "9 Jan 22, 21:17";
+shapes = (
+{
+ref = "kaf-ar.init.hah";
+}
+);
+width = 511;
+},
+{
+anchors = (
+{
+name = exit;
+}
+);
+associatedMasterId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+attr = {
+color = 1;
+};
+layerId = "F6D92FEA-58DB-43BF-BA4E-84CAB5DA3512";
+name = "10 Jan 22, 20:56";
+shapes = (
+{
+ref = "kaf-ar.init.hah";
+}
+);
+width = 511;
+}
+);
+}

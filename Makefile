@@ -37,12 +37,12 @@ FM_OPTS2 = $(FM_OPTS) \
 	  --master-dir="{tmp}" \
 	  --instance-dir="{tmp}"
 
-$(BUILDDIR)/$(NAME).glyphs: $(SOURCEDIR)/$(NAME).glyphs
+$(BUILDDIR)/$(NAME).glyphspackage: $(SOURCEDIR)/$(NAME).glyphspackage
 	echo "   PREPARE  $(@F)"
 	mkdir -p $(BUILDDIR)
 	$(PY) $(SCRIPTDIR)/setversion.py $< $@ $(VERSION)
 
-$(BUILDDIR)/$(NAME).designspace: $(BUILDDIR)/$(NAME).glyphs
+$(BUILDDIR)/$(NAME).designspace: $(BUILDDIR)/$(NAME).glyphspackage
 	echo "   UFO      $(@F)"
 	mkdir -p $(BUILDDIR)
 	glyphs2ufo $< -m $(BUILDDIR) -n "$(PWD)"/$(INSTANCEDIR) \

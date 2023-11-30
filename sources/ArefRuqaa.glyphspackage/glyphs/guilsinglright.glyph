@@ -1,0 +1,36 @@
+{
+glyphname = guilsinglright;
+layers = (
+{
+attr = {
+color = 1;
+};
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+angle = 180;
+pos = (160,456);
+ref = guilsinglleft;
+}
+);
+width = 160;
+},
+{
+attr = {
+color = 1;
+};
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+angle = 180;
+pos = (171,456);
+ref = guilsinglleft;
+}
+);
+width = 171;
+}
+);
+metricLeft = "=32";
+metricRight = "=12";
+unicode = 8250;
+}

@@ -1,0 +1,89 @@
+{
+glyphname = "lam-ar.init.yeh";
+layers = (
+{
+anchors = (
+{
+name = bottom.mark;
+pos = (97,-426);
+},
+{
+name = exit;
+},
+{
+name = top.mark;
+pos = (123,615);
+}
+);
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+ref = "lam-ar.init.hah";
+}
+);
+width = 183;
+},
+{
+anchors = (
+{
+name = bottom.mark;
+pos = (97,-426);
+},
+{
+name = exit;
+pos = (11,0);
+},
+{
+name = top.mark;
+pos = (123,615);
+}
+);
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+ref = "lam-ar.init.hah";
+}
+);
+width = 183;
+},
+{
+anchors = (
+{
+name = exit;
+pos = (11,0);
+}
+);
+associatedMasterId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+attr = {
+color = 1;
+};
+layerId = "D455B7A5-7239-4F23-8B63-42049200C681";
+name = "2 Jan 22, 23:05";
+shapes = (
+{
+ref = "lam-ar.init.hah";
+}
+);
+width = 183;
+},
+{
+anchors = (
+{
+name = exit;
+}
+);
+associatedMasterId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+attr = {
+color = 1;
+};
+layerId = "E31855C1-D5C2-414D-9A8E-FB874CAD9B04";
+name = "2 Jan 22, 23:05";
+shapes = (
+{
+ref = "lam-ar.init.hah";
+}
+);
+width = 183;
+}
+);
+}

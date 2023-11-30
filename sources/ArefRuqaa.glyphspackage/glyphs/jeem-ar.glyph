@@ -1,0 +1,33 @@
+{
+color = 0;
+glyphname = "jeem-ar";
+layers = (
+{
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+pos = (382,24);
+ref = "dotbelow-ar";
+},
+{
+ref = "hah-ar";
+}
+);
+width = 683;
+},
+{
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+pos = (382,24);
+ref = "dotbelow-ar";
+},
+{
+ref = "hah-ar";
+}
+);
+width = 683;
+}
+);
+unicode = 1580;
+}

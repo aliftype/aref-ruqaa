@@ -1,0 +1,107 @@
+{
+glyphname = "qafDotless-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (201,-167);
+},
+{
+name = bottom.mark;
+pos = (174,-171);
+},
+{
+name = entry;
+pos = (376,316);
+},
+{
+name = top;
+pos = (218,637);
+},
+{
+name = top.mark;
+pos = (284,664);
+}
+);
+layerId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+shapes = (
+{
+ref = "qafDotless-ar";
+}
+);
+width = 488;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (203,-167);
+},
+{
+name = bottom.mark;
+pos = (176,-171);
+},
+{
+name = entry;
+pos = (378,316);
+},
+{
+name = top;
+pos = (220,637);
+},
+{
+name = top.mark;
+pos = (286,664);
+}
+);
+layerId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+shapes = (
+{
+ref = "qafDotless-ar";
+}
+);
+width = 490;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (376,316);
+}
+);
+associatedMasterId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
+attr = {
+color = 1;
+};
+layerId = "238C0CE2-BB02-4AF6-84D3-5B554EA3480E";
+name = "3 Jan 22, 02:59";
+shapes = (
+{
+ref = "qafDotless-ar";
+}
+);
+width = 488;
+},
+{
+anchors = (
+{
+name = entry;
+pos = (378,316);
+}
+);
+associatedMasterId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
+attr = {
+color = 1;
+};
+layerId = "4A93F35F-A374-4116-A38E-4A2E69583E66";
+name = "3 Jan 22, 03:13";
+shapes = (
+{
+ref = "qafDotless-ar";
+}
+);
+width = 490;
+}
+);
+}
