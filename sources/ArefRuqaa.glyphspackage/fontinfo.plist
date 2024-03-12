@@ -1,5 +1,5 @@
 {
-.appVersion = "3227";
+.appVersion = "3246";
 .formatVersion = 3;
 axes = (
 {
@@ -640,52 +640,52 @@ feature rlig {
 @context_hah = [hah-ar.fina hah-ar.medi hah-ar.medi.hah hah-ar.medi.dal hah-ar.medi.reh
                 hah-ar.medi.sad hah-ar.medi.ain hah-ar.medi.feh hah-ar.medi.meem hah-ar.medi.heh
                 hah-ar.medi.yeh hah-ar.medi.ragaa];
-lookup calt_hah {
+lookup rlig_hah {
   lookupflag IgnoreMarks;
     sub @init_medi' @context_hah by @init_medi.hah;
-} calt_hah;
+} rlig_hah;
 
-lookup calt_dal {
+lookup rlig_dal {
   lookupflag IgnoreMarks;
     sub @init_medi' [dal-ar.fina] by @init_medi.dal;
-} calt_dal;
+} rlig_dal;
 
-lookup calt_reh {
+lookup rlig_reh {
   lookupflag IgnoreMarks;
     sub @init_medi' [reh-ar.fina] by @init_medi.reh;
-} calt_reh;
+} rlig_reh;
 
 @context_sad = [sad-ar.fina sad-ar.medi tah-ar.fina tah-ar.medi sad-ar.medi.hah tah-ar.medi.hah
                 sad-ar.medi.dal tah-ar.medi.dal sad-ar.medi.reh tah-ar.medi.reh sad-ar.medi.qantara
                 tah-ar.medi.qantara sad-ar.medi.ain tah-ar.medi.ain sad-ar.medi.feh tah-ar.medi.feh
                 sad-ar.medi.meem tah-ar.medi.meem sad-ar.medi.heh tah-ar.medi.heh sad-ar.medi.yeh
                 tah-ar.medi.yeh sad-ar.fina.jalt tah-ar.medi.kaf];
-lookup calt_sad {
+lookup rlig_sad {
   lookupflag IgnoreMarks;
     sub @init_medi' @context_sad by @init_medi.sad;
-} calt_sad;
+} rlig_sad;
 
 @context_ain = [ain-ar.fina ain-ar.medi ain-ar.medi.hah ain-ar.medi.dal ain-ar.medi.reh
                 ain-ar.medi.sad ain-ar.medi.ain ain-ar.medi.feh ain-ar.medi.meem ain-ar.medi.heh
                 ain-ar.medi.yeh ain-ar.medi.ragaa];
-lookup calt_ain {
+lookup rlig_ain {
   lookupflag IgnoreMarks;
     sub @init_medi' @context_ain by @init_medi.ain;
-} calt_ain;
+} rlig_ain;
 
 @context_feh = [fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.medi.hah fehDotless-ar.medi.dal fehDotless-ar.medi.reh
                 fehDotless-ar.medi.sad fehDotless-ar.medi.ain fehDotless-ar.medi.feh fehDotless-ar.medi.meem fehDotless-ar.medi.heh
                 fehDotless-ar.medi.yeh fehDotless-ar.fina.jalt qafDotless-ar.fina.jalt fehDotless-ar.medi.ragaa];
-lookup calt_feh {
+lookup rlig_feh {
   lookupflag IgnoreMarks;
     sub @init_medi' @context_feh by @init_medi.feh;
-} calt_feh;
+} rlig_feh;
 
-lookup calt_heh_2 {
+lookup rlig_heh_2 {
     lookupflag IgnoreMarks;
     sub heh-ar.medi heh-ar.medi' heh-ar.medi by hehDoachashmee-ar.medi;
     sub heh-ar.medi' heh-ar.medi heh-ar.fina by hehDoachashmee-ar.medi;
-} calt_heh_2;
+} rlig_heh_2;
 
 @context_meem = [meem-ar.fina meem-ar.medi meem-ar.medi.hah meem-ar.medi.dal meem-ar.medi.reh
                  meem-ar.medi.sad meem-ar.medi.ain meem-ar.medi.feh meem-ar.medi.meem meem-ar.medi.heh
@@ -693,14 +693,14 @@ lookup calt_heh_2 {
                  hehDoachashmee-ar.medi hehDoachashmee-ar.fina hehDoachashmee-ar.medi.hah hehDoachashmee-ar.medi.dal hehDoachashmee-ar.medi.reh
                  hehDoachashmee-ar.medi.sad hehDoachashmee-ar.medi.ain hehDoachashmee-ar.medi.feh hehDoachashmee-ar.medi.meem hehDoachashmee-ar.medi.heh
                  hehDoachashmee-ar.medi.yeh hehDoachashmee-ar.medi.ragaa];
-lookup calt_meem_heh {
+lookup rlig_meem_heh {
   lookupflag IgnoreMarks;
     sub @init_medi' @context_meem by @init_medi.meem;
-} calt_meem_heh;
+} rlig_meem_heh;
 
 @context_heh = [heh-ar.medi heh-ar.medi.hah heh-ar.medi.dal heh-ar.medi.reh heh-ar.medi.sad
                 heh-ar.medi.ain heh-ar.medi.feh heh-ar.medi.meem heh-ar.medi.heh heh-ar.medi.yeh];
-lookup calt_heh_1 {
+lookup rlig_heh_1 {
     lookupflag IgnoreMarks;
     sub behDotless-ar.init' @context_heh by behDotless-ar.init.heh;
     sub hah-ar.init' @context_heh by hah-ar.init.heh;
@@ -726,37 +726,37 @@ lookup calt_heh_1 {
     sub meem-ar.medi' @context_heh by meem-ar.medi.heh;
     sub hehDoachashmee-ar.medi' @context_heh by hehDoachashmee-ar.medi.heh;
     sub heh-ar.medi' @context_heh by heh-ar.medi.heh;
-} calt_heh_1;
+} rlig_heh_1;
 
-lookup calt_heh_3 {
+lookup rlig_heh_3 {
     lookupflag IgnoreMarks;
     sub heh-ar.medi.meem hehDoachashmee-ar.medi.meem' by hehDoachashmee-ar.medi.heh;
     sub heh-ar.medi.heh' hehDoachashmee-ar.medi.heh by heh-ar.medi.meem;
     sub heh-ar.init.heh' hehDoachashmee-ar.medi.heh by heh-ar.init.hah;
     sub hehDoachashmee-ar.medi.heh heh-ar.medi.heh' hehDoachashmee-ar.medi by heh-ar.medi.meem;
     sub hehDoachashmee-ar.medi.heh heh-ar.init.heh' hehDoachashmee-ar.medi by heh-ar.init.hah;
-} calt_heh_3;
+} rlig_heh_3;
 
-lookup calt_heh_4 {
+lookup rlig_heh_4 {
     lookupflag IgnoreMarks;
     sub hehDoachashmee-ar.medi.heh hehDoachashmee-ar.medi.heh heh-ar.medi' by hehDoachashmee-ar.medi;
-} calt_heh_4;
+} rlig_heh_4;
 
-lookup calt_heh_5 {
+lookup rlig_heh_5 {
     lookupflag IgnoreMarks;
     sub hehDoachashmee-ar.medi.heh hehDoachashmee-ar.medi.heh' hehDoachashmee-ar.medi by heh-ar.medi.meem;
-} calt_heh_5;
+} rlig_heh_5;
 
-lookup calt_yeh {
+lookup rlig_yeh {
   lookupflag IgnoreMarks;
     sub @init_medi' [alefMaksura-ar.fina] by @init_medi.yeh;
-} calt_yeh;
+} rlig_yeh;
 
 @context_yeh_by_yeh = [behDotless-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.init.yeh lam-ar.init.yeh];
-lookup calt_yeh_by_yeh {
+lookup rlig_yeh_by_yeh {
   lookupflag IgnoreMarks;
     sub @context_yeh_by_yeh [alefMaksura-ar.fina]' by [alefMaksura-ar.fina.yeh];
-} calt_yeh_by_yeh;
+} rlig_yeh_by_yeh;
 
 @context_kaf_alef = [alef-ar.fina kaf-ar.fina kaf-ar.medi lam-ar.fina lam-ar.medi lam-ar.medi.alef
                      keheh-ar.fina kaf-ar.medi.hah lam-ar.medi.hah kaf-ar.medi.dal lam-ar.medi.dal
@@ -764,35 +764,35 @@ lookup calt_yeh_by_yeh {
                      lam-ar.medi.ain kaf-ar.medi.feh lam-ar.medi.feh kaf-ar.medi.meem lam-ar.medi.meem
                      kaf-ar.medi.heh lam-ar.medi.heh kaf-ar.medi.yeh lam-ar.medi.yeh lam-ar.fina.jalt
                      keheh-ar.fina.jalt kaf-ar.medi.ragaa lam-ar.medi.ragaa];
-lookup calt_kaf_alef {
+lookup rlig_kaf_alef {
   lookupflag IgnoreMarks;
     sub [kaf-ar.init]' @context_kaf_alef by [kaf-ar.init.alef];
-} calt_kaf_alef;
+} rlig_kaf_alef;
 
-lookup calt_kaf_kaf_kaf {
+lookup rlig_kaf_kaf_kaf {
   lookupflag IgnoreMarks;
     sub [kaf-ar.init.alef] [kaf-ar.init.alef]' @context_kaf_alef by [kaf-ar.medi];
-} calt_kaf_kaf_kaf;
+} rlig_kaf_kaf_kaf;
 
-lookup calt_kaf_init_medi {
+lookup rlig_kaf_init_medi {
   lookupflag IgnoreMarks;
     sub [@init @medi] [kaf-ar.medi]' @context_kaf_alef by [kaf-ar.init.alef];
-} calt_kaf_init_medi;
+} rlig_kaf_init_medi;
 
-lookup calt_lamalef {
+lookup rlig_lamalef {
   lookupflag IgnoreMarks;
     sub [lam-ar.init lam-ar.medi]' [alef-ar.fina] by [lam-ar.init.alef lam-ar.medi.alef];
-} calt_lamalef;
+} rlig_lamalef;
 
-lookup calt_alef {
+lookup rlig_alef {
   lookupflag IgnoreMarks;
     sub [lam-ar.init.alef lam-ar.medi.alef] [alef-ar.fina]' by [alef-ar.fina.lam];
-} calt_alef;
+} rlig_alef;
 
-lookup calt_beh_1 {
+lookup rlig_beh_1 {
   lookupflag IgnoreMarks;
     sub [behDotless-ar.medi]' [noon-ar.fina noonghunna-ar.fina noonghunna-ar.jalt] by [behDotless-ar.medi.noon];
-} calt_beh_1;
+} rlig_beh_1;
 
 @context_beh_2 = [alef-ar.fina behDotless-ar.fina behDotless-ar.medi kaf-ar.fina kaf-ar.medi
 		  lam-ar.fina lam-ar.medi noon-ar.fina lam-ar.medi.alef keheh-ar.fina
@@ -805,15 +805,15 @@ lookup calt_beh_1 {
 		  lam-ar.medi.heh behDotless-ar.medi.yeh kaf-ar.medi.yeh lam-ar.medi.yeh
 		  kaf-ar.init.alef behDotless-ar.fina.jalt lam-ar.fina.jalt
                   keheh-ar.fina.jalt];
-lookup calt_beh_2 {
+lookup rlig_beh_2 {
   lookupflag IgnoreMarks;
     sub [behDotless-ar.init]' @context_beh_2 by [behDotless-ar.init.ascend];
-} calt_beh_2;
+} rlig_beh_2;
 
-lookup calt_beh_3 {
+lookup rlig_beh_3 {
   lookupflag IgnoreMarks;
     sub [behDotless-ar.init.ascend] [behDotless-ar.medi]' [behDotless-ar.medi behDotless-ar.fina behDotless-ar.fina.jalt] by [behDotless-ar.medi.high];
-} calt_beh_3;
+} rlig_beh_3;
 
 lookup high_beh {
   lookupflag 0;
@@ -825,7 +825,7 @@ lookup high_beh {
 @seen_all = [seen-ar.fina seen-ar.medi seen-ar.medi.hah seen-ar.medi.dal seen-ar.medi.reh
              seen-ar.medi.sad seen-ar.medi.ain seen-ar.medi.feh seen-ar.medi.meem seen-ar.medi.heh
              seen-ar.medi.yeh seen-ar.fina.jalt seen-ar.medi.ragaa];
-lookup calt_beh_4 {
+lookup rlig_beh_4 {
   lookupflag IgnoreMarks;
     sub [behDotless-ar.medi] [behDotless-ar.medi]'lookup high_beh [behDotless-ar.medi];
     sub [behDotless-ar.medi] [behDotless-ar.medi]'lookup high_beh [behDotless-ar.medi.dal];
@@ -837,9 +837,9 @@ lookup calt_beh_4 {
     sub [seen-ar.medi] [behDotless-ar.medi]'lookup high_beh [behDotless-ar.fina];
     sub [sad-ar.init] [behDotless-ar.medi]'lookup high_beh [behDotless-ar.medi];
     sub [sad-ar.medi] [behDotless-ar.medi]'lookup high_beh [behDotless-ar.medi];
-} calt_beh_4;
+} rlig_beh_4;
 
-lookup sub_chain_caltarab_36 {
+lookup rlig_beh_5 {
   lookupflag IgnoreMarks;
     sub [behDotless-ar.medi] [behDotless-ar.medi]'lookup high_beh [behDotless-ar.medi];
     sub [behDotless-ar.init.ascend] [behDotless-ar.medi.high] [behDotless-ar.medi] [behDotless-ar.medi]'lookup high_beh;
@@ -851,12 +851,12 @@ lookup sub_chain_caltarab_36 {
     sub [sad-ar.init] [behDotless-ar.medi]'lookup high_beh [behDotless-ar.medi];
     sub [sad-ar.medi] [behDotless-ar.medi]'lookup high_beh [behDotless-ar.medi];
     sub [seen-ar.medi] [behDotless-ar.medi]'lookup high_beh [behDotless-ar.medi.sad];
-} sub_chain_caltarab_36;
+} rlig_beh_5;
 
-lookup calt_beh_5 {
+lookup rlig_beh_6 {
   lookupflag IgnoreMarks;
     sub [behDotless-ar.medi.high2] [behDotless-ar.medi.high2]' by [behDotless-ar.medi];
-} calt_beh_5;
+} rlig_beh_6;
 
 lookup kaf_lam_tah {
   lookupflag 0;
@@ -867,95 +867,95 @@ lookup kaf_lam_tah {
     sub lam-ar.medi by lam-ar.medi.kaf;
 } kaf_lam_tah;
 
-lookup calt_kaf_lam_tah {
+lookup rlig_kaf_lam_tah {
   lookupflag IgnoreMarks;
     sub [tah-ar.init tah-ar.medi kaf-ar.medi lam-ar.init lam-ar.medi]'lookup kaf_lam_tah  [kaf-ar.init.alef];
     sub [kaf-ar.init.alef] [tah-ar.init tah-ar.medi kaf-ar.medi lam-ar.init lam-ar.medi]'lookup kaf_lam_tah  [kaf-ar.init.alef];
-} calt_kaf_lam_tah;
+} rlig_kaf_lam_tah;
 
-lookup calt_yeh_ragaa {
+lookup rlig_yeh_ragaa {
   lookupflag IgnoreMarks;
     sub @init_medi' [yehbarree-ar.fina] by @init_medi.ragaa;
     sub [behDotless-ar.medi.high2]' [yehbarree-ar.fina] by [behDotless-ar.medi.ragaa];
-} calt_yeh_ragaa;
+} rlig_yeh_ragaa;
 
-lookup calt_hah_yeh_ragaa {
+lookup rlig_hah_yeh_ragaa {
   lookupflag IgnoreMarks;
     sub [hah-ar.init.heh hah-ar.medi.heh]' [heh-ar.medi.ragaa] by [hah-ar.init.heh.ragaa hah-ar.medi.heh.ragaa];
-} calt_hah_yeh_ragaa;
+} rlig_hah_yeh_ragaa;
 
-lookup calt_sad_ragaa {
+lookup rlig_sad_ragaa {
   lookupflag IgnoreMarks;
     sub @init_medi.sad' [sad-ar.medi.ragaa tah-ar.medi.ragaa] by @init_medi;
-} calt_sad_ragaa;
+} rlig_sad_ragaa;
 
-lookup calt_looped_kaf_1 {
+lookup rlig_looped_kaf_1 {
   lookupflag IgnoreMarks;
     sub [fehDotless-ar.init] [kaf-ar.init.alef]' by [kaf-ar.init.alef.loop];
     sub [lam-ar.init.meem] meem-ar.medi [kaf-ar.init.alef]' by [kaf-ar.init.alef.loop];
-} calt_looped_kaf_1;
+} rlig_looped_kaf_1;
 
 @marks_looped_kaf = [dotabove-ar twodotshorizontalbelow-ar threedotsupabove-ar];
-lookup calt_looped_kaf_2 {
+lookup rlig_looped_kaf_2 {
   lookupflag UseMarkFilteringSet @marks_looped_kaf;
     sub ain-ar.init @marks_looped_kaf kaf-ar.init.alef' by kaf-ar.init.alef.loop;
-} calt_looped_kaf_2;
+} rlig_looped_kaf_2;
 
-lookup calt_postsad {
+lookup rlig_postsad {
   lookupflag IgnoreMarks;
     sub @init_medi.sad [sad-ar.medi tah-ar.medi]' by [sad-ar.medi.postsad tah-ar.medi.postsad];
-} calt_postsad;
+} rlig_postsad;
 
-lookup calt_alefabove {
+lookup rlig_alefabove {
   sub space' alefabove-ar' by alefabove-ar.isol;
   sub kashida-ar' alefabove-ar' by alefabove-ar.medi;
-} calt_alefabove;
+} rlig_alefabove;
 
-lookup calt_color {
+lookup rlig_color {
   lookupflag IgnoreMarks;
     sub [meem-ar.init meem-ar.medi]'
         [alef-ar.fina
          behDotless-ar.medi behDotless-ar.medi.ain behDotless-ar.medi.dal behDotless-ar.medi.feh]
      by [meem-ar.init.altC meem-ar.medi.altC];
-} calt_color;
+} rlig_color;
 
 
-feature calt {
-    lookup calt_hah;
-    lookup calt_dal;
-    lookup calt_reh;
-    lookup calt_sad;
-    lookup calt_ain;
-    lookup calt_feh;
-    lookup calt_meem_heh;
-    lookup calt_heh_1;
-    lookup calt_heh_2;
-    lookup calt_heh_3;
-    lookup calt_heh_4;
-    lookup calt_heh_5;
-    lookup calt_yeh;
-    lookup calt_yeh_by_yeh;
-    lookup calt_kaf_alef;
-    lookup calt_kaf_kaf_kaf;
-    lookup calt_kaf_init_medi;
-    lookup calt_lamalef;
-    lookup calt_alef;
-    lookup calt_beh_1;
-    lookup calt_beh_2;
-    lookup calt_beh_3;
-    lookup calt_beh_4;
-    lookup sub_chain_caltarab_36;
-    lookup calt_beh_5;
-    lookup calt_kaf_lam_tah;
-    lookup calt_yeh_ragaa;
-    lookup calt_hah_yeh_ragaa;
-    lookup calt_sad_ragaa;
-    lookup calt_looped_kaf_1;
-    lookup calt_looped_kaf_2;
-    lookup calt_postsad;
-    lookup calt_alefabove;
-	lookup calt_color;
-} calt;
+feature rlig {
+    lookup rlig_hah;
+    lookup rlig_dal;
+    lookup rlig_reh;
+    lookup rlig_sad;
+    lookup rlig_ain;
+    lookup rlig_feh;
+    lookup rlig_meem_heh;
+    lookup rlig_heh_1;
+    lookup rlig_heh_2;
+    lookup rlig_heh_3;
+    lookup rlig_heh_4;
+    lookup rlig_heh_5;
+    lookup rlig_yeh;
+    lookup rlig_yeh_by_yeh;
+    lookup rlig_kaf_alef;
+    lookup rlig_kaf_kaf_kaf;
+    lookup rlig_kaf_init_medi;
+    lookup rlig_lamalef;
+    lookup rlig_alef;
+    lookup rlig_beh_1;
+    lookup rlig_beh_2;
+    lookup rlig_beh_3;
+    lookup rlig_beh_4;
+    lookup rlig_beh_5;
+    lookup rlig_beh_6;
+    lookup rlig_kaf_lam_tah;
+    lookup rlig_yeh_ragaa;
+    lookup rlig_hah_yeh_ragaa;
+    lookup rlig_sad_ragaa;
+    lookup rlig_looped_kaf_1;
+    lookup rlig_looped_kaf_2;
+    lookup rlig_postsad;
+    lookup rlig_alefabove;
+    lookup rlig_color;
+} rlig;
 
 feature jalt {
   lookupflag IgnoreMarks;
