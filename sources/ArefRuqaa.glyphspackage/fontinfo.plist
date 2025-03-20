@@ -1,5 +1,5 @@
 {
-.appVersion = "3246";
+.appVersion = "3343";
 .formatVersion = 3;
 axes = (
 {
@@ -436,12 +436,6 @@ value = 480;
 name = fsType;
 value = (
 );
-},
-{
-name = "gasp Table";
-value = {
-"65535" = 2;
-};
 },
 {
 name = "Use Typo Metrics";
