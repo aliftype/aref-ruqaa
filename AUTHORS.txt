@@ -5,6 +5,6 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
-Khaled Hosny <khaledhosny@eglug.org>
+Khaled Hosny <khaled@aliftype.com>
 Abdullah Aref <abdoulla_aref@hotmail.com>
 American Mathematical Society (http://www.ams.org)

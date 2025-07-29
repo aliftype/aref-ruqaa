@@ -9,5 +9,5 @@
 # Names should be added to this file as:
 # Name <email address>
 
-Khaled Hosny <khaledhosny@eglug.org>
+Khaled Hosny <khaled@aliftype.com>
 Abdullah Aref <abdoulla_aref@hotmail.com>
