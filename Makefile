@@ -95,9 +95,11 @@ ${FONTDIR}/${NAME}Ink-%: ${BUILDDIR}/${NAME}-% ${BUILDDIR}/${LATIN}-%
 
 ${SVG}: ${TTF}
 	$(info   SVG    ${@F})
-	python3 ${SCRIPTDIR}/mksample.py $+ \
-	  --output=$@ \
-	  --text="﴿الحُبُّ سَمَاءٌ لَا تُمطرُ غَيرَ الأَحلَامِ﴾"
+	${PYTHON} -m alifTools.sample $+ \
+				      --text="﴿الحُبُّ سَمَاءٌ لَا تُمطرُ غَيرَ الأَحلَامِ﴾" \
+				      --foreground=1F2328 \
+				      --dark-foreground=D1D7E0 \
+				      -o $@
 
 
 dist: ${TTF}
