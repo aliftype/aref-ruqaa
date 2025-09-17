@@ -1,87 +1,111 @@
-NAME=ArefRuqaa
-LATIN=EulerText
+# Copyright (c) 2020-2025 Khaled Hosny
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-FONTDIR=fonts
-BUILDDIR=build
-SOURCEDIR=sources
-SCRIPTDIR=scripts
-INSTANCEDIR=$(BUILDDIR)/instance_ufos
-DIST=$(NAME)-$(VERSION)
+NAME = ArefRuqaa
+LATIN = EulerText
 
-PY := python3
+SHELL = bash
+MAKEFLAGS := -sr
+PYTHON := venv/bin/python3
 
-FONTS=Regular Bold
+SOURCEDIR = sources
+FONTDIR = fonts
+BUILDDIR = build
+SCRIPTDIR = scripts
+INSTANCEDIR = ${BUILDDIR}/instance_ufos
 
-TTF=$(FONTS:%=$(FONTDIR)/$(NAME)-%.ttf) $(FONTS:%=$(FONTDIR)/$(NAME)Ink-%.ttf)
-SAMPLE=sample.svg
+FONTS = Regular Bold
+SVG = FontSample.svg
 
-TAG=$(shell git describe --tags --abbrev=0)
-VERSION=$(TAG:v%=%)
+TTF=${FONTS:%=${FONTDIR}/${NAME}-%.ttf} ${FONTS:%=${FONTDIR}/${NAME}Ink-%.ttf}
 
-MAKEFLAGS := -r -s
+export SOURCE_DATE_EPOCH ?= 0
 
-export SOURCE_DATE_EPOCH := 0
-export FONTTOOLS_LOOKUP_DEBUGGING := 1
+TAG = $(shell git describe --tags --abbrev=0)
+VERSION = ${TAG:v%=%}
+DIST = ${NAME}-${VERSION}
+
 
 .SECONDARY:
+.ONESHELL:
+.PHONY: all clean dist ttf test doc ${HTML}
 
 all: ttf doc
-ttf: $(TTF)
-doc: $(SAMPLE)
+ttf: ${TTF}
+doc: ${SVG}
 
 FM_OPTS = --verbose WARNING \
 	  --flatten-components \
 	  --no-production-names
 
-FM_OPTS2 = $(FM_OPTS) \
-	  --master-dir="{tmp}" \
-	  --instance-dir="{tmp}"
-
-$(BUILDDIR)/$(NAME).glyphspackage: $(SOURCEDIR)/$(NAME).glyphspackage
-	echo "   PREPARE  $(@F)"
-	mkdir -p $(BUILDDIR)
-	$(PY) $(SCRIPTDIR)/setversion.py $< $@ $(VERSION)
-
-$(BUILDDIR)/$(NAME).designspace: $(BUILDDIR)/$(NAME).glyphspackage
-	echo "   UFO      $(@F)"
-	mkdir -p $(BUILDDIR)
-	glyphs2ufo $< -m $(BUILDDIR) -n "$(PWD)"/$(INSTANCEDIR) \
+${BUILDDIR}/${NAME}.designspace: ${SOURCEDIR}/${NAME}.glyphspackage
+	$(info   UFO    ${@F})
+	mkdir -p ${BUILDDIR}
+	glyphs2ufo $< -m ${BUILDDIR} -n "$(PWD)"/${INSTANCEDIR} \
 		   --generate-GDEF \
 		   --write-public-skip-export-glyphs \
 		   --no-store-editor-state \
 		   --no-preserve-glyphsapp-metadata \
 		   --minimal
 
-$(BUILDDIR)/$(LATIN)-%: $(SOURCEDIR)/$(LATIN).glyphs
-	echo "   BUILD    $(@F)"
-	mkdir -p $(BUILDDIR)
-	$(PY) -m fontmake $(FM_OPTS2) -g $< -i ".* $(basename $*)" -o $(subst .,,$(suffix $(@F))) --output-path $@
+${BUILDDIR}/${LATIN}-%: ${SOURCEDIR}/${LATIN}.glyphs
+	$(info   BUILD  ${@F})
+	mkdir -p ${BUILDDIR}
+	${PYTHON} -m fontmake $< \
+			      --output-path=$@ \
+			      --output=ttf \
+			      --verbose=WARNING \
+			      --flatten-components \
+			      --no-production-names \
+			      --master-dir="{tmp}" \
+			      --instance-dir="{tmp}" \
+			      -i ".* $(basename $*)"
 
-$(BUILDDIR)/$(NAME)-%: $(BUILDDIR)/$(NAME).designspace
-	echo "   BUILD    $(@F)"
-	mkdir -p $(BUILDDIR)
-	$(PY) -m fontmake $(FM_OPTS) $(BUILDDIR)/$(basename $(@F)).ufo -o $(subst .,,$(suffix $(@F))) --output-path $@
+${BUILDDIR}/${NAME}-%: ${BUILDDIR}/${NAME}.designspace
+	$(info   BUILD  ${@F})
+	mkdir -p ${BUILDDIR}
+	${PYTHON} -m fontmake ${BUILDDIR}/$(basename ${@F}).ufo \
+			      --output-path=$@ \
+			      --output=ttf \
+			      --verbose=WARNING \
+			      --flatten-components \
+			      --no-production-names \
+			      --filter ... \
+			      --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"
 
-$(FONTDIR)/$(NAME)-%: $(BUILDDIR)/$(NAME)-% $(BUILDDIR)/$(LATIN)-%
-	echo "   MERGE    $(@F)"
-	$(PY) $(SCRIPTDIR)/merge.py --out-file=$@ $+
+${FONTDIR}/${NAME}-%: ${BUILDDIR}/${NAME}-% ${BUILDDIR}/${LATIN}-%
+	$(info   MERGE  ${@F})
+	${PYTHON} ${SCRIPTDIR}/merge.py --out-file=$@ $+
 
-$(FONTDIR)/$(NAME)Ink-%: $(BUILDDIR)/$(NAME)-% $(BUILDDIR)/$(LATIN)-%
-	echo "   MERGE    $(@F)"
-	$(PY) $(SCRIPTDIR)/merge.py --color --family="Aref Ruqaa" --suffix=Ink --out-file=$@ $+
+${FONTDIR}/${NAME}Ink-%: ${BUILDDIR}/${NAME}-% ${BUILDDIR}/${LATIN}-%
+	$(info   MERGE  ${@F})
+	${PYTHON} ${SCRIPTDIR}/merge.py --color --family="Aref Ruqaa" --suffix=Ink --out-file=$@ $+
 
-$(SAMPLE): $(TTF)
-	echo "   SAMPLE   $(@F)"
-	python3 $(SCRIPTDIR)/mksample.py $+ \
+${SVG}: ${TTF}
+	$(info   SVG    ${@F})
+	python3 ${SCRIPTDIR}/mksample.py $+ \
 	  --output=$@ \
 	  --text="﴿الحُبُّ سَمَاءٌ لَا تُمطرُ غَيرَ الأَحلَامِ﴾"
 
 
-dist: $(TTF)
-	install -Dm644 -t $(DIST) $(TTF)
-	install -Dm644 -t $(DIST) OFL.txt
-	install -Dm644 -t $(DIST) README.md
-	zip -r $(DIST).zip $(DIST)
+dist: ${TTF}
+	$(info   DIST   ${DIST}.zip)
+	install -Dm644 -t ${DIST} ${TTF}
+	install -Dm644 -t ${DIST} README.md
+	install -Dm644 -t ${DIST} OFL.txt
+	zip -rq ${DIST}.zip ${DIST}
 
 clean:
-	rm -rf $(BUILDDIR) $(TTF) $(DIST) $(DIST).zip
+	rm -rf ${BUILDDIR} ${TTF} ${SVG} ${DIST} ${DIST}.zip
