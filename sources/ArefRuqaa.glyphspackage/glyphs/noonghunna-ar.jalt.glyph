@@ -8,6 +8,10 @@ name = bottom.mark;
 pos = (426,-163);
 },
 {
+name = entry;
+pos = (745,229);
+},
+{
 name = top;
 pos = (444,338);
 },
@@ -85,6 +89,10 @@ anchors = (
 {
 name = bottom.mark;
 pos = (426,-163);
+},
+{
+name = entry;
+pos = (734,241);
 },
 {
 name = top;
