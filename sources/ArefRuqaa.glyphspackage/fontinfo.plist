@@ -466,7 +466,8 @@ date = "2015-03-07 21:19:41 +0000";
 familyName = "Aref Ruqaa";
 featurePrefixes = (
 {
-code = "languagesystem arab dflt;
+code = "languagesystem DFLT dflt;
+languagesystem arab dflt;
 #languagesystem arab ARA;
 #languagesystem arab FAR;
 languagesystem arab URD;
