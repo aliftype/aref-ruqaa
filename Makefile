@@ -21,17 +21,19 @@ MAKEFLAGS := -sr
 PYTHON := venv/bin/python3
 
 SOURCEDIR = sources
-FONTDIR = fonts
-BUILDDIR = build
 SCRIPTDIR = scripts
+FONTDIR = fonts
+TESTDIR = tests
+BUILDDIR = build
 INSTANCEDIR = ${BUILDDIR}/instance_ufos
 
-FONTS = Regular Bold
+NAMES = ${NAME}-Regular ${NAME}-Bold ${NAME}Ink-Regular ${NAME}Ink-Bold
+FONTS = ${NAMES:%=${FONTDIR}/%.ttf}
 SVG = FontSample.svg
 
-TTF=${FONTS:%=${FONTDIR}/${NAME}-%.ttf} ${FONTS:%=${FONTDIR}/${NAME}Ink-%.ttf}
+GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
 
-export SOURCE_DATE_EPOCH ?= 0
+export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
 
 TAG = $(shell git describe --tags --abbrev=0)
 VERSION = ${TAG:v%=%}
@@ -43,14 +45,14 @@ DIST = ${NAME}-${VERSION}
 .PHONY: all clean dist ttf test doc ${HTML}
 
 all: ttf doc
-ttf: ${TTF}
+ttf: ${FONTS}
 doc: ${SVG}
 
 FM_OPTS = --verbose WARNING \
 	  --flatten-components \
 	  --no-production-names
 
-${BUILDDIR}/${NAME}.designspace: ${SOURCEDIR}/${NAME}.glyphspackage
+${BUILDDIR}/${NAME}.designspace: ${GLYPHSFILE}
 	$(info   UFO    ${@F})
 	mkdir -p ${BUILDDIR}
 	glyphs2ufo $< -m ${BUILDDIR} -n "$(PWD)"/${INSTANCEDIR} \
@@ -93,7 +95,7 @@ ${FONTDIR}/${NAME}Ink-%: ${BUILDDIR}/${NAME}-% ${BUILDDIR}/${LATIN}-%
 	$(info   MERGE  ${@F})
 	${PYTHON} ${SCRIPTDIR}/merge.py --color --family="Aref Ruqaa" --suffix=Ink --out-file=$@ $+
 
-${SVG}: ${TTF}
+${SVG}: ${FONTS}
 	$(info   SVG    ${@F})
 	${PYTHON} -m alifTools.sample $+ \
 				      --text="﴿الحُبُّ سَمَاءٌ لَا تُمطرُ غَيرَ الأَحلَامِ﴾" \
@@ -102,12 +104,12 @@ ${SVG}: ${TTF}
 				      -o $@
 
 
-dist: ${TTF}
+dist: ${FONTS}
 	$(info   DIST   ${DIST}.zip)
-	install -Dm644 -t ${DIST} ${TTF}
+	install -Dm644 -t ${DIST} ${FONTS}
 	install -Dm644 -t ${DIST} README.md
 	install -Dm644 -t ${DIST} OFL.txt
 	zip -rq ${DIST}.zip ${DIST}
 
 clean:
-	rm -rf ${BUILDDIR} ${TTF} ${SVG} ${DIST} ${DIST}.zip
+	rm -rf ${BUILDDIR} ${FONTS} ${SVG} ${DIST} ${DIST}.zip
