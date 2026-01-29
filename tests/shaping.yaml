@@ -1,0 +1,138 @@
+configuration:
+  defaults:
+    script: arab
+    direction: rtl
+
+  forbidden_glyphs:
+  - alefHamzaabove-ar
+  - alefHamzabelow-ar
+  - alefMadda-ar
+  - alefWasla-ar
+  - beh-ar
+  - peh-ar
+  - teh-ar
+  - theh-ar
+  - tteh-ar
+  - jeem-ar
+  - tcheh-ar
+  - khah-ar
+  - thal-ar
+  - ddal-ar
+  - dul-ar
+  - zain-ar
+  - rreh-ar
+  - rehVbelow-ar
+  - jeh-ar
+  - dad-ar
+  - zah-ar
+  - ainThreedots-ar
+  - ghain-ar
+  - feh-ar
+  - veh-ar
+  - kehehDotabove-ar
+  - gaf-ar
+  - kafDotabove-ar
+  - ng-ar
+  - lamVabove-ar
+  - rnoon-ar
+  - noonThreedotsabove-ar
+  - hehHamzaabove-ar
+  - hehgoal-ar
+  - tehMarbuta-ar
+  - wawDotabove-ar
+  - wawHamzaabove-ar
+  - oe-ar
+  - yeh-ar
+  - yehHamzaabove-ar
+  - yehVabove-ar
+  - yeh-farsi
+  - yehbarreeHamzaabove-ar
+
+input:
+- features:
+    jalt: 1
+  text:
+  - ب
+  - بب
+  - س
+  - سس
+  - ص
+  - صص
+  - ف
+  - فف
+  - ق
+  - قق
+  - ك
+  - كك
+  - ل
+  - لل
+  - ن
+  - نن
+  - ي
+  - يي
+
+- text:
+  - ء
+  - ا ‍ا
+  - أ ‍أ
+  - إ ‍إ
+  - آ ‍آ
+  - ٱ ‍ٱ
+  - ٮ ٮ‍ ‍ٮ‍ ‍ٮ
+  - ب ب‍ ‍ب‍ ‍ب
+  - پ پ‍ ‍پ‍ ‍پ
+  - ت ت‍ ‍ت‍ ‍ت
+  - ث ث‍ ‍ث‍ ‍ث
+  - ج ج‍ ‍ج‍ ‍ج
+  - چ چ‍ ‍چ‍ ‍چ
+  - ح ح‍ ‍ح‍ ‍ح
+  - خ خ‍ ‍خ‍ ‍خ
+  - د ‍د
+  - ذ ‍ذ
+  - ر ‍ر
+  - ز ‍ز
+  - ژ ‍ژ
+  - س س‍ ‍س‍ ‍س
+  - ش ش‍ ‍ش‍ ‍ش
+  - ص ص‍ ‍ص‍ ‍ص
+  - ض ض‍ ‍ض‍ ‍ض
+  - ط ط‍ ‍ط‍ ‍ط
+  - ظ ظ‍ ‍ظ‍ ‍ظ
+  - ع ع‍ ‍ع‍ ‍ع
+  - غ غ‍ ‍غ‍ ‍غ
+  - ࢻ ࢻ‍ ‍ࢻ‍ ‍ࢻ
+  - ف ف‍ ‍ف‍ ‍ف
+  - ڤ ڤ‍ ‍ڤ‍ ‍ڤ
+  - ڡ ڡ‍ ‍ڡ‍ ‍ڡ
+  - ٯ ٯ‍ ‍ٯ‍ ‍ٯ
+  - ق ق‍ ‍ق‍ ‍ق
+  - ࢼ ࢼ‍ ‍ࢼ‍ ‍ࢼ
+  - ك ك‍ ‍ك‍ ‍ك
+  - ک ک‍ ‍ک‍ ‍ک
+  - گ گ‍ ‍گ‍ ‍گ
+  - ل ل‍ ‍ل‍ ‍ل
+  - م م‍ ‍م‍ ‍م
+  - ں ں‍ ‍ں‍ ‍ں
+  - ن ن‍ ‍ن‍ ‍ن
+  - ࢽ ࢽ‍ ‍ࢽ‍ ‍ࢽ
+  - ه ه‍ ‍ه‍ ‍ه
+  - ة ة‍ ‍ة‍ ‍ة
+  - و ‍و
+  - ؤ ‍ؤ
+  - ى ى‍ ‍ى‍ ‍ى
+  - ي ي‍ ‍ي‍ ‍ي
+  - ی ی‍ ‍ی‍ ‍ی
+  - ئ ئ‍ ‍ئ‍ ‍ئ
+  - ے ے‍ ‍ے‍ ‍ے
+  - ـ ـ‍ ‍ـ‍ ‍ـ
+  - آ
+  - أ
+  - ؤ
+  - إ
+  - ئ
+  - ا
+  - ب
+  - ش
+  - ع
+  - غ
+  - ف

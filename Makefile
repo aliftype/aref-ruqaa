@@ -29,6 +29,8 @@ INSTANCEDIR = ${BUILDDIR}/instance_ufos
 
 NAMES = ${NAME}-Regular ${NAME}-Bold ${NAME}Ink-Regular ${NAME}Ink-Bold
 FONTS = ${NAMES:%=${FONTDIR}/%.ttf}
+JSON = ${TESTDIR}/shaping.json
+HTML = ${NAMES:%=${TESTDIR}/%-shaping.html}
 SVG = FontSample.svg
 
 GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
@@ -42,10 +44,12 @@ DIST = ${NAME}-${VERSION}
 
 .SECONDARY:
 .ONESHELL:
-.PHONY: all clean dist ttf test doc ${HTML}
+.PHONY: all clean dist ttf test doc
 
 all: ttf doc
 ttf: ${FONTS}
+test: ${HTML}
+expectation: ${JSON}
 doc: ${SVG}
 
 FM_OPTS = --verbose WARNING \
@@ -103,6 +107,13 @@ ${SVG}: ${FONTS}
 				      --dark-foreground=D1D7E0 \
 				      -o $@
 
+${TESTDIR}/shaping.json: ${TESTDIR}/shaping.yaml ${FONTS}
+	$(info   GEN    ${@F})
+	${PYTHON} -m alifTools.shaping.update $< $@ ${FONTS}
+
+${TESTDIR}/%-shaping.html: ${FONTDIR}/%.ttf ${TESTDIR}/shaping-config.yaml
+	$(info   SHAPE  ${<F})
+	${PYTHON} -m alifTools.shaping.check $< ${TESTDIR}/shaping-config.yaml $@
 
 dist: ${FONTS}
 	$(info   DIST   ${DIST}.zip)

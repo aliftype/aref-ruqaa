@@ -1,4 +1,4 @@
 fontmake >= 3.0.0
 fontTools >= 4.28.2
 glyphsLib >= v6.0.3
-alifTools[sample,filters]
+alifTools[shaping,sample,filters]
