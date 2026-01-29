@@ -914,7 +914,6 @@ lookup rlig_color {
      by [meem-ar.init.altC meem-ar.medi.altC];
 } rlig_color;
 
-
 feature rlig {
     lookup rlig_hah;
     lookup rlig_dal;
@@ -1141,8 +1140,7 @@ feature mark {
 } mark;
 
 @noqta_below = [dotbelow-ar twodotshorizontalbelow-ar threedotsdownbelow-ar];
-
-feature mark {
+lookup mark_noqta_below {
   lookupflag 0;
     pos [behDotless-ar.init.ascend] @noqta_below' <98  -146 0 0> [behDotless-ar.medi.ragaa];
     pos [behDotless-ar.init.ascend] @noqta_below' <0   -186 0 0> [kaf-ar.medi.ragaa lam-ar.medi.ragaa];
@@ -1155,6 +1153,66 @@ feature mark {
 
     pos [hah-ar.init]               @noqta_below' <24  -122 0 0> [behDotless-ar.medi.ragaa];
     pos [hah-ar.init]               @noqta_below' <0   -146 0 0> [kaf-ar.medi.ragaa lam-ar.medi.ragaa];
+} mark_noqta_below;
+
+lookup pos_meem_tashkil_above {
+} pos_meem_tashkil_above;
+
+@tashkil_above = [
+	fatha-ar fathatan-ar damma-ar dammatan-ar dammainverted-ar dammainverted-ar.urd
+	sukun-ar sukun-ar.alt shadda-ar noonghunnaabove-ar alefabove-ar
+];
+lookup mark_meem_reh {
+	lookupflag UseMarkFilteringSet @tashkil_above;
+	pos	 lam-ar.init.meem
+		[$[name BEGINSWITH 'meem-ar.medi']]
+		 @tashkil_above' <-130 150 0 0>
+	;
+	pos	 lam-ar.init.meem
+		 @tashkil_above' <0 120 0 0>
+		[$[name BEGINSWITH 'meem-ar.medi']]'
+		 @tashkil_above' <-130 150 0 0>
+		 @tashkil_above
+	;
+	pos	 lam-ar.init.meem
+		 @tashkil_above' <0 120 0 0>
+		 @tashkil_above'
+		[$[name BEGINSWITH 'meem-ar.medi']]'
+		 @tashkil_above' <-130 150 0 0>
+		 @tashkil_above
+	;
+	pos	 lam-ar.init.meem
+		 @tashkil_above' <0 30 0 0>
+		[$[name BEGINSWITH 'meem-ar.medi']]'
+		 @tashkil_above' <-130 150 0 0>
+	;
+	pos	 lam-ar.init.meem
+		 @tashkil_above' <0 30 0 0>
+		 @tashkil_above'
+		[$[name BEGINSWITH 'meem-ar.medi']]'
+		 @tashkil_above' <-130 150 0 0>
+	;
+
+	pos	 kaf-ar.init.meem
+		[$[name BEGINSWITH 'meem-ar.medi']]
+		 @tashkil_above' <-120 130 0 0>
+	;
+	pos	 kaf-ar.init.meem
+		 @tashkil_above
+		[$[name BEGINSWITH 'meem-ar.medi']]
+		 @tashkil_above' <-120 130 0 0>
+	;
+	pos	 kaf-ar.init.meem
+		 @tashkil_above
+		 @tashkil_above
+		[$[name BEGINSWITH 'meem-ar.medi']]
+		 @tashkil_above' <-120 130 0 0>
+	;
+} mark_meem_reh;
+
+feature mark {
+    lookup mark_noqta_below;
+	lookup mark_meem_reh;
 } mark;
 
 feature mkmk {
