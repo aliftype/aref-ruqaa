@@ -4,9 +4,9 @@
 #
 #    pip-compile
 #
-aliftools[filters,sample,shaping]==0.1.7
+aliftools[filters,sample,shaping]==0.1.8
     # via -r requirements.in
-attrs==25.4.0
+attrs==26.1.0
     # via ufolib2
 blackrenderer==0.6.0
     # via aliftools
@@ -22,7 +22,7 @@ fontmath==0.10.0
     # via
     #   fontmake
     #   ufo2ft
-fonttools[lxml,ufo,unicode]==4.61.1
+fonttools[lxml,ufo,unicode]==4.62.1
     # via
     #   -r requirements.in
     #   aliftools
@@ -35,19 +35,19 @@ fonttools[lxml,ufo,unicode]==4.61.1
     #   glyphslib
     #   ufo2ft
     #   ufolib2
-glyphslib==6.12.7
+glyphslib==6.13.0
     # via
     #   -r requirements.in
     #   fontmake
-lxml==6.0.2
+lxml==6.0.3
     # via fonttools
-openstep-plist==0.5.1
+openstep-plist==0.5.2
     # via glyphslib
 pyclipper==1.4.0
     # via booleanoperations
 pyyaml==6.0.3
     # via aliftools
-ufo2ft[compreffor]==3.7.0
+ufo2ft[compreffor]==3.7.1
     # via
     #   aliftools
     #   fontmake
@@ -55,7 +55,7 @@ ufolib2==0.18.1
     # via
     #   fontmake
     #   glyphslib
-uharfbuzz==0.53.3
+uharfbuzz==0.53.6
     # via
     #   aliftools
     #   blackrenderer
