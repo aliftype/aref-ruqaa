@@ -2372,8 +2372,8 @@ ref = circumflexcomb;
 width = 379;
 }
 );
-metricLeft = I;
-metricRight = I;
+metricLeft = "=I@0";
+metricRight = "=I@0";
 unicode = 206;
 },
 {
@@ -2422,8 +2422,8 @@ ref = dieresis;
 width = 379;
 }
 );
-metricLeft = I;
-metricRight = I;
+metricLeft = "=I@5";
+metricRight = "=I@0";
 unicode = 207;
 },
 {
