@@ -91,6 +91,12 @@ sub nine by nine.osf;
 tag = onum;
 },
 {
+automatic = 1;
+code = "sub one by one.salt;
+";
+tag = salt;
+},
+{
 code = "# Dummy feature for the merger.
 sub space by space;";
 tag = locl;
@@ -19242,6 +19248,125 @@ width = 592;
 }
 );
 note = uni0039.onum;
+},
+{
+glyphname = one.salt;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (684,20);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (600,29);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-10,21);
+type = Stem;
+},
+{
+place = (164,90);
+type = Stem;
+}
+);
+layerId = "21503E60-83E9-42CA-80F5-20ED7CD97021";
+shapes = (
+{
+closed = 1;
+nodes = (
+(54,624,l),
+(54,600,l),
+(125,600,ls),
+(143,600,o),
+(157,585,o),
+(158,568,cs),
+(164,520,o),
+(164,467,o),
+(164,417,cs),
+(164,277,o),
+(162,138,o),
+(159,-2,c),
+(169,-10,l),
+(254,17,l),
+(246,135,o),
+(246,287,o),
+(246,422,cs),
+(246,513,o),
+(250,605,o),
+(254,697,cs),
+(254,698,o),
+(250,701,o),
+(248,704,c)
+);
+}
+);
+width = 378;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (694,20);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (594,30);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-9,21);
+type = Stem;
+},
+{
+place = (234,135);
+type = Stem;
+}
+);
+layerId = "2927A78B-FE88-4016-B2C6-41428F7EDB2B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(368,32,l),
+(364,96,o),
+(364,200,o),
+(364,284,cs),
+(364,422,o),
+(371,560,o),
+(383,697,cs),
+(384,702,o),
+(380,707,o),
+(376,710,cs),
+(372,714,o),
+(365,714,o),
+(360,712,cs),
+(75,626,l),
+(74,595,l),
+(217,595,ls),
+(223,595,o),
+(231,587,o),
+(238,582,cs),
+(244,577,o),
+(247,569,o),
+(247,561,cs),
+(258,376,o),
+(255,190,o),
+(233,5,c),
+(255,-9,l)
+);
+}
+);
+width = 542;
+}
+);
+note = uni0031.alt;
 },
 {
 glyphname = zero.dnom;
